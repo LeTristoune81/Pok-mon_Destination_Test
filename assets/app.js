@@ -23,7 +23,7 @@ const withBase = (p) => {
   if (!p) return p;
   if (/^https?:\/\//i.test(p)) return p;      // URL absolue http(s)
   if (p.startsWith(REPO_BASE + '/')) return p; // déjà préfixé
-  if (p.startsWith('/')) return REPO_BASE + p; // /data/... -> /Pokemon_Destination/data/...
+  if (p.startsWith('/')) return REPO_BASE + p; // /data/... -> /Pok-mon_Destination_Test/data/...
   return REPO_BASE + '/' + p.replace(/^.\//,'');
 };
 
