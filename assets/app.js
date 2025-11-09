@@ -21,9 +21,9 @@ const REPO_BASE = (() => {
 })();
 const withBase = (p) => {
   if (!p) return p;
-  if (/^https?:\/\//i.test(p)) return p;      // URL absolue http(s)
-  if (p.startsWith(REPO_BASE + '/')) return p; // déjà préfixé
-  if (p.startsWith('/')) return REPO_BASE + p; // /data/... -> /Pok-mon_Destination_Test/data/...
+  if (/^https?:\/\//i.test(p)) return p;
+  if (p.startsWith(REPO_BASE + '/')) return p;
+  if (p.startsWith('/')) return REPO_BASE + p;
   return REPO_BASE + '/' + p.replace(/^.\//,'');
 };
 
@@ -66,11 +66,8 @@ async function initIndex(){
       status = document.createElement('div');
       status.id = 'status';
       status.className = 'small';
-      if (q && q.parentElement) {
-        q.insertAdjacentElement('afterend', status);
-      } else if (list && list.parentElement) {
-        list.parentElement.insertBefore(status, list);
-      }
+      if (q && q.parentElement) q.insertAdjacentElement('afterend', status);
+      else if (list && list.parentElement) list.parentElement.insertBefore(status, list);
     }
 
     const region = detectRegionFromPath();
@@ -113,7 +110,6 @@ async function initIndex(){
       }).join('');
       status.textContent = `${items.length} Pokémon affiché${items.length>1?'s':''}`;
 
-      // Gestion du fallback d'image
       list.querySelectorAll('img.pokeimg').forEach(img=>{
         img.onerror = () => {
           try {
@@ -123,12 +119,8 @@ async function initIndex(){
             if (idx < srcs.length) {
               img.setAttribute('data-idx', String(idx));
               img.src = srcs[idx];
-            } else {
-              img.style.display = 'none';
-            }
-          } catch {
-            img.style.display = 'none';
-          }
+            } else img.style.display = 'none';
+          } catch { img.style.display = 'none'; }
         };
       });
     };
@@ -172,19 +164,11 @@ async function initPokemon(){
       return;
     }
 
-    const titleEl = $('#title'); if (titleEl) titleEl.textContent = p.name;
-    const pn = $('#pokename'); if (pn) pn.textContent = p.name;
-
-    const typesEl = $('#types'); if (typesEl) typesEl.innerHTML = (p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ');
-    const evoEl   = $('#evo');   if (evoEl)   evoEl.textContent  = p.evolution || '?';
-
-    const habilEl = $('#habil');
-    if (habilEl) habilEl.innerHTML = (p.abilities||[]).map(a=>`<a href="/moves.html#${encodeURIComponent(a)}">${a}</a>`).join(', ') || '?';
-
-    const habhidEl = $('#habhid');
-    if (habhidEl) habhidEl.innerHTML = p.hidden_ability ? `<a href="/moves.html#${encodeURIComponent(p.hidden_ability)}">${p.hidden_ability}</a>` : '?';
-
-    const pokedEl = $('#pokedex'); if (pokedEl) pokedEl.textContent = p.pokedex || '?';
+    $('#title')?.textContent = p.name;
+    $('#pokename')?.textContent = p.name;
+    $('#types')?.innerHTML = (p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ');
+    $('#evo')?.textContent  = p.evolution || '?';
+    $('#pokedex')?.textContent = p.pokedex || '?';
 
     const img = $('#sprite');
     if (img){
@@ -196,6 +180,56 @@ async function initPokemon(){
       img.onerror = ()=>{ i++; if (i < tryList.length) img.src = tryList[i]; else img.style.display='none'; };
       img.src = tryList[0];
     }
+
+    // === Ajout des sections capacités & objets ===
+    const linkMove = (m)=> `<a href="${withBase('moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
+    const renderList = (arr)=> (arr && arr.length)
+      ? `<li class="lvl-group"><ul class="cols">${arr.map(m => `<li>${linkMove(m)}</li>`).join('')}</ul></li>`
+      : '<li>?</li>';
+
+    // Capacités par niveau
+    if (Array.isArray(p.level_up) && p.level_up.length){
+      const buckets = new Map();
+      for(const m of p.level_up){
+        const L = Number(m.level);
+        const g = isFinite(L) ? Math.floor((L - 1) / 10) : -1;
+        const key = g >= 0 ? `${g*10+1}-${(g+1)*10}` : 'Divers';
+        if(!buckets.has(key)) buckets.set(key, []);
+        buckets.get(key).push(m);
+      }
+      const html = [...buckets.entries()]
+        .sort((a,b)=> (parseInt(a[0])||0) - (parseInt(b[0])||0))
+        .map(([label, items])=>{
+          const lis = items.sort((a,b)=>(a.level||9999)-(b.level||9999))
+            .map(m=>`<li>${isFinite(m.level)? m.level : ''} ${linkMove(m.move)}</li>`).join('');
+          return `<li class="lvl-group"><div class="lvl-title">${label}</div><ul>${lis}</ul></li>`;
+        }).join('');
+      $('#lvl')?.replaceChildren();
+      if ($('#lvl')) $('#lvl').innerHTML = html;
+    } else {
+      if ($('#lvl')) $('#lvl').innerHTML = '<li>?</li>';
+    }
+
+    $('#eggs')?.insertAdjacentHTML('beforeend', renderList(p.egg_moves || []));
+    $('#cs')  ?.insertAdjacentHTML('beforeend', renderList(p.cs        || []));
+    $('#ct')  ?.insertAdjacentHTML('beforeend', renderList(p.ct        || []));
+    $('#dt')  ?.insertAdjacentHTML('beforeend', renderList(p.dt        || []));
+
+    try{
+      const drops = await loadJSON(withBase(`/data/pokemon_drops_${rk}.json`));
+      const d = drops.find(x => (x.name||'').toLowerCase() === (p.name||'').toLowerCase()) || null;
+      const heldName = d?.held_item?.name || 'Non répertorié';
+      const resName  = d?.ressource?.name || 'Non répertorié';
+      const resDesc  = d?.ressource?.description || 'Un échantillon laissé par un Pokémon.';
+      const objres = $('#objres');
+      if (objres){
+        objres.innerHTML = `
+          <ul id="objresGrid">
+            <li class="lvl-group"><div class="lvl-title">Objet tenu</div><ul><li>${heldName}</li></ul></li>
+            <li class="lvl-group"><div class="lvl-title">Ressource</div><ul><li><b>${resName}</b></li><li style="margin-top:4px;opacity:0.8;">${resDesc}</li></ul></li>
+          </ul>`;
+      }
+    }catch(e){}
 
     fixBrokenAccentsInDom();
   }catch(err){
