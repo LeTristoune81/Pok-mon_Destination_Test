@@ -5,27 +5,26 @@
   <title>Pokédex Johto</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- IMPORTANT : adapte bien le base au repo de test -->
-  <base href="/Pok-mon_Destination_Test/">
-
-  <link rel="stylesheet" href="assets/style.css">
-  <script src="assets/app.js?v=restore1" defer></script>
+  <!-- Styles & script en chemin ABSOLU vers le repo de test -->
+  <link rel="stylesheet" href="/Pok-mon_Destination_Test/assets/style.css">
+  <script src="/Pok-mon_Destination_Test/assets/app.js?v=fix-paths-1" defer></script>
 </head>
 <body>
   <div class="container">
     <div class="header">
       <div class="h1">Pokédex Johto</div>
       <div class="nav">
-        <a href="index.html">Accueil</a>
-        <a href="pokedex.html">Pokédex</a>
-        <a href="moves.html">Attaques</a>
+        <a href="/Pok-mon_Destination_Test/index.html">Accueil</a>
+        <a href="/Pok-mon_Destination_Test/pokedex.html">Pokédex</a>
+        <a href="/Pok-mon_Destination_Test/moves.html">Attaques</a>
       </div>
     </div>
 
     <div class="card">
       <input id="q" placeholder="Rechercher un Pokémon…" class="input">
-      <!-- le script créera aussi #status si absent -->
-      <div class="grid"></div> <!-- ⚠️ requis par app.js -->
+      <div id="status" class="small"></div>
+      <!-- ⚠️ requis par app.js -->
+      <div class="grid"></div>
     </div>
   </div>
 </body>
