@@ -21,9 +21,9 @@ const REPO_BASE = (() => {
 })();
 const withBase = (p) => {
   if (!p) return p;
-  if (/^https?:\/\//i.test(p)) return p;
-  if (p.startsWith(REPO_BASE + '/')) return p;
-  if (p.startsWith('/')) return REPO_BASE + p;
+  if (/^https?:\/\//i.test(p)) return p;      // URL absolue http(s)
+  if (p.startsWith(REPO_BASE + '/')) return p; // déjà préfixé
+  if (p.startsWith('/')) return REPO_BASE + p; // /data/... -> /Pok-mon_Destination_Test/data/…
   return REPO_BASE + '/' + p.replace(/^.\//,'');
 };
 
@@ -66,8 +66,11 @@ async function initIndex(){
       status = document.createElement('div');
       status.id = 'status';
       status.className = 'small';
-      if (q && q.parentElement) q.insertAdjacentElement('afterend', status);
-      else if (list && list.parentElement) list.parentElement.insertBefore(status, list);
+      if (q && q.parentElement) {
+        q.insertAdjacentElement('afterend', status);
+      } else if (list && list.parentElement) {
+        list.parentElement.insertBefore(status, list);
+      }
     }
 
     const region = detectRegionFromPath();
@@ -110,6 +113,7 @@ async function initIndex(){
       }).join('');
       status.textContent = `${items.length} Pokémon affiché${items.length>1?'s':''}`;
 
+      // Fallback images en cascade
       list.querySelectorAll('img.pokeimg').forEach(img=>{
         img.onerror = () => {
           try {
@@ -119,8 +123,12 @@ async function initIndex(){
             if (idx < srcs.length) {
               img.setAttribute('data-idx', String(idx));
               img.src = srcs[idx];
-            } else img.style.display = 'none';
-          } catch { img.style.display = 'none'; }
+            } else {
+              img.style.display = 'none';
+            }
+          } catch {
+            img.style.display = 'none';
+          }
         };
       });
     };
@@ -164,72 +172,62 @@ async function initPokemon(){
       return;
     }
 
-    $('#title')?.textContent = p.name;
-    $('#pokename')?.textContent = p.name;
-    $('#types')?.innerHTML = (p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ');
-    $('#evo')?.textContent  = p.evolution || '?';
-    $('#pokedex')?.textContent = p.pokedex || '?';
+    // Titre & en-tête
+    $('#title') && ($('#title').textContent = p.name);
+    const pn = $('#pokename'); if (pn) pn.textContent = p.name;
 
+    // Types, évolution
+    const typesEl = $('#types'); if (typesEl) typesEl.innerHTML = (p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ');
+    const evoEl   = $('#evo');   if (evoEl)   evoEl.textContent  = p.evolution || '?';
+
+    // Talents
+    const habilEl = $('#habil');
+    if (habilEl) habilEl.innerHTML = (p.abilities||[]).map(a=>`<a href="${withBase('/moves.html')}#${encodeURIComponent(a)}">${a}</a>`).join(', ') || '?';
+
+    const habhidEl = $('#habhid');
+    if (habhidEl) habhidEl.innerHTML = p.hidden_ability ? `<a href="${withBase('/moves.html')}#${encodeURIComponent(p.hidden_ability)}">${p.hidden_ability}</a>` : '?';
+
+    // Pokédex (description)
+    const pokedEl = $('#pokedex'); if (pokedEl) pokedEl.textContent = p.pokedex || '?';
+
+    // Image
     const img = $('#sprite');
     if (img){
       const tryList = [
         withBase(`/assets/pkm/${name}.png`),
-        withBase(`/assets/pkm/${rk}/${name}.png`)
-      ];
+        withBase(`/assets/pkm/${rk}/${name}.png`),
+        p.image ? withBase('/'+p.image.replace(/^\/+/,'')) : '' // si le JSON fournit image
+      ].filter(Boolean);
       let i = 0;
       img.onerror = ()=>{ i++; if (i < tryList.length) img.src = tryList[i]; else img.style.display='none'; };
       img.src = tryList[0];
     }
 
-    // === Ajout des sections capacités & objets ===
-    const linkMove = (m)=> `<a href="${withBase('moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
-    const renderList = (arr)=> (arr && arr.length)
+    // ===== Listes d’attaques =====
+    // 1) Capacités par niveau (level_up: [{level, move}])
+    (function renderLevelUp(){
+      const lvlEl = $('#lvl');
+      if (!lvlEl) return;
+      const arr = (p.level_up || []).slice().sort((a,b)=>a.level-b.level);
+      if (!arr.length){ lvlEl.innerHTML = '<li>?</li>'; return; }
+      lvlEl.innerHTML = arr.map(m => {
+        const label = `${m.level}`.padStart(2,'0');
+        const href = `${withBase('/moves.html')}#${encodeURIComponent(m.move)}`;
+        return `<li>${label} <a href="${href}">${m.move}</a></li>`;
+      }).join('');
+    })();
+
+    // Helper pour rendre une liste en colonnes
+    const linkMove = (m)=> `<a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
+    const renderList = (arr)=> arr && arr.length
       ? `<li class="lvl-group"><ul class="cols">${arr.map(m => `<li>${linkMove(m)}</li>`).join('')}</ul></li>`
       : '<li>?</li>';
 
-    // Capacités par niveau
-    if (Array.isArray(p.level_up) && p.level_up.length){
-      const buckets = new Map();
-      for(const m of p.level_up){
-        const L = Number(m.level);
-        const g = isFinite(L) ? Math.floor((L - 1) / 10) : -1;
-        const key = g >= 0 ? `${g*10+1}-${(g+1)*10}` : 'Divers';
-        if(!buckets.has(key)) buckets.set(key, []);
-        buckets.get(key).push(m);
-      }
-      const html = [...buckets.entries()]
-        .sort((a,b)=> (parseInt(a[0])||0) - (parseInt(b[0])||0))
-        .map(([label, items])=>{
-          const lis = items.sort((a,b)=>(a.level||9999)-(b.level||9999))
-            .map(m=>`<li>${isFinite(m.level)? m.level : ''} ${linkMove(m.move)}</li>`).join('');
-          return `<li class="lvl-group"><div class="lvl-title">${label}</div><ul>${lis}</ul></li>`;
-        }).join('');
-      $('#lvl')?.replaceChildren();
-      if ($('#lvl')) $('#lvl').innerHTML = html;
-    } else {
-      if ($('#lvl')) $('#lvl').innerHTML = '<li>?</li>';
-    }
-
-    $('#eggs')?.insertAdjacentHTML('beforeend', renderList(p.egg_moves || []));
-    $('#cs')  ?.insertAdjacentHTML('beforeend', renderList(p.cs        || []));
-    $('#ct')  ?.insertAdjacentHTML('beforeend', renderList(p.ct        || []));
-    $('#dt')  ?.insertAdjacentHTML('beforeend', renderList(p.dt        || []));
-
-    try{
-      const drops = await loadJSON(withBase(`/data/pokemon_drops_${rk}.json`));
-      const d = drops.find(x => (x.name||'').toLowerCase() === (p.name||'').toLowerCase()) || null;
-      const heldName = d?.held_item?.name || 'Non répertorié';
-      const resName  = d?.ressource?.name || 'Non répertorié';
-      const resDesc  = d?.ressource?.description || 'Un échantillon laissé par un Pokémon.';
-      const objres = $('#objres');
-      if (objres){
-        objres.innerHTML = `
-          <ul id="objresGrid">
-            <li class="lvl-group"><div class="lvl-title">Objet tenu</div><ul><li>${heldName}</li></ul></li>
-            <li class="lvl-group"><div class="lvl-title">Ressource</div><ul><li><b>${resName}</b></li><li style="margin-top:4px;opacity:0.8;">${resDesc}</li></ul></li>
-          </ul>`;
-      }
-    }catch(e){}
+    // 2) Repro / CS / CT / DT  (noms EXACTS du JSON: egg_moves, cs, ct, dt)
+    $('#eggs') && ($('#eggs').innerHTML = renderList(p.egg_moves || []));
+    $('#cs')   && ($('#cs').innerHTML   = renderList(p.cs        || []));
+    $('#ct')   && ($('#ct').innerHTML   = renderList(p.ct        || []));
+    $('#dt')   && ($('#dt').innerHTML   = renderList(p.dt        || []));
 
     fixBrokenAccentsInDom();
   }catch(err){
