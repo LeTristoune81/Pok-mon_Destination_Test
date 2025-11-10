@@ -7,12 +7,18 @@
   <script src="assets/app.js" defer></script>
 </head>
 <body>
+  <nav class="topnav">
+    <a href="./index.html">Accueil</a>
+    <a href="./pokedex.html">Pokdex</a>
+    <a href="./moves.html">Attaques</a>
+  </nav>
   <main class="container">
-    <h1 class="h1" id="pokename">Pokémon</h1>
+    <h1 class="h1">Pokémon</h1>
 
     <section class="card" style="display:flex;gap:16px;align-items:flex-start;">
       <img id="sprite" alt="Sprite" style="width:160px;image-rendering:pixelated;">
       <div class="kv" style="display:grid;grid-template-columns:160px 1fr;gap:10px;">
+        <div><b>Nom</b></div>            <div id="pokename"></div>
         <div><b>Types</b></div><div id="types"></div>
         <div><b>Évolution</b></div><div id="evo"></div>
         <div><b>Talents</b></div><div id="habil"></div>
