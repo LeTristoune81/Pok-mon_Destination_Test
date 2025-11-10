@@ -1,4 +1,4 @@
-/***** app.js — version stable avec fallback pkm2 *****/
+/***** app.js — version stable avec fallback pkm2 + liens d’évolution *****/
 
 // --------- utils ----------
 function $(q, el=document){ return el.querySelector(q); }
@@ -63,6 +63,19 @@ function makeSpriteCandidates(name, rk){
   return out;
 }
 
+// --------- helper: liens sur les évolutions ----------
+function linkifyEvo(evoText, region='Johto'){
+  if(!evoText) return '';
+  const rk = slugRegion(region);
+  // capture le premier nom juste après "Évolue en", jusqu'à une préposition/separateur
+  const re = /(Évolue en )([A-Za-zÀ-ÖØ-öø-ÿ' -]+?)(?=(?:\s+(?:au|avec|en|si|lorsqu|quand)\b|[,.;/]|$))/g;
+  return evoText.replace(re, (_, prefix, name) => {
+    const clean = name.trim();
+    const href  = `${REPO}/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(clean.toLowerCase())}`;
+    return `${prefix}<a href="${href}" class="evo-link">${clean}</a>`;
+  });
+}
+
 // --------- LISTE POKÉDEX JOHTO ----------
 async function initIndex(){
   try{
@@ -112,7 +125,7 @@ async function initIndex(){
               <div class="cardBody">
                 <div class="h2">${p.name||''}</div>
                 <div>${(p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ')}</div>
-                <div class="small" style="margin-top:4px">${p.evolution||''}</div>
+                <div class="small" style="margin-top:4px">${linkifyEvo(p.evolution||'', region)}</div>
                 <div style="margin-top:8px"><a href="${href}">Ouvrir la fiche</a></div>
               </div>
             </div>
@@ -180,7 +193,7 @@ async function initPokemon(){
     // entête
     $('#pokename') && ($('#pokename').textContent = p.name);
     const typesEl = $('#types'); if(typesEl) typesEl.innerHTML = (p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ');
-    const evoEl = $('#evo'); if(evoEl) evoEl.textContent = p.evolution || '?';
+    const evoEl = $('#evo'); if(evoEl) evoEl.innerHTML = linkifyEvo(p.evolution || '', region) || '?';
 
     const linkMove = (m)=> `<a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
     const habilEl = $('#habil'); if(habilEl){
