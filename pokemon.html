@@ -5,10 +5,10 @@
   <title id="title">Pokémon</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <base href="/Pok-mon_Destination_Test/">
+  <!-- Styles & script en chemin ABSOLU vers le repo de test -->
+  <link rel="stylesheet" href="/Pok-mon_Destination_Test/assets/style.css">
+  <script src="/Pok-mon_Destination_Test/assets/app.js?v=fix-paths-1" defer></script>
 
-  <link rel="stylesheet" href="assets/style.css">
-  <script src="assets/app.js?v=restore1" defer></script>
   <style>
     .sprite{width:192px;height:auto;border-radius:12px;border:1px solid #252a43;background:#0e1122;padding:8px}
     .headerWrap{display:flex;gap:16px;align-items:center}
@@ -19,9 +19,9 @@
     <div class="header">
       <div class="h1" id="title">Pokémon</div>
       <div class="nav">
-        <a href="index.html">Accueil</a>
-        <a href="pokedex.html">Pokédex</a>
-        <a href="moves.html">Attaques</a>
+        <a href="/Pok-mon_Destination_Test/index.html">Accueil</a>
+        <a href="/Pok-mon_Destination_Test/pokedex.html">Pokédex</a>
+        <a href="/Pok-mon_Destination_Test/moves.html">Attaques</a>
       </div>
     </div>
 
