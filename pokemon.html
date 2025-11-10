@@ -2,61 +2,71 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <title id="title">Pokémon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <base href="/Pok-mon_Destination_Test/">
+
   <link rel="stylesheet" href="assets/style.css">
-  <script src="assets/app.js" defer></script>
+  <script src="assets/app.js?v=restore1" defer></script>
+  <style>
+    .sprite{width:192px;height:auto;border-radius:12px;border:1px solid #252a43;background:#0e1122;padding:8px}
+    .headerWrap{display:flex;gap:16px;align-items:center}
+  </style>
 </head>
 <body>
-  <nav class="topnav">
-    <a href="./index.html">Accueil</a>
-    <a href="./pokedex.html">Pokdex</a>
-    <a href="./moves.html">Attaques</a>
-  </nav>
-
-  <main class="container">
-    <h1 class="h1">Pokémon</h1>
-
-    <section class="card" style="display:flex; gap:16px; align-items:flex-start;">
-      <div><img id="sprite" alt="Sprite" style="width:160px; image-rendering: pixelated;"></div>
-      <div class="kv" style="display:grid; grid-template-columns: 160px 1fr; row-gap:10px; column-gap:12px;">
-        <div><b>Nom</b></div>            <div id="pokename">?</div>
-        <div><b>Types</b></div>          <div id="types">?</div>
-        <div><b>Évolution</b></div>      <div id="evo">?</div>
-        <div><b>Talents</b></div>        <div id="habil">?</div>
-        <div><b>Talent cach</b></div>   <div id="habhid">?</div>
+  <div class="container">
+    <div class="header">
+      <div class="h1" id="title">Pokémon</div>
+      <div class="nav">
+        <a href="index.html">Accueil</a>
+        <a href="pokedex.html">Pokédex</a>
+        <a href="moves.html">Attaques</a>
       </div>
-    </section>
+    </div>
 
-    <section class="card">
-      <h2 class="h2">Capacités par niveau</h2>
-      <ul id="lvl" class="lvl-grid" style="display:grid; grid-template-columns: repeat(4, minmax(220px,1fr)); gap:12px; list-style:none; padding-left:0;"></ul>
-    </section>
+    <div class="card">
+      <div class="headerWrap">
+        <img id="sprite" class="sprite" alt="Sprite" src="" onerror="this.style.display='none'">
+        <div class="kv">
+          <div><b>Nom</b></div><div id="pokename"></div>
 
-    <section class="card">
-      <h2 class="h2">Capacités par reproduction</h2>
-      <ul id="eggs" style="list-style:none; padding-left:0; margin:0;"></ul>
-    </section>
+          <div><b>Types</b></div><div id="types"></div>
 
-    <section class="card"><h2 class="h2">CS</h2><ul id="cs" style="list-style:none; padding-left:0; margin:0;"></ul></section>
-    <section class="card"><h2 class="h2">CT</h2><ul id="ct" style="list-style:none; padding-left:0; margin:0;"></ul></section>
-    <section class="card"><h2 class="h2">DT</h2><ul id="dt" style="list-style:none; padding-left:0; margin:0;"></ul></section>
+          <div><b>Évolution</b></div><div id="evo"></div>
 
-    <section class="card">
-      <h2 class="h2">Objet tenu & Ressource</h2>
-      <div id="objres"></div>
-    </section>
+          <div><b>Talents</b></div><div id="habil"></div>
 
-    <section class="card">
-      <h2 class="h2">Pokdex</h2>
-      <p id="pokedex">?</p>
-    </section>
-  </main>
+          <div><b>Talent caché</b></div><div id="habhid"></div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="h2">Capacités par niveau</div>
+      <ul class="list" id="lvl"></ul>
+
+      <div class="h2">Capacités par reproduction</div>
+      <ul class="list" id="eggs"></ul>
+
+      <div class="h2">CS</div>
+      <ul class="list" id="cs"></ul>
+
+      <div class="h2">CT</div>
+      <ul class="list" id="ct"></ul>
+
+      <div class="h2">DT</div>
+      <ul class="list" id="dt"></ul>
+
+      <hr>
+
+      <!-- le script remplira ces deux cases -->
+      <div class="h2">Objet tenu & Ressource</div>
+      <ul id="objres"></ul>
+
+      <div class="h2">Pokédex</div>
+      <p class="p" id="pokedex"></p>
+    </div>
+  </div>
 </body>
 </html>
-
-
-
-
-
-
-
