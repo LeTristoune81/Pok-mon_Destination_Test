@@ -14,18 +14,17 @@ function getParam(name, def=''){
 }
 function slugRegion(s){ return norm(s).replace(/\s+/g,'_'); }
 
-// --- GitHub Pages base-path helper ---
-const REPO_BASE = (() => {
-  const parts = location.pathname.split('/').filter(Boolean);
-  return location.hostname.endsWith('github.io') && parts.length ? `/${parts[0]}` : '';
-})();
+// --- GitHub Pages base-path helper (FORCÉ sur le repo de test) ---
+const REPO = '/Pok-mon_Destination_Test';   // <- ton dépôt de test
+
 const withBase = (p) => {
   if (!p) return p;
-  if (/^https?:\/\//i.test(p)) return p;
-  if (p.startsWith(REPO_BASE + '/')) return p;
-  if (p.startsWith('/')) return REPO_BASE + p;
-  return REPO_BASE + '/' + p.replace(/^.\//,'');
+  if (/^https?:\/\//i.test(p)) return p;         // URL absolue http(s)
+  if (p.startsWith(REPO + '/')) return p;        // déjà préfixé
+  if (p.startsWith('/')) return REPO + p;        // /data/... -> /Pok-mon_Destination_Test/data/...
+  return REPO + '/' + p.replace(/^.\//,'');      // relatif -> /Pok-mon_Destination_Test/...
 };
+
 
 // ==============================
 function fixBrokenAccentsInDom(root = document.body) {
