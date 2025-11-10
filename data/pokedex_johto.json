@@ -2776,7 +2776,7 @@
       "Matinal"
     ],
     "hidden_ability": "Poingdefer",
-    "evolution": "Évolue en Coxypunch avec un Gant de Boxe / Évolue en Coxynescent (hasmovetype, COSMIQUE)",
+    "evolution": "Évolue en Coxypunch avec un Gant de Boxe / Évolue en Coxynescent avec une attaque de type Cosmique",
     "pokedex": "Le motif qui orne son dos aurait un lien avec les étoiles, mais nul ne sait encore en quoi consiste ce lien.",
     "level_up": [
       {
@@ -3573,7 +3573,7 @@
       "Serenite"
     ],
     "hidden_ability": "Chanceux",
-    "evolution": "Évolue en Togekiss avec une Pierre Vol / Évolue en Togekoloss avec une Pierre Dra",
+    "evolution": "Évolue en Togekiss avec une Pierre Aile / Évolue en Togekoloss avec une Pierre Antique",
     "pokedex": "Il se démoralise vite s'il n'est pas avec des gens sympathiques. Il peut léviter sans battre des ailes.",
     "level_up": [
       {
@@ -5066,7 +5066,7 @@
       "Tetederoc"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "Évolue en Simularbre en connaissant copie",
+    "evolution": "Évolue en Simularbre en connaissant Copie",
     "pokedex": "Adepte des climats secs, il régule son humidité en laissant couler ce qui ressemble à des larmes.",
     "level_up": [
       {
@@ -5813,7 +5813,7 @@
       "Ramassage"
     ],
     "hidden_ability": "Multicoups",
-    "evolution": "Évolue en Capidextre en connaissant coupdouble / Évolue en Capidextre avec une Pierre Nor",
+    "evolution": "Évolue en Capidextre en connaissant Coup Double / Évolue en Capidextre avec une Pierre Basique",
     "pokedex": "Il vit sur les plus hautes cimes. Sautant de branche en branche, sa queue lui assure un bon équilibre.",
     "level_up": [
       {
@@ -6207,7 +6207,7 @@
       "Forcesoleil"
     ],
     "hidden_ability": "Matinal",
-    "evolution": "Évolue en Tournelux avec une Pierre Sol",
+    "evolution": "Évolue en Tournelux avec une Pierre Soleil",
     "pokedex": "Les rayons du soleil lui donnent de l'énergie. Il est connu pour migrer vers les régions ensoleillées.",
     "level_up": [
       {
@@ -6496,7 +6496,7 @@
       "Oeilcompose"
     ],
     "hidden_ability": "Fouille",
-    "evolution": "Évolue en Yanmega en connaissant pouvoirantique / Évolue en Yanmega avec une Pierre Ins",
+    "evolution": "Évolue en Yanmega en connaissant Pouvoir Antique / Évolue en Yanmega avec une Pierre Ins",
     "pokedex": "En battant des ailes très vite, il peut générer une violente onde de choc qui peut briser des fenêtres.",
     "level_up": [
       {
@@ -7038,7 +7038,7 @@
       "Chanceux"
     ],
     "hidden_ability": "Farceur",
-    "evolution": "Évolue en Corboss avec une Pierre Ten",
+    "evolution": "Évolue en Corboss avec une Pierre Nuit",
     "pokedex": "Les gens voient en lui un oiseau de malheur, mais il offre des choses brillantes aux Dresseurs dont il devient l'ami.",
     "level_up": [
       {
@@ -7992,7 +7992,7 @@
       "Matinal"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "Évolue en Farigiraf en connaissant forceajoutee / Évolue en Dragifigard avec une Pierre Dra",
+    "evolution": "Évolue en Farigiraf en connaissant forceajoutee / Évolue en Dragifigard avec une Pierre Antique",
     "pokedex": "Sa queue possède un cerveau. Si vous vous en approchez, elle vous sentira et vous mordra.",
     "level_up": [
       {
@@ -8638,7 +8638,7 @@
       "Fuite"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "Évolue en Deusolourdo en connaissant hyperceuse / Évolue en Dracolourdo (hasmovetype, DRAGON)",
+    "evolution": "Évolue en Deusolourdo en connaissant hyperceuse / Évolue en Dracolourdo avec une attaque de type Dragon",
     "pokedex": "Son nid est un véritable labyrinthe qu'il creuse à l'aide de sa queue. Il sait à peine voler.",
     "level_up": [
       {
@@ -10636,7 +10636,7 @@
       "Piedveloce"
     ],
     "hidden_ability": "Tension",
-    "evolution": "Évolue en Ursaking (nightholditem, GRIFFERASOIR)",
+    "evolution": "Évolue en Ursaking en tenant l’objet Griffe Rasoir",
     "pokedex": "Avec sa capacité à sentir toute odeur, il trouve sans faillir de la nourriture enfouie dans le sol.",
     "level_up": [
       {
@@ -11048,7 +11048,7 @@
       "Corpsardent"
     ],
     "hidden_ability": "Armurouillee",
-    "evolution": "Évolue en Magmollusk avec une Pierre Roc",
+    "evolution": "Évolue en Magmollusk avec une Pierre Schiste",
     "pokedex": "Son corps est fait de magma. S'il cesse de bouger, il refroidit et durcit.",
     "level_up": [
       {
@@ -11425,7 +11425,7 @@
       "Rideauneige"
     ],
     "hidden_ability": "Isograisse",
-    "evolution": "Évolue en Mammochon en connaissant pouvoirantique",
+    "evolution": "Évolue en Mammochon en connaissant Pouvoir Antique",
     "pokedex": "Bien que pourvu de courtes pattes, ses sabots sont pointus pour l'empêcher de glisser sur la glace.",
     "level_up": [
       {
