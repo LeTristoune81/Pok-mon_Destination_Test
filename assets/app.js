@@ -67,17 +67,23 @@ function makeSpriteCandidates(name, rk){
 function linkifyEvo(evoText, region='Johto'){
   if (!evoText) return evoText;
 
-  // capture le nom juste après "Évolue en" et s'arrête avant "au", "avec", "si", etc.
-  const pattern = /(Évolue en )([A-ZÉÈÊËÀÂÄÎÏÔÖÛÜÇa-zéèêëàâäïîôöûüç' -]+?)(?=\s+(?:au|avec|en|si|lorsqu|quand|dans)\b|$)/g;
+  // Remplace "Évolue en <Nom> ..." en gardant le suffixe ("au niveau 18", "avec ...", etc.)
+  return evoText.replace(
+    /Évolue en\s+([^,.;/]+)/g,                     // on prend tout jusqu'à une ponctuation (ou fin de ligne)
+    (full, rest) => {
+      // découpe le "rest" au premier séparateur logique
+      const parts = rest.split(/\s+(?:au|avec|en|si|lorsqu|quand|dans)(?:\s|$)/);
+      const name  = (parts[0] || '').trim();       // => juste le nom du Pokémon
+      if (!name) return full;                      // sécurité : ne rien changer si vide
 
-  return evoText.replace(pattern, (match, prefix, name) => {
-    const clean = name.trim();
-    const href = `${REPO}/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(clean.toLowerCase())}`;
-    return `${prefix}<a href="${href}" class="evo-link">${clean}</a>`;
-  });
+      const suffixStart = rest.indexOf(name) + name.length;
+      const suffix = rest.slice(suffixStart);      // => " au niveau 18", " avec ...", etc.
+
+      const href = `${REPO}/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(name.toLowerCase())}`;
+      return `Évolue en <a href="${href}" class="evo-link">${name}</a>${suffix}`;
+    }
+  );
 }
-
-
 
 // --------- LISTE POKÉDEX JOHTO ----------
 async function initIndex(){
