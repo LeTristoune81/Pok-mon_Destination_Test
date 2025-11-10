@@ -14,29 +14,30 @@ function getParam(name, def=''){
 }
 function slugRegion(s){ return norm(s).replace(/\s+/g,'_'); }
 
-// --- Base-path dynamique (fiable pour GitHub Pages) ---
+// --- Base-path dynamique (GitHub Pages) ---
 const REPO_BASE = (() => {
   const parts = location.pathname.split('/').filter(Boolean);
-  // /<user>.github.io/<repo>/...
   return location.hostname.endsWith('github.io') && parts.length ? `/${parts[0]}` : '';
 })();
 const withBase = (p) => {
   if (!p) return p;
   if (/^https?:\/\//i.test(p)) return p;
   if (p.startsWith(REPO_BASE + '/')) return p;
-  if (p.startsWith('/')) return REPO_BASE + p;      // /data/... -> /Pok-mon_Destination_Test/data/...
-  return REPO_BASE + '/' + p.replace(/^.\//,'');    // relatif -> /Pok-mon_Destination_Test/...
+  if (p.startsWith('/')) return REPO_BASE + p;
+  return REPO_BASE + '/' + p.replace(/^.\//,'');
 };
 
 // ==============================
-// Correction des accents cassés (léger)
+// Correction légère d'accents (UI)
 function fixBrokenAccentsInDom(root = document.body) {
   const map = [
     ['Pokmon','Pokémon'], ['Pokdex','Pokédex'], ['Capacits','Capacités'],
+    ['Non Rpertori','Non Répertorié'], ['chantillon laiss','échantillon laissé'],
+    ['tre utilis','être utilisé']
   ];
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
   let n; const toFix = [];
-  while ((n = walker.nextNode())) { if (/Pok/.test(n.nodeValue||'')) toFix.push(n); }
+  while ((n = walker.nextNode())) { if (n.nodeValue) toFix.push(n); }
   for (const node of toFix) {
     let t = node.nodeValue;
     for (const [bad, good] of map) t = t.split(bad).join(good);
@@ -75,9 +76,7 @@ async function initIndex(){
 
     const region = detectRegionFromPath();
     const rk = slugRegion(region);
-    const dataPath = `/data/pokedex_${rk}.json`;
-
-    const data = await loadJSON(dataPath);
+    const data = await loadJSON(`/data/pokedex_${rk}.json`);
 
     const render = (items)=>{
       list.innerHTML = items.map(p=>{
@@ -115,7 +114,6 @@ async function initIndex(){
       }).join('');
       status.textContent = `${items.length} Pokémon affiché${items.length>1?'s':''}`;
 
-      // Fallback images en cascade
       list.querySelectorAll('img.pokeimg').forEach(img=>{
         img.onerror = () => {
           try {
@@ -177,14 +175,38 @@ async function initPokemon(){
       return;
     }
 
+    // --- ENTÊTE propre ---
     $('#title')?.textContent = p.name;
     $('#pokename')?.textContent = p.name;
-    const typesEl = $('#types'); if (typesEl) typesEl.innerHTML = (p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ');
-    const evoEl   = $('#evo');   if (evoEl)   evoEl.textContent  = p.evolution || '?';
-    const habilEl = $('#habil'); if (habilEl) habilEl.innerHTML  = (p.abilities||[]).map(a=>`<a href="${withBase('/moves.html')}#${encodeURIComponent(a)}">${a}</a>`).join(', ') || '?';
-    const habhidEl= $('#habhid');if (habhidEl)habhidEl.innerHTML = p.hidden_ability ? `<a href="${withBase('/moves.html')}#${encodeURIComponent(p.hidden_ability)}">${p.hidden_ability}</a>` : '?';
-    const pokedEl = $('#pokedex');if (pokedEl) pokedEl.textContent = p.pokedex || '?';
 
+    // Types
+    const typesEl = $('#types');
+    if (typesEl) {
+      typesEl.innerHTML = (p.types || []).map(t => `<span class="badge">${t}</span>`).join(' ');
+    }
+
+    // Évolution
+    const evoEl = $('#evo');
+    if (evoEl) {
+      evoEl.textContent = p.evolution || '?';
+    }
+
+    // Talents & Talent caché
+    const linkMove = (m)=> `<a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
+    const habilEl = $('#habil');
+    if (habilEl) {
+      const abilities = p.abilities || [];
+      habilEl.innerHTML = abilities.length ? abilities.map(a => linkMove(a)).join(', ') : '?';
+    }
+    const habhidEl = $('#habhid');
+    if (habhidEl) {
+      habhidEl.innerHTML = p.hidden_ability ? linkMove(p.hidden_ability) : '?';
+    }
+
+    // Description
+    $('#pokedex')?.textContent = p.pokedex || '?';
+
+    // Image
     const img = $('#sprite');
     if (img){
       const tryList = [
@@ -197,69 +219,94 @@ async function initPokemon(){
       img.src = tryList[0];
     }
 
-    // Capacités par niveau
+    // ===== Capacités par niveau =====
     (function renderLevelUp(){
       const lvlEl = $('#lvl');
       if (!lvlEl) return;
       const arr = (p.level_up || []).slice().sort((a,b)=>a.level-b.level);
       if (!arr.length){ lvlEl.innerHTML = '<li>?</li>'; return; }
-      const linkMove = (m)=> `<a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
+      const linkMove2 = (m)=> `<a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
       lvlEl.innerHTML = arr.map(m => {
         const label = `${m.level}`.padStart(2,'0');
-        return `<li>${label} ${linkMove(m.move)}</li>`;
+        return `<li>${label} ${linkMove2(m.move)}</li>`;
       }).join('');
     })();
 
-    // Repro / CS / CT / DT
-    const linkMove = (m)=> `<a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
+    // ===== Repro / CS / CT / DT =====
     const renderList = (arr)=> arr && arr.length
-      ? `<li class="lvl-group"><ul class="cols">${arr.map(m => `<li>${linkMove(m)}</li>`).join('')}</ul></li>`
+      ? `<li class="lvl-group"><ul class="cols">${arr.map(m => `<li><a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a></li>`).join('')}</ul></li>`
       : '<li>?</li>';
-    $('#eggs') && ($('#eggs').innerHTML = renderList(p.egg_moves || []));
-    $('#cs')   && ($('#cs').innerHTML   = renderList(p.cs        || []));
-    $('#ct')   && ($('#ct').innerHTML   = renderList(p.ct        || []));
-    $('#dt')   && ($('#dt').innerHTML   = renderList(p.dt        || []));
 
-    // Objet tenu & Ressource (si le JSON existe)
+    const eggs = p.egg_moves || [];
+    const cs   = p.cs || [];
+    const ct   = p.ct || [];
+    const dt   = p.dt || [];
+
+    if (window.__once_debug_moves !== true) {
+      console.debug('Moves debug:', {
+        name: p.name, lvl: (p.level_up||[]).length,
+        eggs: eggs.length, cs: cs.length, ct: ct.length, dt: dt.length
+      });
+      window.__once_debug_moves = true;
+    }
+
+    $('#eggs') && ($('#eggs').innerHTML = renderList(eggs));
+    $('#cs')   && ($('#cs').innerHTML   = renderList(cs));
+    $('#ct')   && ($('#ct').innerHTML   = renderList(ct));
+    $('#dt')   && ($('#dt').innerHTML   = renderList(dt));
+
+    // ===== Objet tenu & Ressource =====
+    let heldName = 'Non Répertorié';
+    let resName  = 'Non Répertorié';
+    let resDesc  = 'Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets.';
+
     try{
       const drops = await loadJSON(`/data/pokemon_drops_${rk}.json`);
       const d = drops.find(x => (x.name||'').toLowerCase() === (p.name||'').toLowerCase()) || null;
 
-      let heldName = 'Non Répertorié';
-      let resName  = 'Non Répertorié';
-      let resDesc  = 'Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets.';
-
       if (d){
+        // Objet tenu : si WildItemCommon est null => Non Répertorié
         const hasWildItem = d.WildItemCommon !== null && d.WildItemCommon !== undefined;
-        if (hasWildItem && d.held_item && d.held_item.name) heldName = d.held_item.name;
+        if (hasWildItem && d.held_item && d.held_item.name) {
+          heldName = d.held_item.name;
+        } else {
+          heldName = 'Non Répertorié';
+        }
+
+        // Ressource
         if (d.ressource) {
           if (d.ressource.name)  resName = d.ressource.name;
           if (d.ressource.description) resDesc = d.ressource.description;
         }
       }
+    }catch(e){
+      console.warn('drops non dispo', e);
+    }
 
-      const objres = $('#objres');
-      if (objres){
-        objres.innerHTML = `
-          <li class="lvl-group">
-            <div class="lvl-title">Objet tenu</div>
-            <ul><li>${heldName}</li></ul>
-          </li>
-          <li class="lvl-group">
-            <div class="lvl-title">Ressource</div>
-            <ul>
-              <li><b>${resName}</b></li>
-              <li class="small" style="margin-top:4px;opacity:0.8;">${resDesc}</li>
-            </ul>
-          </li>`;
-      }
-    }catch(e){ /* drops absent : OK */ }
+    const objres = $('#objres');
+    if (objres){
+      objres.innerHTML = `
+        <li class="lvl-group">
+          <div class="lvl-title">Objet tenu</div>
+          <ul><li>${heldName}</li></ul>
+        </li>
+        <li class="lvl-group">
+          <div class="lvl-title">Ressource</div>
+          <ul>
+            <li><b>${resName}</b></li>
+            <li class="small" style="margin-top:4px;opacity:0.8;">${resDesc}</li>
+          </ul>
+        </li>`;
+    }
 
     fixBrokenAccentsInDom();
   }catch(err){
     console.error(err);
-    const c = $('.container');
-    if (c) c.innerHTML = `<div class="card">Erreur de chargement de la fiche.<br><span class="small">${err.message}</span></div>`;
+    const c = $('.container') || document.body;
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `<div style="color:#ff8080">Erreur de chargement de la fiche.<br><span class="small">${err.message}</span></div>`;
+    c.appendChild(card);
   }
 }
 
