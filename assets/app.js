@@ -59,61 +59,72 @@ function detectRegionFromPath() {
 // ==================
 async function initIndex(){
   try{
-    const list = $('.grid');
-    const q = $('#q');
+    const list = document.querySelector('.grid');
+    const q    = document.getElementById('q');
+
+    if (!list) {
+      const c = document.querySelector('.container') || document.body;
+      c.insertAdjacentHTML('beforeend',
+        '<div class="card" style="color:#ff8080">Erreur : conteneur .grid introuvable.</div>');
+      return;
+    }
 
     let status = document.getElementById('status');
     if (!status) {
       status = document.createElement('div');
       status.id = 'status';
       status.className = 'small';
-      if (q && q.parentElement) {
-        q.insertAdjacentElement('afterend', status);
-      } else if (list && list.parentElement) {
-        list.parentElement.insertBefore(status, list);
-      }
+      (q || list).insertAdjacentElement('afterend', status);
     }
 
-    const region = detectRegionFromPath();
-    const rk = slugRegion(region);
-    const data = await loadJSON(`/data/pokedex_${rk}.json`);
+    // 🔒 on force Johto pour débug (on remettra l’auto-détection après)
+    const region = 'Johto';
+    const rk = 'johto';
+
+    // 🔒 chemin ABSOLU vers le JSON du repo de test
+    const data = await loadJSON('/data/pokedex_johto.json');
 
     const render = (items)=>{
       list.innerHTML = items.map(p=>{
-        const name = p.name.toLowerCase();
+        const name = (p.name || '').toLowerCase();
+
+        // images candidates (optionnelles)
         const candidates = [
           p.image || '',
           withBase(`/assets/pkm/${name}.png`),
           withBase(`/assets/pkm/${rk}/${name}.png`),
-          withBase(`/assets/pkm/${name}_TCG.png`),
-          withBase(`/assets/pkm/${p.name.toUpperCase()}.png`)
+          withBase(`/assets/pkm/${(p.name||'').toUpperCase()}.png`)
         ].filter(Boolean);
 
         const dataSrcs = encodeURIComponent(JSON.stringify(candidates));
-        const firstSrc = candidates[0];
-        const href = withBase(`/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(name)}`);
+        const firstSrc = candidates[0] || '';
+
+        // 🔒 lien ABSOLU vers la fiche unique
+        const href = `/Pok-mon_Destination_Test/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(name)}`;
 
         return `
           <div class="card">
             <div class="cardRow">
               <img class="thumb pokeimg"
                    src="${firstSrc}"
-                   alt="${p.name}"
+                   alt="${p.name||''}"
                    data-srcs="${dataSrcs}"
                    data-idx="0"
                    loading="lazy"
                    style="width:64px;height:64px;image-rendering:pixelated;object-fit:contain;">
               <div class="cardBody">
-                <div class="h2">${p.name}</div>
+                <div class="h2">${p.name||''}</div>
                 <div>${(p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ')}</div>
                 <div class="small" style="margin-top:4px">${p.evolution ? p.evolution : ''}</div>
-                <div style="margin-top:8px"><a href="${href}">Ouvrir la fiche </a></div>
+                <div style="margin-top:8px"><a href="${href}">Ouvrir la fiche</a></div>
               </div>
             </div>
           </div>`;
       }).join('');
+
       status.textContent = `${items.length} Pokémon affiché${items.length>1?'s':''}`;
 
+      // fallback images en cascade
       list.querySelectorAll('img.pokeimg').forEach(img=>{
         img.onerror = () => {
           try {
@@ -135,11 +146,12 @@ async function initIndex(){
 
     render(data);
 
+    // recherche
     if(q){
       q.addEventListener('input', e=>{
         const v = norm(e.target.value);
         const f = data.filter(p =>
-          norm(p.name).includes(v) ||
+          norm(p.name||'').includes(v) ||
           norm((p.types||[]).join(' ')).includes(v)
         );
         render(f);
@@ -147,13 +159,12 @@ async function initIndex(){
     }
   }catch(err){
     console.error(err);
-    const c = $('.container') || document.body;
-    const card = document.createElement('div');
-    card.className = 'card';
-    card.innerHTML = `<div style="color:#ff8080">Erreur de chargement du Pokédex.<br><span class="small">${err.message}</span></div>`;
-    c.appendChild(card);
+    const c = document.querySelector('.container') || document.body;
+    c.insertAdjacentHTML('beforeend',
+      `<div class="card" style="color:#ff8080">Erreur de chargement du Pokédex.<br><span class="small">${err.message}</span></div>`);
   }
 }
+
 
 // ==================
 // Fiche Pokémon
