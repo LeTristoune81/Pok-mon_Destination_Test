@@ -2,17 +2,29 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Pokédex Johto</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Styles & script en chemin ABSOLU vers le repo de test -->
-  <link rel="stylesheet" href="/Pok-mon_Destination_Test/assets/style.css">
-  <script src="/Pok-mon_Destination_Test/assets/app.js" defer></script>
 
+  <!-- ✅ Titre dynamique ou fixe -->
+  <title id="title">Pokémon Destination</title>
+
+  <!-- ✅ Aucun <base>, on travaille en chemins absolus -->
+  <link rel="stylesheet" href="/Pok-mon_Destination_Test/assets/style.css">
+
+  <!-- ✅ Script global avec cache-buster -->
+  <script src="/Pok-mon_Destination_Test/assets/app.js?v=stable" defer></script>
+
+  <!-- ✅ Optionnel : style local de la page -->
+  <style>
+    body { background:#0e1122; color:#eee; font-family:sans-serif; }
+    .container { max-width:960px; margin:auto; padding:16px; }
+    .card { background:#1a1f35; padding:12px; border-radius:12px; margin-top:12px; }
+  </style>
 </head>
+
 <body>
   <div class="container">
     <div class="header">
-      <div class="h1">Pokédex Johto</div>
+      <div class="h1">Pokédex de Johto</div>
       <div class="nav">
         <a href="/Pok-mon_Destination_Test/index.html">Accueil</a>
         <a href="/Pok-mon_Destination_Test/pokedex.html">Pokédex</a>
