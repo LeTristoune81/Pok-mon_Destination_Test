@@ -78,7 +78,7 @@ async function initIndex(){
 
     const region = 'Johto';
     const rk = 'johto';
-    const data = await loadJSON('/data/pokedex_johto.json');
+    const data = await loadJSON(withBase('/data/pokedex_johto.json'));
 
     const render = (items)=>{
       grid.innerHTML = items.map(p=>{
