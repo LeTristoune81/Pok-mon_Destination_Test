@@ -65,16 +65,16 @@ function makeSpriteCandidates(name, rk){
 
 // --------- helper: liens sur les évolutions ----------
 function linkifyEvo(evoText, region='Johto'){
-  if(!evoText) return '';
-  const rk = slugRegion(region);
-  // capture le premier nom juste après "Évolue en", jusqu'à une préposition/separateur
-  const re = /(Évolue en )([A-Za-zÀ-ÖØ-öø-ÿ' -]+?)(?=(?:\s+(?:au|avec|en|si|lorsqu|quand)\b|[,.;/]|$))/g;
-  return evoText.replace(re, (_, prefix, name) => {
+  if (!evoText) return evoText;
+  const pattern = /(Évolue en )([A-ZÉÈÊËÀÂÄÎÏÔÖÛÜÇa-zéèêëàâäïîôöûüç' -]+)/g;
+  return evoText.replace(pattern, (match, prefix, name) => {
     const clean = name.trim();
-    const href  = `${REPO}/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(clean.toLowerCase())}`;
+    if (!clean) return match;
+    const href = `${REPO}/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(clean.toLowerCase())}`;
     return `${prefix}<a href="${href}" class="evo-link">${clean}</a>`;
   });
 }
+
 
 // --------- LISTE POKÉDEX JOHTO ----------
 async function initIndex(){
