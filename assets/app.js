@@ -23,20 +23,21 @@ const withBase = (p) => {
   if (!p) return p;
   if (/^https?:\/\//i.test(p)) return p;      // URL absolue http(s)
   if (p.startsWith(REPO_BASE + '/')) return p; // déjà préfixé
-  if (p.startsWith('/')) return REPO_BASE + p; // /data/... -> /Pok-mon_Destination_Test/data/…
+  if (p.startsWith('/')) return REPO_BASE + p; // /data/... -> /<repo>/data/…
   return REPO_BASE + '/' + p.replace(/^.\//,'');
 };
 
 // ==============================
-// Correction des accents cassés
-// ==============================
+/* Correction légère des accents visibles (UI) */
 function fixBrokenAccentsInDom(root = document.body) {
   const map = [
-    ['Pokmon','Pokémon'], ['Pokdex','Pokédex'], ['Capacits','Capacités']
+    ['Pokmon','Pokémon'], ['Pokdex','Pokédex'], ['Capacits','Capacités'],
+    ['Non Rpertori','Non Répertorié'], ['chantillon laiss','échantillon laissé'],
+    ['tre utilis','être utilisé'], ['Pokmon','Pokémon']
   ];
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
   let n; const toFix = [];
-  while ((n = walker.nextNode())) { if (/Pok/.test(n.nodeValue||'')) toFix.push(n); }
+  while ((n = walker.nextNode())) { if (n.nodeValue) toFix.push(n); }
   for (const node of toFix) {
     let t = node.nodeValue;
     for (const [bad, good] of map) t = t.split(bad).join(good);
@@ -113,7 +114,7 @@ async function initIndex(){
       }).join('');
       status.textContent = `${items.length} Pokémon affiché${items.length>1?'s':''}`;
 
-      // Fallback images en cascade
+      // Fallback image en cascade
       list.querySelectorAll('img.pokeimg').forEach(img=>{
         img.onerror = () => {
           try {
@@ -166,7 +167,7 @@ async function initPokemon(){
     }
 
     const data = await loadJSON(withBase(`/data/pokedex_${rk}.json`));
-    const p = data.find(x => x.name.toLowerCase() === name);
+    const p = data.find(x => (x.name||'').toLowerCase() === name);
     if(!p){
       $('.container')?.insertAdjacentHTML('beforeend', `<div class="card">Pokémon introuvable dans ${region}.</div>`);
       return;
@@ -176,58 +177,82 @@ async function initPokemon(){
     $('#title') && ($('#title').textContent = p.name);
     const pn = $('#pokename'); if (pn) pn.textContent = p.name;
 
-    // Types, évolution
-    const typesEl = $('#types'); if (typesEl) typesEl.innerHTML = (p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ');
-    const evoEl   = $('#evo');   if (evoEl)   evoEl.textContent  = p.evolution || '?';
+    // Types, évolution, description
+    $('#types')?.insertAdjacentHTML('afterbegin', (p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' '));
+    $('#evo')?.insertAdjacentText('afterbegin', p.evolution || '?');
+    $('#pokedex')?.insertAdjacentText('afterbegin', p.pokedex || '?');
 
-    // Talents
-    const habilEl = $('#habil');
-    if (habilEl) habilEl.innerHTML = (p.abilities||[]).map(a=>`<a href="${withBase('/moves.html')}#${encodeURIComponent(a)}">${a}</a>`).join(', ') || '?';
-
-    const habhidEl = $('#habhid');
-    if (habhidEl) habhidEl.innerHTML = p.hidden_ability ? `<a href="${withBase('/moves.html')}#${encodeURIComponent(p.hidden_ability)}">${p.hidden_ability}</a>` : '?';
-
-    // Pokédex (description)
-    const pokedEl = $('#pokedex'); if (pokedEl) pokedEl.textContent = p.pokedex || '?';
-
-    // Image
+    // Image (fallback)
     const img = $('#sprite');
     if (img){
       const tryList = [
         withBase(`/assets/pkm/${name}.png`),
         withBase(`/assets/pkm/${rk}/${name}.png`),
-        p.image ? withBase('/'+p.image.replace(/^\/+/,'')) : '' // si le JSON fournit image
+        p.image ? withBase('/'+p.image.replace(/^\/+/,'')) : ''
       ].filter(Boolean);
       let i = 0;
       img.onerror = ()=>{ i++; if (i < tryList.length) img.src = tryList[i]; else img.style.display='none'; };
       img.src = tryList[0];
     }
 
-    // ===== Listes d’attaques =====
-    // 1) Capacités par niveau (level_up: [{level, move}])
+    // ===== Capacités par niveau =====
     (function renderLevelUp(){
       const lvlEl = $('#lvl');
       if (!lvlEl) return;
       const arr = (p.level_up || []).slice().sort((a,b)=>a.level-b.level);
       if (!arr.length){ lvlEl.innerHTML = '<li>?</li>'; return; }
+      const linkMove = (m)=> `<a href="${withBase('moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
       lvlEl.innerHTML = arr.map(m => {
         const label = `${m.level}`.padStart(2,'0');
-        const href = `${withBase('/moves.html')}#${encodeURIComponent(m.move)}`;
-        return `<li>${label} <a href="${href}">${m.move}</a></li>`;
+        return `<li>${label} ${linkMove(m.move)}</li>`;
       }).join('');
     })();
 
-    // Helper pour rendre une liste en colonnes
-    const linkMove = (m)=> `<a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
+    // ===== Repro / CS / CT / DT =====
+    const linkMove = (m)=> `<a href="${withBase('moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
     const renderList = (arr)=> arr && arr.length
       ? `<li class="lvl-group"><ul class="cols">${arr.map(m => `<li>${linkMove(m)}</li>`).join('')}</ul></li>`
       : '<li>?</li>';
 
-    // 2) Repro / CS / CT / DT  (noms EXACTS du JSON: egg_moves, cs, ct, dt)
     $('#eggs') && ($('#eggs').innerHTML = renderList(p.egg_moves || []));
     $('#cs')   && ($('#cs').innerHTML   = renderList(p.cs        || []));
     $('#ct')   && ($('#ct').innerHTML   = renderList(p.ct        || []));
     $('#dt')   && ($('#dt').innerHTML   = renderList(p.dt        || []));
+
+    // ===== Objet tenu & Ressource (pokemon_drops_<rk>.json) =====
+    try{
+      const drops = await loadJSON(withBase(`/data/pokemon_drops_${rk}.json`));
+      const d = drops.find(x => (x.name||'').toLowerCase() === (p.name||'').toLowerCase()) || null;
+
+      // Objet tenu : si WildItemCommon == null => “Non Répertorié”
+      let heldName = 'Non Répertorié';
+      if (d) {
+        const hasWildItem = d.WildItemCommon !== null && d.WildItemCommon !== undefined;
+        if (hasWildItem && d.held_item && d.held_item.name) heldName = d.held_item.name;
+        // sinon on laisse “Non Répertorié”
+      }
+
+      // Ressource
+      const resName = d?.ressource?.name || 'Non Répertorié';
+      const resDesc = d?.ressource?.description || 'Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets.';
+
+      const objres = $('#objres');
+      if (objres){
+        objres.innerHTML = `
+          <ul id="objresGrid">
+            <li class="lvl-group"><div class="lvl-title">Objet tenu</div><ul><li>${heldName}</li></ul></li>
+            <li class="lvl-group"><div class="lvl-title">Ressource</div>
+              <ul>
+                <li><b>${resName}</b></li>
+                <li style="margin-top:4px;opacity:0.8;">${resDesc}</li>
+              </ul>
+            </li>
+          </ul>`;
+      }
+    }catch(e){
+      // JSON des drops absent : ne bloque pas la page
+      console.warn('drops non dispo', e);
+    }
 
     fixBrokenAccentsInDom();
   }catch(err){
