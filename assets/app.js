@@ -21,14 +21,13 @@ const REPO_BASE = (() => {
 })();
 const withBase = (p) => {
   if (!p) return p;
-  if (/^https?:\/\//i.test(p)) return p;      // URL absolue http(s)
-  if (p.startsWith(REPO_BASE + '/')) return p; // déjà préfixé
-  if (p.startsWith('/')) return REPO_BASE + p; // /data/... -> /<repo>/data/…
+  if (/^https?:\/\//i.test(p)) return p;
+  if (p.startsWith(REPO_BASE + '/')) return p;
+  if (p.startsWith('/')) return REPO_BASE + p;
   return REPO_BASE + '/' + p.replace(/^.\//,'');
 };
 
 // ==============================
-/* Correction légère des accents visibles (UI) */
 function fixBrokenAccentsInDom(root = document.body) {
   const map = [
     ['Pokmon','Pokémon'], ['Pokdex','Pokédex'], ['Capacits','Capacités'],
@@ -46,16 +45,12 @@ function fixBrokenAccentsInDom(root = document.body) {
 }
 
 // ==================
-// Détection région depuis l'URL
-// ==================
 function detectRegionFromPath() {
   const decoded = decodeURIComponent(location.pathname);
   const m = decoded.match(/\/region\/([^/]+)/i);
   return m ? m[1] : 'Johto';
 }
 
-// ==================
-// Pokédex (liste)
 // ==================
 async function initIndex(){
   try{
@@ -114,7 +109,6 @@ async function initIndex(){
       }).join('');
       status.textContent = `${items.length} Pokémon affiché${items.length>1?'s':''}`;
 
-      // Fallback image en cascade
       list.querySelectorAll('img.pokeimg').forEach(img=>{
         img.onerror = () => {
           try {
@@ -154,8 +148,6 @@ async function initIndex(){
 }
 
 // ==================
-// Fiche Pokémon
-// ==================
 async function initPokemon(){
   try{
     const region = getParam('r','Johto');
@@ -173,16 +165,38 @@ async function initPokemon(){
       return;
     }
 
-    // Titre & en-tête
-    $('#title') && ($('#title').textContent = p.name);
-    const pn = $('#pokename'); if (pn) pn.textContent = p.name;
+    // --- ENTÊTE propre ---
+    $('#title')?.textContent = p.name;
+    $('#pokename')?.textContent = p.name;
 
-    // Types, évolution, description
-    $('#types')?.insertAdjacentHTML('afterbegin', (p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' '));
-    $('#evo')?.insertAdjacentText('afterbegin', p.evolution || '?');
-    $('#pokedex')?.insertAdjacentText('afterbegin', p.pokedex || '?');
+    // Types
+    const typesEl = $('#types');
+    if (typesEl) {
+      typesEl.innerHTML = (p.types || []).map(t => `<span class="badge">${t}</span>`).join(' ');
+    }
 
-    // Image (fallback)
+    // Évolution
+    const evoEl = $('#evo');
+    if (evoEl) {
+      evoEl.textContent = p.evolution || '?';
+    }
+
+    // Talents & Talent caché
+    const linkMove = (m)=> `<a href="${withBase('moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
+    const habilEl = $('#habil');
+    if (habilEl) {
+      const abilities = p.abilities || [];
+      habilEl.innerHTML = abilities.length ? abilities.map(a => linkMove(a)).join(', ') : '?';
+    }
+    const habhidEl = $('#habhid');
+    if (habhidEl) {
+      habhidEl.innerHTML = p.hidden_ability ? linkMove(p.hidden_ability) : '?';
+    }
+
+    // Description
+    $('#pokedex')?.textContent = p.pokedex || '?';
+
+    // Image
     const img = $('#sprite');
     if (img){
       const tryList = [
@@ -195,7 +209,7 @@ async function initPokemon(){
       img.src = tryList[0];
     }
 
-    // ===== Capacités par niveau =====
+    // Capacités par niveau
     (function renderLevelUp(){
       const lvlEl = $('#lvl');
       if (!lvlEl) return;
@@ -208,19 +222,16 @@ async function initPokemon(){
       }).join('');
     })();
 
-    // ===== Repro / CS / CT / DT =====
-    const linkMove = (m)=> `<a href="${withBase('moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
+    // Repro / CS / CT / DT
     const renderList = (arr)=> arr && arr.length
       ? `<li class="lvl-group"><ul class="cols">${arr.map(m => `<li>${linkMove(m)}</li>`).join('')}</ul></li>`
       : '<li>?</li>';
-
     $('#eggs') && ($('#eggs').innerHTML = renderList(p.egg_moves || []));
     $('#cs')   && ($('#cs').innerHTML   = renderList(p.cs        || []));
     $('#ct')   && ($('#ct').innerHTML   = renderList(p.ct        || []));
     $('#dt')   && ($('#dt').innerHTML   = renderList(p.dt        || []));
 
-    // ===== Objet tenu & Ressource (pokemon_drops_<rk>.json) =====
-    // On remplit TOUJOURS deux <li> dans #objres : "Objet tenu" et "Ressource"
+    // Objet tenu & Ressource
     let heldName = 'Non Répertorié';
     let resName  = 'Non Répertorié';
     let resDesc  = 'Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets.';
@@ -230,26 +241,18 @@ async function initPokemon(){
       const d = drops.find(x => (x.name||'').toLowerCase() === (p.name||'').toLowerCase()) || null;
 
       if (d){
-        // Objet tenu
         const hasWildItem = d.WildItemCommon !== null && d.WildItemCommon !== undefined;
-        if (hasWildItem && d.held_item && d.held_item.name) {
+        if (hasWildItem && d.held_item && d.held_item.name)
           heldName = d.held_item.name;
-        } else {
-          heldName = 'Non Répertorié';
-        }
-
-        // Ressource
         if (d.ressource) {
           if (d.ressource.name)  resName = d.ressource.name;
           if (d.ressource.description) resDesc = d.ressource.description;
         }
       }
     }catch(e){
-      // on garde les valeurs par défaut si le JSON n'est pas là
       console.warn('drops non dispo', e);
     }
 
-    // Injection DIRECTE dans #objres : deux cases (li)
     const objres = $('#objres');
     if (objres){
       objres.innerHTML = `
@@ -274,8 +277,6 @@ async function initPokemon(){
   }
 }
 
-// ==================
-// Auto-init
 // ==================
 document.addEventListener('DOMContentLoaded', () => {
   const file = location.pathname.split('/').pop().toLowerCase();
