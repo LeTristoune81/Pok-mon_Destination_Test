@@ -4,8 +4,9 @@
 function $(q, el = document) { return el.querySelector(q); }
 function norm(s){ return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
 async function loadJSON(url) {
-  const res = await fetch(withBase(url), { cache: 'no-cache' });
-  if (!res.ok) throw new Error(`HTTP ${res.status} on ${url}`);
+  const final = withBase(url);
+  const res = await fetch(final, { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`HTTP ${res.status} on ${final}`);
   return res.json();
 }
 function getParam(name, def=''){
@@ -14,18 +15,18 @@ function getParam(name, def=''){
 }
 function slugRegion(s){ return norm(s).replace(/\s+/g,'_'); }
 
-// --- GitHub Pages base-path helper (FORCÉ sur le repo de test) ---
-const REPO = '/Pok-mon_Destination_Test';   // <- ton dépôt de test
-
+// --- Base-path FORCÉE sur le repo de test ---
+const REPO = '/Pok-mon_Destination_Test';
 const withBase = (p) => {
   if (!p) return p;
-  if (/^https?:\/\//i.test(p)) return p;         // URL absolue http(s)
-  if (p.startsWith(REPO + '/')) return p;        // déjà préfixé
-  if (p.startsWith('/')) return REPO + p;        // /data/... -> /Pok-mon_Destination_Test/data/...
-  return REPO + '/' + p.replace(/^.\//,'');      // relatif -> /Pok-mon_Destination_Test/...
+  if (/^https?:\/\//i.test(p)) return p;          // URL absolue
+  if (p.startsWith(REPO + '/')) return p;         // déjà préfixé
+  if (p.startsWith('/')) return REPO + p;         // /data/... -> /Pok-mon_Destination_Test/data/...
+  return REPO + '/' + p.replace(/^.\//,'');       // relatif -> /Pok-mon_Destination_Test/...
 };
 
-
+// ==============================
+// Petites corrections visuelles
 // ==============================
 function fixBrokenAccentsInDom(root = document.body) {
   const map = [
@@ -44,43 +45,54 @@ function fixBrokenAccentsInDom(root = document.body) {
 }
 
 // ==================
-function detectRegionFromPath() {
-  const decoded = decodeURIComponent(location.pathname);
-  const m = decoded.match(/\/region\/([^/]+)/i);
-  return m ? m[1] : 'Johto';
-}
-
+// Pokédex (liste) — MODE SECOURS
 // ==================
 async function initIndex(){
+  const container = $('.container') || document.body;
+  // Bandeau debug (affiché une fois)
+  if (!$('#dbg')) {
+    const dbg = document.createElement('div');
+    dbg.id = 'dbg';
+    dbg.className = 'small';
+    dbg.style.cssText = 'margin:8px 0;opacity:0.8;';
+    dbg.textContent = 'Debug prêt.';
+    container.insertAdjacentElement('afterbegin', dbg);
+  }
+
   try{
     const list = $('.grid');
     const q = $('#q');
+    if (!list) {
+      $('#dbg').textContent = 'Debug: conteneur .grid introuvable dans la page.';
+      return;
+    }
 
     let status = document.getElementById('status');
     if (!status) {
       status = document.createElement('div');
       status.id = 'status';
       status.className = 'small';
-      if (q && q.parentElement) {
-        q.insertAdjacentElement('afterend', status);
-      } else if (list && list.parentElement) {
-        list.parentElement.insertBefore(status, list);
-      }
+      if (q && q.parentElement) q.insertAdjacentElement('afterend', status);
+      else list.parentElement?.insertBefore(status, list);
     }
 
-    const region = detectRegionFromPath();
-    const rk = slugRegion(region);
-    const data = await loadJSON(withBase(`/data/pokedex_${rk}.json`));
+    // Forçage Johto (on remettra l’auto plus tard)
+    const region = 'Johto';
+    const rk = 'johto';
+    const dataUrl = withBase(`/data/pokedex_${rk}.json`);
+    $('#dbg').textContent = `Debug: fetch ${dataUrl}`;
+
+    const data = await loadJSON(`/data/pokedex_${rk}.json`);
 
     const render = (items)=>{
       list.innerHTML = items.map(p=>{
-        const name = p.name.toLowerCase();
+        const name = (p.name||'').toLowerCase();
         const candidates = [
           p.image || '',
           withBase(`/assets/pkm/${name}.png`),
           withBase(`/assets/pkm/${rk}/${name}.png`),
           withBase(`/assets/pkm/${name}_TCG.png`),
-          withBase(`/assets/pkm/${p.name.toUpperCase()}.png`)
+          withBase(`/assets/pkm/${(p.name||'').toUpperCase()}.png`)
         ].filter(Boolean);
 
         const dataSrcs = encodeURIComponent(JSON.stringify(candidates));
@@ -92,13 +104,13 @@ async function initIndex(){
             <div class="cardRow">
               <img class="thumb pokeimg"
                    src="${firstSrc}"
-                   alt="${p.name}"
+                   alt="${p.name||''}"
                    data-srcs="${dataSrcs}"
                    data-idx="0"
                    loading="lazy"
                    style="width:64px;height:64px;image-rendering:pixelated;object-fit:contain;">
               <div class="cardBody">
-                <div class="h2">${p.name}</div>
+                <div class="h2">${p.name||''}</div>
                 <div>${(p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ')}</div>
                 <div class="small" style="margin-top:4px">${p.evolution ? p.evolution : ''}</div>
                 <div style="margin-top:8px"><a href="${href}">Ouvrir la fiche </a></div>
@@ -106,8 +118,10 @@ async function initIndex(){
             </div>
           </div>`;
       }).join('');
+
       status.textContent = `${items.length} Pokémon affiché${items.length>1?'s':''}`;
 
+      // Fallback images en cascade
       list.querySelectorAll('img.pokeimg').forEach(img=>{
         img.onerror = () => {
           try {
@@ -133,7 +147,7 @@ async function initIndex(){
       q.addEventListener('input', e=>{
         const v = norm(e.target.value);
         const f = data.filter(p =>
-          norm(p.name).includes(v) ||
+          norm(p.name||'').includes(v) ||
           norm((p.types||[]).join(' ')).includes(v)
         );
         render(f);
@@ -141,11 +155,18 @@ async function initIndex(){
     }
   }catch(err){
     console.error(err);
-    const c = $('.container');
-    if (c) c.innerHTML = `<div class="card">Erreur de chargement du Pokédex.<br><span class="small">${err.message}</span></div>`;
+    const c = $('.container') || document.body;
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `<div style="color:#ff8080">Erreur de chargement du Pokédex.<br><span class="small">${err.message}</span></div>`;
+    c.appendChild(card);
+    const dbg = $('#dbg');
+    if (dbg) dbg.textContent = `Debug: ${err.message}`;
   }
 }
 
+// ==================
+// Fiche Pokémon (inchangée sauf base forcée)
 // ==================
 async function initPokemon(){
   try{
@@ -157,42 +178,37 @@ async function initPokemon(){
       return;
     }
 
-    const data = await loadJSON(withBase(`/data/pokedex_${rk}.json`));
+    const data = await loadJSON(`/data/pokedex_${rk}.json`);
     const p = data.find(x => (x.name||'').toLowerCase() === name);
     if(!p){
       $('.container')?.insertAdjacentHTML('beforeend', `<div class="card">Pokémon introuvable dans ${region}.</div>`);
       return;
     }
 
-    // --- ENTÊTE propre ---
-    $('#title')?.textContent = p.name;
-    $('#pokename')?.textContent = p.name;
+    // Entête propre
+    $('#title')?.textContent = p.name || 'Pokémon';
+    $('#pokename')?.textContent = p.name || '';
 
-    // Types
+    const linkMove = (m)=> `<a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
+
     const typesEl = $('#types');
-    if (typesEl) {
-      typesEl.innerHTML = (p.types || []).map(t => `<span class="badge">${t}</span>`).join(' ');
-    }
+    if (typesEl) typesEl.innerHTML = (p.types || []).map(t => `<span class="badge">${t}</span>`).join(' ');
 
-    // Évolution
+    $('#evo')?.replaceChildren();
     const evoEl = $('#evo');
-    if (evoEl) {
-      evoEl.textContent = p.evolution || '?';
-    }
+    if (evoEl) evoEl.textContent = p.evolution || '?';
 
-    // Talents & Talent caché
-    const linkMove = (m)=> `<a href="${withBase('moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
     const habilEl = $('#habil');
     if (habilEl) {
       const abilities = p.abilities || [];
       habilEl.innerHTML = abilities.length ? abilities.map(a => linkMove(a)).join(', ') : '?';
     }
+
     const habhidEl = $('#habhid');
     if (habhidEl) {
       habhidEl.innerHTML = p.hidden_ability ? linkMove(p.hidden_ability) : '?';
     }
 
-    // Description
     $('#pokedex')?.textContent = p.pokedex || '?';
 
     // Image
@@ -214,7 +230,6 @@ async function initPokemon(){
       if (!lvlEl) return;
       const arr = (p.level_up || []).slice().sort((a,b)=>a.level-b.level);
       if (!arr.length){ lvlEl.innerHTML = '<li>?</li>'; return; }
-      const linkMove = (m)=> `<a href="${withBase('moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
       lvlEl.innerHTML = arr.map(m => {
         const label = `${m.level}`.padStart(2,'0');
         return `<li>${label} ${linkMove(m.move)}</li>`;
@@ -236,7 +251,7 @@ async function initPokemon(){
     let resDesc  = 'Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets.';
 
     try{
-      const drops = await loadJSON(withBase(`/data/pokemon_drops_${rk}.json`));
+      const drops = await loadJSON(`/data/pokemon_drops_${rk}.json`);
       const d = drops.find(x => (x.name||'').toLowerCase() === (p.name||'').toLowerCase()) || null;
 
       if (d){
@@ -248,9 +263,7 @@ async function initPokemon(){
           if (d.ressource.description) resDesc = d.ressource.description;
         }
       }
-    }catch(e){
-      console.warn('drops non dispo', e);
-    }
+    }catch(e){ console.warn('drops non dispo', e); }
 
     const objres = $('#objres');
     if (objres){
@@ -271,11 +284,16 @@ async function initPokemon(){
     fixBrokenAccentsInDom();
   }catch(err){
     console.error(err);
-    const c = $('.container');
-    if (c) c.innerHTML = `<div class="card">Erreur de chargement de la fiche.<br><span class="small">${err.message}</span></div>`;
+    const c = $('.container') || document.body;
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `<div style="color:#ff8080">Erreur de chargement de la fiche.<br><span class="small">${err.message}</span></div>`;
+    c.appendChild(card);
   }
 }
 
+// ==================
+// Auto-init
 // ==================
 document.addEventListener('DOMContentLoaded', () => {
   const file = location.pathname.split('/').pop().toLowerCase();
