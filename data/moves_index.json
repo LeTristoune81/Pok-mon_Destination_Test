@@ -67,7 +67,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "Frappe en prioritÃƒÆ’Ã‚©."
+    "description": "Frappe en priorité."
   },
   "VAGUETEMPO": {
     "token": "VAGUETEMPO",
@@ -211,7 +211,7 @@
   },
   "MAINSUPREME": {
     "token": "MAINSUPREME",
-    "name": "Main SuprÃƒÆ’Ã‚ªme",
+    "name": "Main Suprême",
     "type": "TEMPOREL",
     "category": "Special",
     "power": "100",
@@ -291,7 +291,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoDistorsion",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Distorsion pendant 5 tours."
+    "description": "Change la météo en Distorsion pendant 5 tours."
   },
   "ENCORE": {
     "token": "ENCORE",
@@ -319,11 +319,11 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DisableTargetLastMoveUsed",
-    "description": "EmpÃƒÆ’Ã‚ªche la cible de rÃƒÆ’Ã‚©pÃƒÆ’Ã‚©ter sa derniÃƒÆ’Ã‚¨re attaque. Dure 4 tours."
+    "description": "Empêche la cible de répéter sa dernière attaque. Dure 4 tours."
   },
   "METRONOME": {
     "token": "METRONOME",
-    "name": "MÃƒÆ’Ã‚©tronome",
+    "name": "Métronome",
     "type": "TEMPOREL",
     "category": "Status",
     "power": "",
@@ -333,7 +333,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "UseRandomMove",
-    "description": "Utilise alÃƒÆ’Ã‚©atoirement une capacitÃƒÆ’Ã‚© au hasard."
+    "description": "Utilise aléatoirement une capacité au hasard."
   },
   "RALENTISSEMENT": {
     "token": "RALENTISSEMENT",
@@ -701,7 +701,7 @@
   },
   "REPERCUSON": {
     "token": "REPERCUSON",
-    "name": "RÃƒÆ’Ã‚©percu'Son",
+    "name": "Répercu'Son",
     "type": "SONORE",
     "category": "Special",
     "power": "60",
@@ -809,11 +809,11 @@
     "flags": "CanProtect,CanMirrorMove,Sound",
     "effect_chance": "",
     "function": "MultiTurnAttackPreventSleeping",
-    "description": "Touche un ennemi alÃƒÆ’Ã‚©atoirement. Dure 3 tours. Pendant ce temps, aucun PokÃƒÆ’Ã‚©mon ne peut s'endormir."
+    "description": "Touche un ennemi aléatoirement. Dure 3 tours. Pendant ce temps, aucun Pokémon ne peut s'endormir."
   },
   "MEGAPHONE": {
     "token": "MEGAPHONE",
-    "name": "MÃƒÆ’Ã‚©gaphone",
+    "name": "Mégaphone",
     "type": "SONORE",
     "category": "Special",
     "power": "90",
@@ -893,7 +893,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "UseRandomUserMoveIfAsleep",
-    "description": "Le lanceur utilise une de ses capacitÃƒÆ’Ã‚©s au hasard pendant qu'il dort."
+    "description": "Le lanceur utilise une de ses capacités au hasard pendant qu'il dort."
   },
   "CHAMPSONORE": {
     "token": "CHAMPSONORE",
@@ -935,7 +935,7 @@
     "flags": "CanMirrorMove,Sound",
     "effect_chance": "",
     "function": "LowerTargetSpAtk2",
-    "description": "Baisse de 2 l'Att. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Baisse de 2 l'Att. Spé. de la cible."
   },
   "DERNIERMOT": {
     "token": "DERNIERMOT",
@@ -1005,7 +1005,7 @@
     "flags": "CanMirrorMove,Sound",
     "effect_chance": "",
     "function": "SwitchOutTargetStatusMove",
-    "description": "ÃƒÆ’ââ‚¬°jecte le PokÃƒÆ’Ã‚©mon ciblÃƒÆ’Ã‚© et le remplace par un autre. Contre un PokÃƒÆ’Ã‚©mon sauvage seul, met fin au combat."
+    "description": "Dure de 2 à 3 tours, puis le lanceur devient confus."
   },
   "RALEMALE": {
     "token": "RALEMALE",
@@ -1089,7 +1089,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfTargetStatusProblem",
-    "description": "Attaque acharnÃƒÆ’Ã‚©e qui cause davantage de dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts ÃƒÆ’Ã‚  la cible s'il a un problÃƒÆ’Ã‚¨me de statut."
+    "description": "Attaque acharnée qui cause davantage de dégâts à la cible s'il a un problème de statut."
   },
   "TROMPEOEIL": {
     "token": "TROMPEOEIL",
@@ -1135,7 +1135,7 @@
   },
   "POINGDEROBANT": {
     "token": "POINGDEROBANT",
-    "name": "Poing DÃƒÆ’Ã‚©robant",
+    "name": "Poing Dérobant",
     "type": "MAGIQUE",
     "category": "Physical",
     "power": "75",
@@ -1145,7 +1145,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,Punching",
     "effect_chance": "",
     "function": "UserTakesTargetItem",
-    "description": "Le lanceur attaque la cible et vole son objet. Le lanceur ne peut rien voler s'il tient dÃƒÆ’Ã‚©jÃƒÆ’Ã‚  un objet."
+    "description": "Le lanceur attaque la cible et vole son objet. Le lanceur ne peut rien voler s'il tient déjà un objet."
   },
   "TUMVOISPLUS": {
     "token": "TUMVOISPLUS",
@@ -1205,7 +1205,7 @@
   },
   "LEVIOCHUTE": {
     "token": "LEVIOCHUTE",
-    "name": "LÃƒÆ’Ã‚©vio Chute",
+    "name": "Lévio Chute",
     "type": "MAGIQUE",
     "category": "Special",
     "power": "1",
@@ -1215,7 +1215,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "FixedDamageUserLevel",
-    "description": "Inflige des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts ÃƒÆ’Ã‚©quivalents au niveau du lanceur."
+    "description": "Inflige des dégâts équivalents au niveau du lanceur."
   },
   "PRISMAGIK": {
     "token": "PRISMAGIK",
@@ -1285,7 +1285,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "N'ÃƒÆ’Ã‚©choue jamais."
+    "description": "N'échoue jamais."
   },
   "BULLEEXPLOSIVE": {
     "token": "BULLEEXPLOSIVE",
@@ -1317,7 +1317,7 @@
   },
   "ECLATMAGIQUE": {
     "token": "ECLATMAGIQUE",
-    "name": "ÃƒÆ’ââ‚¬°clat Magique",
+    "name": "Éclat Magique",
     "type": "MAGIQUE",
     "category": "Special",
     "power": "80",
@@ -1359,7 +1359,7 @@
   },
   "RAYONMYSTERE": {
     "token": "RAYONMYSTERE",
-    "name": "Rayon MystÃƒÆ’Ã‚¨re",
+    "name": "Rayon Mystère",
     "type": "MAGIQUE",
     "category": "Special",
     "power": "120",
@@ -1369,7 +1369,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "AttackTwoTurnsLater",
-    "description": "Frappe la cible 2 tours aprÃƒÆ’Ã‚¨s lÃƒ¢ââ€š¬ââ€ž¢utilisation de cette capacitÃƒÆ’Ã‚©."
+    "description": "Frappe la cible 2 tours après l’utilisation de cette capacité."
   },
   "FANTASMAGORIE": {
     "token": "FANTASMAGORIE",
@@ -1401,7 +1401,7 @@
   },
   "ECHANGE": {
     "token": "ECHANGE",
-    "name": "ÃƒÆ’ââ‚¬°change",
+    "name": "Échange",
     "type": "MAGIQUE",
     "category": "Status",
     "power": "",
@@ -1411,7 +1411,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "UserTargetSwapAbilities",
-    "description": "Le lanceur utilise ses pouvoirs psychiques pour ÃƒÆ’Ã‚©changer son talent avec la cible."
+    "description": "Le lanceur utilise ses pouvoirs psychiques pour échanger son talent avec la cible."
   },
   "IMITATION": {
     "token": "IMITATION",
@@ -1443,7 +1443,7 @@
   },
   "MURLUMIERE": {
     "token": "MURLUMIERE",
-    "name": "Mur LumiÃƒÆ’Ã‚¨re",
+    "name": "Mur Lumière",
     "type": "MAGIQUE",
     "category": "Status",
     "power": "",
@@ -1453,7 +1453,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartWeakenSpecialDamageAgainstUserSide",
-    "description": "RÃƒÆ’Ã‚©duit les dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts causÃƒÆ’Ã‚©s par les capacitÃƒÆ’Ã‚©s spÃƒÆ’Ã‚©ciales durant 5 tours."
+    "description": "Réduit les dégâts causés par les capacités spéciales durant 5 tours."
   },
   "PARTAGEFORCE": {
     "token": "PARTAGEFORCE",
@@ -1565,7 +1565,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartWeakenPhysicalDamageAgainstUserSide",
-    "description": "RÃƒÆ’Ã‚©duit les dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts causÃƒÆ’Ã‚©s par les capacitÃƒÆ’Ã‚©s physiques durant 5 tours."
+    "description": "Réduit les dégâts causés par les capacités physiques durant 5 tours."
   },
   "REFLETMAGIK": {
     "token": "REFLETMAGIK",
@@ -1611,7 +1611,7 @@
   },
   "ZONEETRANGE": {
     "token": "ZONEETRANGE",
-    "name": "Zone ÃƒÆ’ââ‚¬°trange",
+    "name": "Zone Étrange",
     "type": "MAGIQUE",
     "category": "Status",
     "power": "",
@@ -1621,7 +1621,7 @@
     "flags": "CanMirrorMove",
     "effect_chance": "",
     "function": "StartSwapAllBattlersBaseDefensiveStats",
-    "description": "CrÃƒÆ’Ã‚©e une zone ÃƒÆ’Ã‚©trange oÃƒÆ’Ã‚¹ pendant 5 tours, la DÃƒÆ’Ã‚©fense et la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. de tous les PokÃƒÆ’Ã‚©mon sont inversÃƒÆ’Ã‚©es."
+    "description": "Crée une zone étrange où pendant 5 tours, la Défense et la Déf. Spé. de tous les Pokémon sont inversées."
   },
   "ZONEMAGIQUE": {
     "token": "ZONEMAGIQUE",
@@ -1639,7 +1639,7 @@
   },
   "DARDNUEE": {
     "token": "DARDNUEE",
-    "name": "Dard-NuÃƒÆ’Ã‚©e",
+    "name": "Dard-Nuée",
     "type": "INSECTE",
     "category": "Physical",
     "power": "25",
@@ -1649,7 +1649,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HitTwoToFiveTimes",
-    "description": "Touche 2 ÃƒÆ’Ã‚  5 fois la cible."
+    "description": "Touche 2 à 5 fois la cible."
   },
   "DOUBLEDARD": {
     "token": "DOUBLEDARD",
@@ -1677,7 +1677,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "PowerHigherWithConsecutiveUse",
-    "description": "La puissance augmente lorsque le lanceur touche plusieurs fois d'affilÃƒÆ’Ã‚©e."
+    "description": "La puissance augmente lorsque le lanceur touche plusieurs fois d'affilée."
   },
   "FRAPPECISAILLE": {
     "token": "FRAPPECISAILLE",
@@ -1817,7 +1817,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "SwitchOutUserDamagingMove",
-    "description": "AprÃƒÆ’Ã‚¨s son attaque, le lanceur change de place avec un PokÃƒÆ’Ã‚©mon de l'ÃƒÆ’Ã‚©quipe prÃƒÆ’Ã‚ªt au combat."
+    "description": "Après son attaque, le lanceur change de place avec un Pokémon de l'équipe prêt au combat."
   },
   "MEGADARD": {
     "token": "MEGADARD",
@@ -1859,7 +1859,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "100",
     "function": "LowerTargetSpAtk1",
-    "description": "Baisse de 1 l'Att. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Baisse de 1 l'Att. Spé. de la cible."
   },
   "FURIEBOND": {
     "token": "FURIEBOND",
@@ -1887,7 +1887,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "Aucun effet supplÃƒÆ’Ã‚©mentaire."
+    "description": "Aucun effet supplémentaire."
   },
   "VAMPIRISME": {
     "token": "VAMPIRISME",
@@ -1901,7 +1901,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HealUserByHalfOfDamageDone",
-    "description": "Soigne de la moitiÃƒÆ’Ã‚© des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts infligÃƒÆ’Ã‚©s."
+    "description": "Soigne de la moitié des dégâts infligés."
   },
   "APPELATTAQUE": {
     "token": "APPELATTAQUE",
@@ -1961,7 +1961,7 @@
   },
   "MEGACORNE": {
     "token": "MEGACORNE",
-    "name": "MÃƒÆ’Ã‚©gacorne",
+    "name": "Mégacorne",
     "type": "INSECTE",
     "category": "Physical",
     "power": "120",
@@ -1971,7 +1971,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "Aucun effet supplÃƒÆ’Ã‚©mentaire."
+    "description": "Aucun effet supplémentaire."
   },
   "FICELAGE": {
     "token": "FICELAGE",
@@ -1989,7 +1989,7 @@
   },
   "HARCELEMENT": {
     "token": "HARCELEMENT",
-    "name": "HarcÃƒÆ’Ã‚¨lement",
+    "name": "Harcèlement",
     "type": "INSECTE",
     "category": "Special",
     "power": "30",
@@ -1999,7 +1999,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "BindTarget",
-    "description": "Dure 4 ÃƒÆ’Ã‚  5 tours. EmpÃƒÆ’Ã‚ªche la fuite de la cible durant l'effet."
+    "description": "Dure 4 à 5 tours. Empêche la fuite de la cible durant l'effet."
   },
   "PARASITE": {
     "token": "PARASITE",
@@ -2013,7 +2013,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfUserLostHPThisTurn",
-    "description": "Double la puissance si le lanceur a ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© blessÃƒÆ’Ã‚© par la cible durant le tour."
+    "description": "Double la puissance si le lanceur a été blessé par la cible durant le tour."
   },
   "BUTINE": {
     "token": "BUTINE",
@@ -2069,11 +2069,11 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "100",
     "function": "LowerTargetSpAtk1",
-    "description": "Touche tous les ennemis. Baisse de 1 leur Att. SpÃƒÆ’Ã‚©."
+    "description": "Touche tous les ennemis. Baisse de 1 leur Att. Spé."
   },
   "VENTARGENTE": {
     "token": "VENTARGENTE",
-    "name": "Vent ArgentÃƒÆ’Ã‚©",
+    "name": "Vent Argenté",
     "type": "INSECTE",
     "category": "Special",
     "power": "60",
@@ -2153,7 +2153,7 @@
     "flags": "CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "",
     "function": "HealAllyOrDamageFoe",
-    "description": "Inflige des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts ÃƒÆ’Ã‚  un adversaire ou fait rÃƒÆ’Ã‚©cupÃƒÆ’Ã‚©rer des PV ÃƒÆ’Ã‚  un alliÃƒÆ’Ã‚©."
+    "description": "Inflige des dégâts à un adversaire ou fait récupérer des PV à un allié."
   },
   "BOURDON": {
     "token": "BOURDON",
@@ -2265,7 +2265,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoChuteDePollen",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Chute de Pollen pendant 5 tours."
+    "description": "Change la météo en Chute de Pollen pendant 5 tours."
   },
   "FILEMMELANT": {
     "token": "FILEMMELANT",
@@ -2433,7 +2433,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "PowerHigherWithTargetPositiveStatStages",
-    "description": "Plus les stats de la cible ont ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© augmentÃƒÆ’Ã‚©s, plus cette capacitÃƒÆ’Ã‚© est puissante."
+    "description": "Plus les stats de la cible ont été augmentés, plus cette capacité est puissante."
   },
   "TACLEFEU": {
     "token": "TACLEFEU",
@@ -2475,7 +2475,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfUserLastMoveFailed",
-    "description": "Double la puissance si le lanceur a ÃƒÆ’Ã‚©chouÃƒÆ’Ã‚© sa capacitÃƒÆ’Ã‚© au tour prÃƒÆ’Ã‚©cÃƒÆ’Ã‚©dent."
+    "description": "Double la puissance si le lanceur a échoué sa capacité au tour précédent."
   },
   "ROUSSI": {
     "token": "ROUSSI",
@@ -2531,7 +2531,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,ThawsUser",
     "effect_chance": "20",
     "function": "BurnTarget",
-    "description": "Peut brÃƒÆ’Ã‚»ler la cible."
+    "description": "Peut brûler la cible."
   },
   "CROCSFEU": {
     "token": "CROCSFEU",
@@ -2601,7 +2601,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,Punching",
     "effect_chance": "20",
     "function": "BurnTarget",
-    "description": "Peut brÃƒÆ’Ã‚»ler la cible."
+    "description": "Peut brûler la cible."
   },
   "CORNEBRULANTE": {
     "token": "CORNEBRULANTE",
@@ -2633,7 +2633,7 @@
   },
   "SOLBRULE": {
     "token": "SOLBRULE",
-    "name": "Sol BrÃƒÆ’Ã‚»lÃƒÆ’Ã‚©",
+    "name": "Sol Brûlé",
     "type": "FEU",
     "category": "Physical",
     "power": "80",
@@ -2643,7 +2643,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "30",
     "function": "BurnTarget",
-    "description": "Touche tous les PokÃƒÆ’Ã‚©mon autour du lanceur. Peut les brÃƒÆ’Ã‚»ler."
+    "description": "Touche tous les Pokémon autour du lanceur. Peut les brûler."
   },
   "PIEDBRULEUR": {
     "token": "PIEDBRULEUR",
@@ -2727,7 +2727,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,ThawsUser",
     "effect_chance": "20",
     "function": "RecoilThirdOfDamageDealtBurnTarget",
-    "description": "Blesse gravement le lanceur. Peut brÃƒÆ’Ã‚»ler la cible."
+    "description": "Blesse gravement le lanceur. Peut brûler la cible."
   },
   "RAGEBRULANTE": {
     "token": "RAGEBRULANTE",
@@ -2769,7 +2769,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "BindTarget",
-    "description": "Un tourbillon de flammes emprisonne lÃƒ¢ââ€š¬ââ€ž¢ennemi pendant 4 ÃƒÆ’Ã‚  5 tours."
+    "description": "Un tourbillon de flammes emprisonne l’ennemi pendant 4 à 5 tours."
   },
   "FLAMMECHE": {
     "token": "FLAMMECHE",
@@ -2825,7 +2825,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "20",
     "function": "BurnTarget",
-    "description": "Touche tous les ennemis. Peut les brÃƒÆ’Ã‚»ler."
+    "description": "Touche tous les ennemis. Peut les brûler."
   },
   "SOUFFLEARDENT": {
     "token": "SOUFFLEARDENT",
@@ -2857,7 +2857,7 @@
   },
   "FEUENSORCELE": {
     "token": "FEUENSORCELE",
-    "name": "Feu EnsorcelÃƒÆ’Ã‚©",
+    "name": "Feu Ensorcelé",
     "type": "FEU",
     "category": "Special",
     "power": "75",
@@ -2867,7 +2867,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "100",
     "function": "LowerTargetSpAtk1",
-    "description": "Diminue de 1 l'Att. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Diminue de 1 l'Att. Spé. de la cible."
   },
   "FEUENVIEUX": {
     "token": "FEUENVIEUX",
@@ -2881,7 +2881,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "BurnTargetIfTargetStatsRaisedThisTurn",
-    "description": "Touche tous les ennemis. BrÃƒÆ’Ã‚»le si les stats ont ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© augmentÃƒÆ’Ã‚©s pendant ce tour."
+    "description": "Touche tous les ennemis. Brûle si les stats ont été augmentés pendant ce tour."
   },
   "RAYONTHERMIQUE": {
     "token": "RAYONTHERMIQUE",
@@ -2937,7 +2937,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "RemoveTargetItem",
-    "description": "Si la cible tient un objet, celui-ci devient inutilisable."
+    "description": "Permet de brûler un arbre calciné hors combat. # JOHTO : à récupérer à Ébènelle."
   },
   "LANCEFLAMMES": {
     "token": "LANCEFLAMMES",
@@ -2951,7 +2951,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "30",
     "function": "BurnTarget",
-    "description": "Peut brÃƒÆ’Ã‚»ler la cible."
+    "description": "Peut brûler la cible."
   },
   "VAGUEDECHALEUR": {
     "token": "VAGUEDECHALEUR",
@@ -2997,7 +2997,7 @@
   },
   "DEFLAGRATION": {
     "token": "DEFLAGRATION",
-    "name": "DÃƒÆ’Ã‚©flagration",
+    "name": "Déflagration",
     "type": "FEU",
     "category": "Special",
     "power": "110",
@@ -3007,7 +3007,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "30",
     "function": "BurnTarget",
-    "description": "Peut brÃƒÆ’Ã‚»ler la cible."
+    "description": "Peut brûler la cible."
   },
   "FEUDENFER": {
     "token": "FEUDENFER",
@@ -3035,7 +3035,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "LowerUserSpAtk2",
-    "description": "Baisse de 2 l'Att. SpÃƒÆ’Ã‚©. du lanceur."
+    "description": "Baisse de 2 l'Att. Spé. du lanceur."
   },
   "FLAMMEULTIME": {
     "token": "FLAMMEULTIME",
@@ -3077,7 +3077,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoCanicule",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Canicule pendant 5 tours."
+    "description": "Change la météo en Canicule pendant 5 tours."
   },
   "CRACHFUMEE": {
     "token": "CRACHFUMEE",
@@ -3119,7 +3119,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "BurnTarget",
-    "description": "BrÃƒÆ’Ã‚»le la cible."
+    "description": "Brûle la cible."
   },
   "AIREDEFEU": {
     "token": "AIREDEFEU",
@@ -3139,10 +3139,10 @@
     "token": "RAFALEFEU",
     "name": "Rafale Feu",
     "type": "FEU",
-    "category": "Special",
-    "power": "150",
-    "accuracy": "90",
-    "pp": "5",
+    "category": "Physical",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
     "target": "NearOther",
     "flags": "CanProtect,CanMirrorMove,CannotMetronome",
     "effect_chance": "",
@@ -3385,7 +3385,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "FixedDamageUserLevel",
-    "description": "Inflige des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts ÃƒÆ’Ã‚©quivalents au niveau du lanceur."
+    "description": "Inflige des dégâts équivalents au niveau du lanceur."
   },
   "RIPOSTE": {
     "token": "RIPOSTE",
@@ -3399,7 +3399,7 @@
     "flags": "Contact,CanProtect",
     "effect_chance": "",
     "function": "CounterPhysicalDamage",
-    "description": "RÃƒÆ’Ã‚©pond ÃƒÆ’Ã‚  toute capacitÃƒÆ’Ã‚© physique en infligeant le double des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts subis."
+    "description": "Répond à toute capacité physique en infligeant le double des dégâts subis."
   },
   "TRIPLEPIED": {
     "token": "TRIPLEPIED",
@@ -3511,7 +3511,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfUserLostHPThisTurn",
-    "description": "Double la puissance si le lanceur a ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© blessÃƒÆ’Ã‚© durant ce tour."
+    "description": "Double la puissance si le lanceur a été blessé durant ce tour."
   },
   "BIGSPLASH": {
     "token": "BIGSPLASH",
@@ -3557,7 +3557,7 @@
   },
   "ECLATEROC": {
     "token": "ECLATEROC",
-    "name": "ÃƒÆ’ââ‚¬°clate-Roc",
+    "name": "Éclate-Roc",
     "type": "COMBAT",
     "category": "Physical",
     "power": "40",
@@ -3567,7 +3567,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "50",
     "function": "LowerTargetDefense1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©fense de la cible. Permet de briser les rochers hors combat."
+    "description": "Permet de briser les rochers hors combat. # KANTO : à récupérer à Terracotta. # SINNOH : à récupérer à Charbourg"
   },
   "POINGBOOST": {
     "token": "POINGBOOST",
@@ -3721,7 +3721,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "RemoveScreens",
-    "description": "Brise les barriÃƒÆ’Ã‚¨res."
+    "description": "Permet de casser une grand plaque hors combat."
   },
   "PIEDSOLIDE": {
     "token": "PIEDSOLIDE",
@@ -3763,7 +3763,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "30",
     "function": "LowerTargetDefense2",
-    "description": "Peut baisser de 2 la DÃƒÆ’Ã‚©fense de la cible."
+    "description": "Permet de briser une pointe de roche hors combat."
   },
   "VAMPIPOING": {
     "token": "VAMPIPOING",
@@ -3777,7 +3777,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,Punching",
     "effect_chance": "",
     "function": "HealUserByHalfOfDamageDone",
-    "description": "Soigne de la moitiÃƒÆ’Ã‚© des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts infligÃƒÆ’Ã‚©s."
+    "description": "Soigne de la moitié des dégâts infligés."
   },
   "BECCOMBATIF": {
     "token": "BECCOMBATIF",
@@ -3805,7 +3805,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "RecoilQuarterOfDamageDealt",
-    "description": "Blesse lÃƒÆ’Ã‚©gÃƒÆ’Ã‚¨rement le lanceur."
+    "description": "Blesse légèrement le lanceur."
   },
   "CLAQUEMUSCLEE": {
     "token": "CLAQUEMUSCLEE",
@@ -3903,7 +3903,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Taux de critique ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Taux de critique élevé."
   },
   "DYNAMOPOING": {
     "token": "DYNAMOPOING",
@@ -3973,7 +3973,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "LowerUserDefSpDef1",
-    "description": "Baisse de 1 la DÃƒÆ’Ã‚©fense et la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. du lanceur."
+    "description": "Baisse de 1 la Défense et la Déf. Spé. du lanceur."
   },
   "FOUFURAX": {
     "token": "FOUFURAX",
@@ -4001,7 +4001,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "LowerUserAtkDef1",
-    "description": "Baisse de 1 l'Attaque et la DÃƒÆ’Ã‚©fense du lanceur."
+    "description": "Baisse de 1 l'Attaque et la Défense du lanceur."
   },
   "TALONMARTEAU": {
     "token": "TALONMARTEAU",
@@ -4043,7 +4043,7 @@
     "flags": "Contact,CanProtect,Punching",
     "effect_chance": "",
     "function": "FailsIfUserDamagedThisTurn",
-    "description": "Le lanceur se concentre avant d'attaquer. Echoue s'il est touchÃƒÆ’Ã‚© avant d'avoir frappÃƒÆ’Ã‚©."
+    "description": "Le lanceur se concentre avant d'attaquer. Echoue s'il est touché avant d'avoir frappé."
   },
   "TOUTOURIEN": {
     "token": "TOUTOURIEN",
@@ -4089,7 +4089,7 @@
   },
   "AURASPHERE": {
     "token": "AURASPHERE",
-    "name": "AurasphÃƒÆ’Ã‚¨re",
+    "name": "Aurasphère",
     "type": "COMBAT",
     "category": "Special",
     "power": "80",
@@ -4099,7 +4099,7 @@
     "flags": "CanProtect,CanMirrorMove,Pulse,Bomb",
     "effect_chance": "",
     "function": "None",
-    "description": "N'ÃƒÆ’Ã‚©choue jamais."
+    "description": "N'échoue jamais."
   },
   "ONDEPROJETEE": {
     "token": "ONDEPROJETEE",
@@ -4127,7 +4127,7 @@
     "flags": "CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "10",
     "function": "LowerTargetSpDef1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Peut baisser de 1 la Déf. Spé. de la cible."
   },
   "CHAMPCOMBAT": {
     "token": "CHAMPCOMBAT",
@@ -4155,7 +4155,7 @@
     "flags": "CanMirrorMove",
     "effect_chance": "",
     "function": "RaiseUserAndAlliesAtkDef1",
-    "description": "Augmente de 1 l'Attaque et la DÃƒÆ’Ã‚©fense des alliÃƒÆ’Ã‚©s."
+    "description": "Augmente de 1 l'Attaque et la Défense des alliés."
   },
   "DETECTION": {
     "token": "DETECTION",
@@ -4183,7 +4183,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "RaiseUserAtkDef1",
-    "description": "Augmente de 1 l'Attaque et la DÃƒÆ’Ã‚©fense du lanceur."
+    "description": "Augmente de 1 l'Attaque et la Défense du lanceur."
   },
   "PREVENTION": {
     "token": "PREVENTION",
@@ -4411,7 +4411,7 @@
   },
   "DOUBLEVOLEE": {
     "token": "DOUBLEVOLEE",
-    "name": "Double VolÃƒÆ’Ã‚©e",
+    "name": "Double Volée",
     "type": "VOL",
     "category": "Physical",
     "power": "40",
@@ -4435,7 +4435,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfUserLostHPThisTurn",
-    "description": "Double la puissance si le lanceur a ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© blessÃƒÆ’Ã‚© par la cible durant le tour."
+    "description": "Double la puissance si le lanceur a été blessé par la cible durant le tour."
   },
   "ACROBATIE": {
     "token": "ACROBATIE",
@@ -4509,7 +4509,7 @@
   },
   "AEROPIQUE": {
     "token": "AEROPIQUE",
-    "name": "AÃƒÆ’Ã‚©ropique",
+    "name": "Aéropique",
     "type": "VOL",
     "category": "Physical",
     "power": "60",
@@ -4519,7 +4519,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "N'ÃƒÆ’Ã‚©choue jamais."
+    "description": "N'échoue jamais."
   },
   "CHUTELIBRE": {
     "token": "CHUTELIBRE",
@@ -4589,7 +4589,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "50",
     "function": "LowerTargetDefense1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©fense de la cible."
+    "description": "Peut baisser de 1 la Défense de la cible."
   },
   "AILERASOIR": {
     "token": "AILERASOIR",
@@ -4617,7 +4617,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "Aucun effet supplÃƒÆ’Ã‚©mentaire."
+    "description": "Aucun effet supplémentaire."
   },
   "TURBOIMPULSION": {
     "token": "TURBOIMPULSION",
@@ -4659,7 +4659,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "TwoTurnAttackInvulnerableInSky",
-    "description": "Le lanceur sÃƒ¢ââ€š¬ââ€ž¢envole au 1er tour et frappe au 2nd. Permet de se dÃƒÆ’Ã‚©placer en volant hors combat."
+    "description": "Le lanceur s’envole au 1er tour et frappe au 2nd. Permet de se déplacer en volant hors combat. # KANTO : dans la maison du Bosquet Radieux."
   },
   "FRACASAILE": {
     "token": "FRACASAILE",
@@ -4719,7 +4719,7 @@
   },
   "PIQUE": {
     "token": "PIQUE",
-    "name": "PiquÃƒÆ’Ã‚©",
+    "name": "Piqué",
     "type": "VOL",
     "category": "Physical",
     "power": "140",
@@ -4729,7 +4729,7 @@
     "flags": "CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "25",
     "function": "TwoTurnAttackFlinchTarget",
-    "description": "Attaque en 2 tours. Taux de critiques ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©. Peut apeurer la cible."
+    "description": "Attaque en 2 tours. Taux de critiques élevé. Peut apeurer la cible."
   },
   "TORNADAILE": {
     "token": "TORNADAILE",
@@ -4855,7 +4855,7 @@
     "flags": "CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Taux de critique ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Taux de critique élevé."
   },
   "LANCEPLUMES": {
     "token": "LANCEPLUMES",
@@ -4911,7 +4911,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "HealUserHalfOfTotalHPLoseFlyingTypeThisTurn",
-    "description": "Restaure jusqu'ÃƒÆ’Ã‚  la moitiÃƒÆ’Ã‚© des PV max du lanceur."
+    "description": "Restaure jusqu'à la moitié des PV max du lanceur."
   },
   "COURSIER": {
     "token": "COURSIER",
@@ -4953,7 +4953,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoDouceBrise",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Douce Brise pendant 5 tours."
+    "description": "Change la météo en Douce Brise pendant 5 tours."
   },
   "ENVOL": {
     "token": "ENVOL",
@@ -5037,7 +5037,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "RandomPowerDoublePowerIfTargetUnderground",
-    "description": "Attaque ÃƒÆ’Ã‚  intensitÃƒÆ’Ã‚© variable. Touche tous les PokÃƒÆ’Ã‚©mon autour du lanceur."
+    "description": "Attaque à intensité variable. Touche tous les Pokémon autour du lanceur."
   },
   "CORRECTION": {
     "token": "CORRECTION",
@@ -5069,7 +5069,7 @@
   },
   "TREPIGNEMENT": {
     "token": "TREPIGNEMENT",
-    "name": "TrÃƒÆ’Ã‚©pignement",
+    "name": "Trépignement",
     "type": "TERRE",
     "category": "Physical",
     "power": "75",
@@ -5079,7 +5079,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfUserLastMoveFailed",
-    "description": "Double la puissance si le lanceur a ÃƒÆ’Ã‚©chouÃƒÆ’Ã‚© sa capacitÃƒÆ’Ã‚© au tour prÃƒÆ’Ã‚©cÃƒÆ’Ã‚©dent."
+    "description": "Double la puissance si le lanceur a échoué sa capacité au tour précédent."
   },
   "ABIME": {
     "token": "ABIME",
@@ -5233,7 +5233,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "TwoTurnAttackInvulnerableUnderground",
-    "description": "Le lanceur creuse au 1er tour et frappe au 2nd."
+    "description": "Permet d'accéder à des creuvasses hors combat. # KANTO : à récupérer dans le Repaire Rocket."
   },
   "TUNNELIER": {
     "token": "TUNNELIER",
@@ -5247,7 +5247,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Taux de critiques ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Taux de critiques élevé."
   },
   "FRACTURE": {
     "token": "FRACTURE",
@@ -5279,7 +5279,7 @@
   },
   "SEISME": {
     "token": "SEISME",
-    "name": "SÃƒÆ’Ã‚©isme",
+    "name": "Séisme",
     "type": "TERRE",
     "category": "Physical",
     "power": "100",
@@ -5289,7 +5289,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfTargetUnderground",
-    "description": "Touche tous les PokÃƒÆ’Ã‚©mon autour du lanceur."
+    "description": "Touche tous les Pokémon autour du lanceur."
   },
   "ASSAUTFRONTAL": {
     "token": "ASSAUTFRONTAL",
@@ -5415,7 +5415,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "30",
     "function": "LowerTargetSpDef1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Peut baisser de 1 la Déf. Spé. de la cible."
   },
   "GEOCANON": {
     "token": "GEOCANON",
@@ -5625,7 +5625,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "PursueSwitchingFoe",
-    "description": "Double la puissance si la cible s'apprÃƒÆ’Ã‚ªte ÃƒÆ’Ã‚  ÃƒÆ’Ã‚ªtre remplacÃƒÆ’Ã‚©e."
+    "description": "Double la puissance si la cible s'apprête à être remplacée."
   },
   "LECHEFROUSSE": {
     "token": "LECHEFROUSSE",
@@ -5695,7 +5695,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "15",
     "function": "ParalyzeBurnOrFreezeTarget",
-    "description": "Peut paralyser, brÃƒÆ’Ã‚»ler ou geler la cible."
+    "description": "Peut paralyser, brûler ou geler la cible."
   },
   "POINGOMBRE": {
     "token": "POINGOMBRE",
@@ -5723,7 +5723,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Taux de critiques ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Taux de critiques élevé."
   },
   "HANTISE": {
     "token": "HANTISE",
@@ -5737,7 +5737,7 @@
     "flags": "Contact,CanMirrorMove",
     "effect_chance": "",
     "function": "TwoTurnAttackInvulnerableRemoveProtections",
-    "description": "Le lanceur disparaÃƒÆ’Ã‚®t au 1er tour et frappe au 2nd. Passe outre les protections."
+    "description": "Le lanceur disparaît au 1er tour et frappe au 2nd. Passe outre les protections."
   },
   "ESPRITFRAPPEUR": {
     "token": "ESPRITFRAPPEUR",
@@ -5751,7 +5751,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "FailsIfTargetHasNoItem",
-    "description": "Manipule l'objet tenu par la cible pour l'attaquer. ÃƒÆ’ââ‚¬°choue si elle ne tient rien."
+    "description": "Manipule l'objet tenu par la cible pour l'attaquer. Échoue si elle ne tient rien."
   },
   "BELLEMORT": {
     "token": "BELLEMORT",
@@ -5811,7 +5811,7 @@
   },
   "CHATIMENT": {
     "token": "CHATIMENT",
-    "name": "ChÃƒÆ’Ã‚¢timent",
+    "name": "Châtiment",
     "type": "SPECTRE",
     "category": "Special",
     "power": "65",
@@ -5821,7 +5821,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfTargetStatusProblem",
-    "description": "Double la puissance si la cible a un problÃƒÆ’Ã‚¨me de statut."
+    "description": "Double la puissance si la cible a un problème de statut."
   },
   "DOULEUR": {
     "token": "DOULEUR",
@@ -5933,7 +5933,7 @@
     "flags": "CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "20",
     "function": "LowerTargetSpDef1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Peut baisser de 1 la Déf. Spé. de la cible."
   },
   "HECATOMBE": {
     "token": "HECATOMBE",
@@ -5961,7 +5961,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "10",
     "function": "FlinchTarget",
-    "description": "Touche tous les PokÃƒÆ’Ã‚©mon autour du lanceur. Peut les apeurer."
+    "description": "Touche tous les Pokémon autour du lanceur. Peut les apeurer."
   },
   "ECLATSPECTRAL": {
     "token": "ECLATSPECTRAL",
@@ -6003,7 +6003,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoBrouillard",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Brouillard pendant 5 tours."
+    "description": "Change la météo en Brouillard pendant 5 tours."
   },
   "BRUME": {
     "token": "BRUME",
@@ -6283,7 +6283,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "PowerHigherWithConsecutiveUse",
-    "description": "La puissance augmente lorsque le lanceur touche plusieurs fois d'affilÃƒÆ’Ã‚©e."
+    "description": "La puissance augmente lorsque le lanceur touche plusieurs fois d'affilée."
   },
   "DUNEARIDE": {
     "token": "DUNEARIDE",
@@ -6339,7 +6339,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HealUserByHalfOfDamageDone",
-    "description": "Soigne de la moitiÃƒÆ’Ã‚© des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts infligÃƒÆ’Ã‚©s."
+    "description": "Soigne de la moitié des dégâts infligés."
   },
   "POINGCACTUS": {
     "token": "POINGCACTUS",
@@ -6479,7 +6479,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "BindTarget",
-    "description": "Emprisonne la cible pendant de 4 ÃƒÆ’Ã‚  5 tours."
+    "description": "Emprisonne la cible pendant de 4 à 5 tours."
   },
   "TOMBEAU": {
     "token": "TOMBEAU",
@@ -6511,7 +6511,7 @@
   },
   "EROSION": {
     "token": "EROSION",
-    "name": "ÃƒÆ’ââ‚¬°rosion",
+    "name": "Érosion",
     "type": "SABLE",
     "category": "Special",
     "power": "50",
@@ -6521,7 +6521,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "50",
     "function": "LowerTargetSpDef1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Permet de gravir des pentes sableuses hors combat."
   },
   "PICMORTEL": {
     "token": "PICMORTEL",
@@ -6549,7 +6549,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "25",
     "function": "BurnTarget",
-    "description": "Peut brÃƒÆ’Ã‚»ler la cible."
+    "description": "Peut brûler la cible."
   },
   "SOUFFLESABLEUX": {
     "token": "SOUFFLESABLEUX",
@@ -6577,7 +6577,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "100",
     "function": "LowerTargetSpeed1",
-    "description": "RÃƒÆ’Ã‚©duit de 1 la Vitesse de la cible."
+    "description": "Réduit de 1 la Vitesse de la cible."
   },
   "SABLAVAGUE": {
     "token": "SABLAVAGUE",
@@ -6595,7 +6595,7 @@
   },
   "BOMBESABLEE": {
     "token": "BOMBESABLEE",
-    "name": "Bombe SablÃƒÆ’Ã‚©e",
+    "name": "Bombe Sablée",
     "type": "SABLE",
     "category": "Special",
     "power": "80",
@@ -6605,7 +6605,7 @@
     "flags": "CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "20",
     "function": "LowerTargetSpDef1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Peut baisser de 1 la Déf. Spé. de la cible."
   },
   "SARCOPHAGE": {
     "token": "SARCOPHAGE",
@@ -6665,17 +6665,17 @@
   },
   "TEMPETEDESABLE": {
     "token": "TEMPETEDESABLE",
-    "name": "TempÃƒÆ’Ã‚ªte de Sable",
+    "name": "Typhon Pyrosable",
     "type": "SABLE",
-    "category": "Status",
-    "power": "",
-    "accuracy": "0",
-    "pp": "10",
+    "category": "Physical",
+    "power": "100",
+    "accuracy": "80",
+    "pp": "5",
     "target": "BothSides",
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoTempeteDeSable",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en TempÃƒÆ’Ã‚ªte de Sable pendant 5 tours."
+    "description": "Change la météo en Tempête de Sable pendant 5 tours."
   },
   "TYPHONPYROSABLE": {
     "token": "TYPHONPYROSABLE",
@@ -6693,7 +6693,7 @@
   },
   "CHUTEMINERALE": {
     "token": "CHUTEMINERALE",
-    "name": "Chute MinÃƒÆ’Ã‚©rale",
+    "name": "Chute Minérale",
     "type": "ROCHE",
     "category": "Physical",
     "power": "1",
@@ -6703,7 +6703,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,TramplesMinimize",
     "effect_chance": "",
     "function": "PowerHigherWithUserHeavierThanTarget",
-    "description": "Si le lanceur est plus lourd que la cible, lÃƒ¢ââ€š¬ââ€ž¢effet augmente en consÃƒÆ’Ã‚©quence."
+    "description": "Si le lanceur est plus lourd que la cible, l’effet augmente en conséquence."
   },
   "POINGANTIQUE": {
     "token": "POINGANTIQUE",
@@ -6745,7 +6745,7 @@
     "flags": "CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "",
     "function": "HitTwoToFiveTimes",
-    "description": "Touche 2 ÃƒÆ’Ã‚  5 fois la cible."
+    "description": "Touche 2 à 5 fois la cible."
   },
   "STALAGMITE": {
     "token": "STALAGMITE",
@@ -6773,7 +6773,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "MultiTurnAttackPowersUpEachTurn",
-    "description": "Une fois lancÃƒÆ’Ã‚©e, cette capacitÃƒÆ’Ã‚© ne peut s'annuler. LÃƒ¢ââ€š¬ââ€ž¢attaque gagne en puissance ÃƒÆ’Ã‚  chaque coup."
+    "description": "Une fois lancée, cette capacité ne peut s'annuler. L’attaque gagne en puissance à chaque coup."
   },
   "POIGNESOLIDE": {
     "token": "POIGNESOLIDE",
@@ -6829,7 +6829,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "100",
     "function": "LowerTargetSpeed1",
-    "description": "Baisse de 1 la Vitesse de la cible."
+    "description": "Réduit de 1 la Vitesse de la cible."
   },
   "TACLEROCAILLEUX": {
     "token": "TACLEROCAILLEUX",
@@ -6847,7 +6847,7 @@
   },
   "EBOULEMENT": {
     "token": "EBOULEMENT",
-    "name": "ÃƒÆ’ââ‚¬°boulement",
+    "name": "Éboulement",
     "type": "ROCHE",
     "category": "Physical",
     "power": "75",
@@ -6913,7 +6913,7 @@
     "flags": "CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Taux de critiques ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Taux de critiques élevé."
   },
   "CROCSFOUGUEUX": {
     "token": "CROCSFOUGUEUX",
@@ -7029,7 +7029,7 @@
   },
   "PIEGEDEROC": {
     "token": "PIEGEDEROC",
-    "name": "PiÃƒÆ’Ã‚¨ge de Roc",
+    "name": "Piège de Roc",
     "type": "ROCHE",
     "category": "Status",
     "power": "",
@@ -7039,15 +7039,15 @@
     "flags": "",
     "effect_chance": "",
     "function": "AddStealthRocksToFoeSide",
-    "description": "Ajoute sur le terrain adverse : DÃƒÆ’Ã‚©bris de pierre."
+    "description": "Ajoute sur le terrain adverse : Débris de pierre."
   },
   "POLIROCHE": {
     "token": "POLIROCHE",
-    "name": "Poliroche",
+    "name": "Hache de Pierre",
     "type": "ROCHE",
-    "category": "Status",
-    "power": "",
-    "accuracy": "0",
+    "category": "Physical",
+    "power": "65",
+    "accuracy": "100",
     "pp": "20",
     "target": "User",
     "flags": "",
@@ -7207,7 +7207,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "10",
     "function": "PoisonTarget",
-    "description": "Peut empoisonner la cible. Taux de critique ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Peut empoisonner la cible. Taux de critique élevé."
   },
   "CROCSTOXIK": {
     "token": "CROCSTOXIK",
@@ -7361,7 +7361,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfTargetPoisoned",
-    "description": "Double la puissance si la cible est empoisonnÃƒÆ’Ã‚©e."
+    "description": "Double la puissance si la cible est empoisonnée."
   },
   "PUREDPOIS": {
     "token": "PUREDPOIS",
@@ -7431,7 +7431,7 @@
     "flags": "CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "30",
     "function": "LowerTargetSpDef2",
-    "description": "Peut baisser de 2 la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Peut baisser de 2 la Déf. Spé. de la cible."
   },
   "SUCAGRESSIF": {
     "token": "SUCAGRESSIF",
@@ -7449,7 +7449,7 @@
   },
   "DETRITUS": {
     "token": "DETRITUS",
-    "name": "DÃƒÆ’Ã‚©tritus",
+    "name": "Détritus",
     "type": "POISON",
     "category": "Special",
     "power": "65",
@@ -7529,7 +7529,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "RemoveScreens",
-    "description": "Brise les barriÃƒÆ’Ã‚¨res."
+    "description": "Brise les barrières."
   },
   "BOMBEBEURK": {
     "token": "BOMBEBEURK",
@@ -7557,7 +7557,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "20",
     "function": "PoisonTarget",
-    "description": "Touche tous les PokÃƒÆ’Ã‚©mon autour du lanceur. Peut les empoisonner."
+    "description": "Touche tous les Pokémon autour du lanceur. Peut les empoisonner."
   },
   "GAZEXPLOSIF": {
     "token": "GAZEXPLOSIF",
@@ -7589,7 +7589,7 @@
   },
   "DELUGETOXIK": {
     "token": "DELUGETOXIK",
-    "name": "DÃƒÆ’Ã‚©luge Toxik",
+    "name": "Déluge Toxik",
     "type": "POISON",
     "category": "Special",
     "power": "100",
@@ -7599,7 +7599,7 @@
     "flags": "CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "20",
     "function": "PoisonTarget",
-    "description": "Peut empoisonner la cible. Taux de critique ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Peut empoisonner la cible. Taux de critique élevé."
   },
   "ERUCTATION": {
     "token": "ERUCTATION",
@@ -7683,7 +7683,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "CorrodeTargetItem",
-    "description": "EmpÃƒÆ’Ã‚ªche la cible d'utiliser l'objet qu'il tient."
+    "description": "Empêche la cible d'utiliser l'objet qu'il tient."
   },
   "GAZTOXIK": {
     "token": "GAZTOXIK",
@@ -7771,17 +7771,17 @@
   },
   "TOXIK": {
     "token": "TOXIK",
-    "name": "Toxik",
+    "name": "Chaîne Malsaine",
     "type": "POISON",
-    "category": "Status",
-    "power": "",
-    "accuracy": "90",
-    "pp": "10",
+    "category": "Special",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
     "target": "NearOther",
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "BadPoisonTarget",
-    "description": "Empoisonne gravement la cible."
+    "description": "Empoisonne gravement la cible. Les dégâts dus au poison augmentent à chaque tour."
   },
   "FILTOXIQUE": {
     "token": "FILTOXIQUE",
@@ -8033,7 +8033,7 @@
     "flags": "CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Touche tous les ennemis. Taux de critiques ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Touche tous les ennemis. Taux de critiques élevé."
   },
   "LAMESENSIBLE": {
     "token": "LAMESENSIBLE",
@@ -8089,7 +8089,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Taux de critiques ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Permet de couper un buisson hors combat."
   },
   "GLISSHERBE": {
     "token": "GLISSHERBE",
@@ -8103,7 +8103,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HigherPriorityInGrassyTerrain",
-    "description": "Frappe toujours en prioritÃƒÆ’Ã‚© si un Champ Plante est actif."
+    "description": "Frappe toujours en priorité si un Champ Plante est actif."
   },
   "CANONFIBRE": {
     "token": "CANONFIBRE",
@@ -8187,11 +8187,11 @@
     "flags": "Contact,CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Taux de critiques ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Taux de critiques élevé."
   },
   "TEMPETEFLORALE": {
     "token": "TEMPETEFLORALE",
-    "name": "TempÃƒÆ’Ã‚ªte Florale",
+    "name": "Tempête Florale",
     "type": "PLANTE",
     "category": "Physical",
     "power": "90",
@@ -8201,7 +8201,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "Touche tous les PokÃƒÆ’Ã‚©mon autour du lanceur."
+    "description": "Touche tous les Pokémon autour du lanceur."
   },
   "CHLOROFORCE": {
     "token": "CHLOROFORCE",
@@ -8271,7 +8271,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "PowerHigherWithTargetWeight",
-    "description": "Plus la cible est lourde, plus elle subit de dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts."
+    "description": "..."
   },
   "JETDEPOLLEN": {
     "token": "JETDEPOLLEN",
@@ -8299,7 +8299,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfUserLostHPThisTurn",
-    "description": "Double la puissance si le lanceur a ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© blessÃƒÆ’Ã‚© durant le tour."
+    "description": "Double la puissance si le lanceur a été blessé durant le tour."
   },
   "VOLEVIE": {
     "token": "VOLEVIE",
@@ -8373,7 +8373,7 @@
   },
   "MEGASANGSUE": {
     "token": "MEGASANGSUE",
-    "name": "MÃƒÆ’Ã‚©ga-Sangsue",
+    "name": "Méga-Sangsue",
     "type": "PLANTE",
     "category": "Special",
     "power": "60",
@@ -8383,7 +8383,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HealUserByHalfOfDamageDone",
-    "description": "Soigne de la moitiÃƒÆ’Ã‚© des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts infligÃƒÆ’Ã‚©s."
+    "description": "Soigne de la moitié des dégâts infligés."
   },
   "PHYTOMIXEUR": {
     "token": "PHYTOMIXEUR",
@@ -8397,7 +8397,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "50",
     "function": "LowerTargetAccuracy1",
-    "description": "Peut baisser de 1 la PrÃƒÆ’Ã‚©cision de la cible."
+    "description": "Peut baisser de 1 la Précision de la cible."
   },
   "FLEURPARFUMEE": {
     "token": "FLEURPARFUMEE",
@@ -8443,7 +8443,7 @@
   },
   "ECOSPHERE": {
     "token": "ECOSPHERE",
-    "name": "ÃƒÆ’ââ‚¬°co-SphÃƒÆ’Ã‚¨re",
+    "name": "Éco-Sphère",
     "type": "PLANTE",
     "category": "Special",
     "power": "90",
@@ -8453,7 +8453,7 @@
     "flags": "CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "10",
     "function": "LowerTargetSpDef1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Peut baisser de 1 la Déf. Spé. de la cible."
   },
   "FLORAISON": {
     "token": "FLORAISON",
@@ -8481,7 +8481,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HealUserByHalfOfDamageDone",
-    "description": "Soigne de la moitiÃƒÆ’Ã‚© des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts infligÃƒÆ’Ã‚©s."
+    "description": "Soigne de la moitié des dégâts infligés."
   },
   "DANSEFLEURS": {
     "token": "DANSEFLEURS",
@@ -8495,7 +8495,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,Dance",
     "effect_chance": "",
     "function": "MultiTurnAttackConfuseUserAtEnd",
-    "description": "Dure de 2 ÃƒÆ’Ã‚  3 tours, puis le lanceur devient confus."
+    "description": "Dure de 2 à 3 tours, puis le lanceur devient confus."
   },
   "CANONFLORAL": {
     "token": "CANONFLORAL",
@@ -8677,7 +8677,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "SetTargetAbilityToInsomnia",
-    "description": "Remplace le talent de la cible par Insomnia, l'empÃƒÆ’Ã‚ªchant ainsi de dormir."
+    "description": "Remplace le talent de la cible par Insomnia, l'empêchant ainsi de dormir."
   },
   "SPORE": {
     "token": "SPORE",
@@ -8765,12 +8765,12 @@
   },
   "VEGEATTAQUE": {
     "token": "VEGEATTAQUE",
-    "name": "VÃƒÆ’Ã‚©gÃƒÆ’Ã‚©-Attaque",
+    "name": "Végé-Attaque",
     "type": "PLANTE",
-    "category": "Special",
-    "power": "150",
-    "accuracy": "90",
-    "pp": "5",
+    "category": "Status",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "15",
     "target": "NearOther",
     "flags": "CanProtect,CanMirrorMove,CannotMetronome",
     "effect_chance": "",
@@ -8985,7 +8985,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "FixedDamageHalfTargetHP",
-    "description": "RÃƒÆ’Ã‚©duit de moitiÃƒÆ’Ã‚© les PV de la cible."
+    "description": "Réduit de moitié les PV de la cible."
   },
   "DONNATUREL": {
     "token": "DONNATUREL",
@@ -8999,7 +8999,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "TypeAndPowerDependOnUserBerry",
-    "description": "DÃƒÆ’Ã‚©termine le type et la puissance de l'attaque grÃƒÆ’Ã‚¢ce ÃƒÆ’Ã‚  la Baie tenue."
+    "description": "Détermine le type et la puissance de l'attaque grâce à la Baie tenue."
   },
   "EFFORT": {
     "token": "EFFORT",
@@ -9013,7 +9013,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "LowerTargetHPToUserHP",
-    "description": "Une attaque qui rÃƒÆ’Ã‚©duit les PV de la cible au niveau des PV du lanceur."
+    "description": "Une attaque qui réduit les PV de la cible au niveau des PV du lanceur."
   },
   "FRUSTRATION": {
     "token": "FRUSTRATION",
@@ -9027,7 +9027,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "PowerLowerWithUserHappiness",
-    "description": "Moins le PokÃƒÆ’Ã‚©mon dÃƒÆ’Ã‚©teste son dresseur, plus cette attaque est puissante."
+    "description": "Moins le Pokémon déteste son dresseur, plus cette attaque est puissante."
   },
   "GIGOTAGE": {
     "token": "GIGOTAGE",
@@ -9069,7 +9069,7 @@
     "flags": "Contact,CanProtect",
     "effect_chance": "",
     "function": "MultiTurnAttackBideThenReturnDoubleDamage",
-    "description": "Le lanceur prend les coups durant 2 tours, puis inflige le double des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts subis."
+    "description": "Le lanceur prend les coups durant 2 tours, puis inflige le double des dégâts subis."
   },
   "RETOUR": {
     "token": "RETOUR",
@@ -9083,7 +9083,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "PowerHigherWithUserHappiness",
-    "description": "Plus le PokÃƒÆ’Ã‚©mon apprÃƒÆ’Ã‚©cie son dresseur, plus cette attaque est puissante."
+    "description": "Plus le Pokémon apprécie son dresseur, plus cette attaque est puissante."
   },
   "PROLIFERATION": {
     "token": "PROLIFERATION",
@@ -9237,7 +9237,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfUserLostHPThisTurn",
-    "description": "Double la puissance si le lanceur a ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© blessÃƒÆ’Ã‚© par la cible durant le tour."
+    "description": "Double la puissance si le lanceur a été blessé par la cible durant le tour."
   },
   "CHATPARDEUR": {
     "token": "CHATPARDEUR",
@@ -9255,7 +9255,7 @@
   },
   "FACADE": {
     "token": "FACADE",
-    "name": "FaÃƒÆ’Ã‚§ade",
+    "name": "Façade",
     "type": "NORMAL",
     "category": "Physical",
     "power": "70",
@@ -9265,7 +9265,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfUserPoisonedBurnedParalyzed",
-    "description": "Double la puissance lorsque le lanceur est empoisonnÃƒÆ’Ã‚©, paralysÃƒÆ’Ã‚© ou brÃƒÆ’Ã‚»lÃƒÆ’Ã‚©."
+    "description": "Double la puissance lorsque le lanceur est empoisonné, paralysé ou brûlé."
   },
   "STIMULANT": {
     "token": "STIMULANT",
@@ -9293,7 +9293,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfAllyFaintedLastTurn",
-    "description": "Double la puissance si un PokÃƒÆ’Ã‚©mon de l'ÃƒÆ’Ã‚©quipe a ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© mis K.O. au tour d'avant."
+    "description": "Double la puissance si un Pokémon de l'équipe a été mis K.O. au tour d'avant."
   },
   "EMPALKORNE": {
     "token": "EMPALKORNE",
@@ -9325,7 +9325,7 @@
   },
   "FRENESIE": {
     "token": "FRENESIE",
-    "name": "FrÃƒÆ’Ã‚©nÃƒÆ’Ã‚©sie",
+    "name": "Frénésie",
     "type": "NORMAL",
     "category": "Physical",
     "power": "20",
@@ -9335,7 +9335,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "StartRaiseUserAtk1WhenDamaged",
-    "description": "Une fois activÃƒÆ’Ã‚©e, augmente de 1 l'Attaque du lanceur ÃƒÆ’Ã‚  mesure qu'il subit des attaques."
+    "description": "Une fois activée, augmente de 1 l'Attaque du lanceur à mesure qu'il subit des attaques."
   },
   "RUSE": {
     "token": "RUSE",
@@ -9461,7 +9461,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "CannotMakeTargetFaint",
-    "description": "Garde au moins 1 PV ÃƒÆ’Ã‚  la cible pour qu'elle ne tombe pas K.O."
+    "description": "Garde au moins 1 PV à la cible pour qu'elle ne tombe pas K.O."
   },
   "JACKPOT": {
     "token": "JACKPOT",
@@ -9475,7 +9475,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "AddMoneyGainedFromBattle",
-    "description": "Permet d'obtenir de l'argent ÃƒÆ’Ã‚  la fin du combat."
+    "description": "Permet d'obtenir de l'argent à la fin du combat."
   },
   "POINGCHANCE": {
     "token": "POINGCHANCE",
@@ -9503,7 +9503,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "CannotMakeTargetFaint",
-    "description": "Garde au moins 1 PV ÃƒÆ’Ã‚  la cible pour qu'elle ne tombe pas K.O."
+    "description": "Garde au moins 1 PV à la cible pour qu'elle ne tombe pas K.O."
   },
   "VIVEATTAQUE": {
     "token": "VIVEATTAQUE",
@@ -9573,7 +9573,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "20",
     "function": "LowerTargetDefense1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©fense de la cible. Permet de couper des arbustes hors combat."
+    "description": "Permet de couper des arbustes hors combat. # KANTO : donné par le Capitaine de l'Océane. # JOHTO : battre Hector et parler à un Karatéka à Écorcia."
   },
   "TOURRAPIDE": {
     "token": "TOURRAPIDE",
@@ -9703,7 +9703,7 @@
   },
   "FORCECACHEE": {
     "token": "FORCECACHEE",
-    "name": "Force CachÃƒÆ’Ã‚©e",
+    "name": "Force Cachée",
     "type": "NORMAL",
     "category": "Physical",
     "power": "70",
@@ -9713,7 +9713,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "30",
     "function": "EffectDependsOnEnvironment",
-    "description": "Les effets varient en fonction de l'environnement ou du terrain posÃƒÆ’Ã‚©."
+    "description": "Permet de trouver des endroits cachés hors combat."
   },
   "UPPERCUT": {
     "token": "UPPERCUT",
@@ -9769,7 +9769,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "Aucun effet supplÃƒÆ’Ã‚©mentaire. Permet de dÃƒÆ’Ã‚©placer des rochers hors combat."
+    "description": "Permet de déplacer des rochers lisses hors combat. # KANTO : à récupérer dans le Manoir Pokémon # SINNOH : donné par l'une des deux vieillardes au sommet de la Tour perdue, le jour."
   },
   "LAMEPUISSANTE": {
     "token": "LAMEPUISSANTE",
@@ -9811,11 +9811,11 @@
     "flags": "Contact,CanProtect,CanMirrorMove,Punching",
     "effect_chance": "",
     "function": "None",
-    "description": "Aucun effet supplÃƒÆ’Ã‚©mentaire."
+    "description": "Aucun effet supplémentaire."
   },
   "VITESSEEXTREME": {
     "token": "VITESSEEXTREME",
-    "name": "Vitesse ExtrÃƒÆ’Ã‚ªme",
+    "name": "Vitesse Extrême",
     "type": "NORMAL",
     "category": "Physical",
     "power": "80",
@@ -9825,7 +9825,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "Frappe en prioritÃƒÆ’Ã‚©."
+    "description": "Frappe en priorité."
   },
   "PLAQUAGE": {
     "token": "PLAQUAGE",
@@ -9867,7 +9867,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "20",
     "function": "ConfuseTarget",
-    "description": "Peut rendre la cible confuse. Permet d'escalader certains rochers hors combat."
+    "description": "Permet d'escalader des paroies hors combat. # JOHTO : dans le Mont Creuset. # SINNOH : sur la Route 21."
   },
   "COUPFURIEUX": {
     "token": "COUPFURIEUX",
@@ -9881,7 +9881,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "100",
     "function": "LowerTargetDefense1",
-    "description": "Baisse de 1 la DÃƒÆ’Ã‚©fense de la cible."
+    "description": "Baisse de 1 la Défense de la cible."
   },
   "BOMBEOEUF": {
     "token": "BOMBEOEUF",
@@ -9913,7 +9913,7 @@
   },
   "DAMOCLES": {
     "token": "DAMOCLES",
-    "name": "DamoclÃƒÆ’Ã‚¨s",
+    "name": "Damoclès",
     "type": "NORMAL",
     "category": "Physical",
     "power": "120",
@@ -9937,7 +9937,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "MultiTurnAttackConfuseUserAtEnd",
-    "description": "Dure de 2 ÃƒÆ’Ã‚  3 tours, puis le lanceur devient confus."
+    "description": "Dure de 2 à 3 tours, puis le lanceur devient confus."
   },
   "DEPASSEMENT": {
     "token": "DEPASSEMENT",
@@ -10165,7 +10165,7 @@
   },
   "PUISSANCECACHEE": {
     "token": "PUISSANCECACHEE",
-    "name": "Puissance CachÃƒÆ’Ã‚©e",
+    "name": "Puissance Cachée",
     "type": "NORMAL",
     "category": "Special",
     "power": "60",
@@ -10175,7 +10175,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "TypeDependsOnUserIVs",
-    "description": "Attaque dont le type dÃƒÆ’Ã‚©pend du PokÃƒÆ’Ã‚©mon qui lÃƒ¢ââ€š¬ââ€ž¢utilise."
+    "description": "Attaque dont le type dépend du Pokémon qui l’utilise."
   },
   "TRIPLATTAQUE": {
     "token": "TRIPLATTAQUE",
@@ -10189,7 +10189,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "25",
     "function": "ParalyzeBurnOrFreezeTarget",
-    "description": "Peut paralyser, brÃƒÆ’Ã‚»ler ou geler la cible."
+    "description": "Peut paralyser, brûler ou geler la cible."
   },
   "TERAEXPLOSION": {
     "token": "TERAEXPLOSION",
@@ -10245,7 +10245,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "ProtectUser",
-    "description": "ProtÃƒÆ’Ã‚¨ge de toutes les attaques. Peut ÃƒÆ’Ã‚©chouer si utilisÃƒÆ’Ã‚©e plusieurs fois de suite."
+    "description": "Protège de toutes les attaques. Peut échouer si utilisée plusieurs fois de suite."
   },
   "AFFILAGE": {
     "token": "AFFILAGE",
@@ -10315,7 +10315,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "AttractTarget",
-    "description": "Si la cible est du sexe opposÃƒÆ’Ã‚©, la rend amoureuse du lanceur."
+    "description": "Si la cible est du sexe opposé, la rend amoureuse du lanceur."
   },
   "AVALE": {
     "token": "AVALE",
@@ -10385,7 +10385,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoBeauTemps",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Beau Temps pendant 5 tours."
+    "description": "Change la météo en Beau Temps pendant 5 tours."
   },
   "BOOST": {
     "token": "BOOST",
@@ -10511,7 +10511,7 @@
     "flags": "CanProtect",
     "effect_chance": "",
     "function": "ReplaceMoveThisBattleWithTargetLastMoveUsed",
-    "description": "Copie la derniÃƒÆ’Ã‚¨re capacitÃƒÆ’Ã‚© utilisÃƒÆ’Ã‚©e par la cible et la conserve tant qu'il reste au combat."
+    "description": "Copie la dernière capacité utilisée par la cible et la conserve tant qu'il reste au combat."
   },
   "COPIETYPE": {
     "token": "COPIETYPE",
@@ -11211,7 +11211,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfTargetHPLessThanHalf",
-    "description": "Double la puissance si la cible a moins de la moitiÃƒÆ’Ã‚© de ses PV."
+    "description": "Double la puissance si la cible a moins de la moitié de ses PV."
   },
   "TOUCHERFINAL": {
     "token": "TOUCHERFINAL",
@@ -11253,7 +11253,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "RemoveScreens",
-    "description": "Brise les barriÃƒÆ’Ã‚¨res."
+    "description": "Brise les barrières."
   },
   "MYSTICORNES": {
     "token": "MYSTICORNES",
@@ -11393,7 +11393,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "ResetTargetStatStages",
-    "description": "Les changements de stats de la cible sont annulÃƒÆ’Ã‚©s."
+    "description": "Les changements de stats de la cible sont annulés."
   },
   "ZENITUDE": {
     "token": "ZENITUDE",
@@ -11481,7 +11481,7 @@
   },
   "PLENITUDE": {
     "token": "PLENITUDE",
-    "name": "PlÃƒÆ’Ã‚©nitude",
+    "name": "Plénitude",
     "type": "MYSTIQUE",
     "category": "Status",
     "power": "",
@@ -11491,7 +11491,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "RaiseUserSpAtkSpDef1",
-    "description": "Augmenter de 1 l'Att. SpÃƒÆ’Ã‚©. et la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. du lanceur."
+    "description": "Augmenter de 1 l'Att. Spé. et la Déf. Spé. du lanceur."
   },
   "SANCTUAIRE": {
     "token": "SANCTUAIRE",
@@ -11523,12 +11523,12 @@
   },
   "YOGA": {
     "token": "YOGA",
-    "name": "Yoga",
+    "name": "Force Mystique",
     "type": "MYSTIQUE",
     "category": "Status",
     "power": "",
     "accuracy": "0",
-    "pp": "40",
+    "pp": "5",
     "target": "User",
     "flags": "",
     "effect_chance": "",
@@ -11757,7 +11757,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "RemoveScreens",
-    "description": "Brise les barriÃƒÆ’Ã‚¨res."
+    "description": "Permet de briser un rocher de corail hors combat."
   },
   "GRIFFESALAGE": {
     "token": "GRIFFESALAGE",
@@ -11785,7 +11785,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HealUserByHalfOfDamageDone",
-    "description": "Soigne de la moitiÃƒÆ’Ã‚© des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts infligÃƒÆ’Ã‚©s."
+    "description": "Soigne de la moitié des dégâts infligés."
   },
   "COQUILAME": {
     "token": "COQUILAME",
@@ -11803,7 +11803,7 @@
   },
   "PLONGEE": {
     "token": "PLONGEE",
-    "name": "PlongÃƒÆ’Ã‚©e",
+    "name": "Plongée",
     "type": "MARIN",
     "category": "Physical",
     "power": "80",
@@ -11813,7 +11813,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "TwoTurnAttackInvulnerableUnderwater",
-    "description": "Plonge au 1er tour et attaque au 2ÃƒÆ’Ã‚¨me. Permet de plonger hors combat."
+    "description": "Permet de plonger hors combat."
   },
   "PINCEMASSE": {
     "token": "PINCEMASSE",
@@ -11831,7 +11831,7 @@
   },
   "QUEUEDECHAINEE": {
     "token": "QUEUEDECHAINEE",
-    "name": "Queue DÃƒÆ’Ã‚©chainÃƒÆ’Ã‚©e",
+    "name": "Queue Déchainée",
     "type": "MARIN",
     "category": "Physical",
     "power": "100",
@@ -11841,7 +11841,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "Aucun effet supplÃƒÆ’Ã‚©mentaire."
+    "description": "Aucun effet supplémentaire."
   },
   "PLAT": {
     "token": "PLAT",
@@ -11901,7 +11901,7 @@
   },
   "VAGUEETAU": {
     "token": "VAGUEETAU",
-    "name": "Vague ÃƒÆ’ââ‚¬°tau",
+    "name": "Vague Étau",
     "type": "MARIN",
     "category": "Special",
     "power": "30",
@@ -11911,7 +11911,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "PowerHigherWithUserPositiveStatStages",
-    "description": "Plus les stats du lanceur sont augmentÃƒÆ’Ã‚©es, plus la capacitÃƒÆ’Ã‚© sera puissante."
+    "description": "Plus les stats du lanceur sont augmentées, plus la capacité sera puissante."
   },
   "SIPHON": {
     "token": "SIPHON",
@@ -11925,7 +11925,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "BindTargetDoublePowerIfTargetUnderwater",
-    "description": "PiÃƒÆ’Ã‚¨ge la cible dans un siphon pendant 4 ÃƒÆ’Ã‚  5 tours."
+    "description": "Permet d'arrêter un siphon hors combat. # JOHTO : à récupérer à Oliville après avoir battu Jasmine."
   },
   "DEFERLVAGUE": {
     "token": "DEFERLVAGUE",
@@ -11953,7 +11953,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfTargetHPLessThanHalf",
-    "description": "Double la puissance si la cible a moins de la moitiÃƒÆ’Ã‚© de ses PV."
+    "description": "Double la puissance si la cible a moins de la moitié de ses PV."
   },
   "CRACHATSALE": {
     "token": "CRACHATSALE",
@@ -12055,7 +12055,7 @@
   },
   "HYDROECLAT": {
     "token": "HYDROECLAT",
-    "name": "Hydro-ÃƒÆ’ââ‚¬°clat",
+    "name": "Hydro-Éclat",
     "type": "MARIN",
     "category": "Special",
     "power": "70",
@@ -12065,7 +12065,7 @@
     "flags": "CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Touche tous les ennemis. Taux de critique ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Touche tous les ennemis. Taux de critique élevé."
   },
   "TROMBE": {
     "token": "TROMBE",
@@ -12111,7 +12111,7 @@
   },
   "CANOCEAN": {
     "token": "CANOCEAN",
-    "name": "CanocÃƒÆ’Ã‚©an",
+    "name": "Canocéan",
     "type": "MARIN",
     "category": "Special",
     "power": "120",
@@ -12121,7 +12121,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "LowerUserSpAtk1",
-    "description": "Baisse de 1 lÃƒ¢ââ€š¬ââ€ž¢Att. SpÃƒÆ’Ã‚©. du lanceur."
+    "description": "Baisse de 1 l’Att. Spé. du lanceur."
   },
   "GICLEDO": {
     "token": "GICLEDO",
@@ -12149,7 +12149,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoBriseMarine",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Brise Marine pendant 5 tours."
+    "description": "Change la météo en Brise Marine pendant 5 tours."
   },
   "DECHARNEMENT": {
     "token": "DECHARNEMENT",
@@ -12345,7 +12345,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfAllyFaintedLastTurn",
-    "description": "Si un PokÃƒÆ’Ã‚©mon de l'ÃƒÆ’Ã‚©quipe a ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© mis K.O. au tour d'avant, la puissance augmente."
+    "description": "Si un Pokémon de l'équipe a été mis K.O. au tour d'avant, la puissance augmente."
   },
   "SELECLAQUE": {
     "token": "SELECLAQUE",
@@ -12401,11 +12401,11 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "TrapUserAndTargetInBattle",
-    "description": "Le lanceur et sa cible ne peuvent plus quitter le terrain jusqu'ÃƒÆ’Ã‚  ce que l'un d'entre eux tombe K.O."
+    "description": "Le lanceur et sa cible ne peuvent plus quitter le terrain jusqu'à ce que l'un d'entre eux tombe K.O."
   },
   "SELEGRIFFE": {
     "token": "SELEGRIFFE",
-    "name": "SÃƒÆ’Ã‚©lÃƒÆ’Ã‚©griffe",
+    "name": "Sélégriffe",
     "type": "LUNAIRE",
     "category": "Physical",
     "power": "70",
@@ -12415,7 +12415,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "20",
     "function": "LowerTargetDefense1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©fense de la cible. Taux de critique ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "..."
   },
   "FACECACHEE": {
     "token": "FACECACHEE",
@@ -12569,7 +12569,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "Touche tous les PokÃƒÆ’Ã‚©mon autour du lanceur."
+    "description": "Touche tous les Pokémon autour du lanceur."
   },
   "BALLLUNE": {
     "token": "BALLLUNE",
@@ -12625,11 +12625,11 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "30",
     "function": "LowerTargetSpAtk1",
-    "description": "Peut diminuer de 1 l'Att. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Peut diminuer de 1 l'Att. Spé. de la cible."
   },
   "DEVOREVE": {
     "token": "DEVOREVE",
-    "name": "DÃƒÆ’Ã‚©vorÃƒÆ’Ã‚ªve",
+    "name": "Dévorêve",
     "type": "LUNAIRE",
     "category": "Special",
     "power": "100",
@@ -12639,7 +12639,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HealUserByHalfOfDamageDoneIfTargetAsleep",
-    "description": "RÃƒÆ’Ã‚©cupÃƒÆ’Ã‚¨re en PV la moitiÃƒÆ’Ã‚© des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts infligÃƒÆ’Ã‚©s si la cible est endormie."
+    "description": "Récupère en PV la moitié des dégâts infligés si la cible est endormie."
   },
   "ECLYPSE": {
     "token": "ECLYPSE",
@@ -12765,7 +12765,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoPleineLune",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Pleine Lune pendant 5 tours."
+    "description": "Change la météo en Pleine Lune pendant 5 tours."
   },
   "RAYONLUNE": {
     "token": "RAYONLUNE",
@@ -12793,21 +12793,21 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartUserSideImmunityToInflictedStatus",
-    "description": "EmpÃƒÆ’Ã‚ªche tous les problÃƒÆ’Ã‚¨mes de statut pendant 5 tours."
+    "description": "Empêche tous les problèmes de statut pendant 5 tours."
   },
   "ZONEECLAIREE": {
     "token": "ZONEECLAIREE",
-    "name": "Zone ÃƒÆ’ââ‚¬°clairÃƒÆ’Ã‚©e",
+    "name": "Lune Rouge",
     "type": "LUNAIRE",
-    "category": "Status",
-    "power": "",
-    "accuracy": "0",
-    "pp": "30",
+    "category": "Special",
+    "power": "140",
+    "accuracy": "100",
+    "pp": "5",
     "target": "UserSide",
     "flags": "",
     "effect_chance": "",
     "function": "StartUserSideImmunityToStatStageLowering",
-    "description": "EmpÃƒÆ’Ã‚ªche la rÃƒÆ’Ã‚©duction des stats sur l'ÃƒÆ’Ã‚©quipe du lanceur pendant 5 tours."
+    "description": "Empêche la réduction des stats sur l'équipe du lanceur pendant 5 tours."
   },
   "BALLBRUME": {
     "token": "BALLBRUME",
@@ -12877,7 +12877,7 @@
     "flags": "CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "",
     "function": "MultiTurnAttackPowersUpEachTurn",
-    "description": "Attaque la cible pendant 5 tours. La capacitÃƒÆ’Ã‚© gagne en puissance ÃƒÆ’Ã‚  chaque coup."
+    "description": "Attaque la cible pendant 5 tours. La capacité gagne en puissance à chaque coup."
   },
   "TRIPLEAXEL": {
     "token": "TRIPLEAXEL",
@@ -12891,7 +12891,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HitThreeTimesPowersUpWithEachHit",
-    "description": "Touche 1 ÃƒÆ’Ã‚  3 fois de suite, la puissance augmente ÃƒÆ’Ã‚  chaque coup portÃƒÆ’Ã‚©."
+    "description": "Touche 1 à 3 fois de suite, la puissance augmente à chaque coup porté."
   },
   "STALACTITE": {
     "token": "STALACTITE",
@@ -12905,7 +12905,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HitTwoToFiveTimes",
-    "description": "Touche 2 ÃƒÆ’Ã‚  5 fois la cible."
+    "description": "Touche 2 à 5 fois la cible."
   },
   "ECLATSGLACE": {
     "token": "ECLATSGLACE",
@@ -13003,7 +13003,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "RemoveScreens",
-    "description": "Brise les barriÃƒÆ’Ã‚¨res."
+    "description": "Permet de briser un rocher de glace hors combat. # JOHTO : Dans le Repaire Rocket."
   },
   "POINGGLACE": {
     "token": "POINGGLACE",
@@ -13031,7 +13031,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "RemoveTerrain",
-    "description": "DÃƒÆ’Ã‚©truit le champ actif sur le terrain."
+    "description": "Détruit le champ actif sur le terrain."
   },
   "CHUTEGLACE": {
     "token": "CHUTEGLACE",
@@ -13087,7 +13087,7 @@
     "flags": "CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Taux de critiques ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Taux de critiques élevé."
   },
   "MARTEAUDEGLACE": {
     "token": "MARTEAUDEGLACE",
@@ -13199,7 +13199,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "100",
     "function": "LowerTargetSpeed1",
-    "description": "Touche tous les ennemis. RÃƒÆ’Ã‚©duit de 1 leur Vitesse."
+    "description": "Touche tous les ennemis. Réduit de 1 leur Vitesse."
   },
   "SOUFFLEGLACE": {
     "token": "SOUFFLEGLACE",
@@ -13227,7 +13227,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "10",
     "function": "FreezeTargetSuperEffectiveAgainstWater",
-    "description": "Peut geler la cible. Super efficace sur les PokÃƒÆ’Ã‚©mon de type Eau."
+    "description": "Peut geler la cible. Super efficace sur les Pokémon de type Eau."
   },
   "RAYONCRISTALLIN": {
     "token": "RAYONCRISTALLIN",
@@ -13287,7 +13287,7 @@
   },
   "BUEENOIRE": {
     "token": "BUEENOIRE",
-    "name": "BuÃƒÆ’Ã‚©e Noire",
+    "name": "Buée Noire",
     "type": "GLACE",
     "category": "Status",
     "power": "",
@@ -13297,7 +13297,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "ResetAllBattlersStatStages",
-    "description": "Annule les changements de stats de tous les PokÃƒÆ’Ã‚©mon au combat."
+    "description": "Annule les changements de stats de tous les Pokémon au combat."
   },
   "CORPSGELE": {
     "token": "CORPSGELE",
@@ -13315,7 +13315,7 @@
   },
   "GRELE": {
     "token": "GRELE",
-    "name": "GrÃƒÆ’Ã‚ªle",
+    "name": "Grêle",
     "type": "GLACE",
     "category": "Status",
     "power": "",
@@ -13325,7 +13325,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoGrele",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en GrÃƒÆ’Ã‚ªle pendant 5 tours."
+    "description": "Change la météo en Grêle pendant 5 tours."
   },
   "REGARDGLACIAL": {
     "token": "REGARDGLACIAL",
@@ -13451,7 +13451,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfAllyFaintedLastTurn",
-    "description": "Si un PokÃƒÆ’Ã‚©mon de l'ÃƒÆ’Ã‚©quipe a ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© mis K.O. au tour d'avant, l'effet augmente."
+    "description": "Si un Pokémon de l'équipe a été mis K.O. au tour d'avant, l'effet augmente."
   },
   "VIFECLAIR": {
     "token": "VIFECLAIR",
@@ -13511,7 +13511,7 @@
   },
   "POINGECLAIR": {
     "token": "POINGECLAIR",
-    "name": "Poing ÃƒÆ’ââ‚¬°clair",
+    "name": "Poing Éclair",
     "type": "FOUDRE",
     "category": "Physical",
     "power": "75",
@@ -13539,7 +13539,7 @@
   },
   "ECLAIRFOU": {
     "token": "ECLAIRFOU",
-    "name": "ÃƒÆ’ââ‚¬°clair Fou",
+    "name": "Éclair Fou",
     "type": "FOUDRE",
     "category": "Physical",
     "power": "90",
@@ -13549,7 +13549,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "RecoilQuarterOfDamageDealt",
-    "description": "Blesse lÃƒÆ’Ã‚©gÃƒÆ’Ã‚¨rement le lanceur."
+    "description": "Blesse légèrement le lanceur."
   },
   "FULGUR": {
     "token": "FULGUR",
@@ -13623,7 +13623,7 @@
   },
   "CHANGEECLAIR": {
     "token": "CHANGEECLAIR",
-    "name": "Change ÃƒÆ’ââ‚¬°clair",
+    "name": "Change Éclair",
     "type": "FOUDRE",
     "category": "Special",
     "power": "70",
@@ -13633,7 +13633,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "SwitchOutUserDamagingMove",
-    "description": "AprÃƒÆ’Ã‚¨s son attaque, change de place avec un PokÃƒÆ’Ã‚©mon de l'ÃƒÆ’Ã‚©quipe prÃƒÆ’Ã‚ªt au combat."
+    "description": "Après son attaque, change de place avec un Pokémon de l'équipe prêt au combat."
   },
   "VENTFOUDROYANT": {
     "token": "VENTFOUDROYANT",
@@ -13717,11 +13717,11 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "TwoTurnAttackChargeRaiseUserSpeAttack1",
-    "description": "Augmente de 1 l'Att. SpÃƒÆ’Ã‚©. au 1er tour et attaque la cible au 2nd."
+    "description": "Augmente de 1 l'Att. Spé. au 1er tour et attaque la cible au 2nd."
   },
   "CAGEECLAIR": {
     "token": "CAGEECLAIR",
-    "name": "Cage-ÃƒÆ’ââ‚¬°clair",
+    "name": "Cage-Éclair",
     "type": "FOUDRE",
     "category": "Status",
     "power": "",
@@ -13735,17 +13735,17 @@
   },
   "CIELORAGEUX": {
     "token": "CIELORAGEUX",
-    "name": "Ciel Orageux",
+    "name": "Typhon Fulgurant",
     "type": "FOUDRE",
-    "category": "Status",
-    "power": "",
-    "accuracy": "0",
+    "category": "Special",
+    "power": "100",
+    "accuracy": "80",
     "pp": "5",
     "target": "BothSides",
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoOrage",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Orage pendant 5 tours."
+    "description": "Change la météo en Orage pendant 5 tours."
   },
   "ECLAIRCROIX": {
     "token": "ECLAIRCROIX",
@@ -13805,7 +13805,7 @@
   },
   "AMITIE": {
     "token": "AMITIE",
-    "name": "AmitiÃƒÆ’Ã‚©",
+    "name": "Amitié",
     "type": "FEE",
     "category": "Physical",
     "power": "60",
@@ -13815,7 +13815,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfAllyFaintedLastTurn",
-    "description": "Si un PokÃƒÆ’Ã‚©mon de l'ÃƒÆ’Ã‚©quipe a ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© mis K.O. au tour d'avant, l'effet augmente."
+    "description": "Si un Pokémon de l'équipe a été mis K.O. au tour d'avant, l'effet augmente."
   },
   "SOUMISSION": {
     "token": "SOUMISSION",
@@ -13875,7 +13875,7 @@
   },
   "DONNEMOICA": {
     "token": "DONNEMOICA",
-    "name": "Donne Moi ÃƒÆ’ââ‚¬¡a",
+    "name": "Donne Moi Ça",
     "type": "FEE",
     "category": "Physical",
     "power": "50",
@@ -13885,7 +13885,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "UserTakesTargetItem",
-    "description": "Vole l'objet de la cible. Le lanceur ne peut rien voler s'il tient dÃƒÆ’Ã‚©jÃƒÆ’Ã‚  un objet."
+    "description": "Vole l'objet de la cible. Le lanceur ne peut rien voler s'il tient déjà un objet."
   },
   "OFFENSE": {
     "token": "OFFENSE",
@@ -13945,7 +13945,7 @@
   },
   "CHOCEMOTIONNEL": {
     "token": "CHOCEMOTIONNEL",
-    "name": "Choc ÃƒÆ’ââ‚¬°motionnel",
+    "name": "Choc Émotionnel",
     "type": "FEE",
     "category": "Physical",
     "power": "75",
@@ -13955,7 +13955,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "100",
     "function": "LowerTargetSpAtk1",
-    "description": "Baisse de 1 l'Att.SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Baisse de 1 l'Att.Spé. de la cible."
   },
   "GROSCALIN": {
     "token": "GROSCALIN",
@@ -13973,7 +13973,7 @@
   },
   "CALINERIE": {
     "token": "CALINERIE",
-    "name": "CÃƒÆ’Ã‚¢linerie",
+    "name": "Câlinerie",
     "type": "FEE",
     "category": "Physical",
     "power": "90",
@@ -14011,7 +14011,7 @@
     "flags": "CanProtect",
     "effect_chance": "",
     "function": "UserFaintsFixedDamageUserHP",
-    "description": "Le lanceur perd tous ses PV restants et inflige autant de dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts ÃƒÆ’Ã‚  la cible."
+    "description": "Le lanceur perd tous ses PV restants et inflige autant de dégâts à la cible."
   },
   "HARMONIE": {
     "token": "HARMONIE",
@@ -14081,7 +14081,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HealUserByThreeQuartersOfDamageDone",
-    "description": "Soigne de la moitiÃƒÆ’Ã‚© des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts infligÃƒÆ’Ã‚©s."
+    "description": "Soigne de la moitié des dégâts infligés."
   },
   "AROMEACRE": {
     "token": "AROMEACRE",
@@ -14137,11 +14137,11 @@
     "flags": "CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "15",
     "function": "LowerTargetSpDef2",
-    "description": "Peut baisser de 2 la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Peut baisser de 2 la Déf. Spé. de la cible."
   },
   "ECLATFABULEUX": {
     "token": "ECLATFABULEUX",
-    "name": "ÃƒÆ’ââ‚¬°clat Fabuleux",
+    "name": "Éclat Fabuleux",
     "type": "FEE",
     "category": "Special",
     "power": "80",
@@ -14151,7 +14151,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "50",
     "function": "LowerTargetAccuracy1",
-    "description": "Touche tous les ennemis. Peut baisser de 1 leur PrÃƒÆ’Ã‚©cision."
+    "description": "???"
   },
   "CHOUPINOVA": {
     "token": "CHOUPINOVA",
@@ -14179,7 +14179,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "UserFaintsPowersUpInMistyTerrainExplosive",
-    "description": "Frappe tous les PokÃƒÆ’Ã‚©mon autour de lui, met K.O. le lanceur."
+    "description": "Frappe tous les Pokémon autour de lui, met K.O. le lanceur."
   },
   "BRUMECAPITEUSE": {
     "token": "BRUMECAPITEUSE",
@@ -14197,7 +14197,7 @@
   },
   "CHAMPFEE": {
     "token": "CHAMPFEE",
-    "name": "Champ FÃƒÆ’Ã‚©e",
+    "name": "Champ Fée",
     "type": "FEE",
     "category": "Status",
     "power": "",
@@ -14207,7 +14207,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartChampFEE",
-    "description": "Change le terrain en Champ FÃƒÆ’Ã‚©ÃƒÆ’Ã‚© pendant 5 tours."
+    "description": "Change le terrain en Champ Féé pendant 5 tours."
   },
   "CHARME": {
     "token": "CHARME",
@@ -14449,7 +14449,7 @@
   },
   "ETREINTE": {
     "token": "ETREINTE",
-    "name": "ÃƒÆ’ââ‚¬°treinte",
+    "name": "Étreinte",
     "type": "ELASTIK",
     "category": "Physical",
     "power": "20",
@@ -14459,7 +14459,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "BindTarget",
-    "description": "Dure 4 ÃƒÆ’Ã‚  5 tours."
+    "description": "Dure 4 à 5 tours."
   },
   "DOUBLEFOUET": {
     "token": "DOUBLEFOUET",
@@ -14491,7 +14491,7 @@
   },
   "LECHOUILLE": {
     "token": "LECHOUILLE",
-    "name": "LÃƒÆ’Ã‚©chouille",
+    "name": "Léchouille",
     "type": "ELASTIK",
     "category": "Physical",
     "power": "30",
@@ -14599,7 +14599,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "SwitchOutTargetDamagingMove",
-    "description": "Force un autre membre de l'ÃƒÆ’Ã‚©quipe adverse ÃƒÆ’Ã‚  venir au combat."
+    "description": "Force un autre membre de l'équipe adverse à venir au combat."
   },
   "ECLATEQUEUE": {
     "token": "ECLATEQUEUE",
@@ -14655,7 +14655,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "50",
     "function": "LowerTargetDef1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©fense de la cible."
+    "description": "Peut baisser de 1 la Défense de la cible."
   },
   "COUPDBIDOU": {
     "token": "COUPDBIDOU",
@@ -14701,7 +14701,7 @@
   },
   "MEGAFOUET": {
     "token": "MEGAFOUET",
-    "name": "MÃƒÆ’Ã‚©gafouet",
+    "name": "Mégafouet",
     "type": "ELASTIK",
     "category": "Physical",
     "power": "100",
@@ -14711,7 +14711,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "Aucun effet supplÃƒÆ’Ã‚©mentaire."
+    "description": "Aucun effet supplémentaire."
   },
   "QUEUEDESTRUCTRICE": {
     "token": "QUEUEDESTRUCTRICE",
@@ -14813,7 +14813,7 @@
   },
   "TIRAROME": {
     "token": "TIRAROME",
-    "name": "Tir ArÃƒÆ’Ã‚´me",
+    "name": "Tir Arôme",
     "type": "ELASTIK",
     "category": "Special",
     "power": "80",
@@ -14823,7 +14823,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "20",
     "function": "AttractTarget",
-    "description": "Peut rendre la cible amoureuse si la cible est du sexe opposÃƒÆ’Ã‚©."
+    "description": "Peut rendre la cible amoureuse si la cible est du sexe opposé."
   },
   "GELEEROYALE": {
     "token": "GELEEROYALE",
@@ -14855,7 +14855,7 @@
   },
   "CHAMPELASTIK": {
     "token": "CHAMPELASTIK",
-    "name": "Champ ÃƒÆ’ââ‚¬°lastik",
+    "name": "Champ Élastik",
     "type": "ELASTIK",
     "category": "Status",
     "power": "",
@@ -14879,7 +14879,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "UserMakeSubstitute",
-    "description": "Le lanceur fait une copie de lui-mÃƒÆ’Ã‚ªme en sacrifiant quelques PV. La copie sert de leurre."
+    "description": "Le lanceur fait une copie de lui-même en sacrifiant quelques PV. La copie sert de leurre."
   },
   "COGNOBIDON": {
     "token": "COGNOBIDON",
@@ -15047,7 +15047,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HealUserByHalfOfDamageDone",
-    "description": "Soigne de la moitiÃƒÆ’Ã‚© des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts infligÃƒÆ’Ã‚©s."
+    "description": "Soigne de la moitié des dégâts infligés."
   },
   "CROCSAQUEUX": {
     "token": "CROCSAQUEUX",
@@ -15075,7 +15075,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "SwitchOutUserDamagingMove",
-    "description": "AprÃƒÆ’Ã‚¨s son attaque, change de place avec un PokÃƒÆ’Ã‚©mon de l'ÃƒÆ’Ã‚©quipe prÃƒÆ’Ã‚ªt au combat."
+    "description": "Après son attaque, change de place avec un Pokémon de l'équipe prêt au combat."
   },
   "POINGAQUEUX": {
     "token": "POINGAQUEUX",
@@ -15145,7 +15145,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "20",
     "function": "FlinchTarget",
-    "description": "Peut apeurer la cible. Permet de monter une cascade hors combat."
+    "description": "Permet de gravir une cascade hors combat. # JOHTO : dans la partie 2 de l'Antre Noir."
   },
   "PIEDHYDRO": {
     "token": "PIEDHYDRO",
@@ -15187,7 +15187,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "Aucun effet supplÃƒÆ’Ã‚©mentaire."
+    "description": "Aucun effet supplémentaire."
   },
   "HYDRORAVAGE": {
     "token": "HYDRORAVAGE",
@@ -15327,7 +15327,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfTargetHPLessThanHalf",
-    "description": "2 fois plus puissant lorsque la cible a moins de la moitiÃƒÆ’Ã‚© de ses PV."
+    "description": "2 fois plus puissant lorsque la cible a moins de la moitié de ses PV."
   },
   "DOUBLECANON": {
     "token": "DOUBLECANON",
@@ -15499,7 +15499,7 @@
   },
   "TIRDEPRECISION": {
     "token": "TIRDEPRECISION",
-    "name": "Tir de PrÃƒÆ’Ã‚©cision",
+    "name": "Tir de Précision",
     "type": "EAU",
     "category": "Special",
     "power": "70",
@@ -15509,7 +15509,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "CannotBeRedirected",
-    "description": "Ignore l'effet des talents et des capacitÃƒÆ’Ã‚©s capables de dÃƒÆ’Ã‚©tourner les attaques."
+    "description": "Ignore l'effet des talents et des capacités capables de détourner les attaques."
   },
   "AQUABOMBE": {
     "token": "AQUABOMBE",
@@ -15527,7 +15527,7 @@
   },
   "EBULLITION": {
     "token": "EBULLITION",
-    "name": "ÃƒÆ’ââ‚¬°bullition",
+    "name": "Ébullition",
     "type": "EAU",
     "category": "Special",
     "power": "80",
@@ -15537,7 +15537,7 @@
     "flags": "CanProtect,CanMirrorMove,ThawsUser",
     "effect_chance": "30",
     "function": "BurnTarget",
-    "description": "Peut brÃƒÆ’Ã‚»ler la cible."
+    "description": "Peut brûler la cible."
   },
   "HYDROVAPEUR": {
     "token": "HYDROVAPEUR",
@@ -15579,7 +15579,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "Touche tous les PokÃƒÆ’Ã‚©mon autour du lanceur. Permet de nager hors combat."
+    "description": "Permet de nager sur l'eau hors combat. # KANTO : quête du Dentier Doré au Parc Safari. # JOHTO : parler au Propriétaire à Whitestone."
   },
   "GEYSER": {
     "token": "GEYSER",
@@ -15649,7 +15649,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoPluie",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Pluie pendant 5 tours."
+    "description": "Change la météo en Pluie pendant 5 tours."
   },
   "DETREMPAGE": {
     "token": "DETREMPAGE",
@@ -15877,7 +15877,7 @@
   },
   "RAFALEECAILLES": {
     "token": "RAFALEECAILLES",
-    "name": "Rafale ÃƒÆ’ââ‚¬°cailles",
+    "name": "Rafale Écailles",
     "type": "DRAGON",
     "category": "Physical",
     "power": "25",
@@ -15887,7 +15887,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HitTwoToFiveTimesRaiseUserSpd1LowerUserDef1",
-    "description": "Touche 2 ÃƒÆ’Ã‚  5 fois. Augmente la Vitesse, mais diminue la DÃƒÆ’Ã‚©fense."
+    "description": "Touche 2 à 5 fois. Augmente la Vitesse, mais diminue la Défense."
   },
   "DOUBLEBAFFE": {
     "token": "DOUBLEBAFFE",
@@ -15985,7 +15985,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Taux de critiques ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Taux de critiques élevé."
   },
   "DRACOMARTEAU": {
     "token": "DRACOMARTEAU",
@@ -16031,7 +16031,7 @@
   },
   "COLERE": {
     "token": "COLERE",
-    "name": "ColÃƒÆ’Ã‚¨re",
+    "name": "Colère",
     "type": "DRAGON",
     "category": "Physical",
     "power": "120",
@@ -16041,7 +16041,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "MultiTurnAttackConfuseUserAtEnd",
-    "description": "Dure de 2 ÃƒÆ’Ã‚  3 tours, puis le lanceur devient confus."
+    "description": "Dure de 2 à 3 tours, puis le lanceur devient confus."
   },
   "DRACORAGE": {
     "token": "DRACORAGE",
@@ -16055,7 +16055,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "FixedDamage40",
-    "description": "Inflige toujours 40 PV de dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts."
+    "description": "Inflige toujours 40 PV de dégâts."
   },
   "TRAITHYDRE": {
     "token": "TRAITHYDRE",
@@ -16083,7 +16083,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfTargetHPLessThanHalf",
-    "description": "Double la puissance si la cible a moins de la moitiÃƒÆ’Ã‚© de ses PV."
+    "description": "Double la puissance si la cible a moins de la moitié de ses PV."
   },
   "OURAGAN": {
     "token": "OURAGAN",
@@ -16139,7 +16139,7 @@
     "flags": "CanProtect,CanMirrorMove,Pulse",
     "effect_chance": "",
     "function": "None",
-    "description": "Aucun effet supplÃƒÆ’Ã‚©mentaire."
+    "description": "Aucun effet supplémentaire."
   },
   "DRAGONNOVA": {
     "token": "DRAGONNOVA",
@@ -16157,7 +16157,7 @@
   },
   "DRACOMETEORE": {
     "token": "DRACOMETEORE",
-    "name": "Draco-MÃƒÆ’Ã‚©tÃƒÆ’Ã‚©ore",
+    "name": "Draco-Météore",
     "type": "DRAGON",
     "category": "Special",
     "power": "130",
@@ -16167,7 +16167,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "LowerUserSpAtk2",
-    "description": "Le contrecoup rÃƒÆ’Ã‚©duit de 2 l'Att. SpÃƒÆ’Ã‚©. du lanceur."
+    "description": "Le contrecoup réduit de 2 l'Att. Spé. du lanceur."
   },
   "CIELNUAGEUX": {
     "token": "CIELNUAGEUX",
@@ -16181,7 +16181,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoCielNuageux",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Ciel Nuageux pendant 5 tours."
+    "description": "Change la météo en Ciel Nuageux pendant 5 tours."
   },
   "CRIDRACONIQUE": {
     "token": "CRIDRACONIQUE",
@@ -16195,7 +16195,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "RaiseUserCriticalHitRate2",
-    "description": "Augmente de 2 le taux de critiques du lanceur et de ses alliÃƒÆ’Ã‚©s."
+    "description": "Augmente de 2 le taux de critiques du lanceur et de ses alliés."
   },
   "DRACACOPHONIE": {
     "token": "DRACACOPHONIE",
@@ -16755,7 +16755,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfTargetHPLessThanHalf",
-    "description": "Double la puissance lorsque la cible a moins de la moitiÃƒÆ’Ã‚© de ses PV."
+    "description": "Double la puissance lorsque la cible a moins de la moitié de ses PV."
   },
   "JETDEBOUE": {
     "token": "JETDEBOUE",
@@ -16853,7 +16853,7 @@
     "flags": "CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "25",
     "function": "LowerTargetAccuracy1",
-    "description": "Peut baisser de 1 la PrÃƒÆ’Ã‚©cision de la cible."
+    "description": "Peut baisser de 1 la Précision de la cible."
   },
   "SALISSURE": {
     "token": "SALISSURE",
@@ -16881,7 +16881,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "30",
     "function": "LowerTargetAccuracy1",
-    "description": "Touche tous les ennemis. Peut rÃƒÆ’Ã‚©duire de 1 leur PrÃƒÆ’Ã‚©cision."
+    "description": "Touche tous les ennemis. Peut réduire de 1 leur Précision."
   },
   "TOURBIERE": {
     "token": "TOURBIERE",
@@ -17039,7 +17039,7 @@
   },
   "AEROJET": {
     "token": "AEROJET",
-    "name": "AÃƒÆ’Ã‚©ro Jet",
+    "name": "Aéro Jet",
     "type": "AIR",
     "category": "Physical",
     "power": "40",
@@ -17049,7 +17049,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "CapacitÃƒÆ’Ã‚© prioritaire."
+    "description": "Capacité prioritaire."
   },
   "CROCSCYCLO": {
     "token": "CROCSCYCLO",
@@ -17235,7 +17235,7 @@
   },
   "AEROBALL": {
     "token": "AEROBALL",
-    "name": "AÃƒÆ’Ã‚©ro Ball",
+    "name": "Aéro Ball",
     "type": "AIR",
     "category": "Special",
     "power": "80",
@@ -17245,7 +17245,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "100",
     "function": "LowerTargetSpDef1",
-    "description": "Baisse de 1 la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Baisse de 1 la Déf. Spé. de la cible."
   },
   "BOURRASQUE": {
     "token": "BOURRASQUE",
@@ -17273,7 +17273,7 @@
     "flags": "CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "TwoTurnAttack",
-    "description": "Attaque en 2 tours. Touche tous les ennemis. Taux de critique ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Attaque en 2 tours. Touche tous les ennemis. Taux de critique élevé."
   },
   "RAFALE": {
     "token": "RAFALE",
@@ -17385,7 +17385,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "LowerTargetEvasion1RemoveSideEffects",
-    "description": "Brise les barriÃƒÆ’Ã‚¨res. Diminue de 1 l'Esquive de la cible."
+    "description": "Permet de ??? hors combat."
   },
   "CYCLONE": {
     "token": "CYCLONE",
@@ -17403,7 +17403,7 @@
   },
   "VENTARRIERE": {
     "token": "VENTARRIERE",
-    "name": "Vent ArriÃƒÆ’Ã‚¨re",
+    "name": "Vent Arrière",
     "type": "AIR",
     "category": "Status",
     "power": "",
@@ -17413,7 +17413,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartUserSideDoubleSpeed",
-    "description": "Augmente la Vitesse des PokÃƒÆ’Ã‚©mon de l'ÃƒÆ’Ã‚©quipe pendant 4 tours."
+    "description": "Augmente la Vitesse des Pokémon de l'équipe pendant 4 tours."
   },
   "VENTVIVIFIANT": {
     "token": "VENTVIVIFIANT",
@@ -17431,17 +17431,17 @@
   },
   "ZEPHYR": {
     "token": "ZEPHYR",
-    "name": "ZÃƒÆ’Ã‚©phyr",
+    "name": "Aéroblast",
     "type": "AIR",
-    "category": "Status",
-    "power": "",
-    "accuracy": "0",
+    "category": "Special",
+    "power": "100",
+    "accuracy": "95",
     "pp": "5",
     "target": "BothSides",
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoZephyr",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en ZÃƒÆ’Ã‚©phyr pendant 5 tours."
+    "description": "Change la météo en Zéphyr pendant 5 tours."
   },
   "MACHCYCLONE": {
     "token": "MACHCYCLONE",
@@ -17511,11 +17511,11 @@
     "flags": "Contact,CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "",
     "function": "PowerHigherWithTargetFasterThanUser",
-    "description": "Plus la Vitesse du lanceur est basse, plus il fait de dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts."
+    "description": "Plus la Vitesse du lanceur est basse, plus il fait de dégâts."
   },
   "PRESSIONEXTREME": {
     "token": "PRESSIONEXTREME",
-    "name": "Pression ExtrÃƒÆ’Ã‚ªme",
+    "name": "Pression Extrême",
     "type": "ACIER",
     "category": "Physical",
     "power": "1",
@@ -17525,7 +17525,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "PowerHigherWithTargetHP",
-    "description": "Plus la cible a de PV, plus cette capacitÃƒÆ’Ã‚© est puissante."
+    "description": "Plus la cible a de PV, plus cette capacité est puissante."
   },
   "TACLELOURD": {
     "token": "TACLELOURD",
@@ -17665,7 +17665,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "20",
     "function": "RaiseUserDefense1",
-    "description": "Peut augmenter la DÃƒÆ’Ã‚©fense du lanceur."
+    "description": "Peut augmenter la Défense du lanceur."
   },
   "ESTOCORNE": {
     "token": "ESTOCORNE",
@@ -17707,7 +17707,7 @@
     "flags": "CanMirrorMove",
     "effect_chance": "",
     "function": "RemoveProtections",
-    "description": "Peut toucher une cible protÃƒÆ’Ã‚©gÃƒÆ’Ã‚©e. Brise les protections."
+    "description": "Peut toucher une cible protégée. Brise les protections."
   },
   "FOREUSE": {
     "token": "FOREUSE",
@@ -17721,7 +17721,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Taux de critiques ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Permet de percer le métal hors combat."
   },
   "METALBOLISME": {
     "token": "METALBOLISME",
@@ -17753,7 +17753,7 @@
   },
   "TETEDEFER": {
     "token": "TETEDEFER",
-    "name": "TÃƒÆ’Ã‚ªte de Fer",
+    "name": "Tête de Fer",
     "type": "ACIER",
     "category": "Physical",
     "power": "80",
@@ -17791,7 +17791,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "30",
     "function": "LowerTargetDefense1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©fense de la cible."
+    "description": "Peut baisser de 1 la Défense de la cible."
   },
   "CHUTESOURDE": {
     "token": "CHUTESOURDE",
@@ -17809,7 +17809,7 @@
   },
   "DERAPAGE": {
     "token": "DERAPAGE",
-    "name": "DÃƒÆ’Ã‚©rapage",
+    "name": "Dérapage",
     "type": "ACIER",
     "category": "Physical",
     "power": "100",
@@ -17819,7 +17819,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,Punching",
     "effect_chance": "",
     "function": "LowerUserSpeed2",
-    "description": "RÃƒÆ’Ã‚©duit de 2 la Vitesse du lanceur."
+    "description": "Réduit de 2 la Vitesse du lanceur."
   },
   "CHOCFRONTAL": {
     "token": "CHOCFRONTAL",
@@ -17837,7 +17837,7 @@
   },
   "METALLIROUE": {
     "token": "METALLIROUE",
-    "name": "MÃƒÆ’Ã‚©talliroue",
+    "name": "Métalliroue",
     "type": "ACIER",
     "category": "Physical",
     "power": "130",
@@ -17847,7 +17847,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "RemoveTerrain",
-    "description": "Fait disparaÃƒÆ’Ã‚®tre un champ du terrain mais ÃƒÆ’Ã‚©choue s'il n'y en a pas."
+    "description": "Fait disparaître un champ du terrain mais échoue s'il n'y en a pas."
   },
   "LAMETACHYONIQUE": {
     "token": "LAMETACHYONIQUE",
@@ -17889,7 +17889,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "30",
     "function": "LowerTargetAccuracy1",
-    "description": "Peut baisser de 1 la PrÃƒÆ’Ã‚©cision de la cible."
+    "description": "Peut baisser de 1 la Précision de la cible."
   },
   "BOMBEAIMANT": {
     "token": "BOMBEAIMANT",
@@ -17921,7 +17921,7 @@
   },
   "METALASER": {
     "token": "METALASER",
-    "name": "MÃƒÆ’Ã‚©talaser",
+    "name": "Métalaser",
     "type": "ACIER",
     "category": "Special",
     "power": "140",
@@ -18001,7 +18001,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "RaiseUserDefense2",
-    "description": "Augmente de 2 la DÃƒÆ’Ã‚©fense du lanceur."
+    "description": "Augmente de 2 la Défense du lanceur."
   },
   "MURFUMIGENE": {
     "token": "MURFUMIGENE",
@@ -18243,7 +18243,7 @@
   },
   "DEGOMMAGE": {
     "token": "DEGOMMAGE",
-    "name": "DÃƒÆ’Ã‚©gommage",
+    "name": "Dégommage",
     "type": "TENEBRES",
     "category": "Physical",
     "power": "1",
@@ -18253,7 +18253,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "ThrowUserItemAtTarget",
-    "description": "Le lanceur envoie lÃƒ¢ââ€š¬ââ€ž¢objet quÃƒ¢ââ€š¬ââ€ž¢il tient sur la cible. La puissance et les effets dÃƒÆ’Ã‚©pendent de lÃƒ¢ââ€š¬ââ€ž¢objet."
+    "description": "..."
   },
   "PUNITION": {
     "token": "PUNITION",
@@ -18267,7 +18267,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "PowerHigherWithTargetPositiveStatStages",
-    "description": "Plus les stats de la cible ont ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© augmentÃƒÆ’Ã‚©s et plus cette capacitÃƒÆ’Ã‚© est puissante."
+    "description": "Plus les stats de la cible ont été augmentés et plus cette capacité est puissante."
   },
   "DOUBLEMORSURE": {
     "token": "DOUBLEMORSURE",
@@ -18299,7 +18299,7 @@
   },
   "REPRESAILLES": {
     "token": "REPRESAILLES",
-    "name": "ReprÃƒÆ’Ã‚©sailles",
+    "name": "Représailles",
     "type": "TENEBRES",
     "category": "Physical",
     "power": "50",
@@ -18309,7 +18309,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfTargetActed",
-    "description": "Double la puissance si le lanceur agit aprÃƒÆ’Ã‚¨s la cible."
+    "description": "Double la puissance si le lanceur agit après la cible."
   },
   "ASSURANCE": {
     "token": "ASSURANCE",
@@ -18337,7 +18337,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "RemoveTargetItem",
-    "description": "Fait plus de dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts ÃƒÆ’Ã‚  une cible qui tient un objet et l'empÃƒÆ’Ã‚ªche de lÃƒ¢ââ€š¬ââ€ž¢utiliser."
+    "description": "Fait plus de dégâts à une cible qui tient un objet et l'empêche de l’utiliser."
   },
   "CENTRANCUNES": {
     "token": "CENTRANCUNES",
@@ -18351,7 +18351,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfUserStatsLoweredThisTurn",
-    "description": "Double la puissance si les stats du lanceur ont diminuÃƒÆ’Ã‚© pendant ce tour."
+    "description": "Double la puissance si les stats du lanceur ont diminué pendant ce tour."
   },
   "TRICHERIE": {
     "token": "TRICHERIE",
@@ -18463,7 +18463,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "UserTakesTargetItem",
-    "description": "Vole l'objet de la cible. Le lanceur ne peut rien voler s'il tient dÃƒÆ’Ã‚©jÃƒÆ’Ã‚  un objet."
+    "description": "Vole l'objet de la cible. Le lanceur ne peut rien voler s'il tient déjà un objet."
   },
   "GRIFFEMALEFIQUE": {
     "token": "GRIFFEMALEFIQUE",
@@ -18491,7 +18491,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "FailsIfTargetActed",
-    "description": "CapacitÃƒÆ’Ã‚© prioritaire. ÃƒÆ’ââ‚¬°choue si la cible ne prÃƒÆ’Ã‚©pare pas une attaque."
+    "description": "Capacité prioritaire. Échoue si la cible ne prépare pas une attaque."
   },
   "TRANCHENUIT": {
     "token": "TRANCHENUIT",
@@ -18505,7 +18505,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Taux de critique ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Taux de critique élevé."
   },
   "POINGACHARNE": {
     "token": "POINGACHARNE",
@@ -18523,7 +18523,7 @@
   },
   "MACHOUILLE": {
     "token": "MACHOUILLE",
-    "name": "MÃƒÆ’Ã‚¢chouille",
+    "name": "Mâchouille",
     "type": "TENEBRES",
     "category": "Physical",
     "power": "80",
@@ -18533,7 +18533,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,Biting",
     "effect_chance": "25",
     "function": "LowerTargetDefense1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©fense de la cible."
+    "description": "Peut baisser de 1 la Défense de la cible."
   },
   "CROQUEFORT": {
     "token": "CROQUEFORT",
@@ -18701,7 +18701,7 @@
     "flags": "CanProtect,CanMirrorMove,Sound,CannotMetronome",
     "effect_chance": "100",
     "function": "LowerTargetSpAtk1",
-    "description": "Touche tous les ennemis. Baisse de 1 leur Att. SpÃƒÆ’Ã‚©."
+    "description": "Touche tous les ennemis. Baisse de 1 leur Att. Spé."
   },
   "RESQUILLE": {
     "token": "RESQUILLE",
@@ -18817,7 +18817,7 @@
   },
   "CHAMPTENEBRES": {
     "token": "CHAMPTENEBRES",
-    "name": "Champ TÃƒÆ’Ã‚©nÃƒÆ’Ã‚¨bres",
+    "name": "Champ Ténèbres",
     "type": "TENEBRES",
     "category": "Status",
     "power": "",
@@ -18827,7 +18827,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartChampTENEBRES",
-    "description": "Change le terrain en Champ TÃƒÆ’Ã‚©nÃƒÆ’Ã‚¨bres pendant 5 tours."
+    "description": "Change le terrain en Champ Ténèbres pendant 5 tours."
   },
   "CROCOLARME": {
     "token": "CROCOLARME",
@@ -18855,7 +18855,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "StartTargetCannotUseItem",
-    "description": "EmpÃƒÆ’Ã‚ªche la cible dÃƒ¢ââ€š¬ââ€ž¢utiliser un objet tenu et son dresseur dÃƒ¢ââ€š¬ââ€ž¢utiliser un objet sur lui pendant 5 tours."
+    "description": "Empêche la cible d’utiliser un objet tenu et son dresseur d’utiliser un objet sur lui pendant 5 tours."
   },
   "FLATTERIE": {
     "token": "FLATTERIE",
@@ -18911,7 +18911,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DisableTargetStatusMoves",
-    "description": "Provoque la cible. LÃƒ¢ââ€š¬ââ€ž¢oblige ÃƒÆ’Ã‚  nÃƒ¢ââ€š¬ââ€ž¢utiliser que des attaques pendant 3 tours."
+    "description": "Provoque la cible. L’oblige à n’utiliser que des attaques pendant 3 tours."
   },
   "REGARDNOIR": {
     "token": "REGARDNOIR",
@@ -18953,7 +18953,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StealAndUseBeneficialStatusMove",
-    "description": "Lorsqu'une capacitÃƒÆ’Ã‚© de soin ou de changement de stats est utilisÃƒÆ’Ã‚©e, le lanceur vole ses effets."
+    "description": "Lorsqu'une capacité de soin ou de changement de stats est utilisée, le lanceur vole ses effets."
   },
   "SOUVENIR": {
     "token": "SOUVENIR",
@@ -19177,7 +19177,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Taux de critiques ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Taux de critiques élevé."
   },
   "HACKING": {
     "token": "HACKING",
@@ -19191,7 +19191,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "FixedDamageUserLevel",
-    "description": "Inflige des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts ÃƒÆ’Ã‚©quivalents au niveau du lanceur."
+    "description": "Permet de prendre le contrôle d'un système informatique hors combat."
   },
   "DOUBLELASER": {
     "token": "DOUBLELASER",
@@ -19261,7 +19261,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "LowerUserSpAtk1",
-    "description": "Baisse de 1 l'Att. SpÃƒÆ’Ã‚©. du lanceur."
+    "description": "Baisse de 1 l'Att. Spé. du lanceur."
   },
   "TECHNOBLAST": {
     "token": "TECHNOBLAST",
@@ -19303,7 +19303,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "RaiseUserDefSpDef2",
-    "description": "Augmente de 2 la DÃƒÆ’Ã‚©fense et sa DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. du lanceur."
+    "description": "Augmente de 2 la Défense et sa Déf. Spé. du lanceur."
   },
   "CHAMPTECHNO": {
     "token": "CHAMPTECHNO",
@@ -19429,7 +19429,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "CounterAnyCategoryDamage",
-    "description": "Contre-attaque en infligeant des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts supÃƒÆ’Ã‚©rieurs ÃƒÆ’Ã‚  ceux de la derniÃƒÆ’Ã‚¨re capacitÃƒÆ’Ã‚© qui a blessÃƒÆ’Ã‚© le lanceur."
+    "description": "..."
   },
   "AUBEHAINE": {
     "token": "AUBEHAINE",
@@ -19499,7 +19499,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "RemoveScreens",
-    "description": "Brise les barriÃƒÆ’Ã‚¨res."
+    "description": "Brise les barrières."
   },
   "POINGAVEUGLANT": {
     "token": "POINGAVEUGLANT",
@@ -19559,7 +19559,7 @@
   },
   "APOGEE": {
     "token": "APOGEE",
-    "name": "ApogÃƒÆ’Ã‚©e",
+    "name": "Apogée",
     "type": "SOLAIRE",
     "category": "Physical",
     "power": "100",
@@ -19569,7 +19569,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "50",
     "function": "BurnTarget",
-    "description": "Peut brÃƒÆ’Ã‚»ler la cible."
+    "description": "Peut brûler la cible."
   },
   "LAMESOLAIRE": {
     "token": "LAMESOLAIRE",
@@ -19695,7 +19695,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "10",
     "function": "LowerTargetSpDef1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Peut baisser de 1 la Déf. Spé. de la cible."
   },
   "RADIANCE": {
     "token": "RADIANCE",
@@ -19709,7 +19709,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "20",
     "function": "LowerTargetAccuracy1",
-    "description": "Touche tous les PokÃƒÆ’Ã‚©mon autour du lanceur. Peut baisser de 1 leur PrÃƒÆ’Ã‚©cision."
+    "description": "Touche tous les Pokémon autour du lanceur. Peut baisser de 1 leur Précision."
   },
   "RAYONDENSE": {
     "token": "RAYONDENSE",
@@ -19723,7 +19723,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "30",
     "function": "LowerTargetAccuracy1",
-    "description": "Peut baisser de 1 la PrÃƒÆ’Ã‚©cision de la cible."
+    "description": "Peut baisser de 1 la Précision de la cible."
   },
   "DANSERADIEUSE": {
     "token": "DANSERADIEUSE",
@@ -19751,7 +19751,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "TwoTurnAttackOneTurnInSun",
-    "description": "Le lanceur se prÃƒÆ’Ã‚©pare au 1er tour. Attaque au 2ÃƒÆ’Ã‚¨me."
+    "description": "Le lanceur se prépare au 1er tour. Attaque au 2ème."
   },
   "LUMINESCENCE": {
     "token": "LUMINESCENCE",
@@ -19821,7 +19821,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "LowerTargetAccuracy1",
-    "description": "Touche tous les ennemis. Baisse de 1 leur PrÃƒÆ’Ã‚©cision. Permet d'illuminer les endroits sombres hors combat."
+    "description": "Permet d'éclairer les endroits sombres hors combat. # KANTO : donné par un Montagnard devant le Mont Sélénite, à côté du Centre Pokémon. # JOHTO : donné par Jehan après un combat dans la Tour Chétiflor."
   },
   "LUMIQUEUE": {
     "token": "LUMIQUEUE",
@@ -19839,17 +19839,17 @@
   },
   "ZENITH": {
     "token": "ZENITH",
-    "name": "ZÃƒÆ’Ã‚©nith",
+    "name": "Photo-Geyser",
     "type": "SOLAIRE",
-    "category": "Status",
-    "power": "",
-    "accuracy": "0",
+    "category": "Special",
+    "power": "100",
+    "accuracy": "100",
     "pp": "5",
     "target": "BothSides",
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoSoleil",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Soleil pendant 5 tours."
+    "description": "Change la météo en Zénith pendant 5 tours."
   },
   "LUMIECLAT": {
     "token": "LUMIECLAT",
@@ -20283,7 +20283,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "",
     "function": "None",
-    "description": "Taux de critiques ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Taux de critiques élevé."
   },
   "PSYKOUDBOUL": {
     "token": "PSYKOUDBOUL",
@@ -20367,7 +20367,7 @@
     "flags": "CanProtect",
     "effect_chance": "",
     "function": "CounterSpecialDamage",
-    "description": "Contre nÃƒ¢ââ€š¬ââ€ž¢importe quelle capacitÃƒÆ’Ã‚© spÃƒÆ’Ã‚©ciale en infligeant le double des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts subis."
+    "description": "Contre n’importe quelle capacité spéciale en infligeant le double des dégâts subis."
   },
   "VAGUEPSY": {
     "token": "VAGUEPSY",
@@ -20381,7 +20381,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "FixedDamageUserLevelRandom",
-    "description": "Attaque ÃƒÆ’Ã‚  intensitÃƒÆ’Ã‚© variable."
+    "description": "Attaque à intensité variable."
   },
   "FORCEAJOUTEE": {
     "token": "FORCEAJOUTEE",
@@ -20451,7 +20451,7 @@
     "flags": "CanProtect,CanMirrorMove,Sound",
     "effect_chance": "",
     "function": "DisableTargetHealingMoves",
-    "description": "EmpÃƒÆ’Ã‚ªche la cible de rÃƒÆ’Ã‚©cupÃƒÆ’Ã‚©rer des PV pendant 2 tours."
+    "description": "Empêche la cible de récupérer des PV pendant 2 tours."
   },
   "CHOCPSY": {
     "token": "CHOCPSY",
@@ -20535,7 +20535,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "10",
     "function": "LowerTargetSpDef1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Peut baisser de 1 la Déf. Spé. de la cible."
   },
   "PARANOIA": {
     "token": "PARANOIA",
@@ -20577,7 +20577,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "AttackTwoTurnsLater",
-    "description": "Frappe la cible 2 tours aprÃƒÆ’Ã‚¨s lÃƒ¢ââ€š¬ââ€ž¢utilisation de cette capacitÃƒÆ’Ã‚©."
+    "description": "Frappe la cible 2 tours après l’utilisation de cette capacité."
   },
   "AMNESIE": {
     "token": "AMNESIE",
@@ -20665,7 +20665,7 @@
   },
   "HATE": {
     "token": "HATE",
-    "name": "HÃƒÆ’Ã‚¢te",
+    "name": "Hâte",
     "type": "PSY",
     "category": "Status",
     "power": "",
@@ -20717,7 +20717,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "HealUserFullyAndFallAsleep",
-    "description": "Le lanceur regagne tous ses PV et soigne ses problÃƒÆ’Ã‚¨mes de statut, puis il dort pendant 2 tours."
+    "description": "Le lanceur regagne tous ses PV et soigne ses problèmes de statut, puis il dort pendant 2 tours."
   },
   "OEILMIRACLE": {
     "token": "OEILMIRACLE",
@@ -21267,7 +21267,7 @@
   },
   "DEBLAYAGE": {
     "token": "DEBLAYAGE",
-    "name": "DÃƒÆ’Ã‚©blayage",
+    "name": "Déblayage",
     "type": "NEIGE",
     "category": "Physical",
     "power": "1",
@@ -21277,7 +21277,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "PowerHigherWithTargetWeight",
-    "description": "CapacitÃƒÆ’Ã‚© plus efficace contre les cibles lourdes."
+    "description": "Capacité plus efficace contre les cibles lourdes."
   },
   "BOULEDENEIGE": {
     "token": "BOULEDENEIGE",
@@ -21319,7 +21319,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfUserLostHPThisTurn",
-    "description": "Double la puissance si le lanceur a ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© blessÃƒÆ’Ã‚© par la cible durant le tour."
+    "description": "Double la puissance si le lanceur a été blessé par la cible durant le tour."
   },
   "FROIDINTENSE": {
     "token": "FROIDINTENSE",
@@ -21365,7 +21365,7 @@
   },
   "PERGELISOL": {
     "token": "PERGELISOL",
-    "name": "PergÃƒÆ’Ã‚©lisol",
+    "name": "Pergélisol",
     "type": "NEIGE",
     "category": "Physical",
     "power": "70",
@@ -21375,7 +21375,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "50",
     "function": "LowerTargetSpeed1",
-    "description": "Touche tous les PokÃƒÆ’Ã‚©mon autour du lanceur. Peut baisser de 1 leur Vitesse."
+    "description": "Touche tous les Pokémon autour du lanceur. Peut baisser de 1 leur Vitesse."
   },
   "POINGFRIGO": {
     "token": "POINGFRIGO",
@@ -21435,7 +21435,7 @@
   },
   "CONGELATION": {
     "token": "CONGELATION",
-    "name": "CongÃƒÆ’Ã‚©lation",
+    "name": "Congélation",
     "type": "NEIGE",
     "category": "Special",
     "power": "60",
@@ -21445,7 +21445,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfTargetHPLessThanHalf",
-    "description": "Double la puissance lorsque la cible a moins de la moitiÃƒÆ’Ã‚© de ses PV."
+    "description": "Double la puissance lorsque la cible a moins de la moitié de ses PV."
   },
   "POUDREUSE": {
     "token": "POUDREUSE",
@@ -21477,7 +21477,7 @@
   },
   "ONDEBOREALE": {
     "token": "ONDEBOREALE",
-    "name": "Onde BorÃƒÆ’Ã‚©ale",
+    "name": "Onde Boréale",
     "type": "NEIGE",
     "category": "Special",
     "power": "65",
@@ -21515,7 +21515,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "20",
     "function": "FreezeTarget",
-    "description": "Touche tous les PokÃƒÆ’Ã‚©mon autour du lanceur. Peut les geler."
+    "description": "Touche tous les Pokémon autour du lanceur. Peut les geler."
   },
   "VAGUEDEFROID": {
     "token": "VAGUEDEFROID",
@@ -21529,7 +21529,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "100",
     "function": "LowerTargetSpDef1",
-    "description": "Baisse de 1 leur DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©."
+    "description": "Baisse de 1 leur Déf. Spé."
   },
   "RUDEHIVER": {
     "token": "RUDEHIVER",
@@ -21599,7 +21599,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoChuteDeNeige",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Chute de Neige pendant 5 tours."
+    "description": "Change la météo en Chute de Neige pendant 5 tours."
   },
   "HIBERNATION": {
     "token": "HIBERNATION",
@@ -21739,7 +21739,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "30",
     "function": "RecoilQuarterOfDamageDealtBurnTarget",
-    "description": "Blesse lÃƒÆ’Ã‚©gÃƒÆ’Ã‚¨rement le lanceur. Peut brÃƒÆ’Ã‚»ler la cible."
+    "description": "Blesse légèrement le lanceur. Peut brûler la cible."
   },
   "TREMOR": {
     "token": "TREMOR",
@@ -21795,7 +21795,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfUserLostHPThisTurn",
-    "description": "Double la puissance si le lanceur a ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© blessÃƒÆ’Ã‚© par la cible durant le tour."
+    "description": "Double la puissance si le lanceur a été blessé par la cible durant le tour."
   },
   "LAVABULLE": {
     "token": "LAVABULLE",
@@ -21865,7 +21865,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DamageTargetAlly",
-    "description": "Si la cible visÃƒÆ’Ã‚©e est touchÃƒÆ’Ã‚©e, ses alliÃƒÆ’Ã‚©s subissent quelques dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts."
+    "description": "???"
   },
   "BOMBEFENDANTE": {
     "token": "BOMBEFENDANTE",
@@ -21879,11 +21879,11 @@
     "flags": "CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "100",
     "function": "LowerTargetSpDef1",
-    "description": "Baisse de 1 la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Baisse de 1 la Déf. Spé. de la cible."
   },
   "EBULLILAVE": {
     "token": "EBULLILAVE",
-    "name": "ÃƒÆ’ââ‚¬°bullilave",
+    "name": "Ébullilave",
     "type": "MAGMA",
     "category": "Special",
     "power": "80",
@@ -21893,7 +21893,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "50",
     "function": "BurnTarget",
-    "description": "Touche tous les PokÃƒÆ’Ã‚©mon autour du lanceur. Peut les brÃƒÆ’Ã‚»ler."
+    "description": "Touche tous les Pokémon autour du lanceur. Peut les brûler."
   },
   "NUEEARDENTE": {
     "token": "NUEEARDENTE",
@@ -21921,7 +21921,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "BindTarget",
-    "description": "PiÃƒÆ’Ã‚¨ge la cible durant 4 ÃƒÆ’Ã‚  5 tours."
+    "description": "Piège la cible durant 4 à 5 tours."
   },
   "VOLCANON": {
     "token": "VOLCANON",
@@ -21991,7 +21991,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoChuteDeCendre",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Chute de Cendre pendant 5 tours."
+    "description": "Change la météo en Chute de Cendre pendant 5 tours."
   },
   "MAGMANTEAU": {
     "token": "MAGMANTEAU",
@@ -22117,7 +22117,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfTargetActed",
-    "description": "Double la puissance si le lanceur agit aprÃƒÆ’Ã‚¨s la cible."
+    "description": "Double la puissance si le lanceur agit après la cible."
   },
   "EMPRUNTE": {
     "token": "EMPRUNTE",
@@ -22215,11 +22215,11 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "50",
     "function": "LowerTargetDefense1",
-    "description": "Peut baisser de 1 la DÃƒÆ’Ã‚©fense de la cible."
+    "description": "Peut baisser de 1 la Défense de la cible."
   },
   "PALEOCHOC": {
     "token": "PALEOCHOC",
-    "name": "PalÃƒÆ’Ã‚©o'Choc",
+    "name": "Paléo'Choc",
     "type": "FOSSILE",
     "category": "Physical",
     "power": "90",
@@ -22229,7 +22229,7 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "RecoilQuarterOfDamageDealt",
-    "description": "Blesse lÃƒÆ’Ã‚©gÃƒÆ’Ã‚¨rement le lanceur."
+    "description": "Blesse légèrement le lanceur."
   },
   "PRIMOIMPACT": {
     "token": "PRIMOIMPACT",
@@ -22257,7 +22257,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "FixedDamageUserLevelRandom",
-    "description": "Attaque ÃƒÆ’Ã‚  intensitÃƒÆ’Ã‚© variable."
+    "description": "Attaque à intensité variable."
   },
   "TIRAMBRE": {
     "token": "TIRAMBRE",
@@ -22303,7 +22303,7 @@
   },
   "VAGUEAMBREE": {
     "token": "VAGUEAMBREE",
-    "name": "Vague AmbrÃƒÆ’Ã‚©e",
+    "name": "Vague Ambrée",
     "type": "FOSSILE",
     "category": "Special",
     "power": "70",
@@ -22313,7 +22313,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "100",
     "function": "LowerTargetSpeed1",
-    "description": "Touche tous les ennemis. RÃƒÆ’Ã‚©duit de 1 leur Vitesse."
+    "description": "Touche tous les ennemis. Réduit de 1 leur Vitesse."
   },
   "EREJURASSIQUE": {
     "token": "EREJURASSIQUE",
@@ -22593,7 +22593,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HealUserByThreeQuartersOfDamageDone",
-    "description": "Soigne la moitiÃƒÆ’Ã‚© des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts infligÃƒÆ’Ã‚©s."
+    "description": "Permet d'allimenter certaines machines hors combat."
   },
   "ELECTRIKIPIK": {
     "token": "ELECTRIKIPIK",
@@ -22667,7 +22667,7 @@
   },
   "ELECTACLE": {
     "token": "ELECTACLE",
-    "name": "ÃƒÆ’ââ‚¬°lectacle",
+    "name": "Électacle",
     "type": "ELECTRIK",
     "category": "Physical",
     "power": "120",
@@ -22709,7 +22709,7 @@
   },
   "BOULEELEK": {
     "token": "BOULEELEK",
-    "name": "Boule ÃƒÆ’ââ‚¬°lek",
+    "name": "Boule Élek",
     "type": "ELECTRIK",
     "category": "Special",
     "power": "1",
@@ -22719,7 +22719,7 @@
     "flags": "CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "",
     "function": "PowerHigherWithUserFasterThanTarget",
-    "description": "Si la Vitesse du lanceur est plus grande que celle de la cible, les dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts augmentent dÃƒ¢ââ€š¬ââ€ž¢autant."
+    "description": "Si la Vitesse du lanceur est plus grande que celle de la cible, les dégâts augmentent d’autant."
   },
   "ELECTROJECTILE": {
     "token": "ELECTROJECTILE",
@@ -22761,7 +22761,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerInChampElectrik",
-    "description": "Double la puissance si la cible est sur un Champ ÃƒÆ’ââ‚¬°lectrik."
+    "description": "Double la puissance si la cible est sur un Champ Électrik."
   },
   "ELECTROCUTION": {
     "token": "ELECTROCUTION",
@@ -22793,7 +22793,7 @@
   },
   "RAYONCHARGE": {
     "token": "RAYONCHARGE",
-    "name": "Rayon ChargÃƒÆ’Ã‚©",
+    "name": "Rayon Chargé",
     "type": "ELECTRIK",
     "category": "Special",
     "power": "50",
@@ -22803,11 +22803,11 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "50",
     "function": "RaiseUserSpAtk1",
-    "description": "Peut augmenter de 1 l'Att. SpÃƒÆ’Ã‚© du lanceur."
+    "description": "Peut augmenter de 1 l'Att. Spé du lanceur."
   },
   "TOILEELEK": {
     "token": "TOILEELEK",
-    "name": "Toile ÃƒÆ’ââ‚¬°lek",
+    "name": "Toile Élek",
     "type": "ELECTRIK",
     "category": "Special",
     "power": "55",
@@ -22831,7 +22831,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "CapacitÃƒÆ’Ã‚© prioritaire."
+    "description": "Capacité prioritaire."
   },
   "ELECTRIBONUS": {
     "token": "ELECTRIBONUS",
@@ -22859,7 +22859,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "Impossible ÃƒÆ’Ã‚  esquiver."
+    "description": "Impossible à esquiver."
   },
   "COUPDJUS": {
     "token": "COUPDJUS",
@@ -22873,7 +22873,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "30",
     "function": "ParalyzeTarget",
-    "description": "Touche tous les ennemis. Peut les paralyser."
+    "description": "???"
   },
   "SURVOLTAGE": {
     "token": "SURVOLTAGE",
@@ -22891,7 +22891,7 @@
   },
   "DECHARGE": {
     "token": "DECHARGE",
-    "name": "DÃƒÆ’Ã‚©charge",
+    "name": "Décharge",
     "type": "ELECTRIK",
     "category": "Special",
     "power": "90",
@@ -22947,7 +22947,7 @@
   },
   "ELECANON": {
     "token": "ELECANON",
-    "name": "ÃƒÆ’ââ‚¬°lecanon",
+    "name": "Élecanon",
     "type": "ELECTRIK",
     "category": "Special",
     "power": "120",
@@ -22961,7 +22961,7 @@
   },
   "CHAMPELECTRIK": {
     "token": "CHAMPELECTRIK",
-    "name": "Champ ÃƒÆ’ââ‚¬°lectrik",
+    "name": "Champ Électrik",
     "type": "ELECTRIK",
     "category": "Status",
     "power": "",
@@ -22971,7 +22971,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartChampELECTRIK",
-    "description": "Change le terrain en Champ ÃƒÆ’ââ‚¬°lectrik pendant 5 tours."
+    "description": "Double la puissance si la cible est sur un Champ Électrik."
   },
   "CHARGEUR": {
     "token": "CHARGEUR",
@@ -23059,7 +23059,7 @@
   },
   "ONDESETRANGES": {
     "token": "ONDESETRANGES",
-    "name": "Ondes ÃƒÆ’ââ‚¬°tranges",
+    "name": "Ondes Étranges",
     "type": "ELECTRIK",
     "category": "Status",
     "power": "",
@@ -23069,21 +23069,21 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "LowerTargetSpAtk2",
-    "description": "Baisse de 2 l'Att. SpÃƒÆ’Ã‚©. de la cible."
+    "description": "Baisse de 2 l'Att. Spé. de la cible."
   },
   "VOLMAGNETIK": {
     "token": "VOLMAGNETIK",
-    "name": "Vol MagnÃƒÆ’Ã‚©tik",
+    "name": "Turbo Volt",
     "type": "ELECTRIK",
-    "category": "Status",
-    "power": "",
-    "accuracy": "0",
-    "pp": "10",
+    "category": "Special",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
     "target": "User",
     "flags": "",
     "effect_chance": "",
     "function": "StartUserAirborne",
-    "description": "Donne au lanceur l'effet : LÃƒÆ’Ã‚©vitation. Dure 5 tours."
+    "description": "Donne au lanceur l'effet : Lévitation. Dure 5 tours."
   },
   "ELECTROSURF": {
     "token": "ELECTROSURF",
@@ -23237,11 +23237,11 @@
     "flags": "Contact,CanProtect,CanMirrorMove",
     "effect_chance": "15",
     "function": "ParalyzeBurnOrFreezeTarget",
-    "description": "Peut paralyser, brÃƒÆ’Ã‚»ler ou geler la cible."
+    "description": "..."
   },
   "POINGMETEORE": {
     "token": "POINGMETEORE",
-    "name": "Poing MÃƒÆ’Ã‚©tÃƒÆ’Ã‚©ore",
+    "name": "Poing Météore",
     "type": "COSMIQUE",
     "category": "Physical",
     "power": "90",
@@ -23307,7 +23307,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "HitTwoToFiveTimes",
-    "description": "Touche 2 ÃƒÆ’Ã‚  5 fois la cible."
+    "description": "Touche 2 à 5 fois la cible."
   },
   "TRIPLESALVE": {
     "token": "TRIPLESALVE",
@@ -23339,7 +23339,7 @@
   },
   "METEORES": {
     "token": "METEORES",
-    "name": "MÃƒÆ’Ã‚©tÃƒÆ’Ã‚©ores",
+    "name": "Météores",
     "type": "COSMIQUE",
     "category": "Special",
     "power": "60",
@@ -23349,7 +23349,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "None",
-    "description": "Touche tous les ennemis. N'ÃƒÆ’Ã‚©choue jamais."
+    "description": "Touche tous les ennemis. N'échoue jamais."
   },
   "ONDESTELLAIRE": {
     "token": "ONDESTELLAIRE",
@@ -23423,7 +23423,7 @@
   },
   "LASERMETEORE": {
     "token": "LASERMETEORE",
-    "name": "Laser MÃƒÆ’Ã‚©tÃƒÆ’Ã‚©ore",
+    "name": "Laser Météore",
     "type": "COSMIQUE",
     "category": "Special",
     "power": "130",
@@ -23433,11 +23433,11 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "TwoTurnAttackChargeRaiseUserSpAtk1",
-    "description": "Augmente de 1 l'Att. SpÃƒÆ’Ã‚©. du lanceur au 1er tour. Attaque au 2nd."
+    "description": "Augmente de 1 l'Att. Spé. du lanceur au 1er tour. Attaque au 2nd."
   },
   "PLUIEDETOILES": {
     "token": "PLUIEDETOILES",
-    "name": "Pluie d'ÃƒÆ’ââ‚¬°toiles",
+    "name": "Pluie d'Étoiles",
     "type": "COSMIQUE",
     "category": "Status",
     "power": "",
@@ -23447,7 +23447,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartMeteoPluieDEtoiles",
-    "description": "Change la mÃƒÆ’Ã‚©tÃƒÆ’Ã‚©o en Ciel ÃƒÆ’ââ‚¬°toilÃƒÆ’Ã‚© pendant 5 tours."
+    "description": "Change la météo en Pluie d'Étoiles pendant 5 tours."
   },
   "CORPSCELESTE": {
     "token": "CORPSCELESTE",
@@ -23475,11 +23475,11 @@
     "flags": "",
     "effect_chance": "",
     "function": "RaiseUserDefSpDef1",
-    "description": "Augmente de 1 la DÃƒÆ’Ã‚©fense et la DÃƒÆ’Ã‚©f. SpÃƒÆ’Ã‚©. du lanceur."
+    "description": "Augmente de 1 la Défense et la Déf. Spé. du lanceur."
   },
   "GRAVITE": {
     "token": "GRAVITE",
-    "name": "GravitÃƒÆ’Ã‚©",
+    "name": "Gravité",
     "type": "COSMIQUE",
     "category": "Status",
     "power": "",
@@ -23489,7 +23489,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "StartGravity",
-    "description": "Pendant 5 tours, les PokÃƒÆ’Ã‚©mon Vol ou qui ont LÃƒÆ’Ã‚©vitation deviennent sensibles aux capacitÃƒÆ’Ã‚©s Terre. Rend inutilisables les capacitÃƒÆ’Ã‚©s volantes."
+    "description": "Pendant 5 tours, les Pokémon Vol ou qui ont Lévitation deviennent sensibles aux capacités Terre. Rend inutilisables les capacités volantes."
   },
   "VOEU": {
     "token": "VOEU",
@@ -25043,7 +25043,7 @@
     "flags": "CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "",
     "function": "HitTwoToFiveTimes",
-    "description": "Touche 2 ÃƒÆ’Ã‚  5 fois la cible."
+    "description": "Touche 2 à 5 fois la cible."
   },
   "JETDERONDIN": {
     "token": "JETDERONDIN",
@@ -25057,7 +25057,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "MultiTurnAttackPowersUpEachTurn",
-    "description": "Attaque la cible pendant 5 tours. La capacitÃƒÆ’Ã‚© gagne en puissance ÃƒÆ’Ã‚  chaque coup."
+    "description": "Attaque la cible pendant 5 tours. La capacité gagne en puissance à chaque coup."
   },
   "ECHARDE": {
     "token": "ECHARDE",
@@ -25085,7 +25085,7 @@
     "flags": "CanProtect,CanMirrorMove",
     "effect_chance": "",
     "function": "DoublePowerIfUserLostHPThisTurn",
-    "description": "Double la puissance si le lanceur a ÃƒÆ’Ã‚©tÃƒÆ’Ã‚© blessÃƒÆ’Ã‚© durant le tour."
+    "description": "Double la puissance si le lanceur a été blessé durant le tour."
   },
   "COUDBOIS": {
     "token": "COUDBOIS",
@@ -25211,7 +25211,7 @@
     "flags": "CanProtect,CanMirrorMove,Bomb",
     "effect_chance": "",
     "function": "None",
-    "description": "Aucun effet supplÃƒÆ’Ã‚©mentaire."
+    "description": "Aucun effet supplémentaire."
   },
   "LONGUETIGE": {
     "token": "LONGUETIGE",
@@ -25327,7 +25327,7 @@
   },
   "CHUTEEPINEUSE": {
     "token": "CHUTEEPINEUSE",
-    "name": "Chute ÃƒÆ’ââ‚¬°pineuse",
+    "name": "Chute Épineuse",
     "type": "BOIS",
     "category": "Special",
     "power": "70",
@@ -25337,7 +25337,7 @@
     "flags": "CanProtect,CanMirrorMove,HighCriticalHitRate",
     "effect_chance": "10",
     "function": "PoisonTarget",
-    "description": "Peut empoisonner la cible. Taux de critique ÃƒÆ’Ã‚©levÃƒÆ’Ã‚©."
+    "description": "Peut empoisonner la cible. Taux de critique élevé."
   },
   "ECLORONCES": {
     "token": "ECLORONCES",
@@ -25365,7 +25365,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "AttackTwoTurnsLater",
-    "description": "Frappe la cible 2 tours aprÃƒÆ’Ã‚¨s lÃƒ¢ââ€š¬ââ€ž¢utilisation de cette capacitÃƒÆ’Ã‚©."
+    "description": "Frappe la cible 2 tours après l’utilisation de cette capacité."
   },
   "RONCEMASSIVE": {
     "token": "RONCEMASSIVE",
@@ -25449,7 +25449,7 @@
     "flags": "",
     "effect_chance": "",
     "function": "AddSpikesToFoeSide",
-    "description": "Ajoute sur le terrain adverse : Picots (inflige des dÃƒÆ’Ã‚©gÃƒÆ’Ã‚¢ts aux PokÃƒÆ’Ã‚©mon entrant au combat)."
+    "description": "Ajoute sur le terrain adverse : Picots."
   },
   "RACINES": {
     "token": "RACINES",
