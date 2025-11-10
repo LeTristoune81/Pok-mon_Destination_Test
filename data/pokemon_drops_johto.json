@@ -5,12 +5,12 @@
     "ressource": {
       "code": "E_FERPLUME",
       "name": "Plume Ferplume",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -20,12 +20,12 @@
     "ressource": {
       "code": "E_KAIMINUS",
       "name": "Griffe Kaiminus",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -35,12 +35,12 @@
     "ressource": {
       "code": "E_AXOLOTO",
       "name": "Mucus Axoloto",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -50,12 +50,12 @@
     "ressource": {
       "code": "E_AZURILL",
       "name": "Duvet Azurill",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -65,12 +65,12 @@
     "ressource": {
       "code": "E_AZURILL",
       "name": "Duvet Azurill",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -80,12 +80,12 @@
     "ressource": {
       "code": "E_BABIMANTA",
       "name": "caille Babimanta",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -95,12 +95,12 @@
     "ressource": {
       "code": "E_CADUTIN",
       "name": "Cadeau Cadutin",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -110,12 +110,12 @@
     "ressource": {
       "code": "E_CADUTIN",
       "name": "Cadeau Cadutin",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -125,12 +125,12 @@
     "ressource": {
       "code": "E_CAPUMAIN",
       "name": "Poils Capumain",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -140,12 +140,12 @@
     "ressource": {
       "code": "E_CAPUMAIN",
       "name": "Poils Capumain",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -155,12 +155,12 @@
     "ressource": {
       "code": "E_CARATROC",
       "name": "Jus Caratroc",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": "JUSDEBAIE",
     "held_item": {
       "code": "JUSDEBAIE",
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -175,7 +175,7 @@
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -185,12 +185,12 @@
     "ressource": {
       "code": "E_CERFROUSSE",
       "name": "Orbe Cerfrousse",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -200,12 +200,12 @@
     "ressource": {
       "code": "E_MARCACRIN",
       "name": "Poils Marcacrin",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -215,12 +215,12 @@
     "ressource": {
       "code": "E_CORAYON",
       "name": "Corail Corayon",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -230,12 +230,12 @@
     "ressource": {
       "code": "E_CORNEBRE",
       "name": "Plume Cornbre",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -245,12 +245,12 @@
     "ressource": {
       "code": "E_CORNEBRE",
       "name": "Plume Cornbre",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -260,12 +260,12 @@
     "ressource": {
       "code": "E_GRANIVOL",
       "name": "Feuille Granivol",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -275,12 +275,12 @@
     "ressource": {
       "code": "E_COXY",
       "name": "Pollen Coxy",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -290,12 +290,12 @@
     "ressource": {
       "code": "E_COXY",
       "name": "Pollen Coxy",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -305,12 +305,12 @@
     "ressource": {
       "code": "E_COXY",
       "name": "Pollen Coxy",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -320,12 +320,12 @@
     "ressource": {
       "code": "E_COXY",
       "name": "Pollen Coxy",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -335,12 +335,12 @@
     "ressource": {
       "code": "E_KAIMINUS",
       "name": "Griffe Kaiminus",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -350,12 +350,12 @@
     "ressource": {
       "code": "E_BABIMANTA",
       "name": "caille Babimanta",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -365,12 +365,12 @@
     "ressource": {
       "code": "E_INSOLOURDO",
       "name": "caille Insolourdo",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -380,12 +380,12 @@
     "ressource": {
       "code": "E_FARFURET",
       "name": "Griffe Farfuret",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -395,12 +395,12 @@
     "ressource": {
       "code": "E_PHANPY",
       "name": "Ongle Phanpy",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -410,12 +410,12 @@
     "ressource": {
       "code": "E_INSOLOURDO",
       "name": "caille Insolourdo",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -425,12 +425,12 @@
     "ressource": {
       "code": "E_GIRAFARIG",
       "name": "Duvet Girafarig",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -440,12 +440,12 @@
     "ressource": {
       "code": "E_MALOSSE",
       "name": "Croc Malosse",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -455,12 +455,12 @@
     "ressource": {
       "code": "E_EMBRYLEX",
       "name": "Fragment Embrylex",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -475,7 +475,7 @@
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -485,12 +485,12 @@
     "ressource": {
       "code": "E_FARFURET",
       "name": "Griffe Farfuret",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -500,12 +500,12 @@
     "ressource": {
       "code": "E_GIRAFARIG",
       "name": "Duvet Girafarig",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -515,12 +515,12 @@
     "ressource": {
       "code": "E_FERPLUME",
       "name": "Plume Ferplume",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -530,12 +530,12 @@
     "ressource": {
       "code": "E_FEUFOREVE",
       "name": "Perle Feuforve",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -545,12 +545,12 @@
     "ressource": {
       "code": "E_HERICENDRE",
       "name": "Duvet Hricendre",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -560,12 +560,12 @@
     "ressource": {
       "code": "E_GRANIVOL",
       "name": "Feuille Granivol",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -575,12 +575,12 @@
     "ressource": {
       "code": "E_POMDEPIK",
       "name": "corce Pomdepik",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -590,12 +590,12 @@
     "ressource": {
       "code": "E_FOUINETTE",
       "name": "Duvet Fouinette",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -605,12 +605,12 @@
     "ressource": {
       "code": "E_FOUINETTE",
       "name": "Duvet Fouinette",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -620,12 +620,12 @@
     "ressource": {
       "code": "E_GERMIGNON",
       "name": "Feuille Germignon",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -635,12 +635,12 @@
     "ressource": {
       "code": "E_GIRAFARIG",
       "name": "Duvet Girafarig",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -650,12 +650,12 @@
     "ressource": {
       "code": "E_SNUBBULL",
       "name": "Poils Snubbull",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -665,12 +665,12 @@
     "ressource": {
       "code": "E_GRANIVOL",
       "name": "Feuille Granivol",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -685,7 +685,7 @@
     "WildItemCommon": "CENDRESACREE",
     "held_item": {
       "code": "CENDRESACREE",
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -695,12 +695,12 @@
     "ressource": {
       "code": "E_HOOTHOOT",
       "name": "Plume Hoothoot",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -710,12 +710,12 @@
     "ressource": {
       "code": "E_TOURNEGRIN",
       "name": "Graine Tournegrin",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -725,12 +725,12 @@
     "ressource": {
       "code": "E_HERICENDRE",
       "name": "Duvet Hricendre",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -740,12 +740,12 @@
     "ressource": {
       "code": "E_INSOLOURDO",
       "name": "caille Insolourdo",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -755,12 +755,12 @@
     "ressource": {
       "code": "E_KAIMINUS",
       "name": "Griffe Kaiminus",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -770,12 +770,12 @@
     "ressource": {
       "code": "E_WATTOUAT",
       "name": "Laine Wattouat",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -785,12 +785,12 @@
     "ressource": {
       "code": "E_LOUPIO",
       "name": "caille Loupio",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -800,12 +800,12 @@
     "ressource": {
       "code": "E_LIMAGMA",
       "name": "Lave Limagma",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -815,12 +815,12 @@
     "ressource": {
       "code": "E_LOUPIO",
       "name": "caille Loupio",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -835,7 +835,7 @@
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -850,7 +850,7 @@
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -860,12 +860,12 @@
     "ressource": {
       "code": "E_GERMIGNON",
       "name": "Feuille Germignon",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -875,12 +875,12 @@
     "ressource": {
       "code": "E_MAGICARPE2",
       "name": "Moustache Magicarpe",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -890,12 +890,12 @@
     "ressource": {
       "code": "E_FEUFOREVE",
       "name": "Perle Feuforve",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -905,12 +905,12 @@
     "ressource": {
       "code": "E_LIMAGMA",
       "name": "Lave Limagma",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -920,12 +920,12 @@
     "ressource": {
       "code": "E_MALOSSE",
       "name": "Croc Malosse",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -935,12 +935,12 @@
     "ressource": {
       "code": "E_MARCACRIN",
       "name": "Poils Marcacrin",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -950,12 +950,12 @@
     "ressource": {
       "code": "E_MANZAI",
       "name": "Fragment Manza",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -965,12 +965,12 @@
     "ressource": {
       "code": "E_AXOLOTO",
       "name": "Mucus Axoloto",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -980,12 +980,12 @@
     "ressource": {
       "code": "E_MARCACRIN",
       "name": "Poils Marcacrin",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -995,12 +995,12 @@
     "ressource": {
       "code": "E_AZURILL",
       "name": "Duvet Azurill",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1010,12 +1010,12 @@
     "ressource": {
       "code": "E_MIMIGAL",
       "name": "Toile Mimigal",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1025,12 +1025,12 @@
     "ressource": {
       "code": "E_MIMIGAL",
       "name": "Toile Mimigal",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1040,12 +1040,12 @@
     "ressource": {
       "code": "E_GERMIGNON",
       "name": "Feuille Germignon",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1055,12 +1055,12 @@
     "ressource": {
       "code": "E_NATU",
       "name": "Plume Natu",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1070,12 +1070,12 @@
     "ressource": {
       "code": "E_HOOTHOOT",
       "name": "Plume Hoothoot",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1085,12 +1085,12 @@
     "ressource": {
       "code": "E_REMORAID",
       "name": "caille Rmoraid",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1100,12 +1100,12 @@
     "ressource": {
       "code": "E_OKEOKE",
       "name": "Peau Okok",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1115,12 +1115,12 @@
     "ressource": {
       "code": "E_CADUTIN",
       "name": "Cadeau Cadutin",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1130,12 +1130,12 @@
     "ressource": {
       "code": "E_PHANPY",
       "name": "Ongle Phanpy",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1145,12 +1145,12 @@
     "ressource": {
       "code": "E_WATTOUAT",
       "name": "Laine Wattouat",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1160,12 +1160,12 @@
     "ressource": {
       "code": "E_POMDEPIK",
       "name": "corce Pomdepik",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1175,12 +1175,12 @@
     "ressource": {
       "code": "E_HOOTHOOT",
       "name": "Plume Hoothoot",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1190,12 +1190,12 @@
     "ressource": {
       "code": "E_QUEULORIOR",
       "name": "Peinture Queulorior",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1205,12 +1205,12 @@
     "ressource": {
       "code": "E_OKEOKE",
       "name": "Peau Okok",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1220,12 +1220,12 @@
     "ressource": {
       "code": "E_QWILFISH",
       "name": "Pic Qwilfish",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1240,7 +1240,7 @@
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1250,12 +1250,12 @@
     "ressource": {
       "code": "E_REMORAID",
       "name": "caille Rmoraid",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1265,12 +1265,12 @@
     "ressource": {
       "code": "E_SCARMINUS",
       "name": "Corne Scarminus",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1280,12 +1280,12 @@
     "ressource": {
       "code": "E_SCARMINUS",
       "name": "Corne Scarminus",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1295,12 +1295,12 @@
     "ressource": {
       "code": "E_SCORPLANE",
       "name": "caille Scorplane",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1310,12 +1310,12 @@
     "ressource": {
       "code": "E_SCORPLANE",
       "name": "caille Scorplane",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1325,12 +1325,12 @@
     "ressource": {
       "code": "E_MANZAI",
       "name": "Fragment Manza",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1340,12 +1340,12 @@
     "ressource": {
       "code": "E_SNUBBULL",
       "name": "Poils Snubbull",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1360,7 +1360,7 @@
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1370,12 +1370,12 @@
     "ressource": {
       "code": "E_TEDDIURSA",
       "name": "Griffe Teddiursa",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1385,12 +1385,12 @@
     "ressource": {
       "code": "E_TOGEPI",
       "name": "Coque Togepi",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1400,12 +1400,12 @@
     "ressource": {
       "code": "E_TOGEPI",
       "name": "Coque Togepi",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1415,12 +1415,12 @@
     "ressource": {
       "code": "E_TOGEPI",
       "name": "Coque Togepi",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1430,12 +1430,12 @@
     "ressource": {
       "code": "E_TOGEPI",
       "name": "Coque Togepi",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1445,12 +1445,12 @@
     "ressource": {
       "code": "E_TOURNEGRIN",
       "name": "Graine Tournegrin",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1460,12 +1460,12 @@
     "ressource": {
       "code": "E_TOURNEGRIN",
       "name": "Graine Tournegrin",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1475,12 +1475,12 @@
     "ressource": {
       "code": "E_INSOLOURDO",
       "name": "caille Insolourdo",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1490,12 +1490,12 @@
     "ressource": {
       "code": "E_HERICENDRE",
       "name": "Duvet Hricendre",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1505,12 +1505,12 @@
     "ressource": {
       "code": "E_EMBRYLEX",
       "name": "Fragment Embrylex",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1520,12 +1520,12 @@
     "ressource": {
       "code": "E_TEDDIURSA",
       "name": "Griffe Teddiursa",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1535,12 +1535,12 @@
     "ressource": {
       "code": "E_TEDDIURSA",
       "name": "Griffe Teddiursa",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1550,12 +1550,12 @@
     "ressource": {
       "code": "E_LIMAGMA",
       "name": "Lave Limagma",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1565,12 +1565,12 @@
     "ressource": {
       "code": "E_WATTOUAT",
       "name": "Laine Wattouat",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": "LAINE",
     "held_item": {
       "code": "LAINE",
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1580,12 +1580,12 @@
     "ressource": {
       "code": "E_NATU",
       "name": "Plume Natu",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1595,12 +1595,12 @@
     "ressource": {
       "code": "E_YANMA",
       "name": "Aile Yanma",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1610,12 +1610,12 @@
     "ressource": {
       "code": "E_YANMA",
       "name": "Aile Yanma",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1625,12 +1625,12 @@
     "ressource": {
       "code": "E_EMBRYLEX",
       "name": "Fragment Embrylex",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1640,12 +1640,12 @@
     "ressource": {
       "code": "E_ZARBI",
       "name": "Rune Zarbi",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": null,
     "held_item": {
       "code": null,
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   },
@@ -1655,12 +1655,12 @@
     "ressource": {
       "code": "E_ECREMEUH",
       "name": "Lait crmeuh",
-      "description": "Un chantillon laiss par un Pokmon. Il peut tre utilis pour fabriquer des objets."
+      "description": "Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets."
     },
     "WildItemCommon": "LAITMEUMEU",
     "held_item": {
       "code": "LAITMEUMEU",
-      "name": "Non Rpertori",
+      "name": "Non Répertorié",
       "description": ""
     }
   }
