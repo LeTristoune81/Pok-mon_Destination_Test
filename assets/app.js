@@ -4,9 +4,8 @@
 function $(q, el = document) { return el.querySelector(q); }
 function norm(s){ return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
 async function loadJSON(url) {
-  const final = withBase(url);
-  const res = await fetch(final, { cache: 'no-cache' });
-  if (!res.ok) throw new Error(`HTTP ${res.status} on ${final}`);
+  const res = await fetch(withBase(url), { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`HTTP ${res.status} on ${withBase(url)}`);
   return res.json();
 }
 function getParam(name, def=''){
@@ -15,28 +14,29 @@ function getParam(name, def=''){
 }
 function slugRegion(s){ return norm(s).replace(/\s+/g,'_'); }
 
-// --- Base-path FORCÉE sur le repo de test ---
-const REPO = '/Pok-mon_Destination_Test';
+// --- Base-path dynamique (fiable pour GitHub Pages) ---
+const REPO_BASE = (() => {
+  const parts = location.pathname.split('/').filter(Boolean);
+  // /<user>.github.io/<repo>/...
+  return location.hostname.endsWith('github.io') && parts.length ? `/${parts[0]}` : '';
+})();
 const withBase = (p) => {
   if (!p) return p;
-  if (/^https?:\/\//i.test(p)) return p;          // URL absolue
-  if (p.startsWith(REPO + '/')) return p;         // déjà préfixé
-  if (p.startsWith('/')) return REPO + p;         // /data/... -> /Pok-mon_Destination_Test/data/...
-  return REPO + '/' + p.replace(/^.\//,'');       // relatif -> /Pok-mon_Destination_Test/...
+  if (/^https?:\/\//i.test(p)) return p;
+  if (p.startsWith(REPO_BASE + '/')) return p;
+  if (p.startsWith('/')) return REPO_BASE + p;      // /data/... -> /Pok-mon_Destination_Test/data/...
+  return REPO_BASE + '/' + p.replace(/^.\//,'');    // relatif -> /Pok-mon_Destination_Test/...
 };
 
 // ==============================
-// Petites corrections visuelles
-// ==============================
+// Correction des accents cassés (léger)
 function fixBrokenAccentsInDom(root = document.body) {
   const map = [
     ['Pokmon','Pokémon'], ['Pokdex','Pokédex'], ['Capacits','Capacités'],
-    ['Non Rpertori','Non Répertorié'], ['chantillon laiss','échantillon laissé'],
-    ['tre utilis','être utilisé'], ['Pokmon','Pokémon']
   ];
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
   let n; const toFix = [];
-  while ((n = walker.nextNode())) { if (n.nodeValue) toFix.push(n); }
+  while ((n = walker.nextNode())) { if (/Pok/.test(n.nodeValue||'')) toFix.push(n); }
   for (const node of toFix) {
     let t = node.nodeValue;
     for (const [bad, good] of map) t = t.split(bad).join(good);
@@ -45,54 +45,49 @@ function fixBrokenAccentsInDom(root = document.body) {
 }
 
 // ==================
-// Pokédex (liste) — MODE SECOURS
+// Détection région depuis l'URL
+// ==================
+function detectRegionFromPath() {
+  const decoded = decodeURIComponent(location.pathname);
+  const m = decoded.match(/\/region\/([^/]+)/i);
+  return m ? m[1] : 'Johto';
+}
+
+// ==================
+// Pokédex (liste)
 // ==================
 async function initIndex(){
-  const container = $('.container') || document.body;
-  // Bandeau debug (affiché une fois)
-  if (!$('#dbg')) {
-    const dbg = document.createElement('div');
-    dbg.id = 'dbg';
-    dbg.className = 'small';
-    dbg.style.cssText = 'margin:8px 0;opacity:0.8;';
-    dbg.textContent = 'Debug prêt.';
-    container.insertAdjacentElement('afterbegin', dbg);
-  }
-
   try{
     const list = $('.grid');
     const q = $('#q');
-    if (!list) {
-      $('#dbg').textContent = 'Debug: conteneur .grid introuvable dans la page.';
-      return;
-    }
 
     let status = document.getElementById('status');
     if (!status) {
       status = document.createElement('div');
       status.id = 'status';
       status.className = 'small';
-      if (q && q.parentElement) q.insertAdjacentElement('afterend', status);
-      else list.parentElement?.insertBefore(status, list);
+      if (q && q.parentElement) {
+        q.insertAdjacentElement('afterend', status);
+      } else if (list && list.parentElement) {
+        list.parentElement.insertBefore(status, list);
+      }
     }
 
-    // Forçage Johto (on remettra l’auto plus tard)
-    const region = 'Johto';
-    const rk = 'johto';
-    const dataUrl = withBase(`/data/pokedex_${rk}.json`);
-    $('#dbg').textContent = `Debug: fetch ${dataUrl}`;
+    const region = detectRegionFromPath();
+    const rk = slugRegion(region);
+    const dataPath = `/data/pokedex_${rk}.json`;
 
-    const data = await loadJSON(`/data/pokedex_${rk}.json`);
+    const data = await loadJSON(dataPath);
 
     const render = (items)=>{
       list.innerHTML = items.map(p=>{
-        const name = (p.name||'').toLowerCase();
+        const name = p.name.toLowerCase();
         const candidates = [
           p.image || '',
           withBase(`/assets/pkm/${name}.png`),
           withBase(`/assets/pkm/${rk}/${name}.png`),
           withBase(`/assets/pkm/${name}_TCG.png`),
-          withBase(`/assets/pkm/${(p.name||'').toUpperCase()}.png`)
+          withBase(`/assets/pkm/${p.name.toUpperCase()}.png`)
         ].filter(Boolean);
 
         const dataSrcs = encodeURIComponent(JSON.stringify(candidates));
@@ -104,13 +99,13 @@ async function initIndex(){
             <div class="cardRow">
               <img class="thumb pokeimg"
                    src="${firstSrc}"
-                   alt="${p.name||''}"
+                   alt="${p.name}"
                    data-srcs="${dataSrcs}"
                    data-idx="0"
                    loading="lazy"
                    style="width:64px;height:64px;image-rendering:pixelated;object-fit:contain;">
               <div class="cardBody">
-                <div class="h2">${p.name||''}</div>
+                <div class="h2">${p.name}</div>
                 <div>${(p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ')}</div>
                 <div class="small" style="margin-top:4px">${p.evolution ? p.evolution : ''}</div>
                 <div style="margin-top:8px"><a href="${href}">Ouvrir la fiche </a></div>
@@ -118,7 +113,6 @@ async function initIndex(){
             </div>
           </div>`;
       }).join('');
-
       status.textContent = `${items.length} Pokémon affiché${items.length>1?'s':''}`;
 
       // Fallback images en cascade
@@ -147,7 +141,7 @@ async function initIndex(){
       q.addEventListener('input', e=>{
         const v = norm(e.target.value);
         const f = data.filter(p =>
-          norm(p.name||'').includes(v) ||
+          norm(p.name).includes(v) ||
           norm((p.types||[]).join(' ')).includes(v)
         );
         render(f);
@@ -160,13 +154,11 @@ async function initIndex(){
     card.className = 'card';
     card.innerHTML = `<div style="color:#ff8080">Erreur de chargement du Pokédex.<br><span class="small">${err.message}</span></div>`;
     c.appendChild(card);
-    const dbg = $('#dbg');
-    if (dbg) dbg.textContent = `Debug: ${err.message}`;
   }
 }
 
 // ==================
-// Fiche Pokémon (inchangée sauf base forcée)
+// Fiche Pokémon
 // ==================
 async function initPokemon(){
   try{
@@ -179,39 +171,20 @@ async function initPokemon(){
     }
 
     const data = await loadJSON(`/data/pokedex_${rk}.json`);
-    const p = data.find(x => (x.name||'').toLowerCase() === name);
+    const p = data.find(x => x.name.toLowerCase() === name);
     if(!p){
       $('.container')?.insertAdjacentHTML('beforeend', `<div class="card">Pokémon introuvable dans ${region}.</div>`);
       return;
     }
 
-    // Entête propre
-    $('#title')?.textContent = p.name || 'Pokémon';
-    $('#pokename')?.textContent = p.name || '';
+    $('#title')?.textContent = p.name;
+    $('#pokename')?.textContent = p.name;
+    const typesEl = $('#types'); if (typesEl) typesEl.innerHTML = (p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ');
+    const evoEl   = $('#evo');   if (evoEl)   evoEl.textContent  = p.evolution || '?';
+    const habilEl = $('#habil'); if (habilEl) habilEl.innerHTML  = (p.abilities||[]).map(a=>`<a href="${withBase('/moves.html')}#${encodeURIComponent(a)}">${a}</a>`).join(', ') || '?';
+    const habhidEl= $('#habhid');if (habhidEl)habhidEl.innerHTML = p.hidden_ability ? `<a href="${withBase('/moves.html')}#${encodeURIComponent(p.hidden_ability)}">${p.hidden_ability}</a>` : '?';
+    const pokedEl = $('#pokedex');if (pokedEl) pokedEl.textContent = p.pokedex || '?';
 
-    const linkMove = (m)=> `<a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
-
-    const typesEl = $('#types');
-    if (typesEl) typesEl.innerHTML = (p.types || []).map(t => `<span class="badge">${t}</span>`).join(' ');
-
-    $('#evo')?.replaceChildren();
-    const evoEl = $('#evo');
-    if (evoEl) evoEl.textContent = p.evolution || '?';
-
-    const habilEl = $('#habil');
-    if (habilEl) {
-      const abilities = p.abilities || [];
-      habilEl.innerHTML = abilities.length ? abilities.map(a => linkMove(a)).join(', ') : '?';
-    }
-
-    const habhidEl = $('#habhid');
-    if (habhidEl) {
-      habhidEl.innerHTML = p.hidden_ability ? linkMove(p.hidden_ability) : '?';
-    }
-
-    $('#pokedex')?.textContent = p.pokedex || '?';
-
-    // Image
     const img = $('#sprite');
     if (img){
       const tryList = [
@@ -230,6 +203,7 @@ async function initPokemon(){
       if (!lvlEl) return;
       const arr = (p.level_up || []).slice().sort((a,b)=>a.level-b.level);
       if (!arr.length){ lvlEl.innerHTML = '<li>?</li>'; return; }
+      const linkMove = (m)=> `<a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
       lvlEl.innerHTML = arr.map(m => {
         const label = `${m.level}`.padStart(2,'0');
         return `<li>${label} ${linkMove(m.move)}</li>`;
@@ -237,6 +211,7 @@ async function initPokemon(){
     })();
 
     // Repro / CS / CT / DT
+    const linkMove = (m)=> `<a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
     const renderList = (arr)=> arr && arr.length
       ? `<li class="lvl-group"><ul class="cols">${arr.map(m => `<li>${linkMove(m)}</li>`).join('')}</ul></li>`
       : '<li>?</li>';
@@ -245,50 +220,46 @@ async function initPokemon(){
     $('#ct')   && ($('#ct').innerHTML   = renderList(p.ct        || []));
     $('#dt')   && ($('#dt').innerHTML   = renderList(p.dt        || []));
 
-    // Objet tenu & Ressource
-    let heldName = 'Non Répertorié';
-    let resName  = 'Non Répertorié';
-    let resDesc  = 'Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets.';
-
+    // Objet tenu & Ressource (si le JSON existe)
     try{
       const drops = await loadJSON(`/data/pokemon_drops_${rk}.json`);
       const d = drops.find(x => (x.name||'').toLowerCase() === (p.name||'').toLowerCase()) || null;
 
+      let heldName = 'Non Répertorié';
+      let resName  = 'Non Répertorié';
+      let resDesc  = 'Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets.';
+
       if (d){
         const hasWildItem = d.WildItemCommon !== null && d.WildItemCommon !== undefined;
-        if (hasWildItem && d.held_item && d.held_item.name)
-          heldName = d.held_item.name;
+        if (hasWildItem && d.held_item && d.held_item.name) heldName = d.held_item.name;
         if (d.ressource) {
           if (d.ressource.name)  resName = d.ressource.name;
           if (d.ressource.description) resDesc = d.ressource.description;
         }
       }
-    }catch(e){ console.warn('drops non dispo', e); }
 
-    const objres = $('#objres');
-    if (objres){
-      objres.innerHTML = `
-        <li class="lvl-group">
-          <div class="lvl-title">Objet tenu</div>
-          <ul><li>${heldName}</li></ul>
-        </li>
-        <li class="lvl-group">
-          <div class="lvl-title">Ressource</div>
-          <ul>
-            <li><b>${resName}</b></li>
-            <li class="small" style="margin-top:4px;opacity:0.8;">${resDesc}</li>
-          </ul>
-        </li>`;
-    }
+      const objres = $('#objres');
+      if (objres){
+        objres.innerHTML = `
+          <li class="lvl-group">
+            <div class="lvl-title">Objet tenu</div>
+            <ul><li>${heldName}</li></ul>
+          </li>
+          <li class="lvl-group">
+            <div class="lvl-title">Ressource</div>
+            <ul>
+              <li><b>${resName}</b></li>
+              <li class="small" style="margin-top:4px;opacity:0.8;">${resDesc}</li>
+            </ul>
+          </li>`;
+      }
+    }catch(e){ /* drops absent : OK */ }
 
     fixBrokenAccentsInDom();
   }catch(err){
     console.error(err);
-    const c = $('.container') || document.body;
-    const card = document.createElement('div');
-    card.className = 'card';
-    card.innerHTML = `<div style="color:#ff8080">Erreur de chargement de la fiche.<br><span class="small">${err.message}</span></div>`;
-    c.appendChild(card);
+    const c = $('.container');
+    if (c) c.innerHTML = `<div class="card">Erreur de chargement de la fiche.<br><span class="small">${err.message}</span></div>`;
   }
 }
 
