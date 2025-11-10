@@ -15,7 +15,7 @@
     .card{background:#0b1020;border:1px solid #27324a;border-radius:10px;padding:12px}
     .card strong{color:#ffffff}
     .tag{display:inline-block;background:#1a2440;border:1px solid #334569;border-radius:999px;padding:2px 8px;margin-left:6px;font-size:.8rem}
-    .small{opacity:.8;font-size:.9rem;margin-top:6px;line-height:1.2rem}
+    .small{opacity:.8;font-size:.9rem;margin-top:6px;line-height:1.2rem;white-space:pre-line}
     .alert{background:#24121a;border:1px solid #6d2a3c;color:#ffd6de;border-radius:8px;padding:10px 12px}
     a{color:#7db3ff;text-decoration:none}
     code{background:#101a2a;border:1px solid #27324a;border-radius:6px;padding:0 6px}
@@ -52,12 +52,10 @@
 
 <script>
 (async () => {
-  // ---- Région depuis ?r=Johto (défaut Johto)
   const url = new URL(location.href);
   const rParam = url.searchParams.get('r') || 'Johto';
   document.getElementById('regionLabel').textContent = rParam;
 
-  // ---- Chemins vers les JSON (depuis /Pages/Attaques/)
   const PATH_MOVES   = '../../data/moves_index.json';
   const PATH_REGIONS = '../../data/regions_moves.json';
 
@@ -67,7 +65,6 @@
   const tagSel  = document.getElementById('tagSel');
   const countEl = document.getElementById('count');
 
-  // --- utilitaires
   const norm = s => (s ?? '').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 
   async function loadJSON(path, label) {
@@ -91,104 +88,5 @@
     return;
   }
 
-  // moves_index.json peut être un objet (clé = token) ou un tableau ; on uniformise
   const movesArray = Array.isArray(movesAll) ? movesAll : Object.values(movesAll || {});
-  // Index par "name" lisible (ex: "Dynamo-Poing")
-  const idxByName = new Map(movesArray.map(m => [m.name, m]));
-  // Index secondaire par "token"/"upper" si besoin (sécurise le fallback)
-  const idxByToken = new Map(movesArray.map(m => [m.token ?? m.upper ?? m.name, m]));
-
-  // Chercher la bonne clé région de façon insensible aux accents/casse
-  const keyWanted = norm(rParam);
-  const foundKey = Object.keys(regions).find(k => norm(k) === keyWanted);
-  const regionData = (foundKey && regions[foundKey]) || { CT: [], DT: [], CS: [], CU: [] };
-
-  // Normaliser une entrée "brute" de regions_moves en un objet { name, type, category, power, accuracy, pp, description, source }
-  const normalizeRegionMove = (raw) => {
-    if (typeof raw === 'string') {
-      // Si la région ne donnait qu’un nom
-      const fromIdx = idxByName.get(raw) || idxByToken.get(raw);
-      return fromIdx ? {
-        name: fromIdx.name,
-        type: fromIdx.type ?? '',
-        category: fromIdx.category ?? '',
-        power: fromIdx.power ?? null,
-        accuracy: fromIdx.accuracy ?? null,
-        pp: fromIdx.pp ?? null,
-        description: fromIdx.description ?? '',
-        source: 'index'
-      } : { name: raw, type: '', category: '', power: null, accuracy: null, pp: null, description: '', source: 'name-only' };
-    }
-    // Objet complet depuis regions_moves.json
-    const fromIdx = idxByName.get(raw.name) || idxByToken.get(raw.upper ?? raw.code);
-    // On fusionne : priorité aux champs présents dans moves_index.json si disponibles, sinon on garde ceux de la région
-    const merged = {
-      name: (fromIdx?.name) ?? raw.name,
-      type: (fromIdx?.type) ?? raw.type ?? '',
-      category: (fromIdx?.category) ?? raw.categorie ?? '',
-      power: (fromIdx?.power ?? fromIdx?.puissance) ?? raw.puissance ?? null,
-      accuracy: (fromIdx?.accuracy ?? fromIdx?.precision) ?? raw.precision ?? null,
-      pp: (fromIdx?.pp) ?? raw.pp ?? null,
-      description: (fromIdx?.description) ?? raw.description ?? '',
-      source: fromIdx ? 'merged' : 'region'
-    };
-    return merged;
-  };
-
-  // Obtenir la liste (ALL agrège CT+DT+CS+CU), en objets normalisés
-  function listForTag(tagRaw) {
-    const raw  = (tagRaw ?? '').toString().trim();
-    const normTag = raw
-      .replace(/\u2014/g, '').replace(/\u2013/g, '').replace(/-/g, '').replace(/\s+/g, '')
-      .toUpperCase();
-    const valid = new Set(['CT','DT','CS','CU']);
-    const pick = valid.has(normTag)
-      ? (regionData[normTag] || [])
-      : ['CT','DT','CS','CU'].flatMap(k => regionData[k] || []);
-    // Normaliser toutes les entrées et dédupliquer sur le nom lisible
-    const normalized = pick.map(normalizeRegionMove);
-    const seen = new Set();
-    return normalized.filter(m => {
-      const key = m.name;
-      if (!key || seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
-  }
-
-  function updateCount(n) {
-    countEl.textContent = ` ${n} ${n>1?'attaques':'attaque'}`;
-  }
-
-  function render() {
-    const tag = tagSel.value;
-    const q   = norm(search.value);
-    const list = listForTag(tag)
-      .filter(m => !q || norm(m.name).includes(q) || norm(m.description).includes(q));
-
-    updateCount(list.length);
-
-    if (!list.length) {
-      grid.innerHTML = `<div class="alert">Aucune attaque trouvée pour ce filtre.</div>`;
-      return;
-    }
-
-    grid.innerHTML = list.map(m => `
-      <div class="card">
-        <div><strong>${m.name}</strong>${m.type ? `<span class="tag">${m.type}</span>` : ''}</div>
-        ${m.category ? `<div>Catégorie : ${m.category}</div>` : ''}
-        <div>Puissance : ${m.power ?? '-'}&nbsp;&nbsp;Précision : ${m.accuracy ?? '-'}&nbsp;&nbsp;PP : ${m.pp ?? '-'}</div>
-        ${m.description ? `<div class="small">${m.description}</div>` : ''}
-      </div>
-    `).join('');
-  }
-
-  // events + rendu initial
-  search.addEventListener('input', render);
-  tagSel.addEventListener('change', render);
-  render();
-})();
-</script>
-
-</body>
-</html>
+  const idx
