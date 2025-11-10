@@ -162,11 +162,23 @@ async function initPokemon(){
   try{
     const region = getParam('r','Johto');
     const rk = slugRegion(region);
-    const name  = decodeURIComponent(getParam('n',''));
+
+    // --- Récupère le nom depuis ?n=, sinon fallback depuis l'URL (ex: /pokemon/Macronium.html) ou le hash
+    let name = decodeURIComponent(getParam('n','') || '').toLowerCase();
+    if (!name) {
+      const path = decodeURIComponent(location.pathname);
+      const m = path.match(/\/pokemon\/([^/]+)\.html$/i);
+      if (m) name = m[1].toLowerCase();
+    }
+    if (!name) {
+      const h = decodeURIComponent(location.hash || '').replace(/^#/, '');
+      if (h) name = h.toLowerCase();
+    }
     if (!name){
       $('.container')?.insertAdjacentHTML('beforeend', `<div class="card">Aucun Pokémon précisé.</div>`);
       return;
     }
+
 
     const data = await loadJSON(`/data/pokedex_${rk}.json`);
     const p = data.find(x => x.name.toLowerCase() === name);
