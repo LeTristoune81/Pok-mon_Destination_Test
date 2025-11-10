@@ -2303,7 +2303,7 @@
       "Regardvif"
     ],
     "hidden_ability": "Lentiteintee",
-    "evolution": "Évolue en Prophibou avec une Vieille Amulette",
+    "evolution": "Évolue en Prophibou en tenant l’objet Vieille Amulette",
     "pokedex": "Quand il est soucieux, il tourne la tête à 180 degrés. Il ne faut alors surtout pas le déranger, sous peine de recevoir un coup de bec.",
     "level_up": [
       {
@@ -2776,7 +2776,7 @@
       "Matinal"
     ],
     "hidden_ability": "Poingdefer",
-    "evolution": "Évolue en Coxypunch avec un Gant de Boxe / Évolue en Coxynescent avec une attaque de type Cosmique",
+    "evolution": "Évolue en Coxypunch en tenant l’objet Gant de Boxe / Évolue en Coxynescent avec une attaque de type Cosmique",
     "pokedex": "Le motif qui orne son dos aurait un lien avec les étoiles, mais nul ne sait encore en quoi consiste ce lien.",
     "level_up": [
       {
@@ -5066,7 +5066,7 @@
       "Tetederoc"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "Évolue en Simularbre en connaissant Copie",
+    "evolution": "Évolue en Simularbre en connaissant l'attaque Copie",
     "pokedex": "Adepte des climats secs, il régule son humidité en laissant couler ce qui ressemble à des larmes.",
     "level_up": [
       {
@@ -5813,7 +5813,7 @@
       "Ramassage"
     ],
     "hidden_ability": "Multicoups",
-    "evolution": "Évolue en Capidextre en connaissant Coup Double / Évolue en Capidextre avec une Pierre Basique",
+    "evolution": "Évolue en Capidextre en connaissant l'attaque Coup Double / Évolue en Capidextre avec une Pierre Basique",
     "pokedex": "Il vit sur les plus hautes cimes. Sautant de branche en branche, sa queue lui assure un bon équilibre.",
     "level_up": [
       {
@@ -6496,7 +6496,7 @@
       "Oeilcompose"
     ],
     "hidden_ability": "Fouille",
-    "evolution": "Évolue en Yanmega en connaissant Pouvoir Antique / Évolue en Yanmega avec une Pierre Nectar",
+    "evolution": "Évolue en Yanmega en connaissant l'attaque Pouvoir Antique / Évolue en Yanmega avec une Pierre Nectar",
     "pokedex": "En battant des ailes très vite, il peut générer une violente onde de choc qui peut briser des fenêtres.",
     "level_up": [
       {
@@ -7992,7 +7992,7 @@
       "Matinal"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "Évolue en Farigiraf en connaissant forceajoutee / Évolue en Dragifigard avec une Pierre Antique",
+    "evolution": "Évolue en Farigiraf en connaissant l'attaque Force Ajoutée / Évolue en Dragifigard avec une Pierre Antique",
     "pokedex": "Sa queue possède un cerveau. Si vous vous en approchez, elle vous sentira et vous mordra.",
     "level_up": [
       {
@@ -8638,7 +8638,7 @@
       "Fuite"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "Évolue en Deusolourdo en connaissant hyperceuse / Évolue en Dracolourdo avec une attaque de type Dragon",
+    "evolution": "Évolue en Deusolourdo en connaissant l'attaque Hyperceuse / Évolue en Dracolourdo avec une attaque de type Dragon",
     "pokedex": "Son nid est un véritable labyrinthe qu'il creuse à l'aide de sa queue. Il sait à peine voler.",
     "level_up": [
       {
@@ -9178,7 +9178,7 @@
       "Voilesable"
     ],
     "hidden_ability": "Vaccin",
-    "evolution": "Évolue en Scorvol avec un Croc Rasoir",
+    "evolution": "Évolue en Scorvol en tenant l’objet Croc Rasoir",
     "pokedex": "Il plane droit vers le visage de sa cible effrayée et s'y accroche pour lui injecter son poison.",
     "level_up": [
       {
@@ -10232,7 +10232,7 @@
       "Regardvif"
     ],
     "hidden_ability": "Pickpocket",
-    "evolution": "Évolue en Dimoret avec une Griffe Rasoir",
+    "evolution": "Évolue en Dimoret en tenant l’objet Griffe Rasoir",
     "pokedex": "Ses griffes sont cachées dans ses pattes. S'il est attaqué, il les sort pour frapper ses ennemis.",
     "level_up": [
       {
@@ -11425,7 +11425,7 @@
       "Rideauneige"
     ],
     "hidden_ability": "Isograisse",
-    "evolution": "Évolue en Mammochon en connaissant Pouvoir Antique",
+    "evolution": "Évolue en Mammochon en connaissant l'attaque Pouvoir Antique",
     "pokedex": "Bien que pourvu de courtes pattes, ses sabots sont pointus pour l'empêcher de glisser sur la glace.",
     "level_up": [
       {
