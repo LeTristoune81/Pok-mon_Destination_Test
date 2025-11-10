@@ -220,38 +220,50 @@ async function initPokemon(){
     $('#dt')   && ($('#dt').innerHTML   = renderList(p.dt        || []));
 
     // ===== Objet tenu & Ressource (pokemon_drops_<rk>.json) =====
+    // On remplit TOUJOURS deux <li> dans #objres : "Objet tenu" et "Ressource"
+    let heldName = 'Non Répertorié';
+    let resName  = 'Non Répertorié';
+    let resDesc  = 'Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets.';
+
     try{
       const drops = await loadJSON(withBase(`/data/pokemon_drops_${rk}.json`));
       const d = drops.find(x => (x.name||'').toLowerCase() === (p.name||'').toLowerCase()) || null;
 
-      // Objet tenu : si WildItemCommon == null => “Non Répertorié”
-      let heldName = 'Non Répertorié';
-      if (d) {
+      if (d){
+        // Objet tenu
         const hasWildItem = d.WildItemCommon !== null && d.WildItemCommon !== undefined;
-        if (hasWildItem && d.held_item && d.held_item.name) heldName = d.held_item.name;
-        // sinon on laisse “Non Répertorié”
-      }
+        if (hasWildItem && d.held_item && d.held_item.name) {
+          heldName = d.held_item.name;
+        } else {
+          heldName = 'Non Répertorié';
+        }
 
-      // Ressource
-      const resName = d?.ressource?.name || 'Non Répertorié';
-      const resDesc = d?.ressource?.description || 'Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets.';
-
-      const objres = $('#objres');
-      if (objres){
-        objres.innerHTML = `
-          <ul id="objresGrid">
-            <li class="lvl-group"><div class="lvl-title">Objet tenu</div><ul><li>${heldName}</li></ul></li>
-            <li class="lvl-group"><div class="lvl-title">Ressource</div>
-              <ul>
-                <li><b>${resName}</b></li>
-                <li style="margin-top:4px;opacity:0.8;">${resDesc}</li>
-              </ul>
-            </li>
-          </ul>`;
+        // Ressource
+        if (d.ressource) {
+          if (d.ressource.name)  resName = d.ressource.name;
+          if (d.ressource.description) resDesc = d.ressource.description;
+        }
       }
     }catch(e){
-      // JSON des drops absent : ne bloque pas la page
+      // on garde les valeurs par défaut si le JSON n'est pas là
       console.warn('drops non dispo', e);
+    }
+
+    // Injection DIRECTE dans #objres : deux cases (li)
+    const objres = $('#objres');
+    if (objres){
+      objres.innerHTML = `
+        <li class="lvl-group">
+          <div class="lvl-title">Objet tenu</div>
+          <ul><li>${heldName}</li></ul>
+        </li>
+        <li class="lvl-group">
+          <div class="lvl-title">Ressource</div>
+          <ul>
+            <li><b>${resName}</b></li>
+            <li class="small" style="margin-top:4px;opacity:0.8;">${resDesc}</li>
+          </ul>
+        </li>`;
     }
 
     fixBrokenAccentsInDom();
