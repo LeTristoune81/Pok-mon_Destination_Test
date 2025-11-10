@@ -595,11 +595,11 @@
       },
       {
         "level": 5,
-        "move": "CRACHFUMEE"
+        "move": "Crach'Fumée"
       },
       {
         "level": 7,
-        "move": "ROUSSI"
+        "move": "Roussi"
       },
       {
         "level": 10,
@@ -611,7 +611,7 @@
       },
       {
         "level": 17,
-        "move": "DOUBLEPIED"
+        "move": "Double Pied"
       },
       {
         "level": 21,
@@ -627,7 +627,7 @@
       },
       {
         "level": 33,
-        "move": "FEUEVEILLE"
+        "move": "Feu Éveillé"
       },
       {
         "level": 37,
@@ -639,15 +639,15 @@
       },
       {
         "level": 46,
-        "move": "GRONDEMENT"
+        "move": "Grondement"
       },
       {
         "level": 50,
-        "move": "SOLAGRIFFE"
+        "move": "Solagriffe"
       },
       {
         "level": 54,
-        "move": "FEUDENFER"
+        "move": "Feu d'Enfer"
       },
       {
         "level": 58,
@@ -655,7 +655,7 @@
       },
       {
         "level": 62,
-        "move": "LUNATIQUE"
+        "move": "Lunatique"
       },
       {
         "level": 66,
@@ -667,15 +667,15 @@
       },
       {
         "level": 75,
-        "move": "INCENDIE"
+        "move": "Incendie"
       },
       {
         "level": 80,
-        "move": "DOULEUR"
+        "move": "Douleur"
       },
       {
         "level": 85,
-        "move": "SULFATEUSE"
+        "move": "Sulfateuse"
       },
       {
         "level": 90,
@@ -683,7 +683,7 @@
       },
       {
         "level": 95,
-        "move": "EXECUSON"
+        "move": "Exécu-Son"
       },
       {
         "level": 100,
@@ -691,16 +691,16 @@
       }
     ],
     "egg_moves": [
-      "NITROCHARGE",
+      "Nitrocharge",
       "Éclate Griffe",
-      "RAGEBRULANTE",
-      "CROCSMETAL",
+      "Rage Brûlante",
+      "Crocs Métal",
       "Sable Ardent",
       "Maraudage",
       "Danse Flammes",
-      "PSYCHOCROC",
+      "Psycho-Croc",
       "Vive-Attaque",
-      "VAGUEDECHALEUR"
+      "Vague de Chaleur"
     ],
     "cs": [
       "Flash"
@@ -752,11 +752,11 @@
       },
       {
         "level": 5,
-        "move": "CRACHFUMEE"
+        "move": "Crach'Fumée"
       },
       {
         "level": 7,
-        "move": "ROUSSI"
+        "move": "Roussi"
       },
       {
         "level": 10,
@@ -768,7 +768,7 @@
       },
       {
         "level": 17,
-        "move": "DOUBLEPIED"
+        "move": "Double Pied"
       },
       {
         "level": 21,
@@ -784,7 +784,7 @@
       },
       {
         "level": 33,
-        "move": "FEUEVEILLE"
+        "move": "Feu Éveillé"
       },
       {
         "level": 37,
@@ -796,15 +796,15 @@
       },
       {
         "level": 46,
-        "move": "GRONDEMENT"
+        "move": "Grondement"
       },
       {
         "level": 50,
-        "move": "SOLAGRIFFE"
+        "move": "Solagriffe"
       },
       {
         "level": 54,
-        "move": "FEUDENFER"
+        "move": "Feu d'Enfer"
       },
       {
         "level": 58,
@@ -812,7 +812,7 @@
       },
       {
         "level": 62,
-        "move": "LUNATIQUE"
+        "move": "Lunatique"
       },
       {
         "level": 66,
@@ -824,15 +824,15 @@
       },
       {
         "level": 75,
-        "move": "INCENDIE"
+        "move": "Incendie"
       },
       {
         "level": 80,
-        "move": "DOULEUR"
+        "move": "Douleur"
       },
       {
         "level": 85,
-        "move": "SULFATEUSE"
+        "move": "Sulfateuse"
       },
       {
         "level": 90,
@@ -840,7 +840,7 @@
       },
       {
         "level": 95,
-        "move": "EXECUSON"
+        "move": "Exécu-Son"
       },
       {
         "level": 100,
@@ -920,7 +920,7 @@
     "level_up": [
       {
         "level": 0,
-        "move": "VENTBRULANT"
+        "move": "Vent Brûlant"
       },
       {
         "level": 1,
@@ -940,11 +940,11 @@
       },
       {
         "level": 5,
-        "move": "CRACHFUMEE"
+        "move": "Crach'Fumée"
       },
       {
         "level": 7,
-        "move": "ROUSSI"
+        "move": "Roussi"
       },
       {
         "level": 10,
@@ -956,7 +956,7 @@
       },
       {
         "level": 17,
-        "move": "DOUBLEPIED"
+        "move": "Double Pied"
       },
       {
         "level": 21,
@@ -972,7 +972,7 @@
       },
       {
         "level": 33,
-        "move": "FEUEVEILLE"
+        "move": "Feu Éveillé"
       },
       {
         "level": 37,
@@ -984,15 +984,15 @@
       },
       {
         "level": 46,
-        "move": "GRONDEMENT"
+        "move": "Grondement"
       },
       {
         "level": 50,
-        "move": "SOLAGRIFFE"
+        "move": "Solagriffe"
       },
       {
         "level": 54,
-        "move": "FEUDENFER"
+        "move": "Feu d'Enfer"
       },
       {
         "level": 58,
@@ -1000,7 +1000,7 @@
       },
       {
         "level": 62,
-        "move": "LUNATIQUE"
+        "move": "Lunatique"
       },
       {
         "level": 66,
@@ -1012,15 +1012,15 @@
       },
       {
         "level": 75,
-        "move": "INCENDIE"
+        "move": "Incendie"
       },
       {
         "level": 80,
-        "move": "DOULEUR"
+        "move": "Douleur"
       },
       {
         "level": 85,
-        "move": "SULFATEUSE"
+        "move": "Sulfateuse"
       },
       {
         "level": 90,
@@ -1028,7 +1028,7 @@
       },
       {
         "level": 95,
-        "move": "EXECUSON"
+        "move": "Exécu-Son"
       },
       {
         "level": 100,
@@ -1165,11 +1165,11 @@
       },
       {
         "level": 5,
-        "move": "JETDESABLE"
+        "move": "Jet de Sable"
       },
       {
         "level": 7,
-        "move": "PISTOLETAO"
+        "move": "Pistolet à O"
       },
       {
         "level": 10,
@@ -1177,7 +1177,7 @@
       },
       {
         "level": 13,
-        "move": "MORSURE"
+        "move": "Morsure"
       },
       {
         "level": 17,
@@ -1185,7 +1185,7 @@
       },
       {
         "level": 21,
-        "move": "CROCSAQUEUX"
+        "move": "Crocs Aqueux"
       },
       {
         "level": 25,
@@ -1193,7 +1193,7 @@
       },
       {
         "level": 29,
-        "move": "CROCOLARME"
+        "move": "Croco Larme"
       },
       {
         "level": 33,
@@ -1201,23 +1201,23 @@
       },
       {
         "level": 37,
-        "move": "QUEUERAPEUSE"
+        "move": "Queue Rapeuse"
       },
       {
         "level": 41,
-        "move": "AQUABRECHE"
+        "move": "Aqua-Brèche"
       },
       {
         "level": 46,
-        "move": "DETECTION"
+        "move": "Détection"
       },
       {
         "level": 50,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 54,
-        "move": "PERCEE"
+        "move": "Percée"
       },
       {
         "level": 58,
@@ -1229,11 +1229,11 @@
       },
       {
         "level": 66,
-        "move": "FLEXIQUEUE"
+        "move": "Fléxi-Queue"
       },
       {
         "level": 70,
-        "move": "HYDROCANON"
+        "move": "Hydrocanon"
       },
       {
         "level": 75,
@@ -1245,7 +1245,7 @@
       },
       {
         "level": 85,
-        "move": "COUPPERCANT"
+        "move": "Coup Perçant"
       },
       {
         "level": 90,
@@ -1253,24 +1253,24 @@
       },
       {
         "level": 95,
-        "move": "MAUVAISEHUMEUR"
+        "move": "Mauvaise Humeur"
       },
       {
         "level": 100,
-        "move": "HYDRORAVAGE"
+        "move": "Hydro Ravage"
       }
     ],
     "egg_moves": [
-      "AQUAJET",
+      "Aqua Jet",
       "Barrage",
-      "FLATTERIE",
-      "CROCSMETAL",
+      "Flatterie",
+      "Crocs Métal",
       "Mania",
-      "CROCSFROIDS",
-      "PSYCHOCROC",
-      "CROQUEFORT",
-      "ULCERATION",
-      "CROCSRADIEUX"
+      "Crocs Froids",
+      "Psycho-Croc",
+      "Croque Fort",
+      "Ulcération",
+      "Crocs Radieux"
     ],
     "cs": [
       "Coupe"
@@ -1337,11 +1337,11 @@
       },
       {
         "level": 5,
-        "move": "JETDESABLE"
+        "move": "Jet de Sable"
       },
       {
         "level": 7,
-        "move": "PISTOLETAO"
+        "move": "Pistolet à O"
       },
       {
         "level": 10,
@@ -1349,7 +1349,7 @@
       },
       {
         "level": 13,
-        "move": "MORSURE"
+        "move": "Morsure"
       },
       {
         "level": 17,
@@ -1357,7 +1357,7 @@
       },
       {
         "level": 21,
-        "move": "CROCSAQUEUX"
+        "move": "Crocs Aqueux"
       },
       {
         "level": 25,
@@ -1365,7 +1365,7 @@
       },
       {
         "level": 29,
-        "move": "CROCOLARME"
+        "move": "Croco Larme"
       },
       {
         "level": 33,
@@ -1373,23 +1373,23 @@
       },
       {
         "level": 37,
-        "move": "QUEUERAPEUSE"
+        "move": "Queue Rapeuse"
       },
       {
         "level": 41,
-        "move": "AQUABRECHE"
+        "move": "Aqua-Brèche"
       },
       {
         "level": 46,
-        "move": "DETECTION"
+        "move": "Détection"
       },
       {
         "level": 50,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 54,
-        "move": "PERCEE"
+        "move": "Percée"
       },
       {
         "level": 58,
@@ -1401,11 +1401,11 @@
       },
       {
         "level": 66,
-        "move": "FLEXIQUEUE"
+        "move": "Fléxi-Queue"
       },
       {
         "level": 70,
-        "move": "HYDROCANON"
+        "move": "Hydrocanon"
       },
       {
         "level": 75,
@@ -1417,7 +1417,7 @@
       },
       {
         "level": 85,
-        "move": "COUPPERCANT"
+        "move": "Coup Perçant"
       },
       {
         "level": 90,
@@ -1425,11 +1425,11 @@
       },
       {
         "level": 95,
-        "move": "MAUVAISEHUMEUR"
+        "move": "Mauvaise Humeur"
       },
       {
         "level": 100,
-        "move": "HYDRORAVAGE"
+        "move": "Hydro Ravage"
       }
     ],
     "egg_moves": [],
@@ -1521,7 +1521,7 @@
     "level_up": [
       {
         "level": 0,
-        "move": "TRANCHAQUA"
+        "move": "Tranch'Aqua"
       },
       {
         "level": 1,
@@ -1529,7 +1529,7 @@
       },
       {
         "level": 1,
-        "move": "CROCSGIVRE"
+        "move": "Crocs Givre"
       },
       {
         "level": 1,
@@ -1541,11 +1541,11 @@
       },
       {
         "level": 5,
-        "move": "JETDESABLE"
+        "move": "Jet de Sable"
       },
       {
         "level": 7,
-        "move": "PISTOLETAO"
+        "move": "Pistolet à O"
       },
       {
         "level": 10,
@@ -1553,7 +1553,7 @@
       },
       {
         "level": 13,
-        "move": "MORSURE"
+        "move": "Morsure"
       },
       {
         "level": 17,
@@ -1561,7 +1561,7 @@
       },
       {
         "level": 21,
-        "move": "CROCSAQUEUX"
+        "move": "Crocs Aqueux"
       },
       {
         "level": 25,
@@ -1569,7 +1569,7 @@
       },
       {
         "level": 29,
-        "move": "CROCOLARME"
+        "move": "Croco Larme"
       },
       {
         "level": 33,
@@ -1577,23 +1577,23 @@
       },
       {
         "level": 37,
-        "move": "QUEUERAPEUSE"
+        "move": "Queue Rapeuse"
       },
       {
         "level": 41,
-        "move": "AQUABRECHE"
+        "move": "Aqua-Brèche"
       },
       {
         "level": 46,
-        "move": "DETECTION"
+        "move": "Détection"
       },
       {
         "level": 50,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 54,
-        "move": "PERCEE"
+        "move": "Percée"
       },
       {
         "level": 58,
@@ -1605,11 +1605,11 @@
       },
       {
         "level": 66,
-        "move": "FLEXIQUEUE"
+        "move": "Fléxi-Queue"
       },
       {
         "level": 70,
-        "move": "HYDROCANON"
+        "move": "Hydrocanon"
       },
       {
         "level": 75,
@@ -1621,7 +1621,7 @@
       },
       {
         "level": 85,
-        "move": "COUPPERCANT"
+        "move": "Coup Perçant"
       },
       {
         "level": 90,
@@ -1629,11 +1629,11 @@
       },
       {
         "level": 95,
-        "move": "MAUVAISEHUMEUR"
+        "move": "Mauvaise Humeur"
       },
       {
         "level": 100,
-        "move": "HYDRORAVAGE"
+        "move": "Hydro Ravage"
       }
     ],
     "egg_moves": [],
@@ -1789,11 +1789,11 @@
       },
       {
         "level": 13,
-        "move": "CLAIRVOYANCE"
+        "move": "Clairvoyance"
       },
       {
         "level": 17,
-        "move": "AFFECTION"
+        "move": "Affection"
       },
       {
         "level": 21,
@@ -1801,7 +1801,7 @@
       },
       {
         "level": 25,
-        "move": "ECLATEQUEUE"
+        "move": "Éclate Queue"
       },
       {
         "level": 29,
@@ -1809,7 +1809,7 @@
       },
       {
         "level": 33,
-        "move": "BULLDOBOULE"
+        "move": "Bulldoboule"
       },
       {
         "level": 37,
@@ -1821,11 +1821,11 @@
       },
       {
         "level": 46,
-        "move": "ENROULEMENT"
+        "move": "Enroulement"
       },
       {
         "level": 50,
-        "move": "FLEXIQUEUE"
+        "move": "Fléxi-Queue"
       },
       {
         "level": 54,
@@ -1861,7 +1861,7 @@
       },
       {
         "level": 80,
-        "move": "REGARDTOUCHANT"
+        "move": "Regard Touchant"
       },
       {
         "level": 85,
@@ -1869,11 +1869,11 @@
       },
       {
         "level": 90,
-        "move": "MAGNIFICIENCE"
+        "move": "Magnificience"
       },
       {
         "level": 95,
-        "move": "MALLEABLE"
+        "move": "Malléable"
       },
       {
         "level": 100,
@@ -1881,16 +1881,16 @@
       }
     ],
     "egg_moves": [
-      "ECLATEQUEUE",
-      "ESSORAGE",
+      "Éclate Queue",
+      "Essorage",
       "Bluff",
-      "CONFISCATION",
+      "Confiscation",
       "Bond",
-      "LIGOTAGE",
+      "Ligotage",
       "Uppercut",
-      "GROSCALIN",
-      "LILLIPUT",
-      "COGNE"
+      "Gros Câlin",
+      "Lilliput",
+      "Cogne"
     ],
     "cs": [
       "Éclate-Roc"
@@ -1946,7 +1946,7 @@
     "level_up": [
       {
         "level": 0,
-        "move": "ENROULEMENT"
+        "move": "Enroulement"
       },
       {
         "level": 1,
@@ -1970,11 +1970,11 @@
       },
       {
         "level": 13,
-        "move": "CLAIRVOYANCE"
+        "move": "Clairvoyance"
       },
       {
         "level": 17,
-        "move": "AFFECTION"
+        "move": "Affection"
       },
       {
         "level": 21,
@@ -1982,7 +1982,7 @@
       },
       {
         "level": 25,
-        "move": "ECLATEQUEUE"
+        "move": "Éclate Queue"
       },
       {
         "level": 29,
@@ -1990,7 +1990,7 @@
       },
       {
         "level": 33,
-        "move": "BULLDOBOULE"
+        "move": "Bulldoboule"
       },
       {
         "level": 37,
@@ -2002,11 +2002,11 @@
       },
       {
         "level": 46,
-        "move": "ENROULEMENT"
+        "move": "Enroulement"
       },
       {
         "level": 50,
-        "move": "FLEXIQUEUE"
+        "move": "Fléxi-Queue"
       },
       {
         "level": 54,
@@ -2042,7 +2042,7 @@
       },
       {
         "level": 80,
-        "move": "REGARDTOUCHANT"
+        "move": "Regard Touchant"
       },
       {
         "level": 85,
@@ -2050,11 +2050,11 @@
       },
       {
         "level": 90,
-        "move": "MAGNIFICIENCE"
+        "move": "Magnificience"
       },
       {
         "level": 95,
-        "move": "MALLEABLE"
+        "move": "Malléable"
       },
       {
         "level": 100,
@@ -2147,7 +2147,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "PLUMAGE"
+        "move": "Plumage"
       },
       {
         "level": 1,
@@ -2155,27 +2155,27 @@
       },
       {
         "level": 5,
-        "move": "CLAIRVOYANCE"
+        "move": "Clairvoyance"
       },
       {
         "level": 7,
-        "move": "CHOCMENTAL"
+        "move": "Choc Mental"
       },
       {
         "level": 10,
-        "move": "CRIEFFRAYANT"
+        "move": "Cri Effrayant"
       },
       {
         "level": 13,
-        "move": "FIGETEMPS"
+        "move": "Fige Temps"
       },
       {
         "level": 17,
-        "move": "RAFALEPLUME"
+        "move": "Rafale Plume"
       },
       {
         "level": 21,
-        "move": "VAGUETEMPO"
+        "move": "Vague Tempo"
       },
       {
         "level": 25,
@@ -2183,27 +2183,27 @@
       },
       {
         "level": 29,
-        "move": "ECLATLUNAIRE"
+        "move": "Éclat Lunaire"
       },
       {
         "level": 33,
-        "move": "HYPNOSE"
+        "move": "Hypnose"
       },
       {
         "level": 37,
-        "move": "LANCEPLUMES"
+        "move": "Lance Plumes"
       },
       {
         "level": 41,
-        "move": "HULULE"
+        "move": "Hulule"
       },
       {
         "level": 46,
-        "move": "PARADOXE"
+        "move": "Paradoxe"
       },
       {
         "level": 50,
-        "move": "HAUTEVOLTIGE"
+        "move": "Haute Voltige"
       },
       {
         "level": 54,
@@ -2215,7 +2215,7 @@
       },
       {
         "level": 62,
-        "move": "RALENTISSEMENT"
+        "move": "Ralentissement"
       },
       {
         "level": 66,
@@ -2223,11 +2223,11 @@
       },
       {
         "level": 70,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 75,
-        "move": "POSTATTAQUE"
+        "move": "Post Attaque"
       },
       {
         "level": 80,
@@ -2235,7 +2235,7 @@
       },
       {
         "level": 85,
-        "move": "PENDULE"
+        "move": "Pendule"
       },
       {
         "level": 90,
@@ -2247,19 +2247,19 @@
       },
       {
         "level": 100,
-        "move": "PROFONDREGRET"
+        "move": "Profond Regret"
       }
     ],
     "egg_moves": [
-      "SABLIER",
+      "Sablier",
       "Picore",
-      "CLAIRDELUNE",
-      "REMBOBINAGE",
+      "Clair de Lune",
+      "Rembobinage",
       "Entrave",
-      "TROUBLEESPRIT",
-      "BECAIGUISE",
-      "DECOMPTE",
-      "PLUMETOXIK"
+      "Trouble Esprit",
+      "Bec Aiguisé",
+      "Décompte",
+      "Plume Toxik"
     ],
     "cs": [
       "Anti-Brume"
@@ -2308,7 +2308,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "PLUMAGE"
+        "move": "Plumage"
       },
       {
         "level": 1,
@@ -2316,27 +2316,27 @@
       },
       {
         "level": 5,
-        "move": "CLAIRVOYANCE"
+        "move": "Clairvoyance"
       },
       {
         "level": 7,
-        "move": "CHOCMENTAL"
+        "move": "Choc Mental"
       },
       {
         "level": 10,
-        "move": "CRIEFFRAYANT"
+        "move": "Cri Effrayant"
       },
       {
         "level": 13,
-        "move": "FIGETEMPS"
+        "move": "Fige Temps"
       },
       {
         "level": 17,
-        "move": "RAFALEPLUME"
+        "move": "Rafale Plume"
       },
       {
         "level": 21,
-        "move": "VAGUETEMPO"
+        "move": "Vague Tempo"
       },
       {
         "level": 25,
@@ -2344,27 +2344,27 @@
       },
       {
         "level": 29,
-        "move": "ECLATLUNAIRE"
+        "move": "Éclat Lunaire"
       },
       {
         "level": 33,
-        "move": "HYPNOSE"
+        "move": "Hypnose"
       },
       {
         "level": 37,
-        "move": "LANCEPLUMES"
+        "move": "Lance Plumes"
       },
       {
         "level": 41,
-        "move": "HULULE"
+        "move": "Hulule"
       },
       {
         "level": 46,
-        "move": "PARADOXE"
+        "move": "Paradoxe"
       },
       {
         "level": 50,
-        "move": "HAUTEVOLTIGE"
+        "move": "Haute Voltige"
       },
       {
         "level": 54,
@@ -2376,7 +2376,7 @@
       },
       {
         "level": 62,
-        "move": "RALENTISSEMENT"
+        "move": "Ralentissement"
       },
       {
         "level": 66,
@@ -2384,11 +2384,11 @@
       },
       {
         "level": 70,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 75,
-        "move": "POSTATTAQUE"
+        "move": "Post Attaque"
       },
       {
         "level": 80,
@@ -2396,7 +2396,7 @@
       },
       {
         "level": 85,
-        "move": "PENDULE"
+        "move": "Pendule"
       },
       {
         "level": 90,
@@ -2408,7 +2408,7 @@
       },
       {
         "level": 100,
-        "move": "PROFONDREGRET"
+        "move": "Profond Regret"
       }
     ],
     "egg_moves": [],
@@ -2472,7 +2472,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "LUNESJUMELLES"
+        "move": "Lunes Jumelles"
       },
       {
         "level": 1,
@@ -2480,11 +2480,11 @@
       },
       {
         "level": 1,
-        "move": "HURLELUNE"
+        "move": "Hurle Lune"
       },
       {
         "level": 1,
-        "move": "PLUMAGE"
+        "move": "Plumage"
       },
       {
         "level": 1,
@@ -2492,27 +2492,27 @@
       },
       {
         "level": 5,
-        "move": "CLAIRVOYANCE"
+        "move": "Clairvoyance"
       },
       {
         "level": 7,
-        "move": "CHOCMENTAL"
+        "move": "Choc Mental"
       },
       {
         "level": 10,
-        "move": "CRIEFFRAYANT"
+        "move": "Cri Effrayant"
       },
       {
         "level": 13,
-        "move": "FIGETEMPS"
+        "move": "Fige Temps"
       },
       {
         "level": 17,
-        "move": "RAFALEPLUME"
+        "move": "Rafale Plume"
       },
       {
         "level": 21,
-        "move": "VAGUETEMPO"
+        "move": "Vague Tempo"
       },
       {
         "level": 25,
@@ -2520,23 +2520,23 @@
       },
       {
         "level": 29,
-        "move": "ECLATLUNAIRE"
+        "move": "Éclat Lunaire"
       },
       {
         "level": 33,
-        "move": "HYPNOSE"
+        "move": "Hypnose"
       },
       {
         "level": 37,
-        "move": "LANCEPLUMES"
+        "move": "Lance Plumes"
       },
       {
         "level": 41,
-        "move": "HULULE"
+        "move": "Hulule"
       },
       {
         "level": 46,
-        "move": "PARADOXE"
+        "move": "Paradoxe"
       },
       {
         "level": 50,
@@ -2544,7 +2544,7 @@
       },
       {
         "level": 54,
-        "move": "RAYONLUNE"
+        "move": "Rayon Lune"
       },
       {
         "level": 58,
@@ -2552,7 +2552,7 @@
       },
       {
         "level": 62,
-        "move": "RALENTISSEMENT"
+        "move": "Ralentissement"
       },
       {
         "level": 66,
@@ -2560,19 +2560,19 @@
       },
       {
         "level": 70,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 75,
-        "move": "POSTATTAQUE"
+        "move": "Post Attaque"
       },
       {
         "level": 80,
-        "move": "ORACLE"
+        "move": "Oracle"
       },
       {
         "level": 85,
-        "move": "PENDULE"
+        "move": "Pendule"
       },
       {
         "level": 90,
@@ -2584,7 +2584,7 @@
       },
       {
         "level": 100,
-        "move": "DECOMPTE"
+        "move": "Décompte"
       }
     ],
     "egg_moves": [],
@@ -2651,15 +2651,15 @@
     "level_up": [
       {
         "level": 1,
-        "move": "BUTINE"
+        "move": "Butine"
       },
       {
         "level": 1,
-        "move": "ULTRASON"
+        "move": "Ultrason"
       },
       {
         "level": 5,
-        "move": "BATTEMENT"
+        "move": "Battement"
       },
       {
         "level": 7,
@@ -2667,7 +2667,7 @@
       },
       {
         "level": 10,
-        "move": "MACHPUNCH"
+        "move": "Mach Punch"
       },
       {
         "level": 13,
@@ -2683,7 +2683,7 @@
       },
       {
         "level": 25,
-        "move": "COGNE"
+        "move": "Cogne"
       },
       {
         "level": 29,
@@ -2695,11 +2695,11 @@
       },
       {
         "level": 37,
-        "move": "POINGCOMETE"
+        "move": "Poing Comète"
       },
       {
         "level": 41,
-        "move": "ACROBATIE"
+        "move": "Acrobatie"
       },
       {
         "level": 46,
@@ -2707,7 +2707,7 @@
       },
       {
         "level": 50,
-        "move": "MEGABUTINE"
+        "move": "Méga-Butine"
       },
       {
         "level": 54,
@@ -2715,7 +2715,7 @@
       },
       {
         "level": 58,
-        "move": "PROPULSION"
+        "move": "Propulsion"
       },
       {
         "level": 62,
@@ -2743,7 +2743,7 @@
       },
       {
         "level": 90,
-        "move": "GIGABUTINE"
+        "move": "Giga-Butine"
       },
       {
         "level": 95,
@@ -2751,7 +2751,7 @@
       },
       {
         "level": 100,
-        "move": "HAUTEVOLTIGE"
+        "move": "Haute Voltige"
       }
     ],
     "egg_moves": [
@@ -2781,15 +2781,15 @@
     "level_up": [
       {
         "level": 1,
-        "move": "BUTINE"
+        "move": "Butine"
       },
       {
         "level": 1,
-        "move": "ULTRASON"
+        "move": "Ultrason"
       },
       {
         "level": 5,
-        "move": "BATTEMENT"
+        "move": "Battement"
       },
       {
         "level": 7,
@@ -2797,7 +2797,7 @@
       },
       {
         "level": 10,
-        "move": "MACHPUNCH"
+        "move": "Mach Punch"
       },
       {
         "level": 13,
@@ -2813,7 +2813,7 @@
       },
       {
         "level": 25,
-        "move": "COGNE"
+        "move": "Cogne"
       },
       {
         "level": 29,
@@ -2825,11 +2825,11 @@
       },
       {
         "level": 37,
-        "move": "POINGCOMETE"
+        "move": "Poing Comète"
       },
       {
         "level": 41,
-        "move": "ACROBATIE"
+        "move": "Acrobatie"
       },
       {
         "level": 46,
@@ -2837,7 +2837,7 @@
       },
       {
         "level": 50,
-        "move": "MEGABUTINE"
+        "move": "Méga-Butine"
       },
       {
         "level": 54,
@@ -2845,7 +2845,7 @@
       },
       {
         "level": 58,
-        "move": "PROPULSION"
+        "move": "Propulsion"
       },
       {
         "level": 62,
@@ -2873,7 +2873,7 @@
       },
       {
         "level": 90,
-        "move": "GIGABUTINE"
+        "move": "Giga-Butine"
       },
       {
         "level": 95,
@@ -2881,7 +2881,7 @@
       },
       {
         "level": 100,
-        "move": "HAUTEVOLTIGE"
+        "move": "Haute Voltige"
       }
     ],
     "egg_moves": [],
@@ -2910,19 +2910,19 @@
     "level_up": [
       {
         "level": 0,
-        "move": "DEROUILLEE"
+        "move": "Dérouillée"
       },
       {
         "level": 1,
-        "move": "BUTINE"
+        "move": "Butine"
       },
       {
         "level": 1,
-        "move": "ULTRASON"
+        "move": "Ultrason"
       },
       {
         "level": 5,
-        "move": "BATTEMENT"
+        "move": "Battement"
       },
       {
         "level": 7,
@@ -2930,7 +2930,7 @@
       },
       {
         "level": 10,
-        "move": "MACHPUNCH"
+        "move": "Mach Punch"
       },
       {
         "level": 13,
@@ -2946,7 +2946,7 @@
       },
       {
         "level": 25,
-        "move": "COGNE"
+        "move": "Cogne"
       },
       {
         "level": 29,
@@ -2958,11 +2958,11 @@
       },
       {
         "level": 37,
-        "move": "POINGCOMETE"
+        "move": "Poing Comète"
       },
       {
         "level": 41,
-        "move": "ACROBATIE"
+        "move": "Acrobatie"
       },
       {
         "level": 46,
@@ -2986,11 +2986,11 @@
       },
       {
         "level": 66,
-        "move": "DETECTION"
+        "move": "Détection"
       },
       {
         "level": 70,
-        "move": "ESCARMOUCHE"
+        "move": "Escarmouche"
       },
       {
         "level": 75,
@@ -2998,7 +2998,7 @@
       },
       {
         "level": 80,
-        "move": "ACUPRESSION"
+        "move": "Acupression"
       },
       {
         "level": 85,
@@ -3006,15 +3006,15 @@
       },
       {
         "level": 90,
-        "move": "RAVAGE"
+        "move": "Ravage"
       },
       {
         "level": 95,
-        "move": "COGNOBIDON"
+        "move": "Cognobidon"
       },
       {
         "level": 100,
-        "move": "COMBOFINAL"
+        "move": "Combo Final"
       }
     ],
     "egg_moves": [],
@@ -3047,19 +3047,19 @@
     "level_up": [
       {
         "level": 0,
-        "move": "ONDESTELLAIRE"
+        "move": "Onde Stellaire"
       },
       {
         "level": 1,
-        "move": "BUTINE"
+        "move": "Butine"
       },
       {
         "level": 1,
-        "move": "ULTRASON"
+        "move": "Ultrason"
       },
       {
         "level": 5,
-        "move": "BATTEMENT"
+        "move": "Battement"
       },
       {
         "level": 7,
@@ -3067,7 +3067,7 @@
       },
       {
         "level": 10,
-        "move": "MACHPUNCH"
+        "move": "Mach Punch"
       },
       {
         "level": 13,
@@ -3083,7 +3083,7 @@
       },
       {
         "level": 25,
-        "move": "COGNE"
+        "move": "Cogne"
       },
       {
         "level": 29,
@@ -3095,11 +3095,11 @@
       },
       {
         "level": 37,
-        "move": "POINGCOMETE"
+        "move": "Poing Comète"
       },
       {
         "level": 41,
-        "move": "ACROBATIE"
+        "move": "Acrobatie"
       },
       {
         "level": 46,
@@ -3107,7 +3107,7 @@
       },
       {
         "level": 50,
-        "move": "MEGABUTINE"
+        "move": "Méga-Butine"
       },
       {
         "level": 54,
@@ -3115,7 +3115,7 @@
       },
       {
         "level": 58,
-        "move": "TIRGALACTIQUE"
+        "move": "Tir Galactique"
       },
       {
         "level": 62,
@@ -3131,11 +3131,11 @@
       },
       {
         "level": 75,
-        "move": "TRIPLESALVE"
+        "move": "Triple Salve"
       },
       {
         "level": 80,
-        "move": "LUMIQUEUE"
+        "move": "Lumi-Queue"
       },
       {
         "level": 85,
@@ -3143,7 +3143,7 @@
       },
       {
         "level": 90,
-        "move": "GIGABUTINE"
+        "move": "Giga-Butine"
       },
       {
         "level": 95,
@@ -3151,7 +3151,7 @@
       },
       {
         "level": 100,
-        "move": "EXPLOCOMETE"
+        "move": "Explo Comète"
       }
     ],
     "egg_moves": [],
@@ -3182,27 +3182,27 @@
     "level_up": [
       {
         "level": 1,
-        "move": "DARDVENIN"
+        "move": "Dard-Venin"
       },
       {
         "level": 1,
-        "move": "SECRETION"
+        "move": "Sécrétion"
       },
       {
         "level": 5,
-        "move": "FAUCHE"
+        "move": "Fauche"
       },
       {
         "level": 7,
-        "move": "TOILE"
+        "move": "Toile"
       },
       {
         "level": 10,
-        "move": "PIQURE"
+        "move": "Piqûre"
       },
       {
         "level": 13,
-        "move": "CROCHETVENIN"
+        "move": "Crochet Venin"
       },
       {
         "level": 17,
@@ -3210,15 +3210,15 @@
       },
       {
         "level": 21,
-        "move": "FICELAGE"
+        "move": "Ficelage"
       },
       {
         "level": 25,
-        "move": "FILEMMELANT"
+        "move": "Fil Emmêlant"
       },
       {
         "level": 29,
-        "move": "ROUSTE"
+        "move": "Rouste"
       },
       {
         "level": 33,
@@ -3242,7 +3242,7 @@
       },
       {
         "level": 54,
-        "move": "DARDMORTEL"
+        "move": "Dard Mortel"
       },
       {
         "level": 58,
@@ -3254,15 +3254,15 @@
       },
       {
         "level": 66,
-        "move": "PSYCHOCROC"
+        "move": "Psycho-Croc"
       },
       {
         "level": 70,
-        "move": "TOILEGLUANTE"
+        "move": "Toile Gluante"
       },
       {
         "level": 75,
-        "move": "PIEGEDEVENIN"
+        "move": "Piège de Venin"
       },
       {
         "level": 80,
@@ -3278,23 +3278,23 @@
       },
       {
         "level": 95,
-        "move": "INFECTION"
+        "move": "Infection"
       },
       {
         "level": 100,
-        "move": "APPELATTAQUE"
+        "move": "Appel Attaque"
       }
     ],
     "egg_moves": [
-      "APPELATTAQUE",
+      "Appel Attaque",
       "Tranche-Nuit",
-      "RAFALEPSY",
+      "Rafale Psy",
       "Mégacorne",
-      "POUDREFUREUR",
+      "Poudre Fureur",
       "Bombe Acide",
-      "DOUBLEMORSURE",
+      "Double Morsure",
       "Souillure",
-      "CROCSTOXIK",
+      "Crocs Toxik",
       "Ravage Rampant"
     ],
     "cs": [
@@ -3320,35 +3320,35 @@
     "level_up": [
       {
         "level": 1,
-        "move": "CROCSTOXIK"
+        "move": "Crocs Toxik"
       },
       {
         "level": 1,
-        "move": "DARDDARD"
+        "move": "Dard-Dard"
       },
       {
         "level": 1,
-        "move": "DARDVENIN"
+        "move": "Dard-Venin"
       },
       {
         "level": 1,
-        "move": "SECRETION"
+        "move": "Sécrétion"
       },
       {
         "level": 5,
-        "move": "FAUCHE"
+        "move": "Fauche"
       },
       {
         "level": 7,
-        "move": "TOILE"
+        "move": "Toile"
       },
       {
         "level": 10,
-        "move": "PIQURE"
+        "move": "Piqûre"
       },
       {
         "level": 13,
-        "move": "CROCHETVENIN"
+        "move": "Crochet Venin"
       },
       {
         "level": 17,
@@ -3356,15 +3356,15 @@
       },
       {
         "level": 21,
-        "move": "FICELAGE"
+        "move": "Ficelage"
       },
       {
         "level": 25,
-        "move": "FILEMMELANT"
+        "move": "Fil Emmêlant"
       },
       {
         "level": 29,
-        "move": "ROUSTE"
+        "move": "Rouste"
       },
       {
         "level": 33,
@@ -3388,7 +3388,7 @@
       },
       {
         "level": 54,
-        "move": "DARDMORTEL"
+        "move": "Dard Mortel"
       },
       {
         "level": 58,
@@ -3400,15 +3400,15 @@
       },
       {
         "level": 66,
-        "move": "PSYCHOCROC"
+        "move": "Psycho-Croc"
       },
       {
         "level": 70,
-        "move": "TOILEGLUANTE"
+        "move": "Toile Gluante"
       },
       {
         "level": 75,
-        "move": "PIEGEDEVENIN"
+        "move": "Piège de Venin"
       },
       {
         "level": 80,
@@ -3424,11 +3424,11 @@
       },
       {
         "level": 95,
-        "move": "INFECTION"
+        "move": "Infection"
       },
       {
         "level": 100,
-        "move": "APPELATTAQUE"
+        "move": "Appel Attaque"
       }
     ],
     "egg_moves": [],
@@ -3457,19 +3457,19 @@
     "level_up": [
       {
         "level": 1,
-        "move": "CALINOU"
+        "move": "Câlinou"
       },
       {
         "level": 1,
-        "move": "CHARME"
+        "move": "Charme"
       },
       {
         "level": 5,
-        "move": "ENCORE"
+        "move": "Encore"
       },
       {
         "level": 7,
-        "move": "CLAQUES"
+        "move": "Claques"
       },
       {
         "level": 10,
@@ -3485,11 +3485,11 @@
       },
       {
         "level": 21,
-        "move": "VOEU"
+        "move": "Voeu"
       },
       {
         "level": 25,
-        "move": "PATATIPATATA"
+        "move": "Patati-Patata"
       },
       {
         "level": 29,
@@ -3505,15 +3505,15 @@
       },
       {
         "level": 41,
-        "move": "VOEUSOIN"
+        "move": "Voeu Soin"
       },
       {
         "level": 46,
-        "move": "CHOUPINOVA"
+        "move": "Choupinova"
       },
       {
         "level": 50,
-        "move": "BRUMECAPITEUSE"
+        "move": "Brume Capiteuse"
       },
       {
         "level": 54,
@@ -3525,23 +3525,23 @@
       },
       {
         "level": 62,
-        "move": "EUPHORIE"
+        "move": "Euphorie"
       },
       {
         "level": 66,
-        "move": "AIRVEINARD"
+        "move": "Air Veinard"
       },
       {
         "level": 70,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 75,
-        "move": "REGARDTOUCHANT"
+        "move": "Regard Touchant"
       },
       {
         "level": 80,
-        "move": "MAGNIFICIENCE"
+        "move": "Magnificience"
       },
       {
         "level": 85,
@@ -3578,19 +3578,19 @@
     "level_up": [
       {
         "level": 1,
-        "move": "CALINOU"
+        "move": "Câlinou"
       },
       {
         "level": 1,
-        "move": "CHARME"
+        "move": "Charme"
       },
       {
         "level": 5,
-        "move": "ENCORE"
+        "move": "Encore"
       },
       {
         "level": 7,
-        "move": "CLAQUES"
+        "move": "Claques"
       },
       {
         "level": 10,
@@ -3606,11 +3606,11 @@
       },
       {
         "level": 21,
-        "move": "VOEU"
+        "move": "Voeu"
       },
       {
         "level": 25,
-        "move": "PATATIPATATA"
+        "move": "Patati-Patata"
       },
       {
         "level": 29,
@@ -3626,15 +3626,15 @@
       },
       {
         "level": 41,
-        "move": "VOEUSOIN"
+        "move": "Voeu Soin"
       },
       {
         "level": 46,
-        "move": "CHOUPINOVA"
+        "move": "Choupinova"
       },
       {
         "level": 50,
-        "move": "BRUMECAPITEUSE"
+        "move": "Brume Capiteuse"
       },
       {
         "level": 54,
@@ -3646,23 +3646,23 @@
       },
       {
         "level": 62,
-        "move": "EUPHORIE"
+        "move": "Euphorie"
       },
       {
         "level": 66,
-        "move": "AIRVEINARD"
+        "move": "Air Veinard"
       },
       {
         "level": 70,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 75,
-        "move": "REGARDTOUCHANT"
+        "move": "Regard Touchant"
       },
       {
         "level": 80,
-        "move": "MAGNIFICIENCE"
+        "move": "Magnificience"
       },
       {
         "level": 85,
@@ -3674,11 +3674,11 @@
       },
       {
         "level": 95,
-        "move": "VENTCELESTE"
+        "move": "Vent Céleste"
       },
       {
         "level": 100,
-        "move": "HAUTEVOLTIGE"
+        "move": "Haute Voltige"
       }
     ],
     "egg_moves": [],
@@ -3706,19 +3706,19 @@
     "level_up": [
       {
         "level": 1,
-        "move": "CALINOU"
+        "move": "Câlinou"
       },
       {
         "level": 1,
-        "move": "CHARME"
+        "move": "Charme"
       },
       {
         "level": 5,
-        "move": "ENCORE"
+        "move": "Encore"
       },
       {
         "level": 7,
-        "move": "CLAQUES"
+        "move": "Claques"
       },
       {
         "level": 10,
@@ -3734,7 +3734,7 @@
       },
       {
         "level": 21,
-        "move": "VOEU"
+        "move": "Voeu"
       },
       {
         "level": 25,
@@ -3746,7 +3746,7 @@
       },
       {
         "level": 33,
-        "move": "ACROBATIE"
+        "move": "Acrobatie"
       },
       {
         "level": 37,
@@ -3754,15 +3754,15 @@
       },
       {
         "level": 41,
-        "move": "VOEUSOIN"
+        "move": "Voeu Soin"
       },
       {
         "level": 46,
-        "move": "CHOUPINOVA"
+        "move": "Choupinova"
       },
       {
         "level": 50,
-        "move": "TURBOIMPULSION"
+        "move": "Turbo Impulsion"
       },
       {
         "level": 54,
@@ -3778,11 +3778,11 @@
       },
       {
         "level": 66,
-        "move": "AIRVEINARD"
+        "move": "Air Veinard"
       },
       {
         "level": 70,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 75,
@@ -3790,7 +3790,7 @@
       },
       {
         "level": 80,
-        "move": "MAGNIFICIENCE"
+        "move": "Magnificience"
       },
       {
         "level": 85,
@@ -3802,11 +3802,11 @@
       },
       {
         "level": 95,
-        "move": "VENTCELESTE"
+        "move": "Vent Céleste"
       },
       {
         "level": 100,
-        "move": "HAUTEVOLTIGE"
+        "move": "Haute Voltige"
       }
     ],
     "egg_moves": [],
@@ -3836,23 +3836,23 @@
     "level_up": [
       {
         "level": 0,
-        "move": "OURAGAN"
+        "move": "Ouragan"
       },
       {
         "level": 1,
-        "move": "CALINOU"
+        "move": "Câlinou"
       },
       {
         "level": 1,
-        "move": "CHARME"
+        "move": "Charme"
       },
       {
         "level": 5,
-        "move": "ENCORE"
+        "move": "Encore"
       },
       {
         "level": 7,
-        "move": "CLAQUES"
+        "move": "Claques"
       },
       {
         "level": 10,
@@ -3868,11 +3868,11 @@
       },
       {
         "level": 21,
-        "move": "VOEU"
+        "move": "Voeu"
       },
       {
         "level": 25,
-        "move": "GROSSEBAFFE"
+        "move": "Grosse Baffe"
       },
       {
         "level": 29,
@@ -3888,7 +3888,7 @@
       },
       {
         "level": 41,
-        "move": "VOEUSOIN"
+        "move": "Voeu Soin"
       },
       {
         "level": 46,
@@ -3896,11 +3896,11 @@
       },
       {
         "level": 50,
-        "move": "QUEUEBATTOIR"
+        "move": "Queue Battoir"
       },
       {
         "level": 54,
-        "move": "FLEXIQUEUE"
+        "move": "Fléxi-Queue"
       },
       {
         "level": 58,
@@ -3912,11 +3912,11 @@
       },
       {
         "level": 66,
-        "move": "AIRVEINARD"
+        "move": "Air Veinard"
       },
       {
         "level": 70,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 75,
@@ -3924,11 +3924,11 @@
       },
       {
         "level": 80,
-        "move": "MAGNIFICIENCE"
+        "move": "Magnificience"
       },
       {
         "level": 85,
-        "move": "DRACACOPHONIE"
+        "move": "Dracacophonie"
       },
       {
         "level": 90,
@@ -3936,11 +3936,11 @@
       },
       {
         "level": 95,
-        "move": "VENTCELESTE"
+        "move": "Vent Céleste"
       },
       {
         "level": 100,
-        "move": "HAUTEVOLTIGE"
+        "move": "Haute Voltige"
       }
     ],
     "egg_moves": [],
@@ -3978,7 +3978,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "PICPIC"
+        "move": "Picpic"
       },
       {
         "level": 1,
@@ -3986,31 +3986,31 @@
       },
       {
         "level": 5,
-        "move": "CHOCMENTAL"
+        "move": "Choc Mental"
       },
       {
         "level": 7,
-        "move": "LIREESPRIT"
+        "move": "Lire-Esprit"
       },
       {
         "level": 10,
-        "move": "IDEECLAIRE"
+        "move": "Idée Claire"
       },
       {
         "level": 13,
-        "move": "CUTTAIR"
+        "move": "Cutt'Air"
       },
       {
         "level": 17,
-        "move": "BATTEMENT"
+        "move": "Battement"
       },
       {
         "level": 21,
-        "move": "TELEPORT"
+        "move": "Téléport"
       },
       {
         "level": 25,
-        "move": "BRUMEAPAISANTE"
+        "move": "Brume Apaisante"
       },
       {
         "level": 29,
@@ -4018,7 +4018,7 @@
       },
       {
         "level": 33,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 37,
@@ -4026,7 +4026,7 @@
       },
       {
         "level": 41,
-        "move": "PUISSANCETRIPLE"
+        "move": "Puissance Triple"
       },
       {
         "level": 46,
@@ -4038,15 +4038,15 @@
       },
       {
         "level": 54,
-        "move": "ECHANGEPSY"
+        "move": "Échange Psy"
       },
       {
         "level": 58,
-        "move": "BALLLUNE"
+        "move": "Ball'Lune"
       },
       {
         "level": 62,
-        "move": "VOEU"
+        "move": "Voeu"
       },
       {
         "level": 66,
@@ -4054,11 +4054,11 @@
       },
       {
         "level": 70,
-        "move": "ZENITUDE"
+        "move": "Zenitude"
       },
       {
         "level": 75,
-        "move": "PARANOIA"
+        "move": "Paranoïa"
       },
       {
         "level": 80,
@@ -4066,7 +4066,7 @@
       },
       {
         "level": 85,
-        "move": "RAFALE"
+        "move": "Rafale"
       },
       {
         "level": 90,
@@ -4074,24 +4074,24 @@
       },
       {
         "level": 95,
-        "move": "ALIZE"
+        "move": "Alizé"
       },
       {
         "level": 100,
-        "move": "TIRPLUME"
+        "move": "Tir Plume"
       }
     ],
     "egg_moves": [
       "Picore",
-      "BOITEPANDORE",
+      "Boite Pandore",
       "Zone Étrange",
-      "TORNADAILE",
-      "LIENDUDESTIN",
-      "AIRVEINARD",
-      "VIEILLISSEMENT",
-      "SANCTUAIRE",
-      "VOEUSOIN",
-      "FACECACHEE"
+      "Tornad'Aile",
+      "Lien du Destin",
+      "Air Veinard",
+      "Vieillissement",
+      "Sanctuaire",
+      "Voeu Soin",
+      "Face Cachée"
     ],
     "cs": [
       "Anti-Brume",
@@ -4117,7 +4117,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "PICPIC"
+        "move": "Picpic"
       },
       {
         "level": 1,
@@ -4125,31 +4125,31 @@
       },
       {
         "level": 5,
-        "move": "CHOCMENTAL"
+        "move": "Choc Mental"
       },
       {
         "level": 7,
-        "move": "LIREESPRIT"
+        "move": "Lire-Esprit"
       },
       {
         "level": 10,
-        "move": "IDEECLAIRE"
+        "move": "Idée Claire"
       },
       {
         "level": 13,
-        "move": "CUTTAIR"
+        "move": "Cutt'Air"
       },
       {
         "level": 17,
-        "move": "BATTEMENT"
+        "move": "Battement"
       },
       {
         "level": 21,
-        "move": "TELEPORT"
+        "move": "Téléport"
       },
       {
         "level": 25,
-        "move": "BRUMEAPAISANTE"
+        "move": "Brume Apaisante"
       },
       {
         "level": 29,
@@ -4157,7 +4157,7 @@
       },
       {
         "level": 33,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 37,
@@ -4165,7 +4165,7 @@
       },
       {
         "level": 41,
-        "move": "PUISSANCETRIPLE"
+        "move": "Puissance Triple"
       },
       {
         "level": 46,
@@ -4177,15 +4177,15 @@
       },
       {
         "level": 54,
-        "move": "ECHANGEPSY"
+        "move": "Échange Psy"
       },
       {
         "level": 58,
-        "move": "BALLLUNE"
+        "move": "Ball'Lune"
       },
       {
         "level": 62,
-        "move": "VOEU"
+        "move": "Voeu"
       },
       {
         "level": 66,
@@ -4193,11 +4193,11 @@
       },
       {
         "level": 70,
-        "move": "ZENITUDE"
+        "move": "Zenitude"
       },
       {
         "level": 75,
-        "move": "PARANOIA"
+        "move": "Paranoïa"
       },
       {
         "level": 80,
@@ -4205,7 +4205,7 @@
       },
       {
         "level": 85,
-        "move": "RAFALE"
+        "move": "Rafale"
       },
       {
         "level": 90,
@@ -4213,11 +4213,11 @@
       },
       {
         "level": 95,
-        "move": "ALIZE"
+        "move": "Alizé"
       },
       {
         "level": 100,
-        "move": "TIRPLUME"
+        "move": "Tir Plume"
       }
     ],
     "egg_moves": [],
@@ -4254,7 +4254,7 @@
       },
       {
         "level": 5,
-        "move": "ELECTROCUTION"
+        "move": "Électrocution"
       },
       {
         "level": 7,
@@ -4262,15 +4262,15 @@
       },
       {
         "level": 10,
-        "move": "SPORECOTON"
+        "move": "Spore Coton"
       },
       {
         "level": 13,
-        "move": "CHARGEUR"
+        "move": "Chargeur"
       },
       {
         "level": 17,
-        "move": "LUMIORBE"
+        "move": "Lumi'Orbe"
       },
       {
         "level": 21,
@@ -4282,7 +4282,7 @@
       },
       {
         "level": 29,
-        "move": "COTOGARDE"
+        "move": "Cotogarde"
       },
       {
         "level": 33,
@@ -4306,7 +4306,7 @@
       },
       {
         "level": 54,
-        "move": "RAYONGEMME"
+        "move": "Rayon Gemme"
       },
       {
         "level": 58,
@@ -4330,11 +4330,11 @@
       },
       {
         "level": 80,
-        "move": "ELECTRODELUGE"
+        "move": "Électro Déluge"
       },
       {
         "level": 85,
-        "move": "LUMINESCENCE"
+        "move": "Luminescence"
       },
       {
         "level": 90,
@@ -4342,7 +4342,7 @@
       },
       {
         "level": 95,
-        "move": "LUMIQUEUE"
+        "move": "Lumi-Queue"
       },
       {
         "level": 100,
@@ -4350,16 +4350,16 @@
       }
     ],
     "egg_moves": [
-      "PARABOCHARGE",
-      "BEUGLEMENT",
+      "Parabocharge",
+      "Beuglement",
       "Après Vous",
-      "FLATTERIE",
-      "GRINCEMENT",
+      "Flatterie",
+      "Grincement",
       "Fulgur",
-      "ELECTROQUEUE",
-      "VOLTQUEUE",
+      "Électroqueue",
+      "Volt-Queue",
       "Second Souffle",
-      "EXTRASENSEUR"
+      "Extrasenseur"
     ],
     "cs": [
       "Flash"
@@ -4391,7 +4391,7 @@
       },
       {
         "level": 5,
-        "move": "ELECTROCUTION"
+        "move": "Électrocution"
       },
       {
         "level": 7,
@@ -4399,15 +4399,15 @@
       },
       {
         "level": 10,
-        "move": "SPORECOTON"
+        "move": "Spore Coton"
       },
       {
         "level": 13,
-        "move": "CHARGEUR"
+        "move": "Chargeur"
       },
       {
         "level": 17,
-        "move": "LUMIORBE"
+        "move": "Lumi'Orbe"
       },
       {
         "level": 21,
@@ -4419,7 +4419,7 @@
       },
       {
         "level": 29,
-        "move": "COTOGARDE"
+        "move": "Cotogarde"
       },
       {
         "level": 33,
@@ -4443,7 +4443,7 @@
       },
       {
         "level": 54,
-        "move": "RAYONGEMME"
+        "move": "Rayon Gemme"
       },
       {
         "level": 58,
@@ -4467,11 +4467,11 @@
       },
       {
         "level": 80,
-        "move": "ELECTRODELUGE"
+        "move": "Électro Déluge"
       },
       {
         "level": 85,
-        "move": "LUMINESCENCE"
+        "move": "Luminescence"
       },
       {
         "level": 90,
@@ -4479,7 +4479,7 @@
       },
       {
         "level": 95,
-        "move": "LUMIQUEUE"
+        "move": "Lumi-Queue"
       },
       {
         "level": 100,
@@ -4519,7 +4519,7 @@
       },
       {
         "level": 5,
-        "move": "ELECTROCUTION"
+        "move": "Électrocution"
       },
       {
         "level": 7,
@@ -4527,15 +4527,15 @@
       },
       {
         "level": 10,
-        "move": "SPORECOTON"
+        "move": "Spore Coton"
       },
       {
         "level": 13,
-        "move": "CHARGEUR"
+        "move": "Chargeur"
       },
       {
         "level": 17,
-        "move": "LUMIORBE"
+        "move": "Lumi'Orbe"
       },
       {
         "level": 21,
@@ -4547,7 +4547,7 @@
       },
       {
         "level": 29,
-        "move": "COTOGARDE"
+        "move": "Cotogarde"
       },
       {
         "level": 33,
@@ -4571,7 +4571,7 @@
       },
       {
         "level": 54,
-        "move": "RAYONGEMME"
+        "move": "Rayon Gemme"
       },
       {
         "level": 58,
@@ -4595,11 +4595,11 @@
       },
       {
         "level": 80,
-        "move": "ELECTRODELUGE"
+        "move": "Électro Déluge"
       },
       {
         "level": 85,
-        "move": "LUMINESCENCE"
+        "move": "Luminescence"
       },
       {
         "level": 90,
@@ -4607,7 +4607,7 @@
       },
       {
         "level": 95,
-        "move": "LUMIQUEUE"
+        "move": "Lumi-Queue"
       },
       {
         "level": 100,
@@ -4642,7 +4642,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "BULLE"
+        "move": "Bulle"
       },
       {
         "level": 1,
@@ -4654,7 +4654,7 @@
       },
       {
         "level": 7,
-        "move": "TENDRESSE"
+        "move": "Tendresse"
       },
       {
         "level": 10,
@@ -4662,15 +4662,15 @@
       },
       {
         "level": 13,
-        "move": "TOURNIQUET"
+        "move": "Tourniquet"
       },
       {
         "level": 17,
-        "move": "AQUAJET"
+        "move": "Aqua Jet"
       },
       {
         "level": 21,
-        "move": "CHARME"
+        "move": "Charme"
       },
       {
         "level": 25,
@@ -4678,7 +4678,7 @@
       },
       {
         "level": 29,
-        "move": "POINGFEERIQUE"
+        "move": "Poing Féérique"
       },
       {
         "level": 33,
@@ -4686,23 +4686,23 @@
       },
       {
         "level": 37,
-        "move": "ANNEAUHYDRO"
+        "move": "Anneau Hydro"
       },
       {
         "level": 41,
-        "move": "CORPSPERDU"
+        "move": "Corps Perdu"
       },
       {
         "level": 46,
-        "move": "CLAQUES"
+        "move": "Claques"
       },
       {
         "level": 50,
-        "move": "AQUABOMBE"
+        "move": "Aqua Bombe"
       },
       {
         "level": 54,
-        "move": "DOUXBAISER"
+        "move": "Doux Baiser"
       },
       {
         "level": 58,
@@ -4714,11 +4714,11 @@
       },
       {
         "level": 66,
-        "move": "COGNOBIDON"
+        "move": "Cognobidon"
       },
       {
         "level": 70,
-        "move": "HYDROCANON"
+        "move": "Hydrocanon"
       },
       {
         "level": 75,
@@ -4726,19 +4726,19 @@
       },
       {
         "level": 80,
-        "move": "CLAQUEMUSCLEE"
+        "move": "Claque Musclée"
       },
       {
         "level": 85,
-        "move": "MAGNIFICIENCE"
+        "move": "Magnificience"
       },
       {
         "level": 90,
-        "move": "TRIPLERISQUE"
+        "move": "Triple Risque"
       },
       {
         "level": 95,
-        "move": "AQUASLASH"
+        "move": "Aqua Slash"
       },
       {
         "level": 100,
@@ -4774,7 +4774,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "BULLE"
+        "move": "Bulle"
       },
       {
         "level": 1,
@@ -4786,7 +4786,7 @@
       },
       {
         "level": 7,
-        "move": "TENDRESSE"
+        "move": "Tendresse"
       },
       {
         "level": 10,
@@ -4794,15 +4794,15 @@
       },
       {
         "level": 13,
-        "move": "TOURNIQUET"
+        "move": "Tourniquet"
       },
       {
         "level": 17,
-        "move": "AQUAJET"
+        "move": "Aqua Jet"
       },
       {
         "level": 21,
-        "move": "CHARME"
+        "move": "Charme"
       },
       {
         "level": 25,
@@ -4810,7 +4810,7 @@
       },
       {
         "level": 29,
-        "move": "POINGFEERIQUE"
+        "move": "Poing Féérique"
       },
       {
         "level": 33,
@@ -4818,23 +4818,23 @@
       },
       {
         "level": 37,
-        "move": "ANNEAUHYDRO"
+        "move": "Anneau Hydro"
       },
       {
         "level": 41,
-        "move": "CORPSPERDU"
+        "move": "Corps Perdu"
       },
       {
         "level": 46,
-        "move": "CLAQUES"
+        "move": "Claques"
       },
       {
         "level": 50,
-        "move": "AQUABOMBE"
+        "move": "Aqua Bombe"
       },
       {
         "level": 54,
-        "move": "DOUXBAISER"
+        "move": "Doux Baiser"
       },
       {
         "level": 58,
@@ -4846,11 +4846,11 @@
       },
       {
         "level": 66,
-        "move": "COGNOBIDON"
+        "move": "Cognobidon"
       },
       {
         "level": 70,
-        "move": "HYDROCANON"
+        "move": "Hydrocanon"
       },
       {
         "level": 75,
@@ -4858,19 +4858,19 @@
       },
       {
         "level": 80,
-        "move": "CLAQUEMUSCLEE"
+        "move": "Claque Musclée"
       },
       {
         "level": 85,
-        "move": "MAGNIFICIENCE"
+        "move": "Magnificience"
       },
       {
         "level": 90,
-        "move": "TRIPLERISQUE"
+        "move": "Triple Risque"
       },
       {
         "level": 95,
-        "move": "AQUASLASH"
+        "move": "Aqua Slash"
       },
       {
         "level": 100,
@@ -4913,7 +4913,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "BULLE"
+        "move": "Bulle"
       },
       {
         "level": 1,
@@ -4925,7 +4925,7 @@
       },
       {
         "level": 7,
-        "move": "TENDRESSE"
+        "move": "Tendresse"
       },
       {
         "level": 10,
@@ -4933,15 +4933,15 @@
       },
       {
         "level": 13,
-        "move": "TOURNIQUET"
+        "move": "Tourniquet"
       },
       {
         "level": 17,
-        "move": "AQUAJET"
+        "move": "Aqua Jet"
       },
       {
         "level": 21,
-        "move": "CHARME"
+        "move": "Charme"
       },
       {
         "level": 25,
@@ -4949,7 +4949,7 @@
       },
       {
         "level": 29,
-        "move": "POINGFEERIQUE"
+        "move": "Poing Féérique"
       },
       {
         "level": 33,
@@ -4957,23 +4957,23 @@
       },
       {
         "level": 37,
-        "move": "ANNEAUHYDRO"
+        "move": "Anneau Hydro"
       },
       {
         "level": 41,
-        "move": "CORPSPERDU"
+        "move": "Corps Perdu"
       },
       {
         "level": 46,
-        "move": "CLAQUES"
+        "move": "Claques"
       },
       {
         "level": 50,
-        "move": "AQUABOMBE"
+        "move": "Aqua Bombe"
       },
       {
         "level": 54,
-        "move": "DOUXBAISER"
+        "move": "Doux Baiser"
       },
       {
         "level": 58,
@@ -4985,11 +4985,11 @@
       },
       {
         "level": 66,
-        "move": "COGNOBIDON"
+        "move": "Cognobidon"
       },
       {
         "level": 70,
-        "move": "HYDROCANON"
+        "move": "Hydrocanon"
       },
       {
         "level": 75,
@@ -4997,19 +4997,19 @@
       },
       {
         "level": 80,
-        "move": "CLAQUEMUSCLEE"
+        "move": "Claque Musclée"
       },
       {
         "level": 85,
-        "move": "MAGNIFICIENCE"
+        "move": "Magnificience"
       },
       {
         "level": 90,
-        "move": "TRIPLERISQUE"
+        "move": "Triple Risque"
       },
       {
         "level": 95,
-        "move": "AQUASLASH"
+        "move": "Aqua Slash"
       },
       {
         "level": 100,
@@ -5071,7 +5071,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "LARME"
+        "move": "Larme"
       },
       {
         "level": 1,
@@ -5079,11 +5079,11 @@
       },
       {
         "level": 5,
-        "move": "ENCORE"
+        "move": "Encore"
       },
       {
         "level": 7,
-        "move": "JETPIERRES"
+        "move": "Jet-Pierres"
       },
       {
         "level": 10,
@@ -5091,15 +5091,15 @@
       },
       {
         "level": 13,
-        "move": "CONSTRICTION"
+        "move": "Constriction"
       },
       {
         "level": 17,
-        "move": "FEINTE"
+        "move": "Feinte"
       },
       {
         "level": 21,
-        "move": "CONFISCATION"
+        "move": "Confiscation"
       },
       {
         "level": 25,
@@ -5127,15 +5127,15 @@
       },
       {
         "level": 50,
-        "move": "MARTOBOIS"
+        "move": "Martobois"
       },
       {
         "level": 54,
-        "move": "LILLIPUT"
+        "move": "Lilliput"
       },
       {
         "level": 58,
-        "move": "POINGECRASANT"
+        "move": "Poing Écrasant"
       },
       {
         "level": 62,
@@ -5143,7 +5143,7 @@
       },
       {
         "level": 66,
-        "move": "ROUSTE"
+        "move": "Rouste"
       },
       {
         "level": 70,
@@ -5151,19 +5151,19 @@
       },
       {
         "level": 75,
-        "move": "GARDELARGE"
+        "move": "Garde Large"
       },
       {
         "level": 80,
-        "move": "CARNAGE"
+        "move": "Carnage"
       },
       {
         "level": 85,
-        "move": "ESSORAGE"
+        "move": "Essorage"
       },
       {
         "level": 90,
-        "move": "MARTOPOING"
+        "move": "Marto-Poing"
       },
       {
         "level": 95,
@@ -5171,19 +5171,19 @@
       },
       {
         "level": 100,
-        "move": "ASSAUTFRONTAL"
+        "move": "Assaut Frontal"
       }
     ],
     "egg_moves": [
-      "CROCOLARME",
-      "ASSOMMAGE",
-      "MALLEABLE",
-      "POINGDARD",
-      "LANCEPIERRE",
+      "Croco Larme",
+      "Assommage",
+      "Malléable",
+      "Poing Dard",
+      "Lance-Pierre",
       "Hache de Pierre",
-      "POINGKIPIK",
-      "FERTILISATION",
-      "EMBUSCADE",
+      "Poing Kipik",
+      "Fertilisation",
+      "Embuscade",
       "Sacrifice"
     ],
     "cs": [],
@@ -5215,11 +5215,11 @@
     "level_up": [
       {
         "level": 0,
-        "move": "POINGFLEXIBLE"
+        "move": "Poing Fléxible"
       },
       {
         "level": 1,
-        "move": "LARME"
+        "move": "Larme"
       },
       {
         "level": 1,
@@ -5227,11 +5227,11 @@
       },
       {
         "level": 5,
-        "move": "ENCORE"
+        "move": "Encore"
       },
       {
         "level": 7,
-        "move": "JETPIERRES"
+        "move": "Jet-Pierres"
       },
       {
         "level": 10,
@@ -5239,15 +5239,15 @@
       },
       {
         "level": 13,
-        "move": "CONSTRICTION"
+        "move": "Constriction"
       },
       {
         "level": 17,
-        "move": "FEINTE"
+        "move": "Feinte"
       },
       {
         "level": 21,
-        "move": "CONFISCATION"
+        "move": "Confiscation"
       },
       {
         "level": 25,
@@ -5275,15 +5275,15 @@
       },
       {
         "level": 50,
-        "move": "MARTOBOIS"
+        "move": "Martobois"
       },
       {
         "level": 54,
-        "move": "LILLIPUT"
+        "move": "Lilliput"
       },
       {
         "level": 58,
-        "move": "POINGECRASANT"
+        "move": "Poing Écrasant"
       },
       {
         "level": 62,
@@ -5291,7 +5291,7 @@
       },
       {
         "level": 66,
-        "move": "ROUSTE"
+        "move": "Rouste"
       },
       {
         "level": 70,
@@ -5299,19 +5299,19 @@
       },
       {
         "level": 75,
-        "move": "GARDELARGE"
+        "move": "Garde Large"
       },
       {
         "level": 80,
-        "move": "CARNAGE"
+        "move": "Carnage"
       },
       {
         "level": 85,
-        "move": "ESSORAGE"
+        "move": "Essorage"
       },
       {
         "level": 90,
-        "move": "MARTOPOING"
+        "move": "Marto-Poing"
       },
       {
         "level": 95,
@@ -5319,7 +5319,7 @@
       },
       {
         "level": 100,
-        "move": "ASSAUTFRONTAL"
+        "move": "Assaut Frontal"
       }
     ],
     "egg_moves": [],
@@ -5374,7 +5374,7 @@
       },
       {
         "level": 10,
-        "move": "PISTOLETAO"
+        "move": "Pistolet à O"
       },
       {
         "level": 21,
@@ -5382,7 +5382,7 @@
       },
       {
         "level": 33,
-        "move": "AQUAIMPACT"
+        "move": "Aqua Impact"
       },
       {
         "level": 41,
@@ -5398,7 +5398,7 @@
       },
       {
         "level": 80,
-        "move": "AQUASLASH"
+        "move": "Aqua Slash"
       },
       {
         "level": 90,
@@ -5406,7 +5406,7 @@
       },
       {
         "level": 100,
-        "move": "HYDRORAVAGE"
+        "move": "Hydro Ravage"
       }
     ],
     "egg_moves": [],
@@ -5433,7 +5433,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "VOLEVIE"
+        "move": "Vole-Vie"
       },
       {
         "level": 1,
@@ -5441,15 +5441,15 @@
       },
       {
         "level": 5,
-        "move": "TORNADE"
+        "move": "Tornade"
       },
       {
         "level": 7,
-        "move": "PARASPORE"
+        "move": "Para-Spore"
       },
       {
         "level": 10,
-        "move": "VENTFEERIQUE"
+        "move": "Vent Féérique"
       },
       {
         "level": 13,
@@ -5461,7 +5461,7 @@
       },
       {
         "level": 21,
-        "move": "JETDEPOLLEN"
+        "move": "Jet de Pollen"
       },
       {
         "level": 25,
@@ -5469,11 +5469,11 @@
       },
       {
         "level": 29,
-        "move": "TRANCHAIR"
+        "move": "Tranch'Air"
       },
       {
         "level": 33,
-        "move": "SPORECOTON"
+        "move": "Spore Coton"
       },
       {
         "level": 37,
@@ -5489,15 +5489,15 @@
       },
       {
         "level": 50,
-        "move": "SOUVENIR"
+        "move": "Souvenir"
       },
       {
         "level": 54,
-        "move": "ACROBATIE"
+        "move": "Acrobatie"
       },
       {
         "level": 58,
-        "move": "POUDREDODO"
+        "move": "Poudre Dodo"
       },
       {
         "level": 62,
@@ -5505,7 +5505,7 @@
       },
       {
         "level": 66,
-        "move": "POUDREFUREUR"
+        "move": "Poudre Fureur"
       },
       {
         "level": 70,
@@ -5529,11 +5529,11 @@
       },
       {
         "level": 95,
-        "move": "VENTHURLANT"
+        "move": "Vent Hurlant"
       },
       {
         "level": 100,
-        "move": "CANONFLORAL"
+        "move": "Canon Floral"
       }
     ],
     "egg_moves": [
@@ -5562,7 +5562,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "VOLEVIE"
+        "move": "Vole-Vie"
       },
       {
         "level": 1,
@@ -5570,15 +5570,15 @@
       },
       {
         "level": 5,
-        "move": "TORNADE"
+        "move": "Tornade"
       },
       {
         "level": 7,
-        "move": "PARASPORE"
+        "move": "Para-Spore"
       },
       {
         "level": 10,
-        "move": "VENTFEERIQUE"
+        "move": "Vent Féérique"
       },
       {
         "level": 13,
@@ -5590,7 +5590,7 @@
       },
       {
         "level": 21,
-        "move": "JETDEPOLLEN"
+        "move": "Jet de Pollen"
       },
       {
         "level": 25,
@@ -5598,11 +5598,11 @@
       },
       {
         "level": 29,
-        "move": "TRANCHAIR"
+        "move": "Tranch'Air"
       },
       {
         "level": 33,
-        "move": "SPORECOTON"
+        "move": "Spore Coton"
       },
       {
         "level": 37,
@@ -5618,15 +5618,15 @@
       },
       {
         "level": 50,
-        "move": "SOUVENIR"
+        "move": "Souvenir"
       },
       {
         "level": 54,
-        "move": "ACROBATIE"
+        "move": "Acrobatie"
       },
       {
         "level": 58,
-        "move": "POUDREDODO"
+        "move": "Poudre Dodo"
       },
       {
         "level": 62,
@@ -5634,7 +5634,7 @@
       },
       {
         "level": 66,
-        "move": "POUDREFUREUR"
+        "move": "Poudre Fureur"
       },
       {
         "level": 70,
@@ -5658,11 +5658,11 @@
       },
       {
         "level": 95,
-        "move": "VENTHURLANT"
+        "move": "Vent Hurlant"
       },
       {
         "level": 100,
-        "move": "CANONFLORAL"
+        "move": "Canon Floral"
       }
     ],
     "egg_moves": [],
@@ -5690,7 +5690,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "VOLEVIE"
+        "move": "Vole-Vie"
       },
       {
         "level": 1,
@@ -5698,15 +5698,15 @@
       },
       {
         "level": 5,
-        "move": "TORNADE"
+        "move": "Tornade"
       },
       {
         "level": 7,
-        "move": "PARASPORE"
+        "move": "Para-Spore"
       },
       {
         "level": 10,
-        "move": "VENTFEERIQUE"
+        "move": "Vent Féérique"
       },
       {
         "level": 13,
@@ -5718,7 +5718,7 @@
       },
       {
         "level": 21,
-        "move": "JETDEPOLLEN"
+        "move": "Jet de Pollen"
       },
       {
         "level": 25,
@@ -5726,11 +5726,11 @@
       },
       {
         "level": 29,
-        "move": "TRANCHAIR"
+        "move": "Tranch'Air"
       },
       {
         "level": 33,
-        "move": "SPORECOTON"
+        "move": "Spore Coton"
       },
       {
         "level": 37,
@@ -5746,15 +5746,15 @@
       },
       {
         "level": 50,
-        "move": "SOUVENIR"
+        "move": "Souvenir"
       },
       {
         "level": 54,
-        "move": "ACROBATIE"
+        "move": "Acrobatie"
       },
       {
         "level": 58,
-        "move": "POUDREDODO"
+        "move": "Poudre Dodo"
       },
       {
         "level": 62,
@@ -5762,7 +5762,7 @@
       },
       {
         "level": 66,
-        "move": "POUDREFUREUR"
+        "move": "Poudre Fureur"
       },
       {
         "level": 70,
@@ -5786,11 +5786,11 @@
       },
       {
         "level": 95,
-        "move": "VENTHURLANT"
+        "move": "Vent Hurlant"
       },
       {
         "level": 100,
-        "move": "CANONFLORAL"
+        "move": "Canon Floral"
       }
     ],
     "egg_moves": [],
@@ -5826,11 +5826,11 @@
       },
       {
         "level": 5,
-        "move": "COUPDQUEUE"
+        "move": "Coup d'Queue"
       },
       {
         "level": 7,
-        "move": "JETDESABLE"
+        "move": "Jet de Sable"
       },
       {
         "level": 10,
@@ -5838,7 +5838,7 @@
       },
       {
         "level": 13,
-        "move": "QUEUEMALICIEUSE"
+        "move": "Queue Malicieuse"
       },
       {
         "level": 17,
@@ -5850,7 +5850,7 @@
       },
       {
         "level": 25,
-        "move": "FORTEPAUME"
+        "move": "Forte-Paume"
       },
       {
         "level": 29,
@@ -5862,7 +5862,7 @@
       },
       {
         "level": 37,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 41,
@@ -5874,7 +5874,7 @@
       },
       {
         "level": 50,
-        "move": "COMBOFINAL"
+        "move": "Combo Final"
       },
       {
         "level": 54,
@@ -5886,15 +5886,15 @@
       },
       {
         "level": 62,
-        "move": "GROSSEBAFFE"
+        "move": "Grosse Baffe"
       },
       {
         "level": 66,
-        "move": "MACHINATION"
+        "move": "Machination"
       },
       {
         "level": 70,
-        "move": "QUEUEDESTRUCTRICE"
+        "move": "Queue Destructrice"
       },
       {
         "level": 75,
@@ -5906,7 +5906,7 @@
       },
       {
         "level": 85,
-        "move": "BASTON"
+        "move": "Baston"
       },
       {
         "level": 90,
@@ -5918,7 +5918,7 @@
       },
       {
         "level": 100,
-        "move": "VACARME"
+        "move": "Vacarme"
       }
     ],
     "egg_moves": [
@@ -5955,11 +5955,11 @@
       },
       {
         "level": 5,
-        "move": "COUPDQUEUE"
+        "move": "Coup d'Queue"
       },
       {
         "level": 7,
-        "move": "JETDESABLE"
+        "move": "Jet de Sable"
       },
       {
         "level": 10,
@@ -5967,7 +5967,7 @@
       },
       {
         "level": 13,
-        "move": "QUEUEMALICIEUSE"
+        "move": "Queue Malicieuse"
       },
       {
         "level": 17,
@@ -5979,7 +5979,7 @@
       },
       {
         "level": 25,
-        "move": "FORTEPAUME"
+        "move": "Forte-Paume"
       },
       {
         "level": 29,
@@ -5991,7 +5991,7 @@
       },
       {
         "level": 37,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 41,
@@ -6003,7 +6003,7 @@
       },
       {
         "level": 50,
-        "move": "COMBOFINAL"
+        "move": "Combo Final"
       },
       {
         "level": 54,
@@ -6015,15 +6015,15 @@
       },
       {
         "level": 62,
-        "move": "GROSSEBAFFE"
+        "move": "Grosse Baffe"
       },
       {
         "level": 66,
-        "move": "MACHINATION"
+        "move": "Machination"
       },
       {
         "level": 70,
-        "move": "QUEUEDESTRUCTRICE"
+        "move": "Queue Destructrice"
       },
       {
         "level": 75,
@@ -6035,7 +6035,7 @@
       },
       {
         "level": 85,
-        "move": "BASTON"
+        "move": "Baston"
       },
       {
         "level": 90,
@@ -6047,7 +6047,7 @@
       },
       {
         "level": 100,
-        "move": "VACARME"
+        "move": "Vacarme"
       }
     ],
     "egg_moves": [],
@@ -6078,23 +6078,23 @@
     "level_up": [
       {
         "level": 1,
-        "move": "VOLEVIE"
+        "move": "Vole-Vie"
       },
       {
         "level": 1,
-        "move": "CROISSANCE"
+        "move": "Croissance"
       },
       {
         "level": 5,
-        "move": "INSOLATION"
+        "move": "Insolation"
       },
       {
         "level": 7,
-        "move": "ENCORE"
+        "move": "Encore"
       },
       {
         "level": 10,
-        "move": "SIFFLHERBE"
+        "move": "Siffl'Herbe"
       },
       {
         "level": 13,
@@ -6106,11 +6106,11 @@
       },
       {
         "level": 21,
-        "move": "VAMPIGRAINE"
+        "move": "Vampigraine"
       },
       {
         "level": 25,
-        "move": "RAYONNEMENT"
+        "move": "Rayonnement"
       },
       {
         "level": 29,
@@ -6150,7 +6150,7 @@
       },
       {
         "level": 66,
-        "move": "MALEDICTION"
+        "move": "Malédiction"
       },
       {
         "level": 70,
@@ -6170,7 +6170,7 @@
       },
       {
         "level": 90,
-        "move": "DANSERADIEUSE"
+        "move": "Danse Radieuse"
       },
       {
         "level": 95,
@@ -6178,15 +6178,15 @@
       },
       {
         "level": 100,
-        "move": "RONCEMASSIVE"
+        "move": "Ronce Massive"
       }
     ],
     "egg_moves": [
-      "CORPSBUISSON",
-      "SECOUSSE",
-      "VAGUELUMINEUSE",
-      "ESSORAGE",
-      "SIFFLHERBE"
+      "Corps Buisson",
+      "Secousse",
+      "Vague Lumineuse",
+      "Essorage",
+      "Siffl'Herbe"
     ],
     "cs": [],
     "ct": [
@@ -6212,23 +6212,23 @@
     "level_up": [
       {
         "level": 1,
-        "move": "VOLEVIE"
+        "move": "Vole-Vie"
       },
       {
         "level": 1,
-        "move": "CROISSANCE"
+        "move": "Croissance"
       },
       {
         "level": 5,
-        "move": "INSOLATION"
+        "move": "Insolation"
       },
       {
         "level": 7,
-        "move": "ENCORE"
+        "move": "Encore"
       },
       {
         "level": 10,
-        "move": "SIFFLHERBE"
+        "move": "Siffl'Herbe"
       },
       {
         "level": 13,
@@ -6240,11 +6240,11 @@
       },
       {
         "level": 21,
-        "move": "VAMPIGRAINE"
+        "move": "Vampigraine"
       },
       {
         "level": 25,
-        "move": "RAYONNEMENT"
+        "move": "Rayonnement"
       },
       {
         "level": 29,
@@ -6284,7 +6284,7 @@
       },
       {
         "level": 66,
-        "move": "MALEDICTION"
+        "move": "Malédiction"
       },
       {
         "level": 70,
@@ -6304,7 +6304,7 @@
       },
       {
         "level": 90,
-        "move": "DANSERADIEUSE"
+        "move": "Danse Radieuse"
       },
       {
         "level": 95,
@@ -6312,7 +6312,7 @@
       },
       {
         "level": 100,
-        "move": "RONCEMASSIVE"
+        "move": "Ronce Massive"
       }
     ],
     "egg_moves": [],
@@ -6356,23 +6356,23 @@
       },
       {
         "level": 1,
-        "move": "VOLEVIE"
+        "move": "Vole-Vie"
       },
       {
         "level": 1,
-        "move": "CROISSANCE"
+        "move": "Croissance"
       },
       {
         "level": 5,
-        "move": "INSOLATION"
+        "move": "Insolation"
       },
       {
         "level": 7,
-        "move": "ENCORE"
+        "move": "Encore"
       },
       {
         "level": 10,
-        "move": "SIFFLHERBE"
+        "move": "Siffl'Herbe"
       },
       {
         "level": 13,
@@ -6384,11 +6384,11 @@
       },
       {
         "level": 21,
-        "move": "VAMPIGRAINE"
+        "move": "Vampigraine"
       },
       {
         "level": 25,
-        "move": "RAYONNEMENT"
+        "move": "Rayonnement"
       },
       {
         "level": 29,
@@ -6428,7 +6428,7 @@
       },
       {
         "level": 66,
-        "move": "MALEDICTION"
+        "move": "Malédiction"
       },
       {
         "level": 70,
@@ -6448,7 +6448,7 @@
       },
       {
         "level": 90,
-        "move": "DANSERADIEUSE"
+        "move": "Danse Radieuse"
       },
       {
         "level": 95,
@@ -6456,7 +6456,7 @@
       },
       {
         "level": 100,
-        "move": "RONCEMASSIVE"
+        "move": "Ronce Massive"
       }
     ],
     "egg_moves": [],
@@ -6505,7 +6505,7 @@
       },
       {
         "level": 1,
-        "move": "CLAIRVOYANCE"
+        "move": "Clairvoyance"
       },
       {
         "level": 5,
@@ -6513,11 +6513,11 @@
       },
       {
         "level": 7,
-        "move": "HYPNOSE"
+        "move": "Hypnose"
       },
       {
         "level": 10,
-        "move": "TORNADE"
+        "move": "Tornade"
       },
       {
         "level": 13,
@@ -6529,15 +6529,15 @@
       },
       {
         "level": 21,
-        "move": "SONICBOOM"
+        "move": "Sonic Boom"
       },
       {
         "level": 25,
-        "move": "TRANCHAIR"
+        "move": "Tranch'Air"
       },
       {
         "level": 29,
-        "move": "DETECTION"
+        "move": "Détection"
       },
       {
         "level": 33,
@@ -6545,19 +6545,19 @@
       },
       {
         "level": 37,
-        "move": "BOURDON"
+        "move": "Bourdon"
       },
       {
         "level": 41,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 46,
-        "move": "TURBOIMPULSION"
+        "move": "Turbo Impulsion"
       },
       {
         "level": 50,
-        "move": "CYCLONE"
+        "move": "Cyclone"
       },
       {
         "level": 54,
@@ -6565,11 +6565,11 @@
       },
       {
         "level": 58,
-        "move": "SUPERSONIC"
+        "move": "Supersonic"
       },
       {
         "level": 62,
-        "move": "AILERASOIR"
+        "move": "Aile Rasoir"
       },
       {
         "level": 66,
@@ -6577,11 +6577,11 @@
       },
       {
         "level": 70,
-        "move": "CONTRE"
+        "move": "Contre"
       },
       {
         "level": 75,
-        "move": "ASCENSION"
+        "move": "Ascension"
       },
       {
         "level": 80,
@@ -6589,7 +6589,7 @@
       },
       {
         "level": 85,
-        "move": "ENVOL"
+        "move": "Envol"
       },
       {
         "level": 90,
@@ -6601,12 +6601,12 @@
       },
       {
         "level": 100,
-        "move": "HAUTEVOLTIGE"
+        "move": "Haute Voltige"
       }
     ],
     "egg_moves": [
-      "REPULSION",
-      "BOMBEMIEL",
+      "Répulsion",
+      "Bombe Miel",
       "Boost"
     ],
     "cs": [
@@ -6648,7 +6648,7 @@
       },
       {
         "level": 1,
-        "move": "CLAIRVOYANCE"
+        "move": "Clairvoyance"
       },
       {
         "level": 5,
@@ -6656,11 +6656,11 @@
       },
       {
         "level": 7,
-        "move": "HYPNOSE"
+        "move": "Hypnose"
       },
       {
         "level": 10,
-        "move": "TORNADE"
+        "move": "Tornade"
       },
       {
         "level": 13,
@@ -6672,15 +6672,15 @@
       },
       {
         "level": 21,
-        "move": "SONICBOOM"
+        "move": "Sonic Boom"
       },
       {
         "level": 25,
-        "move": "TRANCHAIR"
+        "move": "Tranch'Air"
       },
       {
         "level": 29,
-        "move": "DETECTION"
+        "move": "Détection"
       },
       {
         "level": 33,
@@ -6688,19 +6688,19 @@
       },
       {
         "level": 37,
-        "move": "BOURDON"
+        "move": "Bourdon"
       },
       {
         "level": 41,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 46,
-        "move": "TURBOIMPULSION"
+        "move": "Turbo Impulsion"
       },
       {
         "level": 50,
-        "move": "CYCLONE"
+        "move": "Cyclone"
       },
       {
         "level": 54,
@@ -6708,11 +6708,11 @@
       },
       {
         "level": 58,
-        "move": "SUPERSONIC"
+        "move": "Supersonic"
       },
       {
         "level": 62,
-        "move": "AILERASOIR"
+        "move": "Aile Rasoir"
       },
       {
         "level": 66,
@@ -6720,11 +6720,11 @@
       },
       {
         "level": 70,
-        "move": "CONTRE"
+        "move": "Contre"
       },
       {
         "level": 75,
-        "move": "ASCENSION"
+        "move": "Ascension"
       },
       {
         "level": 80,
@@ -6732,7 +6732,7 @@
       },
       {
         "level": 85,
-        "move": "ENVOL"
+        "move": "Envol"
       },
       {
         "level": 90,
@@ -6744,7 +6744,7 @@
       },
       {
         "level": 100,
-        "move": "HAUTEVOLTIGE"
+        "move": "Haute Voltige"
       }
     ],
     "egg_moves": [],
@@ -6784,7 +6784,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "PISTOLETAO"
+        "move": "Pistolet à O"
       },
       {
         "level": 1,
@@ -6796,15 +6796,15 @@
       },
       {
         "level": 7,
-        "move": "TIRDEBOUE"
+        "move": "Tir de Boue"
       },
       {
         "level": 10,
-        "move": "LANCEBOUE"
+        "move": "Lance-Boue"
       },
       {
         "level": 13,
-        "move": "DOUBLEJET"
+        "move": "Double Jet"
       },
       {
         "level": 17,
@@ -6816,7 +6816,7 @@
       },
       {
         "level": 25,
-        "move": "POINGAQUEUX"
+        "move": "Poing Aqueux"
       },
       {
         "level": 29,
@@ -6824,11 +6824,11 @@
       },
       {
         "level": 33,
-        "move": "AMNESIE"
+        "move": "Amnésie"
       },
       {
         "level": 37,
-        "move": "ESSORAGE"
+        "move": "Essorage"
       },
       {
         "level": 41,
@@ -6836,7 +6836,7 @@
       },
       {
         "level": 46,
-        "move": "PEAUVISQUEUSE"
+        "move": "Peau Visqueuse"
       },
       {
         "level": 50,
@@ -6848,7 +6848,7 @@
       },
       {
         "level": 58,
-        "move": "AQUABRECHE"
+        "move": "Aqua-Brèche"
       },
       {
         "level": 62,
@@ -6856,11 +6856,11 @@
       },
       {
         "level": 66,
-        "move": "MALEDICTION"
+        "move": "Malédiction"
       },
       {
         "level": 70,
-        "move": "AQUASLASH"
+        "move": "Aqua Slash"
       },
       {
         "level": 75,
@@ -6872,11 +6872,11 @@
       },
       {
         "level": 85,
-        "move": "GEYSER"
+        "move": "Geyser"
       },
       {
         "level": 90,
-        "move": "REVEILFORCE"
+        "move": "Réveil Forcé"
       },
       {
         "level": 95,
@@ -6884,7 +6884,7 @@
       },
       {
         "level": 100,
-        "move": "CRANEUR"
+        "move": "Crâneur"
       }
     ],
     "egg_moves": [
@@ -6911,7 +6911,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "PISTOLETAO"
+        "move": "Pistolet à O"
       },
       {
         "level": 1,
@@ -6923,15 +6923,15 @@
       },
       {
         "level": 7,
-        "move": "TIRDEBOUE"
+        "move": "Tir de Boue"
       },
       {
         "level": 10,
-        "move": "LANCEBOUE"
+        "move": "Lance-Boue"
       },
       {
         "level": 13,
-        "move": "DOUBLEJET"
+        "move": "Double Jet"
       },
       {
         "level": 17,
@@ -6943,7 +6943,7 @@
       },
       {
         "level": 25,
-        "move": "POINGAQUEUX"
+        "move": "Poing Aqueux"
       },
       {
         "level": 29,
@@ -6951,11 +6951,11 @@
       },
       {
         "level": 33,
-        "move": "AMNESIE"
+        "move": "Amnésie"
       },
       {
         "level": 37,
-        "move": "ESSORAGE"
+        "move": "Essorage"
       },
       {
         "level": 41,
@@ -6963,7 +6963,7 @@
       },
       {
         "level": 46,
-        "move": "PEAUVISQUEUSE"
+        "move": "Peau Visqueuse"
       },
       {
         "level": 50,
@@ -6975,7 +6975,7 @@
       },
       {
         "level": 58,
-        "move": "AQUABRECHE"
+        "move": "Aqua-Brèche"
       },
       {
         "level": 62,
@@ -6983,11 +6983,11 @@
       },
       {
         "level": 66,
-        "move": "MALEDICTION"
+        "move": "Malédiction"
       },
       {
         "level": 70,
-        "move": "AQUASLASH"
+        "move": "Aqua Slash"
       },
       {
         "level": 75,
@@ -6999,11 +6999,11 @@
       },
       {
         "level": 85,
-        "move": "GEYSER"
+        "move": "Geyser"
       },
       {
         "level": 90,
-        "move": "REVEILFORCE"
+        "move": "Réveil Forcé"
       },
       {
         "level": 95,
@@ -7011,7 +7011,7 @@
       },
       {
         "level": 100,
-        "move": "CRANEUR"
+        "move": "Crâneur"
       }
     ],
     "egg_moves": [],
@@ -7043,15 +7043,15 @@
     "level_up": [
       {
         "level": 1,
-        "move": "SERRE"
+        "move": "Serre"
       },
       {
         "level": 1,
-        "move": "FLATTERIE"
+        "move": "Flatterie"
       },
       {
         "level": 5,
-        "move": "POURSUITE"
+        "move": "Poursuite"
       },
       {
         "level": 7,
@@ -7059,7 +7059,7 @@
       },
       {
         "level": 10,
-        "move": "CROASSEMENT"
+        "move": "Croassement"
       },
       {
         "level": 13,
@@ -7067,19 +7067,19 @@
       },
       {
         "level": 17,
-        "move": "CRUAILES"
+        "move": "Cru-Ailes"
       },
       {
         "level": 21,
-        "move": "ARNAQUE"
+        "move": "Arnaque"
       },
       {
         "level": 25,
-        "move": "LUNATIQUE"
+        "move": "Lunatique"
       },
       {
         "level": 29,
-        "move": "ASSURANCE"
+        "move": "Assurance"
       },
       {
         "level": 33,
@@ -7091,23 +7091,23 @@
       },
       {
         "level": 41,
-        "move": "TOURMENTE"
+        "move": "Tourmente"
       },
       {
         "level": 46,
-        "move": "MULTIVRILLE"
+        "move": "Multivrille"
       },
       {
         "level": 50,
-        "move": "EXPLONUIT"
+        "move": "Explonuit"
       },
       {
         "level": 54,
-        "move": "VACARME"
+        "move": "Vacarme"
       },
       {
         "level": 58,
-        "move": "HEURTBRUTAL"
+        "move": "Heurt Brutal"
       },
       {
         "level": 62,
@@ -7115,19 +7115,19 @@
       },
       {
         "level": 66,
-        "move": "TRICHERIE"
+        "move": "Tricherie"
       },
       {
         "level": 70,
-        "move": "REGARDNOIR"
+        "move": "Regard Noir"
       },
       {
         "level": 75,
-        "move": "VENTHURLANT"
+        "move": "Vent Hurlant"
       },
       {
         "level": 80,
-        "move": "BECAIGUISE"
+        "move": "Bec Aiguisé"
       },
       {
         "level": 85,
@@ -7135,15 +7135,15 @@
       },
       {
         "level": 90,
-        "move": "MAUVAISEHUMEUR"
+        "move": "Mauvaise Humeur"
       },
       {
         "level": 95,
-        "move": "ANGLEMORT"
+        "move": "Angle Mort"
       },
       {
         "level": 100,
-        "move": "ARROGANCE"
+        "move": "Arrogance"
       }
     ],
     "egg_moves": [
@@ -7170,15 +7170,15 @@
     "level_up": [
       {
         "level": 1,
-        "move": "SERRE"
+        "move": "Serre"
       },
       {
         "level": 1,
-        "move": "FLATTERIE"
+        "move": "Flatterie"
       },
       {
         "level": 5,
-        "move": "POURSUITE"
+        "move": "Poursuite"
       },
       {
         "level": 7,
@@ -7186,7 +7186,7 @@
       },
       {
         "level": 10,
-        "move": "CROASSEMENT"
+        "move": "Croassement"
       },
       {
         "level": 13,
@@ -7194,19 +7194,19 @@
       },
       {
         "level": 17,
-        "move": "CRUAILES"
+        "move": "Cru-Ailes"
       },
       {
         "level": 21,
-        "move": "ARNAQUE"
+        "move": "Arnaque"
       },
       {
         "level": 25,
-        "move": "LUNATIQUE"
+        "move": "Lunatique"
       },
       {
         "level": 29,
-        "move": "ASSURANCE"
+        "move": "Assurance"
       },
       {
         "level": 33,
@@ -7218,23 +7218,23 @@
       },
       {
         "level": 41,
-        "move": "TOURMENTE"
+        "move": "Tourmente"
       },
       {
         "level": 46,
-        "move": "MULTIVRILLE"
+        "move": "Multivrille"
       },
       {
         "level": 50,
-        "move": "EXPLONUIT"
+        "move": "Explonuit"
       },
       {
         "level": 54,
-        "move": "VACARME"
+        "move": "Vacarme"
       },
       {
         "level": 58,
-        "move": "HEURTBRUTAL"
+        "move": "Heurt Brutal"
       },
       {
         "level": 62,
@@ -7242,19 +7242,19 @@
       },
       {
         "level": 66,
-        "move": "TRICHERIE"
+        "move": "Tricherie"
       },
       {
         "level": 70,
-        "move": "REGARDNOIR"
+        "move": "Regard Noir"
       },
       {
         "level": 75,
-        "move": "VENTHURLANT"
+        "move": "Vent Hurlant"
       },
       {
         "level": 80,
-        "move": "BECAIGUISE"
+        "move": "Bec Aiguisé"
       },
       {
         "level": 85,
@@ -7262,15 +7262,15 @@
       },
       {
         "level": 90,
-        "move": "MAUVAISEHUMEUR"
+        "move": "Mauvaise Humeur"
       },
       {
         "level": 95,
-        "move": "ANGLEMORT"
+        "move": "Angle Mort"
       },
       {
         "level": 100,
-        "move": "ARROGANCE"
+        "move": "Arrogance"
       }
     ],
     "egg_moves": [],
@@ -7299,7 +7299,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "ETONNEMENT"
+        "move": "Étonnement"
       },
       {
         "level": 1,
@@ -7307,27 +7307,27 @@
       },
       {
         "level": 5,
-        "move": "CRIEFFRAYANT"
+        "move": "Cri Effrayant"
       },
       {
         "level": 7,
-        "move": "DEPIT"
+        "move": "Dépit"
       },
       {
         "level": 10,
-        "move": "SOURNOISERIE"
+        "move": "Sournoiserie"
       },
       {
         "level": 13,
-        "move": "SORTILEGE"
+        "move": "Sortilège"
       },
       {
         "level": 17,
-        "move": "PEURBLEUE"
+        "move": "Peur Bleue"
       },
       {
         "level": 21,
-        "move": "VOIXLUGUBRE"
+        "move": "Voix Lugubre"
       },
       {
         "level": 25,
@@ -7335,11 +7335,11 @@
       },
       {
         "level": 29,
-        "move": "TRAGEDIE"
+        "move": "Tragédie"
       },
       {
         "level": 33,
-        "move": "ONDEFOLIE"
+        "move": "Onde Folie"
       },
       {
         "level": 37,
@@ -7351,11 +7351,11 @@
       },
       {
         "level": 46,
-        "move": "RANCUNE"
+        "move": "Rancune"
       },
       {
         "level": 50,
-        "move": "REQUIEM"
+        "move": "Requiem"
       },
       {
         "level": 54,
@@ -7363,11 +7363,11 @@
       },
       {
         "level": 58,
-        "move": "RAYONGEMME"
+        "move": "Rayon Gemme"
       },
       {
         "level": 62,
-        "move": "CLAIRDELUNE"
+        "move": "Clair de Lune"
       },
       {
         "level": 66,
@@ -7375,48 +7375,48 @@
       },
       {
         "level": 70,
-        "move": "ECLATSPECTRAL"
+        "move": "Éclat Spectral"
       },
       {
         "level": 75,
-        "move": "DERNIERCHANT"
+        "move": "Dernier Chant"
       },
       {
         "level": 80,
-        "move": "HYPNOSE"
+        "move": "Hypnose"
       },
       {
         "level": 80,
-        "move": "CAUCHEMAR"
+        "move": "Cauchemar"
       },
       {
         "level": 85,
-        "move": "ECLYPSE"
+        "move": "Éclypse"
       },
       {
         "level": 90,
-        "move": "DERNIERMOT"
+        "move": "Dernier Mot"
       },
       {
         "level": 95,
-        "move": "AURAMAUDITE"
+        "move": "Aura Maudite"
       },
       {
         "level": 100,
-        "move": "PERMUMAGIE"
+        "move": "Permu'Magie"
       }
     ],
     "egg_moves": [
       "Hantise",
-      "RAYONSOMBRE",
-      "HALLOWEEN",
-      "SPHEREMAGIQUE",
-      "REGARDNOIR",
-      "SACCADE",
-      "PRISMAGIK",
-      "COEURRANCOEUR",
-      "RANCUNE",
-      "CANONMAGIQUE"
+      "Rayon Sombre",
+      "Halloween",
+      "Sphère Magique",
+      "Regard Noir",
+      "Saccade",
+      "Prismagik",
+      "Coeur Rancoeur",
+      "Rancune",
+      "Canon Magique"
     ],
     "cs": [
       "Flash"
@@ -7481,15 +7481,15 @@
       },
       {
         "level": 1,
-        "move": "DERNIERMOT"
+        "move": "Dernier Mot"
       },
       {
         "level": 1,
-        "move": "MALEDICTION"
+        "move": "Malédiction"
       },
       {
         "level": 1,
-        "move": "ETONNEMENT"
+        "move": "Étonnement"
       },
       {
         "level": 1,
@@ -7497,27 +7497,27 @@
       },
       {
         "level": 5,
-        "move": "CRIEFFRAYANT"
+        "move": "Cri Effrayant"
       },
       {
         "level": 7,
-        "move": "DEPIT"
+        "move": "Dépit"
       },
       {
         "level": 10,
-        "move": "SOURNOISERIE"
+        "move": "Sournoiserie"
       },
       {
         "level": 13,
-        "move": "SORTILEGE"
+        "move": "Sortilège"
       },
       {
         "level": 17,
-        "move": "PEURBLEUE"
+        "move": "Peur Bleue"
       },
       {
         "level": 21,
-        "move": "VOIXLUGUBRE"
+        "move": "Voix Lugubre"
       },
       {
         "level": 25,
@@ -7525,11 +7525,11 @@
       },
       {
         "level": 29,
-        "move": "TRAGEDIE"
+        "move": "Tragédie"
       },
       {
         "level": 33,
-        "move": "ONDEFOLIE"
+        "move": "Onde Folie"
       },
       {
         "level": 37,
@@ -7541,11 +7541,11 @@
       },
       {
         "level": 46,
-        "move": "RANCUNE"
+        "move": "Rancune"
       },
       {
         "level": 50,
-        "move": "REQUIEM"
+        "move": "Requiem"
       },
       {
         "level": 54,
@@ -7553,11 +7553,11 @@
       },
       {
         "level": 58,
-        "move": "RAYONGEMME"
+        "move": "Rayon Gemme"
       },
       {
         "level": 62,
-        "move": "CLAIRDELUNE"
+        "move": "Clair de Lune"
       },
       {
         "level": 66,
@@ -7565,35 +7565,35 @@
       },
       {
         "level": 70,
-        "move": "ECLATSPECTRAL"
+        "move": "Éclat Spectral"
       },
       {
         "level": 75,
-        "move": "DERNIERCHANT"
+        "move": "Dernier Chant"
       },
       {
         "level": 80,
-        "move": "HYPNOSE"
+        "move": "Hypnose"
       },
       {
         "level": 80,
-        "move": "CAUCHEMAR"
+        "move": "Cauchemar"
       },
       {
         "level": 85,
-        "move": "ECLYPSE"
+        "move": "Éclypse"
       },
       {
         "level": 90,
-        "move": "REFLETMAGIK"
+        "move": "Reflet Magik"
       },
       {
         "level": 95,
-        "move": "AURAMAUDITE"
+        "move": "Aura Maudite"
       },
       {
         "level": 100,
-        "move": "PERMUMAGIE"
+        "move": "Permu'Magie"
       }
     ],
     "egg_moves": [],
@@ -7666,15 +7666,15 @@
     "level_up": [
       {
         "level": 1,
-        "move": "COUPLOUCHE"
+        "move": "Coup Louche"
       },
       {
         "level": 1,
-        "move": "LIREESPRIT"
+        "move": "Lire-Esprit"
       },
       {
         "level": 5,
-        "move": "LILLIPUT"
+        "move": "Lilliput"
       },
       {
         "level": 7,
@@ -7682,15 +7682,15 @@
       },
       {
         "level": 10,
-        "move": "PASSEPASSE"
+        "move": "Passe-Passe"
       },
       {
         "level": 13,
-        "move": "PUISSANCETRIPLE"
+        "move": "Puissance Triple"
       },
       {
         "level": 17,
-        "move": "HYPNOSE"
+        "move": "Hypnose"
       },
       {
         "level": 21,
@@ -7698,11 +7698,11 @@
       },
       {
         "level": 25,
-        "move": "OEILMIRACLE"
+        "move": "Oeil Miracle"
       },
       {
         "level": 29,
-        "move": "RAFALEPSY"
+        "move": "Rafale Psy"
       },
       {
         "level": 33,
@@ -7714,7 +7714,7 @@
       },
       {
         "level": 41,
-        "move": "SOUVENIR"
+        "move": "Souvenir"
       },
       {
         "level": 46,
@@ -7750,11 +7750,11 @@
       },
       {
         "level": 1,
-        "move": "AMNESIE"
+        "move": "Amnésie"
       },
       {
         "level": 5,
-        "move": "CONTRE"
+        "move": "Contre"
       },
       {
         "level": 7,
@@ -7762,7 +7762,7 @@
       },
       {
         "level": 10,
-        "move": "CHARME"
+        "move": "Charme"
       },
       {
         "level": 13,
@@ -7778,7 +7778,7 @@
       },
       {
         "level": 25,
-        "move": "DETECTION"
+        "move": "Détection"
       },
       {
         "level": 29,
@@ -7790,7 +7790,7 @@
       },
       {
         "level": 37,
-        "move": "MALEDICTION"
+        "move": "Malédiction"
       },
       {
         "level": 41,
@@ -7798,27 +7798,27 @@
       },
       {
         "level": 46,
-        "move": "REQUIEM"
+        "move": "Requiem"
       },
       {
         "level": 50,
-        "move": "ARROGANCE"
+        "move": "Arrogance"
       },
       {
         "level": 54,
-        "move": "ECHANGEPSY"
+        "move": "Échange Psy"
       },
       {
         "level": 58,
-        "move": "RENVERSEMENT"
+        "move": "Renversement"
       },
       {
         "level": 62,
-        "move": "VOEU"
+        "move": "Voeu"
       },
       {
         "level": 66,
-        "move": "SYNCHROPEINE"
+        "move": "Synchropeine"
       },
       {
         "level": 70,
@@ -7834,7 +7834,7 @@
       },
       {
         "level": 85,
-        "move": "LIREESPRIT"
+        "move": "Lire-Esprit"
       },
       {
         "level": 90,
@@ -7842,7 +7842,7 @@
       },
       {
         "level": 95,
-        "move": "TOUTOURIEN"
+        "move": "Tout ou Rien"
       },
       {
         "level": 100,
@@ -7876,11 +7876,11 @@
       },
       {
         "level": 1,
-        "move": "AMNESIE"
+        "move": "Amnésie"
       },
       {
         "level": 5,
-        "move": "CONTRE"
+        "move": "Contre"
       },
       {
         "level": 7,
@@ -7888,7 +7888,7 @@
       },
       {
         "level": 10,
-        "move": "CHARME"
+        "move": "Charme"
       },
       {
         "level": 13,
@@ -7904,7 +7904,7 @@
       },
       {
         "level": 25,
-        "move": "DETECTION"
+        "move": "Détection"
       },
       {
         "level": 29,
@@ -7916,7 +7916,7 @@
       },
       {
         "level": 37,
-        "move": "MALEDICTION"
+        "move": "Malédiction"
       },
       {
         "level": 41,
@@ -7924,27 +7924,27 @@
       },
       {
         "level": 46,
-        "move": "REQUIEM"
+        "move": "Requiem"
       },
       {
         "level": 50,
-        "move": "ARROGANCE"
+        "move": "Arrogance"
       },
       {
         "level": 54,
-        "move": "ECHANGEPSY"
+        "move": "Échange Psy"
       },
       {
         "level": 58,
-        "move": "RENVERSEMENT"
+        "move": "Renversement"
       },
       {
         "level": 62,
-        "move": "VOEU"
+        "move": "Voeu"
       },
       {
         "level": 66,
-        "move": "SYNCHROPEINE"
+        "move": "Synchropeine"
       },
       {
         "level": 70,
@@ -7960,7 +7960,7 @@
       },
       {
         "level": 85,
-        "move": "LIREESPRIT"
+        "move": "Lire-Esprit"
       },
       {
         "level": 90,
@@ -7968,7 +7968,7 @@
       },
       {
         "level": 95,
-        "move": "TOUTOURIEN"
+        "move": "Tout ou Rien"
       },
       {
         "level": 100,
@@ -8005,15 +8005,15 @@
       },
       {
         "level": 5,
-        "move": "ETONNEMENT"
+        "move": "Étonnement"
       },
       {
         "level": 7,
-        "move": "CHOCMENTAL"
+        "move": "Choc Mental"
       },
       {
         "level": 10,
-        "move": "ASSURANCE"
+        "move": "Assurance"
       },
       {
         "level": 13,
@@ -8025,7 +8025,7 @@
       },
       {
         "level": 21,
-        "move": "RAFALEPSY"
+        "move": "Rafale Psy"
       },
       {
         "level": 25,
@@ -8037,7 +8037,7 @@
       },
       {
         "level": 33,
-        "move": "FORCEAJOUTEE"
+        "move": "Force Ajoutée"
       },
       {
         "level": 37,
@@ -8045,15 +8045,15 @@
       },
       {
         "level": 41,
-        "move": "PERMUFORCE"
+        "move": "Permuforce"
       },
       {
         "level": 41,
-        "move": "PERMUGARDE"
+        "move": "Permugarde"
       },
       {
         "level": 46,
-        "move": "MACHINATION"
+        "move": "Machination"
       },
       {
         "level": 50,
@@ -8065,11 +8065,11 @@
       },
       {
         "level": 58,
-        "move": "PERMUCOEUR"
+        "move": "Permucoeur"
       },
       {
         "level": 62,
-        "move": "AIRVEINARD"
+        "move": "Air Veinard"
       },
       {
         "level": 66,
@@ -8101,7 +8101,7 @@
       },
       {
         "level": 100,
-        "move": "CHOCTRAUMA"
+        "move": "Choc Trauma"
       }
     ],
     "egg_moves": [
@@ -8140,15 +8140,15 @@
       },
       {
         "level": 5,
-        "move": "ETONNEMENT"
+        "move": "Étonnement"
       },
       {
         "level": 7,
-        "move": "CHOCMENTAL"
+        "move": "Choc Mental"
       },
       {
         "level": 10,
-        "move": "ASSURANCE"
+        "move": "Assurance"
       },
       {
         "level": 13,
@@ -8160,7 +8160,7 @@
       },
       {
         "level": 21,
-        "move": "RAFALEPSY"
+        "move": "Rafale Psy"
       },
       {
         "level": 25,
@@ -8172,7 +8172,7 @@
       },
       {
         "level": 33,
-        "move": "FORCEAJOUTEE"
+        "move": "Force Ajoutée"
       },
       {
         "level": 37,
@@ -8180,15 +8180,15 @@
       },
       {
         "level": 41,
-        "move": "PERMUFORCE"
+        "move": "Permuforce"
       },
       {
         "level": 41,
-        "move": "PERMUGARDE"
+        "move": "Permugarde"
       },
       {
         "level": 46,
-        "move": "MACHINATION"
+        "move": "Machination"
       },
       {
         "level": 50,
@@ -8200,11 +8200,11 @@
       },
       {
         "level": 58,
-        "move": "PERMUCOEUR"
+        "move": "Permucoeur"
       },
       {
         "level": 62,
-        "move": "AIRVEINARD"
+        "move": "Air Veinard"
       },
       {
         "level": 66,
@@ -8236,7 +8236,7 @@
       },
       {
         "level": 100,
-        "move": "CHOCTRAUMA"
+        "move": "Choc Trauma"
       }
     ],
     "egg_moves": [],
@@ -8261,7 +8261,7 @@
     "level_up": [
       {
         "level": 0,
-        "move": "DOUBLEBAFFE"
+        "move": "Double Baffe"
       },
       {
         "level": 1,
@@ -8273,15 +8273,15 @@
       },
       {
         "level": 5,
-        "move": "ETONNEMENT"
+        "move": "Étonnement"
       },
       {
         "level": 7,
-        "move": "CHOCMENTAL"
+        "move": "Choc Mental"
       },
       {
         "level": 10,
-        "move": "ASSURANCE"
+        "move": "Assurance"
       },
       {
         "level": 13,
@@ -8293,7 +8293,7 @@
       },
       {
         "level": 21,
-        "move": "RAFALEPSY"
+        "move": "Rafale Psy"
       },
       {
         "level": 25,
@@ -8305,7 +8305,7 @@
       },
       {
         "level": 33,
-        "move": "FORCEAJOUTEE"
+        "move": "Force Ajoutée"
       },
       {
         "level": 37,
@@ -8313,11 +8313,11 @@
       },
       {
         "level": 41,
-        "move": "PERMUFORCE"
+        "move": "Permuforce"
       },
       {
         "level": 41,
-        "move": "PERMUGARDE"
+        "move": "Permugarde"
       },
       {
         "level": 46,
@@ -8333,11 +8333,11 @@
       },
       {
         "level": 58,
-        "move": "PERMUCOEUR"
+        "move": "Permucoeur"
       },
       {
         "level": 62,
-        "move": "AIRVEINARD"
+        "move": "Air Veinard"
       },
       {
         "level": 66,
@@ -8349,7 +8349,7 @@
       },
       {
         "level": 75,
-        "move": "DRACOCHARGE"
+        "move": "Draco-Charge"
       },
       {
         "level": 80,
@@ -8369,7 +8369,7 @@
       },
       {
         "level": 100,
-        "move": "CHOCTRAUMA"
+        "move": "Choc Trauma"
       }
     ],
     "egg_moves": [],
@@ -8396,7 +8396,7 @@
       },
       {
         "level": 1,
-        "move": "PICODEFENSE"
+        "move": "Pico-Défense"
       },
       {
         "level": 5,
@@ -8404,7 +8404,7 @@
       },
       {
         "level": 7,
-        "move": "ECHARDE"
+        "move": "Écharde"
       },
       {
         "level": 10,
@@ -8412,7 +8412,7 @@
       },
       {
         "level": 13,
-        "move": "PIQURE"
+        "move": "Piqûre"
       },
       {
         "level": 17,
@@ -8420,7 +8420,7 @@
       },
       {
         "level": 21,
-        "move": "ECORCE"
+        "move": "Écorce"
       },
       {
         "level": 25,
@@ -8440,15 +8440,15 @@
       },
       {
         "level": 41,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 46,
-        "move": "MALEDICTION"
+        "move": "Malédiction"
       },
       {
         "level": 50,
-        "move": "COUDBOIS"
+        "move": "Coud'Bois"
       },
       {
         "level": 54,
@@ -8476,7 +8476,7 @@
       },
       {
         "level": 80,
-        "move": "PICSTOXIK"
+        "move": "Pics Toxik"
       },
       {
         "level": 85,
@@ -8522,7 +8522,7 @@
       },
       {
         "level": 1,
-        "move": "PICODEFENSE"
+        "move": "Pico-Défense"
       },
       {
         "level": 5,
@@ -8530,7 +8530,7 @@
       },
       {
         "level": 7,
-        "move": "ECHARDE"
+        "move": "Écharde"
       },
       {
         "level": 10,
@@ -8538,7 +8538,7 @@
       },
       {
         "level": 13,
-        "move": "PIQURE"
+        "move": "Piqûre"
       },
       {
         "level": 17,
@@ -8546,7 +8546,7 @@
       },
       {
         "level": 21,
-        "move": "ECORCE"
+        "move": "Écorce"
       },
       {
         "level": 25,
@@ -8566,7 +8566,7 @@
       },
       {
         "level": 41,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 46,
@@ -8574,7 +8574,7 @@
       },
       {
         "level": 50,
-        "move": "COUDBOIS"
+        "move": "Coud'Bois"
       },
       {
         "level": 54,
@@ -8602,7 +8602,7 @@
       },
       {
         "level": 80,
-        "move": "PICSTOXIK"
+        "move": "Pics Toxik"
       },
       {
         "level": 85,
@@ -8618,7 +8618,7 @@
       },
       {
         "level": 100,
-        "move": "MAXIVRILLE"
+        "move": "Maxi Vrille"
       }
     ],
     "egg_moves": [],
@@ -8663,11 +8663,11 @@
       },
       {
         "level": 13,
-        "move": "POURSUITE"
+        "move": "Poursuite"
       },
       {
         "level": 17,
-        "move": "LILLIPUT"
+        "move": "Lilliput"
       },
       {
         "level": 21,
@@ -8679,11 +8679,11 @@
       },
       {
         "level": 29,
-        "move": "REPULSION"
+        "move": "Répulsion"
       },
       {
         "level": 33,
-        "move": "FRACAS"
+        "move": "Fracas"
       },
       {
         "level": 37,
@@ -8691,11 +8691,11 @@
       },
       {
         "level": 41,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 46,
-        "move": "ENROULEMENT"
+        "move": "Enroulement"
       },
       {
         "level": 50,
@@ -8727,15 +8727,15 @@
       },
       {
         "level": 75,
-        "move": "RAYONGEMME"
+        "move": "Rayon Gemme"
       },
       {
         "level": 80,
-        "move": "ECLATEQUEUE"
+        "move": "Éclate Queue"
       },
       {
         "level": 85,
-        "move": "LAMEPELAGIQUE"
+        "move": "Lame Pélagique"
       },
       {
         "level": 90,
@@ -8747,7 +8747,7 @@
       },
       {
         "level": 100,
-        "move": "RAFALE"
+        "move": "Rafale"
       }
     ],
     "egg_moves": [
@@ -8774,7 +8774,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "ASTICOTAGE"
+        "move": "Asticotage"
       },
       {
         "level": 1,
@@ -8802,11 +8802,11 @@
       },
       {
         "level": 13,
-        "move": "POURSUITE"
+        "move": "Poursuite"
       },
       {
         "level": 17,
-        "move": "LILLIPUT"
+        "move": "Lilliput"
       },
       {
         "level": 21,
@@ -8818,11 +8818,11 @@
       },
       {
         "level": 29,
-        "move": "REPULSION"
+        "move": "Répulsion"
       },
       {
         "level": 33,
-        "move": "DEPIT"
+        "move": "Dépit"
       },
       {
         "level": 37,
@@ -8830,11 +8830,11 @@
       },
       {
         "level": 41,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 46,
-        "move": "ENROULEMENT"
+        "move": "Enroulement"
       },
       {
         "level": 50,
@@ -8866,15 +8866,15 @@
       },
       {
         "level": 75,
-        "move": "RAYONGEMME"
+        "move": "Rayon Gemme"
       },
       {
         "level": 80,
-        "move": "ECLATEQUEUE"
+        "move": "Éclate Queue"
       },
       {
         "level": 85,
-        "move": "LAMEPELAGIQUE"
+        "move": "Lame Pélagique"
       },
       {
         "level": 90,
@@ -8886,7 +8886,7 @@
       },
       {
         "level": 100,
-        "move": "RAFALE"
+        "move": "Rafale"
       }
     ],
     "egg_moves": [],
@@ -8911,7 +8911,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "ASTICOTAGE"
+        "move": "Asticotage"
       },
       {
         "level": 1,
@@ -8939,11 +8939,11 @@
       },
       {
         "level": 13,
-        "move": "POURSUITE"
+        "move": "Poursuite"
       },
       {
         "level": 17,
-        "move": "LILLIPUT"
+        "move": "Lilliput"
       },
       {
         "level": 21,
@@ -8955,11 +8955,11 @@
       },
       {
         "level": 29,
-        "move": "REPULSION"
+        "move": "Répulsion"
       },
       {
         "level": 33,
-        "move": "DEPIT"
+        "move": "Dépit"
       },
       {
         "level": 37,
@@ -8967,11 +8967,11 @@
       },
       {
         "level": 41,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 46,
-        "move": "ENROULEMENT"
+        "move": "Enroulement"
       },
       {
         "level": 50,
@@ -9003,15 +9003,15 @@
       },
       {
         "level": 75,
-        "move": "RAYONGEMME"
+        "move": "Rayon Gemme"
       },
       {
         "level": 80,
-        "move": "ECLATEQUEUE"
+        "move": "Éclate Queue"
       },
       {
         "level": 85,
-        "move": "LAMEPELAGIQUE"
+        "move": "Lame Pélagique"
       },
       {
         "level": 90,
@@ -9023,7 +9023,7 @@
       },
       {
         "level": 100,
-        "move": "RAFALE"
+        "move": "Rafale"
       }
     ],
     "egg_moves": [],
@@ -9072,11 +9072,11 @@
       },
       {
         "level": 13,
-        "move": "POURSUITE"
+        "move": "Poursuite"
       },
       {
         "level": 17,
-        "move": "LILLIPUT"
+        "move": "Lilliput"
       },
       {
         "level": 21,
@@ -9088,11 +9088,11 @@
       },
       {
         "level": 29,
-        "move": "REPULSION"
+        "move": "Répulsion"
       },
       {
         "level": 33,
-        "move": "DEPIT"
+        "move": "Dépit"
       },
       {
         "level": 37,
@@ -9100,11 +9100,11 @@
       },
       {
         "level": 41,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 46,
-        "move": "DOUBLEBAFFE"
+        "move": "Double Baffe"
       },
       {
         "level": 50,
@@ -9128,7 +9128,7 @@
       },
       {
         "level": 66,
-        "move": "DURECAILLE"
+        "move": "Durécaille"
       },
       {
         "level": 70,
@@ -9136,19 +9136,19 @@
       },
       {
         "level": 75,
-        "move": "RAYONGEMME"
+        "move": "Rayon Gemme"
       },
       {
         "level": 80,
-        "move": "ECLATEQUEUE"
+        "move": "Éclate Queue"
       },
       {
         "level": 85,
-        "move": "LAMEPELAGIQUE"
+        "move": "Lame Pélagique"
       },
       {
         "level": 90,
-        "move": "DRACOCHARGE"
+        "move": "Draco-Charge"
       },
       {
         "level": 95,
@@ -9156,7 +9156,7 @@
       },
       {
         "level": 100,
-        "move": "RAFALE"
+        "move": "Rafale"
       }
     ],
     "egg_moves": [
@@ -9183,23 +9183,23 @@
     "level_up": [
       {
         "level": 1,
-        "move": "DARDVENIN"
+        "move": "Dard-Venin"
       },
       {
         "level": 1,
-        "move": "JETDESABLE"
+        "move": "Jet de Sable"
       },
       {
         "level": 5,
-        "move": "CUTTAIR"
+        "move": "Cutt'Air"
       },
       {
         "level": 7,
-        "move": "AIGUISAGE"
+        "move": "Aiguisage"
       },
       {
         "level": 10,
-        "move": "ASSAUT"
+        "move": "Assaut"
       },
       {
         "level": 13,
@@ -9207,11 +9207,11 @@
       },
       {
         "level": 17,
-        "move": "FEINTE"
+        "move": "Feinte"
       },
       {
         "level": 21,
-        "move": "PIQURE"
+        "move": "Piqûre"
       },
       {
         "level": 25,
@@ -9219,15 +9219,15 @@
       },
       {
         "level": 29,
-        "move": "LACERATION"
+        "move": "Lacération"
       },
       {
         "level": 33,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 37,
-        "move": "POISONCROIX"
+        "move": "Poison Croix"
       },
       {
         "level": 41,
@@ -9235,7 +9235,7 @@
       },
       {
         "level": 46,
-        "move": "FRACTURE"
+        "move": "Fracture"
       },
       {
         "level": 50,
@@ -9259,19 +9259,19 @@
       },
       {
         "level": 70,
-        "move": "CORRECTION"
+        "move": "Correction"
       },
       {
         "level": 75,
-        "move": "CONTRE"
+        "move": "Contre"
       },
       {
         "level": 80,
-        "move": "LAMEPELAGIQUE"
+        "move": "Lame Pélagique"
       },
       {
         "level": 85,
-        "move": "DARDMORTEL"
+        "move": "Dard Mortel"
       },
       {
         "level": 90,
@@ -9283,7 +9283,7 @@
       },
       {
         "level": 100,
-        "move": "FUREUR"
+        "move": "Fureur"
       }
     ],
     "egg_moves": [
@@ -9314,23 +9314,23 @@
       },
       {
         "level": 1,
-        "move": "DARDVENIN"
+        "move": "Dard-Venin"
       },
       {
         "level": 1,
-        "move": "JETDESABLE"
+        "move": "Jet de Sable"
       },
       {
         "level": 5,
-        "move": "CUTTAIR"
+        "move": "Cutt'Air"
       },
       {
         "level": 7,
-        "move": "AIGUISAGE"
+        "move": "Aiguisage"
       },
       {
         "level": 10,
-        "move": "ASSAUT"
+        "move": "Assaut"
       },
       {
         "level": 13,
@@ -9338,11 +9338,11 @@
       },
       {
         "level": 17,
-        "move": "FEINTE"
+        "move": "Feinte"
       },
       {
         "level": 21,
-        "move": "PIQURE"
+        "move": "Piqûre"
       },
       {
         "level": 25,
@@ -9350,15 +9350,15 @@
       },
       {
         "level": 29,
-        "move": "LACERATION"
+        "move": "Lacération"
       },
       {
         "level": 33,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 37,
-        "move": "POISONCROIX"
+        "move": "Poison Croix"
       },
       {
         "level": 41,
@@ -9366,7 +9366,7 @@
       },
       {
         "level": 46,
-        "move": "FRACTURE"
+        "move": "Fracture"
       },
       {
         "level": 50,
@@ -9390,19 +9390,19 @@
       },
       {
         "level": 70,
-        "move": "CORRECTION"
+        "move": "Correction"
       },
       {
         "level": 75,
-        "move": "CONTRE"
+        "move": "Contre"
       },
       {
         "level": 80,
-        "move": "LAMEPELAGIQUE"
+        "move": "Lame Pélagique"
       },
       {
         "level": 85,
-        "move": "DARDMORTEL"
+        "move": "Dard Mortel"
       },
       {
         "level": 90,
@@ -9414,7 +9414,7 @@
       },
       {
         "level": 100,
-        "move": "FUREUR"
+        "move": "Fureur"
       }
     ],
     "egg_moves": [],
@@ -9454,15 +9454,15 @@
       },
       {
         "level": 10,
-        "move": "CHARME"
+        "move": "Charme"
       },
       {
         "level": 13,
-        "move": "ASSOMMAGE"
+        "move": "Assommage"
       },
       {
         "level": 17,
-        "move": "MORSURE"
+        "move": "Morsure"
       },
       {
         "level": 21,
@@ -9474,7 +9474,7 @@
       },
       {
         "level": 29,
-        "move": "OFFENSE"
+        "move": "Offense"
       },
       {
         "level": 33,
@@ -9490,11 +9490,11 @@
       },
       {
         "level": 46,
-        "move": "COUPDLANGUE"
+        "move": "Coup d'Langue"
       },
       {
         "level": 50,
-        "move": "VANTARDISE"
+        "move": "Vantardise"
       },
       {
         "level": 54,
@@ -9502,19 +9502,19 @@
       },
       {
         "level": 58,
-        "move": "PSYCHOCROC"
+        "move": "Psycho-Croc"
       },
       {
         "level": 62,
-        "move": "VIGILANCE"
+        "move": "Vigilance"
       },
       {
         "level": 66,
-        "move": "BASTON"
+        "move": "Baston"
       },
       {
         "level": 70,
-        "move": "DOMINATION"
+        "move": "Domination"
       },
       {
         "level": 75,
@@ -9522,7 +9522,7 @@
       },
       {
         "level": 80,
-        "move": "AMNESIE"
+        "move": "Amnésie"
       },
       {
         "level": 85,
@@ -9530,11 +9530,11 @@
       },
       {
         "level": 90,
-        "move": "SOUMISSION"
+        "move": "Soumission"
       },
       {
         "level": 95,
-        "move": "LUNATIQUE"
+        "move": "Lunatique"
       },
       {
         "level": 100,
@@ -9584,15 +9584,15 @@
       },
       {
         "level": 10,
-        "move": "CHARME"
+        "move": "Charme"
       },
       {
         "level": 13,
-        "move": "ASSOMMAGE"
+        "move": "Assommage"
       },
       {
         "level": 17,
-        "move": "MORSURE"
+        "move": "Morsure"
       },
       {
         "level": 21,
@@ -9604,7 +9604,7 @@
       },
       {
         "level": 29,
-        "move": "OFFENSE"
+        "move": "Offense"
       },
       {
         "level": 33,
@@ -9620,11 +9620,11 @@
       },
       {
         "level": 46,
-        "move": "COUPDLANGUE"
+        "move": "Coup d'Langue"
       },
       {
         "level": 50,
-        "move": "VANTARDISE"
+        "move": "Vantardise"
       },
       {
         "level": 54,
@@ -9632,19 +9632,19 @@
       },
       {
         "level": 58,
-        "move": "PSYCHOCROC"
+        "move": "Psycho-Croc"
       },
       {
         "level": 62,
-        "move": "VIGILANCE"
+        "move": "Vigilance"
       },
       {
         "level": 66,
-        "move": "BASTON"
+        "move": "Baston"
       },
       {
         "level": 70,
-        "move": "DOMINATION"
+        "move": "Domination"
       },
       {
         "level": 75,
@@ -9652,7 +9652,7 @@
       },
       {
         "level": 80,
-        "move": "AMNESIE"
+        "move": "Amnésie"
       },
       {
         "level": 85,
@@ -9660,11 +9660,11 @@
       },
       {
         "level": 90,
-        "move": "SOUMISSION"
+        "move": "Soumission"
       },
       {
         "level": 95,
-        "move": "LUNATIQUE"
+        "move": "Lunatique"
       },
       {
         "level": 100,
@@ -9704,15 +9704,15 @@
     "level_up": [
       {
         "level": 1,
-        "move": "DARDVENIN"
+        "move": "Dard-Venin"
       },
       {
         "level": 1,
-        "move": "LILLIPUT"
+        "move": "Lilliput"
       },
       {
         "level": 5,
-        "move": "CRACHATSALE"
+        "move": "Crachat Salé"
       },
       {
         "level": 7,
@@ -9728,7 +9728,7 @@
       },
       {
         "level": 17,
-        "move": "PICSTOXIK"
+        "move": "Pics Toxik"
       },
       {
         "level": 21,
@@ -9752,11 +9752,11 @@
       },
       {
         "level": 33,
-        "move": "MEGADARD"
+        "move": "Méga Dard"
       },
       {
         "level": 37,
-        "move": "LIENDUDESTIN"
+        "move": "Lien du Destin"
       },
       {
         "level": 41,
@@ -9768,11 +9768,11 @@
       },
       {
         "level": 50,
-        "move": "DEFERLANTE"
+        "move": "Déferlante"
       },
       {
         "level": 54,
-        "move": "ACUPRESSION"
+        "move": "Acupression"
       },
       {
         "level": 58,
@@ -9792,7 +9792,7 @@
       },
       {
         "level": 75,
-        "move": "DARDMORTEL"
+        "move": "Dard Mortel"
       },
       {
         "level": 80,
@@ -9804,7 +9804,7 @@
       },
       {
         "level": 90,
-        "move": "DISSOLUTION"
+        "move": "Dissolution"
       },
       {
         "level": 95,
@@ -9839,7 +9839,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "CONSTRICTION"
+        "move": "Constriction"
       },
       {
         "level": 1,
@@ -9847,7 +9847,7 @@
       },
       {
         "level": 5,
-        "move": "ASTICOTAGE"
+        "move": "Asticotage"
       },
       {
         "level": 7,
@@ -9859,7 +9859,7 @@
       },
       {
         "level": 13,
-        "move": "PICODEFENSE"
+        "move": "Pico-Défense"
       },
       {
         "level": 17,
@@ -9871,15 +9871,15 @@
       },
       {
         "level": 25,
-        "move": "ECORCE"
+        "move": "Écorce"
       },
       {
         "level": 29,
-        "move": "PIQURE"
+        "move": "Piqûre"
       },
       {
         "level": 33,
-        "move": "PARTAGEFORCE"
+        "move": "Partage Force"
       },
       {
         "level": 37,
@@ -9891,11 +9891,11 @@
       },
       {
         "level": 46,
-        "move": "SUCDIGESTIF"
+        "move": "Suc Digestif"
       },
       {
         "level": 50,
-        "move": "COUDBOIS"
+        "move": "Coud'Bois"
       },
       {
         "level": 54,
@@ -9903,7 +9903,7 @@
       },
       {
         "level": 58,
-        "move": "ASTUCEFORCE"
+        "move": "Astuce Force"
       },
       {
         "level": 62,
@@ -9927,11 +9927,11 @@
       },
       {
         "level": 85,
-        "move": "PARTAGEGARDE"
+        "move": "Partage Garde"
       },
       {
         "level": 90,
-        "move": "LILLIPUT"
+        "move": "Lilliput"
       },
       {
         "level": 95,
@@ -9939,7 +9939,7 @@
       },
       {
         "level": 100,
-        "move": "GARDELARGE"
+        "move": "Garde Large"
       }
     ],
     "egg_moves": [
@@ -9977,7 +9977,7 @@
       },
       {
         "level": 7,
-        "move": "PIQURE"
+        "move": "Piqûre"
       },
       {
         "level": 10,
@@ -9989,11 +9989,11 @@
       },
       {
         "level": 17,
-        "move": "POURSUITE"
+        "move": "Poursuite"
       },
       {
         "level": 21,
-        "move": "COGNE"
+        "move": "Cogne"
       },
       {
         "level": 25,
@@ -10001,7 +10001,7 @@
       },
       {
         "level": 29,
-        "move": "MEGADARD"
+        "move": "Méga Dard"
       },
       {
         "level": 33,
@@ -10009,7 +10009,7 @@
       },
       {
         "level": 37,
-        "move": "DETECTION"
+        "move": "Détection"
       },
       {
         "level": 41,
@@ -10021,7 +10021,7 @@
       },
       {
         "level": 50,
-        "move": "EXECUSON"
+        "move": "Exécu-Son"
       },
       {
         "level": 54,
@@ -10037,11 +10037,11 @@
       },
       {
         "level": 66,
-        "move": "ESCARMOUCHE"
+        "move": "Escarmouche"
       },
       {
         "level": 70,
-        "move": "ENCORNEBOIS"
+        "move": "Encornebois"
       },
       {
         "level": 75,
@@ -10061,7 +10061,7 @@
       },
       {
         "level": 95,
-        "move": "RAVAGE"
+        "move": "Ravage"
       },
       {
         "level": 100,
@@ -10095,11 +10095,11 @@
     "level_up": [
       {
         "level": 1,
-        "move": "BULLDOBOULE"
+        "move": "Bulldoboule"
       },
       {
         "level": 1,
-        "move": "ASSOMMAGE"
+        "move": "Assommage"
       },
       {
         "level": 1,
@@ -10115,7 +10115,7 @@
       },
       {
         "level": 7,
-        "move": "PIQURE"
+        "move": "Piqûre"
       },
       {
         "level": 10,
@@ -10127,11 +10127,11 @@
       },
       {
         "level": 17,
-        "move": "POURSUITE"
+        "move": "Poursuite"
       },
       {
         "level": 21,
-        "move": "COGNE"
+        "move": "Cogne"
       },
       {
         "level": 25,
@@ -10139,7 +10139,7 @@
       },
       {
         "level": 29,
-        "move": "MEGADARD"
+        "move": "Méga Dard"
       },
       {
         "level": 33,
@@ -10147,7 +10147,7 @@
       },
       {
         "level": 37,
-        "move": "DETECTION"
+        "move": "Détection"
       },
       {
         "level": 41,
@@ -10159,7 +10159,7 @@
       },
       {
         "level": 50,
-        "move": "EXECUSON"
+        "move": "Exécu-Son"
       },
       {
         "level": 54,
@@ -10175,11 +10175,11 @@
       },
       {
         "level": 66,
-        "move": "ESCARMOUCHE"
+        "move": "Escarmouche"
       },
       {
         "level": 70,
-        "move": "ENCORNEBOIS"
+        "move": "Encornebois"
       },
       {
         "level": 75,
@@ -10199,7 +10199,7 @@
       },
       {
         "level": 95,
-        "move": "RAVAGE"
+        "move": "Ravage"
       },
       {
         "level": 100,
@@ -10253,15 +10253,15 @@
       },
       {
         "level": 10,
-        "move": "ECLATSGLACE"
+        "move": "Éclats Glace"
       },
       {
         "level": 13,
-        "move": "FEINTE"
+        "move": "Feinte"
       },
       {
         "level": 17,
-        "move": "AIGUISAGE"
+        "move": "Aiguisage"
       },
       {
         "level": 21,
@@ -10269,7 +10269,7 @@
       },
       {
         "level": 25,
-        "move": "GRIFFEACIER"
+        "move": "Griffe Acier"
       },
       {
         "level": 29,
@@ -10289,7 +10289,7 @@
       },
       {
         "level": 46,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 50,
@@ -10297,11 +10297,11 @@
       },
       {
         "level": 54,
-        "move": "REGARDGLACIAL"
+        "move": "Regard Glacial"
       },
       {
         "level": 58,
-        "move": "RESQUILLE"
+        "move": "Resquille"
       },
       {
         "level": 62,
@@ -10313,11 +10313,11 @@
       },
       {
         "level": 70,
-        "move": "MAUVAISEHUMEUR"
+        "move": "Mauvaise Humeur"
       },
       {
         "level": 75,
-        "move": "CHUTEGLACE"
+        "move": "Chute Glace"
       },
       {
         "level": 80,
@@ -10333,19 +10333,19 @@
       },
       {
         "level": 95,
-        "move": "IMPACTLUGUBRE"
+        "move": "Impact Lugubre"
       },
       {
         "level": 100,
-        "move": "RAVAGE"
+        "move": "Ravage"
       }
     ],
     "egg_moves": [
-      "MACHINATION",
-      "LAMEPOLAIRE",
-      "RAZZIA",
-      "ASSAUTARCTIQUE",
-      "GRIFFEMALEFIQUE"
+      "Machination",
+      "Lame Polaire",
+      "Razzia",
+      "Assaut Arctique",
+      "Griffe Maléfique"
     ],
     "cs": [
       "Brise-Glace",
@@ -10391,15 +10391,15 @@
       },
       {
         "level": 10,
-        "move": "ECLATSGLACE"
+        "move": "Éclats Glace"
       },
       {
         "level": 13,
-        "move": "FEINTE"
+        "move": "Feinte"
       },
       {
         "level": 17,
-        "move": "AIGUISAGE"
+        "move": "Aiguisage"
       },
       {
         "level": 21,
@@ -10415,7 +10415,7 @@
       },
       {
         "level": 33,
-        "move": "GRIFFEACIER"
+        "move": "Griffe Acier"
       },
       {
         "level": 37,
@@ -10427,7 +10427,7 @@
       },
       {
         "level": 46,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 50,
@@ -10435,7 +10435,7 @@
       },
       {
         "level": 54,
-        "move": "REGARDGLACIAL"
+        "move": "Regard Glacial"
       },
       {
         "level": 58,
@@ -10447,7 +10447,7 @@
       },
       {
         "level": 66,
-        "move": "IMPACTLUGUBRE"
+        "move": "Impact Lugubre"
       },
       {
         "level": 70,
@@ -10455,7 +10455,7 @@
       },
       {
         "level": 75,
-        "move": "CHUTEGLACE"
+        "move": "Chute Glace"
       },
       {
         "level": 80,
@@ -10471,11 +10471,11 @@
       },
       {
         "level": 95,
-        "move": "MACHINATION"
+        "move": "Machination"
       },
       {
         "level": 100,
-        "move": "RAVAGE"
+        "move": "Ravage"
       }
     ],
     "egg_moves": [],
@@ -10520,15 +10520,15 @@
       },
       {
         "level": 7,
-        "move": "CROCOLARME"
+        "move": "Croco Larme"
       },
       {
         "level": 10,
-        "move": "REGARDTOUCHANT"
+        "move": "Regard Touchant"
       },
       {
         "level": 13,
-        "move": "SELECHARGE"
+        "move": "Sélécharge"
       },
       {
         "level": 17,
@@ -10556,7 +10556,7 @@
       },
       {
         "level": 41,
-        "move": "GROSCALIN"
+        "move": "Gros Câlin"
       },
       {
         "level": 46,
@@ -10564,7 +10564,7 @@
       },
       {
         "level": 50,
-        "move": "FUREUR"
+        "move": "Fureur"
       },
       {
         "level": 54,
@@ -10588,11 +10588,11 @@
       },
       {
         "level": 70,
-        "move": "CHOCPUR"
+        "move": "Choc Pur"
       },
       {
         "level": 75,
-        "move": "GRIFFEACIER"
+        "move": "Griffe Acier"
       },
       {
         "level": 80,
@@ -10600,15 +10600,15 @@
       },
       {
         "level": 85,
-        "move": "FACECACHEE"
+        "move": "Face Cachée"
       },
       {
         "level": 90,
-        "move": "LUNATIQUE"
+        "move": "Lunatique"
       },
       {
         "level": 95,
-        "move": "COGNOBIDON"
+        "move": "Cognobidon"
       },
       {
         "level": 100,
@@ -10653,15 +10653,15 @@
       },
       {
         "level": 7,
-        "move": "CROCOLARME"
+        "move": "Croco Larme"
       },
       {
         "level": 10,
-        "move": "REGARDTOUCHANT"
+        "move": "Regard Touchant"
       },
       {
         "level": 13,
-        "move": "SELECHARGE"
+        "move": "Sélécharge"
       },
       {
         "level": 17,
@@ -10689,7 +10689,7 @@
       },
       {
         "level": 41,
-        "move": "GROSCALIN"
+        "move": "Gros Câlin"
       },
       {
         "level": 46,
@@ -10697,7 +10697,7 @@
       },
       {
         "level": 50,
-        "move": "FUREUR"
+        "move": "Fureur"
       },
       {
         "level": 54,
@@ -10721,11 +10721,11 @@
       },
       {
         "level": 70,
-        "move": "CHOCPUR"
+        "move": "Choc Pur"
       },
       {
         "level": 75,
-        "move": "GRIFFEACIER"
+        "move": "Griffe Acier"
       },
       {
         "level": 80,
@@ -10733,15 +10733,15 @@
       },
       {
         "level": 85,
-        "move": "FACECACHEE"
+        "move": "Face Cachée"
       },
       {
         "level": 90,
-        "move": "LUNATIQUE"
+        "move": "Lunatique"
       },
       {
         "level": 95,
-        "move": "COGNOBIDON"
+        "move": "Cognobidon"
       },
       {
         "level": 100,
@@ -10781,7 +10781,7 @@
     "level_up": [
       {
         "level": 0,
-        "move": "DOUBLEMORSURE"
+        "move": "Double Morsure"
       },
       {
         "level": 1,
@@ -10797,15 +10797,15 @@
       },
       {
         "level": 7,
-        "move": "CROCOLARME"
+        "move": "Croco Larme"
       },
       {
         "level": 10,
-        "move": "REGARDTOUCHANT"
+        "move": "Regard Touchant"
       },
       {
         "level": 13,
-        "move": "SELECHARGE"
+        "move": "Sélécharge"
       },
       {
         "level": 17,
@@ -10825,15 +10825,15 @@
       },
       {
         "level": 33,
-        "move": "EXPLONUIT"
+        "move": "Explonuit"
       },
       {
         "level": 37,
-        "move": "CLAIRDELUNE"
+        "move": "Clair de Lune"
       },
       {
         "level": 41,
-        "move": "GROSCALIN"
+        "move": "Gros Câlin"
       },
       {
         "level": 46,
@@ -10841,7 +10841,7 @@
       },
       {
         "level": 50,
-        "move": "FUREUR"
+        "move": "Fureur"
       },
       {
         "level": 54,
@@ -10853,7 +10853,7 @@
       },
       {
         "level": 58,
-        "move": "MARTOPOING"
+        "move": "Marto-Poing"
       },
       {
         "level": 62,
@@ -10865,7 +10865,7 @@
       },
       {
         "level": 70,
-        "move": "EXPLOLUNE"
+        "move": "Explolune"
       },
       {
         "level": 75,
@@ -10873,23 +10873,23 @@
       },
       {
         "level": 80,
-        "move": "TOURBIERE"
+        "move": "Tourbière"
       },
       {
         "level": 85,
-        "move": "PROFONDREGRET"
+        "move": "Profond Regret"
       },
       {
         "level": 90,
-        "move": "LUNATIQUE"
+        "move": "Lunatique"
       },
       {
         "level": 95,
-        "move": "ASSAUTFRONTAL"
+        "move": "Assaut Frontal"
       },
       {
         "level": 100,
-        "move": "AURAMAUDITE"
+        "move": "Aura Maudite"
       }
     ],
     "egg_moves": [],
@@ -10926,7 +10926,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "PUREDPOIS"
+        "move": "Purédpois"
       },
       {
         "level": 1,
@@ -10934,15 +10934,15 @@
       },
       {
         "level": 5,
-        "move": "LAVABULLE"
+        "move": "Lava Bulle"
       },
       {
         "level": 7,
-        "move": "ASSAUT"
+        "move": "Assaut"
       },
       {
         "level": 10,
-        "move": "JETPIERRES"
+        "move": "Jet-Pierres"
       },
       {
         "level": 13,
@@ -10958,7 +10958,7 @@
       },
       {
         "level": 25,
-        "move": "SULFATEUSE"
+        "move": "Sulfateuse"
       },
       {
         "level": 29,
@@ -10966,7 +10966,7 @@
       },
       {
         "level": 33,
-        "move": "ARMAGTURE"
+        "move": "Armagture"
       },
       {
         "level": 37,
@@ -10982,7 +10982,7 @@
       },
       {
         "level": 50,
-        "move": "VOLCANON"
+        "move": "Volcanon"
       },
       {
         "level": 54,
@@ -10998,19 +10998,19 @@
       },
       {
         "level": 66,
-        "move": "MAGMANTEAU"
+        "move": "Magmanteau"
       },
       {
         "level": 70,
-        "move": "ACIDARMURE"
+        "move": "Acidarmure"
       },
       {
         "level": 75,
-        "move": "CARNAGE"
+        "move": "Carnage"
       },
       {
         "level": 80,
-        "move": "ERUPTION"
+        "move": "Éruption"
       },
       {
         "level": 85,
@@ -11018,7 +11018,7 @@
       },
       {
         "level": 90,
-        "move": "VAGUEDECHALEUR"
+        "move": "Vague de Chaleur"
       },
       {
         "level": 95,
@@ -11053,7 +11053,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "PUREDPOIS"
+        "move": "Purédpois"
       },
       {
         "level": 1,
@@ -11061,15 +11061,15 @@
       },
       {
         "level": 5,
-        "move": "LAVABULLE"
+        "move": "Lava Bulle"
       },
       {
         "level": 7,
-        "move": "ASSAUT"
+        "move": "Assaut"
       },
       {
         "level": 10,
-        "move": "JETPIERRES"
+        "move": "Jet-Pierres"
       },
       {
         "level": 13,
@@ -11085,7 +11085,7 @@
       },
       {
         "level": 25,
-        "move": "SULFATEUSE"
+        "move": "Sulfateuse"
       },
       {
         "level": 29,
@@ -11093,7 +11093,7 @@
       },
       {
         "level": 33,
-        "move": "ARMAGTURE"
+        "move": "Armagture"
       },
       {
         "level": 37,
@@ -11109,7 +11109,7 @@
       },
       {
         "level": 50,
-        "move": "VOLCANON"
+        "move": "Volcanon"
       },
       {
         "level": 54,
@@ -11125,19 +11125,19 @@
       },
       {
         "level": 66,
-        "move": "MAGMANTEAU"
+        "move": "Magmanteau"
       },
       {
         "level": 70,
-        "move": "ACIDARMURE"
+        "move": "Acidarmure"
       },
       {
         "level": 75,
-        "move": "CARNAGE"
+        "move": "Carnage"
       },
       {
         "level": 80,
-        "move": "ERUPTION"
+        "move": "Éruption"
       },
       {
         "level": 85,
@@ -11145,7 +11145,7 @@
       },
       {
         "level": 90,
-        "move": "VAGUEDECHALEUR"
+        "move": "Vague de Chaleur"
       },
       {
         "level": 95,
@@ -11178,7 +11178,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "PUREDPOIS"
+        "move": "Purédpois"
       },
       {
         "level": 1,
@@ -11186,15 +11186,15 @@
       },
       {
         "level": 5,
-        "move": "LAVABULLE"
+        "move": "Lava Bulle"
       },
       {
         "level": 7,
-        "move": "ASSAUT"
+        "move": "Assaut"
       },
       {
         "level": 10,
-        "move": "JETPIERRES"
+        "move": "Jet-Pierres"
       },
       {
         "level": 13,
@@ -11210,7 +11210,7 @@
       },
       {
         "level": 25,
-        "move": "SULFATEUSE"
+        "move": "Sulfateuse"
       },
       {
         "level": 29,
@@ -11218,7 +11218,7 @@
       },
       {
         "level": 33,
-        "move": "ARMAGTURE"
+        "move": "Armagture"
       },
       {
         "level": 37,
@@ -11234,7 +11234,7 @@
       },
       {
         "level": 50,
-        "move": "VOLCANON"
+        "move": "Volcanon"
       },
       {
         "level": 54,
@@ -11250,19 +11250,19 @@
       },
       {
         "level": 66,
-        "move": "MAGMANTEAU"
+        "move": "Magmanteau"
       },
       {
         "level": 70,
-        "move": "ACIDARMURE"
+        "move": "Acidarmure"
       },
       {
         "level": 75,
-        "move": "CARNAGE"
+        "move": "Carnage"
       },
       {
         "level": 80,
-        "move": "ERUPTION"
+        "move": "Éruption"
       },
       {
         "level": 85,
@@ -11270,7 +11270,7 @@
       },
       {
         "level": 90,
-        "move": "VAGUEDECHALEUR"
+        "move": "Vague de Chaleur"
       },
       {
         "level": 95,
@@ -11311,11 +11311,11 @@
       },
       {
         "level": 5,
-        "move": "ASSAUT"
+        "move": "Assaut"
       },
       {
         "level": 7,
-        "move": "FROIDINTENSE"
+        "move": "Froid Intense"
       },
       {
         "level": 10,
@@ -11323,15 +11323,15 @@
       },
       {
         "level": 13,
-        "move": "ECLATSGLACE"
+        "move": "Éclats Glace"
       },
       {
         "level": 17,
-        "move": "PIETISOL"
+        "move": "Piétisol"
       },
       {
         "level": 21,
-        "move": "REFROIDISSEMENT"
+        "move": "Refroidissement"
       },
       {
         "level": 25,
@@ -11343,7 +11343,7 @@
       },
       {
         "level": 33,
-        "move": "CROCSGIVRE"
+        "move": "Crocs Givre"
       },
       {
         "level": 37,
@@ -11351,7 +11351,7 @@
       },
       {
         "level": 41,
-        "move": "HIBERNATION"
+        "move": "Hibernation"
       },
       {
         "level": 46,
@@ -11375,7 +11375,7 @@
       },
       {
         "level": 66,
-        "move": "TETEGLACEE"
+        "move": "Tête Glacée"
       },
       {
         "level": 70,
@@ -11391,19 +11391,19 @@
       },
       {
         "level": 85,
-        "move": "ASSAUTFRONTAL"
+        "move": "Assaut Frontal"
       },
       {
         "level": 90,
-        "move": "CORPSGELE"
+        "move": "Corps Gelé"
       },
       {
         "level": 95,
-        "move": "EXPLONEIGE"
+        "move": "Exploneige"
       },
       {
         "level": 100,
-        "move": "GLACIER"
+        "move": "Glacier"
       }
     ],
     "egg_moves": [
@@ -11438,11 +11438,11 @@
       },
       {
         "level": 5,
-        "move": "ASSAUT"
+        "move": "Assaut"
       },
       {
         "level": 7,
-        "move": "FROIDINTENSE"
+        "move": "Froid Intense"
       },
       {
         "level": 10,
@@ -11450,15 +11450,15 @@
       },
       {
         "level": 13,
-        "move": "ECLATSGLACE"
+        "move": "Éclats Glace"
       },
       {
         "level": 17,
-        "move": "PIETISOL"
+        "move": "Piétisol"
       },
       {
         "level": 21,
-        "move": "REFROIDISSEMENT"
+        "move": "Refroidissement"
       },
       {
         "level": 25,
@@ -11470,7 +11470,7 @@
       },
       {
         "level": 33,
-        "move": "CROCSGIVRE"
+        "move": "Crocs Givre"
       },
       {
         "level": 37,
@@ -11478,7 +11478,7 @@
       },
       {
         "level": 41,
-        "move": "HIBERNATION"
+        "move": "Hibernation"
       },
       {
         "level": 46,
@@ -11502,7 +11502,7 @@
       },
       {
         "level": 66,
-        "move": "TETEGLACEE"
+        "move": "Tête Glacée"
       },
       {
         "level": 70,
@@ -11518,19 +11518,19 @@
       },
       {
         "level": 85,
-        "move": "ASSAUTFRONTAL"
+        "move": "Assaut Frontal"
       },
       {
         "level": 90,
-        "move": "CORPSGELE"
+        "move": "Corps Gelé"
       },
       {
         "level": 95,
-        "move": "EXPLONEIGE"
+        "move": "Exploneige"
       },
       {
         "level": 100,
-        "move": "GLACIER"
+        "move": "Glacier"
       }
     ],
     "egg_moves": [],
@@ -11563,11 +11563,11 @@
       },
       {
         "level": 5,
-        "move": "ASSAUT"
+        "move": "Assaut"
       },
       {
         "level": 7,
-        "move": "FROIDINTENSE"
+        "move": "Froid Intense"
       },
       {
         "level": 10,
@@ -11575,15 +11575,15 @@
       },
       {
         "level": 13,
-        "move": "ECLATSGLACE"
+        "move": "Éclats Glace"
       },
       {
         "level": 17,
-        "move": "PIETISOL"
+        "move": "Piétisol"
       },
       {
         "level": 21,
-        "move": "REFROIDISSEMENT"
+        "move": "Refroidissement"
       },
       {
         "level": 25,
@@ -11595,7 +11595,7 @@
       },
       {
         "level": 33,
-        "move": "CROCSGIVRE"
+        "move": "Crocs Givre"
       },
       {
         "level": 37,
@@ -11603,7 +11603,7 @@
       },
       {
         "level": 41,
-        "move": "HIBERNATION"
+        "move": "Hibernation"
       },
       {
         "level": 46,
@@ -11627,7 +11627,7 @@
       },
       {
         "level": 66,
-        "move": "TETEGLACEE"
+        "move": "Tête Glacée"
       },
       {
         "level": 70,
@@ -11643,19 +11643,19 @@
       },
       {
         "level": 85,
-        "move": "ASSAUTFRONTAL"
+        "move": "Assaut Frontal"
       },
       {
         "level": 90,
-        "move": "CORPSGELE"
+        "move": "Corps Gelé"
       },
       {
         "level": 95,
-        "move": "EXPLONEIGE"
+        "move": "Exploneige"
       },
       {
         "level": 100,
-        "move": "GLACIER"
+        "move": "Glacier"
       }
     ],
     "egg_moves": [],
@@ -11688,11 +11688,11 @@
       },
       {
         "level": 5,
-        "move": "PICPIC"
+        "move": "Picpic"
       },
       {
         "level": 7,
-        "move": "POUDREUSE"
+        "move": "Poudreuse"
       },
       {
         "level": 10,
@@ -11704,15 +11704,15 @@
       },
       {
         "level": 17,
-        "move": "FLOCON"
+        "move": "Flocon"
       },
       {
         "level": 21,
-        "move": "PASSEPASSE"
+        "move": "Passe-Passe"
       },
       {
         "level": 25,
-        "move": "TRANCHAIR"
+        "move": "Tranch'Air"
       },
       {
         "level": 29,
@@ -11720,7 +11720,7 @@
       },
       {
         "level": 33,
-        "move": "ENSEVELISSEMENT"
+        "move": "Ensevelissement"
       },
       {
         "level": 37,
@@ -11740,11 +11740,11 @@
       },
       {
         "level": 54,
-        "move": "REFROIDISSEMENT"
+        "move": "Refroidissement"
       },
       {
         "level": 58,
-        "move": "CHANTCANON"
+        "move": "Chant Canon"
       },
       {
         "level": 62,
@@ -11752,7 +11752,7 @@
       },
       {
         "level": 66,
-        "move": "COURSIER"
+        "move": "Coursier"
       },
       {
         "level": 70,
@@ -11776,7 +11776,7 @@
       },
       {
         "level": 95,
-        "move": "VOILEAURORE"
+        "move": "Voile Aurore"
       },
       {
         "level": 100,
@@ -11815,11 +11815,11 @@
       },
       {
         "level": 5,
-        "move": "PICPIC"
+        "move": "Picpic"
       },
       {
         "level": 7,
-        "move": "POUDREUSE"
+        "move": "Poudreuse"
       },
       {
         "level": 10,
@@ -11831,15 +11831,15 @@
       },
       {
         "level": 17,
-        "move": "FLOCON"
+        "move": "Flocon"
       },
       {
         "level": 21,
-        "move": "PASSEPASSE"
+        "move": "Passe-Passe"
       },
       {
         "level": 25,
-        "move": "TRANCHAIR"
+        "move": "Tranch'Air"
       },
       {
         "level": 29,
@@ -11847,7 +11847,7 @@
       },
       {
         "level": 33,
-        "move": "ENSEVELISSEMENT"
+        "move": "Ensevelissement"
       },
       {
         "level": 37,
@@ -11867,11 +11867,11 @@
       },
       {
         "level": 54,
-        "move": "REFROIDISSEMENT"
+        "move": "Refroidissement"
       },
       {
         "level": 58,
-        "move": "CHANTCANON"
+        "move": "Chant Canon"
       },
       {
         "level": 62,
@@ -11879,7 +11879,7 @@
       },
       {
         "level": 66,
-        "move": "COURSIER"
+        "move": "Coursier"
       },
       {
         "level": 70,
@@ -11903,7 +11903,7 @@
       },
       {
         "level": 95,
-        "move": "VOILEAURORE"
+        "move": "Voile Aurore"
       },
       {
         "level": 100,
@@ -11936,7 +11936,7 @@
       },
       {
         "level": 1,
-        "move": "POINGFRIGO"
+        "move": "Poing Frigo"
       },
       {
         "level": 1,
@@ -11956,11 +11956,11 @@
       },
       {
         "level": 5,
-        "move": "PICPIC"
+        "move": "Picpic"
       },
       {
         "level": 7,
-        "move": "POUDREUSE"
+        "move": "Poudreuse"
       },
       {
         "level": 10,
@@ -11972,15 +11972,15 @@
       },
       {
         "level": 17,
-        "move": "FLOCON"
+        "move": "Flocon"
       },
       {
         "level": 21,
-        "move": "PASSEPASSE"
+        "move": "Passe-Passe"
       },
       {
         "level": 25,
-        "move": "TRANCHAIR"
+        "move": "Tranch'Air"
       },
       {
         "level": 29,
@@ -11988,7 +11988,7 @@
       },
       {
         "level": 33,
-        "move": "ENSEVELISSEMENT"
+        "move": "Ensevelissement"
       },
       {
         "level": 37,
@@ -12004,19 +12004,19 @@
       },
       {
         "level": 50,
-        "move": "EXPLONEIGE"
+        "move": "Exploneige"
       },
       {
         "level": 54,
-        "move": "REFROIDISSEMENT"
+        "move": "Refroidissement"
       },
       {
         "level": 58,
-        "move": "CHANTCANON"
+        "move": "Chant Canon"
       },
       {
         "level": 62,
-        "move": "MARTEAUDEGLACE"
+        "move": "Marteau de Glace"
       },
       {
         "level": 66,
@@ -12040,11 +12040,11 @@
       },
       {
         "level": 90,
-        "move": "BECENRAGE"
+        "move": "Bec Enragé"
       },
       {
         "level": 95,
-        "move": "VOILEAURORE"
+        "move": "Voile Aurore"
       },
       {
         "level": 100,
@@ -12081,7 +12081,7 @@
       },
       {
         "level": 5,
-        "move": "ECUME"
+        "move": "Écume"
       },
       {
         "level": 7,
@@ -12097,7 +12097,7 @@
       },
       {
         "level": 17,
-        "move": "ABSORPTION"
+        "move": "Absorption"
       },
       {
         "level": 21,
@@ -12105,15 +12105,15 @@
       },
       {
         "level": 25,
-        "move": "PROPULSCORAIL"
+        "move": "Propuls'Corail"
       },
       {
         "level": 29,
-        "move": "FONTAINEDEVIE"
+        "move": "Fontaine de Vie"
       },
       {
         "level": 33,
-        "move": "RAYONGEMME"
+        "move": "Rayon Gemme"
       },
       {
         "level": 37,
@@ -12153,11 +12153,11 @@
       },
       {
         "level": 75,
-        "move": "AMNESIE"
+        "move": "Amnésie"
       },
       {
         "level": 80,
-        "move": "GARDELARGE"
+        "move": "Garde Large"
       },
       {
         "level": 85,
@@ -12165,7 +12165,7 @@
       },
       {
         "level": 90,
-        "move": "FRACASSTETE"
+        "move": "Fracass'Tête"
       },
       {
         "level": 95,
@@ -12204,7 +12204,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "ECUME"
+        "move": "Écume"
       },
       {
         "level": 1,
@@ -12212,7 +12212,7 @@
       },
       {
         "level": 5,
-        "move": "TRAITPRECIS"
+        "move": "Trait Précis"
       },
       {
         "level": 7,
@@ -12224,15 +12224,15 @@
       },
       {
         "level": 13,
-        "move": "ONDEMARINE"
+        "move": "Onde Marine"
       },
       {
         "level": 17,
-        "move": "RAFALEPSY"
+        "move": "Rafale Psy"
       },
       {
         "level": 21,
-        "move": "BASFOND"
+        "move": "Bas-Fond"
       },
       {
         "level": 25,
@@ -12240,7 +12240,7 @@
       },
       {
         "level": 29,
-        "move": "DETREMPAGE"
+        "move": "Détrempage"
       },
       {
         "level": 33,
@@ -12252,7 +12252,7 @@
       },
       {
         "level": 41,
-        "move": "JETDENCRE"
+        "move": "Jet d'Encre"
       },
       {
         "level": 46,
@@ -12268,7 +12268,7 @@
       },
       {
         "level": 58,
-        "move": "ASSURANCE"
+        "move": "Assurance"
       },
       {
         "level": 62,
@@ -12280,7 +12280,7 @@
       },
       {
         "level": 70,
-        "move": "AILERONRASOIR"
+        "move": "Aileron Rasoir"
       },
       {
         "level": 75,
@@ -12296,7 +12296,7 @@
       },
       {
         "level": 90,
-        "move": "DEFERLANTE"
+        "move": "Déferlante"
       },
       {
         "level": 95,
@@ -12331,7 +12331,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "ECUME"
+        "move": "Écume"
       },
       {
         "level": 1,
@@ -12339,7 +12339,7 @@
       },
       {
         "level": 5,
-        "move": "TRAITPRECIS"
+        "move": "Trait Précis"
       },
       {
         "level": 7,
@@ -12351,15 +12351,15 @@
       },
       {
         "level": 13,
-        "move": "ONDEMARINE"
+        "move": "Onde Marine"
       },
       {
         "level": 17,
-        "move": "RAFALEPSY"
+        "move": "Rafale Psy"
       },
       {
         "level": 21,
-        "move": "BASFOND"
+        "move": "Bas-Fond"
       },
       {
         "level": 25,
@@ -12371,7 +12371,7 @@
       },
       {
         "level": 33,
-        "move": "OCTAZOOKA"
+        "move": "Octazooka"
       },
       {
         "level": 37,
@@ -12379,7 +12379,7 @@
       },
       {
         "level": 41,
-        "move": "JETDENCRE"
+        "move": "Jet d'Encre"
       },
       {
         "level": 46,
@@ -12387,7 +12387,7 @@
       },
       {
         "level": 50,
-        "move": "DETRICANON"
+        "move": "Détricanon"
       },
       {
         "level": 54,
@@ -12395,7 +12395,7 @@
       },
       {
         "level": 58,
-        "move": "ASSURANCE"
+        "move": "Assurance"
       },
       {
         "level": 62,
@@ -12407,7 +12407,7 @@
       },
       {
         "level": 70,
-        "move": "TENTACOUPS"
+        "move": "Tenta'Coups"
       },
       {
         "level": 75,
@@ -12415,15 +12415,15 @@
       },
       {
         "level": 80,
-        "move": "OCTODEROUILLEE"
+        "move": "Octo-Dérouillée"
       },
       {
         "level": 85,
-        "move": "MALLEABLE"
+        "move": "Malléable"
       },
       {
         "level": 90,
-        "move": "ABYSSE"
+        "move": "Abysse"
       },
       {
         "level": 95,
@@ -12431,7 +12431,7 @@
       },
       {
         "level": 100,
-        "move": "CLAQUEMUSCLEE"
+        "move": "Claque Musclée"
       }
     ],
     "egg_moves": [],
@@ -12461,11 +12461,11 @@
     "level_up": [
       {
         "level": 1,
-        "move": "ECUME"
+        "move": "Écume"
       },
       {
         "level": 1,
-        "move": "ONDEMARINE"
+        "move": "Onde Marine"
       },
       {
         "level": 5,
@@ -12473,11 +12473,11 @@
       },
       {
         "level": 7,
-        "move": "ELECTROCUTION"
+        "move": "Électrocution"
       },
       {
         "level": 10,
-        "move": "BASFOND"
+        "move": "Bas-Fond"
       },
       {
         "level": 13,
@@ -12489,11 +12489,11 @@
       },
       {
         "level": 21,
-        "move": "ECHO"
+        "move": "Écho"
       },
       {
         "level": 25,
-        "move": "CHARGEUR"
+        "move": "Chargeur"
       },
       {
         "level": 29,
@@ -12501,19 +12501,19 @@
       },
       {
         "level": 33,
-        "move": "TROMBE"
+        "move": "Trombe"
       },
       {
         "level": 37,
-        "move": "HYDRATATION"
+        "move": "Hydratation"
       },
       {
         "level": 41,
-        "move": "CHANTCANON"
+        "move": "Chant Canon"
       },
       {
         "level": 46,
-        "move": "RAZDEMAREE"
+        "move": "Raz de Marée"
       },
       {
         "level": 50,
@@ -12537,7 +12537,7 @@
       },
       {
         "level": 62,
-        "move": "DEFERLVAGUE"
+        "move": "Déferl'Vague"
       },
       {
         "level": 66,
@@ -12545,7 +12545,7 @@
       },
       {
         "level": 70,
-        "move": "ELECTROIMPACT"
+        "move": "Électro'Impact"
       },
       {
         "level": 75,
@@ -12561,7 +12561,7 @@
       },
       {
         "level": 90,
-        "move": "RAYONSOMBRE"
+        "move": "Rayon Sombre"
       },
       {
         "level": 95,
@@ -12569,7 +12569,7 @@
       },
       {
         "level": 100,
-        "move": "ABYSSE"
+        "move": "Abysse"
       }
     ],
     "egg_moves": [
@@ -12600,11 +12600,11 @@
     "level_up": [
       {
         "level": 1,
-        "move": "ECUME"
+        "move": "Écume"
       },
       {
         "level": 1,
-        "move": "ONDEMARINE"
+        "move": "Onde Marine"
       },
       {
         "level": 5,
@@ -12612,11 +12612,11 @@
       },
       {
         "level": 7,
-        "move": "ELECTROCUTION"
+        "move": "Électrocution"
       },
       {
         "level": 10,
-        "move": "BASFOND"
+        "move": "Bas-Fond"
       },
       {
         "level": 13,
@@ -12628,11 +12628,11 @@
       },
       {
         "level": 21,
-        "move": "ECHO"
+        "move": "Écho"
       },
       {
         "level": 25,
-        "move": "CHARGEUR"
+        "move": "Chargeur"
       },
       {
         "level": 29,
@@ -12640,19 +12640,19 @@
       },
       {
         "level": 33,
-        "move": "TROMBE"
+        "move": "Trombe"
       },
       {
         "level": 37,
-        "move": "HYDRATATION"
+        "move": "Hydratation"
       },
       {
         "level": 41,
-        "move": "CHANTCANON"
+        "move": "Chant Canon"
       },
       {
         "level": 46,
-        "move": "RAZDEMAREE"
+        "move": "Raz de Marée"
       },
       {
         "level": 50,
@@ -12676,7 +12676,7 @@
       },
       {
         "level": 62,
-        "move": "DEFERLVAGUE"
+        "move": "Déferl'Vague"
       },
       {
         "level": 66,
@@ -12684,7 +12684,7 @@
       },
       {
         "level": 70,
-        "move": "ELECTROIMPACT"
+        "move": "Électro'Impact"
       },
       {
         "level": 75,
@@ -12700,7 +12700,7 @@
       },
       {
         "level": 90,
-        "move": "RAYONSOMBRE"
+        "move": "Rayon Sombre"
       },
       {
         "level": 95,
@@ -12708,7 +12708,7 @@
       },
       {
         "level": 100,
-        "move": "ABYSSE"
+        "move": "Abysse"
       }
     ],
     "egg_moves": [],
@@ -12738,7 +12738,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "TETESALEE"
+        "move": "Tête Salée"
       },
       {
         "level": 1,
@@ -12746,23 +12746,23 @@
       },
       {
         "level": 5,
-        "move": "ULTRASON"
+        "move": "Ultrason"
       },
       {
         "level": 7,
-        "move": "ECUME"
+        "move": "Écume"
       },
       {
         "level": 10,
-        "move": "HYDRATATION"
+        "move": "Hydratation"
       },
       {
         "level": 13,
-        "move": "RAFALEPSY"
+        "move": "Rafale Psy"
       },
       {
         "level": 17,
-        "move": "ACROBATIE"
+        "move": "Acrobatie"
       },
       {
         "level": 21,
@@ -12778,7 +12778,7 @@
       },
       {
         "level": 33,
-        "move": "ABSORPTION"
+        "move": "Absorption"
       },
       {
         "level": 37,
@@ -12786,7 +12786,7 @@
       },
       {
         "level": 41,
-        "move": "DEFERLVAGUE"
+        "move": "Déferl'Vague"
       },
       {
         "level": 46,
@@ -12814,7 +12814,7 @@
       },
       {
         "level": 70,
-        "move": "PROPULSION"
+        "move": "Propulsion"
       },
       {
         "level": 75,
@@ -12826,7 +12826,7 @@
       },
       {
         "level": 85,
-        "move": "ONDEPROJETEE"
+        "move": "Onde Projetée"
       },
       {
         "level": 90,
@@ -12842,16 +12842,16 @@
       }
     ],
     "egg_moves": [
-      "AILESPSYCHO",
-      "VAGUELUMINEUSE",
-      "VENTVIVIFIANT",
-      "RAZDEMAREE",
-      "AILEGLACEE",
+      "Ailes Psycho",
+      "Vague Lumineuse",
+      "Vent Vivifiant",
+      "Raz de Marée",
+      "Aile Glacée",
       "Tourbillon",
       "Aéro Ball",
-      "TROMBE",
-      "AILERASOIR",
-      "ABYSSE"
+      "Trombe",
+      "Aile Rasoir",
+      "Abysse"
     ],
     "cs": [
       "Plongée",
@@ -12911,7 +12911,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "TETESALEE"
+        "move": "Tête Salée"
       },
       {
         "level": 1,
@@ -12919,23 +12919,23 @@
       },
       {
         "level": 5,
-        "move": "ULTRASON"
+        "move": "Ultrason"
       },
       {
         "level": 7,
-        "move": "ECUME"
+        "move": "Écume"
       },
       {
         "level": 10,
-        "move": "HYDRATATION"
+        "move": "Hydratation"
       },
       {
         "level": 13,
-        "move": "RAFALEPSY"
+        "move": "Rafale Psy"
       },
       {
         "level": 17,
-        "move": "ACROBATIE"
+        "move": "Acrobatie"
       },
       {
         "level": 21,
@@ -12951,7 +12951,7 @@
       },
       {
         "level": 33,
-        "move": "ABSORPTION"
+        "move": "Absorption"
       },
       {
         "level": 37,
@@ -12959,7 +12959,7 @@
       },
       {
         "level": 41,
-        "move": "DEFERLVAGUE"
+        "move": "Déferl'Vague"
       },
       {
         "level": 46,
@@ -12987,7 +12987,7 @@
       },
       {
         "level": 70,
-        "move": "PROPULSION"
+        "move": "Propulsion"
       },
       {
         "level": 75,
@@ -12999,7 +12999,7 @@
       },
       {
         "level": 85,
-        "move": "ONDEPROJETEE"
+        "move": "Onde Projetée"
       },
       {
         "level": 90,
@@ -13095,7 +13095,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "SERRE"
+        "move": "Serre"
       },
       {
         "level": 1,
@@ -13107,27 +13107,27 @@
       },
       {
         "level": 7,
-        "move": "JETDESABLE"
+        "move": "Jet de Sable"
       },
       {
         "level": 10,
-        "move": "GRIFFEACIER"
+        "move": "Griffe Acier"
       },
       {
         "level": 13,
-        "move": "CUTTAIR"
+        "move": "Cutt'Air"
       },
       {
         "level": 17,
-        "move": "ALLEGEMENT"
+        "move": "Allègement"
       },
       {
         "level": 21,
-        "move": "CRUAILES"
+        "move": "Cru-Ailes"
       },
       {
         "level": 25,
-        "move": "FEINTE"
+        "move": "Feinte"
       },
       {
         "level": 29,
@@ -13139,11 +13139,11 @@
       },
       {
         "level": 37,
-        "move": "STRIDOSON"
+        "move": "Strido-Son"
       },
       {
         "level": 41,
-        "move": "LACERATION"
+        "move": "Lacération"
       },
       {
         "level": 46,
@@ -13151,7 +13151,7 @@
       },
       {
         "level": 50,
-        "move": "MIMIQUE"
+        "move": "Mimique"
       },
       {
         "level": 54,
@@ -13167,11 +13167,11 @@
       },
       {
         "level": 66,
-        "move": "BECAIGUISE"
+        "move": "Bec Aiguisé"
       },
       {
         "level": 70,
-        "move": "CYCLONE"
+        "move": "Cyclone"
       },
       {
         "level": 75,
@@ -13179,7 +13179,7 @@
       },
       {
         "level": 80,
-        "move": "AILERASOIR"
+        "move": "Aile Rasoir"
       },
       {
         "level": 85,
@@ -13187,7 +13187,7 @@
       },
       {
         "level": 90,
-        "move": "RAPACE"
+        "move": "Rapace"
       },
       {
         "level": 95,
@@ -13226,7 +13226,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "SERRE"
+        "move": "Serre"
       },
       {
         "level": 1,
@@ -13238,27 +13238,27 @@
       },
       {
         "level": 7,
-        "move": "JETDESABLE"
+        "move": "Jet de Sable"
       },
       {
         "level": 10,
-        "move": "GRIFFEACIER"
+        "move": "Griffe Acier"
       },
       {
         "level": 13,
-        "move": "CUTTAIR"
+        "move": "Cutt'Air"
       },
       {
         "level": 17,
-        "move": "ALLEGEMENT"
+        "move": "Allègement"
       },
       {
         "level": 21,
-        "move": "CRUAILES"
+        "move": "Cru-Ailes"
       },
       {
         "level": 25,
-        "move": "FEINTE"
+        "move": "Feinte"
       },
       {
         "level": 29,
@@ -13270,11 +13270,11 @@
       },
       {
         "level": 37,
-        "move": "STRIDOSON"
+        "move": "Strido-Son"
       },
       {
         "level": 41,
-        "move": "LACERATION"
+        "move": "Lacération"
       },
       {
         "level": 46,
@@ -13282,7 +13282,7 @@
       },
       {
         "level": 50,
-        "move": "MIMIQUE"
+        "move": "Mimique"
       },
       {
         "level": 54,
@@ -13298,11 +13298,11 @@
       },
       {
         "level": 66,
-        "move": "BECAIGUISE"
+        "move": "Bec Aiguisé"
       },
       {
         "level": 70,
-        "move": "CYCLONE"
+        "move": "Cyclone"
       },
       {
         "level": 75,
@@ -13318,7 +13318,7 @@
       },
       {
         "level": 90,
-        "move": "RAPACE"
+        "move": "Rapace"
       },
       {
         "level": 95,
@@ -13369,15 +13369,15 @@
       },
       {
         "level": 7,
-        "move": "GRONDEMENT"
+        "move": "Grondement"
       },
       {
         "level": 10,
-        "move": "CROCSFEU"
+        "move": "Crocs Feu"
       },
       {
         "level": 13,
-        "move": "MORSURE"
+        "move": "Morsure"
       },
       {
         "level": 17,
@@ -13385,7 +13385,7 @@
       },
       {
         "level": 21,
-        "move": "GAZAVEUGLANT"
+        "move": "Gaz Aveuglant"
       },
       {
         "level": 25,
@@ -13393,7 +13393,7 @@
       },
       {
         "level": 29,
-        "move": "DOULEUR"
+        "move": "Douleur"
       },
       {
         "level": 33,
@@ -13405,27 +13405,27 @@
       },
       {
         "level": 41,
-        "move": "EXPLONUIT"
+        "move": "Explonuit"
       },
       {
         "level": 46,
-        "move": "ARROGANCE"
+        "move": "Arrogance"
       },
       {
         "level": 50,
-        "move": "CROCSLUNE"
+        "move": "Crocs Lune"
       },
       {
         "level": 54,
-        "move": "FEUDENFER"
+        "move": "Feu d'Enfer"
       },
       {
         "level": 58,
-        "move": "TRICHERIE"
+        "move": "Tricherie"
       },
       {
         "level": 62,
-        "move": "BASTON"
+        "move": "Baston"
       },
       {
         "level": 66,
@@ -13433,11 +13433,11 @@
       },
       {
         "level": 70,
-        "move": "CONTRE"
+        "move": "Contre"
       },
       {
         "level": 75,
-        "move": "VANTARDISE"
+        "move": "Vantardise"
       },
       {
         "level": 80,
@@ -13445,7 +13445,7 @@
       },
       {
         "level": 85,
-        "move": "RAGEBRULANTE"
+        "move": "Rage Brûlante"
       },
       {
         "level": 90,
@@ -13457,15 +13457,15 @@
       },
       {
         "level": 100,
-        "move": "INCENDIE"
+        "move": "Incendie"
       }
     ],
     "egg_moves": [
       "Ruse",
       "Roue de Feu",
-      "HURLELUNE",
+      "Hurle Lune",
       "Croc de Mort",
-      "RESQUILLE"
+      "Resquille"
     ],
     "cs": [
       "Éclate-Roc"
@@ -13512,15 +13512,15 @@
       },
       {
         "level": 7,
-        "move": "GRONDEMENT"
+        "move": "Grondement"
       },
       {
         "level": 10,
-        "move": "CROCSFEU"
+        "move": "Crocs Feu"
       },
       {
         "level": 13,
-        "move": "MORSURE"
+        "move": "Morsure"
       },
       {
         "level": 17,
@@ -13528,7 +13528,7 @@
       },
       {
         "level": 21,
-        "move": "GAZAVEUGLANT"
+        "move": "Gaz Aveuglant"
       },
       {
         "level": 25,
@@ -13536,7 +13536,7 @@
       },
       {
         "level": 29,
-        "move": "DOULEUR"
+        "move": "Douleur"
       },
       {
         "level": 33,
@@ -13548,27 +13548,27 @@
       },
       {
         "level": 41,
-        "move": "EXPLONUIT"
+        "move": "Explonuit"
       },
       {
         "level": 46,
-        "move": "ARROGANCE"
+        "move": "Arrogance"
       },
       {
         "level": 50,
-        "move": "CROCSLUNE"
+        "move": "Crocs Lune"
       },
       {
         "level": 54,
-        "move": "FEUDENFER"
+        "move": "Feu d'Enfer"
       },
       {
         "level": 58,
-        "move": "TRICHERIE"
+        "move": "Tricherie"
       },
       {
         "level": 62,
-        "move": "BASTON"
+        "move": "Baston"
       },
       {
         "level": 66,
@@ -13576,11 +13576,11 @@
       },
       {
         "level": 70,
-        "move": "CONTRE"
+        "move": "Contre"
       },
       {
         "level": 75,
-        "move": "VANTARDISE"
+        "move": "Vantardise"
       },
       {
         "level": 80,
@@ -13588,7 +13588,7 @@
       },
       {
         "level": 85,
-        "move": "RAGEBRULANTE"
+        "move": "Rage Brûlante"
       },
       {
         "level": 90,
@@ -13600,7 +13600,7 @@
       },
       {
         "level": 100,
-        "move": "INCENDIE"
+        "move": "Incendie"
       }
     ],
     "egg_moves": [],
@@ -13654,7 +13654,7 @@
       },
       {
         "level": 5,
-        "move": "ASSAUT"
+        "move": "Assaut"
       },
       {
         "level": 7,
@@ -13674,7 +13674,7 @@
       },
       {
         "level": 21,
-        "move": "FERTILISATION"
+        "move": "Fertilisation"
       },
       {
         "level": 25,
@@ -13682,7 +13682,7 @@
       },
       {
         "level": 29,
-        "move": "ECRASTERRE"
+        "move": "Écras'Terre"
       },
       {
         "level": 33,
@@ -13694,7 +13694,7 @@
       },
       {
         "level": 41,
-        "move": "GRANDREMPART"
+        "move": "Grand Rempart"
       },
       {
         "level": 46,
@@ -13718,11 +13718,11 @@
       },
       {
         "level": 66,
-        "move": "ROCBOULET"
+        "move": "Roc-Boulet"
       },
       {
         "level": 70,
-        "move": "ASSURANCE"
+        "move": "Assurance"
       },
       {
         "level": 75,
@@ -13738,20 +13738,20 @@
       },
       {
         "level": 90,
-        "move": "CHUTESOURDE"
+        "move": "Chute Sourde"
       },
       {
         "level": 95,
-        "move": "CARNAGE"
+        "move": "Carnage"
       },
       {
         "level": 100,
-        "move": "DESTRUCTERRE"
+        "move": "Destructerre"
       }
     ],
     "egg_moves": [
-      "FUREUR",
-      "GARDELARGE",
+      "Fureur",
+      "Garde Large",
       "Ténacité",
       "Coup Furieux"
     ],
@@ -13786,7 +13786,7 @@
       },
       {
         "level": 5,
-        "move": "ASSAUT"
+        "move": "Assaut"
       },
       {
         "level": 7,
@@ -13806,7 +13806,7 @@
       },
       {
         "level": 21,
-        "move": "FERTILISATION"
+        "move": "Fertilisation"
       },
       {
         "level": 25,
@@ -13814,7 +13814,7 @@
       },
       {
         "level": 29,
-        "move": "ECRASTERRE"
+        "move": "Écras'Terre"
       },
       {
         "level": 33,
@@ -13826,7 +13826,7 @@
       },
       {
         "level": 41,
-        "move": "GRANDREMPART"
+        "move": "Grand Rempart"
       },
       {
         "level": 46,
@@ -13850,11 +13850,11 @@
       },
       {
         "level": 66,
-        "move": "ROCBOULET"
+        "move": "Roc-Boulet"
       },
       {
         "level": 70,
-        "move": "ASSURANCE"
+        "move": "Assurance"
       },
       {
         "level": 75,
@@ -13870,15 +13870,15 @@
       },
       {
         "level": 90,
-        "move": "CHUTESOURDE"
+        "move": "Chute Sourde"
       },
       {
         "level": 95,
-        "move": "CARNAGE"
+        "move": "Carnage"
       },
       {
         "level": 100,
-        "move": "DESTRUCTERRE"
+        "move": "Destructerre"
       }
     ],
     "egg_moves": [],
@@ -13922,7 +13922,7 @@
       },
       {
         "level": 5,
-        "move": "FIGETEMPS"
+        "move": "Fige Temps"
       },
       {
         "level": 7,
@@ -13934,11 +13934,11 @@
       },
       {
         "level": 13,
-        "move": "HYPNOSE"
+        "move": "Hypnose"
       },
       {
         "level": 17,
-        "move": "VAGUETEMPO"
+        "move": "Vague Tempo"
       },
       {
         "level": 21,
@@ -13946,7 +13946,7 @@
       },
       {
         "level": 25,
-        "move": "MYSTICORNES"
+        "move": "Mysti-Cornes"
       },
       {
         "level": 29,
@@ -13954,11 +13954,11 @@
       },
       {
         "level": 33,
-        "move": "ENCORNEBOIS"
+        "move": "Encornebois"
       },
       {
         "level": 37,
-        "move": "VIEILLISSEMENT"
+        "move": "Vieillissement"
       },
       {
         "level": 41,
@@ -13974,23 +13974,23 @@
       },
       {
         "level": 54,
-        "move": "POSTATTAQUE"
+        "move": "Post Attaque"
       },
       {
         "level": 58,
-        "move": "ESTOCORNE"
+        "move": "Estocorne"
       },
       {
         "level": 62,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 66,
-        "move": "PIEDSAUTE"
+        "move": "Pied Sauté"
       },
       {
         "level": 70,
-        "move": "RALENTISSEMENT"
+        "move": "Ralentissement"
       },
       {
         "level": 75,
@@ -13998,7 +13998,7 @@
       },
       {
         "level": 80,
-        "move": "LIREESPRIT"
+        "move": "Lire-Esprit"
       },
       {
         "level": 85,
@@ -14010,11 +14010,11 @@
       },
       {
         "level": 95,
-        "move": "CHOCTRAUMA"
+        "move": "Choc Trauma"
       },
       {
         "level": 100,
-        "move": "POINTEHEURE"
+        "move": "Pointe-Heure"
       }
     ],
     "egg_moves": [
@@ -14128,11 +14128,11 @@
       },
       {
         "level": 5,
-        "move": "BEUGLEMENT"
+        "move": "Beuglement"
       },
       {
         "level": 7,
-        "move": "CALINOU"
+        "move": "Câlinou"
       },
       {
         "level": 10,
@@ -14148,11 +14148,11 @@
       },
       {
         "level": 21,
-        "move": "DOUBLEPIED"
+        "move": "Double Pied"
       },
       {
         "level": 25,
-        "move": "CHARME"
+        "move": "Charme"
       },
       {
         "level": 29,
@@ -14184,11 +14184,11 @@
       },
       {
         "level": 58,
-        "move": "ROUSTE"
+        "move": "Rouste"
       },
       {
         "level": 62,
-        "move": "AMNESIE"
+        "move": "Amnésie"
       },
       {
         "level": 66,
@@ -14200,11 +14200,11 @@
       },
       {
         "level": 75,
-        "move": "MAUVAISEHUMEUR"
+        "move": "Mauvaise Humeur"
       },
       {
         "level": 80,
-        "move": "SOUMISSION"
+        "move": "Soumission"
       },
       {
         "level": 85,
@@ -14212,15 +14212,15 @@
       },
       {
         "level": 90,
-        "move": "GARDEMENTOR"
+        "move": "Garde Mentor"
       },
       {
         "level": 95,
-        "move": "ASSAUTFRONTAL"
+        "move": "Assaut Frontal"
       },
       {
         "level": 100,
-        "move": "TRIPLEECLATE"
+        "move": "Triple Éclate"
       }
     ],
     "egg_moves": [
@@ -14253,7 +14253,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "HOSTILITE"
+        "move": "Hostilité"
       },
       {
         "level": 1,
@@ -14269,15 +14269,15 @@
       },
       {
         "level": 10,
-        "move": "MORSURE"
+        "move": "Morsure"
       },
       {
         "level": 13,
-        "move": "JETPIERRES"
+        "move": "Jet-Pierres"
       },
       {
         "level": 17,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 21,
@@ -14285,7 +14285,7 @@
       },
       {
         "level": 25,
-        "move": "CROQUEFORT"
+        "move": "Croque Fort"
       },
       {
         "level": 29,
@@ -14297,7 +14297,7 @@
       },
       {
         "level": 37,
-        "move": "SOUFFLESABLEUX"
+        "move": "Souffle Sableux"
       },
       {
         "level": 41,
@@ -14305,7 +14305,7 @@
       },
       {
         "level": 46,
-        "move": "CROCSFOUGUEUX"
+        "move": "Crocs Fougueux"
       },
       {
         "level": 50,
@@ -14313,11 +14313,11 @@
       },
       {
         "level": 54,
-        "move": "IMPACT"
+        "move": "Impact"
       },
       {
         "level": 58,
-        "move": "VACARME"
+        "move": "Vacarme"
       },
       {
         "level": 62,
@@ -14337,7 +14337,7 @@
       },
       {
         "level": 80,
-        "move": "IMPACTLUGUBRE"
+        "move": "Impact Lugubre"
       },
       {
         "level": 85,
@@ -14345,7 +14345,7 @@
       },
       {
         "level": 90,
-        "move": "COUPPERCANT"
+        "move": "Coup Perçant"
       },
       {
         "level": 95,
@@ -14353,16 +14353,16 @@
       },
       {
         "level": 100,
-        "move": "CARNAGE"
+        "move": "Carnage"
       }
     ],
     "egg_moves": [
-      "CROCSFEU",
-      "TELLUPIQUE",
-      "ULCERATION",
-      "ROCBOULET",
-      "CIMEMORTELLE",
-      "PIETINEMENT"
+      "Crocs Feu",
+      "Tellu'Pique",
+      "Ulcération",
+      "Roc-Boulet",
+      "Cime Mortelle",
+      "Piétinement"
     ],
     "cs": [
       "Coupe",
@@ -14387,7 +14387,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "HOSTILITE"
+        "move": "Hostilité"
       },
       {
         "level": 1,
@@ -14403,15 +14403,15 @@
       },
       {
         "level": 10,
-        "move": "MORSURE"
+        "move": "Morsure"
       },
       {
         "level": 13,
-        "move": "JETPIERRES"
+        "move": "Jet-Pierres"
       },
       {
         "level": 17,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 21,
@@ -14419,7 +14419,7 @@
       },
       {
         "level": 25,
-        "move": "CROQUEFORT"
+        "move": "Croque Fort"
       },
       {
         "level": 29,
@@ -14431,7 +14431,7 @@
       },
       {
         "level": 37,
-        "move": "SOUFFLESABLEUX"
+        "move": "Souffle Sableux"
       },
       {
         "level": 41,
@@ -14439,7 +14439,7 @@
       },
       {
         "level": 46,
-        "move": "CROCSFOUGUEUX"
+        "move": "Crocs Fougueux"
       },
       {
         "level": 50,
@@ -14447,11 +14447,11 @@
       },
       {
         "level": 54,
-        "move": "IMPACT"
+        "move": "Impact"
       },
       {
         "level": 58,
-        "move": "VACARME"
+        "move": "Vacarme"
       },
       {
         "level": 62,
@@ -14471,7 +14471,7 @@
       },
       {
         "level": 80,
-        "move": "IMPACTLUGUBRE"
+        "move": "Impact Lugubre"
       },
       {
         "level": 85,
@@ -14479,7 +14479,7 @@
       },
       {
         "level": 90,
-        "move": "COUPPERCANT"
+        "move": "Coup Perçant"
       },
       {
         "level": 95,
@@ -14487,7 +14487,7 @@
       },
       {
         "level": 100,
-        "move": "CARNAGE"
+        "move": "Carnage"
       }
     ],
     "egg_moves": [],
@@ -14522,7 +14522,7 @@
       },
       {
         "level": 1,
-        "move": "HOSTILITE"
+        "move": "Hostilité"
       },
       {
         "level": 1,
@@ -14538,15 +14538,15 @@
       },
       {
         "level": 10,
-        "move": "MORSURE"
+        "move": "Morsure"
       },
       {
         "level": 13,
-        "move": "JETPIERRES"
+        "move": "Jet-Pierres"
       },
       {
         "level": 17,
-        "move": "GRINCEMENT"
+        "move": "Grincement"
       },
       {
         "level": 21,
@@ -14554,7 +14554,7 @@
       },
       {
         "level": 25,
-        "move": "CROQUEFORT"
+        "move": "Croque Fort"
       },
       {
         "level": 29,
@@ -14566,7 +14566,7 @@
       },
       {
         "level": 37,
-        "move": "SOUFFLESABLEUX"
+        "move": "Souffle Sableux"
       },
       {
         "level": 41,
@@ -14574,7 +14574,7 @@
       },
       {
         "level": 46,
-        "move": "CROCSFOUGUEUX"
+        "move": "Crocs Fougueux"
       },
       {
         "level": 50,
@@ -14582,11 +14582,11 @@
       },
       {
         "level": 54,
-        "move": "IMPACT"
+        "move": "Impact"
       },
       {
         "level": 58,
-        "move": "VACARME"
+        "move": "Vacarme"
       },
       {
         "level": 62,
@@ -14606,7 +14606,7 @@
       },
       {
         "level": 80,
-        "move": "IMPACTLUGUBRE"
+        "move": "Impact Lugubre"
       },
       {
         "level": 85,
@@ -14614,7 +14614,7 @@
       },
       {
         "level": 90,
-        "move": "COUPPERCANT"
+        "move": "Coup Perçant"
       },
       {
         "level": 95,
@@ -14622,7 +14622,7 @@
       },
       {
         "level": 100,
-        "move": "CARNAGE"
+        "move": "Carnage"
       }
     ],
     "egg_moves": [],
@@ -14660,7 +14660,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "GROGNE"
+        "move": "Grogne"
       },
       {
         "level": 1,
@@ -14668,7 +14668,7 @@
       },
       {
         "level": 5,
-        "move": "ECLAIR"
+        "move": "Éclair"
       },
       {
         "level": 7,
@@ -14676,11 +14676,11 @@
       },
       {
         "level": 10,
-        "move": "MORSURE"
+        "move": "Morsure"
       },
       {
         "level": 13,
-        "move": "VOLTGRIFFE"
+        "move": "Volt-Griffe"
       },
       {
         "level": 17,
@@ -14688,7 +14688,7 @@
       },
       {
         "level": 21,
-        "move": "CROCSECLAIR"
+        "move": "Crocs Éclair"
       },
       {
         "level": 25,
@@ -14700,7 +14700,7 @@
       },
       {
         "level": 33,
-        "move": "REGARDNOIR"
+        "move": "Regard Noir"
       },
       {
         "level": 37,
@@ -14708,7 +14708,7 @@
       },
       {
         "level": 41,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 46,
@@ -14716,7 +14716,7 @@
       },
       {
         "level": 50,
-        "move": "SOMBREORAGE"
+        "move": "Sombre Orage"
       },
       {
         "level": 54,
@@ -14732,7 +14732,7 @@
       },
       {
         "level": 66,
-        "move": "EXPLOFOUDRE"
+        "move": "Explo Foudre"
       },
       {
         "level": 70,
@@ -14783,7 +14783,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "GROGNE"
+        "move": "Grogne"
       },
       {
         "level": 1,
@@ -14791,19 +14791,19 @@
       },
       {
         "level": 5,
-        "move": "TRAITARDENT"
+        "move": "Trait Ardent"
       },
       {
         "level": 7,
-        "move": "CRACHFUMEE"
+        "move": "Crach'Fumée"
       },
       {
         "level": 10,
-        "move": "MORSURE"
+        "move": "Morsure"
       },
       {
         "level": 13,
-        "move": "TRAITBOUILLANT"
+        "move": "Trait Bouillant"
       },
       {
         "level": 17,
@@ -14811,7 +14811,7 @@
       },
       {
         "level": 21,
-        "move": "CROCSFEU"
+        "move": "Crocs Feu"
       },
       {
         "level": 25,
@@ -14819,11 +14819,11 @@
       },
       {
         "level": 29,
-        "move": "TURBOFLAMME"
+        "move": "Turbo Flamme"
       },
       {
         "level": 33,
-        "move": "VANTARDISE"
+        "move": "Vantardise"
       },
       {
         "level": 37,
@@ -14831,11 +14831,11 @@
       },
       {
         "level": 41,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 46,
-        "move": "INCENDIE"
+        "move": "Incendie"
       },
       {
         "level": 50,
@@ -14859,7 +14859,7 @@
       },
       {
         "level": 70,
-        "move": "FUREUR"
+        "move": "Fureur"
       },
       {
         "level": 75,
@@ -14867,15 +14867,15 @@
       },
       {
         "level": 80,
-        "move": "CROCSFOUGUEUX"
+        "move": "Crocs Fougueux"
       },
       {
         "level": 85,
-        "move": "FEUDENFER"
+        "move": "Feu d'Enfer"
       },
       {
         "level": 90,
-        "move": "NUEEARDENTE"
+        "move": "Nuée Ardente"
       },
       {
         "level": 95,
@@ -14883,7 +14883,7 @@
       },
       {
         "level": 100,
-        "move": "GRANDCOURROUX"
+        "move": "Grand Courroux"
       }
     ],
     "egg_moves": [],
@@ -14906,7 +14906,7 @@
     "level_up": [
       {
         "level": 1,
-        "move": "GROGNE"
+        "move": "Grogne"
       },
       {
         "level": 1,
@@ -14914,7 +14914,7 @@
       },
       {
         "level": 5,
-        "move": "PURGE"
+        "move": "Purge"
       },
       {
         "level": 7,
@@ -14922,7 +14922,7 @@
       },
       {
         "level": 10,
-        "move": "MORSURE"
+        "move": "Morsure"
       },
       {
         "level": 13,
@@ -14934,11 +14934,11 @@
       },
       {
         "level": 21,
-        "move": "CROCSAQUEUX"
+        "move": "Crocs Aqueux"
       },
       {
         "level": 25,
-        "move": "ECLATLUNAIRE"
+        "move": "Éclat Lunaire"
       },
       {
         "level": 29,
@@ -14946,7 +14946,7 @@
       },
       {
         "level": 33,
-        "move": "FONTAINEDEVIE"
+        "move": "Fontaine de Vie"
       },
       {
         "level": 37,
@@ -14954,11 +14954,11 @@
       },
       {
         "level": 41,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 46,
-        "move": "AQUABOMBE"
+        "move": "Aqua Bombe"
       },
       {
         "level": 50,
@@ -14978,11 +14978,11 @@
       },
       {
         "level": 66,
-        "move": "HYDRORAVAGE"
+        "move": "Hydro Ravage"
       },
       {
         "level": 70,
-        "move": "ORACLE"
+        "move": "Oracle"
       },
       {
         "level": 75,
@@ -14990,23 +14990,23 @@
       },
       {
         "level": 80,
-        "move": "ZENITUDE"
+        "move": "Zenitude"
       },
       {
         "level": 85,
-        "move": "DEVASTATION"
+        "move": "Dévastation"
       },
       {
         "level": 90,
-        "move": "CRISTALLISATION"
+        "move": "Cristallisation"
       },
       {
         "level": 95,
-        "move": "UTOPIE"
+        "move": "Utopie"
       },
       {
         "level": 100,
-        "move": "GEYSER"
+        "move": "Geyser"
       }
     ],
     "egg_moves": [],
@@ -15030,15 +15030,15 @@
     "level_up": [
       {
         "level": 1,
-        "move": "BATTEMENT"
+        "move": "Battement"
       },
       {
         "level": 1,
-        "move": "CYCLONE"
+        "move": "Cyclone"
       },
       {
         "level": 5,
-        "move": "TORNADE"
+        "move": "Tornade"
       },
       {
         "level": 7,
@@ -15050,15 +15050,15 @@
       },
       {
         "level": 13,
-        "move": "CARILLON"
+        "move": "Carillon"
       },
       {
         "level": 17,
-        "move": "ENVOL"
+        "move": "Envol"
       },
       {
         "level": 21,
-        "move": "VAGUELUMINEUSE"
+        "move": "Vague Lumineuse"
       },
       {
         "level": 25,
@@ -15066,23 +15066,23 @@
       },
       {
         "level": 29,
-        "move": "VENTBRULANT"
+        "move": "Vent Brûlant"
       },
       {
         "level": 33,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 37,
-        "move": "HALOCURATIF"
+        "move": "Halo Curatif"
       },
       {
         "level": 41,
-        "move": "FEUEVEILLE"
+        "move": "Feu Éveillé"
       },
       {
         "level": 46,
-        "move": "SANCTUAIRE"
+        "move": "Sanctuaire"
       },
       {
         "level": 50,
@@ -15110,7 +15110,7 @@
       },
       {
         "level": 75,
-        "move": "DYNASTIE"
+        "move": "Dynastie"
       },
       {
         "level": 80,
@@ -15130,7 +15130,7 @@
       },
       {
         "level": 100,
-        "move": "FLAMMEULTIME"
+        "move": "Flamme Ultime"
       }
     ],
     "egg_moves": [],
@@ -15160,15 +15160,15 @@
     "level_up": [
       {
         "level": 1,
-        "move": "BATTEMENT"
+        "move": "Battement"
       },
       {
         "level": 1,
-        "move": "CYCLONE"
+        "move": "Cyclone"
       },
       {
         "level": 5,
-        "move": "TORNADE"
+        "move": "Tornade"
       },
       {
         "level": 7,
@@ -15176,19 +15176,19 @@
       },
       {
         "level": 10,
-        "move": "BASFOND"
+        "move": "Bas-Fond"
       },
       {
         "level": 13,
-        "move": "ACROBATIE"
+        "move": "Acrobatie"
       },
       {
         "level": 17,
-        "move": "ENVOL"
+        "move": "Envol"
       },
       {
         "level": 21,
-        "move": "LUNESJUMELLES"
+        "move": "Lunes Jumelles"
       },
       {
         "level": 25,
@@ -15196,19 +15196,19 @@
       },
       {
         "level": 29,
-        "move": "TRIPLEPLONGEON"
+        "move": "Triple Plongeon"
       },
       {
         "level": 33,
-        "move": "EXTRASENSEUR"
+        "move": "Extrasenseur"
       },
       {
         "level": 37,
-        "move": "RAYONLUNE"
+        "move": "Rayon Lune"
       },
       {
         "level": 41,
-        "move": "ONDEMARINE"
+        "move": "Onde Marine"
       },
       {
         "level": 46,
@@ -15216,7 +15216,7 @@
       },
       {
         "level": 50,
-        "move": "HAUTEVOLTIGE"
+        "move": "Haute Voltige"
       },
       {
         "level": 54,
@@ -15240,7 +15240,7 @@
       },
       {
         "level": 75,
-        "move": "DRACOCHARGE"
+        "move": "Draco-Charge"
       },
       {
         "level": 80,
@@ -15260,7 +15260,7 @@
       },
       {
         "level": 100,
-        "move": "RAZDEMAREE"
+        "move": "Raz de Marée"
       }
     ],
     "egg_moves": [],
@@ -15294,35 +15294,35 @@
     "level_up": [
       {
         "level": 1,
-        "move": "CHOCMENTAL"
+        "move": "Choc Mental"
       },
       {
         "level": 1,
-        "move": "TELEPORT"
+        "move": "Téléport"
       },
       {
         "level": 5,
-        "move": "PREMONITION"
+        "move": "Prémonition"
       },
       {
         "level": 7,
-        "move": "GLASDESOIN"
+        "move": "Glas de Soin"
       },
       {
         "level": 10,
-        "move": "VAMPIGRAINE"
+        "move": "Vampigraine"
       },
       {
         "level": 13,
-        "move": "FLORAMIXEUR"
+        "move": "Floramixeur"
       },
       {
         "level": 17,
-        "move": "REMBOBINAGE"
+        "move": "Rembobinage"
       },
       {
         "level": 21,
-        "move": "VIGILANCE"
+        "move": "Vigilance"
       },
       {
         "level": 25,
@@ -15330,7 +15330,7 @@
       },
       {
         "level": 29,
-        "move": "VIEILLISSEMENT"
+        "move": "Vieillissement"
       },
       {
         "level": 33,
@@ -15354,7 +15354,7 @@
       },
       {
         "level": 54,
-        "move": "SIFFLHERBE"
+        "move": "Siffl'Herbe"
       },
       {
         "level": 58,
@@ -15370,11 +15370,11 @@
       },
       {
         "level": 70,
-        "move": "POSTATTAQUE"
+        "move": "Post Attaque"
       },
       {
         "level": 75,
-        "move": "APPELDUTEMPS"
+        "move": "Appel du Temps"
       },
       {
         "level": 80,
@@ -15382,7 +15382,7 @@
       },
       {
         "level": 85,
-        "move": "TEMPETEVERTE"
+        "move": "Tempête Verte"
       },
       {
         "level": 90,
@@ -15390,11 +15390,11 @@
       },
       {
         "level": 95,
-        "move": "DECOMPTE"
+        "move": "Décompte"
       },
       {
         "level": 100,
-        "move": "PARADOXE"
+        "move": "Paradoxe"
       }
     ],
     "egg_moves": [],
@@ -15423,15 +15423,15 @@
     "level_up": [
       {
         "level": 1,
-        "move": "CROCSAQUEUX"
+        "move": "Crocs Aqueux"
       },
       {
         "level": 1,
-        "move": "OURAGAN"
+        "move": "Ouragan"
       },
       {
         "level": 5,
-        "move": "MORSURE"
+        "move": "Morsure"
       },
       {
         "level": 7,
@@ -15447,15 +15447,15 @@
       },
       {
         "level": 17,
-        "move": "TRANCHAIR"
+        "move": "Tranch'Air"
       },
       {
         "level": 21,
-        "move": "DRACOQUEUE"
+        "move": "Draco-Queue"
       },
       {
         "level": 25,
-        "move": "ECLATEQUEUE"
+        "move": "Éclate Queue"
       },
       {
         "level": 29,
@@ -15467,11 +15467,11 @@
       },
       {
         "level": 37,
-        "move": "CROCSECLAIR"
+        "move": "Crocs Éclair"
       },
       {
         "level": 41,
-        "move": "FLEXIQUEUE"
+        "move": "Fléxi-Queue"
       },
       {
         "level": 46,
@@ -15479,7 +15479,7 @@
       },
       {
         "level": 50,
-        "move": "DANSEDRACO"
+        "move": "Danse Draco"
       },
       {
         "level": 54,
@@ -15487,11 +15487,11 @@
       },
       {
         "level": 58,
-        "move": "VENTHURLANT"
+        "move": "Vent Hurlant"
       },
       {
         "level": 62,
-        "move": "VANTARDISE"
+        "move": "Vantardise"
       },
       {
         "level": 66,
@@ -15499,11 +15499,11 @@
       },
       {
         "level": 70,
-        "move": "SOMBREORAGE"
+        "move": "Sombre Orage"
       },
       {
         "level": 75,
-        "move": "HYDROCANON"
+        "move": "Hydrocanon"
       },
       {
         "level": 80,
@@ -15523,7 +15523,7 @@
       },
       {
         "level": 100,
-        "move": "INONDATION"
+        "move": "Inondation"
       }
     ],
     "egg_moves": [],
