@@ -163,7 +163,20 @@
       "Tranch'Herbe",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/germignon.png"
+    "image": "assets/pkm/germignon.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "MACRONIUM",
+        "target_name": "Macronium",
+        "method": "Level",
+        "level": 18,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Macronium",
@@ -347,7 +360,20 @@
       "Vent Argenté",
       "Photo-Geyser"
     ],
-    "image": "assets/pkm/macronium.png"
+    "image": "assets/pkm/macronium.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "MEGANIUM",
+        "target_name": "Méganium",
+        "method": "Level",
+        "level": 36,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Méganium",
@@ -359,7 +385,7 @@
       "Engrais"
     ],
     "hidden_ability": "Feuillegarde",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Le souffle de Méganium a le pouvoir de redonner la santé aux plantes malades ou mortes.",
     "level_up": [
       {
@@ -571,7 +597,8 @@
       "Vent Argenté",
       "Photo-Geyser"
     ],
-    "image": "assets/pkm/mganium.png"
+    "image": "assets/pkm/mganium.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Héricendre",
@@ -728,7 +755,20 @@
       "Ronflement",
       "Roue de Feu"
     ],
-    "image": "assets/pkm/hricendre.png"
+    "image": "assets/pkm/hricendre.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "FEURISSON",
+        "target_name": "Feurisson",
+        "method": "Level",
+        "level": 18,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Feurisson",
@@ -904,7 +944,20 @@
       "Vindicte",
       "Photo-Geyser"
     ],
-    "image": "assets/pkm/feurisson.png"
+    "image": "assets/pkm/feurisson.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "TYPHLOSION",
+        "target_name": "Typhlosion",
+        "method": "Level",
+        "level": 36,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Typhlosion",
@@ -915,7 +968,7 @@
       "Brasier"
     ],
     "hidden_ability": "Torche",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il a un coup secret dévastateur. En frottant sa fourrure ardente, il crée une forte explosion.",
     "level_up": [
       {
@@ -1141,7 +1194,8 @@
       "Vortex Magma",
       "Photo-Geyser"
     ],
-    "image": "assets/pkm/typhlosion.png"
+    "image": "assets/pkm/typhlosion.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Kaiminus",
@@ -1312,7 +1366,20 @@
       "Saisie",
       "Sectionnage"
     ],
-    "image": "assets/pkm/kaiminus.png"
+    "image": "assets/pkm/kaiminus.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "CROCRODIL",
+        "target_name": "Crocrodil",
+        "method": "Level",
+        "level": 18,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Crocrodil",
@@ -1504,7 +1571,20 @@
       "Typhon Pyrosable",
       "Vent Glace"
     ],
-    "image": "assets/pkm/crocrodil.png"
+    "image": "assets/pkm/crocrodil.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "ALIGATUEUR",
+        "target_name": "Aligatueur",
+        "method": "Level",
+        "level": 36,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Aligatueur",
@@ -1516,7 +1596,7 @@
       "Torrent"
     ],
     "hidden_ability": "Sanslimite",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Quand il mord avec sa puissante mâchoire, il secoue sa tête pour déchiqueter sa pauvre victime.",
     "level_up": [
       {
@@ -1752,7 +1832,8 @@
       "Vague Ambrée",
       "Vent Glace"
     ],
-    "image": "assets/pkm/aligatueur.png"
+    "image": "assets/pkm/aligatueur.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Fouinette",
@@ -1928,7 +2009,20 @@
       "Retour",
       "Rune Protect"
     ],
-    "image": "assets/pkm/fouinette.png"
+    "image": "assets/pkm/fouinette.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "FOUINAR",
+        "target_name": "Fouinar",
+        "method": "Level",
+        "level": 15,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Fouinar",
@@ -1941,7 +2035,7 @@
       "Regardvif"
     ],
     "hidden_ability": "Fouille",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "La femelle s'enroule autour de ses petits pour les bercer. Il accule l'ennemi grâce à sa vitesse.",
     "level_up": [
       {
@@ -2129,7 +2223,8 @@
       "Sentence",
       "Tête de Fer"
     ],
-    "image": "assets/pkm/fouinar.png"
+    "image": "assets/pkm/fouinar.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Hoothoot",
@@ -2290,7 +2385,20 @@
       "Vague Psy",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/hoothoot.png"
+    "image": "assets/pkm/hoothoot.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "NOARFANG",
+        "target_name": "Noarfang",
+        "method": "Level",
+        "level": 20,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Noarfang",
@@ -2454,7 +2562,21 @@
       "Vague Psy",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/noarfang.png"
+    "image": "assets/pkm/noarfang.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "PROPHIBOU",
+        "target_name": "Prophibou",
+        "method": "HoldItem",
+        "level": null,
+        "item_token": "BOOST_TEM",
+        "item_name": "Vieille Amulette",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ]
   },
   {
     "name": "Prophibou",
@@ -2467,7 +2589,7 @@
       "Miroirmagik"
     ],
     "hidden_ability": "Lentiteintee",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "On raconte qu’il voit simultanément le passé, le présent et le futur. Il est devenu trop lourd pour voler.",
     "level_up": [
       {
@@ -2633,7 +2755,8 @@
       "Vague Psy",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/prophibou.png"
+    "image": "assets/pkm/prophibou.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Coxy",
@@ -2763,7 +2886,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/coxy.png"
+    "image": "assets/pkm/coxy.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "COXYCLAQUE",
+        "target_name": "Coxyclaque",
+        "method": "Level",
+        "level": 18,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Coxyclaque",
@@ -2892,7 +3028,32 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/coxyclaque.png"
+    "image": "assets/pkm/coxyclaque.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "COXYPUNCH",
+        "target_name": "Coxypunch",
+        "method": "HoldItem",
+        "level": null,
+        "item_token": "GANTDEBOXE",
+        "item_name": "Gant de Boxe",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      },
+      {
+        "target_token": "COXYNESCENT",
+        "target_name": "Coxynescent",
+        "method": "HasMoveType",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": "COSMIQUE"
+      }
+    ]
   },
   {
     "name": "Coxypunch",
@@ -2905,7 +3066,7 @@
       "Matinal"
     ],
     "hidden_ability": "Poingdefer",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "???",
     "level_up": [
       {
@@ -3029,7 +3190,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/coxypunch.png"
+    "image": "assets/pkm/coxypunch.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Coxynescent",
@@ -3042,7 +3204,7 @@
       "Matinal"
     ],
     "hidden_ability": "Poingdefer",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Sa puissance cosmique a pris l'ascendant sur son corps. Il peut se propulser à très grande vitesse.",
     "level_up": [
       {
@@ -3164,7 +3326,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/coxynescent.png"
+    "image": "assets/pkm/coxynescent.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Mimigal",
@@ -3302,7 +3465,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/mimigal.png"
+    "image": "assets/pkm/mimigal.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "MIGALOS",
+        "target_name": "Migalos",
+        "method": "Level",
+        "level": 22,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Migalos",
@@ -3315,7 +3491,7 @@
       "Insomnia"
     ],
     "hidden_ability": "Sniper",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ce Pokémon peut créer du fil avec sa bouche ou son abdomen. Il l'utilise pour ligoter sa proie, puis aspire lentement ses fluides vitaux.",
     "level_up": [
       {
@@ -3440,7 +3616,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/migalos.png"
+    "image": "assets/pkm/migalos.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Togepi",
@@ -3560,7 +3737,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/togepi.png"
+    "image": "assets/pkm/togepi.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "TOGETIC",
+        "target_name": "Togetic",
+        "method": "Happiness",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Togetic",
@@ -3688,7 +3878,31 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/togetic.png"
+    "image": "assets/pkm/togetic.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "TOGEKISS",
+        "target_name": "Togekiss",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_VOL",
+        "item_name": "Pierre Aile",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      },
+      {
+        "target_token": "TOGEKOLOSS",
+        "target_name": "Togekoloss",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_DRA",
+        "item_name": "Pierre Antique",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Togekiss",
@@ -3701,7 +3915,7 @@
       "Serenite"
     ],
     "hidden_ability": "Chanceux",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il apprécie particulièrement les gens qui respectent les autres et évitent les conflits inutiles.",
     "level_up": [
       {
@@ -3818,7 +4032,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/togekiss.png"
+    "image": "assets/pkm/togekiss.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Togekoloss",
@@ -3831,7 +4046,7 @@
       "Serenite"
     ],
     "hidden_ability": "Chanceux",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il vole à travers les plus hauts nuages. On raconte que l'appercevoir porterait bonheur pour les 7 prochaines années.",
     "level_up": [
       {
@@ -3960,7 +4175,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/togekoloss.png"
+    "image": "assets/pkm/togekoloss.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Natu",
@@ -4099,7 +4315,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/natu.png"
+    "image": "assets/pkm/natu.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "XATU",
+        "target_name": "Xatu",
+        "method": "Level",
+        "level": 35,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Xatu",
@@ -4112,7 +4341,7 @@
       "Matinal"
     ],
     "hidden_ability": "Miroirmagik",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Bien qu'il puisse voir l'avenir, il n'a aucune intention de le changer. Cela expliquerait pourquoi il reste immobile.",
     "level_up": [
       {
@@ -4229,7 +4458,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/xatu.png"
+    "image": "assets/pkm/xatu.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Wattouat",
@@ -4366,7 +4596,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/wattouat.png"
+    "image": "assets/pkm/wattouat.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "LAINERGIE",
+        "target_name": "Lainergie",
+        "method": "Level",
+        "level": 15,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Lainergie",
@@ -4494,7 +4737,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/lainergie.png"
+    "image": "assets/pkm/lainergie.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "PHARAMP",
+        "target_name": "Pharamp",
+        "method": "Level",
+        "level": 30,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Pharamp",
@@ -4506,7 +4762,7 @@
       "Statik"
     ],
     "hidden_ability": "Plus",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Le bout de sa queue brille si fort qu'il peut être vu de très loin. Il sert de balise aux gens.",
     "level_up": [
       {
@@ -4624,7 +4880,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/pharamp.png"
+    "image": "assets/pkm/pharamp.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Azurill",
@@ -4756,7 +5013,20 @@
       "Vibraqua"
     ],
     "dt": [],
-    "image": "assets/pkm/azurill.png"
+    "image": "assets/pkm/azurill.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "MARILL",
+        "target_name": "Marill",
+        "method": "Level",
+        "level": 16,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Marill",
@@ -4895,7 +5165,20 @@
       "Vibraqua"
     ],
     "dt": [],
-    "image": "assets/pkm/marill.png"
+    "image": "assets/pkm/marill.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "AZUMARILL",
+        "target_name": "Azumarill",
+        "method": "Level",
+        "level": 28,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Azumarill",
@@ -4908,7 +5191,7 @@
       "Coloforce"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ses longues oreilles font un radar efficace. Elles décèlent les mouvements dans le lit des rivières.",
     "level_up": [
       {
@@ -5054,7 +5337,8 @@
       "Vibraqua"
     ],
     "dt": [],
-    "image": "assets/pkm/azumarill.png"
+    "image": "assets/pkm/azumarill.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Manzaï",
@@ -5197,7 +5481,20 @@
       "Tomberoche"
     ],
     "dt": [],
-    "image": "assets/pkm/manza.png"
+    "image": "assets/pkm/manza.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "SIMULARBRE",
+        "target_name": "Simularbre",
+        "method": "HasMove",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": "COPIE",
+        "move_name": "Copie",
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Simularbre",
@@ -5210,7 +5507,7 @@
       "Tetederoc"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "La souplesse et la robustesse de ses bras sont le fruit d'un entraînement long et rigoureux qui consiste en une immobilité prolongée.",
     "level_up": [
       {
@@ -5350,7 +5647,8 @@
       "Vendetta"
     ],
     "dt": [],
-    "image": "assets/pkm/simularbre.png"
+    "image": "assets/pkm/simularbre.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Magicarpe",
@@ -5361,7 +5659,7 @@
       "Glissade"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il manque totalement de vitesse et de force. C'est le Pokémon le plus pathétique au monde.",
     "level_up": [
       {
@@ -5415,7 +5713,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/magicarpe.png"
+    "image": "assets/pkm/magicarpe.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Granivol",
@@ -5544,7 +5843,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/granivol.png"
+    "image": "assets/pkm/granivol.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "FLORAVOL",
+        "target_name": "Floravol",
+        "method": "Level",
+        "level": 18,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Floravol",
@@ -5672,7 +5984,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/floravol.png"
+    "image": "assets/pkm/floravol.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "COTOVOL",
+        "target_name": "Cotovol",
+        "method": "Level",
+        "level": 27,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Cotovol",
@@ -5685,7 +6010,7 @@
       "Feuillegarde"
     ],
     "hidden_ability": "Infiltration",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Poussé par les vents saisonniers, il fait le tour du globe en semant des spores de cotons.",
     "level_up": [
       {
@@ -5801,7 +6126,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cotovol.png"
+    "image": "assets/pkm/cotovol.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Capumain",
@@ -5930,7 +6256,31 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/capumain.png"
+    "image": "assets/pkm/capumain.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "CAPIDEXTRE",
+        "target_name": "Capidextre",
+        "method": "HasMove",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": "COUPDOUBLE",
+        "move_name": "Coup Double",
+        "move_type": null
+      },
+      {
+        "target_token": "CAPIDEXTRE",
+        "target_name": "Capidextre",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_NOR",
+        "item_name": "Pierre Basique",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Capidextre",
@@ -5942,7 +6292,7 @@
       "Ramassage"
     ],
     "hidden_ability": "Multicoups",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il se nourrit de noix qu'il épluche avec ses deux queues habiles. Il utilise de moins en moins ses bras.",
     "level_up": [
       {
@@ -6061,7 +6411,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/capidextre.png"
+    "image": "assets/pkm/capidextre.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Tournegrin",
@@ -6195,7 +6546,20 @@
       "Phytomixeur"
     ],
     "dt": [],
-    "image": "assets/pkm/tournegrin.png"
+    "image": "assets/pkm/tournegrin.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "HELIATRONC",
+        "target_name": "Héliatronc",
+        "method": "LevelDay",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Héliatronc",
@@ -6334,7 +6698,20 @@
       "Souplesse"
     ],
     "dt": [],
-    "image": "assets/pkm/hliatronc.png"
+    "image": "assets/pkm/hliatronc.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "TOURNELUX",
+        "target_name": "Tournelux",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_SOL",
+        "item_name": "Pierre Soleil",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Tournelux",
@@ -6347,7 +6724,7 @@
       "Forcesoleil"
     ],
     "hidden_ability": "Matinal",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "???",
     "level_up": [
       {
@@ -6483,7 +6860,8 @@
       "Trépignement"
     ],
     "dt": [],
-    "image": "assets/pkm/tournelux.png"
+    "image": "assets/pkm/tournelux.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Yanma",
@@ -6622,7 +7000,31 @@
       "Vitesse Extrême"
     ],
     "dt": [],
-    "image": "assets/pkm/yanma.png"
+    "image": "assets/pkm/yanma.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "YANMEGA",
+        "target_name": "Yanmega",
+        "method": "HasMove",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": "POUVOIRANTIQUE",
+        "move_name": "Pouvoir Antique",
+        "move_type": null
+      },
+      {
+        "target_token": "YANMEGA",
+        "target_name": "Yanmega",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_INS",
+        "item_name": "Pierre Nectar",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Yanmega",
@@ -6635,7 +7037,7 @@
       "Oeilcompose"
     ],
     "hidden_ability": "Fouille",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il peut voler avec aise tout en portant un adulte dans ses 6 pattes. Les ailes de sa queue lui servent de balancier.",
     "level_up": [
       {
@@ -6766,7 +7168,8 @@
       "Vitesse Extrême"
     ],
     "dt": [],
-    "image": "assets/pkm/yanmega.png"
+    "image": "assets/pkm/yanmega.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Axoloto",
@@ -6893,7 +7296,20 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/axoloto.png"
+    "image": "assets/pkm/axoloto.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "MARAISTE",
+        "target_name": "Maraisté",
+        "method": "Level",
+        "level": 20,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Maraisté",
@@ -6906,7 +7322,7 @@
       "Absorbeau"
     ],
     "hidden_ability": "Inconscient",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ce Pokémon est très insouciant. Quand il nage, il fonce tête première dans la coque des bateaux.",
     "level_up": [
       {
@@ -7025,7 +7441,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/maraist.png"
+    "image": "assets/pkm/maraist.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Cornèbre",
@@ -7152,7 +7569,20 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cornbre.png"
+    "image": "assets/pkm/cornbre.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "CORBOSS",
+        "target_name": "Corboss",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_TEN",
+        "item_name": "Pierre Nuit",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Corboss",
@@ -7165,7 +7595,7 @@
       "Chanceux"
     ],
     "hidden_ability": "Impudence",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Un seul des puissants croassements de ce Pokémon nocturne lui permet de rassembler une centaine de Cornèbre, ses sous-fifres.",
     "level_up": [
       {
@@ -7283,7 +7713,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/corboss.png"
+    "image": "assets/pkm/corboss.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Feuforêve",
@@ -7456,7 +7887,20 @@
       "Vague Psy",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/feuforve.png"
+    "image": "assets/pkm/feuforve.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "MAGIREVE",
+        "target_name": "Magirêve",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_MGK",
+        "item_name": "Pierre Illusion",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Magirêve",
@@ -7468,7 +7912,7 @@
       "Levitation"
     ],
     "hidden_ability": "Lunatique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Un Pokémon insaisissable qui tourmente ses ennemis avec son cri semblable à une incantation.",
     "level_up": [
       {
@@ -7650,7 +8094,8 @@
       "Vague Psy",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/magirve.png"
+    "image": "assets/pkm/magirve.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Zarbi ?",
@@ -7661,7 +8106,7 @@
       "Levitation"
     ],
     "hidden_ability": null,
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
     "level_up": [
       {
@@ -7729,7 +8174,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/zarbi.png"
+    "image": "assets/pkm/zarbi.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Okéoké",
@@ -7855,7 +8301,20 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/okok.png"
+    "image": "assets/pkm/okok.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "QULBUTOKE",
+        "target_name": "Qulbutoke",
+        "method": "Level",
+        "level": 25,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Qulbutoke",
@@ -7867,7 +8326,7 @@
       "Marqueombre"
     ],
     "hidden_ability": "Telepathe",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Pour cacher sa queue noire, il vit discrètement dans l'obscurité. Il n'attaque jamais le premier.",
     "level_up": [
       {
@@ -7979,7 +8438,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/qulbutoke.png"
+    "image": "assets/pkm/qulbutoke.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Girafarig",
@@ -7992,7 +8452,7 @@
       "Matinal"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "Evolue en Farigiraf en connaissant Force Ajoutée / Evolue en Dragifigard en utilisant Pierre Antique",
+    "evolution": "Evolue en Farigiraf en connaissant Force AjoutÃƒÆ’Ã‚©e / Evolue en Dragifigard en utilisant Pierre Antique",
     "pokedex": "Sa queue possède un cerveau. Si vous vous en approchez, elle vous sentira et vous mordra.",
     "level_up": [
       {
@@ -8110,7 +8570,31 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/girafarig.png"
+    "image": "assets/pkm/girafarig.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "FARIGIRAF",
+        "target_name": "Farigiraf",
+        "method": "HasMove",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": "FORCEAJOUTEE",
+        "move_name": "Force AjoutÃƒÆ’Ã‚©e",
+        "move_type": null
+      },
+      {
+        "target_token": "DRAGIFIGARD",
+        "target_name": "Dragifigard",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_DRA",
+        "item_name": "Pierre Antique",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Farigiraf",
@@ -8123,7 +8607,7 @@
       "Matinal"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Lorsqu'il fait tournoyer son cou pour frapper ses adversaires, il protège sa tête principale à l'aide de sa tête noire, qui est plus dure.",
     "level_up": [
       {
@@ -8243,7 +8727,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/farigiraf.png"
+    "image": "assets/pkm/farigiraf.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Dragifigard",
@@ -8256,7 +8741,7 @@
       "Farceur"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Le cerveau de sa queue s'est développé, au point d'avoir pris la même apparence que le corps de Girafarig.",
     "level_up": [
       {
@@ -8376,7 +8861,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/dragifigard.png"
+    "image": "assets/pkm/dragifigard.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Pomdepik",
@@ -8501,7 +8987,20 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/pomdepik.png"
+    "image": "assets/pkm/pomdepik.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "FORETRESS",
+        "target_name": "Forêtress",
+        "method": "Level",
+        "level": 31,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Forêtress",
@@ -8513,7 +9012,7 @@
       "Fermete"
     ],
     "hidden_ability": "Envelocape",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "On ne peut voir à l'intérieur de sa carapace que lorsqu'il engloutit sa nourriture, mais il est si rapide que personne n'a encore jamais réussi.",
     "level_up": [
       {
@@ -8625,7 +9124,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/fortress.png"
+    "image": "assets/pkm/fortress.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Insolourdo",
@@ -8756,7 +9256,31 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/insolourdo.png"
+    "image": "assets/pkm/insolourdo.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "DEUSOLOURDO",
+        "target_name": "Deusolourdo",
+        "method": "HasMove",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": "HYPERCEUSE",
+        "move_name": "Hyperceuse",
+        "move_type": null
+      },
+      {
+        "target_token": "DRACOLOURDO",
+        "target_name": "Dracolourdo",
+        "method": "HasMoveType",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": "DRAGON"
+      }
+    ]
   },
   {
     "name": "Deusolourdo",
@@ -8769,7 +9293,7 @@
       "Fuite"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il se sert de sa queue pour creuser son terrier dans les profondeurs rocheuses de la terre. Celui-ci peut faire jusqu'à 10 km de long.",
     "level_up": [
       {
@@ -8893,7 +9417,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/deusolourdo.png"
+    "image": "assets/pkm/deusolourdo.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Trisolourdo",
@@ -8906,7 +9431,7 @@
       "Fuite"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Une étude récente a démontré que le nombre de segments qui composent son corps est déterminé par ses gènes.",
     "level_up": [
       {
@@ -9030,7 +9555,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/trisolourdo.png"
+    "image": "assets/pkm/trisolourdo.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Dracolourdo",
@@ -9043,7 +9569,7 @@
       "Antibruit"
     ],
     "hidden_ability": "Absorbterre",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "D'un caractère doux, il prend sur son dos les Pokémon égarés dans son terrier et il les reconduit jusqu'à la sortie.",
     "level_up": [
       {
@@ -9165,7 +9691,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/dracolourdo.png"
+    "image": "assets/pkm/dracolourdo.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Scorplane",
@@ -9292,7 +9819,21 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/scorplane.png"
+    "image": "assets/pkm/scorplane.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "SCORVOL",
+        "target_name": "Scorvol",
+        "method": "HoldItem",
+        "level": null,
+        "item_token": "CROCRASOIR",
+        "item_name": "Croc Rasoir",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ]
   },
   {
     "name": "Scorvol",
@@ -9305,7 +9846,7 @@
       "Voilesable"
     ],
     "hidden_ability": "Soinpoison",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il guette sa proie, pendu à une branche la tête en bas, et s'en saisit à la première occasion.",
     "level_up": [
       {
@@ -9421,7 +9962,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/scorvol.png"
+    "image": "assets/pkm/scorvol.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Snubbull",
@@ -9550,7 +10092,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/snubbull.png"
+    "image": "assets/pkm/snubbull.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "GRANBULL",
+        "target_name": "Granbull",
+        "method": "LevelMale",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Granbull",
@@ -9563,7 +10118,7 @@
       "Piedveloce"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Sa mâchoire inférieure et ses crocs surdimensionnés sont ses armes de prédilection. Il ne mord pas tant qu'on ne l'énerve pas.",
     "level_up": [
       {
@@ -9686,7 +10241,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/granbull.png"
+    "image": "assets/pkm/granbull.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Qwilfish",
@@ -9699,7 +10255,7 @@
       "Glissade"
     ],
     "hidden_ability": "Intimidation",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Son corps est recouvert de pics provenant de ses écailles. Ils sécrètent un poison étourdissant.",
     "level_up": [
       {
@@ -9821,7 +10377,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/qwilfish.png"
+    "image": "assets/pkm/qwilfish.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Caratroc",
@@ -9834,7 +10391,7 @@
       "Gloutonnerie"
     ],
     "hidden_ability": "Contestation",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il garde des Baies dans sa coquille. Pour éviter les attaques, il s'immobilise sous les rochers.",
     "level_up": [
       {
@@ -9948,7 +10505,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/caratroc.png"
+    "image": "assets/pkm/caratroc.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Scarminus",
@@ -10077,7 +10635,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/scarminus.png"
+    "image": "assets/pkm/scarminus.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "SCARHINO",
+        "target_name": "Scarhino",
+        "method": "Level",
+        "level": 30,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Scarhino",
@@ -10090,7 +10661,7 @@
       "Cran"
     ],
     "hidden_ability": "Impudence",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il parcourt les forêts à la recherche de miel. Il est très fier de sa force colossale, mais sa capacité à voler laisse quelque peu à désirer.",
     "level_up": [
       {
@@ -10219,7 +10790,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/scarhino.png"
+    "image": "assets/pkm/scarhino.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Farfuret",
@@ -10357,7 +10929,21 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/farfuret.png"
+    "image": "assets/pkm/farfuret.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "DIMORET",
+        "target_name": "Dimoret",
+        "method": "HoldItem",
+        "level": null,
+        "item_token": "GRIFFERASOIR",
+        "item_name": "Griffe Rasoir",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ]
   },
   {
     "name": "Dimoret",
@@ -10370,7 +10956,7 @@
       "Pression"
     ],
     "hidden_ability": "Pickpocket",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il vit dans les régions enneigées, et communique avec ses pairs en gravant des motifs sur les arbres.",
     "level_up": [
       {
@@ -10491,7 +11077,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/dimoret.png"
+    "image": "assets/pkm/dimoret.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Teddiursa",
@@ -10624,7 +11211,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/teddiursa.png"
+    "image": "assets/pkm/teddiursa.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "URSARING",
+        "target_name": "Ursaring",
+        "method": "Level",
+        "level": 30,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Ursaring",
@@ -10764,7 +11364,21 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/ursaring.png"
+    "image": "assets/pkm/ursaring.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "URSAKING",
+        "target_name": "Ursaking",
+        "method": "NightHoldItem",
+        "level": null,
+        "item_token": "GRIFFERASOIR",
+        "item_name": "Griffe Rasoir",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": "night"
+      }
+    ]
   },
   {
     "name": "Ursaking",
@@ -10776,7 +11390,7 @@
       "Oeilrevelateur"
     ],
     "hidden_ability": "Oeilrevelateur",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Les étendues marécageuses de Hisui ont doté ce Pokémon d'un corps robuste et d’une aptitude à manipuler la tourbe.",
     "level_up": [
       {
@@ -10909,7 +11523,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/ursaking.png"
+    "image": "assets/pkm/ursaking.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Limagma",
@@ -11035,7 +11650,20 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/limagma.png"
+    "image": "assets/pkm/limagma.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "VOLCAROPOD",
+        "target_name": "Volcaropod",
+        "method": "Level",
+        "level": 33,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Volcaropod",
@@ -11160,7 +11788,20 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/volcaropod.png"
+    "image": "assets/pkm/volcaropod.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "MAGMOLLUSK",
+        "target_name": "Magmollusk",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_ROC",
+        "item_name": "Pierre Schiste",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Magmollusk",
@@ -11173,7 +11814,7 @@
       "Corpsardent"
     ],
     "hidden_ability": "Armurouillee",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Le magma de son corps s’est tellement épaissi qu’il forme une carapace presque indestructible. Lorsqu’il se déplace, il laisse derrière lui des sillons de roche vitrifiée.",
     "level_up": [
       {
@@ -11285,7 +11926,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/magmollusk.png"
+    "image": "assets/pkm/magmollusk.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Marcacrin",
@@ -11412,7 +12054,20 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/marcacrin.png"
+    "image": "assets/pkm/marcacrin.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "COCHIGNON",
+        "target_name": "Cochignon",
+        "method": "Level",
+        "level": 33,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Cochignon",
@@ -11537,7 +12192,20 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cochignon.png"
+    "image": "assets/pkm/cochignon.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "MAMMOCHON",
+        "target_name": "Mammochon",
+        "method": "HasMove",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": "POUVOIRANTIQUE",
+        "move_name": "Pouvoir Antique",
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Mammochon",
@@ -11550,7 +12218,7 @@
       "Rideauneige"
     ],
     "hidden_ability": "Isograisse",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ses défenses spectaculaires sont glacées. Il a failli disparaître dans la canicule suivant l'ère glaciaire.",
     "level_up": [
       {
@@ -11662,7 +12330,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/mammochon.png"
+    "image": "assets/pkm/mammochon.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Cadutin",
@@ -11789,7 +12458,20 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cadutin.png"
+    "image": "assets/pkm/cadutin.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "CADOIZO",
+        "target_name": "Cadoizo",
+        "method": "Level",
+        "level": 22,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Cadoizo",
@@ -11914,7 +12596,20 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cadoizo.png"
+    "image": "assets/pkm/cadoizo.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "PAPADOIZO",
+        "target_name": "Papadoizo",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_NEI",
+        "item_name": "Pierre Flocon",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Papadoizo",
@@ -11927,7 +12622,7 @@
       "Agitation"
     ],
     "hidden_ability": "Insomnia",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il transporte toujours sur lui de nombreux cadeaux. Il est très altruiste envers les humains et les Pokémon.",
     "level_up": [
       {
@@ -12055,7 +12750,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/papadoizo.png"
+    "image": "assets/pkm/papadoizo.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Corayon",
@@ -12068,7 +12764,7 @@
       "Medicnature"
     ],
     "hidden_ability": "Regeforce",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ses branches repoussent si elles sont brisées. Les plus belles sont offertes aux futures mamans comme porte-bonheurs.",
     "level_up": [
       {
@@ -12187,7 +12883,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/corayon.png"
+    "image": "assets/pkm/corayon.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Remoraid",
@@ -12313,7 +13010,20 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/remoraid.png"
+    "image": "assets/pkm/remoraid.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "OCTILLERY",
+        "target_name": "Octillery",
+        "method": "Level",
+        "level": 25,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Octillery",
@@ -12326,7 +13036,7 @@
       "Sniper"
     ],
     "hidden_ability": "Lunatique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il aveugle l'ennemi en crachant un nuage d'encre opaque et creuse sa tanière à l'ombre des rochers.",
     "level_up": [
       {
@@ -12443,7 +13153,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/octillery.png"
+    "image": "assets/pkm/octillery.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Loupio",
@@ -12582,7 +13293,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/loupio.png"
+    "image": "assets/pkm/loupio.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "LANTURN",
+        "target_name": "Lanturn",
+        "method": "Level",
+        "level": 27,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Lanturn",
@@ -12595,7 +13319,7 @@
       "Lumiattirance"
     ],
     "hidden_ability": "Absorbeau",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Lorsqu'on regarde au fond de la mer au milieu de la nuit et que l'on croit apercevoir le reflet des étoiles, c'est probablement un Lanturn.",
     "level_up": [
       {
@@ -12721,7 +13445,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/lanturn.png"
+    "image": "assets/pkm/lanturn.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Babimanta",
@@ -12893,7 +13618,20 @@
       "Rune Protect",
       "Vague Psy"
     ],
-    "image": "assets/pkm/babimanta.png"
+    "image": "assets/pkm/babimanta.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "DEMANTA",
+        "target_name": "Demanta",
+        "method": "HasInParty",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Demanta",
@@ -12906,7 +13644,7 @@
       "Absorbeau"
     ],
     "hidden_ability": "Ignifuvoile",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il ignore royalement les Rémoraid qui s'accrochent à ses nageoires pour manger les restes qu'il sème.",
     "level_up": [
       {
@@ -13077,7 +13815,8 @@
       "Tranch'Aile",
       "Vague Psy"
     ],
-    "image": "assets/pkm/demanta.png"
+    "image": "assets/pkm/demanta.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Ferplume",
@@ -13208,7 +13947,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/ferplume.png"
+    "image": "assets/pkm/ferplume.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "AIRMURE",
+        "target_name": "Airmure",
+        "method": "Level",
+        "level": 26,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Airmure",
@@ -13221,7 +13973,7 @@
       "Fermete"
     ],
     "hidden_ability": "Armurouillee",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Comme il fait son nid dans les ronces, ses petits s'endurcissent à force d'être sans cesse éraflés.",
     "level_up": [
       {
@@ -13339,7 +14091,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/airmure.png"
+    "image": "assets/pkm/airmure.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Malosse",
@@ -13482,7 +14235,20 @@
       "Vengeance"
     ],
     "dt": [],
-    "image": "assets/pkm/malosse.png"
+    "image": "assets/pkm/malosse.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "DEMOLOSSE",
+        "target_name": "Démolosse",
+        "method": "Level",
+        "level": 24,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Démolosse",
@@ -13495,7 +14261,7 @@
       "Torche"
     ],
     "hidden_ability": "Tension",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ceux qui le craignaient jadis lui ont donné le surnom de « messager de la Faucheuse » à cause de son hurlement sinistre si particulier.",
     "level_up": [
       {
@@ -13630,7 +14396,8 @@
       "Vengeance"
     ],
     "dt": [],
-    "image": "assets/pkm/dmolosse.png"
+    "image": "assets/pkm/dmolosse.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Phanpy",
@@ -13762,7 +14529,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/phanpy.png"
+    "image": "assets/pkm/phanpy.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "DONPHAN",
+        "target_name": "Donphan",
+        "method": "Level",
+        "level": 25,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Donphan",
@@ -13773,7 +14553,7 @@
       "Fermete"
     ],
     "hidden_ability": "Voilesable",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Plus grandes sont ses défenses, plus haut est son rang dans le troupeau. Elles poussent lentement.",
     "level_up": [
       {
@@ -13896,7 +14676,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/donphan.png"
+    "image": "assets/pkm/donphan.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Cerfrousse",
@@ -13909,7 +14690,7 @@
       "Fouille"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Quiconque observe ses bois circulaires éprouve l'étrange impression d'être happé par leur centre.",
     "level_up": [
       {
@@ -14023,7 +14804,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cerfrousse.png"
+    "image": "assets/pkm/cerfrousse.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Queulorior",
@@ -14035,7 +14817,7 @@
       "Technicien"
     ],
     "hidden_ability": "Lunatique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il marque son territoire en maniant sa queue comme un pinceau. On dénombre plus de 5000 marques.",
     "level_up": [
       {
@@ -14103,7 +14885,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/queulorior.png"
+    "image": "assets/pkm/queulorior.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Écrémeuh",
@@ -14115,7 +14898,7 @@
       "Querelleur"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ce Pokémon est surtout élevé pour son lait, bien que sa stature imposante en fasse un Pokémon de combat tout à fait respectable.",
     "level_up": [
       {
@@ -14236,7 +15019,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/crmeuh.png"
+    "image": "assets/pkm/crmeuh.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Embrylex",
@@ -14370,7 +15154,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/embrylex.png"
+    "image": "assets/pkm/embrylex.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "YMPHECT",
+        "target_name": "Ymphect",
+        "method": "Level",
+        "level": 30,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Ymphect",
@@ -14501,7 +15298,20 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/ymphect.png"
+    "image": "assets/pkm/ymphect.png",
+    "evolutions_detailed": [
+      {
+        "target_token": "TYRANOCIF",
+        "target_name": "Tyranocif",
+        "method": "Level",
+        "level": 55,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null
+      }
+    ]
   },
   {
     "name": "Tyranocif",
@@ -14513,7 +15323,7 @@
       "Sablevolant"
     ],
     "hidden_ability": "Tension",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il parcourt les montagnes à la recherche d'un adversaire. Si ce dernier n'est pas à la hauteur, il préfère l'ignorer et s'en aller.",
     "level_up": [
       {
@@ -14644,7 +15454,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/tyranocif.png"
+    "image": "assets/pkm/tyranocif.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Raikou",
@@ -14655,7 +15466,7 @@
       "Pression"
     ],
     "hidden_ability": "Attention",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Le nuage de pluie qu'il porte peut relâcher la foudre à volonté. On dit de lui qu'il est venu avec l'orage.",
     "level_up": [
       {
@@ -14767,7 +15578,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/raikou.png"
+    "image": "assets/pkm/raikou.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Entei",
@@ -14778,7 +15590,7 @@
       "Pression"
     ],
     "hidden_ability": "Attention",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Un Pokémon qui parcourt le monde. On dit qu'il en naît un à chaque fois qu'un volcan apparaît.",
     "level_up": [
       {
@@ -14890,7 +15702,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/entei.png"
+    "image": "assets/pkm/entei.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Suicune",
@@ -14901,7 +15714,7 @@
       "Pression"
     ],
     "hidden_ability": "Attention",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Suicune incarne la tranquillité d'une source d'eau pure. Il parcourt les plaines avec grâce. Ce Pokémon a le pouvoir de purifier l'eau.",
     "level_up": [
       {
@@ -15013,7 +15826,8 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/suicune.png"
+    "image": "assets/pkm/suicune.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Ho-Oh",
@@ -15025,7 +15839,7 @@
       "Pression"
     ],
     "hidden_ability": "Regeforce",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Une légende raconte que son corps brille de sept couleurs. Un arc-en-ciel se forme derrière lui quand il vole.",
     "level_up": [
       {
@@ -15143,7 +15957,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/hooh.png"
+    "image": "assets/pkm/hooh.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Lugia",
@@ -15155,7 +15970,7 @@
       "Pression"
     ],
     "hidden_ability": "Multiecaille",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il est supposé être le gardien des sept mers. On raconte qu'il est apparu une nuit de forte tempête.",
     "level_up": [
       {
@@ -15277,7 +16092,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/lugia.png"
+    "image": "assets/pkm/lugia.png",
+    "evolutions_detailed": []
   },
   {
     "name": "Celebi",
@@ -15289,7 +16105,7 @@
       "Medicnature"
     ],
     "hidden_ability": "Creaherbe",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ce Pokémon voyage dans le temps. Les forêts où il apparaît deviennent prodigieusement luxuriantes.",
     "level_up": [
       {
@@ -15406,7 +16222,8 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/celebi.png"
+    "image": "assets/pkm/celebi.png",
+    "evolutions_detailed": []
   },
   {
     "name": "LéviatorΔ",
@@ -15418,7 +16235,7 @@
       "Colerique"
     ],
     "hidden_ability": "Impudence",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Apparu au Lac Colère, sa fureur ne semble jamais se calmer. Serait-il dû à l'instabilité de ses types?",
     "level_up": [
       {
@@ -15539,6 +16356,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/lviator.png"
+    "image": "assets/pkm/lviator.png",
+    "evolutions_detailed": []
   }
 ]
