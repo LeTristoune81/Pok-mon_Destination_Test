@@ -4581,7 +4581,7 @@
         "puissance": 65,
         "precision": 100,
         "pp": 15,
-        "description": "Permet de casser une grand plaque hors combat."
+        "description": "Permet de casser une grand plaque hors combat. # SINNOH : Donner par la Doyenne de Célestia "
       },
       {
         "code": "CS18",
