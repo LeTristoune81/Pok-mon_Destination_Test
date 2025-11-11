@@ -5,7 +5,7 @@
   <title>Toutes les attaques</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- CSP adaptée à GitHub Pages + script inline + fetch local -->
+  <!-- CSP pour GitHub Pages + script inline + fetch local -->
   <meta http-equiv="Content-Security-Policy"
         content="default-src 'self';
                  img-src 'self' data:;
@@ -42,7 +42,7 @@
 
   <div class="wrap">
     <h1>Toutes les attaques</h1>
-    <div class="note">Recherche + filtre par type</div>
+    <div class="note" id="meta">Recherche + filtre par type</div>
 
     <div class="toolbar">
       <input id="search" type="search" placeholder="Rechercher une attaque…" />
@@ -61,31 +61,66 @@
 
   <script>
   (async () => {
-    // Emplacement JSON (page placée sous /Pages/Attaques/)
-    const PATH = '../../data/moves_by_type.json';
-
     const msg     = document.getElementById('msg');
     const grid    = document.getElementById('moves');
     const search  = document.getElementById('search');
     const typeSel = document.getElementById('typeSel');
     const countEl = document.getElementById('count');
+    const meta    = document.getElementById('meta');
+
+    // --- Détection du préfixe de dépôt GitHub Pages (ex: /Pok-mon_Destination_Test) ---
+    const REPO_BASE = (()=>{
+      const m = location.pathname.match(/^\/[^/]+\/[^/]+/); // /<user>.github.io/<repo> → mais sur project pages c'est /<repo>
+      // Pour project pages : pathname commence par /<repo> ; pour user pages : pas de repo
+      // On essaie de détecter le premier segment (= repo)
+      const seg = location.pathname.split('/').filter(Boolean);
+      return seg.length ? '/' + seg[0] : '';
+    })();
+
+    // Candidates robustes depuis /Pages/Attaques/toutes.html
+    const CANDIDATES = [
+      '../../data/moves_by_type.json',
+      REPO_BASE + '/data/moves_by_type.json',
+      // au cas où la page serait déplacée :
+      '../data/moves_by_type.json',
+      './data/moves_by_type.json',
+      '/data/moves_by_type.json' // (ne marche pas sur project pages, mais on tente)
+    ];
 
     const norm = s => (s ?? '').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 
-    async function loadJSON(path, label) {
-      const res = await fetch(path, { cache: 'no-cache' });
-      if (!res.ok) throw new Error(`${label} introuvable (${res.status}) : ${res.url}`);
-      return res.json();
+    async function tryFetch(url){
+      const res = await fetch(url + (url.includes('?')?'&':'?') + 'v=' + Date.now(), { cache: 'no-cache' });
+      if (!res.ok) throw new Error(`${res.status} ${res.statusText} — ${res.url}`);
+      return await res.json();
+    }
+
+    async function loadByType(){
+      let lastErr = null;
+      for (const url of CANDIDATES){
+        try{
+          const j = await tryFetch(url);
+          meta.textContent = `Recherche + filtre par type — Source: ${url}`;
+          console.log('[moves] loaded:', url);
+          return j;
+        }catch(e){
+          lastErr = e;
+          console.warn('[moves] fail:', url, e.message);
+        }
+      }
+      throw lastErr || new Error('moves_by_type.json introuvable');
     }
 
     let byType;
     try {
-      byType = await loadJSON(PATH, 'moves_by_type.json');
+      byType = await loadByType();
     } catch (e) {
       msg.innerHTML = `<div class="alert">
-        Erreur de chargement : ${e.message}<br>
-        Vérifie que le fichier existe bien à l’emplacement :
-        <div><code>${PATH}</code></div>
+        <div><b>Erreur de chargement du JSON</b></div>
+        <div style="margin-top:6px">${e.message}</div>
+        <div style="margin-top:8px">Chemins testés :</div>
+        <ul style="margin-top:6px">${CANDIDATES.map(u=>`<li><code>${u}</code></li>`).join('')}</ul>
+        <div style="margin-top:8px">Vérifie que le fichier <code>data/moves_by_type.json</code> est bien committé à la racine du dépôt et accessible publiquement.</div>
       </div>`;
       return;
     }
@@ -114,9 +149,13 @@
       for (const m of byType[t]) {
         ALL.push({
           ...m,
-          type: t,                                      // garantir la présence du type
-          upper: m.upper || m.Upper || m.code || '',    // pour l'ancrage
-          name:  m.name  || m.Nom   || m.Name  || ''    // affichage
+          type: t,
+          upper: m.upper || m.Upper || m.code || '',
+          name:  m.name  || m.Nom   || m.Name  || '',
+          category: m.category || m.categorie || m.Categorie || '',
+          power: m.power ?? m.Puissance ?? '',
+          accuracy: m.accuracy ?? m.Precision ?? '',
+          pp: m.pp ?? m.TotalPP ?? ''
         });
       }
     }
@@ -125,7 +164,6 @@
       countEl.textContent = ` ${n} ${n>1?'attaques':'attaque'}`;
     }
 
-    // ID d'ancre stable pour chaque move (utile si on arrive avec #CRACHFUMEE)
     function moveId(m){
       return (m.upper || norm(m.name)).replace(/\s+/g,'_');
     }
@@ -154,7 +192,7 @@
         </div>
       `).join('');
 
-      // Si on vient avec un hash (#MOVE), on scroll sur la carte
+      // Arrivée avec un hash (#MOVE)
       if (location.hash) {
         const id = decodeURIComponent(location.hash.slice(1));
         const target = document.getElementById(id);
@@ -162,12 +200,10 @@
       }
     }
 
-    // Événements + premier rendu
     search.addEventListener('input', render);
     typeSel.addEventListener('change', render);
     render();
 
-    // Si le hash change après filtrage / recherche
     window.addEventListener('hashchange', () => {
       const id = decodeURIComponent(location.hash.slice(1));
       const target = document.getElementById(id);
