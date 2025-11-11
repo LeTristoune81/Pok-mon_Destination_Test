@@ -4234,7 +4234,7 @@
       "CanMirrorMove"
     ],
     "effect_chance": null,
-    "description": "Brise les barrières."
+    "description": "Permet de casser une grand plaque hors combat."
   },
   "PIEDSOLIDE": {
     "token": "PIEDSOLIDE",
