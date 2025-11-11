@@ -8,7 +8,7 @@
       "Engrais"
     ],
     "hidden_ability": "Feuillegarde",
-    "evolution": "Evolue en Macronium au niveau 18",
+    "evolution": "Évolue en Macronium au niveau 18",
     "pokedex": "Il jauge la température et l'humidité grâce à la feuille sur sa tête. Il raffole des bains de soleil.",
     "level_up": [
       {
@@ -163,20 +163,7 @@
       "Tranch'Herbe",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/germignon.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "MACRONIUM",
-        "target_name": "Macronium",
-        "method": "Level",
-        "level": 18,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/germignon.png"
   },
   {
     "name": "Macronium",
@@ -187,7 +174,7 @@
       "Engrais"
     ],
     "hidden_ability": "Feuillegarde",
-    "evolution": "Evolue en Méganium au niveau 36",
+    "evolution": "Évolue en Méganium au niveau 36",
     "pokedex": "Un arôme épicé émane de son cou. Il agit comme un stimulant et lui fait récupérer son énergie.",
     "level_up": [
       {
@@ -360,20 +347,7 @@
       "Vent Argenté",
       "Photo-Geyser"
     ],
-    "image": "assets/pkm/macronium.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "MEGANIUM",
-        "target_name": "Méganium",
-        "method": "Level",
-        "level": 36,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/macronium.png"
   },
   {
     "name": "Méganium",
@@ -385,7 +359,7 @@
       "Engrais"
     ],
     "hidden_ability": "Feuillegarde",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Le souffle de Méganium a le pouvoir de redonner la santé aux plantes malades ou mortes.",
     "level_up": [
       {
@@ -597,8 +571,7 @@
       "Vent Argenté",
       "Photo-Geyser"
     ],
-    "image": "assets/pkm/mganium.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/mganium.png"
   },
   {
     "name": "Héricendre",
@@ -609,7 +582,7 @@
       "Brasier"
     ],
     "hidden_ability": "Torche",
-    "evolution": "Evolue en Feurisson au niveau 18",
+    "evolution": "Évolue en Feurisson au niveau 18",
     "pokedex": "Il est timide et se roule en boule pour se protéger. Attaqué, il s'enflamme le dos pour riposter.",
     "level_up": [
       {
@@ -755,20 +728,7 @@
       "Ronflement",
       "Roue de Feu"
     ],
-    "image": "assets/pkm/hricendre.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "FEURISSON",
-        "target_name": "Feurisson",
-        "method": "Level",
-        "level": 18,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/hricendre.png"
   },
   {
     "name": "Feurisson",
@@ -779,7 +739,7 @@
       "Brasier"
     ],
     "hidden_ability": "Torche",
-    "evolution": "Evolue en Typhlosion au niveau 36",
+    "evolution": "Évolue en Typhlosion au niveau 36",
     "pokedex": "Attention! Quand il tourne le dos dans un combat, c'est qu'il va attaquer avec ses flammes dorsales.",
     "level_up": [
       {
@@ -944,20 +904,7 @@
       "Vindicte",
       "Photo-Geyser"
     ],
-    "image": "assets/pkm/feurisson.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "TYPHLOSION",
-        "target_name": "Typhlosion",
-        "method": "Level",
-        "level": 36,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/feurisson.png"
   },
   {
     "name": "Typhlosion",
@@ -968,7 +915,7 @@
       "Brasier"
     ],
     "hidden_ability": "Torche",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il a un coup secret dévastateur. En frottant sa fourrure ardente, il crée une forte explosion.",
     "level_up": [
       {
@@ -1194,8 +1141,7 @@
       "Vortex Magma",
       "Photo-Geyser"
     ],
-    "image": "assets/pkm/typhlosion.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/typhlosion.png"
   },
   {
     "name": "Kaiminus",
@@ -1206,7 +1152,7 @@
       "Torrent"
     ],
     "hidden_ability": "Sanslimite",
-    "evolution": "Evolue en Crocrodil au niveau 18",
+    "evolution": "Évolue en Crocrodil au niveau 18",
     "pokedex": "Sa mâchoire surdéveloppée est capable de tout broyer. Même son Dresseur doit s'en méfier.",
     "level_up": [
       {
@@ -1366,20 +1312,7 @@
       "Saisie",
       "Sectionnage"
     ],
-    "image": "assets/pkm/kaiminus.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "CROCRODIL",
-        "target_name": "Crocrodil",
-        "method": "Level",
-        "level": 18,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/kaiminus.png"
   },
   {
     "name": "Crocrodil",
@@ -1391,7 +1324,7 @@
       "Torrent"
     ],
     "hidden_ability": "Sanslimite",
-    "evolution": "Evolue en Aligatueur au niveau 36",
+    "evolution": "Évolue en Aligatueur au niveau 36",
     "pokedex": "Quand il perd un croc, il en repousse un autre. Sa bouche est en permanence composée de 48 dents.",
     "level_up": [
       {
@@ -1571,20 +1504,7 @@
       "Typhon Pyrosable",
       "Vent Glace"
     ],
-    "image": "assets/pkm/crocrodil.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "ALIGATUEUR",
-        "target_name": "Aligatueur",
-        "method": "Level",
-        "level": 36,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/crocrodil.png"
   },
   {
     "name": "Aligatueur",
@@ -1596,7 +1516,7 @@
       "Torrent"
     ],
     "hidden_ability": "Sanslimite",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Quand il mord avec sa puissante mâchoire, il secoue sa tête pour déchiqueter sa pauvre victime.",
     "level_up": [
       {
@@ -1832,8 +1752,7 @@
       "Vague Ambrée",
       "Vent Glace"
     ],
-    "image": "assets/pkm/aligatueur.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/aligatueur.png"
   },
   {
     "name": "Fouinette",
@@ -1845,7 +1764,7 @@
       "Regardvif"
     ],
     "hidden_ability": "Fouille",
-    "evolution": "Evolue en Fouinar au niveau 15",
+    "evolution": "Évolue en Fouinar au niveau 15",
     "pokedex": "Il se tient dressé sur sa queue pour voir les ennemis arriver de loin. À ce moment, il avertit ses amis.",
     "level_up": [
       {
@@ -2009,20 +1928,7 @@
       "Retour",
       "Rune Protect"
     ],
-    "image": "assets/pkm/fouinette.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "FOUINAR",
-        "target_name": "Fouinar",
-        "method": "Level",
-        "level": 15,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/fouinette.png"
   },
   {
     "name": "Fouinar",
@@ -2035,7 +1941,7 @@
       "Regardvif"
     ],
     "hidden_ability": "Fouille",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "La femelle s'enroule autour de ses petits pour les bercer. Il accule l'ennemi grâce à sa vitesse.",
     "level_up": [
       {
@@ -2223,8 +2129,7 @@
       "Sentence",
       "Tête de Fer"
     ],
-    "image": "assets/pkm/fouinar.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/fouinar.png"
   },
   {
     "name": "Hoothoot",
@@ -2237,7 +2142,7 @@
       "Regardvif"
     ],
     "hidden_ability": "Lentiteintee",
-    "evolution": "Evolue en Noarfang au niveau 20",
+    "evolution": "Évolue en Noarfang au niveau 20",
     "pokedex": "Il hoche toujours la tête au même rythme, aussi faisait-il fréquemment office d'horloge par le passé.",
     "level_up": [
       {
@@ -2385,20 +2290,7 @@
       "Vague Psy",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/hoothoot.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "NOARFANG",
-        "target_name": "Noarfang",
-        "method": "Level",
-        "level": 20,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/hoothoot.png"
   },
   {
     "name": "Noarfang",
@@ -2411,7 +2303,7 @@
       "Regardvif"
     ],
     "hidden_ability": "Lentiteintee",
-    "evolution": "Evolue en Prophibou en tenant l'objet Vieille Amulette",
+    "evolution": "Évolue en Prophibou en tenant l'objet Vieille Amulette",
     "pokedex": "Quand il est soucieux, il tourne la tête à 180 degrés. Il ne faut alors surtout pas le déranger, sous peine de recevoir un coup de bec.",
     "level_up": [
       {
@@ -2562,21 +2454,7 @@
       "Vague Psy",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/noarfang.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "PROPHIBOU",
-        "target_name": "Prophibou",
-        "method": "HoldItem",
-        "level": null,
-        "item_token": "BOOST_TEM",
-        "item_name": "Vieille Amulette",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null,
-        "time": null
-      }
-    ]
+    "image": "assets/pkm/noarfang.png"
   },
   {
     "name": "Prophibou",
@@ -2589,7 +2467,7 @@
       "Miroirmagik"
     ],
     "hidden_ability": "Lentiteintee",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "On raconte qu’il voit simultanément le passé, le présent et le futur. Il est devenu trop lourd pour voler.",
     "level_up": [
       {
@@ -2755,8 +2633,7 @@
       "Vague Psy",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/prophibou.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/prophibou.png"
   },
   {
     "name": "Coxy",
@@ -2769,7 +2646,7 @@
       "Matinal"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "Evolue en Coxyclaque au niveau 18",
+    "evolution": "Évolue en Coxyclaque au niveau 18",
     "pokedex": "Extrêmement timide, ce Pokémon défend le nid qu'il partage avec ses congénères en utilisant Protection.",
     "level_up": [
       {
@@ -2886,20 +2763,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/coxy.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "COXYCLAQUE",
-        "target_name": "Coxyclaque",
-        "method": "Level",
-        "level": 18,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/coxy.png"
   },
   {
     "name": "Coxyclaque",
@@ -2912,7 +2776,7 @@
       "Matinal"
     ],
     "hidden_ability": "Poingdefer",
-    "evolution": "Evolue en Coxypunch en tenant l'objet Gant de Boxe / Evolue en Coxynescent en connaissant une attaque de type Cosmique",
+    "evolution": "Évolue en Coxypunch en tenant l'objet Gant de Boxe / Évolue en Coxynescent en connaissant une attaque de type Cosmique",
     "pokedex": "Le motif qui orne son dos aurait un lien avec les étoiles, mais nul ne sait encore en quoi consiste ce lien.",
     "level_up": [
       {
@@ -3028,32 +2892,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/coxyclaque.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "COXYPUNCH",
-        "target_name": "Coxypunch",
-        "method": "HoldItem",
-        "level": null,
-        "item_token": "GANTDEBOXE",
-        "item_name": "Gant de Boxe",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null,
-        "time": null
-      },
-      {
-        "target_token": "COXYNESCENT",
-        "target_name": "Coxynescent",
-        "method": "HasMoveType",
-        "level": null,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": "COSMIQUE"
-      }
-    ]
+    "image": "assets/pkm/coxyclaque.png"
   },
   {
     "name": "Coxypunch",
@@ -3066,7 +2905,7 @@
       "Matinal"
     ],
     "hidden_ability": "Poingdefer",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "???",
     "level_up": [
       {
@@ -3190,8 +3029,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/coxypunch.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/coxypunch.png"
   },
   {
     "name": "Coxynescent",
@@ -3204,7 +3042,7 @@
       "Matinal"
     ],
     "hidden_ability": "Poingdefer",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Sa puissance cosmique a pris l'ascendant sur son corps. Il peut se propulser à très grande vitesse.",
     "level_up": [
       {
@@ -3326,8 +3164,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/coxynescent.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/coxynescent.png"
   },
   {
     "name": "Mimigal",
@@ -3340,7 +3177,7 @@
       "Insomnia"
     ],
     "hidden_ability": "Sniper",
-    "evolution": "Evolue en Migalos au niveau 22",
+    "evolution": "Évolue en Migalos au niveau 22",
     "pokedex": "La toile qu'il tisse avec les fils qu'il sécrète est tellement solide qu'elle peut soutenir une pierre de dix kilos.",
     "level_up": [
       {
@@ -3465,20 +3302,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/mimigal.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "MIGALOS",
-        "target_name": "Migalos",
-        "method": "Level",
-        "level": 22,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/mimigal.png"
   },
   {
     "name": "Migalos",
@@ -3491,7 +3315,7 @@
       "Insomnia"
     ],
     "hidden_ability": "Sniper",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Ce Pokémon peut créer du fil avec sa bouche ou son abdomen. Il l'utilise pour ligoter sa proie, puis aspire lentement ses fluides vitaux.",
     "level_up": [
       {
@@ -3616,8 +3440,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/migalos.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/migalos.png"
   },
   {
     "name": "Togepi",
@@ -3629,7 +3452,7 @@
       "Serenite"
     ],
     "hidden_ability": "Chanceux",
-    "evolution": "Evolue en Togetic avec une grande amitié",
+    "evolution": "Évolue en Togetic avec une grande amitié",
     "pokedex": "Un proverbe nous enseigne que le bonheur touchera celui qui peut faire tenir debout un Togepi endormi.",
     "level_up": [
       {
@@ -3737,20 +3560,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/togepi.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "TOGETIC",
-        "target_name": "Togetic",
-        "method": "Happiness",
-        "level": null,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/togepi.png"
   },
   {
     "name": "Togetic",
@@ -3763,7 +3573,7 @@
       "Serenite"
     ],
     "hidden_ability": "Chanceux",
-    "evolution": "Evolue en Togekiss en utilisant Pierre Aile / Evolue en Togekoloss en utilisant Pierre Antique",
+    "evolution": "Évolue en Togekiss en utilisant Pierre Aile / Évolue en Togekoloss en utilisant Pierre Antique",
     "pokedex": "Il se démoralise vite s'il n'est pas avec des gens sympathiques. Il peut léviter sans battre des ailes.",
     "level_up": [
       {
@@ -3878,31 +3688,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/togetic.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "TOGEKISS",
-        "target_name": "Togekiss",
-        "method": "Item",
-        "level": null,
-        "item_token": "PIERRE_VOL",
-        "item_name": "Pierre Aile",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      },
-      {
-        "target_token": "TOGEKOLOSS",
-        "target_name": "Togekoloss",
-        "method": "Item",
-        "level": null,
-        "item_token": "PIERRE_DRA",
-        "item_name": "Pierre Antique",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/togetic.png"
   },
   {
     "name": "Togekiss",
@@ -3915,7 +3701,7 @@
       "Serenite"
     ],
     "hidden_ability": "Chanceux",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il apprécie particulièrement les gens qui respectent les autres et évitent les conflits inutiles.",
     "level_up": [
       {
@@ -4032,8 +3818,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/togekiss.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/togekiss.png"
   },
   {
     "name": "Togekoloss",
@@ -4046,7 +3831,7 @@
       "Serenite"
     ],
     "hidden_ability": "Chanceux",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il vole à travers les plus hauts nuages. On raconte que l'appercevoir porterait bonheur pour les 7 prochaines années.",
     "level_up": [
       {
@@ -4175,8 +3960,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/togekoloss.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/togekoloss.png"
   },
   {
     "name": "Natu",
@@ -4189,7 +3973,7 @@
       "Matinal"
     ],
     "hidden_ability": "Miroirmagik",
-    "evolution": "Evolue en Xatu au niveau 35",
+    "evolution": "Évolue en Xatu au niveau 35",
     "pokedex": "Ses ailes ne sont pas assez développées et il ne peut que planer péniblement. Il fixe toujours quelque chose.",
     "level_up": [
       {
@@ -4315,20 +4099,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/natu.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "XATU",
-        "target_name": "Xatu",
-        "method": "Level",
-        "level": 35,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/natu.png"
   },
   {
     "name": "Xatu",
@@ -4341,7 +4112,7 @@
       "Matinal"
     ],
     "hidden_ability": "Miroirmagik",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Bien qu'il puisse voir l'avenir, il n'a aucune intention de le changer. Cela expliquerait pourquoi il reste immobile.",
     "level_up": [
       {
@@ -4458,8 +4229,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/xatu.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/xatu.png"
   },
   {
     "name": "Wattouat",
@@ -4471,7 +4241,7 @@
       "Statik"
     ],
     "hidden_ability": "Plus",
-    "evolution": "Evolue en Lainergie au niveau 15",
+    "evolution": "Évolue en Lainergie au niveau 15",
     "pokedex": "Il garde une grande quantité d'air dans sa toison pour ne pas subir les variations de température.",
     "level_up": [
       {
@@ -4596,20 +4366,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/wattouat.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "LAINERGIE",
-        "target_name": "Lainergie",
-        "method": "Level",
-        "level": 15,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/wattouat.png"
   },
   {
     "name": "Lainergie",
@@ -4621,7 +4378,7 @@
       "Statik"
     ],
     "hidden_ability": "Plus",
-    "evolution": "Evolue en Pharamp au niveau 30",
+    "evolution": "Évolue en Pharamp au niveau 30",
     "pokedex": "Sa queue s'allume lorsque sa laine se charge d'électricité. Il projette des poils électrifiés.",
     "level_up": [
       {
@@ -4737,20 +4494,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/lainergie.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "PHARAMP",
-        "target_name": "Pharamp",
-        "method": "Level",
-        "level": 30,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/lainergie.png"
   },
   {
     "name": "Pharamp",
@@ -4762,7 +4506,7 @@
       "Statik"
     ],
     "hidden_ability": "Plus",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Le bout de sa queue brille si fort qu'il peut être vu de très loin. Il sert de balise aux gens.",
     "level_up": [
       {
@@ -4880,8 +4624,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/pharamp.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/pharamp.png"
   },
   {
     "name": "Azurill",
@@ -4894,7 +4637,7 @@
       "Coloforce"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "Evolue en Marill au niveau 16",
+    "evolution": "Évolue en Marill au niveau 16",
     "pokedex": "Il fait tournoyer sa queue, connue pour ses qualités nutritives, pour l'abattre comme une puissante massue sur l'ennemi.",
     "level_up": [
       {
@@ -5013,20 +4756,7 @@
       "Vibraqua"
     ],
     "dt": [],
-    "image": "assets/pkm/azurill.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "MARILL",
-        "target_name": "Marill",
-        "method": "Level",
-        "level": 16,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/azurill.png"
   },
   {
     "name": "Marill",
@@ -5039,7 +4769,7 @@
       "Coloforce"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "Evolue en Azumarill au niveau 28",
+    "evolution": "Évolue en Azumarill au niveau 28",
     "pokedex": "Le bout de sa queue renferme une huile plus légère que l'eau qui fait office de flotteur.",
     "level_up": [
       {
@@ -5165,20 +4895,7 @@
       "Vibraqua"
     ],
     "dt": [],
-    "image": "assets/pkm/marill.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "AZUMARILL",
-        "target_name": "Azumarill",
-        "method": "Level",
-        "level": 28,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/marill.png"
   },
   {
     "name": "Azumarill",
@@ -5191,7 +4908,7 @@
       "Coloforce"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Ses longues oreilles font un radar efficace. Elles décèlent les mouvements dans le lit des rivières.",
     "level_up": [
       {
@@ -5337,8 +5054,7 @@
       "Vibraqua"
     ],
     "dt": [],
-    "image": "assets/pkm/azumarill.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/azumarill.png"
   },
   {
     "name": "Manzaï",
@@ -5350,7 +5066,7 @@
       "Tetederoc"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "Evolue en Simularbre en connaissant Copie",
+    "evolution": "Évolue en Simularbre en connaissant Copie",
     "pokedex": "Adepte des climats secs, il régule son humidité en laissant couler ce qui ressemble à des larmes.",
     "level_up": [
       {
@@ -5481,20 +5197,7 @@
       "Tomberoche"
     ],
     "dt": [],
-    "image": "assets/pkm/manza.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "SIMULARBRE",
-        "target_name": "Simularbre",
-        "method": "HasMove",
-        "level": null,
-        "item_token": null,
-        "item_name": null,
-        "move_token": "COPIE",
-        "move_name": "Copie",
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/manza.png"
   },
   {
     "name": "Simularbre",
@@ -5507,7 +5210,7 @@
       "Tetederoc"
     ],
     "hidden_ability": "Phobique",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "La souplesse et la robustesse de ses bras sont le fruit d'un entraînement long et rigoureux qui consiste en une immobilité prolongée.",
     "level_up": [
       {
@@ -5647,8 +5350,7 @@
       "Vendetta"
     ],
     "dt": [],
-    "image": "assets/pkm/simularbre.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/simularbre.png"
   },
   {
     "name": "Magicarpe",
@@ -5659,7 +5361,7 @@
       "Glissade"
     ],
     "hidden_ability": "Phobique",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il manque totalement de vitesse et de force. C'est le Pokémon le plus pathétique au monde.",
     "level_up": [
       {
@@ -5713,8 +5415,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/magicarpe.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/magicarpe.png"
   },
   {
     "name": "Granivol",
@@ -5727,7 +5428,7 @@
       "Feuillegarde"
     ],
     "hidden_ability": "Infiltration",
-    "evolution": "Evolue en Floravol au niveau 18",
+    "evolution": "Évolue en Floravol au niveau 18",
     "pokedex": "Son corps est si léger qu'il doit s'agripper au sol pour éviter de s'envoler les jours de brise.",
     "level_up": [
       {
@@ -5843,20 +5544,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/granivol.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "FLORAVOL",
-        "target_name": "Floravol",
-        "method": "Level",
-        "level": 18,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/granivol.png"
   },
   {
     "name": "Floravol",
@@ -5869,7 +5557,7 @@
       "Feuillegarde"
     ],
     "hidden_ability": "Infiltration",
-    "evolution": "Evolue en Cotovol au niveau 27",
+    "evolution": "Évolue en Cotovol au niveau 27",
     "pokedex": "Le bourgeon sur sa tête s'ouvre et se ferme en fonction des fluctuations de la température ambiante.",
     "level_up": [
       {
@@ -5984,20 +5672,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/floravol.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "COTOVOL",
-        "target_name": "Cotovol",
-        "method": "Level",
-        "level": 27,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/floravol.png"
   },
   {
     "name": "Cotovol",
@@ -6010,7 +5685,7 @@
       "Feuillegarde"
     ],
     "hidden_ability": "Infiltration",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Poussé par les vents saisonniers, il fait le tour du globe en semant des spores de cotons.",
     "level_up": [
       {
@@ -6126,8 +5801,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cotovol.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/cotovol.png"
   },
   {
     "name": "Capumain",
@@ -6139,7 +5813,7 @@
       "Ramassage"
     ],
     "hidden_ability": "Multicoups",
-    "evolution": "Evolue en Capidextre en connaissant Coup Double / Evolue en Capidextre en utilisant Pierre Basique",
+    "evolution": "Évolue en Capidextre en connaissant Coup Double / Évolue en Capidextre en utilisant Pierre Basique",
     "pokedex": "Il vit sur les plus hautes cimes. Sautant de branche en branche, sa queue lui assure un bon équilibre.",
     "level_up": [
       {
@@ -6256,31 +5930,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/capumain.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "CAPIDEXTRE",
-        "target_name": "Capidextre",
-        "method": "HasMove",
-        "level": null,
-        "item_token": null,
-        "item_name": null,
-        "move_token": "COUPDOUBLE",
-        "move_name": "Coup Double",
-        "move_type": null
-      },
-      {
-        "target_token": "CAPIDEXTRE",
-        "target_name": "Capidextre",
-        "method": "Item",
-        "level": null,
-        "item_token": "PIERRE_NOR",
-        "item_name": "Pierre Basique",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/capumain.png"
   },
   {
     "name": "Capidextre",
@@ -6292,7 +5942,7 @@
       "Ramassage"
     ],
     "hidden_ability": "Multicoups",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il se nourrit de noix qu'il épluche avec ses deux queues habiles. Il utilise de moins en moins ses bras.",
     "level_up": [
       {
@@ -6411,8 +6061,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/capidextre.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/capidextre.png"
   },
   {
     "name": "Tournegrin",
@@ -6424,7 +6073,7 @@
       "Forcesoleil"
     ],
     "hidden_ability": "Matinal",
-    "evolution": "Evolue en Héliatronc (LevelDay, 25)",
+    "evolution": "Évolue en Héliatronc (LevelDay, 25)",
     "pokedex": "Il vit en buvant la rosée sur les feuilles. On dit qu'il ne peut rien avaler d'autre.",
     "level_up": [
       {
@@ -6546,20 +6195,7 @@
       "Phytomixeur"
     ],
     "dt": [],
-    "image": "assets/pkm/tournegrin.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "HELIATRONC",
-        "target_name": "Héliatronc",
-        "method": "LevelDay",
-        "level": null,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/tournegrin.png"
   },
   {
     "name": "Héliatronc",
@@ -6571,7 +6207,7 @@
       "Forcesoleil"
     ],
     "hidden_ability": "Matinal",
-    "evolution": "Evolue en Tournelux en utilisant Pierre Soleil",
+    "evolution": "Évolue en Tournelux en utilisant Pierre Soleil",
     "pokedex": "Les rayons du soleil lui donnent de l'énergie. Il est connu pour migrer vers les régions ensoleillées.",
     "level_up": [
       {
@@ -6698,20 +6334,7 @@
       "Souplesse"
     ],
     "dt": [],
-    "image": "assets/pkm/hliatronc.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "TOURNELUX",
-        "target_name": "Tournelux",
-        "method": "Item",
-        "level": null,
-        "item_token": "PIERRE_SOL",
-        "item_name": "Pierre Soleil",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/hliatronc.png"
   },
   {
     "name": "Tournelux",
@@ -6724,7 +6347,7 @@
       "Forcesoleil"
     ],
     "hidden_ability": "Matinal",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "???",
     "level_up": [
       {
@@ -6860,8 +6483,7 @@
       "Trépignement"
     ],
     "dt": [],
-    "image": "assets/pkm/tournelux.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/tournelux.png"
   },
   {
     "name": "Yanma",
@@ -6874,7 +6496,7 @@
       "Oeilcompose"
     ],
     "hidden_ability": "Fouille",
-    "evolution": "Evolue en Yanmega en connaissant Pouvoir Antique / Evolue en Yanmega en utilisant Pierre Nectar",
+    "evolution": "Évolue en Yanmega en connaissant Pouvoir Antique / Évolue en Yanmega en utilisant Pierre Nectar",
     "pokedex": "En battant des ailes très vite, il peut générer une violente onde de choc qui peut briser des fenêtres.",
     "level_up": [
       {
@@ -7000,31 +6622,7 @@
       "Vitesse Extrême"
     ],
     "dt": [],
-    "image": "assets/pkm/yanma.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "YANMEGA",
-        "target_name": "Yanmega",
-        "method": "HasMove",
-        "level": null,
-        "item_token": null,
-        "item_name": null,
-        "move_token": "POUVOIRANTIQUE",
-        "move_name": "Pouvoir Antique",
-        "move_type": null
-      },
-      {
-        "target_token": "YANMEGA",
-        "target_name": "Yanmega",
-        "method": "Item",
-        "level": null,
-        "item_token": "PIERRE_INS",
-        "item_name": "Pierre Nectar",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/yanma.png"
   },
   {
     "name": "Yanmega",
@@ -7037,7 +6635,7 @@
       "Oeilcompose"
     ],
     "hidden_ability": "Fouille",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il peut voler avec aise tout en portant un adulte dans ses 6 pattes. Les ailes de sa queue lui servent de balancier.",
     "level_up": [
       {
@@ -7168,8 +6766,7 @@
       "Vitesse Extrême"
     ],
     "dt": [],
-    "image": "assets/pkm/yanmega.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/yanmega.png"
   },
   {
     "name": "Axoloto",
@@ -7182,7 +6779,7 @@
       "Absorbeau"
     ],
     "hidden_ability": "Inconscient",
-    "evolution": "Evolue en Maraisté au niveau 20",
+    "evolution": "Évolue en Maraisté au niveau 20",
     "pokedex": "Ce Pokémon vit en eaux froides. Il ne les quitte que pour se nourrir quand il fait froid à l'extérieur.",
     "level_up": [
       {
@@ -7296,20 +6893,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/axoloto.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "MARAISTE",
-        "target_name": "Maraisté",
-        "method": "Level",
-        "level": 20,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/axoloto.png"
   },
   {
     "name": "Maraisté",
@@ -7322,7 +6906,7 @@
       "Absorbeau"
     ],
     "hidden_ability": "Inconscient",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Ce Pokémon est très insouciant. Quand il nage, il fonce tête première dans la coque des bateaux.",
     "level_up": [
       {
@@ -7441,8 +7025,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/maraist.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/maraist.png"
   },
   {
     "name": "Cornèbre",
@@ -7455,7 +7038,7 @@
       "Chanceux"
     ],
     "hidden_ability": "Farceur",
-    "evolution": "Evolue en Corboss en utilisant Pierre Nuit",
+    "evolution": "Évolue en Corboss en utilisant Pierre Nuit",
     "pokedex": "Les gens voient en lui un oiseau de malheur, mais il offre des choses brillantes aux Dresseurs dont il devient l'ami.",
     "level_up": [
       {
@@ -7569,20 +7152,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cornbre.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "CORBOSS",
-        "target_name": "Corboss",
-        "method": "Item",
-        "level": null,
-        "item_token": "PIERRE_TEN",
-        "item_name": "Pierre Nuit",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/cornbre.png"
   },
   {
     "name": "Corboss",
@@ -7595,7 +7165,7 @@
       "Chanceux"
     ],
     "hidden_ability": "Impudence",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Un seul des puissants croassements de ce Pokémon nocturne lui permet de rassembler une centaine de Cornèbre, ses sous-fifres.",
     "level_up": [
       {
@@ -7713,8 +7283,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/corboss.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/corboss.png"
   },
   {
     "name": "Feuforêve",
@@ -7725,7 +7294,7 @@
       "Levitation"
     ],
     "hidden_ability": "Lunatique",
-    "evolution": "Evolue en Magirêve en utilisant Pierre Illusion",
+    "evolution": "Évolue en Magirêve en utilisant Pierre Illusion",
     "pokedex": "Si vous entendez des pleurs provenant d'une pièce vide, c'est sûrement un Feuforêve qui vous fait une farce.",
     "level_up": [
       {
@@ -7887,20 +7456,7 @@
       "Vague Psy",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/feuforve.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "MAGIREVE",
-        "target_name": "Magirêve",
-        "method": "Item",
-        "level": null,
-        "item_token": "PIERRE_MGK",
-        "item_name": "Pierre Illusion",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/feuforve.png"
   },
   {
     "name": "Magirêve",
@@ -7912,7 +7468,7 @@
       "Levitation"
     ],
     "hidden_ability": "Lunatique",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Un Pokémon insaisissable qui tourmente ses ennemis avec son cri semblable à une incantation.",
     "level_up": [
       {
@@ -8094,8 +7650,7 @@
       "Vague Psy",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/magirve.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/magirve.png"
   },
   {
     "name": "Zarbi ?",
@@ -8106,7 +7661,7 @@
       "Levitation"
     ],
     "hidden_ability": null,
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
     "level_up": [
       {
@@ -8174,8 +7729,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/zarbi.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/zarbi.png"
   },
   {
     "name": "Okéoké",
@@ -8187,7 +7741,7 @@
       "Marqueombre"
     ],
     "hidden_ability": "Telepathe",
-    "evolution": "Evolue en Qulbutoke au niveau 25",
+    "evolution": "Évolue en Qulbutoke au niveau 25",
     "pokedex": "Okéoké adore se déplacer en groupe. Ils se réunissent souvent pour dormir la nuit dans les cavernes.",
     "level_up": [
       {
@@ -8301,20 +7855,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/okok.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "QULBUTOKE",
-        "target_name": "Qulbutoke",
-        "method": "Level",
-        "level": 25,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/okok.png"
   },
   {
     "name": "Qulbutoke",
@@ -8326,7 +7867,7 @@
       "Marqueombre"
     ],
     "hidden_ability": "Telepathe",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Pour cacher sa queue noire, il vit discrètement dans l'obscurité. Il n'attaque jamais le premier.",
     "level_up": [
       {
@@ -8438,8 +7979,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/qulbutoke.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/qulbutoke.png"
   },
   {
     "name": "Girafarig",
@@ -8452,7 +7992,7 @@
       "Matinal"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "Evolue en Farigiraf en connaissant Force AjoutÃƒÆ’Ã‚©e / Evolue en Dragifigard en utilisant Pierre Antique",
+    "evolution": "Évolue en Farigiraf en connaissant Force AjoutÃƒÆ’Ã‚©e / Évolue en Dragifigard en utilisant Pierre Antique",
     "pokedex": "Sa queue possède un cerveau. Si vous vous en approchez, elle vous sentira et vous mordra.",
     "level_up": [
       {
@@ -8570,31 +8110,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/girafarig.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "FARIGIRAF",
-        "target_name": "Farigiraf",
-        "method": "HasMove",
-        "level": null,
-        "item_token": null,
-        "item_name": null,
-        "move_token": "FORCEAJOUTEE",
-        "move_name": "Force AjoutÃƒÆ’Ã‚©e",
-        "move_type": null
-      },
-      {
-        "target_token": "DRAGIFIGARD",
-        "target_name": "Dragifigard",
-        "method": "Item",
-        "level": null,
-        "item_token": "PIERRE_DRA",
-        "item_name": "Pierre Antique",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/girafarig.png"
   },
   {
     "name": "Farigiraf",
@@ -8607,7 +8123,7 @@
       "Matinal"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Lorsqu'il fait tournoyer son cou pour frapper ses adversaires, il protège sa tête principale à l'aide de sa tête noire, qui est plus dure.",
     "level_up": [
       {
@@ -8727,8 +8243,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/farigiraf.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/farigiraf.png"
   },
   {
     "name": "Dragifigard",
@@ -8741,7 +8256,7 @@
       "Farceur"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Le cerveau de sa queue s'est développé, au point d'avoir pris la même apparence que le corps de Girafarig.",
     "level_up": [
       {
@@ -8861,8 +8376,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/dragifigard.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/dragifigard.png"
   },
   {
     "name": "Pomdepik",
@@ -8873,7 +8387,7 @@
       "Fermete"
     ],
     "hidden_ability": "Envelocape",
-    "evolution": "Evolue en Forêtress au niveau 31",
+    "evolution": "Évolue en Forêtress au niveau 31",
     "pokedex": "Il ressemble à une pomme de pin. Sa carapace le protège des Pokémon Vol qui le picorent par erreur.",
     "level_up": [
       {
@@ -8987,20 +8501,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/pomdepik.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "FORETRESS",
-        "target_name": "Forêtress",
-        "method": "Level",
-        "level": 31,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/pomdepik.png"
   },
   {
     "name": "Forêtress",
@@ -9012,7 +8513,7 @@
       "Fermete"
     ],
     "hidden_ability": "Envelocape",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "On ne peut voir à l'intérieur de sa carapace que lorsqu'il engloutit sa nourriture, mais il est si rapide que personne n'a encore jamais réussi.",
     "level_up": [
       {
@@ -9124,8 +8625,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/fortress.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/fortress.png"
   },
   {
     "name": "Insolourdo",
@@ -9138,7 +8638,7 @@
       "Fuite"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "Evolue en Deusolourdo en connaissant Hyperceuse / Evolue en Dracolourdo en connaissant une attaque de type Dragon",
+    "evolution": "Évolue en Deusolourdo en connaissant Hyperceuse / Évolue en Dracolourdo en connaissant une attaque de type Dragon",
     "pokedex": "Son nid est un véritable labyrinthe qu'il creuse à l'aide de sa queue. Il sait à peine voler.",
     "level_up": [
       {
@@ -9256,31 +8756,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/insolourdo.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "DEUSOLOURDO",
-        "target_name": "Deusolourdo",
-        "method": "HasMove",
-        "level": null,
-        "item_token": null,
-        "item_name": null,
-        "move_token": "HYPERCEUSE",
-        "move_name": "Hyperceuse",
-        "move_type": null
-      },
-      {
-        "target_token": "DRACOLOURDO",
-        "target_name": "Dracolourdo",
-        "method": "HasMoveType",
-        "level": null,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": "DRAGON"
-      }
-    ]
+    "image": "assets/pkm/insolourdo.png"
   },
   {
     "name": "Deusolourdo",
@@ -9293,7 +8769,7 @@
       "Fuite"
     ],
     "hidden_ability": "Phobique",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il se sert de sa queue pour creuser son terrier dans les profondeurs rocheuses de la terre. Celui-ci peut faire jusqu'à 10 km de long.",
     "level_up": [
       {
@@ -9417,8 +8893,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/deusolourdo.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/deusolourdo.png"
   },
   {
     "name": "Trisolourdo",
@@ -9431,7 +8906,7 @@
       "Fuite"
     ],
     "hidden_ability": "Phobique",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Une étude récente a démontré que le nombre de segments qui composent son corps est déterminé par ses gènes.",
     "level_up": [
       {
@@ -9555,8 +9030,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/trisolourdo.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/trisolourdo.png"
   },
   {
     "name": "Dracolourdo",
@@ -9569,7 +9043,7 @@
       "Antibruit"
     ],
     "hidden_ability": "Absorbterre",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "D'un caractère doux, il prend sur son dos les Pokémon égarés dans son terrier et il les reconduit jusqu'à la sortie.",
     "level_up": [
       {
@@ -9691,8 +9165,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/dracolourdo.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/dracolourdo.png"
   },
   {
     "name": "Scorplane",
@@ -9705,7 +9178,7 @@
       "Voilesable"
     ],
     "hidden_ability": "Vaccin",
-    "evolution": "Evolue en Scorvol en tenant l'objet Croc Rasoir",
+    "evolution": "Évolue en Scorvol en tenant l'objet Croc Rasoir",
     "pokedex": "Il plane droit vers le visage de sa cible effrayée et s'y accroche pour lui injecter son poison.",
     "level_up": [
       {
@@ -9819,21 +9292,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/scorplane.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "SCORVOL",
-        "target_name": "Scorvol",
-        "method": "HoldItem",
-        "level": null,
-        "item_token": "CROCRASOIR",
-        "item_name": "Croc Rasoir",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null,
-        "time": null
-      }
-    ]
+    "image": "assets/pkm/scorplane.png"
   },
   {
     "name": "Scorvol",
@@ -9846,7 +9305,7 @@
       "Voilesable"
     ],
     "hidden_ability": "Soinpoison",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il guette sa proie, pendu à une branche la tête en bas, et s'en saisit à la première occasion.",
     "level_up": [
       {
@@ -9962,8 +9421,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/scorvol.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/scorvol.png"
   },
   {
     "name": "Snubbull",
@@ -9975,7 +9433,7 @@
       "Fuite"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "Evolue en Granbull (LevelMale, 23)",
+    "evolution": "Évolue en Granbull (LevelMale, 23)",
     "pokedex": "Son visage horrible fait fuir les petits Pokémon. Par contre, les femmes le trouvent mignon.",
     "level_up": [
       {
@@ -10092,20 +9550,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/snubbull.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "GRANBULL",
-        "target_name": "Granbull",
-        "method": "LevelMale",
-        "level": null,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/snubbull.png"
   },
   {
     "name": "Granbull",
@@ -10118,7 +9563,7 @@
       "Piedveloce"
     ],
     "hidden_ability": "Phobique",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Sa mâchoire inférieure et ses crocs surdimensionnés sont ses armes de prédilection. Il ne mord pas tant qu'on ne l'énerve pas.",
     "level_up": [
       {
@@ -10241,8 +9686,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/granbull.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/granbull.png"
   },
   {
     "name": "Qwilfish",
@@ -10255,7 +9699,7 @@
       "Glissade"
     ],
     "hidden_ability": "Intimidation",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Son corps est recouvert de pics provenant de ses écailles. Ils sécrètent un poison étourdissant.",
     "level_up": [
       {
@@ -10377,8 +9821,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/qwilfish.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/qwilfish.png"
   },
   {
     "name": "Caratroc",
@@ -10391,7 +9834,7 @@
       "Gloutonnerie"
     ],
     "hidden_ability": "Contestation",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il garde des Baies dans sa coquille. Pour éviter les attaques, il s'immobilise sous les rochers.",
     "level_up": [
       {
@@ -10505,8 +9948,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/caratroc.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/caratroc.png"
   },
   {
     "name": "Scarminus",
@@ -10518,7 +9960,7 @@
       "Cran"
     ],
     "hidden_ability": "Impudence",
-    "evolution": "Evolue en Scarhino au niveau 30",
+    "evolution": "Évolue en Scarhino au niveau 30",
     "pokedex": "Scarminus s'entraîne jour et nuit pour devenir plus fort. Il teste sa corne contre des arbres, mais elle est encore trop souple pour percer l’écorce.",
     "level_up": [
       {
@@ -10635,20 +10077,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/scarminus.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "SCARHINO",
-        "target_name": "Scarhino",
-        "method": "Level",
-        "level": 30,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/scarminus.png"
   },
   {
     "name": "Scarhino",
@@ -10661,7 +10090,7 @@
       "Cran"
     ],
     "hidden_ability": "Impudence",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il parcourt les forêts à la recherche de miel. Il est très fier de sa force colossale, mais sa capacité à voler laisse quelque peu à désirer.",
     "level_up": [
       {
@@ -10790,8 +10219,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/scarhino.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/scarhino.png"
   },
   {
     "name": "Farfuret",
@@ -10804,7 +10232,7 @@
       "Regardvif"
     ],
     "hidden_ability": "Pickpocket",
-    "evolution": "Evolue en Dimoret en tenant l'objet Griffe Rasoir",
+    "evolution": "Évolue en Dimoret en tenant l'objet Griffe Rasoir",
     "pokedex": "Ses griffes sont cachées dans ses pattes. S'il est attaqué, il les sort pour frapper ses ennemis.",
     "level_up": [
       {
@@ -10929,21 +10357,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/farfuret.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "DIMORET",
-        "target_name": "Dimoret",
-        "method": "HoldItem",
-        "level": null,
-        "item_token": "GRIFFERASOIR",
-        "item_name": "Griffe Rasoir",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null,
-        "time": null
-      }
-    ]
+    "image": "assets/pkm/farfuret.png"
   },
   {
     "name": "Dimoret",
@@ -10956,7 +10370,7 @@
       "Pression"
     ],
     "hidden_ability": "Pickpocket",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il vit dans les régions enneigées, et communique avec ses pairs en gravant des motifs sur les arbres.",
     "level_up": [
       {
@@ -11077,8 +10491,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/dimoret.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/dimoret.png"
   },
   {
     "name": "Teddiursa",
@@ -11090,7 +10503,7 @@
       "Piedveloce"
     ],
     "hidden_ability": "Cherchemiel",
-    "evolution": "Evolue en Ursaring au niveau 30",
+    "evolution": "Évolue en Ursaring au niveau 30",
     "pokedex": "Sa marque en forme de lune brille quand il trouve du miel. Il lèche ses pattes qui en sont toujours couvertes.",
     "level_up": [
       {
@@ -11211,20 +10624,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/teddiursa.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "URSARING",
-        "target_name": "Ursaring",
-        "method": "Level",
-        "level": 30,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/teddiursa.png"
   },
   {
     "name": "Ursaring",
@@ -11236,7 +10636,7 @@
       "Piedveloce"
     ],
     "hidden_ability": "Tension",
-    "evolution": "Evolue en Ursaking en tenant l'objet Griffe Rasoir la nuit",
+    "evolution": "Évolue en Ursaking en tenant l'objet Griffe Rasoir la nuit",
     "pokedex": "Avec sa capacité à sentir toute odeur, il trouve sans faillir de la nourriture enfouie dans le sol.",
     "level_up": [
       {
@@ -11364,21 +10764,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/ursaring.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "URSAKING",
-        "target_name": "Ursaking",
-        "method": "NightHoldItem",
-        "level": null,
-        "item_token": "GRIFFERASOIR",
-        "item_name": "Griffe Rasoir",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null,
-        "time": "night"
-      }
-    ]
+    "image": "assets/pkm/ursaring.png"
   },
   {
     "name": "Ursaking",
@@ -11390,7 +10776,7 @@
       "Oeilrevelateur"
     ],
     "hidden_ability": "Oeilrevelateur",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Les étendues marécageuses de Hisui ont doté ce Pokémon d'un corps robuste et d’une aptitude à manipuler la tourbe.",
     "level_up": [
       {
@@ -11523,8 +10909,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/ursaking.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/ursaking.png"
   },
   {
     "name": "Limagma",
@@ -11536,7 +10921,7 @@
       "Corpsardent"
     ],
     "hidden_ability": "Armurouillee",
-    "evolution": "Evolue en Volcaropod au niveau 33",
+    "evolution": "Évolue en Volcaropod au niveau 33",
     "pokedex": "Commun dans les régions volcaniques, il se déplace sans cesse pour trouver des endroits chauds.",
     "level_up": [
       {
@@ -11650,20 +11035,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/limagma.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "VOLCAROPOD",
-        "target_name": "Volcaropod",
-        "method": "Level",
-        "level": 33,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/limagma.png"
   },
   {
     "name": "Volcaropod",
@@ -11676,7 +11048,7 @@
       "Corpsardent"
     ],
     "hidden_ability": "Armurouillee",
-    "evolution": "Evolue en Magmollusk en utilisant Pierre Schiste",
+    "evolution": "Évolue en Magmollusk en utilisant Pierre Schiste",
     "pokedex": "Son corps est fait de magma. S'il cesse de bouger, il refroidit et durcit.",
     "level_up": [
       {
@@ -11788,20 +11160,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/volcaropod.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "MAGMOLLUSK",
-        "target_name": "Magmollusk",
-        "method": "Item",
-        "level": null,
-        "item_token": "PIERRE_ROC",
-        "item_name": "Pierre Schiste",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/volcaropod.png"
   },
   {
     "name": "Magmollusk",
@@ -11814,7 +11173,7 @@
       "Corpsardent"
     ],
     "hidden_ability": "Armurouillee",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Le magma de son corps s’est tellement épaissi qu’il forme une carapace presque indestructible. Lorsqu’il se déplace, il laisse derrière lui des sillons de roche vitrifiée.",
     "level_up": [
       {
@@ -11926,8 +11285,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/magmollusk.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/magmollusk.png"
   },
   {
     "name": "Marcacrin",
@@ -11940,7 +11298,7 @@
       "Rideauneige"
     ],
     "hidden_ability": "Isograisse",
-    "evolution": "Evolue en Cochignon au niveau 33",
+    "evolution": "Évolue en Cochignon au niveau 33",
     "pokedex": "Il renifle le sol avec sa truffe pour y dénicher de la nourriture. Il trouve parfois des sources thermales.",
     "level_up": [
       {
@@ -12054,20 +11412,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/marcacrin.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "COCHIGNON",
-        "target_name": "Cochignon",
-        "method": "Level",
-        "level": 33,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/marcacrin.png"
   },
   {
     "name": "Cochignon",
@@ -12080,7 +11425,7 @@
       "Rideauneige"
     ],
     "hidden_ability": "Isograisse",
-    "evolution": "Evolue en Mammochon en connaissant Pouvoir Antique",
+    "evolution": "Évolue en Mammochon en connaissant Pouvoir Antique",
     "pokedex": "Bien que pourvu de courtes pattes, ses sabots sont pointus pour l'empêcher de glisser sur la glace.",
     "level_up": [
       {
@@ -12192,20 +11537,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cochignon.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "MAMMOCHON",
-        "target_name": "Mammochon",
-        "method": "HasMove",
-        "level": null,
-        "item_token": null,
-        "item_name": null,
-        "move_token": "POUVOIRANTIQUE",
-        "move_name": "Pouvoir Antique",
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/cochignon.png"
   },
   {
     "name": "Mammochon",
@@ -12218,7 +11550,7 @@
       "Rideauneige"
     ],
     "hidden_ability": "Isograisse",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Ses défenses spectaculaires sont glacées. Il a failli disparaître dans la canicule suivant l'ère glaciaire.",
     "level_up": [
       {
@@ -12330,8 +11662,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/mammochon.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/mammochon.png"
   },
   {
     "name": "Cadutin",
@@ -12344,7 +11675,7 @@
       "Agitation"
     ],
     "hidden_ability": "Insomnia",
-    "evolution": "Evolue en Cadoizo au niveau 22",
+    "evolution": "Évolue en Cadoizo au niveau 22",
     "pokedex": "Il adore délivrer des lettres ou des cadeaux. On les utilise souvent comme livreur dans les zones froides.",
     "level_up": [
       {
@@ -12458,20 +11789,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cadutin.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "CADOIZO",
-        "target_name": "Cadoizo",
-        "method": "Level",
-        "level": 22,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/cadutin.png"
   },
   {
     "name": "Cadoizo",
@@ -12484,7 +11802,7 @@
       "Agitation"
     ],
     "hidden_ability": "Insomnia",
-    "evolution": "Evolue en Papadoizo en utilisant Pierre Flocon",
+    "evolution": "Évolue en Papadoizo en utilisant Pierre Flocon",
     "pokedex": "Il enveloppe sa nourriture dans sa queue pour la transporter et partage volontiers ses victuailles avec les victimes d'accident en montagne.",
     "level_up": [
       {
@@ -12596,20 +11914,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cadoizo.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "PAPADOIZO",
-        "target_name": "Papadoizo",
-        "method": "Item",
-        "level": null,
-        "item_token": "PIERRE_NEI",
-        "item_name": "Pierre Flocon",
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/cadoizo.png"
   },
   {
     "name": "Papadoizo",
@@ -12622,7 +11927,7 @@
       "Agitation"
     ],
     "hidden_ability": "Insomnia",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il transporte toujours sur lui de nombreux cadeaux. Il est très altruiste envers les humains et les Pokémon.",
     "level_up": [
       {
@@ -12750,8 +12055,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/papadoizo.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/papadoizo.png"
   },
   {
     "name": "Corayon",
@@ -12764,7 +12068,7 @@
       "Medicnature"
     ],
     "hidden_ability": "Regeforce",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Ses branches repoussent si elles sont brisées. Les plus belles sont offertes aux futures mamans comme porte-bonheurs.",
     "level_up": [
       {
@@ -12883,8 +12187,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/corayon.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/corayon.png"
   },
   {
     "name": "Remoraid",
@@ -12896,7 +12199,7 @@
       "Sniper"
     ],
     "hidden_ability": "Lunatique",
-    "evolution": "Evolue en Octillery au niveau 25",
+    "evolution": "Évolue en Octillery au niveau 25",
     "pokedex": "Il s'accroche à Démanta pour se nourrir des restes de ce dernier. Ce stratagème lui évite de se faire attaquer par ses ennemis.",
     "level_up": [
       {
@@ -13010,20 +12313,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/remoraid.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "OCTILLERY",
-        "target_name": "Octillery",
-        "method": "Level",
-        "level": 25,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/remoraid.png"
   },
   {
     "name": "Octillery",
@@ -13036,7 +12326,7 @@
       "Sniper"
     ],
     "hidden_ability": "Lunatique",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il aveugle l'ennemi en crachant un nuage d'encre opaque et creuse sa tanière à l'ombre des rochers.",
     "level_up": [
       {
@@ -13153,8 +12443,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/octillery.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/octillery.png"
   },
   {
     "name": "Loupio",
@@ -13167,7 +12456,7 @@
       "Lumiattirance"
     ],
     "hidden_ability": "Absorbeau",
-    "evolution": "Evolue en Lanturn au niveau 27",
+    "evolution": "Évolue en Lanturn au niveau 27",
     "pokedex": "Ses deux antennes étaient à l'origine des ailerons. Il libère de l'électricité pour étourdir ses proies avant de passer à l'attaque.",
     "level_up": [
       {
@@ -13293,20 +12582,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/loupio.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "LANTURN",
-        "target_name": "Lanturn",
-        "method": "Level",
-        "level": 27,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/loupio.png"
   },
   {
     "name": "Lanturn",
@@ -13319,7 +12595,7 @@
       "Lumiattirance"
     ],
     "hidden_ability": "Absorbeau",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Lorsqu'on regarde au fond de la mer au milieu de la nuit et que l'on croit apercevoir le reflet des étoiles, c'est probablement un Lanturn.",
     "level_up": [
       {
@@ -13445,8 +12721,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/lanturn.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/lanturn.png"
   },
   {
     "name": "Babimanta",
@@ -13458,7 +12733,7 @@
       "Absorbeau"
     ],
     "hidden_ability": "Ignifuvoile",
-    "evolution": "Evolue en Demanta (HasInParty, REMORAID)",
+    "evolution": "Évolue en Demanta (HasInParty, REMORAID)",
     "pokedex": "Il est très affectueux et adore les humains. Les excursions permettant d'aller nager avec lui sont très populaires auprès des touristes.",
     "level_up": [
       {
@@ -13618,20 +12893,7 @@
       "Rune Protect",
       "Vague Psy"
     ],
-    "image": "assets/pkm/babimanta.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "DEMANTA",
-        "target_name": "Demanta",
-        "method": "HasInParty",
-        "level": null,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/babimanta.png"
   },
   {
     "name": "Demanta",
@@ -13644,7 +12906,7 @@
       "Absorbeau"
     ],
     "hidden_ability": "Ignifuvoile",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il ignore royalement les Rémoraid qui s'accrochent à ses nageoires pour manger les restes qu'il sème.",
     "level_up": [
       {
@@ -13815,8 +13077,7 @@
       "Tranch'Aile",
       "Vague Psy"
     ],
-    "image": "assets/pkm/demanta.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/demanta.png"
   },
   {
     "name": "Ferplume",
@@ -13829,7 +13090,7 @@
       "Fermete"
     ],
     "hidden_ability": "Armurouillee",
-    "evolution": "Evolue en Airmure au niveau 26",
+    "evolution": "Évolue en Airmure au niveau 26",
     "pokedex": "Les plumes qu'il perd étant légères et aiguisées, elles auraient autrefois servi de sabres.",
     "level_up": [
       {
@@ -13947,20 +13208,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/ferplume.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "AIRMURE",
-        "target_name": "Airmure",
-        "method": "Level",
-        "level": 26,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/ferplume.png"
   },
   {
     "name": "Airmure",
@@ -13973,7 +13221,7 @@
       "Fermete"
     ],
     "hidden_ability": "Armurouillee",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Comme il fait son nid dans les ronces, ses petits s'endurcissent à force d'être sans cesse éraflés.",
     "level_up": [
       {
@@ -14091,8 +13339,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/airmure.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/airmure.png"
   },
   {
     "name": "Malosse",
@@ -14105,7 +13352,7 @@
       "Torche"
     ],
     "hidden_ability": "Tension",
-    "evolution": "Evolue en Démolosse au niveau 24",
+    "evolution": "Évolue en Démolosse au niveau 24",
     "pokedex": "Pour traquer leur proie, ils se localisent mutuellement avec des aboiements compris par eux seuls.",
     "level_up": [
       {
@@ -14235,20 +13482,7 @@
       "Vengeance"
     ],
     "dt": [],
-    "image": "assets/pkm/malosse.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "DEMOLOSSE",
-        "target_name": "Démolosse",
-        "method": "Level",
-        "level": 24,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/malosse.png"
   },
   {
     "name": "Démolosse",
@@ -14261,7 +13495,7 @@
       "Torche"
     ],
     "hidden_ability": "Tension",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Ceux qui le craignaient jadis lui ont donné le surnom de « messager de la Faucheuse » à cause de son hurlement sinistre si particulier.",
     "level_up": [
       {
@@ -14396,8 +13630,7 @@
       "Vengeance"
     ],
     "dt": [],
-    "image": "assets/pkm/dmolosse.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/dmolosse.png"
   },
   {
     "name": "Phanpy",
@@ -14408,7 +13641,7 @@
       "Ramassage"
     ],
     "hidden_ability": "Voilesable",
-    "evolution": "Evolue en Donphan au niveau 25",
+    "evolution": "Évolue en Donphan au niveau 25",
     "pokedex": "Il est fort malgré son aspect ramassé. Il n'a aucun mal à porter un humain adulte sur son dos.",
     "level_up": [
       {
@@ -14529,20 +13762,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/phanpy.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "DONPHAN",
-        "target_name": "Donphan",
-        "method": "Level",
-        "level": 25,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/phanpy.png"
   },
   {
     "name": "Donphan",
@@ -14553,7 +13773,7 @@
       "Fermete"
     ],
     "hidden_ability": "Voilesable",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Plus grandes sont ses défenses, plus haut est son rang dans le troupeau. Elles poussent lentement.",
     "level_up": [
       {
@@ -14676,8 +13896,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/donphan.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/donphan.png"
   },
   {
     "name": "Cerfrousse",
@@ -14690,7 +13909,7 @@
       "Fouille"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Quiconque observe ses bois circulaires éprouve l'étrange impression d'être happé par leur centre.",
     "level_up": [
       {
@@ -14804,8 +14023,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cerfrousse.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/cerfrousse.png"
   },
   {
     "name": "Queulorior",
@@ -14817,7 +14035,7 @@
       "Technicien"
     ],
     "hidden_ability": "Lunatique",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il marque son territoire en maniant sa queue comme un pinceau. On dénombre plus de 5000 marques.",
     "level_up": [
       {
@@ -14885,8 +14103,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/queulorior.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/queulorior.png"
   },
   {
     "name": "Écrémeuh",
@@ -14898,7 +14115,7 @@
       "Querelleur"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Ce Pokémon est surtout élevé pour son lait, bien que sa stature imposante en fasse un Pokémon de combat tout à fait respectable.",
     "level_up": [
       {
@@ -15019,8 +14236,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/crmeuh.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/crmeuh.png"
   },
   {
     "name": "Embrylex",
@@ -15032,7 +14248,7 @@
       "Cran"
     ],
     "hidden_ability": "Voilesable",
-    "evolution": "Evolue en Ymphect au niveau 30",
+    "evolution": "Évolue en Ymphect au niveau 30",
     "pokedex": "Il se nourrit des nutriments présents dans le sol. Il lui faut dévorer l'équivalent d'une petite montagne pour se changer en chrysalide.",
     "level_up": [
       {
@@ -15154,20 +14370,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/embrylex.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "YMPHECT",
-        "target_name": "Ymphect",
-        "method": "Level",
-        "level": 30,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/embrylex.png"
   },
   {
     "name": "Ymphect",
@@ -15179,7 +14382,7 @@
       "Mue"
     ],
     "hidden_ability": "Voilesable",
-    "evolution": "Evolue en Tyranocif au niveau 55",
+    "evolution": "Évolue en Tyranocif au niveau 55",
     "pokedex": "Impatient d'évoluer, il évacue son stress en libérant des gaz sous haute pression qui le font bondir dans tous les sens. Une vraie plaie!",
     "level_up": [
       {
@@ -15298,20 +14501,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/ymphect.png",
-    "evolutions_detailed": [
-      {
-        "target_token": "TYRANOCIF",
-        "target_name": "Tyranocif",
-        "method": "Level",
-        "level": 55,
-        "item_token": null,
-        "item_name": null,
-        "move_token": null,
-        "move_name": null,
-        "move_type": null
-      }
-    ]
+    "image": "assets/pkm/ymphect.png"
   },
   {
     "name": "Tyranocif",
@@ -15323,7 +14513,7 @@
       "Sablevolant"
     ],
     "hidden_ability": "Tension",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il parcourt les montagnes à la recherche d'un adversaire. Si ce dernier n'est pas à la hauteur, il préfère l'ignorer et s'en aller.",
     "level_up": [
       {
@@ -15454,8 +14644,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/tyranocif.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/tyranocif.png"
   },
   {
     "name": "Raikou",
@@ -15466,7 +14655,7 @@
       "Pression"
     ],
     "hidden_ability": "Attention",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Le nuage de pluie qu'il porte peut relâcher la foudre à volonté. On dit de lui qu'il est venu avec l'orage.",
     "level_up": [
       {
@@ -15578,8 +14767,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/raikou.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/raikou.png"
   },
   {
     "name": "Entei",
@@ -15590,7 +14778,7 @@
       "Pression"
     ],
     "hidden_ability": "Attention",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Un Pokémon qui parcourt le monde. On dit qu'il en naît un à chaque fois qu'un volcan apparaît.",
     "level_up": [
       {
@@ -15702,8 +14890,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/entei.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/entei.png"
   },
   {
     "name": "Suicune",
@@ -15714,7 +14901,7 @@
       "Pression"
     ],
     "hidden_ability": "Attention",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Suicune incarne la tranquillité d'une source d'eau pure. Il parcourt les plaines avec grâce. Ce Pokémon a le pouvoir de purifier l'eau.",
     "level_up": [
       {
@@ -15826,8 +15013,7 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/suicune.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/suicune.png"
   },
   {
     "name": "Ho-Oh",
@@ -15839,7 +15025,7 @@
       "Pression"
     ],
     "hidden_ability": "Regeforce",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Une légende raconte que son corps brille de sept couleurs. Un arc-en-ciel se forme derrière lui quand il vole.",
     "level_up": [
       {
@@ -15957,8 +15143,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/hooh.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/hooh.png"
   },
   {
     "name": "Lugia",
@@ -15970,7 +15155,7 @@
       "Pression"
     ],
     "hidden_ability": "Multiecaille",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Il est supposé être le gardien des sept mers. On raconte qu'il est apparu une nuit de forte tempête.",
     "level_up": [
       {
@@ -16092,8 +15277,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/lugia.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/lugia.png"
   },
   {
     "name": "Celebi",
@@ -16105,7 +15289,7 @@
       "Medicnature"
     ],
     "hidden_ability": "Creaherbe",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Ce Pokémon voyage dans le temps. Les forêts où il apparaît deviennent prodigieusement luxuriantes.",
     "level_up": [
       {
@@ -16222,8 +15406,7 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/celebi.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/celebi.png"
   },
   {
     "name": "LéviatorΔ",
@@ -16235,7 +15418,7 @@
       "Colerique"
     ],
     "hidden_ability": "Impudence",
-    "evolution": null,
+    "evolution": "",
     "pokedex": "Apparu au Lac Colère, sa fureur ne semble jamais se calmer. Serait-il dû à l'instabilité de ses types?",
     "level_up": [
       {
@@ -16356,7 +15539,6 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/lviator.png",
-    "evolutions_detailed": []
+    "image": "assets/pkm/lviator.png"
   }
 ]
