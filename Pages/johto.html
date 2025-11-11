@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta name="x-region" content="Johto">
+  <meta charset="utf-8">
+  <base href="/Pok-mon_Destination_Test/">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <nav class="topnav">
+    <a href="./index.html">Accueil</a>
+  </nav>
+
+  <main class="container">
+  <h1 class="h1">Johto</h1>
+    <p>
+      Vous trouverez sur cette page tout ce qu'il y a à savoir sur <strong>Johto</strong> :
+    </p>
+
+    <section class="cards">
+      <article class="card">
+        <h2>Pokédex de Johto</h2>
+        <p>
+          Accédez au Pokédex complet de la région de Johto.
+        </p>
+        <p><a href="Pokedex/Pokedex_Johto.html" class="btn">Ouvrir le Pokédex</a></p>
+      </article>
+
+      <article class="card">
+        <h2>CT / DT / CS</h2>
+        <p>
+          Consultez la liste des capacités techniques, des disques techniques et des capacités secrètes.
+        </p>
+        <p><a id="seeMoves" href="#">Voir les attaques & CS</a></p>
+      </article>
+
+      <article class="card">
+        <h2>Personnages</h2>
+        <p>
+          Les dresseurs importants, champions et PNJ clés de Johto (bientôt).
+        </p>
+        <p><a href="region/Johto/personnages.html" class="btn">Aller  la section</a></p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Lieux</h2>
+      <p>
+        Villes, routes, grottes et zones dintrt de Johto (bientt).
+      </p>
+      <p><a href="region/Johto/lieux.html" class="btn">Aller  la section</a></p>
+    </section>
+
+    <section class="card">
+      <h2>Ajout</h2>
+      <p>
+       Ajout pour plus tard 
+      </p>
+      <p><a href="region/Johto/Px.html" class="btn">Description</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p> Pokmon Destination  site d'aide non officiel.</p>
+  </footer>
+</body>
+  <script>
+(function () {
+  // 1) Région de la page (depuis la meta), sinon fallback "Johto"
+  const REGION = document.querySelector('meta[name="x-region"]')?.content?.trim() || 'Johto';
+
+  // 2) Chemin de la page Attaques (garde 'region.html' si tu n'as pas encore renommé)
+  const ATTACKS_PAGE = '/Pok-mon_Destination_Test/Pages/Attaques/region.html';
+
+  // 3) Applique le lien sur "Voir les attaques & CS"
+  const a = document.getElementById('seeMoves');
+  if (a) a.href = `${ATTACKS_PAGE}?r=${encodeURIComponent(REGION)}`;
+})();
+</script>
+
+</html>
+
+
