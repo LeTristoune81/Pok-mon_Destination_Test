@@ -466,49 +466,8 @@ async function initMoves(){
       grid.innerHTML = `<div class="card" style="padding:12px">Aucune attaque</div>`;
       return;
     }
-
-  // ---------- Patch B: filtrage par hash + scroll ----------
-  function applyHashFilterAndScroll(ALL, renderFn, renderAllTitle) {
-    const rawHash = decodeURIComponent((location.hash || '').slice(1)).trim();
-    const normHash = rawHash ? norm(rawHash).replace(/\s+/g, '_') : '';
-
-    const moveIdFromRecord = (m) => {
-      if (!m) return '';
-      const label = (typeof m === 'string') ? m : (m.Upper || m.Nom || m.name || '');
-      return norm(String(label)).replace(/\s+/g, '_');
-    };
-
-    if (normHash) {
-      const filtered = ALL.filter(m => moveIdFromRecord(m) === normHash);
-      if (filtered.length) {
-        renderFn(filtered, `Filtré par “${rawHash}” — ${filtered.length}/${ALL.length} attaque(s)`);
-      } else {
-        renderFn(ALL, `${renderAllTitle} — ${ALL.length} attaques (aucune correspondance pour “${rawHash}”)`);
-      }
-      const candidates = new Set([
-        normHash,
-        normHash.replace(/_/g,'-'),
-        normHash.replace(/_/g,''),
-        normHash.toLowerCase(),
-        normHash.toUpperCase()
-      ]);
-      let target = null;
-      for (const id of candidates) {
-        target = document.getElementById(id);
-        if (target) break;
-      }
-      if (target) setTimeout(()=>target.scrollIntoView({behavior:'smooth', block:'start'}), 80);
-    } else {
-      renderFn(ALL, renderAllTitle || `Source: ${ALL.length} attaques`);
-    }
-  }
     grid.innerHTML = list.map(cardHTML).join('');
-    // Auto-scroll si on a un hash (ex: toutes.html#CRACHFUMEE)
-    if (location.hash){
-      const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
-      if (target) target.scrollIntoView({behavior:'smooth', block:'start'});
-    }
-    // Info en-tête si tu veux en afficher une (facultatif)
+    // Info en-tête
     const header = $('.header');
     if (header && !header.querySelector('.muted-info')){
       const span = document.createElement('div');
@@ -521,13 +480,81 @@ async function initMoves(){
     }
   }
 
+  // ---------- Filtrage par hash + injection dans le champ de recherche (robuste) ----------
+  function applyHashFilterAndScroll(ALL, renderFn, renderAllTitle) {
+    const rawHash = decodeURIComponent((location.hash || '').slice(1)).trim(); // ex: "Rafale"
+    const normHash = rawHash ? norm(rawHash).replace(/\s+/g, '_') : '';
+
+    const moveIdFromRecord = (m) => {
+      if (!m) return '';
+      const label = (typeof m === 'string') ? m : (m.Upper || m.Nom || m.name || '');
+      return norm(String(label)).replace(/\s+/g, '_');
+    };
+
+    const readableFromRecord = (m) => {
+      if (!m) return rawHash || '';
+      return (m.Nom || m.name || m.Upper || '').toString();
+    };
+
+    if (!normHash) {
+      renderFn(ALL, renderAllTitle || `Source: ${ALL.length} attaques`);
+      return;
+    }
+
+    // 1) Exact match
+    let filtered = ALL.filter(m => moveIdFromRecord(m) === normHash);
+
+    // 2) Inclusion tolérante si aucun exact
+    if (!filtered.length) {
+      filtered = ALL.filter(m => {
+        const id = moveIdFromRecord(m);
+        return id.includes(normHash) || norm(String(m.Nom || m.name || m.Upper)).replace(/\s+/g,'_').includes(normHash);
+      });
+    }
+
+    if (filtered.length) {
+      // Remplir #q si présent (UX : on voit la recherche appliquée)
+      const q = document.querySelector('#q');
+      if (q) {
+        const pretty = readableFromRecord(filtered[0]) || rawHash;
+        q.value = pretty;
+        try { q.dispatchEvent(new Event('input', { bubbles: true })); } catch(e){}
+      }
+
+      renderFn(filtered, `Filtré par “${rawHash}” — ${filtered.length}/${ALL.length} attaque(s)`);
+
+      // Scroll tolérant (_ / - / rien / casse)
+      const variants = [
+        normHash,
+        normHash.replace(/_/g,'-'),
+        normHash.replace(/_/g,''),
+        normHash.toLowerCase(),
+        normHash.toUpperCase()
+      ];
+      let target = null;
+      for (const id of variants) {
+        target = document.getElementById(id);
+        if (target) break;
+      }
+      if (target) setTimeout(()=>target.scrollIntoView({behavior:'smooth', block:'start'}), 60);
+      return;
+    }
+
+    // Rien trouvé -> tout afficher + notice
+    renderFn(ALL, `${renderAllTitle || 'Toutes les attaques'} — ${ALL.length} attaques (aucune correspondance pour “${rawHash}”)`);
+  }
+
   try{
     const { data, source } = await loadMovesAny();
     let ALL = coerceArray(data).map(normalizeMove);
     // Tri accent-insensible par Nom
     ALL.sort((a,b)=> norm(a.Nom).localeCompare(norm(b.Nom)));
-    const renderAllTitle = `Source: ${source}`; applyHashFilterAndScroll(ALL, render, renderAllTitle);
 
+    // Rendu initial piloté par le hash (filtre + scroll)
+    const renderAllTitle = `Source: ${source}`;
+    applyHashFilterAndScroll(ALL, render, renderAllTitle);
+
+    // Recherche live (champ #q)
     if (q){
       q.addEventListener('input', ()=>{
         const n = norm(q.value);
