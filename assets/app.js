@@ -1,4 +1,4 @@
-/* ---------- app.js (multi-régions + fetch robuste, sans échappements ambigus) ---------- */
+/* ---------- app.js (multi-régions + fetch robuste + objets/ressources + détection région par URL) ---------- */
 
 /***** utils *****/
 function $(q, el=document){ return el.querySelector(q); }
@@ -77,10 +77,20 @@ function makeSpriteCandidates(name, rk){
 }
 
 /***** Région helpers *****/
-function getRegionFromURL(defaultRegion='Johto'){
+function inferRegionFromPath(){
+  const path = decodeURIComponent(location.pathname);
+  const m = path.match(/Pokedex_([^/.]+)\.html$/i);
+  if (m && m[1]){
+    return m[1].replace(/_/g,' ');
+  }
+  return null;
+}
+function getRegion(defaultRegion='Johto'){
   const url = new URL(location.href);
-  const r = url.searchParams.get('r');
-  return r || defaultRegion;
+  const viaQuery = url.searchParams.get('r');
+  if (viaQuery) return viaQuery;
+  const viaPath = inferRegionFromPath();
+  return viaPath || defaultRegion;
 }
 function pokedexPathFor(r){ return '/data/pokedex_' + regionSlug(r) + '.json'; }
 
@@ -127,6 +137,33 @@ function linkifyEvo(p, region){
 function renderBadges(types){
   return (types||[]).map(function(t){ return '<span class="badge">' + t + '</span>'; }).join(' ');
 }
+function renderHeldItems(held){
+  if (!held || typeof held !== 'object') {
+    return '<li class="lvl-group"><div class="lvl-title">Objet tenu</div><ul><li>Non Répertorié</li></ul></li>';
+  }
+  function val(x){ return (x && String(x).trim()) ? x : 'Aucun'; }
+  return ''
+    + '<li class="lvl-group">'
+    +   '<div class="lvl-title">Objet tenu</div>'
+    +   '<ul>'
+    +     '<li><b>Commun :</b> '   + val(held.common)   + '</li>'
+    +     '<li><b>Peu commun :</b> ' + val(held.uncommon) + '</li>'
+    +     '<li><b>Rare :</b> '     + val(held.rare)     + '</li>'
+    +   '</ul>'
+    + '</li>';
+}
+function renderResource(res){
+  if (!res) {
+    return '<li class="lvl-group"><div class="lvl-title">Ressource</div><ul><li><b>Non Répertorié</b></li><li class="small" style="margin-top:4px;opacity:0.8;">Un échantillon laissé par un Pokémon. Il peut être utilisé pour fabriquer des objets.</li></ul></li>';
+  }
+  return ''
+    + '<li class="lvl-group">'
+    +   '<div class="lvl-title">Ressource</div>'
+    +   '<ul>'
+    +     '<li><b>' + res + '</b></li>'
+    +   '</ul>'
+    + '</li>';
+}
 
 /***** LISTE POKÉDEX *****/
 async function initIndex(){
@@ -136,7 +173,7 @@ async function initIndex(){
       (document.body).insertAdjacentHTML('beforeend','<div class="card" style="color:#ff8080">Erreur : .grid manquant.</div>');
       return;
     }
-    const region = getRegionFromURL('Johto');
+    const region = getRegion('Johto');
     const rk = regionSlug(region);
 
     let status = $('#status');
@@ -248,7 +285,7 @@ async function initIndex(){
 async function initPokemon(){
   try{
     const url = new URL(location.href);
-    const region = getRegionFromURL('Johto');
+    const region = getRegion('Johto');
     const rk = regionSlug(region);
     const name = (url.searchParams.get('n')||'').toLowerCase();
 
@@ -278,6 +315,14 @@ async function initPokemon(){
     }
     const habhidEl = $('#habhid'); if(habhidEl){
       habhidEl.innerHTML = p.hidden_ability ? linkMove(p.hidden_ability) : '?';
+    }
+
+    // ---------- OBJETS & RESSOURCE (depuis le JSON) ----------
+    const objres = $('#objres');
+    if (objres){
+      const heldHTML = renderHeldItems(p.held_items);
+      const resHTML = renderResource(p.resource);
+      objres.innerHTML = heldHTML + resHTML;
     }
 
     const img = $('#sprite');
