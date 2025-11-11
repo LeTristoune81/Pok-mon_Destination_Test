@@ -52,13 +52,13 @@
 
 <script>
 (async () => {
-  // Région courante (?r=Johto)
+  // === Région courante (?r=Johto) ===
   const url = new URL(location.href);
   const rParam = url.searchParams.get('r') || 'Johto';
   document.getElementById('regionLabel').textContent = rParam;
 
-  // Chemins JSON (ajuste si tu utilises moves_index_clean.json)
-  const PATH_MOVES   = '../../data/moves_index.json';
+  // === Chemins JSON ===
+  const PATH_MOVES   = '../../data/moves_index_clean.json'; // version corrigée UTF-8
   const PATH_REGIONS = '../../data/regions_moves.json';
 
   const msg     = document.getElementById('msg');
@@ -82,25 +82,22 @@
   } catch (e) {
     msg.innerHTML = `<div class="alert">
       Erreur de chargement : ${e.message}<br>
-      Vérifie que les fichiers existent bien aux emplacements :
+      Vérifie que les fichiers existent bien :
       <div><code>${PATH_MOVES}</code></div>
       <div><code>${PATH_REGIONS}</code></div>
-      Et que tu ouvres la page via un serveur local (ex : <code>http://127.0.0.1:5500/Pages/Attaques/region.html?r=Johto</code>).
     </div>`;
     return;
   }
 
-  // Index des attaques
   const movesArray = Array.isArray(movesAll) ? movesAll : Object.values(movesAll || {});
   const idxByName  = new Map(movesArray.map(m => [m.name, m]));
   const idxByToken = new Map(movesArray.map(m => [m.token ?? m.upper ?? m.name, m]));
 
-  // Région normalisée
   const keyWanted = norm(rParam);
   const foundKey  = Object.keys(regions).find(k => norm(k) === keyWanted);
   const regionData = (foundKey && regions[foundKey]) || { CT: [], DT: [], CS: [], CU: [] };
 
-  // === Gestion descriptions multi-régions =======================================================
+  // === Gestion descriptions multi-régions ===
   const REGION_ALIASES = {
     "KANTO": ["KANTO"],
     "JOHTO": ["JOHTO","JOTHO"],
@@ -114,18 +111,17 @@
   };
 
   function regionTagMatches(line, wanted) {
-    const m = line.match(/^#\s*([A-ZÀÂÄÉÈÊËÎÏÔÖÙÛÜÇ\- ]+)\s*:/i);
-    if (!m) return false;
-    const tag = m[1].normalize('NFD').replace(/[\u0300-\u036f]/g,'').toUpperCase().replace(/\s+/g,'');
-    const want = (wanted||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toUpperCase().replace(/\s+/g,'');
-    const aliases = Object.entries(REGION_ALIASES).find(([k]) => k === want)?.[1] || [want];
-    return aliases.includes(tag);
+    if (!line || !wanted) return false;
+    const cleaned = line
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+      .toUpperCase();
+    const want = (wanted||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toUpperCase();
+    return cleaned.includes(`# ${want}`) || cleaned.includes(`#${want}`) || cleaned.includes(`${want} :`);
   }
 
   function matchesDescForRegion(desc, regionName) {
     if (!desc) return false;
-    const lines = desc.replace(/\r\n/g, '\n').split('\n');
-    return lines.some(l => /^#\s*[A-ZÀÂÄÉÈÊËÎÏÔÖÙÛÜÇ\- ]+\s*:/.test(l) && regionTagMatches(l, regionName));
+    return regionTagMatches(desc, regionName);
   }
 
   function filterDescByRegion(desc, regionName) {
@@ -133,7 +129,7 @@
     const lines = desc.replace(/\r\n/g, '\n').split('\n');
     const kept = [];
     for (const ln of lines) {
-      if (/^#\s*[A-ZÀÂÄÉÈÊËÎÏÔÖÙÛÜÇ\- ]+\s*:/.test(ln)) {
+      if (/^#\s*[A-ZÀÂÄÉÈÊËÎÏÔÖÙÛÜÇ\- ]+/.test(ln)) {
         if (regionTagMatches(ln, regionName)) {
           kept.push(ln.replace(/^#\s*[A-ZÀÂÄÉÈÊËÎÏÔÖÙÛÜÇ\- ]+\s*:\s*/i, '').trim());
         }
@@ -144,7 +140,6 @@
     return kept.join('\n').replace(/\n{3,}/g, '\n\n').trim();
   }
 
-  // Fix moji-bake au cas où l'index a été mal encodé
   function fixMojibake(s){
     if (!s || !/[ÃÂ]/.test(s)) return s;
     try{
@@ -153,7 +148,6 @@
     }catch(_){ return s; }
   }
 
-  // Normalisation d'une entrée région -> objet rendu
   const normalizeRegionMove = (raw) => {
     if (typeof raw === 'string') {
       const fromIdx = idxByName.get(raw) || idxByToken.get(raw);
@@ -187,18 +181,16 @@
     };
   };
 
-  // Liste filtrée par tag, avec extension CS cross-régions
+  // === Liste par tag avec extension CS globale ===
   function listForTag(tagRaw) {
     const raw  = (tagRaw ?? '').toString().trim();
-    const normTag = raw.replace(/\u2014/g, '').replace(/\u2013/g, '').replace(/-/g, '').replace(/\s+/g, '').toUpperCase();
+    const normTag = raw.replace(/\s+/g, '').toUpperCase();
     const valid = new Set(['CT','DT','CS','CU']);
 
-    // 1) Base : contenu strict de la région courante
     const basePick = valid.has(normTag)
       ? (regionData[normTag] || [])
       : ['CT','DT','CS','CU'].flatMap(k => regionData[k] || []);
 
-    // 2) Extension spéciale CS : ajouter les CS d'autres régions dont la description mentionne la région courante
     let pick = basePick;
     if (normTag === 'CS') {
       const extra = [];
@@ -207,15 +199,12 @@
         for (const entry of csList) {
           const obj = (typeof entry === 'string') ? { name: entry, description: '' } : entry;
           const desc = obj?.description || '';
-          if (matchesDescForRegion(desc, foundKey || rParam)) {
-            extra.push(entry);
-          }
+          if (matchesDescForRegion(desc, foundKey || rParam)) extra.push(entry);
         }
       }
       pick = pick.concat(extra);
     }
 
-    // 3) Normaliser et dédupliquer par nom
     const normalized = pick.map(normalizeRegionMove);
     const seen = new Set();
     return normalized.filter(m => {
@@ -256,6 +245,5 @@
   render();
 })();
 </script>
-
 </body>
 </html>
