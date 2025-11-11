@@ -4,6 +4,16 @@
   <meta charset="utf-8">
   <title>Toutes les attaques</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSP adaptée à GitHub Pages + script inline + fetch local -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self';
+                 img-src 'self' data:;
+                 style-src 'self' 'unsafe-inline';
+                 script-src 'self' 'unsafe-inline';
+                 connect-src 'self';
+                 object-src 'none'">
+
   <style>
     body{margin:0;background:#0f1421;color:#dbe7ff;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif}
     .wrap{max-width:1080px;margin:24px auto;padding:0 16px}
@@ -25,8 +35,9 @@
 </head>
 <body>
   <nav class="topnav" style="padding:8px 16px">
-    <a href="/index.html">Accueil</a> /
-    <a href="/Pages/Attaques/region.html?r=Johto">Attaques de Johto</a> /
+    <!-- depuis /Pages/Attaques/ -->
+    <a href="../../index.html">Accueil</a> /
+    <a href="region.html?r=Johto">Attaques de Johto</a> /
   </nav>
 
   <div class="wrap">
@@ -62,7 +73,7 @@
     const norm = s => (s ?? '').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 
     async function loadJSON(path, label) {
-      const res = await fetch(path);
+      const res = await fetch(path, { cache: 'no-cache' });
       if (!res.ok) throw new Error(`${label} introuvable (${res.status}) : ${res.url}`);
       return res.json();
     }
@@ -75,12 +86,11 @@
         Erreur de chargement : ${e.message}<br>
         Vérifie que le fichier existe bien à l’emplacement :
         <div><code>${PATH}</code></div>
-        Et que tu ouvres la page via un serveur local (ex : <code>http://127.0.0.1:5500/Pages/Attaques/toutes.html</code>).
       </div>`;
       return;
     }
 
-    // Uniformiser si jamais c'était un tableau (rare) : ici on attend un objet {type: [...]}
+    // Uniformiser si jamais c'était un tableau : on attend un objet {type: [...]}
     if (Array.isArray(byType)) {
       const regroup = {};
       for (const m of byType) {
@@ -104,7 +114,9 @@
       for (const m of byType[t]) {
         ALL.push({
           ...m,
-          type: t   // garantir la présence du type
+          type: t,                                      // garantir la présence du type
+          upper: m.upper || m.Upper || m.code || '',    // pour l'ancrage
+          name:  m.name  || m.Nom   || m.Name  || ''    // affichage
         });
       }
     }
@@ -113,13 +125,18 @@
       countEl.textContent = ` ${n} ${n>1?'attaques':'attaque'}`;
     }
 
+    // ID d'ancre stable pour chaque move (utile si on arrive avec #CRACHFUMEE)
+    function moveId(m){
+      return (m.upper || norm(m.name)).replace(/\s+/g,'_');
+    }
+
     function render() {
       const q = norm(search.value);
       const t = typeSel.value;
 
       const list = ALL
         .filter(m => t === 'ALL' ? true : m.type === t)
-        .filter(m => !q || norm(m.name).includes(q) || norm(m.upper || '').includes(q));
+        .filter(m => !q || norm(m.name).includes(q) || norm(m.upper).includes(q));
 
       updateCount(list.length);
 
@@ -129,19 +146,33 @@
       }
 
       grid.innerHTML = list.map(m => `
-        <div class="card">
+        <div class="card" id="${moveId(m)}">
           <div><strong>${m.name || m.upper}</strong>${m.type ? `<span class="tag">${m.type}</span>` : ''}</div>
           ${m.category ? `<div>Catégorie : ${m.category}</div>` : ''}
           <div>Puissance : ${m.power ?? '-'}&nbsp;&nbsp;Précision : ${m.accuracy ?? '-'}&nbsp;&nbsp;PP : ${m.pp ?? '-'}</div>
           ${m.description ? `<div class="small">${m.description}</div>` : ''}
         </div>
       `).join('');
+
+      // Si on vient avec un hash (#MOVE), on scroll sur la carte
+      if (location.hash) {
+        const id = decodeURIComponent(location.hash.slice(1));
+        const target = document.getElementById(id);
+        if (target) target.scrollIntoView({behavior:'smooth', block:'start'});
+      }
     }
 
     // Événements + premier rendu
     search.addEventListener('input', render);
     typeSel.addEventListener('change', render);
     render();
+
+    // Si le hash change après filtrage / recherche
+    window.addEventListener('hashchange', () => {
+      const id = decodeURIComponent(location.hash.slice(1));
+      const target = document.getElementById(id);
+      if (target) target.scrollIntoView({behavior:'smooth', block:'start'});
+    });
   })();
   </script>
 </body>
