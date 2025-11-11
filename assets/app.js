@@ -1,4 +1,4 @@
-/* ---------- app.js (fix6: sprites hyper-tolérants, multi-régions, objets/ressource) ---------- */
+/* ---------- app.js (fix7: +initMoves toutes.html, liens vers toutes.html, sprites & JSON tolérants) ---------- */
 
 /***** utils *****/
 function $(q, el=document){ return el.querySelector(q); }
@@ -58,53 +58,33 @@ function fixBrokenAccentsInDom(root=document.body){
 // Variantes robustes: enlève accents, apostrophes, genres, ET teste versions "compactes" (sans séparateurs)
 function spriteVariants(n){
   const raw = (n||'').toString();
-
-  // minuscules + déaccentuation
   const lower = raw.toLowerCase();
   const deacc = lower.normalize('NFD').replace(/[\u0300-\u036f]/g,'');
-
-  // retire symboles et ponctuations exotiques
   const base = deacc
     .replace(/[’']/g,'')
     .replace(/[♂]/g,'')
     .replace(/[♀]/g,'f')
-    .replace(/[^a-z0-9 _-]/g,' '); // remplace tout le reste par espace
-
-  // éclate sur espaces existants (séquences)
+    .replace(/[^a-z0-9 _-]/g,' ');
   const tokens = base.trim().split(/\s+/).filter(Boolean);
   const joined = tokens.join(' ');
-
-  // Génère combinaisons d'assembleurs: ' ' , '_' , '-' , '' (compact)
   const seps = [' ', '_', '-', ''];
   const vars = new Set();
-
   function pushForm(s){
     if (!s) return;
-    // formats de base
     vars.add(s);
     vars.add(s.replace(/\s+/g,'_'));
     vars.add(s.replace(/\s+/g,'-'));
     vars.add(s.replace(/\s+/g,''));
-    // versions majuscules
     const up = s.toUpperCase();
     vars.add(up);
     vars.add(up.replace(/\s+/g,'_'));
     vars.add(up.replace(/\s+/g,'-'));
     vars.add(up.replace(/\s+/g,''));
   }
-
-  // 1) chaîne telle quelle (déjà nettoyée)
   pushForm(joined);
-
-  // 2) pour chaque séparateur cible, on rejoint les tokens
-  for (const sep of seps){
-    pushForm(tokens.join(sep));
-  }
-
-  // 3) variantes "super-compactes" sans aucun non-alphanum (utile pour PORYGONZ)
+  for (const sep of seps) pushForm(tokens.join(sep));
   const compact = joined.replace(/[^a-z0-9]/gi,'');
   pushForm(compact);
-
   return Array.from(vars);
 }
 
@@ -350,7 +330,8 @@ async function initPokemon(){
     const typesEl = $('#types'); if(typesEl) typesEl.innerHTML = renderBadges(p.types);
     const evoEl = $('#evo'); if(evoEl) evoEl.innerHTML = linkifyEvo(p, region) || '?';
 
-    const linkMove = function(m){ return '<a href="moves.html#' + encodeURIComponent(m) + '">' + m + '</a>'; };
+    // Tous les liens d’attaques pointent désormais vers toutes.html
+    const linkMove = function(m){ return '<a href="toutes.html#' + encodeURIComponent(m) + '">' + m + '</a>'; };
 
     const habilEl = $('#habil'); if(habilEl){
       const abilities = p.abilities || [];
@@ -368,7 +349,7 @@ async function initPokemon(){
       objres.innerHTML = heldHTML + resHTML;
     }
 
-    // Image avec variantes tolérantes (accent -> ascii, -, _, compact, UPPER)
+    // Image
     const img = $('#sprite');
     if(img){
       const candidates = []
@@ -384,12 +365,13 @@ async function initPokemon(){
       img.src = candidates[0] || '';
     }
 
+    // Moves par niveau -> liens vers toutes.html
     (function(){
       const lvlEl = $('#lvl'); if(!lvlEl) return;
       const arr = (p.level_up||[]).slice().sort(function(a,b){ return a.level - b.level; });
       if (arr.length){
         lvlEl.innerHTML = arr.map(function(m){
-          return '<li>' + String(m.level).padStart(2,'0') + ' <a href="moves.html#' + encodeURIComponent(m.move) + '">' + m.move + '</a></li>';
+          return '<li>' + String(m.level).padStart(2,'0') + ' <a href="toutes.html#' + encodeURIComponent(m.move) + '">' + m.move + '</a></li>';
         }).join('');
       }else{
         lvlEl.innerHTML = '<li>?</li>';
@@ -399,7 +381,7 @@ async function initPokemon(){
     const renderList = function(arr){
       if (!arr || !arr.length) return '<li>?</li>';
       return '<li class="lvl-group"><ul class="cols">' + arr.map(function(m){
-        return '<li><a href="moves.html#' + encodeURIComponent(m) + '">' + m + '</a></li>';
+        return '<li><a href="toutes.html#' + encodeURIComponent(m) + '">' + m + '</a></li>';
       }).join('') + '</ul></li>';
     };
     const eggs = $('#eggs'); if(eggs) eggs.innerHTML = renderList(p.egg_moves || []);
@@ -417,10 +399,127 @@ async function initPokemon(){
   }
 }
 
+/***** TOUTES LES ATTAQUES (toutes.html) *****/
+async function initMoves(){
+  const grid = $('.grid');
+  if (!grid){
+    console.warn('Pas de .grid sur cette page');
+    return;
+  }
+  const q = $('#q');
+
+  // 1) charge moves_all.json ou moves_index.json (objet/array)
+  async function loadMovesAny(){
+    const tries = [
+      '/data/moves_all.json',
+      '/data/moves_index.json',
+      '/Data/moves_all.json',
+      '/Data/moves_index.json'
+    ];
+    let lastErr = null;
+    for (const p of tries){
+      try{
+        const j = await loadJSON(p);
+        return { data: j, source: p };
+      }catch(e){ lastErr = e; }
+    }
+    throw lastErr || new Error('Aucune source JSON trouvée');
+  }
+
+  function coerceArray(data){
+    if (Array.isArray(data)) return data;
+    if (data && typeof data === 'object') return Object.values(data);
+    return [];
+  }
+
+  function normalizeMove(m){
+    return {
+      Nom:        m.Nom ?? m.name ?? m.Name ?? '',
+      Upper:      m.upper ?? m.Upper ?? m.UPPER ?? m.code ?? '',
+      Type:       m.Type ?? m.type ?? '',
+      Categorie:  m.Categorie ?? m.categorie ?? m.Category ?? m.category ?? '',
+      Puissance:  m.Puissance ?? m.puissance ?? m.Power ?? '',
+      Precision:  m.Precision ?? m.precision ?? m.Accuracy ?? '',
+      PP:         m.PP ?? m.pp ?? m.TotalPP ?? '',
+      Description:m.Description ?? m.description ?? ''
+    };
+  }
+
+  function cardHTML(m){
+    // Ancre: permet d’arriver depuis pokemon.html#MOVE
+    const id = (m.Upper || norm(m.Nom)).replace(/\s+/g,'_');
+    return `
+      <div class="card" id="${id}" style="padding:12px">
+        <div class="h2" style="margin-bottom:6px">${m.Nom || '?'}</div>
+        <div class="muted" style="margin-bottom:8px">${[m.Type, m.Categorie].filter(Boolean).join(' • ')}</div>
+        <div class="grid-mini" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px; margin-bottom:8px">
+          <div><strong>Puissance</strong><br>${m.Puissance || '-'}</div>
+          <div><strong>Précision</strong><br>${m.Precision || '-'}</div>
+          <div><strong>PP</strong><br>${m.PP || '-'}</div>
+        </div>
+        ${m.Description ? `<div class="small">${m.Description}</div>` : ``}
+      </div>`;
+  }
+
+  function render(list, metaText){
+    if (!list.length){
+      grid.innerHTML = `<div class="card" style="padding:12px">Aucune attaque</div>`;
+      return;
+    }
+    grid.innerHTML = list.map(cardHTML).join('');
+    // Auto-scroll si on a un hash (ex: toutes.html#CRACHFUMEE)
+    if (location.hash){
+      const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (target) target.scrollIntoView({behavior:'smooth', block:'start'});
+    }
+    // Info en-tête si tu veux en afficher une (facultatif)
+    const header = $('.header');
+    if (header && !header.querySelector('.muted-info')){
+      const span = document.createElement('div');
+      span.className = 'muted muted-info';
+      span.style.marginTop = '4px';
+      span.textContent = metaText || '';
+      header.appendChild(span);
+    }else if (header && header.querySelector('.muted-info')){
+      header.querySelector('.muted-info').textContent = metaText || '';
+    }
+  }
+
+  try{
+    const { data, source } = await loadMovesAny();
+    let ALL = coerceArray(data).map(normalizeMove);
+    // Tri accent-insensible par Nom
+    ALL.sort((a,b)=> norm(a.Nom).localeCompare(norm(b.Nom)));
+    render(ALL, `Source: ${source} — ${ALL.length} attaques`);
+
+    if (q){
+      q.addEventListener('input', ()=>{
+        const n = norm(q.value);
+        const filtered = ALL.filter(m =>
+          norm(m.Nom).includes(n) ||
+          norm(m.Type).includes(n) ||
+          norm(m.Categorie).includes(n)
+        );
+        render(filtered, `Source: ${source} — ${filtered.length}/${ALL.length} attaques`);
+      });
+    }
+
+    fixBrokenAccentsInDom();
+  }catch(e){
+    console.error(e);
+    grid.innerHTML = `
+      <div class="card" style="padding:12px;color:#a00">
+        Erreur de chargement des attaques.<br>
+        <small>${e.message}</small>
+      </div>`;
+  }
+}
+
 /***** auto init *****/
 document.addEventListener('DOMContentLoaded', function(){
   const path = location.pathname.toLowerCase();
   const file = path.split('/').pop();
   if (file === 'pokemon.html')  initPokemon();
   else if (file.startsWith('pokedex')) initIndex();
+  else if (file === 'toutes.html' || file === 'moves.html') initMoves(); // moves.html reste supporté si la page existe encore
 });
