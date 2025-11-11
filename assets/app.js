@@ -1,4 +1,4 @@
-/* ---------- app.js (multi-régions + fetch robuste + objets/ressources + détection région par URL) ---------- */
+/* ---------- app.js (sprites tolérants: accents/variantes Salamèche -> salameche.png) ---------- */
 
 /***** utils *****/
 function $(q, el=document){ return el.querySelector(q); }
@@ -19,10 +19,9 @@ function withBase(p){
   return p.replace(/^.\//,'');
 }
 
-// Fetch robuste avec fallback (essaie plusieurs variantes de chemin)
+// Fetch robuste
 async function loadJSON(url){
-  const candidates = [];
-  candidates.push(url);
+  const candidates = [url];
   if (url.startsWith('/')) candidates.push(withBase(url));
   if (!url.startsWith('./')) candidates.push('./' + url.replace(/^\/+/, ''));
   candidates.push(url.replace(/^\/+/, ''));
@@ -56,16 +55,33 @@ function fixBrokenAccentsInDom(root=document.body){
 }
 
 /***** sprites *****/
-function nameVariants(n){
+// Ajoute des variantes tolérantes (suppression des accents et caractères spéciaux)
+function spriteVariants(n){
   const raw = (n||'').toString();
   const lower = raw.toLowerCase();
-  const upper = raw.toUpperCase();
-  const unders = lower.replace(/\s+/g,'_');
-  const undersU = upper.replace(/\s+/g,'_');
-  return [lower, unders, upper, undersU];
+  const deacc = lower.normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+  // retire symboles de genre, apostrophes, ponctuation exotique
+  const cleaned = deacc
+    .replace(/[’']/g,'')
+    .replace(/[♂]/g,'')
+    .replace(/[♀]/g,'f')
+    .replace(/[^a-z0-9 _-]/g,''); // garde lettres, chiffres, espace, _ et -
+
+  const vars = new Set();
+  function pushAll(v){
+    vars.add(v);
+    vars.add(v.replace(/\s+/g,'_'));
+    vars.add(v.replace(/\s+/g,'-'));
+    vars.add(v.replace(/\s+/g,''));
+    vars.add(v.toUpperCase());
+    vars.add(v.replace(/\s+/g,'_').toUpperCase());
+  }
+  [lower, deacc, cleaned].forEach(pushAll);
+  return Array.from(vars);
 }
+
 function makeSpriteCandidates(name, rk){
-  const vars = nameVariants(name);
+  const vars = spriteVariants(name);
   const out = [];
   for (const v of vars){
     out.push(withBase('/assets/pkm/' + v + '.png'));
@@ -118,7 +134,6 @@ function linkifyEvo(p, region){
     return parts.join(' / ');
   }
 
-  // Fallback (É ou E)
   return evoText.replace(
     /(?:É|E)volue en\s+([^,.;/]+)/g,
     function(full, rest){
@@ -317,7 +332,7 @@ async function initPokemon(){
       habhidEl.innerHTML = p.hidden_ability ? linkMove(p.hidden_ability) : '?';
     }
 
-    // ---------- OBJETS & RESSOURCE (depuis le JSON) ----------
+    // OBJETS & RESSOURCE
     const objres = $('#objres');
     if (objres){
       const heldHTML = renderHeldItems(p.held_items);
@@ -325,6 +340,7 @@ async function initPokemon(){
       objres.innerHTML = heldHTML + resHTML;
     }
 
+    // Image avec variantes tolérantes (accent -> ascii, _, -, …)
     const img = $('#sprite');
     if(img){
       const candidates = []
@@ -361,7 +377,7 @@ async function initPokemon(){
     const eggs = $('#eggs'); if(eggs) eggs.innerHTML = renderList(p.egg_moves || []);
     const cs   = $('#cs');   if(cs)   cs.innerHTML   = renderList(p.cs || []);
     const ct   = $('#ct');   if(ct)   ct.innerHTML   = renderList(p.ct || []);
-    const dt   = $('#dt');   if(dt)   dt.innerHTML   = renderList(p.dt || []);
+    const dt   = $('#dt');   if (dt)   dt.innerHTML   = renderList(p.dt || []);
 
     const pokedex = $('#pokedex'); if(pokedex) pokedex.textContent = p.pokedex || '?';
 
