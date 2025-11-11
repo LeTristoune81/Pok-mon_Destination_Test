@@ -378,14 +378,12 @@ async function initPokemon(){
       }
     })();
 
-   const renderList = (arr=[]) => {
-  if (!arr.length) return '<li><em>Aucune</em></li>';
-  return '<li><ul>' + arr.map(m => {
-    const hash = norm(m).replace(/\s+/g, '_'); // ex: "Coupe" -> "coupe" -> "coupe"
-    return '<li><a href="Pages/Attaques/toutes.html#' + encodeURIComponent(hash) + '">' + m + '</a></li>';
-  }).join('') + '</ul></li>';
-};
-
+    const renderList = function(arr){
+      if (!arr || !arr.length) return '<li>?</li>';
+      return '<li class="lvl-group"><ul class="cols">' + arr.map(function(m){
+        return '<li><a href="toutes.html#' + encodeURIComponent(m) + '">' + m + '</a></li>';
+      }).join('') + '</ul></li>';
+    };
     const eggs = $('#eggs'); if(eggs) eggs.innerHTML = renderList(p.egg_moves || []);
     const cs   = $('#cs');   if(cs)   cs.innerHTML   = renderList(p.cs || []);
     const ct   = $('#ct');   if(ct)   ct.innerHTML   = renderList(p.ct || []);
