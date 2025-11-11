@@ -37,7 +37,7 @@
     for (const url of CANDIDATES){
       try{
         const j = await tryFetch(url);
-        meta.textContent = `Recherche + filtre par type — Source: ${url}`;
+        meta.textContent = `Recherche + filtre par type`;
         console.log('[toutes] loaded:', url);
         return j;
       }catch(e){
