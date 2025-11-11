@@ -119,9 +119,9 @@
     "egg_moves": [
       "Fouet Lianes",
       "Gigotage",
-      "Vibra Soin",
+      "Lame Psychique",
       "Tir Arôme",
-      "Racines",
+      "Maléfice Sylvain",
       "Arôme Âcre",
       "Harmonie",
       "Herblast",
@@ -132,38 +132,43 @@
       "Coupe"
     ],
     "ct": [
-      "Attraction",
+      "Méga-Sangsue",
       "Demi-Tour",
+      "Attraction",
       "Effort",
-      "Gliss'Herbe",
-      "Méga-Sangsue"
+      "Gliss'Herbe"
     ],
     "dt": [
-      "Aire d'Herbe",
-      "Amitié",
-      "Balle Graine",
-      "Bombe Acide",
-      "Champ Plante",
-      "Coup d'Boule",
-      "Don Naturel",
-      "Efflorescence",
-      "Feuille Magik",
-      "Frustration",
-      "Lame Feuille",
-      "Léchouille",
-      "Nœud Herbe",
-      "Patience",
-      "Picots",
-      "Protection",
-      "Repos",
       "Retenue",
-      "Retour",
-      "Soucigraine",
+      "Protection",
+      "Patience",
+      "Repos",
+      "Efflorescence",
+      "Bombe Acide",
+      "Coup d'Boule",
       "Taillade",
       "Tranch'Herbe",
-      "Vent Argenté"
+      "Léchouille",
+      "Picots",
+      "Retour",
+      "Frustration",
+      "Balle Graine",
+      "Vent Argenté",
+      "Noeud Herbe",
+      "Don Naturel",
+      "Aire d'Herbe",
+      "Soucigraine",
+      "Feuille Magik",
+      "Lame Feuille",
+      "Amitié",
+      "Champ Plante"
     ],
-    "image": "assets/pkm/germignon.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Macronium",
@@ -174,7 +179,7 @@
       "Engrais"
     ],
     "hidden_ability": "Feuillegarde",
-    "evolution": "Évolue en Méganium au niveau 36",
+    "evolution": "Évolue en Meganium au niveau 36",
     "pokedex": "Un arôme épicé émane de son cou. Il agit comme un stimulant et lui fait récupérer son énergie.",
     "level_up": [
       {
@@ -285,69 +290,74 @@
     "egg_moves": [],
     "cs": [
       "Coupe",
-      "Coupe Vive",
+      "Force",
       "Éclate-Roc",
-      "Force"
+      "Coupe Vive"
     ],
     "ct": [
+      "Méga-Sangsue",
+      "Chaîne Malsaine",
+      "Souplesse",
+      "Demi-Tour",
       "Attraction",
       "Bombe Fleurie",
-      "Demi-Tour",
-      "Effort",
       "Façade",
-      "Fouet Retour",
+      "Effort",
       "Gliss'Herbe",
-      "Méga-Sangsue",
-      "Souplesse",
-      "Chaîne Malsaine"
+      "Fouet Retour"
     ],
     "dt": [
-      "Aire d'Herbe",
-      "Amitié",
-      "Balle Graine",
-      "Beau Temps",
-      "Bombe Beurk",
-      "Bombe Acide",
-      "Bombe-Boue",
-      "Bombe Miracle",
-      "Boule Pollen",
-      "Champ Plante",
-      "Chute de Pollen",
-      "Chute Épineuse",
-      "Coup d'Boule",
-      "Danse Fleurs",
-      "Don Naturel",
-      "Éco-Sphère",
+      "Retenue",
+      "Protection",
+      "Patience",
+      "Repos",
+      "Météores",
+      "Plaquage",
       "Efflorescence",
-      "Feuille Magik",
+      "Lance-Soleil",
+      "Bombe Acide",
+      "Hâte",
+      "Coup d'Boule",
+      "Taillade",
+      "Tranch'Herbe",
+      "Léchouille",
+      "Radiance",
+      "Mur Lumière",
+      "Picots",
+      "Bombe Beurk",
+      "Retour",
       "Frustration",
       "Giga-Sangsue",
-      "Grain'en Retard",
-      "Hâte",
-      "Lame Feuille",
-      "Lance-Soleil",
-      "Léchouille",
-      "Météores",
-      "Mur Lumière",
-      "Nœud Herbe",
-      "Patience",
-      "Picots",
-      "Plaquage",
-      "Protection",
-      "Psykoud'Boul",
-      "Radiance",
-      "Repos",
-      "Retenue",
-      "Retour",
+      "Beau Temps",
+      "Chute de Pollen",
       "Rune Protect",
-      "Soucigraine",
-      "Taillade",
-      "Tempête Florale",
-      "Tranch'Herbe",
+      "Balle Graine",
       "Vent Argenté",
-      "Photo-Geyser"
+      "Photo-Geyser",
+      "Noeud Herbe",
+      "Don Naturel",
+      "Éco-Sphère",
+      "Aire d'Herbe",
+      "Soucigraine",
+      "Feuille Magik",
+      "Psykoud'Boul",
+      "Chute Épineuse",
+      "Bombe Miracle",
+      "Lame Feuille",
+      "Amitié",
+      "Danse Fleurs",
+      "Champ Plante",
+      "Tempête Florale",
+      "Bombe-Boue",
+      "Grain'en Retard",
+      "Boule Pollen"
     ],
-    "image": "assets/pkm/macronium.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Méganium",
@@ -359,7 +369,7 @@
       "Engrais"
     ],
     "hidden_ability": "Feuillegarde",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Le souffle de Méganium a le pouvoir de redonner la santé aux plantes malades ou mortes.",
     "level_up": [
       {
@@ -482,96 +492,101 @@
     "egg_moves": [],
     "cs": [
       "Coupe",
-      "Coupe Vive",
-      "Éclate-Roc",
-      "Enfoncement",
       "Force",
-      "Force Cachée"
+      "Éclate-Roc",
+      "Force Cachée",
+      "Coupe Vive",
+      "Enfoncement"
     ],
     "ct": [
+      "Tomberoche",
+      "Méga-Sangsue",
+      "Chaîne Malsaine",
+      "Souplesse",
+      "Séisme",
+      "Demi-Tour",
       "Attraction",
       "Bombe Fleurie",
-      "Câlinerie",
-      "Demi-Tour",
-      "Éclat Fabuleux",
-      "Effort",
       "Façade",
+      "Éclat Fabuleux",
       "Force Primale",
-      "Fouet Retour",
+      "Effort",
+      "Câlinerie",
+      "Trépignement",
       "Gliss'Herbe",
       "Mégaphone",
-      "Méga-Sangsue",
-      "Séisme",
-      "Souplesse",
-      "Tomberoche",
-      "Chaîne Malsaine",
-      "Trépignement"
+      "Fouet Retour"
     ],
     "dt": [
-      "Aéro Ball",
-      "Aire d'Herbe",
-      "Amitié",
+      "Retenue",
+      "Protection",
+      "Patience",
+      "Pouvoir Antique",
+      "Repos",
       "Ampleur",
-      "Balle Graine",
-      "Beau Temps",
-      "Bombe Beurk",
-      "Bombe Acide",
-      "Bombe-Boue",
-      "Bombe Miracle",
-      "Boule Pollen",
-      "Brouhaha",
-      "Champ Fée",
-      "Champ Plante",
-      "Chute de Pollen",
-      "Chute Épineuse",
-      "Coup d'Boule",
-      "Damoclès",
-      "Danse Fleurs",
-      "Don Naturel",
+      "Salissure",
+      "Météores",
       "Éboulement",
-      "Éco-Sphère",
+      "Tête de Fer",
+      "Plaquage",
       "Efflorescence",
-      "Feuille Magik",
+      "Lance-Soleil",
+      "Damoclès",
+      "Ultralaser",
+      "Bombe Acide",
+      "Hâte",
+      "Coup d'Boule",
+      "Taillade",
+      "Tranch'Herbe",
+      "Léchouille",
+      "Radiance",
+      "Mur Lumière",
+      "Picots",
+      "Plénitude",
+      "Bombe Beurk",
+      "Retour",
       "Frustration",
       "Giga-Sangsue",
-      "Giga Impact",
-      "Grain'en Retard",
-      "Hâte",
-      "Lame Feuille",
-      "Lance-Soleil",
-      "Léchouille",
-      "Mégafouet",
-      "Météores",
-      "Mur Lumière",
-      "Nœud Herbe",
-      "Patience",
-      "Picots",
-      "Plaquage",
-      "Plénitude",
-      "Pouvoir Antique",
-      "Protection",
-      "Psykoud'Boul",
-      "Radiance",
-      "Rayon Dense",
-      "Rayon Signal",
-      "Repos",
-      "Retenue",
-      "Retour",
-      "Rune Protect",
-      "Salissure",
       "Sentence",
-      "Soucigraine",
-      "Taillade",
-      "Telluriforce",
-      "Tempête Florale",
-      "Tête de Fer",
-      "Tir Arôme",
-      "Tranch'Herbe",
-      "Ultralaser",
+      "Beau Temps",
+      "Chute de Pollen",
+      "Rune Protect",
+      "Balle Graine",
       "Vent Argenté",
-      "Photo-Geyser"
+      "Photo-Geyser",
+      "Noeud Herbe",
+      "Don Naturel",
+      "Rayon Signal",
+      "Éco-Sphère",
+      "Giga Impact",
+      "Aire d'Herbe",
+      "Soucigraine",
+      "Feuille Magik",
+      "Psykoud'Boul",
+      "Brouhaha",
+      "Mégafouet",
+      "Chute Épineuse",
+      "Bombe Miracle",
+      "Rayon Dense",
+      "Lame Feuille",
+      "Amitié",
+      "Danse Fleurs",
+      "Champ Plante",
+      "Champ Fée",
+      "Aéro Ball",
+      "Tempête Florale",
+      "Bombe-Boue",
+      "Tir Arôme",
+      "Telluriforce",
+      "Grain'en Retard",
+      "Boule Pollen"
     ],
-    "image": "assets/pkm/mganium.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Héricendre",
@@ -707,28 +722,33 @@
     ],
     "ct": [
       "Attraction",
-      "Bataille",
-      "Effort",
+      "Roulade",
       "Gonflette",
-      "Roulade"
+      "Bataille",
+      "Effort"
     ],
     "dt": [
-      "Aire de Feu",
-      "Calcination",
+      "Retenue",
+      "Patience",
+      "Repos",
+      "Fournaise",
       "Coup d'Boule",
       "Danse Flammes",
-      "Fournaise",
-      "Frustration",
       "Léchouille",
-      "Patience",
-      "Provoc",
-      "Repos",
-      "Retenue",
       "Retour",
+      "Frustration",
       "Ronflement",
-      "Roue de Feu"
+      "Provoc",
+      "Aire de Feu",
+      "Roue de Feu",
+      "Calcination"
     ],
-    "image": "assets/pkm/hricendre.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Feurisson",
@@ -849,62 +869,67 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Combustion",
       "Flash",
-      "Force"
+      "Force",
+      "Combustion"
     ],
     "ct": [
+      "Souplesse",
+      "Lance-Flammes",
       "Aéropique",
       "Attraction",
-      "Bataille",
-      "Effort",
-      "Façade",
-      "Gonflette",
-      "Lance-Flammes",
-      "Rebondilave",
       "Roulade",
-      "Sanction",
+      "Gonflette",
+      "Rebondilave",
+      "Façade",
+      "Bataille",
+      "Vengeance",
+      "Effort",
       "Sol Brûlé",
-      "Souplesse",
       "Tranche-Nuit",
-      "Vengeance"
+      "Sanction"
     ],
     "dt": [
-      "Aire de Feu",
-      "Attrition",
-      "Blabla Dodo",
-      "Bombe Fendante",
-      "Calcination",
-      "Canicule",
-      "Coup d'Boule",
-      "Coup Bas",
-      "Danse Flammes",
-      "Feu Envieux",
-      "Feu Follet",
-      "Fournaise",
-      "Frustration",
-      "Griffes Funestes",
-      "Hâte",
-      "Hurlement",
-      "Indignition",
-      "Larcin",
-      "Léchouille",
-      "Mâchouille",
-      "Météores",
-      "Patience",
-      "Provoc",
-      "Psykoud'Boul",
-      "Repos",
-      "Représailles",
       "Retenue",
+      "Patience",
+      "Griffes Funestes",
+      "Repos",
+      "Météores",
+      "Bombe Fendante",
+      "Fournaise",
+      "Hâte",
+      "Coup d'Boule",
+      "Hurlement",
+      "Danse Flammes",
+      "Léchouille",
+      "Blabla Dodo",
       "Retour",
+      "Frustration",
+      "Larcin",
+      "Attrition",
       "Ronflement",
-      "Roue de Feu",
+      "Provoc",
       "Surpuissance",
+      "Photo-Geyser",
+      "Feu Follet",
       "Vindicte",
-      "Photo-Geyser"
+      "Représailles",
+      "Canicule",
+      "Aire de Feu",
+      "Roue de Feu",
+      "Psykoud'Boul",
+      "Coup Bas",
+      "Calcination",
+      "Feu Envieux",
+      "Mâchouille",
+      "Indignition"
     ],
-    "image": "assets/pkm/feurisson.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Typhlosion",
@@ -915,7 +940,7 @@
       "Brasier"
     ],
     "hidden_ability": "Torche",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il a un coup secret dévastateur. En frottant sa fourrure ardente, il crée une forte explosion.",
     "level_up": [
       {
@@ -1037,111 +1062,116 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Casse Brique",
-      "Combustion",
       "Flash",
       "Force",
-      "Force Cachée"
+      "Combustion",
+      "Force Cachée",
+      "Casse Brique"
     ],
     "ct": [
+      "Tomberoche",
+      "Souplesse",
+      "Lance-Flammes",
+      "Séisme",
       "Aéropique",
       "Attraction",
-      "Ball'Ombre",
-      "Bataille",
-      "Colère",
-      "Dracoud'Boule",
-      "Effort",
-      "Façade",
-      "Folie Ardente",
-      "Gonflette",
-      "Gyroballe",
-      "Lance-Flammes",
-      "Maraudage",
-      "Mégaphone",
-      "Rebondilave",
       "Roulade",
-      "Sanction",
-      "Séisme",
+      "Gonflette",
+      "Rebondilave",
+      "Façade",
+      "Bataille",
+      "Gyroballe",
+      "Vengeance",
+      "Dracoud'Boule",
+      "Folie Ardente",
+      "Effort",
       "Sol Brûlé",
-      "Souplesse",
-      "Tomberoche",
+      "Maraudage",
       "Tranche-Nuit",
       "Trépignement",
+      "Colère",
+      "Sanction",
       "Vendetta",
-      "Vengeance",
-      "Vitesse Extrême"
+      "Mégaphone",
+      "Vitesse Extrême",
+      "Ball'Ombre"
     ],
     "dt": [
-      "Aire de Feu",
-      "Apogée",
-      "Attrition",
-      "Blabla Dodo",
-      "Bombe Fendante",
-      "Boutefeu",
-      "Brise Bastion",
-      "Brise Rempart",
-      "Brouhaha",
-      "Calcination",
-      "Canicule",
-      "Châtiment",
-      "Choc Basalte",
-      "Choc Frontal",
-      "Chute de Cendre",
-      "Chute Goudron",
-      "Coup d'Boule",
-      "Coup Bas",
-      "Coup Furieux",
-      "Damoclès",
-      "Danse Flammes",
-      "Déflagration",
-      "Dégommage",
-      "Draco-Griffe",
-      "Éboulement",
-      "Ébullilave",
-      "Feu Envieux",
-      "Feu Follet",
-      "Fournaise",
-      "Frustration",
-      "Fulgur",
-      "Giga Impact",
-      "Griffes Funestes",
-      "Hâte",
-      "Hurlement",
-      "Indignition",
-      "Larcin",
-      "Léchouille",
-      "Mâchouille",
-      "Météores",
-      "Mitra-Poing",
+      "Retenue",
       "Patience",
+      "Riposte",
+      "Punition",
+      "Griffes Funestes",
+      "Pouvoir Antique",
+      "Repos",
+      "Sectionnage",
+      "Météores",
+      "Éboulement",
+      "Tête de Fer",
       "Plaquage",
+      "Damoclès",
+      "Bombe Fendante",
+      "Déflagration",
+      "Ultralaser",
+      "Fournaise",
+      "Hâte",
+      "Coup d'Boule",
+      "Hurlement",
+      "Danse Flammes",
+      "Léchouille",
+      "Radiance",
       "Poing Feu",
       "Poing Éclair",
-      "Poing Météore",
-      "Pouvoir Antique",
-      "Provoc",
-      "Psykoud'Boul",
-      "Punition",
-      "Radiance",
-      "Repos",
-      "Représailles",
-      "Retenue",
+      "Blabla Dodo",
       "Retour",
-      "Riposte",
+      "Frustration",
+      "Mitra-Poing",
+      "Larcin",
+      "Brise Rempart",
+      "Choc Frontal",
+      "Attrition",
       "Ronflement",
-      "Roue de Feu",
-      "Sabotage",
-      "Sectionnage",
-      "Sélégriffe",
+      "Provoc",
       "Surchauffe",
+      "Choc Basalte",
+      "Châtiment",
+      "Draco-Griffe",
       "Surpuissance",
-      "Tête de Fer",
-      "Ultralaser",
+      "Chute de Cendre",
+      "Photo-Geyser",
+      "Dégommage",
+      "Feu Follet",
       "Vindicte",
+      "Sélégriffe",
+      "Ébullilave",
+      "Poing Météore",
+      "Représailles",
+      "Giga Impact",
+      "Canicule",
+      "Aire de Feu",
+      "Roue de Feu",
+      "Psykoud'Boul",
+      "Brouhaha",
+      "Sabotage",
+      "Brise Bastion",
+      "Fulgur",
+      "Coup Bas",
+      "Boutefeu",
+      "Calcination",
+      "Chute Goudron",
+      "Feu Envieux",
+      "Mâchouille",
+      "Coup Furieux",
+      "Indignition",
       "Vortex Magma",
-      "Photo-Geyser"
+      "Apogée"
     ],
-    "image": "assets/pkm/typhlosion.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Kaiminus",
@@ -1276,43 +1306,48 @@
       "Coupe"
     ],
     "ct": [
-      "Aqua-Douche",
+      "Vibraqua",
       "Attraction",
-      "Bataille",
       "Gonflette",
       "Tourbi-Sable",
-      "Vibraqua"
+      "Bataille",
+      "Aqua-Douche"
     ],
     "dt": [
-      "Aire d'Eau",
-      "Blabla Dodo",
-      "Buée Noire",
-      "Bulles d'O",
-      "Coup d'Boule",
-      "Coup Bas",
-      "Croc Fatal",
-      "Danse Pluie",
-      "Douche Froide",
-      "Eau Revoir",
-      "Faux-Chage",
+      "Retenue",
       "Frénésie",
-      "Frustration",
+      "Patience",
+      "Riposte",
+      "Bulles d'O",
+      "Repos",
+      "Sectionnage",
+      "Météores",
+      "Saisie",
+      "Coup d'Boule",
       "Hurlement",
       "Léchouille",
-      "Mâchouille",
-      "Météores",
-      "Patience",
-      "Provoc",
-      "Repos",
-      "Représailles",
-      "Retenue",
+      "Blabla Dodo",
       "Retour",
-      "Riposte",
+      "Frustration",
       "Ronflement",
-      "Saisie",
-      "Sectionnage"
+      "Provoc",
+      "Danse Pluie",
+      "Faux-Chage",
+      "Représailles",
+      "Aire d'Eau",
+      "Coup Bas",
+      "Croc Fatal",
+      "Buée Noire",
+      "Eau Revoir",
+      "Mâchouille",
+      "Douche Froide"
     ],
-    "image": "assets/pkm/kaiminus.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Crocrodil",
@@ -1434,77 +1469,82 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Casse Brique",
       "Coupe",
+      "Force",
       "Éclate-Roc",
       "Érosion",
-      "Force"
+      "Casse Brique"
     ],
     "ct": [
+      "Tomberoche",
+      "Vibraqua",
+      "Souplesse",
       "Aéropique",
-      "Aqua-Douche",
       "Attraction",
+      "Vague de Froid",
+      "Gonflette",
+      "Tourbi-Sable",
+      "Façade",
       "Bataille",
+      "Vengeance",
       "Bombe Sablée",
       "Effort",
-      "Façade",
-      "Gonflette",
+      "Tir de Précision",
+      "Tranche-Nuit",
+      "Vendetta",
       "Lyophilisation",
       "Sablivore",
-      "Souplesse",
-      "Tir de Précision",
-      "Tomberoche",
-      "Tourbi-Sable",
-      "Tranche-Nuit",
-      "Vague de Froid",
-      "Vendetta",
-      "Vengeance",
-      "Vibraqua"
+      "Aqua-Douche"
     ],
     "dt": [
-      "Aire d'Eau",
-      "Blabla Dodo",
-      "Buée Noire",
-      "Bulles d'O",
-      "Coup d'Boule",
-      "Coup Bas",
-      "Croc Fatal",
-      "Danse Pluie",
-      "Douche Froide",
-      "Drainage",
-      "Eau Revoir",
-      "Ébullition",
-      "Embargo",
-      "Faux-Chage",
-      "Frénésie",
-      "Frustration",
-      "Hâte",
-      "Hurlement",
-      "Hydro-Queue",
-      "Laser Glace",
-      "Léchouille",
-      "Mâchouille",
-      "Météores",
-      "Onde Boréale",
-      "Paléo'Choc",
-      "Patience",
-      "Poing Glace",
-      "Provoc",
-      "Psykoud'Boul",
-      "Repos",
-      "Représailles",
       "Retenue",
-      "Retour",
+      "Frénésie",
+      "Patience",
       "Riposte",
-      "Ronflement",
-      "Sable Ardent",
-      "Sabotage",
-      "Saisie",
+      "Bulles d'O",
+      "Onde Boréale",
+      "Repos",
       "Sectionnage",
+      "Météores",
+      "Laser Glace",
+      "Saisie",
+      "Hâte",
+      "Coup d'Boule",
+      "Hurlement",
+      "Léchouille",
+      "Poing Glace",
+      "Blabla Dodo",
+      "Retour",
+      "Frustration",
+      "Ronflement",
+      "Provoc",
+      "Danse Pluie",
       "Typhon Pyrosable",
-      "Vent Glace"
+      "Faux-Chage",
+      "Embargo",
+      "Représailles",
+      "Aire d'Eau",
+      "Psykoud'Boul",
+      "Ébullition",
+      "Sabotage",
+      "Coup Bas",
+      "Drainage",
+      "Croc Fatal",
+      "Hydro-Queue",
+      "Buée Noire",
+      "Eau Revoir",
+      "Paléo'Choc",
+      "Sable Ardent",
+      "Vent Glace",
+      "Mâchouille",
+      "Douche Froide"
     ],
-    "image": "assets/pkm/crocrodil.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Aligatueur",
@@ -1516,7 +1556,7 @@
       "Torrent"
     ],
     "hidden_ability": "Sanslimite",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Quand il mord avec sa puissante mâchoire, il secoue sa tête pour déchiqueter sa pauvre victime.",
     "level_up": [
       {
@@ -1638,121 +1678,126 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Brise-Glace",
-      "Cascade",
-      "Casse Brique",
       "Coupe",
-      "Éclate-Roc",
-      "Érosion",
-      "Escalade",
+      "Surf",
       "Force",
+      "Cascade",
+      "Éclate-Roc",
       "Force Cachée",
-      "Perce-Roc",
-      "Surf"
+      "Escalade",
+      "Érosion",
+      "Casse Brique",
+      "Brise-Glace",
+      "Perce-Roc"
     ],
     "ct": [
-      "Aéropique",
-      "Aqua-Douche",
-      "Attraction",
-      "Avalanche",
-      "Bataille",
-      "Bombe Sablée",
-      "Colère",
-      "Draco-Choc",
-      "Dracoud'Boule",
-      "Dynamo-Poing",
-      "Effort",
-      "Façade",
-      "Force Primale",
-      "Gonflette",
-      "Lame de Glace",
-      "Lyophilisation",
-      "Piège de Roc",
-      "Queue de Fer",
-      "Sablivore",
-      "Souplesse",
-      "Tir de Précision",
       "Tomberoche",
+      "Vibraqua",
+      "Souplesse",
+      "Aéropique",
+      "Attraction",
+      "Dynamo-Poing",
+      "Queue de Fer",
+      "Vague de Froid",
+      "Draco-Choc",
+      "Gonflette",
       "Tourbi-Sable",
+      "Façade",
+      "Piège de Roc",
+      "Bataille",
+      "Avalanche",
+      "Vengeance",
+      "Bombe Sablée",
+      "Lame de Glace",
+      "Dracoud'Boule",
+      "Force Primale",
+      "Effort",
+      "Tir de Précision",
       "Tranche-Nuit",
       "Trépignement",
-      "Vague de Froid",
+      "Colère",
       "Vendetta",
-      "Vengeance",
-      "Vibraqua"
+      "Lyophilisation",
+      "Sablivore",
+      "Aqua-Douche"
     ],
     "dt": [
-      "Aire d'Eau",
-      "Blabla Dodo",
-      "Blizzard",
-      "Bombe-Boue",
-      "Brise Glaise",
-      "Brouhaha",
-      "Buée Noire",
+      "Retenue",
+      "Frénésie",
+      "Patience",
+      "Riposte",
       "Bulles d'O",
-      "Cent Rancunes",
-      "Coup d'Boule",
-      "Coup Bas",
-      "Coup Furieux",
-      "Croc Fatal",
-      "Damoclès",
-      "Danse Pluie",
-      "Dégommage",
-      "Douche Froide",
-      "Draco-Griffe",
+      "Punition",
+      "Griffes Funestes",
+      "Pouvoir Antique",
+      "Onde Boréale",
+      "Repos",
       "Draco-Rage",
-      "Drainage",
-      "Eau Revoir",
+      "Sectionnage",
+      "Météores",
       "Éboulement",
-      "Ébullition",
+      "Tête de Fer",
+      "Plaquage",
+      "Damoclès",
+      "Laser Glace",
+      "Blizzard",
+      "Ultralaser",
+      "Saisie",
+      "Vague Ambrée",
+      "Hâte",
+      "Coup d'Boule",
+      "Hurlement",
+      "Léchouille",
+      "Brise Glaise",
+      "Poing Glace",
+      "Blabla Dodo",
+      "Retour",
+      "Frustration",
+      "Mitra-Poing",
+      "Ronflement",
+      "Provoc",
+      "Draco-Griffe",
+      "Danse Pluie",
+      "Typhon Pyrosable",
+      "Grêle",
+      "Faux-Chage",
+      "Dégommage",
+      "Sélégriffe",
       "Embargo",
       "Exploforce",
-      "Faux-Chage",
-      "Frénésie",
-      "Frustration",
-      "Fulmi-Queue",
-      "Giga Impact",
-      "Grêle",
-      "Griffes Funestes",
-      "Hâte",
-      "Hurlement",
-      "Hydro-Queue",
-      "Lame de Roc",
-      "Laser Glace",
-      "Léchouille",
-      "Mâchouille",
-      "Météores",
-      "Mitra-Poing",
-      "Onde Boréale",
-      "Paléo'Choc",
-      "Patience",
-      "Plaquage",
-      "Poing Glace",
-      "Pouvoir Antique",
-      "Provoc",
-      "Psykoud'Boul",
-      "Punition",
-      "Queue Déchainée",
-      "Rafale Écailles",
-      "Repos",
       "Représailles",
-      "Retenue",
-      "Retour",
-      "Riposte",
-      "Ronflement",
-      "Sable Ardent",
+      "Lame de Roc",
+      "Giga Impact",
+      "Aire d'Eau",
+      "Psykoud'Boul",
+      "Ébullition",
+      "Brouhaha",
       "Sabotage",
-      "Saisie",
-      "Sectionnage",
-      "Sélégriffe",
       "Stalactite",
-      "Typhon Pyrosable",
-      "Tête de Fer",
-      "Ultralaser",
-      "Vague Ambrée",
-      "Vent Glace"
+      "Coup Bas",
+      "Drainage",
+      "Croc Fatal",
+      "Fulmi-Queue",
+      "Hydro-Queue",
+      "Buée Noire",
+      "Paléo'Choc",
+      "Eau Revoir",
+      "Sable Ardent",
+      "Rafale Écailles",
+      "Cent Rancunes",
+      "Vent Glace",
+      "Bombe-Boue",
+      "Mâchouille",
+      "Coup Furieux",
+      "Douche Froide",
+      "Queue Déchainée"
     ],
-    "image": "assets/pkm/aligatueur.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Fouinette",
@@ -1889,46 +1934,51 @@
       "Ligotage",
       "Uppercut",
       "Gros Câlin",
-      "Lilliput",
+      "Nappage",
       "Cogne"
     ],
     "cs": [
       "Éclate-Roc"
     ],
     "ct": [
+      "Vibraqua",
+      "Souplesse",
       "Aéropique",
-      "Attraction",
-      "Bataille",
-      "Bond",
       "Demi-Tour",
-      "Effort",
-      "Façade",
-      "Gliss'Herbe",
-      "Gonflette",
-      "Onde de Choc",
+      "Attraction",
       "Rebond",
       "Roulade",
-      "Souplesse",
+      "Gonflette",
+      "Onde de Choc",
+      "Façade",
+      "Bataille",
       "Vampibaiser",
-      "Vibraqua"
+      "Effort",
+      "Gliss'Herbe",
+      "Bond"
     ],
     "dt": [
-      "Balle Graine",
-      "Blabla Dodo",
-      "Coup d'Boule",
+      "Retenue",
       "Étreinte",
-      "Frustration",
-      "Hâte",
-      "Larcin",
-      "Léchouille",
-      "Météores",
       "Patience",
       "Repos",
-      "Retenue",
+      "Météores",
+      "Hâte",
+      "Coup d'Boule",
+      "Léchouille",
+      "Blabla Dodo",
       "Retour",
-      "Rune Protect"
+      "Frustration",
+      "Larcin",
+      "Rune Protect",
+      "Balle Graine"
     ],
-    "image": "assets/pkm/fouinette.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Fouinar",
@@ -1941,7 +1991,7 @@
       "Regardvif"
     ],
     "hidden_ability": "Fouille",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "La femelle s'enroule autour de ses petits pour les bercer. Il accule l'ennemi grâce à sa vitesse.",
     "level_up": [
       {
@@ -2063,73 +2113,78 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Éclate-Roc",
       "Force",
+      "Éclate-Roc",
       "Force Cachée"
     ],
     "ct": [
+      "Vibraqua",
+      "Souplesse",
+      "Lance-Flammes",
       "Aéropique",
+      "Demi-Tour",
       "Attraction",
       "Ball'Ombre",
-      "Bataille",
-      "Bond",
-      "Câlinerie",
-      "Demi-Tour",
-      "Éclat Fabuleux",
-      "Effort",
-      "Façade",
-      "Gliss'Herbe",
-      "Gonflette",
-      "Lame d'Air",
-      "Lance-Flammes",
-      "Mégaphone",
-      "Onde de Choc",
-      "Pacification",
       "Queue de Fer",
       "Rebond",
-      "Roulade",
-      "Souplesse",
       "Vague de Froid",
-      "Vampibaiser",
+      "Roulade",
+      "Gonflette",
+      "Onde de Choc",
+      "Façade",
+      "Lame d'Air",
+      "Éclat Fabuleux",
+      "Pacification",
+      "Bataille",
       "Vengeance",
-      "Vibraqua",
+      "Vampibaiser",
+      "Effort",
+      "Câlinerie",
+      "Gliss'Herbe",
+      "Mégaphone",
+      "Bond",
       "Vitesse Extrême"
     ],
     "dt": [
-      "Attrition",
-      "Balle Graine",
-      "Beau Temps",
-      "Blabla Dodo",
-      "Clonage",
-      "Coup d'Boule",
-      "Coupe-Vent",
-      "Damoclès",
-      "Dard-Nuée",
-      "Étreinte",
-      "Fatal-Foudre",
-      "Frustration",
-      "Griffes Funestes",
-      "Hâte",
-      "Lance-Soleil",
-      "Larcin",
-      "Léchouille",
-      "Mania",
-      "Météores",
-      "Patience",
-      "Plaquage",
-      "Puissance Cachée",
-      "Punition",
-      "Queue Massue",
-      "Repos",
       "Retenue",
-      "Retour",
+      "Étreinte",
+      "Dard-Nuée",
+      "Patience",
       "Riposte",
-      "Rune Protect",
+      "Punition",
+      "Griffes Funestes",
+      "Repos",
+      "Météores",
+      "Tête de Fer",
+      "Clonage",
+      "Plaquage",
+      "Lance-Soleil",
+      "Damoclès",
+      "Coupe-Vent",
+      "Fatal-Foudre",
       "Saisie",
+      "Mania",
+      "Hâte",
+      "Coup d'Boule",
+      "Léchouille",
+      "Puissance Cachée",
+      "Blabla Dodo",
+      "Retour",
+      "Frustration",
       "Sentence",
-      "Tête de Fer"
+      "Beau Temps",
+      "Larcin",
+      "Rune Protect",
+      "Balle Graine",
+      "Queue Massue",
+      "Attrition"
     ],
-    "image": "assets/pkm/fouinar.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Hoothoot",
@@ -2257,6 +2312,7 @@
       "Rembobinage",
       "Entrave",
       "Trouble Esprit",
+      "Clair de Lune",
       "Bec Aiguisé",
       "Décompte",
       "Plume Toxik"
@@ -2267,30 +2323,35 @@
     "ct": [
       "Aéropique",
       "Attraction",
-      "Effort",
       "Lame d'Air",
+      "Effort",
       "Mégaphone"
     ],
     "dt": [
-      "Ailes d'Acier",
-      "Bec Vrille",
-      "Coup d'Boule",
-      "Coupe-Vent",
-      "Douce Brise",
-      "Entrave",
-      "Frustration",
-      "Hâte",
-      "Lévio Chute",
-      "Météores",
       "Métronome",
       "Protection",
+      "Vague Psy",
+      "Météores",
+      "Coupe-Vent",
+      "Lévio Chute",
+      "Bec Vrille",
+      "Hâte",
+      "Coup d'Boule",
+      "Entrave",
       "Puissance Cachée",
       "Retour",
+      "Frustration",
+      "Ailes d'Acier",
+      "Douce Brise",
       "Rune Protect",
-      "Vague Psy",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/hoothoot.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Noarfang",
@@ -2303,7 +2364,7 @@
       "Regardvif"
     ],
     "hidden_ability": "Lentiteintee",
-    "evolution": "Évolue en Prophibou en tenant l’objet Vieille Amulette",
+    "evolution": "Évolue en Prophibou avec Boost Tem",
     "pokedex": "Quand il est soucieux, il tourne la tête à 180 degrés. Il ne faut alors surtout pas le déranger, sous peine de recevoir un coup de bec.",
     "level_up": [
       {
@@ -2413,48 +2474,53 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Anti-Brume",
-      "Vol"
+      "Vol",
+      "Anti-Brume"
     ],
     "ct": [
+      "Psyko",
       "Aéropique",
       "Attraction",
       "Ball'Ombre",
-      "Dernier Espoir",
-      "Éclat Magique",
-      "Effort",
       "Lame d'Air",
-      "Mégaphone",
+      "Éclat Magique",
       "Psychose",
-      "Psyko",
+      "Effort",
       "Tranche-Nuit",
-      "Vaste Pouvoir"
+      "Mégaphone",
+      "Vaste Pouvoir",
+      "Dernier Espoir"
     ],
     "dt": [
-      "Ailes d'Acier",
-      "Bec Vrille",
-      "Bourrasque",
-      "Coup d'Boule",
-      "Coupe-Vent",
-      "Dévorêve",
-      "Douce Brise",
-      "Entrave",
-      "Frustration",
-      "Griffes Funestes",
-      "Hâte",
-      "Hurlement",
-      "Lévio Chute",
-      "Météores",
       "Métronome",
-      "Piqué",
       "Protection",
+      "Griffes Funestes",
+      "Vague Psy",
+      "Dévorêve",
+      "Météores",
+      "Coupe-Vent",
+      "Piqué",
+      "Lévio Chute",
+      "Bec Vrille",
+      "Hâte",
+      "Coup d'Boule",
+      "Hurlement",
+      "Entrave",
       "Puissance Cachée",
       "Retour",
+      "Frustration",
+      "Bourrasque",
+      "Ailes d'Acier",
+      "Douce Brise",
       "Rune Protect",
-      "Vague Psy",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/noarfang.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Prophibou",
@@ -2467,7 +2533,7 @@
       "Miroirmagik"
     ],
     "hidden_ability": "Lentiteintee",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "On raconte qu’il voit simultanément le passé, le présent et le futur. Il est devenu trop lourd pour voler.",
     "level_up": [
       {
@@ -2589,51 +2655,56 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Anti-Brume",
+      "Vol",
       "Force Cachée",
-      "Vol"
+      "Anti-Brume"
     ],
     "ct": [
+      "Psyko",
       "Aéropique",
       "Attraction",
       "Ball'Ombre",
-      "Dernier Espoir",
-      "Éclat Magique",
-      "Effort",
       "Lame d'Air",
-      "Maraudage",
-      "Mégaphone",
-      "Psychose",
-      "Psyko",
+      "Éclat Magique",
       "Salve Astrale",
+      "Psychose",
+      "Effort",
+      "Maraudage",
       "Tranche-Nuit",
-      "Vaste Pouvoir"
+      "Mégaphone",
+      "Vaste Pouvoir",
+      "Dernier Espoir"
     ],
     "dt": [
-      "Ailes d'Acier",
-      "Bec Vrille",
-      "Bourrasque",
-      "Coup d'Boule",
-      "Coupe-Vent",
-      "Dévorêve",
-      "Douce Brise",
-      "Entrave",
-      "Frustration",
-      "Griffes Funestes",
-      "Hâte",
-      "Hurlement",
-      "Lévio Chute",
-      "Météores",
       "Métronome",
-      "Piqué",
       "Protection",
+      "Griffes Funestes",
+      "Vague Psy",
+      "Dévorêve",
+      "Météores",
+      "Coupe-Vent",
+      "Piqué",
+      "Lévio Chute",
+      "Bec Vrille",
+      "Hâte",
+      "Coup d'Boule",
+      "Hurlement",
+      "Entrave",
       "Puissance Cachée",
       "Retour",
+      "Frustration",
+      "Bourrasque",
+      "Ailes d'Acier",
+      "Douce Brise",
       "Rune Protect",
-      "Vague Psy",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/prophibou.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Coxy",
@@ -2655,7 +2726,7 @@
       },
       {
         "level": 1,
-        "move": "Ultrason"
+        "move": "Chant Antique"
       },
       {
         "level": 5,
@@ -2755,15 +2826,20 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [
-      "Éclate-Roc",
-      "Flash"
+      "Flash",
+      "Éclate-Roc"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/coxy.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Coxyclaque",
@@ -2776,7 +2852,7 @@
       "Matinal"
     ],
     "hidden_ability": "Poingdefer",
-    "evolution": "Évolue en Coxypunch en tenant l’objet Gant de Boxe / Évolue en Coxynescent avec une attaque de type Cosmique",
+    "evolution": "Évolue en Coxypunch avec Gantdeboxe",
     "pokedex": "Le motif qui orne son dos aurait un lien avec les étoiles, mais nul ne sait encore en quoi consiste ce lien.",
     "level_up": [
       {
@@ -2785,7 +2861,7 @@
       },
       {
         "level": 1,
-        "move": "Ultrason"
+        "move": "Chant Antique"
       },
       {
         "level": 5,
@@ -2886,13 +2962,18 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Éclate-Roc",
       "Flash",
-      "Force"
+      "Force",
+      "Éclate-Roc"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/coxyclaque.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Coxypunch",
@@ -2905,7 +2986,7 @@
       "Matinal"
     ],
     "hidden_ability": "Poingdefer",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "???",
     "level_up": [
       {
@@ -2918,7 +2999,7 @@
       },
       {
         "level": 1,
-        "move": "Ultrason"
+        "move": "Chant Antique"
       },
       {
         "level": 5,
@@ -3019,17 +3100,22 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Brise-Glace",
-      "Casse Brique",
-      "Éclate-Roc",
       "Flash",
       "Force",
+      "Éclate-Roc",
       "Force Cachée",
+      "Casse Brique",
+      "Brise-Glace",
       "Perce-Roc"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/coxypunch.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Coxynescent",
@@ -3042,7 +3128,7 @@
       "Matinal"
     ],
     "hidden_ability": "Poingdefer",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Sa puissance cosmique a pris l'ascendant sur son corps. Il peut se propulser à très grande vitesse.",
     "level_up": [
       {
@@ -3055,7 +3141,7 @@
       },
       {
         "level": 1,
-        "move": "Ultrason"
+        "move": "Chant Antique"
       },
       {
         "level": 5,
@@ -3156,15 +3242,20 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Casse Brique",
-      "Éclate-Roc",
       "Flash",
       "Force",
-      "Force Cachée"
+      "Éclate-Roc",
+      "Force Cachée",
+      "Casse Brique"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/coxynescent.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Mimigal",
@@ -3258,7 +3349,7 @@
       },
       {
         "level": 70,
-        "move": "Toile Gluante"
+        "move": "Piège de Fil"
       },
       {
         "level": 75,
@@ -3302,7 +3393,12 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/mimigal.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Migalos",
@@ -3315,7 +3411,7 @@
       "Insomnia"
     ],
     "hidden_ability": "Sniper",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ce Pokémon peut créer du fil avec sa bouche ou son abdomen. Il l'utilise pour ligoter sa proie, puis aspire lentement ses fluides vitaux.",
     "level_up": [
       {
@@ -3404,7 +3500,7 @@
       },
       {
         "level": 70,
-        "move": "Toile Gluante"
+        "move": "Piège de Fil"
       },
       {
         "level": 75,
@@ -3434,13 +3530,18 @@
     "egg_moves": [],
     "cs": [
       "Coupe",
-      "Coupe Vive",
+      "Tunnel",
       "Force Cachée",
-      "Tunnel"
+      "Coupe Vive"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/migalos.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Togepi",
@@ -3452,7 +3553,7 @@
       "Serenite"
     ],
     "hidden_ability": "Chanceux",
-    "evolution": "Évolue en Togetic avec suffisamment de bonheur",
+    "evolution": "Évolue en Togetic avec une grande amitié",
     "pokedex": "Un proverbe nous enseigne que le bonheur touchera celui qui peut faire tenir debout un Togepi endormi.",
     "level_up": [
       {
@@ -3505,7 +3606,7 @@
       },
       {
         "level": 41,
-        "move": "Voeu Soin"
+        "move": "Spatio-Rift"
       },
       {
         "level": 46,
@@ -3553,14 +3654,19 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [
       "Flash"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/togepi.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Togetic",
@@ -3573,7 +3679,7 @@
       "Serenite"
     ],
     "hidden_ability": "Chanceux",
-    "evolution": "Évolue en Togekiss avec une Pierre Aile / Évolue en Togekoloss avec une Pierre Antique",
+    "evolution": "Évolue en Togekiss avec Pierre Vol",
     "pokedex": "Il se démoralise vite s'il n'est pas avec des gens sympathiques. Il peut léviter sans battre des ailes.",
     "level_up": [
       {
@@ -3626,7 +3732,7 @@
       },
       {
         "level": 41,
-        "move": "Voeu Soin"
+        "move": "Spatio-Rift"
       },
       {
         "level": 46,
@@ -3683,12 +3789,17 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Anti-Brume",
-      "Flash"
+      "Flash",
+      "Anti-Brume"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/togetic.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Togekiss",
@@ -3701,7 +3812,7 @@
       "Serenite"
     ],
     "hidden_ability": "Chanceux",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il apprécie particulièrement les gens qui respectent les autres et évitent les conflits inutiles.",
     "level_up": [
       {
@@ -3754,7 +3865,7 @@
       },
       {
         "level": 41,
-        "move": "Voeu Soin"
+        "move": "Spatio-Rift"
       },
       {
         "level": 46,
@@ -3811,14 +3922,19 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Anti-Brume",
-      "Flash",
+      "Vol",
       "Force",
-      "Vol"
+      "Flash",
+      "Anti-Brume"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/togekiss.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Togekoloss",
@@ -3831,7 +3947,7 @@
       "Serenite"
     ],
     "hidden_ability": "Chanceux",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il vole à travers les plus hauts nuages. On raconte que l'appercevoir porterait bonheur pour les 7 prochaines années.",
     "level_up": [
       {
@@ -3888,7 +4004,7 @@
       },
       {
         "level": 41,
-        "move": "Voeu Soin"
+        "move": "Spatio-Rift"
       },
       {
         "level": 46,
@@ -3945,22 +4061,27 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Anti-Brume",
-      "Brise-Glace",
-      "Brise Corail",
-      "Casse Brique",
+      "Vol",
+      "Force",
+      "Flash",
+      "Siphon",
       "Combustion",
       "Éclate-Roc",
-      "Enfoncement",
-      "Flash",
-      "Force",
+      "Anti-Brume",
+      "Casse Brique",
+      "Brise Corail",
+      "Brise-Glace",
       "Perce-Roc",
-      "Siphon",
-      "Vol"
+      "Enfoncement"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/togekoloss.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Natu",
@@ -4090,16 +4211,21 @@
       "Air Veinard",
       "Vieillissement",
       "Sanctuaire",
-      "Voeu Soin",
+      "Spatio-Rift",
       "Face Cachée"
     ],
     "cs": [
-      "Anti-Brume",
-      "Flash"
+      "Flash",
+      "Anti-Brume"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/natu.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Xatu",
@@ -4112,7 +4238,7 @@
       "Matinal"
     ],
     "hidden_ability": "Miroirmagik",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Bien qu'il puisse voir l'avenir, il n'a aucune intention de le changer. Cela expliquerait pourquoi il reste immobile.",
     "level_up": [
       {
@@ -4222,14 +4348,19 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Anti-Brume",
+      "Vol",
       "Flash",
       "Force Cachée",
-      "Vol"
+      "Anti-Brume"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/xatu.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Wattouat",
@@ -4366,7 +4497,12 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/wattouat.png"
+    "image": null,
+    "held_items": {
+      "common": "Laine",
+      "uncommon": "Baie Sitrus",
+      "rare": "Restes"
+    }
   },
   {
     "name": "Lainergie",
@@ -4494,7 +4630,12 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/lainergie.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Pharamp",
@@ -4506,7 +4647,7 @@
       "Statik"
     ],
     "hidden_ability": "Plus",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Le bout de sa queue brille si fort qu'il peut être vu de très loin. Il sert de balise aux gens.",
     "level_up": [
       {
@@ -4616,15 +4757,20 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Éclate-Roc",
       "Flash",
       "Force",
+      "Éclate-Roc",
       "Force Cachée",
       "Induction"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/pharamp.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Azurill",
@@ -4746,17 +4892,22 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [
+      "Vibraqua",
       "Attraction",
-      "Bond",
       "Roulade",
-      "Vibraqua"
+      "Bond"
     ],
     "dt": [],
-    "image": "assets/pkm/azurill.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Marill",
@@ -4882,20 +5033,25 @@
       "Éclate-Roc"
     ],
     "ct": [
-      "Aqua-Douche",
+      "Vibraqua",
+      "Souplesse",
       "Attraction",
-      "Bataille",
-      "Bond",
-      "Câlinerie",
-      "Effort",
       "Rebond",
       "Roulade",
-      "Souplesse",
+      "Bataille",
+      "Effort",
       "Tir de Précision",
-      "Vibraqua"
+      "Câlinerie",
+      "Bond",
+      "Aqua-Douche"
     ],
     "dt": [],
-    "image": "assets/pkm/marill.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Azumarill",
@@ -4908,7 +5064,7 @@
       "Coloforce"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ses longues oreilles font un radar efficace. Elles décèlent les mouvements dans le lit des rivières.",
     "level_up": [
       {
@@ -5018,43 +5174,48 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Brise-Glace",
-      "Cascade",
-      "Casse Brique",
-      "Éclate-Roc",
-      "Force",
-      "Force Cachée",
       "Surf",
-      "Tunnel"
+      "Force",
+      "Tunnel",
+      "Cascade",
+      "Éclate-Roc",
+      "Force Cachée",
+      "Casse Brique",
+      "Brise-Glace"
     ],
     "ct": [
-      "Aqua-Douche",
-      "Attraction",
-      "Bataille",
-      "Bombe Sablée",
-      "Bond",
-      "Câlinerie",
-      "Choc Émotionnel",
+      "Vibraqua",
+      "Souplesse",
       "Demi-Tour",
+      "Attraction",
       "Dynamo-Poing",
-      "Éclat Fabuleux",
-      "Effort",
-      "Façade",
-      "Gonflette",
-      "Lyophilisation",
-      "Mégaphone",
-      "Pacification",
-      "Poing Boost",
       "Queue de Fer",
       "Rebond",
       "Roulade",
-      "Souplesse",
-      "Tir de Précision",
+      "Gonflette",
+      "Façade",
+      "Éclat Fabuleux",
+      "Pacification",
+      "Bataille",
       "Vengeance",
-      "Vibraqua"
+      "Bombe Sablée",
+      "Poing Boost",
+      "Effort",
+      "Tir de Précision",
+      "Câlinerie",
+      "Choc Émotionnel",
+      "Lyophilisation",
+      "Mégaphone",
+      "Bond",
+      "Aqua-Douche"
     ],
     "dt": [],
-    "image": "assets/pkm/azumarill.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Manzaï",
@@ -5066,7 +5227,7 @@
       "Tetederoc"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "Évolue en Simularbre en connaissant l'attaque Copie",
+    "evolution": "Évolue en Simularbre (HasMove, COPIE)",
     "pokedex": "Adepte des climats secs, il régule son humidité en laissant couler ce qui ressemble à des larmes.",
     "level_up": [
       {
@@ -5131,7 +5292,7 @@
       },
       {
         "level": 54,
-        "move": "Lilliput"
+        "move": "Nappage"
       },
       {
         "level": 58,
@@ -5188,16 +5349,21 @@
     ],
     "cs": [],
     "ct": [
-      "Bataille",
-      "Gliss'Herbe",
+      "Tomberoche",
+      "Souplesse",
+      "Roulade",
       "Gonflette",
       "Piège de Roc",
-      "Roulade",
-      "Souplesse",
-      "Tomberoche"
+      "Bataille",
+      "Gliss'Herbe"
     ],
     "dt": [],
-    "image": "assets/pkm/manza.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Simularbre",
@@ -5210,7 +5376,7 @@
       "Tetederoc"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "La souplesse et la robustesse de ses bras sont le fruit d'un entraînement long et rigoureux qui consiste en une immobilité prolongée.",
     "level_up": [
       {
@@ -5279,7 +5445,7 @@
       },
       {
         "level": 54,
-        "move": "Lilliput"
+        "move": "Nappage"
       },
       {
         "level": 58,
@@ -5324,33 +5490,38 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Casse Brique",
-      "Éclate-Roc",
-      "Enfoncement",
       "Force",
-      "Force Cachée"
+      "Éclate-Roc",
+      "Force Cachée",
+      "Casse Brique",
+      "Enfoncement"
     ],
     "ct": [
-      "Bataille",
-      "Dynamo-Poing",
-      "Effort",
-      "Façade",
-      "Gliss'Herbe",
-      "Gonflette",
-      "Gyroballe",
-      "Je de Rondin",
-      "Piège de Roc",
-      "Poing Boost",
-      "Poing Dérobant",
-      "Roulade",
-      "Souplesse",
       "Tomberoche",
-      "Trépignement",
+      "Souplesse",
+      "Dynamo-Poing",
+      "Roulade",
+      "Gonflette",
+      "Façade",
+      "Piège de Roc",
+      "Je de Rondin",
+      "Bataille",
       "Vampi-Poing",
-      "Vendetta"
+      "Gyroballe",
+      "Poing Boost",
+      "Effort",
+      "Trépignement",
+      "Gliss'Herbe",
+      "Vendetta",
+      "Poing Dérobant"
     ],
     "dt": [],
-    "image": "assets/pkm/simularbre.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Magicarpe",
@@ -5361,7 +5532,7 @@
       "Glissade"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il manque totalement de vitesse et de force. C'est le Pokémon le plus pathétique au monde.",
     "level_up": [
       {
@@ -5415,7 +5586,12 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/magicarpe.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Granivol",
@@ -5537,14 +5713,19 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [
       "Anti-Brume"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/granivol.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Floravol",
@@ -5672,7 +5853,12 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/floravol.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Cotovol",
@@ -5685,7 +5871,7 @@
       "Feuillegarde"
     ],
     "hidden_ability": "Infiltration",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Poussé par les vents saisonniers, il fait le tour du globe en semant des spores de cotons.",
     "level_up": [
       {
@@ -5795,13 +5981,18 @@
     ],
     "egg_moves": [],
     "cs": [
+      "Force Cachée",
       "Anti-Brume",
-      "Coupe Vive",
-      "Force Cachée"
+      "Coupe Vive"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cotovol.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Capumain",
@@ -5813,7 +6004,7 @@
       "Ramassage"
     ],
     "hidden_ability": "Multicoups",
-    "evolution": "Évolue en Capidextre en connaissant l'attaque Coup Double / Évolue en Capidextre avec une Pierre Basique",
+    "evolution": "Évolue en Capidextre (HasMove, COUPDOUBLE)",
     "pokedex": "Il vit sur les plus hautes cimes. Sautant de branche en branche, sa queue lui assure un bon équilibre.",
     "level_up": [
       {
@@ -5922,15 +6113,20 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [
-      "Éclate-Roc",
-      "Force"
+      "Force",
+      "Éclate-Roc"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/capumain.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Capidextre",
@@ -5942,7 +6138,7 @@
       "Ramassage"
     ],
     "hidden_ability": "Multicoups",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il se nourrit de noix qu'il épluche avec ses deux queues habiles. Il utilise de moins en moins ses bras.",
     "level_up": [
       {
@@ -6052,16 +6248,21 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Brise-Glace",
-      "Casse Brique",
-      "Éclate-Roc",
       "Force",
+      "Éclate-Roc",
       "Force Cachée",
+      "Casse Brique",
+      "Brise-Glace",
       "Perce-Roc"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/capidextre.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Tournegrin",
@@ -6073,7 +6274,7 @@
       "Forcesoleil"
     ],
     "hidden_ability": "Matinal",
-    "evolution": "Évolue en Heliatronc au niveau 25",
+    "evolution": "Évolue en Heliatronc (LevelDay, 25)",
     "pokedex": "Il vit en buvant la rosée sur les feuilles. On dit qu'il ne peut rien avaler d'autre.",
     "level_up": [
       {
@@ -6102,7 +6303,7 @@
       },
       {
         "level": 17,
-        "move": "Racines"
+        "move": "Maléfice Sylvain"
       },
       {
         "level": 21,
@@ -6190,12 +6391,17 @@
     ],
     "cs": [],
     "ct": [
-      "Gliss'Herbe",
       "Méga-Sangsue",
-      "Phytomixeur"
+      "Phytomixeur",
+      "Gliss'Herbe"
     ],
     "dt": [],
-    "image": "assets/pkm/tournegrin.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Héliatronc",
@@ -6207,7 +6413,7 @@
       "Forcesoleil"
     ],
     "hidden_ability": "Matinal",
-    "evolution": "Évolue en Tournelux avec une Pierre Soleil",
+    "evolution": "Évolue en Tournelux avec Pierre Sol",
     "pokedex": "Les rayons du soleil lui donnent de l'énergie. Il est connu pour migrer vers les régions ensoleillées.",
     "level_up": [
       {
@@ -6236,7 +6442,7 @@
       },
       {
         "level": 17,
-        "move": "Racines"
+        "move": "Maléfice Sylvain"
       },
       {
         "level": 21,
@@ -6318,23 +6524,28 @@
     "egg_moves": [],
     "cs": [
       "Coupe",
-      "Coupe Vive",
-      "Flash"
+      "Flash",
+      "Coupe Vive"
     ],
     "ct": [
-      "Bombe Fleurie",
-      "Câlinerie",
+      "Méga-Sangsue",
+      "Souplesse",
       "Demi-Tour",
-      "Fouet Retour",
-      "Gliss'Herbe",
+      "Bombe Fleurie",
       "Lame d'Air",
       "Luminocanon",
-      "Méga-Sangsue",
       "Phytomixeur",
-      "Souplesse"
+      "Câlinerie",
+      "Gliss'Herbe",
+      "Fouet Retour"
     ],
     "dt": [],
-    "image": "assets/pkm/hliatronc.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Tournelux",
@@ -6347,7 +6558,7 @@
       "Forcesoleil"
     ],
     "hidden_ability": "Matinal",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "???",
     "level_up": [
       {
@@ -6380,7 +6591,7 @@
       },
       {
         "level": 17,
-        "move": "Racines"
+        "move": "Maléfice Sylvain"
       },
       {
         "level": 21,
@@ -6462,28 +6673,33 @@
     "egg_moves": [],
     "cs": [
       "Coupe",
-      "Coupe Vive",
       "Flash",
       "Force",
-      "Force Cachée"
+      "Force Cachée",
+      "Coupe Vive"
     ],
     "ct": [
-      "Bombe Fleurie",
-      "Câlinerie",
-      "Demi-Tour",
-      "Éclat Fabuleux",
-      "Fouet Retour",
-      "Gliss'Herbe",
-      "Lame d'Air",
-      "Luminocanon",
       "Méga-Sangsue",
-      "Phytomixeur",
-      "Souplesse",
       "Chaîne Malsaine",
-      "Trépignement"
+      "Souplesse",
+      "Demi-Tour",
+      "Bombe Fleurie",
+      "Lame d'Air",
+      "Éclat Fabuleux",
+      "Luminocanon",
+      "Phytomixeur",
+      "Câlinerie",
+      "Trépignement",
+      "Gliss'Herbe",
+      "Fouet Retour"
     ],
     "dt": [],
-    "image": "assets/pkm/tournelux.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Yanma",
@@ -6496,7 +6712,7 @@
       "Oeilcompose"
     ],
     "hidden_ability": "Fouille",
-    "evolution": "Évolue en Yanmega en connaissant l'attaque Pouvoir Antique / Évolue en Yanmega avec une Pierre Nectar",
+    "evolution": "Évolue en Yanmega (HasMove, POUVOIRANTIQUE)",
     "pokedex": "En battant des ailes très vite, il peut générer une violente onde de choc qui peut briser des fenêtres.",
     "level_up": [
       {
@@ -6616,13 +6832,18 @@
       "Aéropique",
       "Demi-Tour",
       "Façade",
-      "Harcèlement",
       "Lame d'Air",
       "Survinsecte",
+      "Harcèlement",
       "Vitesse Extrême"
     ],
     "dt": [],
-    "image": "assets/pkm/yanma.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Yanmega",
@@ -6635,7 +6856,7 @@
       "Oeilcompose"
     ],
     "hidden_ability": "Fouille",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il peut voler avec aise tout en portant un adulte dans ses 6 pattes. Les ailes de sa queue lui servent de balancier.",
     "level_up": [
       {
@@ -6749,24 +6970,29 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Anti-Brume",
-      "Vol"
+      "Vol",
+      "Anti-Brume"
     ],
     "ct": [
+      "Chaîne Malsaine",
       "Aéropique",
       "Demi-Tour",
       "Façade",
-      "Harcèlement",
       "Lame d'Air",
+      "Vengeance",
       "Survinsecte",
-      "Chaîne Malsaine",
+      "Harcèlement",
       "Tranche-Nuit",
       "Vaste Pouvoir",
-      "Vengeance",
       "Vitesse Extrême"
     ],
     "dt": [],
-    "image": "assets/pkm/yanmega.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Axoloto",
@@ -6888,12 +7114,17 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/axoloto.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Maraisté",
@@ -6906,7 +7137,7 @@
       "Absorbeau"
     ],
     "hidden_ability": "Inconscient",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ce Pokémon est très insouciant. Quand il nage, il fonce tête première dans la coque des bateaux.",
     "level_up": [
       {
@@ -7016,21 +7247,26 @@
     ],
     "egg_moves": [],
     "cs": [
+      "Surf",
+      "Force",
       "Cascade",
       "Éclate-Roc",
-      "Enfoncement",
-      "Force",
       "Force Cachée",
-      "Surf"
+      "Enfoncement"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/maraist.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Cornèbre",
     "types": [
-      "Tenebres",
+      "Ténèbres",
       "Vol"
     ],
     "abilities": [
@@ -7038,7 +7274,7 @@
       "Chanceux"
     ],
     "hidden_ability": "Farceur",
-    "evolution": "Évolue en Corboss avec une Pierre Nuit",
+    "evolution": "Évolue en Corboss avec Pierre Ten",
     "pokedex": "Les gens voient en lui un oiseau de malheur, mais il offre des choses brillantes aux Dresseurs dont il devient l'ami.",
     "level_up": [
       {
@@ -7147,17 +7383,22 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cornbre.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Corboss",
     "types": [
-      "Tenebres",
+      "Ténèbres",
       "Vol"
     ],
     "abilities": [
@@ -7165,7 +7406,7 @@
       "Chanceux"
     ],
     "hidden_ability": "Impudence",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Un seul des puissants croassements de ce Pokémon nocturne lui permet de rassembler une centaine de Cornèbre, ses sous-fifres.",
     "level_up": [
       {
@@ -7275,15 +7516,20 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Anti-Brume",
-      "Brise-Glace",
+      "Vol",
       "Éclate-Roc",
       "Force Cachée",
-      "Vol"
+      "Anti-Brume",
+      "Brise-Glace"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/corboss.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Feuforêve",
@@ -7294,7 +7540,7 @@
       "Levitation"
     ],
     "hidden_ability": "Lunatique",
-    "evolution": "Évolue en Magireve avec une Pierre Illusion",
+    "evolution": "Évolue en Magireve avec Pierre Mgk",
     "pokedex": "Si vous entendez des pleurs provenant d'une pièce vide, c'est sûrement un Feuforêve qui vous fait une farce.",
     "level_up": [
       {
@@ -7424,39 +7670,44 @@
     "ct": [
       "Attraction",
       "Ball'Ombre",
-      "Câlinerie",
-      "Choc Émotionnel",
       "Éclat Fabuleux",
       "Éclat Magique",
+      "Vampibaiser",
       "Maraudage",
-      "Mégaphone",
       "Tranche-Nuit",
-      "Vampibaiser"
+      "Câlinerie",
+      "Choc Émotionnel",
+      "Mégaphone"
     ],
     "dt": [
-      "Blabla Dodo",
-      "Cage-Éclair",
-      "Dévorêve",
       "Donne Moi Ça",
-      "Entrave",
-      "Frustration",
+      "Protection",
+      "Punition",
+      "Vague Psy",
+      "Dévorêve",
+      "Météores",
+      "Cage-Éclair",
+      "Lévio Chute",
+      "Saisie",
       "Hâte",
       "Hurlement",
-      "Larcin",
       "Léchouille",
-      "Lévio Chute",
-      "Météores",
       "Mur Lumière",
-      "Protection",
+      "Entrave",
       "Puissance Cachée",
-      "Punition",
+      "Blabla Dodo",
       "Retour",
+      "Frustration",
+      "Larcin",
       "Rune Protect",
-      "Saisie",
-      "Vague Psy",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/feuforve.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Magirêve",
@@ -7468,7 +7719,7 @@
       "Levitation"
     ],
     "hidden_ability": "Lunatique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Un Pokémon insaisissable qui tourmente ses ennemis avec son cri semblable à une incantation.",
     "level_up": [
       {
@@ -7602,55 +7853,60 @@
       "Force Cachée"
     ],
     "ct": [
+      "Chaîne Malsaine",
+      "Psyko",
       "Attraction",
       "Ball'Ombre",
-      "Câlinerie",
-      "Choc Émotionnel",
-      "Dernier Espoir",
-      "Dissonance Psy",
+      "Vague de Froid",
       "Éclat Fabuleux",
       "Éclat Magique",
       "Folie Ardente",
-      "Maraudage",
-      "Mégaphone",
-      "Psychose",
-      "Psyko",
-      "Sanction",
-      "Sol Brûlé",
-      "Chaîne Malsaine",
-      "Tranche-Nuit",
-      "Vague de Froid",
       "Vampibaiser",
-      "Vaste Pouvoir"
+      "Psychose",
+      "Sol Brûlé",
+      "Maraudage",
+      "Tranche-Nuit",
+      "Câlinerie",
+      "Sanction",
+      "Choc Émotionnel",
+      "Mégaphone",
+      "Vaste Pouvoir",
+      "Dernier Espoir",
+      "Dissonance Psy"
     ],
     "dt": [
-      "Blabla Dodo",
-      "Bombe Acide",
+      "Donne Moi Ça",
+      "Protection",
+      "Punition",
+      "Vague Psy",
+      "Dévorêve",
+      "Météores",
       "Cage-Éclair",
       "Coupe-Vent",
-      "Dévorêve",
-      "Donne Moi Ça",
-      "Entrave",
-      "Frustration",
+      "Lévio Chute",
+      "Saisie",
+      "Bombe Acide",
       "Hâte",
       "Hurlement",
-      "Larcin",
       "Léchouille",
-      "Lévio Chute",
-      "Météores",
-      "Mur Lumière",
-      "Protection",
-      "Puissance Cachée",
-      "Punition",
       "Radiance",
+      "Mur Lumière",
+      "Entrave",
+      "Puissance Cachée",
+      "Blabla Dodo",
       "Retour",
-      "Rune Protect",
-      "Saisie",
+      "Frustration",
       "Sentence",
-      "Vague Psy",
+      "Larcin",
+      "Rune Protect",
       "Vent Argenté"
     ],
-    "image": "assets/pkm/magirve.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Zarbi ?",
@@ -7661,7 +7917,7 @@
       "Levitation"
     ],
     "hidden_ability": null,
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
     "level_up": [
       {
@@ -7674,7 +7930,7 @@
       },
       {
         "level": 5,
-        "move": "Lilliput"
+        "move": "Nappage"
       },
       {
         "level": 7,
@@ -7722,14 +7978,19 @@
       },
       {
         "level": 50,
-        "move": "CODESECRET"
+        "move": "Codesecret"
       }
     ],
     "egg_moves": [],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/zarbi.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Okéoké",
@@ -7850,12 +8111,17 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/okok.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Qulbutoke",
@@ -7867,7 +8133,7 @@
       "Marqueombre"
     ],
     "hidden_ability": "Telepathe",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Pour cacher sa queue noire, il vit discrètement dans l'obscurité. Il n'attaque jamais le premier.",
     "level_up": [
       {
@@ -7979,7 +8245,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/qulbutoke.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Girafarig",
@@ -7992,7 +8263,7 @@
       "Matinal"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "Évolue en Farigiraf en connaissant l'attaque Force Ajoutée / Évolue en Dragifigard avec une Pierre Antique",
+    "evolution": "Évolue en Farigiraf (HasMove, FORCEAJOUTEE)",
     "pokedex": "Sa queue possède un cerveau. Si vous vous en approchez, elle vous sentira et vous mordra.",
     "level_up": [
       {
@@ -8105,17 +8376,22 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/girafarig.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Farigiraf",
     "types": [
-      "Tenebres",
+      "Ténèbres",
       "Psy"
     ],
     "abilities": [
@@ -8123,7 +8399,7 @@
       "Matinal"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Lorsqu'il fait tournoyer son cou pour frapper ses adversaires, il protège sa tête principale à l'aide de sa tête noire, qui est plus dure.",
     "level_up": [
       {
@@ -8243,7 +8519,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/farigiraf.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Dragifigard",
@@ -8256,7 +8537,7 @@
       "Farceur"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Le cerveau de sa queue s'est développé, au point d'avoir pris la même apparence que le corps de Girafarig.",
     "level_up": [
       {
@@ -8376,7 +8657,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/dragifigard.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Pomdepik",
@@ -8496,12 +8782,17 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/pomdepik.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Forêtress",
@@ -8513,7 +8804,7 @@
       "Fermete"
     ],
     "hidden_ability": "Envelocape",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "On ne peut voir à l'intérieur de sa carapace que lorsqu'il engloutit sa nourriture, mais il est si rapide que personne n'a encore jamais réussi.",
     "level_up": [
       {
@@ -8625,7 +8916,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/fortress.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Insolourdo",
@@ -8638,7 +8934,7 @@
       "Fuite"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "Évolue en Deusolourdo en connaissant l'attaque Hyperceuse / Évolue en Dracolourdo avec une attaque de type Dragon",
+    "evolution": "Évolue en Deusolourdo (HasMove, HYPERCEUSE)",
     "pokedex": "Son nid est un véritable labyrinthe qu'il creuse à l'aide de sa queue. Il sait à peine voler.",
     "level_up": [
       {
@@ -8667,7 +8963,7 @@
       },
       {
         "level": 17,
-        "move": "Lilliput"
+        "move": "Nappage"
       },
       {
         "level": 21,
@@ -8675,7 +8971,7 @@
       },
       {
         "level": 25,
-        "move": "HYPERCEUSE"
+        "move": "Hyperceuse"
       },
       {
         "level": 29,
@@ -8751,12 +9047,17 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/insolourdo.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Deusolourdo",
@@ -8769,7 +9070,7 @@
       "Fuite"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il se sert de sa queue pour creuser son terrier dans les profondeurs rocheuses de la terre. Celui-ci peut faire jusqu'à 10 km de long.",
     "level_up": [
       {
@@ -8806,7 +9107,7 @@
       },
       {
         "level": 17,
-        "move": "Lilliput"
+        "move": "Nappage"
       },
       {
         "level": 21,
@@ -8814,7 +9115,7 @@
       },
       {
         "level": 25,
-        "move": "HYPERCEUSE"
+        "move": "Hyperceuse"
       },
       {
         "level": 29,
@@ -8893,7 +9194,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/deusolourdo.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Trisolourdo",
@@ -8906,7 +9212,7 @@
       "Fuite"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Une étude récente a démontré que le nombre de segments qui composent son corps est déterminé par ses gènes.",
     "level_up": [
       {
@@ -8943,7 +9249,7 @@
       },
       {
         "level": 17,
-        "move": "Lilliput"
+        "move": "Nappage"
       },
       {
         "level": 21,
@@ -8951,7 +9257,7 @@
       },
       {
         "level": 25,
-        "move": "HYPERCEUSE"
+        "move": "Hyperceuse"
       },
       {
         "level": 29,
@@ -9030,7 +9336,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/trisolourdo.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Dracolourdo",
@@ -9043,7 +9354,7 @@
       "Antibruit"
     ],
     "hidden_ability": "Absorbterre",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "D'un caractère doux, il prend sur son dos les Pokémon égarés dans son terrier et il les reconduit jusqu'à la sortie.",
     "level_up": [
       {
@@ -9076,7 +9387,7 @@
       },
       {
         "level": 17,
-        "move": "Lilliput"
+        "move": "Nappage"
       },
       {
         "level": 21,
@@ -9084,7 +9395,7 @@
       },
       {
         "level": 25,
-        "move": "HYPERCEUSE"
+        "move": "Hyperceuse"
       },
       {
         "level": 29,
@@ -9160,12 +9471,17 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/dracolourdo.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Scorplane",
@@ -9178,7 +9494,7 @@
       "Voilesable"
     ],
     "hidden_ability": "Vaccin",
-    "evolution": "Évolue en Scorvol en tenant l’objet Croc Rasoir",
+    "evolution": "Évolue en Scorvol avec Crocrasoir",
     "pokedex": "Il plane droit vers le visage de sa cible effrayée et s'y accroche pour lui injecter son poison.",
     "level_up": [
       {
@@ -9287,12 +9603,17 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/scorplane.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Scorvol",
@@ -9305,7 +9626,7 @@
       "Voilesable"
     ],
     "hidden_ability": "Soinpoison",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il guette sa proie, pendu à une branche la tête en bas, et s'en saisit à la première occasion.",
     "level_up": [
       {
@@ -9421,7 +9742,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/scorvol.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Snubbull",
@@ -9433,7 +9759,7 @@
       "Fuite"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "Évolue en Granbull au niveau 23",
+    "evolution": "Évolue en Granbull (LevelMale, 23)",
     "pokedex": "Son visage horrible fait fuir les petits Pokémon. Par contre, les femmes le trouvent mignon.",
     "level_up": [
       {
@@ -9494,7 +9820,7 @@
       },
       {
         "level": 50,
-        "move": "Vantardise"
+        "move": "Cataclysme"
       },
       {
         "level": 54,
@@ -9506,7 +9832,7 @@
       },
       {
         "level": 62,
-        "move": "Vigilance"
+        "move": "Typhon Passionné"
       },
       {
         "level": 66,
@@ -9542,15 +9868,20 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [
-      "Éclate-Roc",
-      "Force"
+      "Force",
+      "Éclate-Roc"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/snubbull.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Granbull",
@@ -9563,7 +9894,7 @@
       "Piedveloce"
     ],
     "hidden_ability": "Phobique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Sa mâchoire inférieure et ses crocs surdimensionnés sont ses armes de prédilection. Il ne mord pas tant qu'on ne l'énerve pas.",
     "level_up": [
       {
@@ -9624,7 +9955,7 @@
       },
       {
         "level": 50,
-        "move": "Vantardise"
+        "move": "Cataclysme"
       },
       {
         "level": 54,
@@ -9636,7 +9967,7 @@
       },
       {
         "level": 62,
-        "move": "Vigilance"
+        "move": "Typhon Passionné"
       },
       {
         "level": 66,
@@ -9673,20 +10004,25 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Brise-Glace",
-      "Casse Brique",
-      "Éclate-Roc",
-      "Enfoncement",
-      "Érosion",
-      "Escalade",
       "Force",
+      "Tunnel",
+      "Éclate-Roc",
       "Force Cachée",
+      "Escalade",
+      "Érosion",
+      "Casse Brique",
+      "Brise-Glace",
       "Perce-Roc",
-      "Tunnel"
+      "Enfoncement"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/granbull.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Qwilfish",
@@ -9699,7 +10035,7 @@
       "Glissade"
     ],
     "hidden_ability": "Intimidation",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Son corps est recouvert de pics provenant de ses écailles. Ils sécrètent un poison étourdissant.",
     "level_up": [
       {
@@ -9708,7 +10044,7 @@
       },
       {
         "level": 1,
-        "move": "Lilliput"
+        "move": "Nappage"
       },
       {
         "level": 5,
@@ -9816,12 +10152,17 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/qwilfish.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Caratroc",
@@ -9834,7 +10175,7 @@
       "Gloutonnerie"
     ],
     "hidden_ability": "Contestation",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il garde des Baies dans sa coquille. Pour éviter les attaques, il s'immobilise sous les rochers.",
     "level_up": [
       {
@@ -9931,7 +10272,7 @@
       },
       {
         "level": 90,
-        "move": "Lilliput"
+        "move": "Nappage"
       },
       {
         "level": 95,
@@ -9943,12 +10284,17 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/caratroc.png"
+    "image": null,
+    "held_items": {
+      "common": "Jus de Baie",
+      "uncommon": "Jus de Baie",
+      "rare": "Jus de Baie"
+    }
   },
   {
     "name": "Scarminus",
@@ -10069,7 +10415,7 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [
       "Coupe",
@@ -10077,7 +10423,12 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/scarminus.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Scarhino",
@@ -10090,7 +10441,7 @@
       "Cran"
     ],
     "hidden_ability": "Impudence",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il parcourt les forêts à la recherche de miel. Il est très fier de sa force colossale, mais sa capacité à voler laisse quelque peu à désirer.",
     "level_up": [
       {
@@ -10208,23 +10559,28 @@
     ],
     "egg_moves": [],
     "cs": [
+      "Coupe",
+      "Force",
+      "Éclate-Roc",
+      "Force Cachée",
       "Anti-Brume",
       "Casse Brique",
-      "Coupe",
       "Coupe Vive",
-      "Éclate-Roc",
-      "Force",
-      "Force Cachée",
       "Perce-Roc"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/scarhino.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Farfuret",
     "types": [
-      "Tenebres",
+      "Ténèbres",
       "Glace"
     ],
     "abilities": [
@@ -10232,7 +10588,7 @@
       "Regardvif"
     ],
     "hidden_ability": "Pickpocket",
-    "evolution": "Évolue en Dimoret en tenant l’objet Griffe Rasoir",
+    "evolution": "Évolue en Dimoret avec Grifferasoir",
     "pokedex": "Ses griffes sont cachées dans ses pattes. S'il est attaqué, il les sort pour frapper ses ennemis.",
     "level_up": [
       {
@@ -10297,7 +10653,7 @@
       },
       {
         "level": 54,
-        "move": "Regard Glacial"
+        "move": "Lance de Glace"
       },
       {
         "level": 58,
@@ -10348,21 +10704,26 @@
       "Griffe Maléfique"
     ],
     "cs": [
-      "Brise-Glace",
-      "Casse Brique",
       "Coupe",
-      "Coupe Vive",
+      "Tunnel",
       "Éclate-Roc",
-      "Tunnel"
+      "Casse Brique",
+      "Coupe Vive",
+      "Brise-Glace"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/farfuret.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Vive Griffe",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Dimoret",
     "types": [
-      "Tenebres",
+      "Ténèbres",
       "Glace"
     ],
     "abilities": [
@@ -10370,7 +10731,7 @@
       "Pression"
     ],
     "hidden_ability": "Pickpocket",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il vit dans les régions enneigées, et communique avec ses pairs en gravant des motifs sur les arbres.",
     "level_up": [
       {
@@ -10435,7 +10796,7 @@
       },
       {
         "level": 54,
-        "move": "Regard Glacial"
+        "move": "Lance de Glace"
       },
       {
         "level": 58,
@@ -10480,18 +10841,23 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Brise-Glace",
-      "Casse Brique",
       "Coupe",
-      "Coupe Vive",
+      "Tunnel",
       "Éclate-Roc",
-      "Escalade",
       "Force Cachée",
-      "Tunnel"
+      "Escalade",
+      "Casse Brique",
+      "Coupe Vive",
+      "Brise-Glace"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/dimoret.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Teddiursa",
@@ -10616,7 +10982,7 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [
       "Coupe",
@@ -10624,7 +10990,12 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/teddiursa.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Ursaring",
@@ -10636,7 +11007,7 @@
       "Piedveloce"
     ],
     "hidden_ability": "Tension",
-    "evolution": "Évolue en Ursaking en tenant l’objet Griffe Rasoir",
+    "evolution": "Évolue en Ursaking (NightHoldItem, GRIFFERASOIR)",
     "pokedex": "Avec sa capacité à sentir toute odeur, il trouve sans faillir de la nourriture enfouie dans le sol.",
     "level_up": [
       {
@@ -10750,33 +11121,38 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Brise-Glace",
-      "Casse Brique",
       "Coupe",
-      "Coupe Vive",
-      "Éclate-Roc",
-      "Érosion",
-      "Escalade",
       "Force",
+      "Tunnel",
+      "Éclate-Roc",
       "Force Cachée",
-      "Perce-Roc",
-      "Tunnel"
+      "Escalade",
+      "Érosion",
+      "Casse Brique",
+      "Coupe Vive",
+      "Brise-Glace",
+      "Perce-Roc"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/ursaring.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Ursaking",
     "types": [
       "Lunaire",
-      "Tenebres"
+      "Ténèbres"
     ],
     "abilities": [
       "Oeilrevelateur"
     ],
     "hidden_ability": "Oeilrevelateur",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Les étendues marécageuses de Hisui ont doté ce Pokémon d'un corps robuste et d’une aptitude à manipuler la tourbe.",
     "level_up": [
       {
@@ -10869,7 +11245,7 @@
       },
       {
         "level": 75,
-        "move": "Lune Rouge"
+        "move": "Lunerouge"
       },
       {
         "level": 80,
@@ -10894,22 +11270,27 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Brise-Glace",
-      "Casse Brique",
       "Coupe",
-      "Coupe Vive",
-      "Éclate-Roc",
-      "Enfoncement",
-      "Érosion",
-      "Escalade",
       "Force",
+      "Tunnel",
+      "Éclate-Roc",
       "Force Cachée",
+      "Escalade",
+      "Érosion",
+      "Casse Brique",
+      "Coupe Vive",
+      "Brise-Glace",
       "Perce-Roc",
-      "Tunnel"
+      "Enfoncement"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/ursaking.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Limagma",
@@ -10998,7 +11379,7 @@
       },
       {
         "level": 66,
-        "move": "Magmanteau"
+        "move": "Ragnarök"
       },
       {
         "level": 70,
@@ -11030,12 +11411,17 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/limagma.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Volcaropod",
@@ -11048,7 +11434,7 @@
       "Corpsardent"
     ],
     "hidden_ability": "Armurouillee",
-    "evolution": "Évolue en Magmollusk avec une Pierre Schiste",
+    "evolution": "Évolue en Magmollusk avec Pierre Roc",
     "pokedex": "Son corps est fait de magma. S'il cesse de bouger, il refroidit et durcit.",
     "level_up": [
       {
@@ -11125,7 +11511,7 @@
       },
       {
         "level": 66,
-        "move": "Magmanteau"
+        "move": "Ragnarök"
       },
       {
         "level": 70,
@@ -11160,7 +11546,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/volcaropod.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Magmollusk",
@@ -11173,7 +11564,7 @@
       "Corpsardent"
     ],
     "hidden_ability": "Armurouillee",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Le magma de son corps s’est tellement épaissi qu’il forme une carapace presque indestructible. Lorsqu’il se déplace, il laisse derrière lui des sillons de roche vitrifiée.",
     "level_up": [
       {
@@ -11250,7 +11641,7 @@
       },
       {
         "level": 66,
-        "move": "Magmanteau"
+        "move": "Ragnarök"
       },
       {
         "level": 70,
@@ -11285,7 +11676,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/magmollusk.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Marcacrin",
@@ -11407,12 +11803,17 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/marcacrin.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Cochignon",
@@ -11425,7 +11826,7 @@
       "Rideauneige"
     ],
     "hidden_ability": "Isograisse",
-    "evolution": "Évolue en Mammochon en connaissant l'attaque Pouvoir Antique",
+    "evolution": "Évolue en Mammochon (HasMove, POUVOIRANTIQUE)",
     "pokedex": "Bien que pourvu de courtes pattes, ses sabots sont pointus pour l'empêcher de glisser sur la glace.",
     "level_up": [
       {
@@ -11537,7 +11938,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cochignon.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Mammochon",
@@ -11550,7 +11956,7 @@
       "Rideauneige"
     ],
     "hidden_ability": "Isograisse",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ses défenses spectaculaires sont glacées. Il a failli disparaître dans la canicule suivant l'ère glaciaire.",
     "level_up": [
       {
@@ -11662,7 +12068,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/mammochon.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Cadutin",
@@ -11784,12 +12195,17 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cadutin.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Cadoizo",
@@ -11802,7 +12218,7 @@
       "Agitation"
     ],
     "hidden_ability": "Insomnia",
-    "evolution": "Évolue en Papadoizo avec une Pierre Flocon",
+    "evolution": "Évolue en Papadoizo avec Pierre Nei",
     "pokedex": "Il enveloppe sa nourriture dans sa queue pour la transporter et partage volontiers ses victuailles avec les victimes d'accident en montagne.",
     "level_up": [
       {
@@ -11914,7 +12330,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cadoizo.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Papadoizo",
@@ -11927,7 +12348,7 @@
       "Agitation"
     ],
     "hidden_ability": "Insomnia",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il transporte toujours sur lui de nombreux cadeaux. Il est très altruiste envers les humains et les Pokémon.",
     "level_up": [
       {
@@ -12055,7 +12476,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/papadoizo.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Corayon",
@@ -12068,7 +12494,7 @@
       "Medicnature"
     ],
     "hidden_ability": "Regeforce",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ses branches repoussent si elles sont brisées. Les plus belles sont offertes aux futures mamans comme porte-bonheurs.",
     "level_up": [
       {
@@ -12177,17 +12603,22 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [
-      "Brise Corail",
+      "Siphon",
       "Éclate-Roc",
       "Force Cachée",
-      "Siphon"
+      "Brise Corail"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/corayon.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Remoraid",
@@ -12224,7 +12655,7 @@
       },
       {
         "level": 13,
-        "move": "Onde Marine"
+        "move": "Branchicrok"
       },
       {
         "level": 17,
@@ -12308,12 +12739,17 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/remoraid.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Octillery",
@@ -12326,7 +12762,7 @@
       "Sniper"
     ],
     "hidden_ability": "Lunatique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il aveugle l'ennemi en crachant un nuage d'encre opaque et creuse sa tanière à l'ombre des rochers.",
     "level_up": [
       {
@@ -12351,7 +12787,7 @@
       },
       {
         "level": 13,
-        "move": "Onde Marine"
+        "move": "Branchicrok"
       },
       {
         "level": 17,
@@ -12436,14 +12872,19 @@
     ],
     "egg_moves": [],
     "cs": [
+      "Surf",
       "Force",
-      "Force Cachée",
       "Siphon",
-      "Surf"
+      "Force Cachée"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/octillery.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Loupio",
@@ -12465,7 +12906,7 @@
       },
       {
         "level": 1,
-        "move": "Onde Marine"
+        "move": "Branchicrok"
       },
       {
         "level": 5,
@@ -12573,16 +13014,21 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [
+      "Surf",
       "Flash",
-      "Siphon",
-      "Surf"
+      "Siphon"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/loupio.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Lanturn",
@@ -12595,7 +13041,7 @@
       "Lumiattirance"
     ],
     "hidden_ability": "Absorbeau",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Lorsqu'on regarde au fond de la mer au milieu de la nuit et que l'on croit apercevoir le reflet des étoiles, c'est probablement un Lanturn.",
     "level_up": [
       {
@@ -12604,7 +13050,7 @@
       },
       {
         "level": 1,
-        "move": "Onde Marine"
+        "move": "Branchicrok"
       },
       {
         "level": 5,
@@ -12713,15 +13159,20 @@
     ],
     "egg_moves": [],
     "cs": [
+      "Surf",
       "Flash",
-      "Induction",
-      "Plongée",
       "Siphon",
-      "Surf"
+      "Plongée",
+      "Induction"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/lanturn.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Babimanta",
@@ -12733,7 +13184,7 @@
       "Absorbeau"
     ],
     "hidden_ability": "Ignifuvoile",
-    "evolution": "Évolue en Demanta avec dans l'équipe un Remoraid",
+    "evolution": "Évolue en Demanta (HasInParty, REMORAID)",
     "pokedex": "Il est très affectueux et adore les humains. Les excursions permettant d'aller nager avec lui sont très populaires auprès des touristes.",
     "level_up": [
       {
@@ -12746,7 +13197,7 @@
       },
       {
         "level": 5,
-        "move": "Ultrason"
+        "move": "Chant Antique"
       },
       {
         "level": 7,
@@ -12854,46 +13305,51 @@
       "Abysse"
     ],
     "cs": [
-      "Plongée",
+      "Surf",
       "Siphon",
-      "Surf"
+      "Plongée"
     ],
     "ct": [
-      "Aéropique",
-      "Aqua-Douche",
-      "Attraction",
-      "Demi-Tour",
-      "Lame d'Air",
-      "Rebond",
-      "Saumure",
+      "Vibraqua",
       "Souplesse",
+      "Aéropique",
+      "Demi-Tour",
+      "Attraction",
+      "Rebond",
       "Tourbi-Sable",
+      "Lame d'Air",
+      "Saumure",
       "Vague Étau",
-      "Vibraqua"
+      "Aqua-Douche"
     ],
     "dt": [
-      "Balle Graine",
-      "Ball'Glace",
-      "Blabla Dodo",
-      "Brise Marine",
-      "Bulles d'O",
-      "Canocéan",
-      "Coup d'Boule",
-      "Damoclès",
       "Frénésie",
-      "Frustration",
-      "Hâte",
-      "Hydro-Éclat",
-      "Météores",
-      "Mur Lumière",
-      "Onde Boréale",
       "Patience",
+      "Bulles d'O",
+      "Hydro-Éclat",
+      "Vague Psy",
+      "Onde Boréale",
       "Repos",
+      "Météores",
+      "Damoclès",
+      "Hâte",
+      "Coup d'Boule",
+      "Mur Lumière",
+      "Blabla Dodo",
       "Retour",
+      "Frustration",
+      "Canocéan",
+      "Brise Marine",
       "Rune Protect",
-      "Vague Psy"
+      "Balle Graine",
+      "Ball'Glace"
     ],
-    "image": "assets/pkm/babimanta.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Demanta",
@@ -12906,7 +13362,7 @@
       "Absorbeau"
     ],
     "hidden_ability": "Ignifuvoile",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il ignore royalement les Rémoraid qui s'accrochent à ses nageoires pour manger les restes qu'il sème.",
     "level_up": [
       {
@@ -12919,7 +13375,7 @@
       },
       {
         "level": 5,
-        "move": "Ultrason"
+        "move": "Chant Antique"
       },
       {
         "level": 7,
@@ -13016,68 +13472,73 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Anti-Brume",
-      "Brise Corail",
+      "Surf",
+      "Siphon",
       "Cascade",
       "Plongée",
-      "Siphon",
-      "Surf"
+      "Anti-Brume",
+      "Brise Corail"
     ],
     "ct": [
+      "Vibraqua",
+      "Souplesse",
       "Aéropique",
-      "Aqua-Douche",
-      "Attraction",
-      "Bombe Sablée",
       "Demi-Tour",
+      "Attraction",
+      "Rebond",
+      "Vague de Froid",
       "Draco-Choc",
-      "Éclat Fabuleux",
+      "Tourbi-Sable",
       "Façade",
       "Lame d'Air",
-      "Luminocanon",
-      "Lyophilisation",
+      "Éclat Fabuleux",
       "Pacification",
-      "Plat",
-      "Rebond",
       "Saumure",
-      "Souplesse",
+      "Luminocanon",
+      "Bombe Sablée",
+      "Plat",
       "Tir de Précision",
-      "Tourbi-Sable",
-      "Vague de Froid",
       "Vague Étau",
-      "Vibraqua"
+      "Lyophilisation",
+      "Aqua-Douche"
     ],
     "dt": [
-      "Ailes d'Acier",
-      "Balle Graine",
-      "Ball'Glace",
-      "Blabla Dodo",
-      "Bourrasque",
-      "Brise Marine",
-      "Bulles d'O",
-      "Canocéan",
-      "Coup d'Boule",
-      "Coupe-Vent",
-      "Damoclès",
-      "Douce Brise",
       "Frénésie",
-      "Frustration",
-      "Hâte",
+      "Patience",
+      "Bulles d'O",
       "Hydro-Éclat",
+      "Vague Psy",
+      "Onde Boréale",
+      "Tranch'Aile",
+      "Repos",
+      "Météores",
+      "Plaquage",
+      "Damoclès",
+      "Coupe-Vent",
       "Laser Glace",
       "Mania",
-      "Météores",
-      "Mur Lumière",
-      "Onde Boréale",
-      "Patience",
-      "Plaquage",
+      "Hâte",
+      "Coup d'Boule",
       "Radiance",
-      "Repos",
+      "Mur Lumière",
+      "Blabla Dodo",
       "Retour",
+      "Frustration",
+      "Bourrasque",
+      "Ailes d'Acier",
+      "Canocéan",
+      "Brise Marine",
+      "Douce Brise",
       "Rune Protect",
-      "Tranch'Aile",
-      "Vague Psy"
+      "Balle Graine",
+      "Ball'Glace"
     ],
-    "image": "assets/pkm/demanta.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Ferplume",
@@ -13139,7 +13600,7 @@
       },
       {
         "level": 37,
-        "move": "Strido-Son"
+        "move": "Ruée d'Or"
       },
       {
         "level": 41,
@@ -13151,7 +13612,7 @@
       },
       {
         "level": 50,
-        "move": "Mimique"
+        "move": "Typhon Hivernal"
       },
       {
         "level": 54,
@@ -13199,16 +13660,21 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [
-      "Anti-Brume",
       "Coupe",
-      "Éclate-Roc"
+      "Éclate-Roc",
+      "Anti-Brume"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/ferplume.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Airmure",
@@ -13221,7 +13687,7 @@
       "Fermete"
     ],
     "hidden_ability": "Armurouillee",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Comme il fait son nid dans les ronces, ses petits s'endurcissent à force d'être sans cesse éraflés.",
     "level_up": [
       {
@@ -13270,7 +13736,7 @@
       },
       {
         "level": 37,
-        "move": "Strido-Son"
+        "move": "Ruée d'Or"
       },
       {
         "level": 41,
@@ -13282,7 +13748,7 @@
       },
       {
         "level": 50,
-        "move": "Mimique"
+        "move": "Typhon Hivernal"
       },
       {
         "level": 54,
@@ -13331,20 +13797,25 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Anti-Brume",
       "Coupe",
-      "Coupe Vive",
+      "Vol",
       "Éclate-Roc",
-      "Vol"
+      "Anti-Brume",
+      "Coupe Vive"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/airmure.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Malosse",
     "types": [
-      "Tenebres",
+      "Ténèbres",
       "Feu"
     ],
     "abilities": [
@@ -13437,7 +13908,7 @@
       },
       {
         "level": 75,
-        "move": "Vantardise"
+        "move": "Cataclysme"
       },
       {
         "level": 80,
@@ -13472,22 +13943,27 @@
     ],
     "ct": [
       "Aboiement",
-      "Bataille",
-      "Bond",
-      "Façade",
       "Lance-Flammes",
-      "Sanction",
+      "Façade",
+      "Bataille",
+      "Vengeance",
       "Sol Brûlé",
       "Tranche-Nuit",
-      "Vengeance"
+      "Sanction",
+      "Bond"
     ],
     "dt": [],
-    "image": "assets/pkm/malosse.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Démolosse",
     "types": [
-      "Tenebres",
+      "Ténèbres",
       "Feu"
     ],
     "abilities": [
@@ -13495,7 +13971,7 @@
       "Torche"
     ],
     "hidden_ability": "Tension",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ceux qui le craignaient jadis lui ont donné le surnom de « messager de la Faucheuse » à cause de son hurlement sinistre si particulier.",
     "level_up": [
       {
@@ -13580,7 +14056,7 @@
       },
       {
         "level": 75,
-        "move": "Vantardise"
+        "move": "Cataclysme"
       },
       {
         "level": 80,
@@ -13605,32 +14081,37 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Combustion",
-      "Éclate-Roc",
       "Force",
+      "Éclate-Roc",
+      "Combustion",
       "Force Cachée"
     ],
     "ct": [
       "Aboiement",
-      "Ball'Ombre",
-      "Bataille",
-      "Bond",
-      "Colère",
-      "Façade",
-      "Folie Ardente",
+      "Chaîne Malsaine",
       "Lance-Flammes",
-      "Maraudage",
-      "Mégaphone",
+      "Ball'Ombre",
       "Queue de Fer",
       "Rebondilave",
-      "Sanction",
+      "Façade",
+      "Bataille",
+      "Vengeance",
+      "Folie Ardente",
       "Sol Brûlé",
-      "Chaîne Malsaine",
+      "Maraudage",
       "Tranche-Nuit",
-      "Vengeance"
+      "Colère",
+      "Sanction",
+      "Mégaphone",
+      "Bond"
     ],
     "dt": [],
-    "image": "assets/pkm/dmolosse.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Phanpy",
@@ -13756,13 +14237,18 @@
       "Coup Furieux"
     ],
     "cs": [
-      "Éclate-Roc",
       "Force",
-      "Tunnel"
+      "Tunnel",
+      "Éclate-Roc"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/phanpy.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Donphan",
@@ -13773,7 +14259,7 @@
       "Fermete"
     ],
     "hidden_ability": "Voilesable",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Plus grandes sont ses défenses, plus haut est son rang dans le troupeau. Elles poussent lentement.",
     "level_up": [
       {
@@ -13883,20 +14369,25 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Brise-Glace",
-      "Casse Brique",
-      "Éclate-Roc",
-      "Enfoncement",
-      "Érosion",
-      "Escalade",
       "Force",
+      "Tunnel",
+      "Éclate-Roc",
       "Force Cachée",
+      "Escalade",
+      "Érosion",
+      "Casse Brique",
+      "Brise-Glace",
       "Perce-Roc",
-      "Tunnel"
+      "Enfoncement"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/donphan.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Cerfrousse",
@@ -13909,7 +14400,7 @@
       "Fouille"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Quiconque observe ses bois circulaires éprouve l'étrange impression d'être happé par leur centre.",
     "level_up": [
       {
@@ -14018,12 +14509,17 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/cerfrousse.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Queulorior",
@@ -14035,75 +14531,19 @@
       "Technicien"
     ],
     "hidden_ability": "Lunatique",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il marque son territoire en maniant sa queue comme un pinceau. On dénombre plus de 5000 marques.",
-    "level_up": [
-      {
-        "level": 1,
-        "move": "Charge"
-      },
-      {
-        "level": 1,
-        "move": "GRIBOUILLE"
-      },
-      {
-        "level": 5,
-        "move": "GRIBOUILLE"
-      },
-      {
-        "level": 10,
-        "move": "GRIBOUILLE"
-      },
-      {
-        "level": 17,
-        "move": "GRIBOUILLE"
-      },
-      {
-        "level": 25,
-        "move": "GRIBOUILLE"
-      },
-      {
-        "level": 33,
-        "move": "GRIBOUILLE"
-      },
-      {
-        "level": 41,
-        "move": "GRIBOUILLE"
-      },
-      {
-        "level": 50,
-        "move": "GRIBOUILLE"
-      },
-      {
-        "level": 58,
-        "move": "GRIBOUILLE"
-      },
-      {
-        "level": 66,
-        "move": "GRIBOUILLE"
-      },
-      {
-        "level": 75,
-        "move": "GRIBOUILLE"
-      },
-      {
-        "level": 85,
-        "move": "GRIBOUILLE"
-      },
-      {
-        "level": 95,
-        "move": "GRIBOUILLE"
-      },
-      {
-        "level": 100,
-        "move": "GRIBOUILLE"
-      }
-    ],
+    "level_up": [],
     "egg_moves": [],
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/queulorior.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Écrémeuh",
@@ -14115,7 +14555,7 @@
       "Querelleur"
     ],
     "hidden_ability": "Herbivore",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ce Pokémon est surtout élevé pour son lait, bien que sa stature imposante en fasse un Pokémon de combat tout à fait respectable.",
     "level_up": [
       {
@@ -14224,19 +14664,24 @@
       }
     ],
     "egg_moves": [
-      "XXX"
+      "Xxx"
     ],
     "cs": [
-      "Brise-Glace",
-      "Casse Brique",
-      "Éclate-Roc",
-      "Enfoncement",
       "Force",
-      "Force Cachée"
+      "Éclate-Roc",
+      "Force Cachée",
+      "Casse Brique",
+      "Brise-Glace",
+      "Enfoncement"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/crmeuh.png"
+    "image": null,
+    "held_items": {
+      "common": "Lait Meumeu",
+      "uncommon": "Lait Meumeu",
+      "rare": "Lait Meumeu"
+    }
   },
   {
     "name": "Embrylex",
@@ -14370,7 +14815,12 @@
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/embrylex.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Ymphect",
@@ -14493,27 +14943,32 @@
     "egg_moves": [],
     "cs": [
       "Coupe",
+      "Force",
+      "Tunnel",
       "Éclate-Roc",
       "Érosion",
-      "Force",
-      "Foreuse",
-      "Tunnel"
+      "Foreuse"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/ymphect.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Tyranocif",
     "types": [
       "Roche",
-      "Tenebres"
+      "Ténèbres"
     ],
     "abilities": [
       "Sablevolant"
     ],
     "hidden_ability": "Tension",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il parcourt les montagnes à la recherche d'un adversaire. Si ce dernier n'est pas à la hauteur, il préfère l'ignorer et s'en aller.",
     "level_up": [
       {
@@ -14627,24 +15082,29 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Brise-Glace",
-      "Brise Corail",
-      "Casse Brique",
       "Coupe",
-      "Coupe Vive",
-      "Éclate-Roc",
-      "Enfoncement",
-      "Érosion",
-      "Escalade",
       "Force",
+      "Tunnel",
+      "Éclate-Roc",
       "Force Cachée",
+      "Escalade",
+      "Érosion",
       "Foreuse",
+      "Casse Brique",
+      "Brise Corail",
+      "Coupe Vive",
+      "Brise-Glace",
       "Perce-Roc",
-      "Tunnel"
+      "Enfoncement"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/tyranocif.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Raikou",
@@ -14655,7 +15115,7 @@
       "Pression"
     ],
     "hidden_ability": "Attention",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Le nuage de pluie qu'il porte peut relâcher la foudre à volonté. On dit de lui qu'il est venu avec l'orage.",
     "level_up": [
       {
@@ -14767,7 +15227,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/raikou.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Entei",
@@ -14778,7 +15243,7 @@
       "Pression"
     ],
     "hidden_ability": "Attention",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Un Pokémon qui parcourt le monde. On dit qu'il en naît un à chaque fois qu'un volcan apparaît.",
     "level_up": [
       {
@@ -14823,7 +15288,7 @@
       },
       {
         "level": 33,
-        "move": "Vantardise"
+        "move": "Cataclysme"
       },
       {
         "level": 37,
@@ -14890,7 +15355,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/entei.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Suicune",
@@ -14901,7 +15371,7 @@
       "Pression"
     ],
     "hidden_ability": "Attention",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Suicune incarne la tranquillité d'une source d'eau pure. Il parcourt les plaines avec grâce. Ce Pokémon a le pouvoir de purifier l'eau.",
     "level_up": [
       {
@@ -14998,7 +15468,7 @@
       },
       {
         "level": 90,
-        "move": "Cristallisation"
+        "move": "Pluie Térastrale"
       },
       {
         "level": 95,
@@ -15013,7 +15483,12 @@
     "cs": [],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/suicune.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Ho-Oh",
@@ -15025,7 +15500,7 @@
       "Pression"
     ],
     "hidden_ability": "Regeforce",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Une légende raconte que son corps brille de sept couleurs. Un arc-en-ciel se forme derrière lui quand il vole.",
     "level_up": [
       {
@@ -15106,7 +15581,7 @@
       },
       {
         "level": 70,
-        "move": "FEUSACRE"
+        "move": "Feusacre"
       },
       {
         "level": 75,
@@ -15135,15 +15610,20 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Anti-Brume",
-      "Combustion",
+      "Vol",
       "Flash",
+      "Combustion",
       "Force Cachée",
-      "Vol"
+      "Anti-Brume"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/hooh.png"
+    "image": null,
+    "held_items": {
+      "common": "Cendre Sacrée",
+      "uncommon": "Cendre Sacrée",
+      "rare": "Cendre Sacrée"
+    }
   },
   {
     "name": "Lugia",
@@ -15155,7 +15635,7 @@
       "Pression"
     ],
     "hidden_ability": "Multiecaille",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Il est supposé être le gardien des sept mers. On raconte qu'il est apparu une nuit de forte tempête.",
     "level_up": [
       {
@@ -15208,7 +15688,7 @@
       },
       {
         "level": 41,
-        "move": "Onde Marine"
+        "move": "Branchicrok"
       },
       {
         "level": 46,
@@ -15236,7 +15716,7 @@
       },
       {
         "level": 70,
-        "move": "Aéroblast"
+        "move": "Aeroblast"
       },
       {
         "level": 75,
@@ -15265,19 +15745,24 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Anti-Brume",
-      "Brise-Glace",
-      "Brise Corail",
-      "Cascade",
-      "Force Cachée",
-      "Plongée",
-      "Siphon",
+      "Vol",
       "Surf",
-      "Vol"
+      "Siphon",
+      "Cascade",
+      "Plongée",
+      "Force Cachée",
+      "Anti-Brume",
+      "Brise Corail",
+      "Brise-Glace"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/lugia.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "Celebi",
@@ -15289,7 +15774,7 @@
       "Medicnature"
     ],
     "hidden_ability": "Creaherbe",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Ce Pokémon voyage dans le temps. Les forêts où il apparaît deviennent prodigieusement luxuriantes.",
     "level_up": [
       {
@@ -15322,7 +15807,7 @@
       },
       {
         "level": 21,
-        "move": "Vigilance"
+        "move": "Typhon Passionné"
       },
       {
         "level": 25,
@@ -15350,7 +15835,7 @@
       },
       {
         "level": 50,
-        "move": "ECHODESAGES"
+        "move": "Echodesages"
       },
       {
         "level": 54,
@@ -15399,14 +15884,19 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Anti-Brume",
-      "Coupe Vive",
       "Flash",
-      "Force Cachée"
+      "Force Cachée",
+      "Anti-Brume",
+      "Coupe Vive"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/celebi.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   },
   {
     "name": "LéviatorΔ",
@@ -15418,7 +15908,7 @@
       "Colerique"
     ],
     "hidden_ability": "Impudence",
-    "evolution": "",
+    "evolution": null,
     "pokedex": "Apparu au Lac Colère, sa fureur ne semble jamais se calmer. Serait-il dû à l'instabilité de ses types?",
     "level_up": [
       {
@@ -15491,7 +15981,7 @@
       },
       {
         "level": 62,
-        "move": "Vantardise"
+        "move": "Cataclysme"
       },
       {
         "level": 66,
@@ -15528,17 +16018,22 @@
     ],
     "egg_moves": [],
     "cs": [
-      "Anti-Brume",
-      "Brise-Glace",
-      "Brise Corail",
+      "Surf",
+      "Siphon",
       "Cascade",
       "Combustion",
       "Plongée",
-      "Siphon",
-      "Surf"
+      "Anti-Brume",
+      "Brise Corail",
+      "Brise-Glace"
     ],
     "ct": [],
     "dt": [],
-    "image": "assets/pkm/lviator.png"
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
   }
 ]
