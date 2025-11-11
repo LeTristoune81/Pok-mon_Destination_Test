@@ -1,4 +1,4 @@
-/* ---------- app.js (multi-régions + fetch robuste) ---------- */
+/* ---------- app.js (multi-régions + fetch robuste, sans échappements ambigus) ---------- */
 
 /***** utils *****/
 function $(q, el=document){ return el.querySelector(q); }
@@ -6,7 +6,7 @@ function norm(s){ return (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'')
 function regionSlug(r){ return norm(r).replace(/\s+/g,'_'); }
 
 // Auto-détection d'un éventuel sous-chemin (ex: /Pok-mon_Destination_Test)
-const AUTO_BASE = (()=>{
+const AUTO_BASE = (()=> {
   const path = location.pathname;
   const m = path.match(/^(.*\/Pok-mon[^/]*)(?:\/|$)/i);
   return m ? m[1] : '';
@@ -24,18 +24,18 @@ async function loadJSON(url){
   const candidates = [];
   candidates.push(url);
   if (url.startsWith('/')) candidates.push(withBase(url));
-  if (!url.startsWith('./')) candidates.push('./' + url.replace(/^\/+/,''));
-  candidates.push(url.replace(/^\/+/,''));
+  if (!url.startsWith('./')) candidates.push('./' + url.replace(/^\/+/, ''));
+  candidates.push(url.replace(/^\/+/, ''));
 
   let lastErr;
   for (const u of candidates){
     try{
-      const r = await fetch(u, {cache:'no-cache'});
-      if(r.ok) return r.json();
-      lastErr = new Error(`HTTP ${r.status} on ${u}`);
+      const r = await fetch(u, { cache: 'no-cache' });
+      if (r.ok) return r.json();
+      lastErr = new Error('HTTP ' + r.status + ' on ' + u);
     }catch(e){ lastErr = e; }
   }
-  throw lastErr || new Error("loadJSON failed for " + url);
+  throw lastErr || new Error('loadJSON failed for ' + url);
 }
 
 /***** corrections texte *****/
@@ -50,7 +50,7 @@ function fixBrokenAccentsInDom(root=document.body){
   while(n=w.nextNode()) if(n.nodeValue) arr.push(n);
   for(const node of arr){
     let t=node.nodeValue;
-    for(const [a,b] of pairs) t=t.split(a).join(b);
+    for(const p of pairs){ t = t.split(p[0]).join(p[1]); }
     if(t!==node.nodeValue) node.nodeValue=t;
   }
 }
@@ -68,10 +68,10 @@ function makeSpriteCandidates(name, rk){
   const vars = nameVariants(name);
   const out = [];
   for (const v of vars){
-    out.push(withBase(`/assets/pkm/${v}.png`));
-    if (rk) out.push(withBase(`/assets/pkm/${rk}/${v}.png`));
-    out.push(withBase(`/assets/pkm2/${v}.png`));
-    if (rk) out.push(withBase(`/assets/pkm2/${rk}/${v}.png`));
+    out.push(withBase('/assets/pkm/' + v + '.png'));
+    if (rk) out.push(withBase('/assets/pkm/' + rk + '/' + v + '.png'));
+    out.push(withBase('/assets/pkm2/' + v + '.png'));
+    if (rk) out.push(withBase('/assets/pkm2/' + rk + '/' + v + '.png'));
   }
   return out;
 }
@@ -82,44 +82,50 @@ function getRegionFromURL(defaultRegion='Johto'){
   const r = url.searchParams.get('r');
   return r || defaultRegion;
 }
-function regionSlug(r){ return norm(r).replace(/\s+/g,'_'); }
-function pokedexPathFor(r){ return `/data/pokedex_${regionSlug(r)}.json`; }
+function pokedexPathFor(r){ return '/data/pokedex_' + regionSlug(r) + '.json'; }
 
 /***** Liens d'évolution *****/
 function linkifyEvo(p, region){
   const evoText = p.evolution || '';
-  const baseHref = `pokemon.html?r=${encodeURIComponent(region)}&n=`;
+  const baseHref = 'pokemon.html?r=' + encodeURIComponent(region) + '&n=';
 
   if (Array.isArray(p.evolutions_detailed) && p.evolutions_detailed.length){
-    return p.evolutions_detailed.map(e => {
+    const parts = p.evolutions_detailed.map(function(e){
       const name = e.target_name || e.target_token || '???';
       const href = baseHref + encodeURIComponent(String(name).toLowerCase());
-      if (e.method === 'Level' && e.level != null) return `Évolue en <a href="${href}" class="evo-link">${name}</a> au niveau ${e.level}`;
-      if (e.method === 'Trade') return `Évolue en <a href="${href}" class="evo-link">${name}</a> par échange`;
-      if (e.method === 'Happiness') return `Évolue en <a href="${href}" class="evo-link">${name}</a> avec une grande amitié`;
+      if (e.method === 'Level' && e.level != null) return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> au niveau ' + e.level;
+      if (e.method === 'Trade') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> par échange';
+      if (e.method === 'Happiness') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> avec une grande amitié';
       if (e.method === 'HoldItem' || e.method === 'NightHoldItem'){
         const when = e.time === 'night' ? ' la nuit' : '';
-        return `Évolue en <a href="${href}" class="evo-link">${name}</a> en tenant l'objet ${e.item_name || e.item_token}${when}`;
+        return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> en tenant l\'objet ' + (e.item_name || e.item_token) + when;
       }
-      if (e.method === 'Item') return `Évolue en <a href="${href}" class="evo-link">${name}</a> en utilisant ${e.item_name || e.item_token}`;
-      if (e.method === 'HasMove') return `Évolue en <a href="${href}" class="evo-link">${name}</a> en connaissant ${e.move_name || e.move_token}`;
-      if (e.method === 'HasMoveType') return `Évolue en <a href="${href}" class="evo-link">${name}</a> en connaissant une attaque de type ${e.move_type}`;
-      return `Évolue en <a href="${href}" class="evo-link">${name}</a>`;
-    }).join(' / ');
+      if (e.method === 'Item') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> en utilisant ' + (e.item_name || e.item_token);
+      if (e.method === 'HasMove') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> en connaissant ' + (e.move_name || e.move_token);
+      if (e.method === 'HasMoveType') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> en connaissant une attaque de type ' + e.move_type;
+      return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a>';
+    });
+    return parts.join(' / ');
   }
 
+  // Fallback (É ou E)
   return evoText.replace(
     /(?:É|E)volue en\s+([^,.;/]+)/g,
-    (full, rest) => {
-      const parts = rest.split(/\s+(?:au|avec|en|si|lorsqu|quand|dans)(?:\s|$)/);
-      const name  = (parts[0] || '').trim();
+    function(full, rest){
+      const split = rest.split(/\s+(?:au|avec|en|si|lorsqu|quand|dans)(?:\s|$)/);
+      const name  = (split[0] || '').trim();
       if (!name) return full;
       const suffixStart = rest.indexOf(name) + name.length;
       const suffix = rest.slice(suffixStart);
       const href = baseHref + encodeURIComponent(name.toLowerCase());
-      return `Évolue en <a href="${href}" class="evo-link">${name}</a>${suffix}`;
+      return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a>' + suffix;
     }
   );
+}
+
+/***** Rendu HTML helpers *****/
+function renderBadges(types){
+  return (types||[]).map(function(t){ return '<span class="badge">' + t + '</span>'; }).join(' ');
 }
 
 /***** LISTE POKÉDEX *****/
@@ -142,67 +148,91 @@ async function initIndex(){
 
     const data = await loadJSON(pokedexPathFor(region));
 
-    const render = (items)=>{
-      grid.innerHTML = items.map(p=>{
-        const nameLower = (p.name||'').toLowerCase();
-        const imgCandidates = [
-          p.image ? withBase('/'+String(p.image).replace(/^\/+/,'')) : ''
-        ].concat(makeSpriteCandidates(p.name, rk)).filter(Boolean);
+    const cards = data.map(function(p){
+      const nameLower = (p.name||'').toLowerCase();
+      const imgCandidates = []
+        .concat(p.image ? [withBase('/'+String(p.image).replace(/^\/+/,''))] : [])
+        .concat(makeSpriteCandidates(p.name, rk));
 
-        const first = imgCandidates[0] || '';
-        const dataSrcs = encodeURIComponent(JSON.stringify(imgCandidates));
-        const href = `pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(nameLower)}`;
+      const first = imgCandidates[0] || '';
+      const dataSrcs = encodeURIComponent(JSON.stringify(imgCandidates));
+      const href = 'pokemon.html?r=' + encodeURIComponent(region) + '&n=' + encodeURIComponent(nameLower);
 
-        return `
-          <div class="card">
-            <div class="cardRow">
-              <img class="thumb pokeimg"
-                   src="${first}"
-                   alt="${p.name||''}"
-                   data-srcs="${dataSrcs}"
-                   data-idx="0"
-                   loading="lazy"
-                   style="width:64px;height:64px;image-rendering:pixelated;object-fit:contain;">
-              <div class="cardBody">
-                <div class="h2">${p.name||''}</div>
-                <div>${(p.types||[]).map(t=>\`<span class="badge">\${t}</span>\`).join(' ')}</div>
-                <div class="small" style="margin-top:4px">\${linkifyEvo(p, region)}</div>
-                <div style="margin-top:8px"><a href="${href}">Ouvrir la fiche</a></div>
-              </div>
-            </div>
-          </div>`;
-      }).join('');
+      return ''
+        + '<div class="card">'
+        +   '<div class="cardRow">'
+        +     '<img class="thumb pokeimg"'
+        +          ' src="' + first + '"'
+        +          ' alt="' + (p.name||'') + '"'
+        +          ' data-srcs="' + dataSrcs + '"'
+        +          ' data-idx="0"'
+        +          ' loading="lazy"'
+        +          ' style="width:64px;height:64px;image-rendering:pixelated;object-fit:contain;">'
+        +     '<div class="cardBody">'
+        +       '<div class="h2">' + (p.name||'') + '</div>'
+        +       '<div>' + renderBadges(p.types) + '</div>'
+        +       '<div class="small" style="margin-top:4px">' + linkifyEvo(p, region) + '</div>'
+        +       '<div style="margin-top:8px"><a href="' + href + '">Ouvrir la fiche</a></div>'
+        +     '</div>'
+        +   '</div>'
+        + '</div>';
+    });
 
-      status.textContent = `${items.length} Pokémon affiché${items.length>1?'s':''}`;
+    grid.innerHTML = cards.join('');
 
-      grid.querySelectorAll('img.pokeimg').forEach(img=>{
-        img.onerror = ()=>{
-          try{
-            const srcs = JSON.parse(decodeURIComponent(img.getAttribute('data-srcs')));
-            let idx = parseInt(img.getAttribute('data-idx')||'0',10);
-            idx++;
-            if(idx < srcs.length){
-              img.setAttribute('data-idx', String(idx));
-              img.src = srcs[idx];
-            }else{
-              img.style.display='none';
-            }
-          }catch{ img.style.display='none'; }
-        };
-      });
-    };
+    status.textContent = data.length + ' Pokémon affiché' + (data.length>1?'s':'');
 
-    render(data);
+    grid.querySelectorAll('img.pokeimg').forEach(function(img){
+      img.onerror = function(){
+        try{
+          const srcs = JSON.parse(decodeURIComponent(img.getAttribute('data-srcs')));
+          let idx = parseInt(img.getAttribute('data-idx')||'0',10);
+          idx++;
+          if(idx < srcs.length){
+            img.setAttribute('data-idx', String(idx));
+            img.src = srcs[idx];
+          }else{
+            img.style.display='none';
+          }
+        }catch(e){ img.style.display='none'; }
+      };
+    });
 
     const q = $('#q');
     if(q){
-      q.addEventListener('input', e=>{
+      q.addEventListener('input', function(e){
         const v = norm(e.target.value);
-        const f = data.filter(p =>
-          norm(p.name||'').includes(v) ||
-          norm((p.types||[]).join(' ')).includes(v)
-        );
-        render(f);
+        const f = data.filter(function(p){
+          return norm(p.name||'').includes(v) || norm((p.types||[]).join(' ')).includes(v);
+        });
+        const cards2 = f.map(function(p){
+          const nameLower = (p.name||'').toLowerCase();
+          const imgCandidates = []
+            .concat(p.image ? [withBase('/'+String(p.image).replace(/^\/+/,''))] : [])
+            .concat(makeSpriteCandidates(p.name, rk));
+          const first = imgCandidates[0] || '';
+          const dataSrcs = encodeURIComponent(JSON.stringify(imgCandidates));
+          const href = 'pokemon.html?r=' + encodeURIComponent(region) + '&n=' + encodeURIComponent(nameLower);
+          return ''
+            + '<div class="card">'
+            +   '<div class="cardRow">'
+            +     '<img class="thumb pokeimg"'
+            +          ' src="' + first + '"'
+            +          ' alt="' + (p.name||'') + '"'
+            +          ' data-srcs="' + dataSrcs + '"'
+            +          ' data-idx="0"'
+            +          ' loading="lazy"'
+            +          ' style="width:64px;height:64px;image-rendering:pixelated;object-fit:contain;">'
+            +     '<div class="cardBody">'
+            +       '<div class="h2">' + (p.name||'') + '</div>'
+            +       '<div>' + renderBadges(p.types) + '</div>'
+            +       '<div class="small" style="margin-top:4px">' + linkifyEvo(p, region) + '</div>'
+            +       '<div style="margin-top:8px"><a href="' + href + '">Ouvrir la fiche</a></div>'
+            +     '</div>'
+            +   '</div>'
+            + '</div>';
+        });
+        grid.innerHTML = cards2.join('');
       });
     }
 
@@ -210,7 +240,7 @@ async function initIndex(){
   }catch(err){
     console.error(err);
     const c = $('.container') || document.body;
-    c.insertAdjacentHTML('beforeend', `<div class="card" style="color:#ff8080">Erreur de chargement du Pokédex.<br><span class="small">${err.message}</span></div>`);
+    c.insertAdjacentHTML('beforeend', '<div class="card" style="color:#ff8080">Erreur de chargement du Pokédex.<br><span class="small">' + err.message + '</span></div>');
   }
 }
 
@@ -223,25 +253,28 @@ async function initPokemon(){
     const name = (url.searchParams.get('n')||'').toLowerCase();
 
     if(!name){
-      $('.container')?.insertAdjacentHTML('beforeend', `<div class="card">Aucun Pokémon précisé.</div>`);
+      const ctn = $('.container') || document.body;
+      ctn.insertAdjacentHTML('beforeend', '<div class="card">Aucun Pokémon précisé.</div>');
       return;
     }
 
     const data = await loadJSON(pokedexPathFor(region));
-    const p = data.find(x => (x.name||'').toLowerCase() === name);
+    const p = data.find(function(x){ return (x.name||'').toLowerCase() === name; });
     if(!p){
-      $('.container')?.insertAdjacentHTML('beforeend', `<div class="card">Pokémon introuvable dans ${region}.</div>`);
+      const ctn = $('.container') || document.body;
+      ctn.insertAdjacentHTML('beforeend', '<div class="card">Pokémon introuvable dans ' + region + '.</div>');
       return;
     }
 
-    $('#pokename') && ($('#pokename').textContent = p.name);
-    const typesEl = $('#types'); if(typesEl) typesEl.innerHTML = (p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ');
+    const pn = $('#pokename'); if(pn) pn.textContent = p.name;
+    const typesEl = $('#types'); if(typesEl) typesEl.innerHTML = renderBadges(p.types);
     const evoEl = $('#evo'); if(evoEl) evoEl.innerHTML = linkifyEvo(p, region) || '?';
 
-    const linkMove = (m)=> `<a href="moves.html#${encodeURIComponent(m)}">${m}</a>`;
+    const linkMove = function(m){ return '<a href="moves.html#' + encodeURIComponent(m) + '">' + m + '</a>'; };
+
     const habilEl = $('#habil'); if(habilEl){
       const abilities = p.abilities || [];
-      habilEl.innerHTML = abilities.length ? abilities.map(a=>linkMove(a)).join(', ') : '?';
+      habilEl.innerHTML = abilities.length ? abilities.map(linkMove).join(', ') : '?';
     }
     const habhidEl = $('#habhid'); if(habhidEl){
       habhidEl.innerHTML = p.hidden_ability ? linkMove(p.hidden_ability) : '?';
@@ -249,43 +282,54 @@ async function initPokemon(){
 
     const img = $('#sprite');
     if(img){
-      const candidates = [
-        p.image ? withBase('/'+String(p.image).replace(/^\/+/,'')) : ''
-      ].concat(makeSpriteCandidates(p.name, rk)).filter(Boolean);
+      const candidates = []
+        .concat(p.image ? [withBase('/'+String(p.image).replace(/^\/+/,''))] : [])
+        .concat(makeSpriteCandidates(p.name, rk));
 
       let i=0;
-      img.onerror = ()=>{ i++; if(i<candidates.length) img.src=candidates[i]; else img.style.display='none'; };
+      img.onerror = function(){
+        i++;
+        if(i < candidates.length) img.src = candidates[i];
+        else img.style.display='none';
+      };
       img.src = candidates[0] || '';
     }
 
     (function(){
       const lvlEl = $('#lvl'); if(!lvlEl) return;
-      const arr = (p.level_up||[]).slice().sort((a,b)=>a.level-b.level);
-      lvlEl.innerHTML = arr.length
-        ? arr.map(m=>`<li>${String(m.level).padStart(2,'0')} <a href="moves.html#${encodeURIComponent(m.move)}">${m.move}</a></li>`).join('')
-        : '<li>?</li>';
+      const arr = (p.level_up||[]).slice().sort(function(a,b){ return a.level - b.level; });
+      if (arr.length){
+        lvlEl.innerHTML = arr.map(function(m){
+          return '<li>' + String(m.level).padStart(2,'0') + ' <a href="moves.html#' + encodeURIComponent(m.move) + '">' + m.move + '</a></li>';
+        }).join('');
+      }else{
+        lvlEl.innerHTML = '<li>?</li>';
+      }
     })();
 
-    const renderList = (arr)=> arr && arr.length
-      ? `<li class="lvl-group"><ul class="cols">${arr.map(m=>`<li><a href="moves.html#${encodeURIComponent(m)}">${m}</a></li>`).join('')}</ul></li>`
-      : '<li>?</li>';
-    $('#eggs') && ($('#eggs').innerHTML = renderList(p.egg_moves || []));
-    $('#cs')   && ($('#cs').innerHTML   = renderList(p.cs || []));
-    $('#ct')   && ($('#ct').innerHTML   = renderList(p.ct || []));
-    $('#dt')   && ($('#dt').innerHTML   = renderList(p.dt || []));
+    const renderList = function(arr){
+      if (!arr || !arr.length) return '<li>?</li>';
+      return '<li class="lvl-group"><ul class="cols">' + arr.map(function(m){
+        return '<li><a href="moves.html#' + encodeURIComponent(m) + '">' + m + '</a></li>';
+      }).join('') + '</ul></li>';
+    };
+    const eggs = $('#eggs'); if(eggs) eggs.innerHTML = renderList(p.egg_moves || []);
+    const cs   = $('#cs');   if(cs)   cs.innerHTML   = renderList(p.cs || []);
+    const ct   = $('#ct');   if(ct)   ct.innerHTML   = renderList(p.ct || []);
+    const dt   = $('#dt');   if(dt)   dt.innerHTML   = renderList(p.dt || []);
 
-    $('#pokedex') && ($('#pokedex').textContent = p.pokedex || '?');
+    const pokedex = $('#pokedex'); if(pokedex) pokedex.textContent = p.pokedex || '?';
 
     fixBrokenAccentsInDom();
   }catch(err){
     console.error(err);
     const c = $('.container') || document.body;
-    c.insertAdjacentHTML('beforeend', `<div class="card" style="color:#ff8080">Erreur de chargement de la fiche.<br><span class="small">${err.message}</span></div>`);
+    c.insertAdjacentHTML('beforeend', '<div class="card" style="color:#ff8080">Erreur de chargement de la fiche.<br><span class="small">' + err.message + '</span></div>');
   }
 }
 
 /***** auto init *****/
-document.addEventListener('DOMContentLoaded', ()=>{
+document.addEventListener('DOMContentLoaded', function(){
   const path = location.pathname.toLowerCase();
   const file = path.split('/').pop();
   if (file === 'pokemon.html')  initPokemon();
