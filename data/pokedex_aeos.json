@@ -1,0 +1,699 @@
+[
+  {
+    "name": "Joëlline",
+    "types": [
+      "Psy"
+    ],
+    "abilities": [
+      "Coeursoin"
+    ],
+    "hidden_ability": "Adaptabilite",
+    "evolution": "Évolue en Méchaëlle au niveau 26",
+    "evolutions_detailed": [
+      {
+        "target_token": "MECHAELLE",
+        "target_name": "Méchaëlle",
+        "method": "Level",
+        "level": 26,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "???",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Choc Mental"
+      },
+      {
+        "level": 1,
+        "move": "Rayon Simple"
+      },
+      {
+        "level": 5,
+        "move": "Échange"
+      },
+      {
+        "level": 7,
+        "move": "Orbe Aimanté"
+      },
+      {
+        "level": 10,
+        "move": "Pulsion"
+      },
+      {
+        "level": 13,
+        "move": "Assistance"
+      },
+      {
+        "level": 17,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 21,
+        "move": "Vague Psy"
+      },
+      {
+        "level": 25,
+        "move": "Lame Psychique"
+      },
+      {
+        "level": 29,
+        "move": "Orbe Lustré"
+      },
+      {
+        "level": 33,
+        "move": "Boost"
+      },
+      {
+        "level": 37,
+        "move": "Anti-Soin"
+      },
+      {
+        "level": 41,
+        "move": "Miroi-Tir"
+      },
+      {
+        "level": 46,
+        "move": "Sphère Psy"
+      },
+      {
+        "level": 50,
+        "move": "Fontaine de Vie"
+      },
+      {
+        "level": 54,
+        "move": "Luminocanon"
+      },
+      {
+        "level": 58,
+        "move": "Bombe Aimant"
+      },
+      {
+        "level": 62,
+        "move": "Typhon Passionné"
+      },
+      {
+        "level": 66,
+        "move": "Ball'Énergie"
+      },
+      {
+        "level": 70,
+        "move": "Prescience"
+      },
+      {
+        "level": 75,
+        "move": "Choc Émotionnel"
+      },
+      {
+        "level": 80,
+        "move": "Hypnoblast"
+      },
+      {
+        "level": 85,
+        "move": "Soin"
+      },
+      {
+        "level": 90,
+        "move": "Métalaser"
+      },
+      {
+        "level": 95,
+        "move": "Psyko"
+      },
+      {
+        "level": 100,
+        "move": "Magnificience"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Larme Joëlline"
+  },
+  {
+    "name": "Méchaëlle",
+    "types": [
+      "Psy",
+      "Acier"
+    ],
+    "abilities": [
+      "Coeursoin"
+    ],
+    "hidden_ability": "Adaptabilite",
+    "evolution": "Évolue en Androëlle en tenant l'objet Peau Métal",
+    "evolutions_detailed": [
+      {
+        "target_token": "ANDROELLE",
+        "target_name": "Androëlle",
+        "method": "HoldItem",
+        "level": null,
+        "item_token": "BOOST_ACI",
+        "item_name": "Peau Métal",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "???",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Choc Mental"
+      },
+      {
+        "level": 1,
+        "move": "Rayon Simple"
+      },
+      {
+        "level": 5,
+        "move": "Échange"
+      },
+      {
+        "level": 7,
+        "move": "Orbe Aimanté"
+      },
+      {
+        "level": 10,
+        "move": "Pulsion"
+      },
+      {
+        "level": 13,
+        "move": "Assistance"
+      },
+      {
+        "level": 17,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 21,
+        "move": "Vague Psy"
+      },
+      {
+        "level": 25,
+        "move": "Lame Psychique"
+      },
+      {
+        "level": 29,
+        "move": "Orbe Lustré"
+      },
+      {
+        "level": 33,
+        "move": "Boost"
+      },
+      {
+        "level": 37,
+        "move": "Anti-Soin"
+      },
+      {
+        "level": 41,
+        "move": "Miroi-Tir"
+      },
+      {
+        "level": 46,
+        "move": "Sphère Psy"
+      },
+      {
+        "level": 50,
+        "move": "Fontaine de Vie"
+      },
+      {
+        "level": 54,
+        "move": "Luminocanon"
+      },
+      {
+        "level": 58,
+        "move": "Bombe Aimant"
+      },
+      {
+        "level": 62,
+        "move": "Typhon Passionné"
+      },
+      {
+        "level": 66,
+        "move": "Ball'Énergie"
+      },
+      {
+        "level": 70,
+        "move": "Prescience"
+      },
+      {
+        "level": 75,
+        "move": "Choc Émotionnel"
+      },
+      {
+        "level": 80,
+        "move": "Hypnoblast"
+      },
+      {
+        "level": 85,
+        "move": "Soin"
+      },
+      {
+        "level": 90,
+        "move": "Métalaser"
+      },
+      {
+        "level": 95,
+        "move": "Psyko"
+      },
+      {
+        "level": 100,
+        "move": "Magnificience"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Androëlle",
+    "types": [
+      "Psy",
+      "Acier"
+    ],
+    "abilities": [
+      "Coeursoin"
+    ],
+    "hidden_ability": "Adaptabilite",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "???",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Choc Mental"
+      },
+      {
+        "level": 1,
+        "move": "Rayon Simple"
+      },
+      {
+        "level": 5,
+        "move": "Échange"
+      },
+      {
+        "level": 7,
+        "move": "Orbe Aimanté"
+      },
+      {
+        "level": 10,
+        "move": "Pulsion"
+      },
+      {
+        "level": 13,
+        "move": "Assistance"
+      },
+      {
+        "level": 17,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 21,
+        "move": "Vague Psy"
+      },
+      {
+        "level": 25,
+        "move": "Lame Psychique"
+      },
+      {
+        "level": 29,
+        "move": "Orbe Lustré"
+      },
+      {
+        "level": 33,
+        "move": "Boost"
+      },
+      {
+        "level": 37,
+        "move": "Anti-Soin"
+      },
+      {
+        "level": 41,
+        "move": "Miroi-Tir"
+      },
+      {
+        "level": 46,
+        "move": "Sphère Psy"
+      },
+      {
+        "level": 50,
+        "move": "Fontaine de Vie"
+      },
+      {
+        "level": 54,
+        "move": "Luminocanon"
+      },
+      {
+        "level": 58,
+        "move": "Bombe Aimant"
+      },
+      {
+        "level": 62,
+        "move": "Typhon Passionné"
+      },
+      {
+        "level": 66,
+        "move": "Ball'Énergie"
+      },
+      {
+        "level": 70,
+        "move": "Prescience"
+      },
+      {
+        "level": 75,
+        "move": "Choc Émotionnel"
+      },
+      {
+        "level": 80,
+        "move": "Hypnoblast"
+      },
+      {
+        "level": 85,
+        "move": "Soin"
+      },
+      {
+        "level": 90,
+        "move": "Métalaser"
+      },
+      {
+        "level": 95,
+        "move": "Psyko"
+      },
+      {
+        "level": 100,
+        "move": "Magnificience"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Signaliti",
+    "types": [
+      "Techno",
+      "Acier"
+    ],
+    "abilities": [
+      "Magnepiege",
+      "Fermete"
+    ],
+    "hidden_ability": "Analyste",
+    "evolution": "Évolue en Signaléton au niveau 30",
+    "evolutions_detailed": [
+      {
+        "target_token": "SIGNALETON",
+        "target_name": "Signaléton",
+        "method": "Level",
+        "level": 30,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "???",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Électron"
+      },
+      {
+        "level": 1,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 5,
+        "move": "Orbe Aimanté"
+      },
+      {
+        "level": 7,
+        "move": "Sonic Boom"
+      },
+      {
+        "level": 10,
+        "move": "Court-Circuit"
+      },
+      {
+        "level": 13,
+        "move": "Rayon Chargé"
+      },
+      {
+        "level": 17,
+        "move": "Abri"
+      },
+      {
+        "level": 21,
+        "move": "Blindage"
+      },
+      {
+        "level": 25,
+        "move": "Électrojectile"
+      },
+      {
+        "level": 29,
+        "move": "Miroi-Tir"
+      },
+      {
+        "level": 33,
+        "move": "Triplattaque"
+      },
+      {
+        "level": 37,
+        "move": "Ruée d'Or"
+      },
+      {
+        "level": 41,
+        "move": "Rayon Delta"
+      },
+      {
+        "level": 46,
+        "move": "Coup d'Jus"
+      },
+      {
+        "level": 50,
+        "move": "Aurasphère"
+      },
+      {
+        "level": 54,
+        "move": "Carnareket"
+      },
+      {
+        "level": 58,
+        "move": "Champ Techno"
+      },
+      {
+        "level": 62,
+        "move": "Canon Atome"
+      },
+      {
+        "level": 66,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 70,
+        "move": "Change Vitesse"
+      },
+      {
+        "level": 75,
+        "move": "Exploforce"
+      },
+      {
+        "level": 80,
+        "move": "Monte-Tension"
+      },
+      {
+        "level": 85,
+        "move": "Boule Autoguidée"
+      },
+      {
+        "level": 90,
+        "move": "Mégaphone"
+      },
+      {
+        "level": 95,
+        "move": "Métalaser"
+      },
+      {
+        "level": 100,
+        "move": "Défibrilation"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Signaléton",
+    "types": [
+      "Techno",
+      "Acier"
+    ],
+    "abilities": [
+      "Magnepiege",
+      "Fermete"
+    ],
+    "hidden_ability": "Analyste",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "???",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Électrocution"
+      },
+      {
+        "level": 1,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 5,
+        "move": "Orbe Aimanté"
+      },
+      {
+        "level": 7,
+        "move": "Sonic Boom"
+      },
+      {
+        "level": 10,
+        "move": "Court-Circuit"
+      },
+      {
+        "level": 13,
+        "move": "Rayon Chargé"
+      },
+      {
+        "level": 17,
+        "move": "Abri"
+      },
+      {
+        "level": 21,
+        "move": "Chargeur"
+      },
+      {
+        "level": 25,
+        "move": "Électrojectile"
+      },
+      {
+        "level": 29,
+        "move": "Miroi-Tir"
+      },
+      {
+        "level": 33,
+        "move": "Triplattaque"
+      },
+      {
+        "level": 37,
+        "move": "Ruée d'Or"
+      },
+      {
+        "level": 41,
+        "move": "Luminocanon"
+      },
+      {
+        "level": 46,
+        "move": "Coup d'Jus"
+      },
+      {
+        "level": 50,
+        "move": "Aurasphère"
+      },
+      {
+        "level": 54,
+        "move": "Carnareket"
+      },
+      {
+        "level": 58,
+        "move": "Décalquage"
+      },
+      {
+        "level": 62,
+        "move": "Élecanon"
+      },
+      {
+        "level": 66,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 70,
+        "move": "Change Vitesse"
+      },
+      {
+        "level": 75,
+        "move": "Exploforce"
+      },
+      {
+        "level": 80,
+        "move": "Monte-Tension"
+      },
+      {
+        "level": 85,
+        "move": "Turbo Volt"
+      },
+      {
+        "level": 90,
+        "move": "Mégaphone"
+      },
+      {
+        "level": 95,
+        "move": "Métalaser"
+      },
+      {
+        "level": 100,
+        "move": "Défibrilation"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  }
+]

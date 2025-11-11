@@ -1,0 +1,2435 @@
+[
+  {
+    "name": "Crokbouze",
+    "types": [
+      "Terre",
+      "Electrik"
+    ],
+    "abilities": [
+      "Ramassage"
+    ],
+    "hidden_ability": "Peauelectrique",
+    "evolution": "Évolue en Dynaglier au niveau 28",
+    "evolutions_detailed": [
+      {
+        "target_token": "DYNAGLIER",
+        "target_name": "Dynaglier",
+        "method": "Level",
+        "level": 28,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "On dit qu’il peut faire disjoncter une clôture électrique rien qu’en la reniflant.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Mimi-Queue"
+      },
+      {
+        "level": 5,
+        "move": "Assaut"
+      },
+      {
+        "level": 7,
+        "move": "Flair"
+      },
+      {
+        "level": 10,
+        "move": "Choc Statique"
+      },
+      {
+        "level": 13,
+        "move": "Boul'Armure"
+      },
+      {
+        "level": 17,
+        "move": "Cogne"
+      },
+      {
+        "level": 21,
+        "move": "Ténacité"
+      },
+      {
+        "level": 25,
+        "move": "Écras'Terre"
+      },
+      {
+        "level": 29,
+        "move": "Bataille"
+      },
+      {
+        "level": 33,
+        "move": "Retour Vif"
+      },
+      {
+        "level": 37,
+        "move": "Fertilisation"
+      },
+      {
+        "level": 41,
+        "move": "Rouste"
+      },
+      {
+        "level": 46,
+        "move": "Corps Perdu"
+      },
+      {
+        "level": 50,
+        "move": "Bélier"
+      },
+      {
+        "level": 54,
+        "move": "Assaut Frontal"
+      },
+      {
+        "level": 58,
+        "move": "Grand Rempart"
+      },
+      {
+        "level": 62,
+        "move": "Électro'Impact"
+      },
+      {
+        "level": 66,
+        "move": "Dépassement"
+      },
+      {
+        "level": 70,
+        "move": "Trépignement"
+      },
+      {
+        "level": 75,
+        "move": "Champ Terre"
+      },
+      {
+        "level": 80,
+        "move": "Électro Rage"
+      },
+      {
+        "level": 85,
+        "move": "Rengorgement"
+      },
+      {
+        "level": 90,
+        "move": "Fou Furax"
+      },
+      {
+        "level": 95,
+        "move": "Mania"
+      },
+      {
+        "level": 100,
+        "move": "Abîme"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Dynaglier",
+    "types": [
+      "Terre",
+      "Electrik"
+    ],
+    "abilities": [
+      "Temeraire"
+    ],
+    "hidden_ability": "Peauelectrique",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Son groin agit comme une dynamo : plus il charge, plus son énergie s'accumule. Lorsqu'il frappe, la terre tremble et l'air crépite.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Mimi-Queue"
+      },
+      {
+        "level": 5,
+        "move": "Assaut"
+      },
+      {
+        "level": 7,
+        "move": "Flair"
+      },
+      {
+        "level": 10,
+        "move": "Choc Statique"
+      },
+      {
+        "level": 13,
+        "move": "Boul'Armure"
+      },
+      {
+        "level": 17,
+        "move": "Cogne"
+      },
+      {
+        "level": 21,
+        "move": "Ténacité"
+      },
+      {
+        "level": 25,
+        "move": "Écras'Terre"
+      },
+      {
+        "level": 29,
+        "move": "Bataille"
+      },
+      {
+        "level": 33,
+        "move": "Retour Vif"
+      },
+      {
+        "level": 37,
+        "move": "Fertilisation"
+      },
+      {
+        "level": 41,
+        "move": "Rouste"
+      },
+      {
+        "level": 46,
+        "move": "Corps Perdu"
+      },
+      {
+        "level": 50,
+        "move": "Bélier"
+      },
+      {
+        "level": 54,
+        "move": "Assaut Frontal"
+      },
+      {
+        "level": 58,
+        "move": "Grand Rempart"
+      },
+      {
+        "level": 62,
+        "move": "Électro'Impact"
+      },
+      {
+        "level": 66,
+        "move": "Dépassement"
+      },
+      {
+        "level": 70,
+        "move": "Trépignement"
+      },
+      {
+        "level": 75,
+        "move": "Champ Terre"
+      },
+      {
+        "level": 80,
+        "move": "Électro Rage"
+      },
+      {
+        "level": 85,
+        "move": "Rengorgement"
+      },
+      {
+        "level": 90,
+        "move": "Fou Furax"
+      },
+      {
+        "level": 95,
+        "move": "Mania"
+      },
+      {
+        "level": 100,
+        "move": "Abîme"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Souchtache",
+    "types": [
+      "Bois"
+    ],
+    "abilities": [
+      "Espritvital"
+    ],
+    "hidden_ability": "Suintement",
+    "evolution": "Évolue en Augustache au niveau 40",
+    "evolutions_detailed": [
+      {
+        "target_token": "AUGUSTACHE",
+        "target_name": "Augustache",
+        "method": "Level",
+        "level": 40,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Son chapeau de feuilles rouges capte la lumière et stocke l'énergie. Il libère une odeur boisée pour appeler ses semblables lorsqu'il est menacé.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Ronce"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Patience"
+      },
+      {
+        "level": 7,
+        "move": "Feuillage"
+      },
+      {
+        "level": 10,
+        "move": "Gourdin"
+      },
+      {
+        "level": 13,
+        "move": "Maléfice Sylvain"
+      },
+      {
+        "level": 17,
+        "move": "Ténacité"
+      },
+      {
+        "level": 21,
+        "move": "Strangloronce"
+      },
+      {
+        "level": 25,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 29,
+        "move": "Miel Collant"
+      },
+      {
+        "level": 33,
+        "move": "Je de Rondin"
+      },
+      {
+        "level": 37,
+        "move": "Efflorescence"
+      },
+      {
+        "level": 41,
+        "move": "Bombe Miel"
+      },
+      {
+        "level": 46,
+        "move": "Écorce"
+      },
+      {
+        "level": 50,
+        "move": "Floraison"
+      },
+      {
+        "level": 54,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 58,
+        "move": "Vole-Force"
+      },
+      {
+        "level": 62,
+        "move": "Enfoncement"
+      },
+      {
+        "level": 66,
+        "move": "Picots"
+      },
+      {
+        "level": 70,
+        "move": "Ronce Massive"
+      },
+      {
+        "level": 75,
+        "move": "Martelage"
+      },
+      {
+        "level": 80,
+        "move": "Esprit Sylvestre"
+      },
+      {
+        "level": 85,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 90,
+        "move": "Garde Large"
+      },
+      {
+        "level": 95,
+        "move": "Dernier Recours"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [
+      "Maléfice Sylvain",
+      "Appel Défense",
+      "Appel Soins"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Écorce Souchtache"
+  },
+  {
+    "name": "Augustache",
+    "types": [
+      "Bois",
+      "Insecte"
+    ],
+    "abilities": [
+      "Absenteisme"
+    ],
+    "hidden_ability": "Absenteisme",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il est le gardien des forêts anciennes. Ses épaisses frondaisons peuvent étouffer les sons alentours, lui permettant de se venger de ceux qui osent profaner son territoire.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Ronce"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Patience"
+      },
+      {
+        "level": 7,
+        "move": "Feuillage"
+      },
+      {
+        "level": 10,
+        "move": "Gourdin"
+      },
+      {
+        "level": 13,
+        "move": "Tir de Miel"
+      },
+      {
+        "level": 17,
+        "move": "Ténacité"
+      },
+      {
+        "level": 21,
+        "move": "Strangloronce"
+      },
+      {
+        "level": 25,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 29,
+        "move": "Miel Collant"
+      },
+      {
+        "level": 33,
+        "move": "Je de Rondin"
+      },
+      {
+        "level": 37,
+        "move": "Efflorescence"
+      },
+      {
+        "level": 41,
+        "move": "Bombe Miel"
+      },
+      {
+        "level": 46,
+        "move": "Écorce"
+      },
+      {
+        "level": 50,
+        "move": "Floraison"
+      },
+      {
+        "level": 54,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 58,
+        "move": "Vole-Force"
+      },
+      {
+        "level": 62,
+        "move": "Appel Attaque"
+      },
+      {
+        "level": 66,
+        "move": "Picots"
+      },
+      {
+        "level": 70,
+        "move": "Ronce Massive"
+      },
+      {
+        "level": 75,
+        "move": "Martelage"
+      },
+      {
+        "level": 80,
+        "move": "Esprit Sylvestre"
+      },
+      {
+        "level": 85,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 90,
+        "move": "Garde Large"
+      },
+      {
+        "level": 95,
+        "move": "Tempête Nectar"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Brikuite",
+    "types": [
+      "Roche"
+    ],
+    "abilities": [
+      "Tetederoc"
+    ],
+    "hidden_ability": "Brisemoule",
+    "evolution": "Évolue en Parbrik au niveau 25",
+    "evolutions_detailed": [
+      {
+        "target_token": "PARBRIK",
+        "target_name": "Parbrik",
+        "method": "Level",
+        "level": 25,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il arrive qu'il se retrouve coincé dans un mur construit récemment lorsqu'il se dissimule pendant plusieurs jours.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Tacle"
+      },
+      {
+        "level": 7,
+        "move": "Ténacité"
+      },
+      {
+        "level": 10,
+        "move": "Anti-Air"
+      },
+      {
+        "level": 13,
+        "move": "Tour Rapide"
+      },
+      {
+        "level": 17,
+        "move": "Assommage"
+      },
+      {
+        "level": 21,
+        "move": "Hache de Pierre"
+      },
+      {
+        "level": 25,
+        "move": "Lance-Pierre"
+      },
+      {
+        "level": 29,
+        "move": "Façade"
+      },
+      {
+        "level": 33,
+        "move": "Corps Perdu"
+      },
+      {
+        "level": 37,
+        "move": "Tacle Rocailleux"
+      },
+      {
+        "level": 41,
+        "move": "Plaquage"
+      },
+      {
+        "level": 46,
+        "move": "Martelage"
+      },
+      {
+        "level": 50,
+        "move": "Détection"
+      },
+      {
+        "level": 54,
+        "move": "Rouste"
+      },
+      {
+        "level": 58,
+        "move": "Barrage"
+      },
+      {
+        "level": 62,
+        "move": "Claque Musclée"
+      },
+      {
+        "level": 66,
+        "move": "Poing Écrasant"
+      },
+      {
+        "level": 70,
+        "move": "Stimulant"
+      },
+      {
+        "level": 75,
+        "move": "Garde Large"
+      },
+      {
+        "level": 80,
+        "move": "Exploforce"
+      },
+      {
+        "level": 85,
+        "move": "Effort"
+      },
+      {
+        "level": 90,
+        "move": "Marto-Poing"
+      },
+      {
+        "level": 95,
+        "move": "Assaut Frontal"
+      },
+      {
+        "level": 100,
+        "move": "Fracass'Tête"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Argile Brikuite"
+  },
+  {
+    "name": "Parbrik",
+    "types": [
+      "Roche"
+    ],
+    "abilities": [
+      "Tetederoc"
+    ],
+    "hidden_ability": "Brisemoule",
+    "evolution": "Évolue en Castabrik en utilisant Pierre Poing",
+    "evolutions_detailed": [
+      {
+        "target_token": "CASTABRIK",
+        "target_name": "Castabrik",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_COM",
+        "item_name": "Pierre Poing",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il aime bloquer le passage des gens. Si vous l'enjambez, il se mettra à vous attaquer, vexé.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Tacle"
+      },
+      {
+        "level": 7,
+        "move": "Ténacité"
+      },
+      {
+        "level": 10,
+        "move": "Anti-Air"
+      },
+      {
+        "level": 13,
+        "move": "Tour Rapide"
+      },
+      {
+        "level": 17,
+        "move": "Assommage"
+      },
+      {
+        "level": 21,
+        "move": "Hache de Pierre"
+      },
+      {
+        "level": 25,
+        "move": "Lance-Pierre"
+      },
+      {
+        "level": 29,
+        "move": "Façade"
+      },
+      {
+        "level": 33,
+        "move": "Corps Perdu"
+      },
+      {
+        "level": 37,
+        "move": "Tacle Rocailleux"
+      },
+      {
+        "level": 41,
+        "move": "Plaquage"
+      },
+      {
+        "level": 46,
+        "move": "Martelage"
+      },
+      {
+        "level": 50,
+        "move": "Détection"
+      },
+      {
+        "level": 54,
+        "move": "Rouste"
+      },
+      {
+        "level": 58,
+        "move": "Barrage"
+      },
+      {
+        "level": 62,
+        "move": "Claque Musclée"
+      },
+      {
+        "level": 66,
+        "move": "Poing Écrasant"
+      },
+      {
+        "level": 70,
+        "move": "Stimulant"
+      },
+      {
+        "level": 75,
+        "move": "Garde Large"
+      },
+      {
+        "level": 80,
+        "move": "Exploforce"
+      },
+      {
+        "level": 85,
+        "move": "Effort"
+      },
+      {
+        "level": 90,
+        "move": "Marto-Poing"
+      },
+      {
+        "level": 95,
+        "move": "Assaut Frontal"
+      },
+      {
+        "level": 100,
+        "move": "Fracass'Tête"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Castabrik",
+    "types": [
+      "Roche",
+      "Combat"
+    ],
+    "abilities": [
+      "Tetederoc"
+    ],
+    "hidden_ability": "Brisemoule",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Sa force est incroyable ! Il peut porter des charges très lourdes. Les humains l'utilisent pour construire des bâtiments.",
+    "level_up": [
+      {
+        "level": 0,
+        "move": "Casse Brique"
+      },
+      {
+        "level": 1,
+        "move": "Projection"
+      },
+      {
+        "level": 1,
+        "move": "Coup Double"
+      },
+      {
+        "level": 1,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 1,
+        "move": "Cogne"
+      },
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Tacle"
+      },
+      {
+        "level": 7,
+        "move": "Ténacité"
+      },
+      {
+        "level": 10,
+        "move": "Anti-Air"
+      },
+      {
+        "level": 13,
+        "move": "Tour Rapide"
+      },
+      {
+        "level": 17,
+        "move": "Assommage"
+      },
+      {
+        "level": 21,
+        "move": "Hache de Pierre"
+      },
+      {
+        "level": 25,
+        "move": "Lance-Pierre"
+      },
+      {
+        "level": 29,
+        "move": "Façade"
+      },
+      {
+        "level": 33,
+        "move": "Corps Perdu"
+      },
+      {
+        "level": 37,
+        "move": "Tacle Rocailleux"
+      },
+      {
+        "level": 41,
+        "move": "Plaquage"
+      },
+      {
+        "level": 46,
+        "move": "Martelage"
+      },
+      {
+        "level": 50,
+        "move": "Détection"
+      },
+      {
+        "level": 54,
+        "move": "Rouste"
+      },
+      {
+        "level": 58,
+        "move": "Barrage"
+      },
+      {
+        "level": 62,
+        "move": "Claque Musclée"
+      },
+      {
+        "level": 66,
+        "move": "Poing Écrasant"
+      },
+      {
+        "level": 70,
+        "move": "Stimulant"
+      },
+      {
+        "level": 75,
+        "move": "Garde Large"
+      },
+      {
+        "level": 80,
+        "move": "Exploforce"
+      },
+      {
+        "level": 85,
+        "move": "Effort"
+      },
+      {
+        "level": 90,
+        "move": "Marto-Poing"
+      },
+      {
+        "level": 95,
+        "move": "Assaut Frontal"
+      },
+      {
+        "level": 100,
+        "move": "Fracass'Tête"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Glaspic",
+    "types": [
+      "Eau",
+      "Glace"
+    ],
+    "abilities": [
+      "Impassible",
+      "Cuvette"
+    ],
+    "hidden_ability": "Regardvif",
+    "evolution": "Évolue en Glanaconda en utilisant Pierre Glaçon",
+    "evolutions_detailed": [
+      {
+        "target_token": "GLANACONDA",
+        "target_name": "Glanaconda",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_GLA",
+        "item_name": "Pierre Glaçon",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il se recroquevil sur lui même pour garder la température de son corps le plus bas possible.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Étreinte"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Repli"
+      },
+      {
+        "level": 7,
+        "move": "Dard-Venin"
+      },
+      {
+        "level": 10,
+        "move": "Verglas"
+      },
+      {
+        "level": 13,
+        "move": "Aquaqueue"
+      },
+      {
+        "level": 17,
+        "move": "Congélation"
+      },
+      {
+        "level": 21,
+        "move": "Crocs Givre"
+      },
+      {
+        "level": 25,
+        "move": "Refroidissement"
+      },
+      {
+        "level": 29,
+        "move": "Eau Revoir"
+      },
+      {
+        "level": 33,
+        "move": "Éclate Queue"
+      },
+      {
+        "level": 37,
+        "move": "Lance de Glace"
+      },
+      {
+        "level": 41,
+        "move": "Lyophilisation"
+      },
+      {
+        "level": 46,
+        "move": "Hydro-Queue"
+      },
+      {
+        "level": 50,
+        "move": "Enroulement"
+      },
+      {
+        "level": 54,
+        "move": "Crocs Froids"
+      },
+      {
+        "level": 58,
+        "move": "Tranch'Aqua"
+      },
+      {
+        "level": 62,
+        "move": "Stalactite"
+      },
+      {
+        "level": 66,
+        "move": "Queue de Fer"
+      },
+      {
+        "level": 70,
+        "move": "Fléxi-Queue"
+      },
+      {
+        "level": 75,
+        "move": "Laser Glace"
+      },
+      {
+        "level": 80,
+        "move": "Regard Médusant"
+      },
+      {
+        "level": 85,
+        "move": "Vague de Froid"
+      },
+      {
+        "level": 90,
+        "move": "Mauvaise Humeur"
+      },
+      {
+        "level": 95,
+        "move": "Queue Destructrice"
+      },
+      {
+        "level": 100,
+        "move": "Glaciation"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Mue Glaspic"
+  },
+  {
+    "name": "Glanaconda",
+    "types": [
+      "Eau",
+      "Glace"
+    ],
+    "abilities": [
+      "Impassible",
+      "Cuvette"
+    ],
+    "hidden_ability": "Regardvif",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Fléau des grottes gelés, il créer de longs tunnels pour pièger ses victimes.",
+    "level_up": [
+      {
+        "level": 0,
+        "move": "Mâchouille"
+      },
+      {
+        "level": 1,
+        "move": "Étreinte"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Repli"
+      },
+      {
+        "level": 7,
+        "move": "Dard-Venin"
+      },
+      {
+        "level": 10,
+        "move": "Verglas"
+      },
+      {
+        "level": 13,
+        "move": "Aquaqueue"
+      },
+      {
+        "level": 17,
+        "move": "Congélation"
+      },
+      {
+        "level": 21,
+        "move": "Crocs Givre"
+      },
+      {
+        "level": 25,
+        "move": "Refroidissement"
+      },
+      {
+        "level": 29,
+        "move": "Eau Revoir"
+      },
+      {
+        "level": 33,
+        "move": "Éclate Queue"
+      },
+      {
+        "level": 37,
+        "move": "Lance de Glace"
+      },
+      {
+        "level": 41,
+        "move": "Lyophilisation"
+      },
+      {
+        "level": 46,
+        "move": "Hydro-Queue"
+      },
+      {
+        "level": 50,
+        "move": "Enroulement"
+      },
+      {
+        "level": 54,
+        "move": "Crocs Froids"
+      },
+      {
+        "level": 58,
+        "move": "Tranch'Aqua"
+      },
+      {
+        "level": 62,
+        "move": "Stalactite"
+      },
+      {
+        "level": 66,
+        "move": "Queue de Fer"
+      },
+      {
+        "level": 70,
+        "move": "Fléxi-Queue"
+      },
+      {
+        "level": 75,
+        "move": "Laser Glace"
+      },
+      {
+        "level": 80,
+        "move": "Regard Médusant"
+      },
+      {
+        "level": 85,
+        "move": "Vague de Froid"
+      },
+      {
+        "level": 90,
+        "move": "Mauvaise Humeur"
+      },
+      {
+        "level": 95,
+        "move": "Queue Destructrice"
+      },
+      {
+        "level": 100,
+        "move": "Glaciation"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Terralarve",
+    "types": [
+      "Insecte",
+      "Terre"
+    ],
+    "abilities": [
+      "Coquearmure"
+    ],
+    "hidden_ability": "Brisemoule",
+    "evolution": "Évolue en Terracocon au niveau 20",
+    "evolutions_detailed": [
+      {
+        "target_token": "TERRACOCON",
+        "target_name": "Terracocon",
+        "method": "Level",
+        "level": 20,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il creuse de nombreuses galeries pour y somnoler. Il sort de terre pour s'alimenter de racines.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Grignote"
+      },
+      {
+        "level": 1,
+        "move": "Jet de Sable"
+      },
+      {
+        "level": 5,
+        "move": "Jet de Terre"
+      },
+      {
+        "level": 7,
+        "move": "Armure"
+      },
+      {
+        "level": 10,
+        "move": "Piqûre"
+      },
+      {
+        "level": 13,
+        "move": "Ténacité"
+      },
+      {
+        "level": 17,
+        "move": "Jet-Pierres"
+      },
+      {
+        "level": 21,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 25,
+        "move": "Ampleur"
+      },
+      {
+        "level": 29,
+        "move": "Demi-Tour"
+      },
+      {
+        "level": 33,
+        "move": "Exuviation"
+      },
+      {
+        "level": 37,
+        "move": "Tourbi-Sable"
+      },
+      {
+        "level": 41,
+        "move": "Ravage Rampant"
+      },
+      {
+        "level": 46,
+        "move": "Fracture"
+      },
+      {
+        "level": 50,
+        "move": "Ravage"
+      },
+      {
+        "level": 54,
+        "move": "Ulcération"
+      },
+      {
+        "level": 58,
+        "move": "Grand Rempart"
+      },
+      {
+        "level": 62,
+        "move": "Éboulement"
+      },
+      {
+        "level": 66,
+        "move": "Fureur"
+      },
+      {
+        "level": 70,
+        "move": "Escarmouche"
+      },
+      {
+        "level": 75,
+        "move": "Tumulte"
+      },
+      {
+        "level": 80,
+        "move": "Correction"
+      },
+      {
+        "level": 85,
+        "move": "Impact"
+      },
+      {
+        "level": 90,
+        "move": "Furie-Bond"
+      },
+      {
+        "level": 95,
+        "move": "Giga Impact"
+      },
+      {
+        "level": 100,
+        "move": "Séisme"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Mue Terralarve"
+  },
+  {
+    "name": "Terracocon",
+    "types": [
+      "Insecte",
+      "Terre"
+    ],
+    "abilities": [
+      "Mue"
+    ],
+    "hidden_ability": "Mue",
+    "evolution": "Évolue en Terrassier au niveau 42",
+    "evolutions_detailed": [
+      {
+        "target_token": "TERRASSIER",
+        "target_name": "Terrassier",
+        "method": "Level",
+        "level": 42,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Sa carapace est très résistante aux chocs. Malgré les coups, il ne semble pas craindre la douleur.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Grignote"
+      },
+      {
+        "level": 1,
+        "move": "Jet de Sable"
+      },
+      {
+        "level": 5,
+        "move": "Jet de Terre"
+      },
+      {
+        "level": 7,
+        "move": "Armure"
+      },
+      {
+        "level": 10,
+        "move": "Piqûre"
+      },
+      {
+        "level": 13,
+        "move": "Ténacité"
+      },
+      {
+        "level": 17,
+        "move": "Jet-Pierres"
+      },
+      {
+        "level": 21,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 25,
+        "move": "Ampleur"
+      },
+      {
+        "level": 29,
+        "move": "Demi-Tour"
+      },
+      {
+        "level": 33,
+        "move": "Exuviation"
+      },
+      {
+        "level": 37,
+        "move": "Tourbi-Sable"
+      },
+      {
+        "level": 41,
+        "move": "Ravage Rampant"
+      },
+      {
+        "level": 46,
+        "move": "Fracture"
+      },
+      {
+        "level": 50,
+        "move": "Ravage"
+      },
+      {
+        "level": 54,
+        "move": "Ulcération"
+      },
+      {
+        "level": 58,
+        "move": "Grand Rempart"
+      },
+      {
+        "level": 62,
+        "move": "Éboulement"
+      },
+      {
+        "level": 66,
+        "move": "Fureur"
+      },
+      {
+        "level": 70,
+        "move": "Escarmouche"
+      },
+      {
+        "level": 75,
+        "move": "Tumulte"
+      },
+      {
+        "level": 80,
+        "move": "Correction"
+      },
+      {
+        "level": 85,
+        "move": "Impact"
+      },
+      {
+        "level": 90,
+        "move": "Furie-Bond"
+      },
+      {
+        "level": 95,
+        "move": "Giga Impact"
+      },
+      {
+        "level": 100,
+        "move": "Séisme"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Terrassier",
+    "types": [
+      "Insecte",
+      "Terre"
+    ],
+    "abilities": [
+      "Coquearmure"
+    ],
+    "hidden_ability": "Brisemoule",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Le cauchemar des randoneurs et des montagnards. Il sort de ses galeries lorsqu'il sent des vibrations au dessus de lui.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Grignote"
+      },
+      {
+        "level": 1,
+        "move": "Jet de Sable"
+      },
+      {
+        "level": 5,
+        "move": "Jet de Terre"
+      },
+      {
+        "level": 7,
+        "move": "Armure"
+      },
+      {
+        "level": 10,
+        "move": "Piqûre"
+      },
+      {
+        "level": 13,
+        "move": "Ténacité"
+      },
+      {
+        "level": 17,
+        "move": "Jet-Pierres"
+      },
+      {
+        "level": 21,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 25,
+        "move": "Ampleur"
+      },
+      {
+        "level": 29,
+        "move": "Demi-Tour"
+      },
+      {
+        "level": 33,
+        "move": "Exuviation"
+      },
+      {
+        "level": 37,
+        "move": "Tourbi-Sable"
+      },
+      {
+        "level": 41,
+        "move": "Ravage Rampant"
+      },
+      {
+        "level": 46,
+        "move": "Fracture"
+      },
+      {
+        "level": 50,
+        "move": "Ravage"
+      },
+      {
+        "level": 54,
+        "move": "Ulcération"
+      },
+      {
+        "level": 58,
+        "move": "Grand Rempart"
+      },
+      {
+        "level": 62,
+        "move": "Éboulement"
+      },
+      {
+        "level": 66,
+        "move": "Fureur"
+      },
+      {
+        "level": 70,
+        "move": "Escarmouche"
+      },
+      {
+        "level": 75,
+        "move": "Tumulte"
+      },
+      {
+        "level": 80,
+        "move": "Correction"
+      },
+      {
+        "level": 85,
+        "move": "Impact"
+      },
+      {
+        "level": 90,
+        "move": "Furie-Bond"
+      },
+      {
+        "level": 95,
+        "move": "Giga Impact"
+      },
+      {
+        "level": 100,
+        "move": "Séisme"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Frimarmotte",
+    "types": [
+      "Neige",
+      "Boue"
+    ],
+    "abilities": [
+      "Toisonepaisse",
+      "Fuite"
+    ],
+    "hidden_ability": "Isograisse",
+    "evolution": "Évolue en Marmalpin au niveau 36",
+    "evolutions_detailed": [
+      {
+        "target_token": "MARMALPIN",
+        "target_name": "Marmalpin",
+        "method": "Level",
+        "level": 36,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il se met en boule pour conserver sa chaleur. On peut parfois la confondre avec un tas de neige jusqu’à ce qu’il éternue violemment.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Rugissement"
+      },
+      {
+        "level": 5,
+        "move": "Tir de Neige"
+      },
+      {
+        "level": 7,
+        "move": "Coud'Boue"
+      },
+      {
+        "level": 10,
+        "move": "Lance-Boue"
+      },
+      {
+        "level": 13,
+        "move": "Éclats Glace"
+      },
+      {
+        "level": 17,
+        "move": "Crocs Froids"
+      },
+      {
+        "level": 21,
+        "move": "Abri"
+      },
+      {
+        "level": 25,
+        "move": "Repos"
+      },
+      {
+        "level": 25,
+        "move": "Blabla Dodo"
+      },
+      {
+        "level": 29,
+        "move": "Secousse"
+      },
+      {
+        "level": 33,
+        "move": "Amnésie"
+      },
+      {
+        "level": 37,
+        "move": "Ensevelissement"
+      },
+      {
+        "level": 41,
+        "move": "Je de Rondin"
+      },
+      {
+        "level": 46,
+        "move": "Bombe-Boue"
+      },
+      {
+        "level": 50,
+        "move": "Vague de Froid"
+      },
+      {
+        "level": 54,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 58,
+        "move": "Crâneur"
+      },
+      {
+        "level": 62,
+        "move": "Telluriforce"
+      },
+      {
+        "level": 66,
+        "move": "Chute de Neige"
+      },
+      {
+        "level": 70,
+        "move": "Plaquage"
+      },
+      {
+        "level": 75,
+        "move": "Canon Boue"
+      },
+      {
+        "level": 80,
+        "move": "Martobois"
+      },
+      {
+        "level": 85,
+        "move": "Fracture"
+      },
+      {
+        "level": 90,
+        "move": "Blizzard"
+      },
+      {
+        "level": 95,
+        "move": "Damoclès"
+      },
+      {
+        "level": 100,
+        "move": "Crado-Douche"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [
+      "Coupe",
+      "Tunnel",
+      "Éclate-Roc"
+    ],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Poils Frimarmotte"
+  },
+  {
+    "name": "Marmalpin",
+    "types": [
+      "Neige",
+      "Boue"
+    ],
+    "abilities": [
+      "Toisonepaisse",
+      "Rideauneige"
+    ],
+    "hidden_ability": "Isograisse",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "On raconte qu’il sauve les randonneurs perdus en déclenchant volontairement des mini-avalanches pour signaler leur position.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Rugissement"
+      },
+      {
+        "level": 5,
+        "move": "Tir de Neige"
+      },
+      {
+        "level": 7,
+        "move": "Coud'Boue"
+      },
+      {
+        "level": 10,
+        "move": "Lance-Boue"
+      },
+      {
+        "level": 13,
+        "move": "Éclats Glace"
+      },
+      {
+        "level": 17,
+        "move": "Crocs Froids"
+      },
+      {
+        "level": 21,
+        "move": "Abri"
+      },
+      {
+        "level": 25,
+        "move": "Repos"
+      },
+      {
+        "level": 25,
+        "move": "Blabla Dodo"
+      },
+      {
+        "level": 29,
+        "move": "Secousse"
+      },
+      {
+        "level": 33,
+        "move": "Amnésie"
+      },
+      {
+        "level": 37,
+        "move": "Ensevelissement"
+      },
+      {
+        "level": 41,
+        "move": "Je de Rondin"
+      },
+      {
+        "level": 46,
+        "move": "Bombe-Boue"
+      },
+      {
+        "level": 50,
+        "move": "Vague de Froid"
+      },
+      {
+        "level": 54,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 58,
+        "move": "Crâneur"
+      },
+      {
+        "level": 62,
+        "move": "Telluriforce"
+      },
+      {
+        "level": 66,
+        "move": "Chute de Neige"
+      },
+      {
+        "level": 70,
+        "move": "Plaquage"
+      },
+      {
+        "level": 75,
+        "move": "Canon Boue"
+      },
+      {
+        "level": 80,
+        "move": "Martobois"
+      },
+      {
+        "level": 85,
+        "move": "Fracture"
+      },
+      {
+        "level": 90,
+        "move": "Blizzard"
+      },
+      {
+        "level": 95,
+        "move": "Damoclès"
+      },
+      {
+        "level": 100,
+        "move": "Crado-Douche"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [
+      "Coupe",
+      "Surf",
+      "Force",
+      "Tunnel",
+      "Éclate-Roc",
+      "Force Cachée",
+      "Escalade",
+      "Anti-Brume",
+      "Casse Brique",
+      "Brise-Glace",
+      "Enfoncement"
+    ],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Urnanima",
+    "types": [
+      "Roche",
+      "Spectre"
+    ],
+    "abilities": [
+      "Fermete"
+    ],
+    "hidden_ability": "Impassible",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il abrite l’âme d’un défunt qui refuse de quitter ce monde. Lorsqu’il se sent en danger, il projette des ombres effrayantes pour faire fuir ses adversaires.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Lèche Frousse"
+      },
+      {
+        "level": 1,
+        "move": "Hache de Pierre"
+      },
+      {
+        "level": 5,
+        "move": "Entrave"
+      },
+      {
+        "level": 7,
+        "move": "Ombre Portée"
+      },
+      {
+        "level": 10,
+        "move": "Anti-Air"
+      },
+      {
+        "level": 13,
+        "move": "Frayeur"
+      },
+      {
+        "level": 17,
+        "move": "Provoc"
+      },
+      {
+        "level": 21,
+        "move": "Piège de Roc"
+      },
+      {
+        "level": 25,
+        "move": "Coup Double"
+      },
+      {
+        "level": 29,
+        "move": "Ombre Nocturne"
+      },
+      {
+        "level": 33,
+        "move": "Éboulement"
+      },
+      {
+        "level": 37,
+        "move": "Exuviation"
+      },
+      {
+        "level": 41,
+        "move": "Ball'Ombre"
+      },
+      {
+        "level": 46,
+        "move": "Cri Maudit"
+      },
+      {
+        "level": 50,
+        "move": "Poing Écrasant"
+      },
+      {
+        "level": 54,
+        "move": "Maraudage"
+      },
+      {
+        "level": 58,
+        "move": "Garde Large"
+      },
+      {
+        "level": 62,
+        "move": "Extrasenseur"
+      },
+      {
+        "level": 66,
+        "move": "Trépas"
+      },
+      {
+        "level": 70,
+        "move": "Vibrobscur"
+      },
+      {
+        "level": 75,
+        "move": "Lame de Roc"
+      },
+      {
+        "level": 80,
+        "move": "Lien du Destin"
+      },
+      {
+        "level": 85,
+        "move": "Voix Lugubre"
+      },
+      {
+        "level": 90,
+        "move": "Poing Antique"
+      },
+      {
+        "level": 95,
+        "move": "Brise Âme"
+      },
+      {
+        "level": 100,
+        "move": "Esprit Frappeur"
+      }
+    ],
+    "egg_moves": [
+      "Tir Effrayant",
+      "Représailles",
+      "Sablier",
+      "Funérailles",
+      "Lance-Pierre",
+      "Ball'Lune",
+      "Ténacité",
+      "Carnage",
+      "Main Éthérée",
+      "Sphère Psy"
+    ],
+    "cs": [
+      "Éclate-Roc",
+      "Casse Brique"
+    ],
+    "ct": [
+      "Tomberoche",
+      "Lance-Flammes",
+      "Ball'Ombre",
+      "Roulade",
+      "Gonflette",
+      "Tourbi-Sable",
+      "Façade",
+      "Piège de Roc",
+      "Éclat Magique",
+      "Bombe Sablée",
+      "Maraudage",
+      "Tranche-Nuit",
+      "Trépignement",
+      "Dernier Espoir"
+    ],
+    "dt": [
+      "Retenue",
+      "Frénésie",
+      "Patience",
+      "Riposte",
+      "Abri",
+      "Punition",
+      "Griffes Funestes",
+      "Vague Psy",
+      "Pouvoir Antique",
+      "Ampleur",
+      "Météores",
+      "Éboulement",
+      "Tête de Fer",
+      "Saisie",
+      "Léchouille",
+      "Mur Lumière",
+      "Entrave",
+      "Puissance Cachée",
+      "Retour",
+      "Frustration",
+      "Larcin",
+      "Rune Protect"
+    ],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Fragment Urnanima"
+  },
+  {
+    "name": "Phione",
+    "types": [
+      "Marin"
+    ],
+    "abilities": [
+      "Hydratation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Ce Pokémon des mers chaudes revient toujours à son lieu de naissance, peu importe la distance.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Écume"
+      },
+      {
+        "level": 1,
+        "move": "Charme"
+      },
+      {
+        "level": 5,
+        "move": "Branchicrok"
+      },
+      {
+        "level": 7,
+        "move": "Bulles d'O"
+      },
+      {
+        "level": 10,
+        "move": "Idée Claire"
+      },
+      {
+        "level": 13,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 17,
+        "move": "Acidarmure"
+      },
+      {
+        "level": 21,
+        "move": "Bas-Fond"
+      },
+      {
+        "level": 25,
+        "move": "Hydratation"
+      },
+      {
+        "level": 29,
+        "move": "Absorption"
+      },
+      {
+        "level": 33,
+        "move": "Psykoud'Boul"
+      },
+      {
+        "level": 37,
+        "move": "Météores"
+      },
+      {
+        "level": 41,
+        "move": "Déferlante"
+      },
+      {
+        "level": 46,
+        "move": "Oracle"
+      },
+      {
+        "level": 50,
+        "move": "Extravaillance"
+      },
+      {
+        "level": 54,
+        "move": "Canocéan"
+      },
+      {
+        "level": 58,
+        "move": "Épuration"
+      },
+      {
+        "level": 62,
+        "move": "Trombe"
+      },
+      {
+        "level": 66,
+        "move": "Eau Revoir"
+      },
+      {
+        "level": 70,
+        "move": "Éclat Fabuleux"
+      },
+      {
+        "level": 75,
+        "move": "Triple Salve"
+      },
+      {
+        "level": 80,
+        "move": "Ébullition"
+      },
+      {
+        "level": 85,
+        "move": "Hydro-Éclat"
+      },
+      {
+        "level": 90,
+        "move": "Fontaine de Vie"
+      },
+      {
+        "level": 95,
+        "move": "Pacification"
+      },
+      {
+        "level": 100,
+        "move": "Utopie"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Manaphy",
+    "types": [
+      "Marin"
+    ],
+    "abilities": [
+      "Hydratation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il est né avec le pouvoir incroyable de créer des liens avec n'importe quel Pokémon.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Écume"
+      },
+      {
+        "level": 1,
+        "move": "Charme"
+      },
+      {
+        "level": 5,
+        "move": "Branchicrok"
+      },
+      {
+        "level": 7,
+        "move": "Bulles d'O"
+      },
+      {
+        "level": 10,
+        "move": "Idée Claire"
+      },
+      {
+        "level": 13,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 17,
+        "move": "Acidarmure"
+      },
+      {
+        "level": 21,
+        "move": "Bas-Fond"
+      },
+      {
+        "level": 25,
+        "move": "Hydratation"
+      },
+      {
+        "level": 29,
+        "move": "Absorption"
+      },
+      {
+        "level": 33,
+        "move": "Psykoud'Boul"
+      },
+      {
+        "level": 37,
+        "move": "Météores"
+      },
+      {
+        "level": 41,
+        "move": "Déferlante"
+      },
+      {
+        "level": 46,
+        "move": "Oracle"
+      },
+      {
+        "level": 50,
+        "move": "Extravaillance"
+      },
+      {
+        "level": 54,
+        "move": "Canocéan"
+      },
+      {
+        "level": 58,
+        "move": "Épuration"
+      },
+      {
+        "level": 62,
+        "move": "Trombe"
+      },
+      {
+        "level": 66,
+        "move": "Eau Revoir"
+      },
+      {
+        "level": 70,
+        "move": "Éclat Fabuleux"
+      },
+      {
+        "level": 75,
+        "move": "Triple Salve"
+      },
+      {
+        "level": 80,
+        "move": "Ébullition"
+      },
+      {
+        "level": 85,
+        "move": "Hydro-Éclat"
+      },
+      {
+        "level": 90,
+        "move": "Fontaine de Vie"
+      },
+      {
+        "level": 95,
+        "move": "Pacification"
+      },
+      {
+        "level": 100,
+        "move": "Utopie"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  }
+]

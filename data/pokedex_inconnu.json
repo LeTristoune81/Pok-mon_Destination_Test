@@ -1,0 +1,552 @@
+[
+  {
+    "name": "Pikoque",
+    "types": [
+      "Normal",
+      "Bois"
+    ],
+    "abilities": [
+      "Peaudure",
+      "Fermete"
+    ],
+    "hidden_ability": "Coloforce",
+    "evolution": "Évolue en Strangupik au niveau 23",
+    "evolutions_detailed": [
+      {
+        "target_token": "STRANGUPIK",
+        "target_name": "Strangupik",
+        "method": "Level",
+        "level": 23,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il se sert de sa coquille dans laquelle il est né pour se protéger des prédateurs.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Picots"
+      },
+      {
+        "level": 5,
+        "move": "Picpic"
+      },
+      {
+        "level": 7,
+        "move": "Écorce"
+      },
+      {
+        "level": 10,
+        "move": "Vive-Attaque"
+      },
+      {
+        "level": 13,
+        "move": "Pico-Défense"
+      },
+      {
+        "level": 17,
+        "move": "Pilonnage"
+      },
+      {
+        "level": 21,
+        "move": "Cru-Ailes"
+      },
+      {
+        "level": 25,
+        "move": "Fouet Retour"
+      },
+      {
+        "level": 29,
+        "move": "Dard-Nuée"
+      },
+      {
+        "level": 33,
+        "move": "Coupe-Vent"
+      },
+      {
+        "level": 37,
+        "move": "Bec Aiguisé"
+      },
+      {
+        "level": 41,
+        "move": "Canon Graine"
+      },
+      {
+        "level": 46,
+        "move": "Typhon Hivernal"
+      },
+      {
+        "level": 50,
+        "move": "Xxx"
+      },
+      {
+        "level": 54,
+        "move": "Xxx"
+      },
+      {
+        "level": 58,
+        "move": "Xxx"
+      },
+      {
+        "level": 62,
+        "move": "Xxx"
+      },
+      {
+        "level": 66,
+        "move": "Xxx"
+      },
+      {
+        "level": 70,
+        "move": "Xxx"
+      },
+      {
+        "level": 75,
+        "move": "Xxx"
+      },
+      {
+        "level": 80,
+        "move": "Xxx"
+      },
+      {
+        "level": 85,
+        "move": "Xxx"
+      },
+      {
+        "level": 90,
+        "move": "Xxx"
+      },
+      {
+        "level": 95,
+        "move": "Xxx"
+      },
+      {
+        "level": 100,
+        "move": "Xxx"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Strangupik",
+    "types": [
+      "Vol",
+      "Bois"
+    ],
+    "abilities": [
+      "Cran",
+      "Regardvif"
+    ],
+    "hidden_ability": "Coloforce",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "???",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Picots"
+      },
+      {
+        "level": 5,
+        "move": "Picpic"
+      },
+      {
+        "level": 7,
+        "move": "Écorce"
+      },
+      {
+        "level": 10,
+        "move": "Vive-Attaque"
+      },
+      {
+        "level": 13,
+        "move": "Pico-Défense"
+      },
+      {
+        "level": 17,
+        "move": "Pilonnage"
+      },
+      {
+        "level": 21,
+        "move": "Cru-Ailes"
+      },
+      {
+        "level": 25,
+        "move": "Fouet Retour"
+      },
+      {
+        "level": 29,
+        "move": "Dard-Nuée"
+      },
+      {
+        "level": 33,
+        "move": "Coupe-Vent"
+      },
+      {
+        "level": 37,
+        "move": "Bec Aiguisé"
+      },
+      {
+        "level": 41,
+        "move": "Canon Graine"
+      },
+      {
+        "level": 46,
+        "move": "Typhon Hivernal"
+      },
+      {
+        "level": 50,
+        "move": "Xxx"
+      },
+      {
+        "level": 54,
+        "move": "Xxx"
+      },
+      {
+        "level": 58,
+        "move": "Xxx"
+      },
+      {
+        "level": 62,
+        "move": "Xxx"
+      },
+      {
+        "level": 66,
+        "move": "Xxx"
+      },
+      {
+        "level": 70,
+        "move": "Xxx"
+      },
+      {
+        "level": 75,
+        "move": "Xxx"
+      },
+      {
+        "level": 80,
+        "move": "Xxx"
+      },
+      {
+        "level": 85,
+        "move": "Xxx"
+      },
+      {
+        "level": 90,
+        "move": "Xxx"
+      },
+      {
+        "level": 95,
+        "move": "Xxx"
+      },
+      {
+        "level": 100,
+        "move": "Xxx"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Yétiti",
+    "types": [
+      "Feu",
+      "Neige"
+    ],
+    "abilities": [
+      "Rideauneige"
+    ],
+    "hidden_ability": "Ignifuge",
+    "evolution": "Évolue en Yétipal au niveau 45",
+    "evolutions_detailed": [
+      {
+        "target_token": "YETIPAL",
+        "target_name": "Yétipal",
+        "method": "Level",
+        "level": 45,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il adore faire des bétises. Son activité favorite est de cacher les objets de son dresseur.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Écras'Face"
+      },
+      {
+        "level": 1,
+        "move": "Refroidissement"
+      },
+      {
+        "level": 5,
+        "move": "Ruse"
+      },
+      {
+        "level": 7,
+        "move": "Roussi"
+      },
+      {
+        "level": 10,
+        "move": "Boule de Neige"
+      },
+      {
+        "level": 13,
+        "move": "Confiscation"
+      },
+      {
+        "level": 17,
+        "move": "Grimace"
+      },
+      {
+        "level": 21,
+        "move": "Poing Frigo"
+      },
+      {
+        "level": 25,
+        "move": "Coup d'Boule"
+      },
+      {
+        "level": 29,
+        "move": "Poing Glace"
+      },
+      {
+        "level": 33,
+        "move": "Poing Feu"
+      },
+      {
+        "level": 37,
+        "move": "Détection"
+      },
+      {
+        "level": 41,
+        "move": "Escalade"
+      },
+      {
+        "level": 46,
+        "move": "Exploneige"
+      },
+      {
+        "level": 50,
+        "move": "Domination"
+      },
+      {
+        "level": 54,
+        "move": "Tête Brûlée"
+      },
+      {
+        "level": 58,
+        "move": "Déblayage"
+      },
+      {
+        "level": 62,
+        "move": "Mania"
+      },
+      {
+        "level": 66,
+        "move": "Blizzard"
+      },
+      {
+        "level": 70,
+        "move": "Boutefeu"
+      },
+      {
+        "level": 75,
+        "move": "Chute de Neige"
+      },
+      {
+        "level": 80,
+        "move": "Avalanche"
+      },
+      {
+        "level": 85,
+        "move": "Indignition"
+      },
+      {
+        "level": 90,
+        "move": "Mitra-Poing"
+      },
+      {
+        "level": 95,
+        "move": "Giga Impact"
+      },
+      {
+        "level": 100,
+        "move": "Rude Hiver"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Yétipal",
+    "types": [
+      "Feu",
+      "Neige"
+    ],
+    "abilities": [
+      "Rideauneige"
+    ],
+    "hidden_ability": "Ignifuge",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il habite dans les cavernes des hautes montagnes où il sort uniquement pour se nourrir lorsqu'il neige.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Écras'Face"
+      },
+      {
+        "level": 1,
+        "move": "Refroidissement"
+      },
+      {
+        "level": 5,
+        "move": "Ruse"
+      },
+      {
+        "level": 7,
+        "move": "Roussi"
+      },
+      {
+        "level": 10,
+        "move": "Boule de Neige"
+      },
+      {
+        "level": 13,
+        "move": "Confiscation"
+      },
+      {
+        "level": 17,
+        "move": "Grimace"
+      },
+      {
+        "level": 21,
+        "move": "Poing Frigo"
+      },
+      {
+        "level": 25,
+        "move": "Coup d'Boule"
+      },
+      {
+        "level": 29,
+        "move": "Poing Glace"
+      },
+      {
+        "level": 33,
+        "move": "Poing Feu"
+      },
+      {
+        "level": 37,
+        "move": "Détection"
+      },
+      {
+        "level": 41,
+        "move": "Escalade"
+      },
+      {
+        "level": 46,
+        "move": "Exploneige"
+      },
+      {
+        "level": 50,
+        "move": "Domination"
+      },
+      {
+        "level": 54,
+        "move": "Tête Brûlée"
+      },
+      {
+        "level": 58,
+        "move": "Déblayage"
+      },
+      {
+        "level": 62,
+        "move": "Mania"
+      },
+      {
+        "level": 66,
+        "move": "Blizzard"
+      },
+      {
+        "level": 70,
+        "move": "Boutefeu"
+      },
+      {
+        "level": 75,
+        "move": "Chute de Neige"
+      },
+      {
+        "level": 80,
+        "move": "Avalanche"
+      },
+      {
+        "level": 85,
+        "move": "Indignition"
+      },
+      {
+        "level": 90,
+        "move": "Mitra-Poing"
+      },
+      {
+        "level": 95,
+        "move": "Giga Impact"
+      },
+      {
+        "level": 100,
+        "move": "Rude Hiver"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  }
+]

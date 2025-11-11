@@ -1,0 +1,1109 @@
+[
+  {
+    "name": "Broutherbe",
+    "types": [
+      "Plante"
+    ],
+    "abilities": [
+      "Chlorophylle",
+      "Feuillegarde"
+    ],
+    "hidden_ability": "Aromavoile",
+    "evolution": "Évolue en Caprinelle au niveau 28",
+    "evolutions_detailed": [
+      {
+        "target_token": "CAPRINELLE",
+        "target_name": "Caprinelle",
+        "method": "Level",
+        "level": 28,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "S'il ressent du danger, ses bourgeons diffusent un pollen irritant pour repousser les prédateurs. Plus il évolue, plus ce pollen devient puissant.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Mimi-Queue"
+      },
+      {
+        "level": 5,
+        "move": "Vampigraine"
+      },
+      {
+        "level": 7,
+        "move": "Copinage"
+      },
+      {
+        "level": 10,
+        "move": "Retenue"
+      },
+      {
+        "level": 13,
+        "move": "Double Pied"
+      },
+      {
+        "level": 17,
+        "move": "Embuscade"
+      },
+      {
+        "level": 21,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 25,
+        "move": "Écrasement"
+      },
+      {
+        "level": 29,
+        "move": "Phytomixeur"
+      },
+      {
+        "level": 33,
+        "move": "Garde Florale"
+      },
+      {
+        "level": 37,
+        "move": "Bélier"
+      },
+      {
+        "level": 41,
+        "move": "Synthèse"
+      },
+      {
+        "level": 46,
+        "move": "Affection"
+      },
+      {
+        "level": 50,
+        "move": "Casse Brique"
+      },
+      {
+        "level": 54,
+        "move": "Corps Buisson"
+      },
+      {
+        "level": 58,
+        "move": "Coud'Krâne"
+      },
+      {
+        "level": 62,
+        "move": "Fertilisation"
+      },
+      {
+        "level": 66,
+        "move": "Radiance"
+      },
+      {
+        "level": 70,
+        "move": "Jouvance"
+      },
+      {
+        "level": 75,
+        "move": "Vole-Force"
+      },
+      {
+        "level": 80,
+        "move": "Câlinerie"
+      },
+      {
+        "level": 85,
+        "move": "Damoclès"
+      },
+      {
+        "level": 90,
+        "move": "Floraison"
+      },
+      {
+        "level": 95,
+        "move": "Réveil Forcé"
+      },
+      {
+        "level": 100,
+        "move": "Cavalerie Lourde"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Corne Broutherbe"
+  },
+  {
+    "name": "Caprinelle",
+    "types": [
+      "Plante"
+    ],
+    "abilities": [
+      "Medicnature",
+      "Feuillegarde"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Caprinelle veille sur les forêts et les clairières en répandant des spores revitalisantes. Là où il marche, les plantes repoussent plus vite.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Mimi-Queue"
+      },
+      {
+        "level": 5,
+        "move": "Vampigraine"
+      },
+      {
+        "level": 7,
+        "move": "Copinage"
+      },
+      {
+        "level": 10,
+        "move": "Retenue"
+      },
+      {
+        "level": 13,
+        "move": "Double Pied"
+      },
+      {
+        "level": 17,
+        "move": "Embuscade"
+      },
+      {
+        "level": 21,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 25,
+        "move": "Écrasement"
+      },
+      {
+        "level": 29,
+        "move": "Phytomixeur"
+      },
+      {
+        "level": 33,
+        "move": "Garde Florale"
+      },
+      {
+        "level": 37,
+        "move": "Bélier"
+      },
+      {
+        "level": 41,
+        "move": "Synthèse"
+      },
+      {
+        "level": 46,
+        "move": "Affection"
+      },
+      {
+        "level": 50,
+        "move": "Casse Brique"
+      },
+      {
+        "level": 54,
+        "move": "Corps Buisson"
+      },
+      {
+        "level": 58,
+        "move": "Coud'Krâne"
+      },
+      {
+        "level": 62,
+        "move": "Fertilisation"
+      },
+      {
+        "level": 66,
+        "move": "Radiance"
+      },
+      {
+        "level": 70,
+        "move": "Jouvance"
+      },
+      {
+        "level": 75,
+        "move": "Vole-Force"
+      },
+      {
+        "level": 80,
+        "move": "Câlinerie"
+      },
+      {
+        "level": 85,
+        "move": "Damoclès"
+      },
+      {
+        "level": 90,
+        "move": "Floraison"
+      },
+      {
+        "level": 95,
+        "move": "Réveil Forcé"
+      },
+      {
+        "level": 100,
+        "move": "Cavalerie Lourde"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Chatouron",
+    "types": [
+      "Foudre"
+    ],
+    "abilities": [
+      "Statik"
+    ],
+    "hidden_ability": "Filature",
+    "evolution": "Évolue en Groronron au niveau 28",
+    "evolutions_detailed": [
+      {
+        "target_token": "GRORONRON",
+        "target_name": "Groronron",
+        "method": "Level",
+        "level": 28,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il accumule de l'énergie statique en dormant. Lorsqu'il se réveille, il décharge involontairement de petites étincelles en s'étirant.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Griffe"
+      },
+      {
+        "level": 1,
+        "move": "Rugissement"
+      },
+      {
+        "level": 5,
+        "move": "Chamedi"
+      },
+      {
+        "level": 7,
+        "move": "Éclair"
+      },
+      {
+        "level": 10,
+        "move": "Frotte-Frimousse"
+      },
+      {
+        "level": 13,
+        "move": "Vif Éclair"
+      },
+      {
+        "level": 17,
+        "move": "Cage-Éclair"
+      },
+      {
+        "level": 21,
+        "move": "Roulé-Boulé"
+      },
+      {
+        "level": 25,
+        "move": "Boule Élek"
+      },
+      {
+        "level": 29,
+        "move": "Change Éclair"
+      },
+      {
+        "level": 33,
+        "move": "Plaquage"
+      },
+      {
+        "level": 37,
+        "move": "Dérouillée"
+      },
+      {
+        "level": 41,
+        "move": "Fulmi-Queue"
+      },
+      {
+        "level": 46,
+        "move": "Écho Dominant"
+      },
+      {
+        "level": 50,
+        "move": "Magné-Contrôle"
+      },
+      {
+        "level": 54,
+        "move": "Sombre Orage"
+      },
+      {
+        "level": 58,
+        "move": "Repos"
+      },
+      {
+        "level": 62,
+        "move": "Double Décharge"
+      },
+      {
+        "level": 66,
+        "move": "Typhon Fulgurant"
+      },
+      {
+        "level": 70,
+        "move": "Damoclès"
+      },
+      {
+        "level": 75,
+        "move": "Choc Vengeur"
+      },
+      {
+        "level": 80,
+        "move": "Coup Furieux"
+      },
+      {
+        "level": 85,
+        "move": "Électro Déluge"
+      },
+      {
+        "level": 90,
+        "move": "Fatal-Foudre"
+      },
+      {
+        "level": 95,
+        "move": "Vacarme"
+      },
+      {
+        "level": 100,
+        "move": "Dernier Recours"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Poils Chatouron"
+  },
+  {
+    "name": "Groronron",
+    "types": [
+      "Foudre"
+    ],
+    "abilities": [
+      "Statik"
+    ],
+    "hidden_ability": "Filature",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Lorsqu'il ronronne, la foudre s’accumule dans son corps et sa queue se met à fumer. Il libère parfois des éclairs involontairement.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Griffe"
+      },
+      {
+        "level": 1,
+        "move": "Rugissement"
+      },
+      {
+        "level": 5,
+        "move": "Chamedi"
+      },
+      {
+        "level": 7,
+        "move": "Éclair"
+      },
+      {
+        "level": 10,
+        "move": "Frotte-Frimousse"
+      },
+      {
+        "level": 13,
+        "move": "Vif Éclair"
+      },
+      {
+        "level": 17,
+        "move": "Cage-Éclair"
+      },
+      {
+        "level": 21,
+        "move": "Roulé-Boulé"
+      },
+      {
+        "level": 25,
+        "move": "Boule Élek"
+      },
+      {
+        "level": 29,
+        "move": "Change Éclair"
+      },
+      {
+        "level": 33,
+        "move": "Plaquage"
+      },
+      {
+        "level": 37,
+        "move": "Dérouillée"
+      },
+      {
+        "level": 41,
+        "move": "Fulmi-Queue"
+      },
+      {
+        "level": 46,
+        "move": "Écho Dominant"
+      },
+      {
+        "level": 50,
+        "move": "Magné-Contrôle"
+      },
+      {
+        "level": 54,
+        "move": "Sombre Orage"
+      },
+      {
+        "level": 58,
+        "move": "Repos"
+      },
+      {
+        "level": 62,
+        "move": "Double Décharge"
+      },
+      {
+        "level": 66,
+        "move": "Typhon Fulgurant"
+      },
+      {
+        "level": 70,
+        "move": "Damoclès"
+      },
+      {
+        "level": 75,
+        "move": "Choc Vengeur"
+      },
+      {
+        "level": 80,
+        "move": "Coup Furieux"
+      },
+      {
+        "level": 85,
+        "move": "Électro Déluge"
+      },
+      {
+        "level": 90,
+        "move": "Fatal-Foudre"
+      },
+      {
+        "level": 95,
+        "move": "Vacarme"
+      },
+      {
+        "level": 100,
+        "move": "Dernier Recours"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Ranipède",
+    "types": [
+      "Eau"
+    ],
+    "abilities": [
+      "Hydratation",
+      "Glissade"
+    ],
+    "hidden_ability": "Mue",
+    "evolution": "Évolue en Kavabatrax au niveau 26",
+    "evolutions_detailed": [
+      {
+        "target_token": "KAVABATRAX",
+        "target_name": "Kavabatrax",
+        "method": "Level",
+        "level": 26,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il vit dans les grottes humides où il évolue lentement grâce aux minéraux de l’eau souterraine. Son corps est recouvert d’une fine couche de mucus protecteur.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Arrosage"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Tourniquet"
+      },
+      {
+        "level": 7,
+        "move": "Écras'Face"
+      },
+      {
+        "level": 10,
+        "move": "Aqua Jet"
+      },
+      {
+        "level": 13,
+        "move": "Roulade"
+      },
+      {
+        "level": 17,
+        "move": "Trait Précis"
+      },
+      {
+        "level": 21,
+        "move": "Bâillement"
+      },
+      {
+        "level": 25,
+        "move": "Drainage"
+      },
+      {
+        "level": 29,
+        "move": "Éboulement"
+      },
+      {
+        "level": 33,
+        "move": "Détection"
+      },
+      {
+        "level": 37,
+        "move": "Aquatacle"
+      },
+      {
+        "level": 41,
+        "move": "Coud'Krâne"
+      },
+      {
+        "level": 46,
+        "move": "Tête Granit"
+      },
+      {
+        "level": 50,
+        "move": "Geyser"
+      },
+      {
+        "level": 54,
+        "move": "Garde Large"
+      },
+      {
+        "level": 58,
+        "move": "Fracass'Tête"
+      },
+      {
+        "level": 62,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 66,
+        "move": "Damoclès"
+      },
+      {
+        "level": 70,
+        "move": "Dévastation"
+      },
+      {
+        "level": 75,
+        "move": "Chute Minérale"
+      },
+      {
+        "level": 80,
+        "move": "Tête de Fer"
+      },
+      {
+        "level": 85,
+        "move": "Triple Risque"
+      },
+      {
+        "level": 90,
+        "move": "Carnage"
+      },
+      {
+        "level": 95,
+        "move": "Martelage"
+      },
+      {
+        "level": 100,
+        "move": "Hydrocanon"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Mucus Ranipède"
+  },
+  {
+    "name": "Kavabatrax",
+    "types": [
+      "Eau",
+      "Roche"
+    ],
+    "abilities": [
+      "Ecaillespeciale",
+      "Glissade"
+    ],
+    "hidden_ability": "Coquearmure",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Une carapace de roche s’est formée sur son dos. Il peut en détacher des morceaux et les projeter avec force pour se défendre.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Arrosage"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Tourniquet"
+      },
+      {
+        "level": 7,
+        "move": "Écras'Face"
+      },
+      {
+        "level": 10,
+        "move": "Aqua Jet"
+      },
+      {
+        "level": 13,
+        "move": "Roulade"
+      },
+      {
+        "level": 17,
+        "move": "Trait Précis"
+      },
+      {
+        "level": 21,
+        "move": "Bâillement"
+      },
+      {
+        "level": 25,
+        "move": "Drainage"
+      },
+      {
+        "level": 29,
+        "move": "Éboulement"
+      },
+      {
+        "level": 33,
+        "move": "Détection"
+      },
+      {
+        "level": 37,
+        "move": "Aquatacle"
+      },
+      {
+        "level": 41,
+        "move": "Coud'Krâne"
+      },
+      {
+        "level": 46,
+        "move": "Tête Granit"
+      },
+      {
+        "level": 50,
+        "move": "Geyser"
+      },
+      {
+        "level": 54,
+        "move": "Garde Large"
+      },
+      {
+        "level": 58,
+        "move": "Fracass'Tête"
+      },
+      {
+        "level": 62,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 66,
+        "move": "Damoclès"
+      },
+      {
+        "level": 70,
+        "move": "Dévastation"
+      },
+      {
+        "level": 75,
+        "move": "Chute Minérale"
+      },
+      {
+        "level": 80,
+        "move": "Tête de Fer"
+      },
+      {
+        "level": 85,
+        "move": "Triple Risque"
+      },
+      {
+        "level": 90,
+        "move": "Carnage"
+      },
+      {
+        "level": 95,
+        "move": "Martelage"
+      },
+      {
+        "level": 100,
+        "move": "Hydrocanon"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Infestique",
+    "types": [
+      "Poison",
+      "Ténèbres"
+    ],
+    "abilities": [
+      "Toxitouche",
+      "Essaim"
+    ],
+    "hidden_ability": "Turbo",
+    "evolution": "Évolue en Moskidrain au niveau 22",
+    "evolutions_detailed": [
+      {
+        "target_token": "MOSKIDRAIN",
+        "target_name": "Moskidrain",
+        "method": "Level",
+        "level": 22,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il rôde dans les forêts sombres à la recherche de proies endormies. Sa petite taille et sa rapidité en font un adversaire difficile à repérer.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Dard-Venin"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Hostilité"
+      },
+      {
+        "level": 7,
+        "move": "Piqûre"
+      },
+      {
+        "level": 10,
+        "move": "Vive-Attaque"
+      },
+      {
+        "level": 13,
+        "move": "Drainage"
+      },
+      {
+        "level": 17,
+        "move": "Poursuite"
+      },
+      {
+        "level": 21,
+        "move": "Piqûre Toxik"
+      },
+      {
+        "level": 25,
+        "move": "Crève-Coeur"
+      },
+      {
+        "level": 29,
+        "move": "Arrogance"
+      },
+      {
+        "level": 33,
+        "move": "Direct Toxik"
+      },
+      {
+        "level": 37,
+        "move": "Aéropique"
+      },
+      {
+        "level": 41,
+        "move": "Coup Bas"
+      },
+      {
+        "level": 46,
+        "move": "Vampirisme"
+      },
+      {
+        "level": 50,
+        "move": "Souillure"
+      },
+      {
+        "level": 54,
+        "move": "Hâte"
+      },
+      {
+        "level": 58,
+        "move": "Méga Dard"
+      },
+      {
+        "level": 62,
+        "move": "Aiguisage"
+      },
+      {
+        "level": 66,
+        "move": "Bombe Beurk"
+      },
+      {
+        "level": 70,
+        "move": "Chaîne Malsaine"
+      },
+      {
+        "level": 75,
+        "move": "Haute Voltige"
+      },
+      {
+        "level": 80,
+        "move": "Harcèlement"
+      },
+      {
+        "level": 85,
+        "move": "Mauvaise Humeur"
+      },
+      {
+        "level": 90,
+        "move": "Pesticide"
+      },
+      {
+        "level": 95,
+        "move": "Chaîne Malsaine"
+      },
+      {
+        "level": 100,
+        "move": "Dard Mortel"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Dard Infestique"
+  },
+  {
+    "name": "Moskidrain",
+    "types": [
+      "Poison",
+      "Ténèbres"
+    ],
+    "abilities": [
+      "Toxitouche",
+      "Essaim"
+    ],
+    "hidden_ability": "Turbo",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il est un chasseur nocturne redouté. Son venin est si puissant qu'une simple piqûre peut plonger ses victimes dans un profond sommeil fiévreux.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Dard-Venin"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Hostilité"
+      },
+      {
+        "level": 7,
+        "move": "Piqûre"
+      },
+      {
+        "level": 10,
+        "move": "Vive-Attaque"
+      },
+      {
+        "level": 13,
+        "move": "Drainage"
+      },
+      {
+        "level": 17,
+        "move": "Poursuite"
+      },
+      {
+        "level": 21,
+        "move": "Piqûre Toxik"
+      },
+      {
+        "level": 25,
+        "move": "Crève-Coeur"
+      },
+      {
+        "level": 29,
+        "move": "Arrogance"
+      },
+      {
+        "level": 33,
+        "move": "Direct Toxik"
+      },
+      {
+        "level": 37,
+        "move": "Aéropique"
+      },
+      {
+        "level": 41,
+        "move": "Coup Bas"
+      },
+      {
+        "level": 46,
+        "move": "Vampirisme"
+      },
+      {
+        "level": 50,
+        "move": "Souillure"
+      },
+      {
+        "level": 54,
+        "move": "Hâte"
+      },
+      {
+        "level": 58,
+        "move": "Méga Dard"
+      },
+      {
+        "level": 62,
+        "move": "Aiguisage"
+      },
+      {
+        "level": 66,
+        "move": "Bombe Beurk"
+      },
+      {
+        "level": 70,
+        "move": "Chaîne Malsaine"
+      },
+      {
+        "level": 75,
+        "move": "Haute Voltige"
+      },
+      {
+        "level": 80,
+        "move": "Harcèlement"
+      },
+      {
+        "level": 85,
+        "move": "Mauvaise Humeur"
+      },
+      {
+        "level": 90,
+        "move": "Pesticide"
+      },
+      {
+        "level": 95,
+        "move": "Chaîne Malsaine"
+      },
+      {
+        "level": 100,
+        "move": "Dard Mortel"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  }
+]

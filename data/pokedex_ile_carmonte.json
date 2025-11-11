@@ -1,0 +1,583 @@
+[
+  {
+    "name": "Bécopo",
+    "types": [
+      "Feu",
+      "Vol"
+    ],
+    "abilities": [
+      "Matinal"
+    ],
+    "hidden_ability": "Ragebrulante",
+    "evolution": "Évolue en Rassignol au niveau 26",
+    "evolutions_detailed": [
+      {
+        "target_token": "RASSIGNOL",
+        "target_name": "Rassignol",
+        "method": "Level",
+        "level": 26,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "XXX",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Picpic"
+      },
+      {
+        "level": 1,
+        "move": "Rugissement"
+      },
+      {
+        "level": 5,
+        "move": "Vive-Attaque"
+      },
+      {
+        "level": 7,
+        "move": "Butine"
+      },
+      {
+        "level": 10,
+        "move": "Coup d'Main"
+      },
+      {
+        "level": 13,
+        "move": "Calcination"
+      },
+      {
+        "level": 17,
+        "move": "Rengorgement"
+      },
+      {
+        "level": 21,
+        "move": "Tornade"
+      },
+      {
+        "level": 25,
+        "move": "Triple Charge"
+      },
+      {
+        "level": 29,
+        "move": "Babil"
+      },
+      {
+        "level": 33,
+        "move": "Berceuse"
+      },
+      {
+        "level": 37,
+        "move": "Rebondifeu"
+      },
+      {
+        "level": 41,
+        "move": "Plume Flamme"
+      },
+      {
+        "level": 46,
+        "move": "Cyclone"
+      },
+      {
+        "level": 50,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 54,
+        "move": "Vent Brûlant"
+      },
+      {
+        "level": 58,
+        "move": "Gigantocanon"
+      },
+      {
+        "level": 62,
+        "move": "Typhon Hivernal"
+      },
+      {
+        "level": 66,
+        "move": "Effort"
+      },
+      {
+        "level": 70,
+        "move": "Vent Arrière"
+      },
+      {
+        "level": 75,
+        "move": "Surchauffe"
+      },
+      {
+        "level": 80,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 85,
+        "move": "Danse Plumes"
+      },
+      {
+        "level": 90,
+        "move": "Tir Plume"
+      },
+      {
+        "level": 95,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 100,
+        "move": "Lance-Flammes"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Plume Bécopo"
+  },
+  {
+    "name": "Rassignol",
+    "types": [
+      "Feu",
+      "Vol"
+    ],
+    "abilities": [
+      "Matinal"
+    ],
+    "hidden_ability": "Ragebrulante",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "XXX",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Picpic"
+      },
+      {
+        "level": 1,
+        "move": "Rugissement"
+      },
+      {
+        "level": 5,
+        "move": "Vive-Attaque"
+      },
+      {
+        "level": 7,
+        "move": "Butine"
+      },
+      {
+        "level": 10,
+        "move": "Coup d'Main"
+      },
+      {
+        "level": 13,
+        "move": "Calcination"
+      },
+      {
+        "level": 17,
+        "move": "Rengorgement"
+      },
+      {
+        "level": 21,
+        "move": "Tornade"
+      },
+      {
+        "level": 25,
+        "move": "Triple Charge"
+      },
+      {
+        "level": 29,
+        "move": "Babil"
+      },
+      {
+        "level": 33,
+        "move": "Berceuse"
+      },
+      {
+        "level": 37,
+        "move": "Rebondifeu"
+      },
+      {
+        "level": 41,
+        "move": "Plume Flamme"
+      },
+      {
+        "level": 46,
+        "move": "Cyclone"
+      },
+      {
+        "level": 50,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 54,
+        "move": "Vent Brûlant"
+      },
+      {
+        "level": 58,
+        "move": "Gigantocanon"
+      },
+      {
+        "level": 62,
+        "move": "Typhon Hivernal"
+      },
+      {
+        "level": 66,
+        "move": "Effort"
+      },
+      {
+        "level": 70,
+        "move": "Vent Arrière"
+      },
+      {
+        "level": 75,
+        "move": "Surchauffe"
+      },
+      {
+        "level": 80,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 85,
+        "move": "Danse Plumes"
+      },
+      {
+        "level": 90,
+        "move": "Tir Plume"
+      },
+      {
+        "level": 95,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 100,
+        "move": "Lance-Flammes"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Tektek",
+    "types": [
+      "Bois"
+    ],
+    "abilities": [
+      "Coquearmure",
+      "Regeforce"
+    ],
+    "hidden_ability": "Armurbaston",
+    "evolution": "Évolue en Totemek (HasInParty, XATU)",
+    "evolutions_detailed": [
+      {
+        "target_token": "TOTEMEK",
+        "target_name": "Totemek",
+        "method": "HasInParty",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il vit dans les forêts anciennes, où il forme des tours avec ses semblables pour se protéger. Son corps en bois sculpté est un hommage aux anciens esprits de la nature.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Écras'Face"
+      },
+      {
+        "level": 1,
+        "move": "Écorce"
+      },
+      {
+        "level": 5,
+        "move": "Barrage"
+      },
+      {
+        "level": 7,
+        "move": "Écharde"
+      },
+      {
+        "level": 10,
+        "move": "Bond"
+      },
+      {
+        "level": 13,
+        "move": "Ronce"
+      },
+      {
+        "level": 17,
+        "move": "Triple Charge"
+      },
+      {
+        "level": 21,
+        "move": "Cogne"
+      },
+      {
+        "level": 25,
+        "move": "Fouet Retour"
+      },
+      {
+        "level": 29,
+        "move": "À la Queue"
+      },
+      {
+        "level": 33,
+        "move": "Picots"
+      },
+      {
+        "level": 37,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 41,
+        "move": "Longue Tige"
+      },
+      {
+        "level": 46,
+        "move": "Triple Éclate"
+      },
+      {
+        "level": 50,
+        "move": "Souplesse"
+      },
+      {
+        "level": 54,
+        "move": "Ronce Massive"
+      },
+      {
+        "level": 58,
+        "move": "Demi-Tour"
+      },
+      {
+        "level": 62,
+        "move": "Pico-Défense"
+      },
+      {
+        "level": 66,
+        "move": "Force Nature"
+      },
+      {
+        "level": 70,
+        "move": "Grain'en Retard"
+      },
+      {
+        "level": 75,
+        "move": "Champ Bois"
+      },
+      {
+        "level": 80,
+        "move": "Martelage"
+      },
+      {
+        "level": 85,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 90,
+        "move": "Ténacité"
+      },
+      {
+        "level": 95,
+        "move": "Furie-Bond"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [
+      "Pilonnage",
+      "Riposte",
+      "Balance"
+    ],
+    "cs": [
+      "Éclate-Roc",
+      "Force Cachée"
+    ],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Écorce Tektek"
+  },
+  {
+    "name": "Totemek",
+    "types": [
+      "Bois",
+      "Mystique"
+    ],
+    "abilities": [
+      "Coquearmure",
+      "Regeforce"
+    ],
+    "hidden_ability": "Armurbaston",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "On dit que chaque visage sur son corps est celui d’un ancien gardien. Ses ailes de feuilles vibrent lorsqu’il canalise son énergie.",
+    "level_up": [
+      {
+        "level": 0,
+        "move": "Brume Apaisante"
+      },
+      {
+        "level": 1,
+        "move": "Éclo-Ronces"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 1,
+        "move": "Permucoeur"
+      },
+      {
+        "level": 1,
+        "move": "Permuvitesse"
+      },
+      {
+        "level": 1,
+        "move": "Écras'Face"
+      },
+      {
+        "level": 1,
+        "move": "Écorce"
+      },
+      {
+        "level": 5,
+        "move": "Barrage"
+      },
+      {
+        "level": 7,
+        "move": "Écharde"
+      },
+      {
+        "level": 10,
+        "move": "Bond"
+      },
+      {
+        "level": 13,
+        "move": "Ronce"
+      },
+      {
+        "level": 17,
+        "move": "Triple Charge"
+      },
+      {
+        "level": 21,
+        "move": "Cogne"
+      },
+      {
+        "level": 25,
+        "move": "Fouet Retour"
+      },
+      {
+        "level": 29,
+        "move": "Boite Pandore"
+      },
+      {
+        "level": 33,
+        "move": "Picots"
+      },
+      {
+        "level": 37,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 41,
+        "move": "Longue Tige"
+      },
+      {
+        "level": 46,
+        "move": "Extrasenseur"
+      },
+      {
+        "level": 50,
+        "move": "Pacification"
+      },
+      {
+        "level": 54,
+        "move": "Ronce Massive"
+      },
+      {
+        "level": 58,
+        "move": "Rayon Signal"
+      },
+      {
+        "level": 62,
+        "move": "Lien du Destin"
+      },
+      {
+        "level": 66,
+        "move": "Mirage"
+      },
+      {
+        "level": 70,
+        "move": "Grain'en Retard"
+      },
+      {
+        "level": 75,
+        "move": "Champ Mystique"
+      },
+      {
+        "level": 80,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 85,
+        "move": "Zenitude"
+      },
+      {
+        "level": 90,
+        "move": "Sanctuaire"
+      },
+      {
+        "level": 95,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [
+      "Éclate-Roc",
+      "Force Cachée"
+    ],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  }
+]

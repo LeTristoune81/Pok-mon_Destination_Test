@@ -1,0 +1,977 @@
+[
+  {
+    "name": "Bulboo",
+    "types": [
+      "Bois"
+    ],
+    "abilities": [
+      "Chlorophylle"
+    ],
+    "hidden_ability": null,
+    "evolution": "Évolue en Fixiboo au niveau 20",
+    "evolutions_detailed": [
+      {
+        "target_token": "FIXIBOO",
+        "target_name": "Fixiboo",
+        "method": "Level",
+        "level": 20,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "...",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Xxx"
+      },
+      {
+        "level": 1,
+        "move": "Xxx"
+      },
+      {
+        "level": 5,
+        "move": "Xxx"
+      },
+      {
+        "level": 7,
+        "move": "Xxx"
+      },
+      {
+        "level": 10,
+        "move": "Xxx"
+      },
+      {
+        "level": 13,
+        "move": "Xxx"
+      },
+      {
+        "level": 17,
+        "move": "Xxx"
+      },
+      {
+        "level": 21,
+        "move": "Xxx"
+      },
+      {
+        "level": 25,
+        "move": "Xxx"
+      },
+      {
+        "level": 29,
+        "move": "Xxx"
+      },
+      {
+        "level": 33,
+        "move": "Xxx"
+      },
+      {
+        "level": 37,
+        "move": "Xxx"
+      },
+      {
+        "level": 41,
+        "move": "Xxx"
+      },
+      {
+        "level": 46,
+        "move": "Xxx"
+      },
+      {
+        "level": 50,
+        "move": "Xxx"
+      },
+      {
+        "level": 54,
+        "move": "Xxx"
+      },
+      {
+        "level": 58,
+        "move": "Xxx"
+      },
+      {
+        "level": 62,
+        "move": "Xxx"
+      },
+      {
+        "level": 66,
+        "move": "Xxx"
+      },
+      {
+        "level": 70,
+        "move": "Xxx"
+      },
+      {
+        "level": 75,
+        "move": "Xxx"
+      },
+      {
+        "level": 80,
+        "move": "Xxx"
+      },
+      {
+        "level": 85,
+        "move": "Xxx"
+      },
+      {
+        "level": 90,
+        "move": "Xxx"
+      },
+      {
+        "level": 95,
+        "move": "Xxx"
+      },
+      {
+        "level": 100,
+        "move": "Xxx"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Fixiboo",
+    "types": [
+      "Bois"
+    ],
+    "abilities": [
+      "Chlorophylle"
+    ],
+    "hidden_ability": null,
+    "evolution": "Évolue en Kimiboo en utilisant Pierre Zen",
+    "evolutions_detailed": [
+      {
+        "target_token": "KIMIBOO",
+        "target_name": "Kimiboo",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_MYS",
+        "item_name": "Pierre Zen",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "...",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Xxx"
+      },
+      {
+        "level": 1,
+        "move": "Xxx"
+      },
+      {
+        "level": 5,
+        "move": "Xxx"
+      },
+      {
+        "level": 7,
+        "move": "Xxx"
+      },
+      {
+        "level": 10,
+        "move": "Xxx"
+      },
+      {
+        "level": 13,
+        "move": "Xxx"
+      },
+      {
+        "level": 17,
+        "move": "Xxx"
+      },
+      {
+        "level": 21,
+        "move": "Xxx"
+      },
+      {
+        "level": 25,
+        "move": "Xxx"
+      },
+      {
+        "level": 29,
+        "move": "Xxx"
+      },
+      {
+        "level": 33,
+        "move": "Xxx"
+      },
+      {
+        "level": 37,
+        "move": "Xxx"
+      },
+      {
+        "level": 41,
+        "move": "Xxx"
+      },
+      {
+        "level": 46,
+        "move": "Xxx"
+      },
+      {
+        "level": 50,
+        "move": "Xxx"
+      },
+      {
+        "level": 54,
+        "move": "Xxx"
+      },
+      {
+        "level": 58,
+        "move": "Xxx"
+      },
+      {
+        "level": 62,
+        "move": "Xxx"
+      },
+      {
+        "level": 66,
+        "move": "Xxx"
+      },
+      {
+        "level": 70,
+        "move": "Xxx"
+      },
+      {
+        "level": 75,
+        "move": "Xxx"
+      },
+      {
+        "level": 80,
+        "move": "Xxx"
+      },
+      {
+        "level": 85,
+        "move": "Xxx"
+      },
+      {
+        "level": 90,
+        "move": "Xxx"
+      },
+      {
+        "level": 95,
+        "move": "Xxx"
+      },
+      {
+        "level": 100,
+        "move": "Xxx"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Kimiboo",
+    "types": [
+      "Bois",
+      "Mystique"
+    ],
+    "abilities": [
+      "Chlorophylle"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "...",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Xxx"
+      },
+      {
+        "level": 1,
+        "move": "Xxx"
+      },
+      {
+        "level": 5,
+        "move": "Xxx"
+      },
+      {
+        "level": 7,
+        "move": "Xxx"
+      },
+      {
+        "level": 10,
+        "move": "Xxx"
+      },
+      {
+        "level": 13,
+        "move": "Xxx"
+      },
+      {
+        "level": 17,
+        "move": "Xxx"
+      },
+      {
+        "level": 21,
+        "move": "Xxx"
+      },
+      {
+        "level": 25,
+        "move": "Xxx"
+      },
+      {
+        "level": 29,
+        "move": "Xxx"
+      },
+      {
+        "level": 33,
+        "move": "Xxx"
+      },
+      {
+        "level": 37,
+        "move": "Xxx"
+      },
+      {
+        "level": 41,
+        "move": "Xxx"
+      },
+      {
+        "level": 46,
+        "move": "Xxx"
+      },
+      {
+        "level": 50,
+        "move": "Xxx"
+      },
+      {
+        "level": 54,
+        "move": "Xxx"
+      },
+      {
+        "level": 58,
+        "move": "Xxx"
+      },
+      {
+        "level": 62,
+        "move": "Xxx"
+      },
+      {
+        "level": 66,
+        "move": "Xxx"
+      },
+      {
+        "level": 70,
+        "move": "Xxx"
+      },
+      {
+        "level": 75,
+        "move": "Xxx"
+      },
+      {
+        "level": 80,
+        "move": "Xxx"
+      },
+      {
+        "level": 85,
+        "move": "Xxx"
+      },
+      {
+        "level": 90,
+        "move": "Xxx"
+      },
+      {
+        "level": 95,
+        "move": "Xxx"
+      },
+      {
+        "level": 100,
+        "move": "Xxx"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Gobetox",
+    "types": [
+      "Poison"
+    ],
+    "abilities": [
+      "Toxitouche"
+    ],
+    "hidden_ability": "Prediction",
+    "evolution": "Évolue en Aristoxic au niveau 38",
+    "evolutions_detailed": [
+      {
+        "target_token": "ARISTOXIC",
+        "target_name": "Aristoxic",
+        "method": "Level",
+        "level": 38,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il sécrète un poison qui perturbe la perception du temps de ceux qui y sont exposés. Certains affirment l’avoir vu bouger anormalement vite ou lentement.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Gaz Toxik"
+      },
+      {
+        "level": 5,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 7,
+        "move": "Entrave"
+      },
+      {
+        "level": 10,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 13,
+        "move": "Regard Médusant"
+      },
+      {
+        "level": 17,
+        "move": "Larcin"
+      },
+      {
+        "level": 21,
+        "move": "Suc Agressif"
+      },
+      {
+        "level": 25,
+        "move": "Encore"
+      },
+      {
+        "level": 29,
+        "move": "Coup d'Boule"
+      },
+      {
+        "level": 33,
+        "move": "Suc Digestif"
+      },
+      {
+        "level": 37,
+        "move": "Cradovague"
+      },
+      {
+        "level": 41,
+        "move": "Paradoxe"
+      },
+      {
+        "level": 46,
+        "move": "Plaquage"
+      },
+      {
+        "level": 50,
+        "move": "Distorsion"
+      },
+      {
+        "level": 54,
+        "move": "Souillure"
+      },
+      {
+        "level": 58,
+        "move": "Saisie"
+      },
+      {
+        "level": 62,
+        "move": "Pointe-Heure"
+      },
+      {
+        "level": 66,
+        "move": "Psykoud'Boul"
+      },
+      {
+        "level": 70,
+        "move": "Sabotage"
+      },
+      {
+        "level": 75,
+        "move": "Main Suprême"
+      },
+      {
+        "level": 80,
+        "move": "Dissolution"
+      },
+      {
+        "level": 85,
+        "move": "Tourmente"
+      },
+      {
+        "level": 90,
+        "move": "Bombe Beurk"
+      },
+      {
+        "level": 95,
+        "move": "Post Attaque"
+      },
+      {
+        "level": 100,
+        "move": "Main Éthérée"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Toxine Gobetox"
+  },
+  {
+    "name": "Aristoxic",
+    "types": [
+      "Poison",
+      "Temporel"
+    ],
+    "abilities": [
+      "Dilatempete"
+    ],
+    "hidden_ability": "Pression",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Son venin crée des distorsions temporelles, plongeant ses adversaires dans un état de confusion extrême. Il serait capable de voir des instants du futur.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Gaz Toxik"
+      },
+      {
+        "level": 5,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 7,
+        "move": "Entrave"
+      },
+      {
+        "level": 10,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 13,
+        "move": "Regard Médusant"
+      },
+      {
+        "level": 17,
+        "move": "Larcin"
+      },
+      {
+        "level": 21,
+        "move": "Suc Agressif"
+      },
+      {
+        "level": 25,
+        "move": "Encore"
+      },
+      {
+        "level": 29,
+        "move": "Coup d'Boule"
+      },
+      {
+        "level": 33,
+        "move": "Suc Digestif"
+      },
+      {
+        "level": 37,
+        "move": "Cradovague"
+      },
+      {
+        "level": 41,
+        "move": "Paradoxe"
+      },
+      {
+        "level": 46,
+        "move": "Plaquage"
+      },
+      {
+        "level": 50,
+        "move": "Distorsion"
+      },
+      {
+        "level": 54,
+        "move": "Souillure"
+      },
+      {
+        "level": 58,
+        "move": "Saisie"
+      },
+      {
+        "level": 62,
+        "move": "Pointe-Heure"
+      },
+      {
+        "level": 66,
+        "move": "Psykoud'Boul"
+      },
+      {
+        "level": 70,
+        "move": "Sabotage"
+      },
+      {
+        "level": 75,
+        "move": "Main Suprême"
+      },
+      {
+        "level": 80,
+        "move": "Dissolution"
+      },
+      {
+        "level": 85,
+        "move": "Tourmente"
+      },
+      {
+        "level": 90,
+        "move": "Bombe Beurk"
+      },
+      {
+        "level": 95,
+        "move": "Post Attaque"
+      },
+      {
+        "level": 100,
+        "move": "Main Éthérée"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Pandazen",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Xxx"
+    ],
+    "hidden_ability": "Xxx",
+    "evolution": "Évolue en Tandachi au niveau 37",
+    "evolutions_detailed": [
+      {
+        "target_token": "TANDACHI",
+        "target_name": "Tandachi",
+        "method": "Level",
+        "level": 37,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "???",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Écras'Face"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Onde Zen"
+      },
+      {
+        "level": 7,
+        "move": "Bluff"
+      },
+      {
+        "level": 10,
+        "move": "Cogne"
+      },
+      {
+        "level": 13,
+        "move": "Ténacité"
+      },
+      {
+        "level": 17,
+        "move": "Double Paume"
+      },
+      {
+        "level": 21,
+        "move": "Plénitude"
+      },
+      {
+        "level": 25,
+        "move": "Toucher Final"
+      },
+      {
+        "level": 29,
+        "move": "Affilage"
+      },
+      {
+        "level": 33,
+        "move": "Sabotage"
+      },
+      {
+        "level": 37,
+        "move": "Fléau"
+      },
+      {
+        "level": 41,
+        "move": "Acupuncture"
+      },
+      {
+        "level": 46,
+        "move": "Pacification"
+      },
+      {
+        "level": 50,
+        "move": "Sentence"
+      },
+      {
+        "level": 54,
+        "move": "Onde Projetée"
+      },
+      {
+        "level": 58,
+        "move": "Tourbi'Pied"
+      },
+      {
+        "level": 62,
+        "move": "Balance"
+      },
+      {
+        "level": 66,
+        "move": "Zenitude"
+      },
+      {
+        "level": 70,
+        "move": "Double Baffe"
+      },
+      {
+        "level": 75,
+        "move": "Riposte"
+      },
+      {
+        "level": 80,
+        "move": "Poing Aura"
+      },
+      {
+        "level": 85,
+        "move": "Psykoud'Boul"
+      },
+      {
+        "level": 90,
+        "move": "Choc Pur"
+      },
+      {
+        "level": 95,
+        "move": "Tout ou Rien"
+      },
+      {
+        "level": 100,
+        "move": "Champ Mystique"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Poils Pandazen"
+  },
+  {
+    "name": "Tandachi",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Xxx"
+    ],
+    "hidden_ability": "Xxx",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "???",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Force Mystique"
+      },
+      {
+        "level": 1,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 1,
+        "move": "Écras'Face"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Onde Zen"
+      },
+      {
+        "level": 7,
+        "move": "Bluff"
+      },
+      {
+        "level": 10,
+        "move": "Cogne"
+      },
+      {
+        "level": 13,
+        "move": "Ténacité"
+      },
+      {
+        "level": 17,
+        "move": "Double Paume"
+      },
+      {
+        "level": 21,
+        "move": "Plénitude"
+      },
+      {
+        "level": 25,
+        "move": "Toucher Final"
+      },
+      {
+        "level": 29,
+        "move": "Affilage"
+      },
+      {
+        "level": 33,
+        "move": "Sabotage"
+      },
+      {
+        "level": 37,
+        "move": "Fléau"
+      },
+      {
+        "level": 41,
+        "move": "Acupuncture"
+      },
+      {
+        "level": 46,
+        "move": "Pacification"
+      },
+      {
+        "level": 50,
+        "move": "Sentence"
+      },
+      {
+        "level": 54,
+        "move": "Onde Projetée"
+      },
+      {
+        "level": 58,
+        "move": "Tourbi'Pied"
+      },
+      {
+        "level": 62,
+        "move": "Balance"
+      },
+      {
+        "level": 66,
+        "move": "Zenitude"
+      },
+      {
+        "level": 70,
+        "move": "Double Baffe"
+      },
+      {
+        "level": 75,
+        "move": "Riposte"
+      },
+      {
+        "level": 80,
+        "move": "Poing Aura"
+      },
+      {
+        "level": 85,
+        "move": "Psykoud'Boul"
+      },
+      {
+        "level": 90,
+        "move": "Choc Pur"
+      },
+      {
+        "level": 95,
+        "move": "Tout ou Rien"
+      },
+      {
+        "level": 100,
+        "move": "Champ Mystique"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  }
+]

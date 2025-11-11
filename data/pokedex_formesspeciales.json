@@ -1,0 +1,5539 @@
+[
+  {
+    "name": "Vivaldaim",
+    "types": [
+      "Normal",
+      "Plante"
+    ],
+    "abilities": [
+      "Chlorophylle",
+      "Herbivore"
+    ],
+    "hidden_ability": "Serenite",
+    "evolution": "Évolue en Haydaim au niveau 34",
+    "evolutions_detailed": [
+      {
+        "target_token": "HAYDAIM_ETE",
+        "target_name": "Haydaim",
+        "method": "Level",
+        "level": 34,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Peu farouche, il n'hésite pas à faire ce qui lui plaît, même en présence d'êtres humains. Il s'attache à quiconque le nourrit.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Camouflage"
+      },
+      {
+        "level": 5,
+        "move": "Rugissement"
+      },
+      {
+        "level": 7,
+        "move": "Embuscade"
+      },
+      {
+        "level": 10,
+        "move": "Double Pied"
+      },
+      {
+        "level": 13,
+        "move": "Vampigraine"
+      },
+      {
+        "level": 17,
+        "move": "Feinte"
+      },
+      {
+        "level": 21,
+        "move": "Bélier"
+      },
+      {
+        "level": 25,
+        "move": "Pied Sauté"
+      },
+      {
+        "level": 29,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 33,
+        "move": "Charme"
+      },
+      {
+        "level": 37,
+        "move": "Encornebois"
+      },
+      {
+        "level": 41,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 46,
+        "move": "Force Nature"
+      },
+      {
+        "level": 50,
+        "move": "Damoclès"
+      },
+      {
+        "level": 54,
+        "move": "Mégacorne"
+      },
+      {
+        "level": 58,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 62,
+        "move": "Charge Écarlate"
+      },
+      {
+        "level": 66,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 70,
+        "move": "Plaie Croix"
+      },
+      {
+        "level": 75,
+        "move": "Synthèse"
+      },
+      {
+        "level": 80,
+        "move": "Canon Graine"
+      },
+      {
+        "level": 85,
+        "move": "Vindicte"
+      },
+      {
+        "level": 90,
+        "move": "Végé-Impact"
+      },
+      {
+        "level": 95,
+        "move": "Xxx"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Poils Vivaldaim"
+  },
+  {
+    "name": "Haydaim",
+    "types": [
+      "Normal",
+      "Bois"
+    ],
+    "abilities": [
+      "Chlorophylle",
+      "Herbivore"
+    ],
+    "hidden_ability": "Serenite",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Ce Pokémon est très populaire. Plus la couleur de son feuillage est vive, plus on le trouve élégant.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Camouflage"
+      },
+      {
+        "level": 5,
+        "move": "Rugissement"
+      },
+      {
+        "level": 7,
+        "move": "Embuscade"
+      },
+      {
+        "level": 10,
+        "move": "Double Pied"
+      },
+      {
+        "level": 13,
+        "move": "Vampigraine"
+      },
+      {
+        "level": 17,
+        "move": "Feinte"
+      },
+      {
+        "level": 21,
+        "move": "Bélier"
+      },
+      {
+        "level": 25,
+        "move": "Pied Sauté"
+      },
+      {
+        "level": 29,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 33,
+        "move": "Charme"
+      },
+      {
+        "level": 37,
+        "move": "Encornebois"
+      },
+      {
+        "level": 41,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 46,
+        "move": "Force Nature"
+      },
+      {
+        "level": 50,
+        "move": "Damoclès"
+      },
+      {
+        "level": 54,
+        "move": "Mégacorne"
+      },
+      {
+        "level": 58,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 62,
+        "move": "Charge Écarlate"
+      },
+      {
+        "level": 66,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 70,
+        "move": "Plaie Croix"
+      },
+      {
+        "level": 75,
+        "move": "Synthèse"
+      },
+      {
+        "level": 80,
+        "move": "Canon Graine"
+      },
+      {
+        "level": 85,
+        "move": "Vindicte"
+      },
+      {
+        "level": 90,
+        "move": "Végé-Impact"
+      },
+      {
+        "level": 95,
+        "move": "Xxx"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Vivaldaim",
+    "types": [
+      "Normal",
+      "Plante"
+    ],
+    "abilities": [
+      "Chlorophylle",
+      "Herbivore"
+    ],
+    "hidden_ability": "Serenite",
+    "evolution": "Évolue en Haydaim au niveau 34",
+    "evolutions_detailed": [
+      {
+        "target_token": "HAYDAIM_AUT",
+        "target_name": "Haydaim",
+        "method": "Level",
+        "level": 34,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "De nombreux fermiers font surveiller leurs champs par des Lougaroc, ennemis naturels des Vivaldaim, pour empêcher ces derniers d'y entrer.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Camouflage"
+      },
+      {
+        "level": 5,
+        "move": "Rugissement"
+      },
+      {
+        "level": 7,
+        "move": "Embuscade"
+      },
+      {
+        "level": 10,
+        "move": "Double Pied"
+      },
+      {
+        "level": 13,
+        "move": "Vampigraine"
+      },
+      {
+        "level": 17,
+        "move": "Feinte"
+      },
+      {
+        "level": 21,
+        "move": "Bélier"
+      },
+      {
+        "level": 25,
+        "move": "Pied Sauté"
+      },
+      {
+        "level": 29,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 33,
+        "move": "Charme"
+      },
+      {
+        "level": 37,
+        "move": "Encornebois"
+      },
+      {
+        "level": 41,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 46,
+        "move": "Force Nature"
+      },
+      {
+        "level": 50,
+        "move": "Damoclès"
+      },
+      {
+        "level": 54,
+        "move": "Mégacorne"
+      },
+      {
+        "level": 58,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 62,
+        "move": "Charge Écarlate"
+      },
+      {
+        "level": 66,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 70,
+        "move": "Plaie Croix"
+      },
+      {
+        "level": 75,
+        "move": "Synthèse"
+      },
+      {
+        "level": 80,
+        "move": "Canon Graine"
+      },
+      {
+        "level": 85,
+        "move": "Vindicte"
+      },
+      {
+        "level": 90,
+        "move": "Végé-Impact"
+      },
+      {
+        "level": 95,
+        "move": "Xxx"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Poils Vivaldaim"
+  },
+  {
+    "name": "Haydaim",
+    "types": [
+      "Normal",
+      "Plante"
+    ],
+    "abilities": [
+      "Chlorophylle",
+      "Herbivore"
+    ],
+    "hidden_ability": "Serenite",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "On peut préparer du thé noir avec les feuilles de ce Pokémon. Son goût varie selon la région. À Paldea, il possède un arôme puissant.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Camouflage"
+      },
+      {
+        "level": 5,
+        "move": "Rugissement"
+      },
+      {
+        "level": 7,
+        "move": "Embuscade"
+      },
+      {
+        "level": 10,
+        "move": "Double Pied"
+      },
+      {
+        "level": 13,
+        "move": "Vampigraine"
+      },
+      {
+        "level": 17,
+        "move": "Feinte"
+      },
+      {
+        "level": 21,
+        "move": "Bélier"
+      },
+      {
+        "level": 25,
+        "move": "Pied Sauté"
+      },
+      {
+        "level": 29,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 33,
+        "move": "Charme"
+      },
+      {
+        "level": 37,
+        "move": "Encornebois"
+      },
+      {
+        "level": 41,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 46,
+        "move": "Force Nature"
+      },
+      {
+        "level": 50,
+        "move": "Damoclès"
+      },
+      {
+        "level": 54,
+        "move": "Mégacorne"
+      },
+      {
+        "level": 58,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 62,
+        "move": "Charge Écarlate"
+      },
+      {
+        "level": 66,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 70,
+        "move": "Plaie Croix"
+      },
+      {
+        "level": 75,
+        "move": "Synthèse"
+      },
+      {
+        "level": 80,
+        "move": "Canon Graine"
+      },
+      {
+        "level": 85,
+        "move": "Vindicte"
+      },
+      {
+        "level": 90,
+        "move": "Végé-Impact"
+      },
+      {
+        "level": 95,
+        "move": "Xxx"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Vivaldaim",
+    "types": [
+      "Normal",
+      "Neige"
+    ],
+    "abilities": [
+      "Chlorophylle",
+      "Herbivore"
+    ],
+    "hidden_ability": "Serenite",
+    "evolution": "Évolue en Haydaim au niveau 34",
+    "evolutions_detailed": [
+      {
+        "target_token": "HAYDAIM_HIV",
+        "target_name": "Haydaim",
+        "method": "Level",
+        "level": 34,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il s'amuse à donner des coups de tête aux gens qu'il apprécie. Puisque ses fleurs cachent des bois, ces coups sont assez douloureux.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Camouflage"
+      },
+      {
+        "level": 5,
+        "move": "Rugissement"
+      },
+      {
+        "level": 7,
+        "move": "Embuscade"
+      },
+      {
+        "level": 10,
+        "move": "Double Pied"
+      },
+      {
+        "level": 13,
+        "move": "Vampigraine"
+      },
+      {
+        "level": 17,
+        "move": "Flocon"
+      },
+      {
+        "level": 21,
+        "move": "Bélier"
+      },
+      {
+        "level": 25,
+        "move": "Pergélisol"
+      },
+      {
+        "level": 29,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 33,
+        "move": "Charme"
+      },
+      {
+        "level": 37,
+        "move": "Encornebois"
+      },
+      {
+        "level": 41,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 46,
+        "move": "Avalanche"
+      },
+      {
+        "level": 50,
+        "move": "Damoclès"
+      },
+      {
+        "level": 54,
+        "move": "Mégacorne"
+      },
+      {
+        "level": 58,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 62,
+        "move": "Vent Hivernal"
+      },
+      {
+        "level": 66,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 70,
+        "move": "Plaie Croix"
+      },
+      {
+        "level": 75,
+        "move": "Synthèse"
+      },
+      {
+        "level": 80,
+        "move": "Canon Graine"
+      },
+      {
+        "level": 85,
+        "move": "Rude Hiver"
+      },
+      {
+        "level": 90,
+        "move": "Végé-Impact"
+      },
+      {
+        "level": 95,
+        "move": "Xxx"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Poils Vivaldaim"
+  },
+  {
+    "name": "Haydaim",
+    "types": [
+      "Normal",
+      "Neige"
+    ],
+    "abilities": [
+      "Chlorophylle",
+      "Herbivore"
+    ],
+    "hidden_ability": "Serenite",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "On dit que quand il prend cette forme, Haydaim est docile et facile à apprivoiser. C'est le moment idéal pour en faire son partenaire.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Camouflage"
+      },
+      {
+        "level": 5,
+        "move": "Rugissement"
+      },
+      {
+        "level": 7,
+        "move": "Embuscade"
+      },
+      {
+        "level": 10,
+        "move": "Double Pied"
+      },
+      {
+        "level": 13,
+        "move": "Vampigraine"
+      },
+      {
+        "level": 17,
+        "move": "Flocon"
+      },
+      {
+        "level": 21,
+        "move": "Bélier"
+      },
+      {
+        "level": 25,
+        "move": "Pergélisol"
+      },
+      {
+        "level": 29,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 33,
+        "move": "Charme"
+      },
+      {
+        "level": 37,
+        "move": "Encornebois"
+      },
+      {
+        "level": 41,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 46,
+        "move": "Avalanche"
+      },
+      {
+        "level": 50,
+        "move": "Damoclès"
+      },
+      {
+        "level": 54,
+        "move": "Mégacorne"
+      },
+      {
+        "level": 58,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 62,
+        "move": "Vent Hivernal"
+      },
+      {
+        "level": 66,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 70,
+        "move": "Plaie Croix"
+      },
+      {
+        "level": 75,
+        "move": "Synthèse"
+      },
+      {
+        "level": 80,
+        "move": "Canon Graine"
+      },
+      {
+        "level": 85,
+        "move": "Rude Hiver"
+      },
+      {
+        "level": 90,
+        "move": "Végé-Impact"
+      },
+      {
+        "level": 95,
+        "move": "Xxx"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Techno"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Neige"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Solaire"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Poison"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Feu"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Air"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Vol"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Magique"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Prismillon",
+    "types": [
+      "Insecte",
+      "Sable"
+    ],
+    "abilities": [
+      "Ecranpoudre",
+      "Oeilcompose"
+    ],
+    "hidden_ability": "Gardeamie",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les ailes des Prismillon arborent différents motifs en fonction de leur aire d'origine. Il est possible que le climat y soit pour quelque chose.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Toxik"
+      },
+      {
+        "level": 1,
+        "move": "Poudre Dodo"
+      },
+      {
+        "level": 5,
+        "move": "Grignote"
+      },
+      {
+        "level": 7,
+        "move": "Para-Spore"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Piqûre"
+      },
+      {
+        "level": 17,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 21,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 25,
+        "move": "Méga-Butine"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Bourdon"
+      },
+      {
+        "level": 37,
+        "move": "Aromathérapie"
+      },
+      {
+        "level": 41,
+        "move": "Virevolte"
+      },
+      {
+        "level": 46,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 50,
+        "move": "Papillodanse"
+      },
+      {
+        "level": 54,
+        "move": "Giga-Butine"
+      },
+      {
+        "level": 58,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 62,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 66,
+        "move": "Météores"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Double Laser"
+      },
+      {
+        "level": 80,
+        "move": "Nuée de Poudre"
+      },
+      {
+        "level": 85,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 90,
+        "move": "Aéroblast"
+      },
+      {
+        "level": 95,
+        "move": "Boule Pollen"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Tapatoès",
+    "types": [
+      "Vol",
+      "Sonore"
+    ],
+    "abilities": [
+      "Cran"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Ces Pokémon préfèrent vivre en ville. Ils forment des groupes selon la couleur de leur plumage et se livrent à des luttes de territoire.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Picpic"
+      },
+      {
+        "level": 1,
+        "move": "Rugissement"
+      },
+      {
+        "level": 5,
+        "move": "Copie"
+      },
+      {
+        "level": 7,
+        "move": "Vive-Attaque"
+      },
+      {
+        "level": 10,
+        "move": "Tourmente"
+      },
+      {
+        "level": 13,
+        "move": "Aéropique"
+      },
+      {
+        "level": 17,
+        "move": "Furie"
+      },
+      {
+        "level": 21,
+        "move": "Provoc"
+      },
+      {
+        "level": 25,
+        "move": "Brouhaha"
+      },
+      {
+        "level": 29,
+        "move": "Photocopie"
+      },
+      {
+        "level": 33,
+        "move": "Bec Vrille"
+      },
+      {
+        "level": 37,
+        "move": "Babil"
+      },
+      {
+        "level": 41,
+        "move": "Façade"
+      },
+      {
+        "level": 46,
+        "move": "Cataclysme"
+      },
+      {
+        "level": 50,
+        "move": "Turbo Impulsion"
+      },
+      {
+        "level": 54,
+        "move": "Contre"
+      },
+      {
+        "level": 58,
+        "move": "Aéro Ball"
+      },
+      {
+        "level": 62,
+        "move": "Atterrissage"
+      },
+      {
+        "level": 66,
+        "move": "Flatterie"
+      },
+      {
+        "level": 70,
+        "move": "Damoclès"
+      },
+      {
+        "level": 75,
+        "move": "Dernier Mot"
+      },
+      {
+        "level": 80,
+        "move": "Repos"
+      },
+      {
+        "level": 80,
+        "move": "Blabla Dodo"
+      },
+      {
+        "level": 85,
+        "move": "Tout ou Rien"
+      },
+      {
+        "level": 90,
+        "move": "Propulsion"
+      },
+      {
+        "level": 95,
+        "move": "Dernier Chant"
+      },
+      {
+        "level": 100,
+        "move": "Vent Arrière"
+      }
+    ],
+    "egg_moves": [
+      "Requiem",
+      "Ailes Vives",
+      "Chant Antique"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Plume Tapatoes"
+  },
+  {
+    "name": "Tapatoès",
+    "types": [
+      "Vol",
+      "Sonore"
+    ],
+    "abilities": [
+      "Cran"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Ces Pokémon préfèrent vivre en ville. Ils forment des groupes selon la couleur de leur plumage et se livrent à des luttes de territoire.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Picpic"
+      },
+      {
+        "level": 1,
+        "move": "Rugissement"
+      },
+      {
+        "level": 5,
+        "move": "Copie"
+      },
+      {
+        "level": 7,
+        "move": "Vive-Attaque"
+      },
+      {
+        "level": 10,
+        "move": "Tourmente"
+      },
+      {
+        "level": 13,
+        "move": "Aéropique"
+      },
+      {
+        "level": 17,
+        "move": "Furie"
+      },
+      {
+        "level": 21,
+        "move": "Provoc"
+      },
+      {
+        "level": 25,
+        "move": "Brouhaha"
+      },
+      {
+        "level": 29,
+        "move": "Photocopie"
+      },
+      {
+        "level": 33,
+        "move": "Bec Vrille"
+      },
+      {
+        "level": 37,
+        "move": "Babil"
+      },
+      {
+        "level": 41,
+        "move": "Façade"
+      },
+      {
+        "level": 46,
+        "move": "Cataclysme"
+      },
+      {
+        "level": 50,
+        "move": "Turbo Impulsion"
+      },
+      {
+        "level": 54,
+        "move": "Contre"
+      },
+      {
+        "level": 58,
+        "move": "Aéro Ball"
+      },
+      {
+        "level": 62,
+        "move": "Atterrissage"
+      },
+      {
+        "level": 66,
+        "move": "Flatterie"
+      },
+      {
+        "level": 70,
+        "move": "Damoclès"
+      },
+      {
+        "level": 75,
+        "move": "Dernier Mot"
+      },
+      {
+        "level": 80,
+        "move": "Repos"
+      },
+      {
+        "level": 80,
+        "move": "Blabla Dodo"
+      },
+      {
+        "level": 85,
+        "move": "Tout ou Rien"
+      },
+      {
+        "level": 90,
+        "move": "Propulsion"
+      },
+      {
+        "level": 95,
+        "move": "Dernier Chant"
+      },
+      {
+        "level": 100,
+        "move": "Vent Arrière"
+      }
+    ],
+    "egg_moves": [
+      "Requiem",
+      "Ailes Vives",
+      "Chant Antique"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Plume Tapatoes"
+  },
+  {
+    "name": "Tapatoès",
+    "types": [
+      "Vol",
+      "Sonore"
+    ],
+    "abilities": [
+      "Cran"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Ces Pokémon préfèrent vivre en ville. Ils forment des groupes selon la couleur de leur plumage et se livrent à des luttes de territoire.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Picpic"
+      },
+      {
+        "level": 1,
+        "move": "Rugissement"
+      },
+      {
+        "level": 5,
+        "move": "Copie"
+      },
+      {
+        "level": 7,
+        "move": "Vive-Attaque"
+      },
+      {
+        "level": 10,
+        "move": "Tourmente"
+      },
+      {
+        "level": 13,
+        "move": "Aéropique"
+      },
+      {
+        "level": 17,
+        "move": "Furie"
+      },
+      {
+        "level": 21,
+        "move": "Provoc"
+      },
+      {
+        "level": 25,
+        "move": "Brouhaha"
+      },
+      {
+        "level": 29,
+        "move": "Photocopie"
+      },
+      {
+        "level": 33,
+        "move": "Bec Vrille"
+      },
+      {
+        "level": 37,
+        "move": "Babil"
+      },
+      {
+        "level": 41,
+        "move": "Façade"
+      },
+      {
+        "level": 46,
+        "move": "Cataclysme"
+      },
+      {
+        "level": 50,
+        "move": "Turbo Impulsion"
+      },
+      {
+        "level": 54,
+        "move": "Contre"
+      },
+      {
+        "level": 58,
+        "move": "Aéro Ball"
+      },
+      {
+        "level": 62,
+        "move": "Atterrissage"
+      },
+      {
+        "level": 66,
+        "move": "Flatterie"
+      },
+      {
+        "level": 70,
+        "move": "Damoclès"
+      },
+      {
+        "level": 75,
+        "move": "Dernier Mot"
+      },
+      {
+        "level": 80,
+        "move": "Repos"
+      },
+      {
+        "level": 80,
+        "move": "Blabla Dodo"
+      },
+      {
+        "level": 85,
+        "move": "Tout ou Rien"
+      },
+      {
+        "level": 90,
+        "move": "Propulsion"
+      },
+      {
+        "level": 95,
+        "move": "Dernier Chant"
+      },
+      {
+        "level": 100,
+        "move": "Vent Arrière"
+      }
+    ],
+    "egg_moves": [
+      "Requiem",
+      "Ailes Vives",
+      "Chant Antique"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Plume Tapatoes"
+  },
+  {
+    "name": "Tapatoès",
+    "types": [
+      "Vol",
+      "Sonore"
+    ],
+    "abilities": [
+      "Cran"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Ces Pokémon préfèrent vivre en ville. Ils forment des groupes selon la couleur de leur plumage et se livrent à des luttes de territoire.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Picpic"
+      },
+      {
+        "level": 1,
+        "move": "Rugissement"
+      },
+      {
+        "level": 5,
+        "move": "Copie"
+      },
+      {
+        "level": 7,
+        "move": "Vive-Attaque"
+      },
+      {
+        "level": 10,
+        "move": "Tourmente"
+      },
+      {
+        "level": 13,
+        "move": "Aéropique"
+      },
+      {
+        "level": 17,
+        "move": "Furie"
+      },
+      {
+        "level": 21,
+        "move": "Provoc"
+      },
+      {
+        "level": 25,
+        "move": "Brouhaha"
+      },
+      {
+        "level": 29,
+        "move": "Photocopie"
+      },
+      {
+        "level": 33,
+        "move": "Bec Vrille"
+      },
+      {
+        "level": 37,
+        "move": "Babil"
+      },
+      {
+        "level": 41,
+        "move": "Façade"
+      },
+      {
+        "level": 46,
+        "move": "Cataclysme"
+      },
+      {
+        "level": 50,
+        "move": "Turbo Impulsion"
+      },
+      {
+        "level": 54,
+        "move": "Contre"
+      },
+      {
+        "level": 58,
+        "move": "Aéro Ball"
+      },
+      {
+        "level": 62,
+        "move": "Atterrissage"
+      },
+      {
+        "level": 66,
+        "move": "Flatterie"
+      },
+      {
+        "level": 70,
+        "move": "Damoclès"
+      },
+      {
+        "level": 75,
+        "move": "Dernier Mot"
+      },
+      {
+        "level": 80,
+        "move": "Repos"
+      },
+      {
+        "level": 80,
+        "move": "Blabla Dodo"
+      },
+      {
+        "level": 85,
+        "move": "Tout ou Rien"
+      },
+      {
+        "level": 90,
+        "move": "Propulsion"
+      },
+      {
+        "level": 95,
+        "move": "Dernier Chant"
+      },
+      {
+        "level": 100,
+        "move": "Vent Arrière"
+      }
+    ],
+    "egg_moves": [
+      "Requiem",
+      "Ailes Vives",
+      "Chant Antique"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Plume Tapatoes"
+  },
+  {
+    "name": "Tapatoès",
+    "types": [
+      "Vol",
+      "Sonore"
+    ],
+    "abilities": [
+      "Cran"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Ces Pokémon préfèrent vivre en ville. Ils forment des groupes selon la couleur de leur plumage et se livrent à des luttes de territoire.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Picpic"
+      },
+      {
+        "level": 1,
+        "move": "Rugissement"
+      },
+      {
+        "level": 5,
+        "move": "Copie"
+      },
+      {
+        "level": 7,
+        "move": "Vive-Attaque"
+      },
+      {
+        "level": 10,
+        "move": "Tourmente"
+      },
+      {
+        "level": 13,
+        "move": "Aéropique"
+      },
+      {
+        "level": 17,
+        "move": "Furie"
+      },
+      {
+        "level": 21,
+        "move": "Provoc"
+      },
+      {
+        "level": 25,
+        "move": "Brouhaha"
+      },
+      {
+        "level": 29,
+        "move": "Photocopie"
+      },
+      {
+        "level": 33,
+        "move": "Bec Vrille"
+      },
+      {
+        "level": 37,
+        "move": "Babil"
+      },
+      {
+        "level": 41,
+        "move": "Façade"
+      },
+      {
+        "level": 46,
+        "move": "Cataclysme"
+      },
+      {
+        "level": 50,
+        "move": "Turbo Impulsion"
+      },
+      {
+        "level": 54,
+        "move": "Contre"
+      },
+      {
+        "level": 58,
+        "move": "Aéro Ball"
+      },
+      {
+        "level": 62,
+        "move": "Atterrissage"
+      },
+      {
+        "level": 66,
+        "move": "Flatterie"
+      },
+      {
+        "level": 70,
+        "move": "Damoclès"
+      },
+      {
+        "level": 75,
+        "move": "Dernier Mot"
+      },
+      {
+        "level": 80,
+        "move": "Repos"
+      },
+      {
+        "level": 80,
+        "move": "Blabla Dodo"
+      },
+      {
+        "level": 85,
+        "move": "Tout ou Rien"
+      },
+      {
+        "level": 90,
+        "move": "Propulsion"
+      },
+      {
+        "level": 95,
+        "move": "Dernier Chant"
+      },
+      {
+        "level": 100,
+        "move": "Vent Arrière"
+      }
+    ],
+    "egg_moves": [
+      "Requiem",
+      "Ailes Vives",
+      "Chant Antique"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Plume Tapatoes"
+  },
+  {
+    "name": "Tauros",
+    "types": [
+      "Combat",
+      "Feu"
+    ],
+    "abilities": [
+      "Intimidation",
+      "Colerique"
+    ],
+    "hidden_ability": "Ruminant",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Ses cornes atteignent les 1 000 °C lorsqu'elles sont chauffées par énergie incandescente. Elles infligent blessures et brûlures à ses adversaires.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Râle Mâle"
+      },
+      {
+        "level": 5,
+        "move": "Rengorgement"
+      },
+      {
+        "level": 7,
+        "move": "Écrasement"
+      },
+      {
+        "level": 10,
+        "move": "Double Pied"
+      },
+      {
+        "level": 13,
+        "move": "Beuglement"
+      },
+      {
+        "level": 17,
+        "move": "Cataclysme"
+      },
+      {
+        "level": 21,
+        "move": "Corne Brûlante"
+      },
+      {
+        "level": 25,
+        "move": "Triple Charge"
+      },
+      {
+        "level": 29,
+        "move": "Psykoud'Boul"
+      },
+      {
+        "level": 33,
+        "move": "Tacle Brutal"
+      },
+      {
+        "level": 37,
+        "move": "Taurogne2"
+      },
+      {
+        "level": 41,
+        "move": "Damoclès"
+      },
+      {
+        "level": 46,
+        "move": "Estocorne"
+      },
+      {
+        "level": 50,
+        "move": "Close Combat"
+      },
+      {
+        "level": 54,
+        "move": "Rage Brûlante"
+      },
+      {
+        "level": 58,
+        "move": "Repos"
+      },
+      {
+        "level": 58,
+        "move": "Blabla Dodo"
+      },
+      {
+        "level": 62,
+        "move": "Effort"
+      },
+      {
+        "level": 66,
+        "move": "Mégacorne"
+      },
+      {
+        "level": 70,
+        "move": "Mania"
+      },
+      {
+        "level": 75,
+        "move": "Choc Frontal"
+      },
+      {
+        "level": 80,
+        "move": "Boutefeu"
+      },
+      {
+        "level": 85,
+        "move": "Fracass'Tête"
+      },
+      {
+        "level": 90,
+        "move": "Barrage"
+      },
+      {
+        "level": 95,
+        "move": "Coud'Krâne"
+      },
+      {
+        "level": 100,
+        "move": "Colère"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Poils Tauros"
+  },
+  {
+    "name": "Tauros",
+    "types": [
+      "Combat",
+      "Eau"
+    ],
+    "abilities": [
+      "Intimidation",
+      "Colerique"
+    ],
+    "hidden_ability": "Ruminant",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il expulse de l'eau à haute pression par le trou situé à l'extrémité de ses cornes. Ces jets d'eau transpercent ses adversaires.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Râle Mâle"
+      },
+      {
+        "level": 5,
+        "move": "Rengorgement"
+      },
+      {
+        "level": 7,
+        "move": "Écrasement"
+      },
+      {
+        "level": 10,
+        "move": "Double Pied"
+      },
+      {
+        "level": 13,
+        "move": "Beuglement"
+      },
+      {
+        "level": 17,
+        "move": "Cataclysme"
+      },
+      {
+        "level": 21,
+        "move": "Aqua Impact"
+      },
+      {
+        "level": 25,
+        "move": "Triple Charge"
+      },
+      {
+        "level": 29,
+        "move": "Psykoud'Boul"
+      },
+      {
+        "level": 33,
+        "move": "Tacle Brutal"
+      },
+      {
+        "level": 37,
+        "move": "Taurogne3"
+      },
+      {
+        "level": 41,
+        "move": "Damoclès"
+      },
+      {
+        "level": 46,
+        "move": "Estocorne"
+      },
+      {
+        "level": 50,
+        "move": "Close Combat"
+      },
+      {
+        "level": 54,
+        "move": "Aquatacle"
+      },
+      {
+        "level": 58,
+        "move": "Repos"
+      },
+      {
+        "level": 58,
+        "move": "Blabla Dodo"
+      },
+      {
+        "level": 62,
+        "move": "Effort"
+      },
+      {
+        "level": 66,
+        "move": "Mégacorne"
+      },
+      {
+        "level": 70,
+        "move": "Mania"
+      },
+      {
+        "level": 75,
+        "move": "Choc Frontal"
+      },
+      {
+        "level": 80,
+        "move": "Hydro Ravage"
+      },
+      {
+        "level": 85,
+        "move": "Fracass'Tête"
+      },
+      {
+        "level": 90,
+        "move": "Barrage"
+      },
+      {
+        "level": 95,
+        "move": "Coud'Krâne"
+      },
+      {
+        "level": 100,
+        "move": "Colère"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Poils Tauros"
+  },
+  {
+    "name": "Nigirigon",
+    "types": [
+      "Eau",
+      "Elastik"
+    ],
+    "abilities": [
+      "Commandant"
+    ],
+    "hidden_ability": "Lavabo",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Ce Pokémon trompe ses adversaires en faisant le mort. Malgré sa petite taille et sa faiblesse, il parvient à survivre grâce à son intelligence.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Pistolet à O"
+      },
+      {
+        "level": 1,
+        "move": "Trempette"
+      },
+      {
+        "level": 5,
+        "move": "Bâillement"
+      },
+      {
+        "level": 7,
+        "move": "Constriction"
+      },
+      {
+        "level": 10,
+        "move": "Coup d'Main"
+      },
+      {
+        "level": 13,
+        "move": "Vibraqua"
+      },
+      {
+        "level": 17,
+        "move": "Détrempage"
+      },
+      {
+        "level": 21,
+        "move": "Enroulement"
+      },
+      {
+        "level": 25,
+        "move": "Eau Revoir"
+      },
+      {
+        "level": 29,
+        "move": "Provoc"
+      },
+      {
+        "level": 33,
+        "move": "Éclate Queue"
+      },
+      {
+        "level": 37,
+        "move": "Machination"
+      },
+      {
+        "level": 41,
+        "move": "Voile Miroir"
+      },
+      {
+        "level": 46,
+        "move": "Souplesse"
+      },
+      {
+        "level": 50,
+        "move": "Hydro-Queue"
+      },
+      {
+        "level": 54,
+        "move": "Ocroupi"
+      },
+      {
+        "level": 58,
+        "move": "Ébullition"
+      },
+      {
+        "level": 62,
+        "move": "Danse Pluie"
+      },
+      {
+        "level": 66,
+        "move": "Riposte"
+      },
+      {
+        "level": 70,
+        "move": "Xxx"
+      },
+      {
+        "level": 75,
+        "move": "Aqua-Douche"
+      },
+      {
+        "level": 80,
+        "move": "Relais"
+      },
+      {
+        "level": 85,
+        "move": "Tir de Précision"
+      },
+      {
+        "level": 90,
+        "move": "Queue Destructrice"
+      },
+      {
+        "level": 95,
+        "move": "Nappage"
+      },
+      {
+        "level": 100,
+        "move": "Hydrocanon"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Écaille Nigirigon"
+  },
+  {
+    "name": "Nigirigon",
+    "types": [
+      "Eau",
+      "Dragon"
+    ],
+    "abilities": [
+      "Commandant"
+    ],
+    "hidden_ability": "Lavabo",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "C'est l'un des Pokémon Dragon les plus intelligents. Il se camoufle en faisant gonfler son sac gulaire.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Pistolet à O"
+      },
+      {
+        "level": 1,
+        "move": "Trempette"
+      },
+      {
+        "level": 5,
+        "move": "Bâillement"
+      },
+      {
+        "level": 7,
+        "move": "Queue Battoir"
+      },
+      {
+        "level": 10,
+        "move": "Coup d'Main"
+      },
+      {
+        "level": 13,
+        "move": "Vibraqua"
+      },
+      {
+        "level": 17,
+        "move": "Détrempage"
+      },
+      {
+        "level": 21,
+        "move": "Dracoud'Boule"
+      },
+      {
+        "level": 25,
+        "move": "Eau Revoir"
+      },
+      {
+        "level": 29,
+        "move": "Provoc"
+      },
+      {
+        "level": 33,
+        "move": "Draco-Queue"
+      },
+      {
+        "level": 37,
+        "move": "Machination"
+      },
+      {
+        "level": 41,
+        "move": "Voile Miroir"
+      },
+      {
+        "level": 46,
+        "move": "Draco-Choc"
+      },
+      {
+        "level": 50,
+        "move": "Hydro-Queue"
+      },
+      {
+        "level": 54,
+        "move": "Ocroupi"
+      },
+      {
+        "level": 58,
+        "move": "Ébullition"
+      },
+      {
+        "level": 62,
+        "move": "Danse Pluie"
+      },
+      {
+        "level": 66,
+        "move": "Riposte"
+      },
+      {
+        "level": 70,
+        "move": "Draco-Charge"
+      },
+      {
+        "level": 75,
+        "move": "Aqua-Douche"
+      },
+      {
+        "level": 80,
+        "move": "Relais"
+      },
+      {
+        "level": 85,
+        "move": "Tir de Précision"
+      },
+      {
+        "level": 90,
+        "move": "Colère"
+      },
+      {
+        "level": 95,
+        "move": "Danse Draco"
+      },
+      {
+        "level": 100,
+        "move": "Hydrocanon"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Écaille Nigirigon"
+  },
+  {
+    "name": "Souchtache",
+    "types": [
+      "Bois"
+    ],
+    "abilities": [
+      "Espritvital"
+    ],
+    "hidden_ability": "Suintement",
+    "evolution": "Évolue en Augustache au niveau 40",
+    "evolutions_detailed": [
+      {
+        "target_token": "AUGUSTACHE_ETE",
+        "target_name": "Augustache",
+        "method": "Level",
+        "level": 40,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Son chapeau de feuilles rouges capte la lumière et stocke l'énergie. Il libère une odeur boisée pour appeler ses semblables lorsqu'il est menacé.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Ronce"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Patience"
+      },
+      {
+        "level": 7,
+        "move": "Feuillage"
+      },
+      {
+        "level": 10,
+        "move": "Gourdin"
+      },
+      {
+        "level": 13,
+        "move": "Lumi'Charge"
+      },
+      {
+        "level": 17,
+        "move": "Ténacité"
+      },
+      {
+        "level": 21,
+        "move": "Strangloronce"
+      },
+      {
+        "level": 25,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 29,
+        "move": "Croissance"
+      },
+      {
+        "level": 33,
+        "move": "Je de Rondin"
+      },
+      {
+        "level": 37,
+        "move": "Efflorescence"
+      },
+      {
+        "level": 41,
+        "move": "Radiance"
+      },
+      {
+        "level": 46,
+        "move": "Écorce"
+      },
+      {
+        "level": 50,
+        "move": "Floraison"
+      },
+      {
+        "level": 54,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 58,
+        "move": "Vole-Force"
+      },
+      {
+        "level": 62,
+        "move": "Lance-Soleil"
+      },
+      {
+        "level": 66,
+        "move": "Picots"
+      },
+      {
+        "level": 70,
+        "move": "Ronce Massive"
+      },
+      {
+        "level": 75,
+        "move": "Martelage"
+      },
+      {
+        "level": 80,
+        "move": "Esprit Sylvestre"
+      },
+      {
+        "level": 85,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 90,
+        "move": "Garde Large"
+      },
+      {
+        "level": 95,
+        "move": "Halo Curatif"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Écorce Souchtache"
+  },
+  {
+    "name": "Augustache",
+    "types": [
+      "Bois",
+      "Solaire"
+    ],
+    "abilities": [
+      "Absenteisme"
+    ],
+    "hidden_ability": "Absenteisme",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il est le gardien des forêts anciennes. Ses épaisses frondaisons peuvent étouffer les sons alentours, lui permettant de se venger de ceux qui osent profaner son territoire.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Ronce"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Patience"
+      },
+      {
+        "level": 7,
+        "move": "Feuillage"
+      },
+      {
+        "level": 10,
+        "move": "Gourdin"
+      },
+      {
+        "level": 13,
+        "move": "Lumi'Charge"
+      },
+      {
+        "level": 17,
+        "move": "Ténacité"
+      },
+      {
+        "level": 21,
+        "move": "Strangloronce"
+      },
+      {
+        "level": 25,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 29,
+        "move": "Croissance"
+      },
+      {
+        "level": 33,
+        "move": "Je de Rondin"
+      },
+      {
+        "level": 37,
+        "move": "Efflorescence"
+      },
+      {
+        "level": 41,
+        "move": "Radiance"
+      },
+      {
+        "level": 46,
+        "move": "Écorce"
+      },
+      {
+        "level": 50,
+        "move": "Floraison"
+      },
+      {
+        "level": 54,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 58,
+        "move": "Vole-Force"
+      },
+      {
+        "level": 62,
+        "move": "Lance-Soleil"
+      },
+      {
+        "level": 66,
+        "move": "Picots"
+      },
+      {
+        "level": 70,
+        "move": "Ronce Massive"
+      },
+      {
+        "level": 75,
+        "move": "Martelage"
+      },
+      {
+        "level": 80,
+        "move": "Esprit Sylvestre"
+      },
+      {
+        "level": 85,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 90,
+        "move": "Garde Large"
+      },
+      {
+        "level": 95,
+        "move": "Halo Curatif"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Souchtache",
+    "types": [
+      "Bois"
+    ],
+    "abilities": [
+      "Espritvital"
+    ],
+    "hidden_ability": "Suintement",
+    "evolution": "Évolue en Augustache au niveau 40",
+    "evolutions_detailed": [
+      {
+        "target_token": "AUGUSTACHE_AUT",
+        "target_name": "Augustache",
+        "method": "Level",
+        "level": 40,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Son chapeau de feuilles rouges capte la lumière et stocke l'énergie. Il libère une odeur boisée pour appeler ses semblables lorsqu'il est menacé.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Ronce"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Patience"
+      },
+      {
+        "level": 7,
+        "move": "Feuillage"
+      },
+      {
+        "level": 10,
+        "move": "Gourdin"
+      },
+      {
+        "level": 13,
+        "move": "Choc Temporel"
+      },
+      {
+        "level": 17,
+        "move": "Ténacité"
+      },
+      {
+        "level": 21,
+        "move": "Strangloronce"
+      },
+      {
+        "level": 25,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 29,
+        "move": "Entrave"
+      },
+      {
+        "level": 33,
+        "move": "Je de Rondin"
+      },
+      {
+        "level": 37,
+        "move": "Efflorescence"
+      },
+      {
+        "level": 41,
+        "move": "Sablier"
+      },
+      {
+        "level": 46,
+        "move": "Écorce"
+      },
+      {
+        "level": 50,
+        "move": "Floraison"
+      },
+      {
+        "level": 54,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 58,
+        "move": "Vole-Force"
+      },
+      {
+        "level": 62,
+        "move": "Horloge"
+      },
+      {
+        "level": 66,
+        "move": "Picots"
+      },
+      {
+        "level": 70,
+        "move": "Ronce Massive"
+      },
+      {
+        "level": 75,
+        "move": "Martelage"
+      },
+      {
+        "level": 80,
+        "move": "Esprit Sylvestre"
+      },
+      {
+        "level": 85,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 90,
+        "move": "Garde Large"
+      },
+      {
+        "level": 95,
+        "move": "Post Attaque"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Écorce Souchtache"
+  },
+  {
+    "name": "Augustache",
+    "types": [
+      "Bois",
+      "Temporel"
+    ],
+    "abilities": [
+      "Absenteisme"
+    ],
+    "hidden_ability": "Absenteisme",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il est le gardien des forêts anciennes. Ses épaisses frondaisons peuvent étouffer les sons alentours, lui permettant de se venger de ceux qui osent profaner son territoire.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Ronce"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Patience"
+      },
+      {
+        "level": 7,
+        "move": "Feuillage"
+      },
+      {
+        "level": 10,
+        "move": "Gourdin"
+      },
+      {
+        "level": 13,
+        "move": "Choc Temporel"
+      },
+      {
+        "level": 17,
+        "move": "Ténacité"
+      },
+      {
+        "level": 21,
+        "move": "Strangloronce"
+      },
+      {
+        "level": 25,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 29,
+        "move": "Entrave"
+      },
+      {
+        "level": 33,
+        "move": "Je de Rondin"
+      },
+      {
+        "level": 37,
+        "move": "Efflorescence"
+      },
+      {
+        "level": 41,
+        "move": "Sablier"
+      },
+      {
+        "level": 46,
+        "move": "Écorce"
+      },
+      {
+        "level": 50,
+        "move": "Floraison"
+      },
+      {
+        "level": 54,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 58,
+        "move": "Vole-Force"
+      },
+      {
+        "level": 62,
+        "move": "Horloge"
+      },
+      {
+        "level": 66,
+        "move": "Picots"
+      },
+      {
+        "level": 70,
+        "move": "Ronce Massive"
+      },
+      {
+        "level": 75,
+        "move": "Martelage"
+      },
+      {
+        "level": 80,
+        "move": "Esprit Sylvestre"
+      },
+      {
+        "level": 85,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 90,
+        "move": "Garde Large"
+      },
+      {
+        "level": 95,
+        "move": "Post Attaque"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Souchtache",
+    "types": [
+      "Bois"
+    ],
+    "abilities": [
+      "Espritvital"
+    ],
+    "hidden_ability": "Suintement",
+    "evolution": "Évolue en Augustache au niveau 40",
+    "evolutions_detailed": [
+      {
+        "target_token": "AUGUSTACHE_HIV",
+        "target_name": "Augustache",
+        "method": "Level",
+        "level": 40,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Son chapeau de feuilles rouges capte la lumière et stocke l'énergie. Il libère une odeur boisée pour appeler ses semblables lorsqu'il est menacé.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Ronce"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Patience"
+      },
+      {
+        "level": 7,
+        "move": "Feuillage"
+      },
+      {
+        "level": 10,
+        "move": "Gourdin"
+      },
+      {
+        "level": 13,
+        "move": "Tir de Neige"
+      },
+      {
+        "level": 17,
+        "move": "Ténacité"
+      },
+      {
+        "level": 21,
+        "move": "Strangloronce"
+      },
+      {
+        "level": 25,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 29,
+        "move": "Refroidissement"
+      },
+      {
+        "level": 33,
+        "move": "Je de Rondin"
+      },
+      {
+        "level": 37,
+        "move": "Efflorescence"
+      },
+      {
+        "level": 41,
+        "move": "Avalanche"
+      },
+      {
+        "level": 46,
+        "move": "Écorce"
+      },
+      {
+        "level": 50,
+        "move": "Floraison"
+      },
+      {
+        "level": 54,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 58,
+        "move": "Vole-Force"
+      },
+      {
+        "level": 62,
+        "move": "Vague de Froid"
+      },
+      {
+        "level": 66,
+        "move": "Picots"
+      },
+      {
+        "level": 70,
+        "move": "Ronce Massive"
+      },
+      {
+        "level": 75,
+        "move": "Martelage"
+      },
+      {
+        "level": 80,
+        "move": "Esprit Sylvestre"
+      },
+      {
+        "level": 85,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 90,
+        "move": "Garde Large"
+      },
+      {
+        "level": 95,
+        "move": "Froid Austral"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Écorce Souchtache"
+  },
+  {
+    "name": "Augustache",
+    "types": [
+      "Bois",
+      "Neige"
+    ],
+    "abilities": [
+      "Absenteisme"
+    ],
+    "hidden_ability": "Absenteisme",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il est le gardien des forêts anciennes. Ses épaisses frondaisons peuvent étouffer les sons alentours, lui permettant de se venger de ceux qui osent profaner son territoire.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Ronce"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Patience"
+      },
+      {
+        "level": 7,
+        "move": "Feuillage"
+      },
+      {
+        "level": 10,
+        "move": "Gourdin"
+      },
+      {
+        "level": 13,
+        "move": "Tir de Neige"
+      },
+      {
+        "level": 17,
+        "move": "Ténacité"
+      },
+      {
+        "level": 21,
+        "move": "Strangloronce"
+      },
+      {
+        "level": 25,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 29,
+        "move": "Refroidissement"
+      },
+      {
+        "level": 33,
+        "move": "Je de Rondin"
+      },
+      {
+        "level": 37,
+        "move": "Efflorescence"
+      },
+      {
+        "level": 41,
+        "move": "Avalanche"
+      },
+      {
+        "level": 46,
+        "move": "Écorce"
+      },
+      {
+        "level": 50,
+        "move": "Floraison"
+      },
+      {
+        "level": 54,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 58,
+        "move": "Vole-Force"
+      },
+      {
+        "level": 62,
+        "move": "Vague de Froid"
+      },
+      {
+        "level": 66,
+        "move": "Picots"
+      },
+      {
+        "level": 70,
+        "move": "Ronce Massive"
+      },
+      {
+        "level": 75,
+        "move": "Martelage"
+      },
+      {
+        "level": 80,
+        "move": "Esprit Sylvestre"
+      },
+      {
+        "level": 85,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 90,
+        "move": "Garde Large"
+      },
+      {
+        "level": 95,
+        "move": "Froid Austral"
+      },
+      {
+        "level": 100,
+        "move": "Ronce Ultime"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  }
+]

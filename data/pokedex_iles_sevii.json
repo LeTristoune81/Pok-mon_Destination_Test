@@ -1,0 +1,7184 @@
+[
+  {
+    "name": "Faupoizon",
+    "types": [
+      "Acier"
+    ],
+    "abilities": [
+      "Hypercutter",
+      "Armurbaston"
+    ],
+    "hidden_ability": "Agitation",
+    "evolution": "Évolue en Faurekin au niveau 32",
+    "evolutions_detailed": [
+      {
+        "target_token": "FAUREKIN",
+        "target_name": "Faurekin",
+        "method": "Level",
+        "level": 32,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il laisse sa tête sortir de l'eau pour surprendre ceux qui pensent y trouver un poisson sans défense.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Collision"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Écume"
+      },
+      {
+        "level": 7,
+        "move": "Aqua Jet"
+      },
+      {
+        "level": 10,
+        "move": "Poursuite"
+      },
+      {
+        "level": 13,
+        "move": "Aileron Rasoir"
+      },
+      {
+        "level": 17,
+        "move": "Branchicrok"
+      },
+      {
+        "level": 21,
+        "move": "Tour Rapide"
+      },
+      {
+        "level": 25,
+        "move": "Embargo"
+      },
+      {
+        "level": 29,
+        "move": "Répercu'Son"
+      },
+      {
+        "level": 33,
+        "move": "Lame Siphon"
+      },
+      {
+        "level": 37,
+        "move": "Grincement"
+      },
+      {
+        "level": 41,
+        "move": "Maxi Vrille"
+      },
+      {
+        "level": 46,
+        "move": "Lacération"
+      },
+      {
+        "level": 50,
+        "move": "Exécu-Son"
+      },
+      {
+        "level": 54,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 58,
+        "move": "Tranche"
+      },
+      {
+        "level": 62,
+        "move": "Déferlante"
+      },
+      {
+        "level": 66,
+        "move": "Souplesse"
+      },
+      {
+        "level": 70,
+        "move": "Machination"
+      },
+      {
+        "level": 75,
+        "move": "Lame Ultime"
+      },
+      {
+        "level": 80,
+        "move": "Change Vitesse"
+      },
+      {
+        "level": 85,
+        "move": "Lame Pélagique"
+      },
+      {
+        "level": 90,
+        "move": "Choc Frontal"
+      },
+      {
+        "level": 95,
+        "move": "Lame Sainte"
+      },
+      {
+        "level": 100,
+        "move": "Lame Vertueuse"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Aileron Faupoizon"
+  },
+  {
+    "name": "Faurekin",
+    "types": [
+      "Acier"
+    ],
+    "abilities": [
+      "Hypercutter",
+      "Armurbaston"
+    ],
+    "hidden_ability": "Agitation",
+    "evolution": "Évolue en Tachizon au niveau 48",
+    "evolutions_detailed": [
+      {
+        "target_token": "TACHIZON",
+        "target_name": "Tachizon",
+        "method": "Level",
+        "level": 48,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il laisse son aileron sortir de l'eau pour faire peur aux Pokémon alentours. On le confond avec un Shaperdo.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Collision"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Écume"
+      },
+      {
+        "level": 7,
+        "move": "Aqua Jet"
+      },
+      {
+        "level": 10,
+        "move": "Poursuite"
+      },
+      {
+        "level": 13,
+        "move": "Aileron Rasoir"
+      },
+      {
+        "level": 17,
+        "move": "Branchicrok"
+      },
+      {
+        "level": 21,
+        "move": "Tour Rapide"
+      },
+      {
+        "level": 25,
+        "move": "Embargo"
+      },
+      {
+        "level": 29,
+        "move": "Répercu'Son"
+      },
+      {
+        "level": 33,
+        "move": "Lame Siphon"
+      },
+      {
+        "level": 37,
+        "move": "Grincement"
+      },
+      {
+        "level": 41,
+        "move": "Maxi Vrille"
+      },
+      {
+        "level": 46,
+        "move": "Lacération"
+      },
+      {
+        "level": 50,
+        "move": "Exécu-Son"
+      },
+      {
+        "level": 54,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 58,
+        "move": "Tranche"
+      },
+      {
+        "level": 62,
+        "move": "Déferlante"
+      },
+      {
+        "level": 66,
+        "move": "Souplesse"
+      },
+      {
+        "level": 70,
+        "move": "Machination"
+      },
+      {
+        "level": 75,
+        "move": "Lame Ultime"
+      },
+      {
+        "level": 80,
+        "move": "Change Vitesse"
+      },
+      {
+        "level": 85,
+        "move": "Lame Pélagique"
+      },
+      {
+        "level": 90,
+        "move": "Choc Frontal"
+      },
+      {
+        "level": 95,
+        "move": "Lame Sainte"
+      },
+      {
+        "level": 100,
+        "move": "Lame Vertueuse"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Tachizon",
+    "types": [
+      "Acier",
+      "Air"
+    ],
+    "abilities": [
+      "Hypercutter",
+      "Armurbaston"
+    ],
+    "hidden_ability": "Agitation",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Son sabre n'est pas relié à son corps mais il a été créé avec l'un de ses os.",
+    "level_up": [
+      {
+        "level": 0,
+        "move": "Lame d'Air"
+      },
+      {
+        "level": 1,
+        "move": "Collision"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Écume"
+      },
+      {
+        "level": 7,
+        "move": "Aqua Jet"
+      },
+      {
+        "level": 10,
+        "move": "Poursuite"
+      },
+      {
+        "level": 13,
+        "move": "Aileron Rasoir"
+      },
+      {
+        "level": 17,
+        "move": "Branchicrok"
+      },
+      {
+        "level": 21,
+        "move": "Tour Rapide"
+      },
+      {
+        "level": 25,
+        "move": "Embargo"
+      },
+      {
+        "level": 29,
+        "move": "Répercu'Son"
+      },
+      {
+        "level": 33,
+        "move": "Lame Siphon"
+      },
+      {
+        "level": 37,
+        "move": "Grincement"
+      },
+      {
+        "level": 41,
+        "move": "Maxi Vrille"
+      },
+      {
+        "level": 46,
+        "move": "Lacération"
+      },
+      {
+        "level": 50,
+        "move": "Exécu-Son"
+      },
+      {
+        "level": 54,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 58,
+        "move": "Tranche"
+      },
+      {
+        "level": 62,
+        "move": "Déferlante"
+      },
+      {
+        "level": 66,
+        "move": "Souplesse"
+      },
+      {
+        "level": 70,
+        "move": "Machination"
+      },
+      {
+        "level": 75,
+        "move": "Lame Ultime"
+      },
+      {
+        "level": 80,
+        "move": "Change Vitesse"
+      },
+      {
+        "level": 85,
+        "move": "Lame Pélagique"
+      },
+      {
+        "level": 90,
+        "move": "Choc Frontal"
+      },
+      {
+        "level": 95,
+        "move": "Lame Sainte"
+      },
+      {
+        "level": 100,
+        "move": "Lame Vertueuse"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Tikiri",
+    "types": [
+      "Combat",
+      "Bois"
+    ],
+    "abilities": [
+      "Fouille",
+      "Regardvif"
+    ],
+    "hidden_ability": "Pression",
+    "evolution": "Évolue en Vodkiri au niveau 32",
+    "evolutions_detailed": [
+      {
+        "target_token": "VODKIRI",
+        "target_name": "Vodkiri",
+        "method": "Level",
+        "level": 32,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il grimpe sur les hauts arbres pour jeter toute sorte de chose qu'il trouve sur les passants. On l'entend souvent rire.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Frappe Timide"
+      },
+      {
+        "level": 1,
+        "move": "Rugissement"
+      },
+      {
+        "level": 5,
+        "move": "Tapotige"
+      },
+      {
+        "level": 7,
+        "move": "Cache-Cache"
+      },
+      {
+        "level": 10,
+        "move": "Larcin"
+      },
+      {
+        "level": 13,
+        "move": "Combo-Griffe"
+      },
+      {
+        "level": 17,
+        "move": "Reflet"
+      },
+      {
+        "level": 21,
+        "move": "Martelage"
+      },
+      {
+        "level": 25,
+        "move": "Poing Écorce"
+      },
+      {
+        "level": 29,
+        "move": "Détection"
+      },
+      {
+        "level": 33,
+        "move": "Canon Fibre"
+      },
+      {
+        "level": 37,
+        "move": "Ultimapoing"
+      },
+      {
+        "level": 41,
+        "move": "Stratopercut"
+      },
+      {
+        "level": 46,
+        "move": "Puissance"
+      },
+      {
+        "level": 50,
+        "move": "Martobois"
+      },
+      {
+        "level": 54,
+        "move": "Méga Lianes"
+      },
+      {
+        "level": 58,
+        "move": "Fouet Retour"
+      },
+      {
+        "level": 62,
+        "move": "Mania"
+      },
+      {
+        "level": 66,
+        "move": "Écorce"
+      },
+      {
+        "level": 70,
+        "move": "Vacarme"
+      },
+      {
+        "level": 75,
+        "move": "Dynamo-Poing"
+      },
+      {
+        "level": 80,
+        "move": "Courroux Jungle"
+      },
+      {
+        "level": 85,
+        "move": "Danse Folle"
+      },
+      {
+        "level": 90,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 95,
+        "move": "Fou Furax"
+      },
+      {
+        "level": 100,
+        "move": "Canon Graine"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Masque Tikiri"
+  },
+  {
+    "name": "Vodkiri",
+    "types": [
+      "Combat",
+      "Bois"
+    ],
+    "abilities": [
+      "Fouille",
+      "Regardvif"
+    ],
+    "hidden_ability": "Pression",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il n'est pas rare de croiser une meute de Vodkiri en train de danser autour d'un feu de camp abandonné.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Frappe Timide"
+      },
+      {
+        "level": 1,
+        "move": "Rugissement"
+      },
+      {
+        "level": 5,
+        "move": "Tapotige"
+      },
+      {
+        "level": 7,
+        "move": "Cache-Cache"
+      },
+      {
+        "level": 10,
+        "move": "Larcin"
+      },
+      {
+        "level": 13,
+        "move": "Combo-Griffe"
+      },
+      {
+        "level": 17,
+        "move": "Reflet"
+      },
+      {
+        "level": 21,
+        "move": "Martelage"
+      },
+      {
+        "level": 25,
+        "move": "Poing Écorce"
+      },
+      {
+        "level": 29,
+        "move": "Détection"
+      },
+      {
+        "level": 33,
+        "move": "Canon Fibre"
+      },
+      {
+        "level": 37,
+        "move": "Ultimapoing"
+      },
+      {
+        "level": 41,
+        "move": "Stratopercut"
+      },
+      {
+        "level": 46,
+        "move": "Puissance"
+      },
+      {
+        "level": 50,
+        "move": "Martobois"
+      },
+      {
+        "level": 54,
+        "move": "Méga Lianes"
+      },
+      {
+        "level": 58,
+        "move": "Fouet Retour"
+      },
+      {
+        "level": 62,
+        "move": "Mania"
+      },
+      {
+        "level": 66,
+        "move": "Écorce"
+      },
+      {
+        "level": 70,
+        "move": "Vacarme"
+      },
+      {
+        "level": 75,
+        "move": "Dynamo-Poing"
+      },
+      {
+        "level": 80,
+        "move": "Courroux Jungle"
+      },
+      {
+        "level": 85,
+        "move": "Danse Folle"
+      },
+      {
+        "level": 90,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 95,
+        "move": "Fou Furax"
+      },
+      {
+        "level": 100,
+        "move": "Canon Graine"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Campidon",
+    "types": [
+      "Marin",
+      "Feu"
+    ],
+    "abilities": [
+      "Jolisourire"
+    ],
+    "hidden_ability": "Moiteur",
+    "evolution": "Évolue en Camphrodite (LevelFemale, 37)",
+    "evolutions_detailed": [
+      {
+        "target_token": "CAMPHRODITE",
+        "target_name": "Camphrodite",
+        "method": "LevelFemale",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il passe son temps à charmer ses congénères pour trouver le parfait amour.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Écume"
+      },
+      {
+        "level": 1,
+        "move": "Crach'Fumée"
+      },
+      {
+        "level": 5,
+        "move": "Reflet"
+      },
+      {
+        "level": 7,
+        "move": "Charme"
+      },
+      {
+        "level": 10,
+        "move": "Trait Ardent"
+      },
+      {
+        "level": 13,
+        "move": "Bas-Fond"
+      },
+      {
+        "level": 17,
+        "move": "Écho"
+      },
+      {
+        "level": 21,
+        "move": "Danse Flammes"
+      },
+      {
+        "level": 25,
+        "move": "Séduction"
+      },
+      {
+        "level": 29,
+        "move": "Absorption"
+      },
+      {
+        "level": 33,
+        "move": "Hydratation"
+      },
+      {
+        "level": 37,
+        "move": "Trombe"
+      },
+      {
+        "level": 41,
+        "move": "Attraction"
+      },
+      {
+        "level": 46,
+        "move": "Lance-Flammes"
+      },
+      {
+        "level": 50,
+        "move": "Hydro-Éclat"
+      },
+      {
+        "level": 54,
+        "move": "Sérénade"
+      },
+      {
+        "level": 58,
+        "move": "Hâte"
+      },
+      {
+        "level": 62,
+        "move": "Chant Curatif"
+      },
+      {
+        "level": 66,
+        "move": "Déferl'Vague"
+      },
+      {
+        "level": 70,
+        "move": "Cacophonie"
+      },
+      {
+        "level": 75,
+        "move": "Déflagration"
+      },
+      {
+        "level": 80,
+        "move": "Regard Médusant"
+      },
+      {
+        "level": 85,
+        "move": "Canocéan"
+      },
+      {
+        "level": 90,
+        "move": "Éclat Fabuleux"
+      },
+      {
+        "level": 95,
+        "move": "Requiem"
+      },
+      {
+        "level": 100,
+        "move": "Déferlante"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Écaille Campidon"
+  },
+  {
+    "name": "Camphrodite",
+    "types": [
+      "Marin",
+      "Feu"
+    ],
+    "abilities": [
+      "Jolisourire"
+    ],
+    "hidden_ability": "Moiteur",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les Camphrodite aiment être entourée de Campidon mâles pour flatter leur égo.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Écume"
+      },
+      {
+        "level": 1,
+        "move": "Crach'Fumée"
+      },
+      {
+        "level": 5,
+        "move": "Reflet"
+      },
+      {
+        "level": 7,
+        "move": "Charme"
+      },
+      {
+        "level": 10,
+        "move": "Trait Ardent"
+      },
+      {
+        "level": 13,
+        "move": "Bas-Fond"
+      },
+      {
+        "level": 17,
+        "move": "Écho"
+      },
+      {
+        "level": 21,
+        "move": "Danse Flammes"
+      },
+      {
+        "level": 25,
+        "move": "Séduction"
+      },
+      {
+        "level": 29,
+        "move": "Absorption"
+      },
+      {
+        "level": 33,
+        "move": "Hydratation"
+      },
+      {
+        "level": 37,
+        "move": "Trombe"
+      },
+      {
+        "level": 41,
+        "move": "Attraction"
+      },
+      {
+        "level": 46,
+        "move": "Lance-Flammes"
+      },
+      {
+        "level": 50,
+        "move": "Hydro-Éclat"
+      },
+      {
+        "level": 54,
+        "move": "Sérénade"
+      },
+      {
+        "level": 58,
+        "move": "Hâte"
+      },
+      {
+        "level": 62,
+        "move": "Chant Curatif"
+      },
+      {
+        "level": 66,
+        "move": "Déferl'Vague"
+      },
+      {
+        "level": 70,
+        "move": "Cacophonie"
+      },
+      {
+        "level": 75,
+        "move": "Déflagration"
+      },
+      {
+        "level": 80,
+        "move": "Regard Médusant"
+      },
+      {
+        "level": 85,
+        "move": "Canocéan"
+      },
+      {
+        "level": 90,
+        "move": "Éclat Fabuleux"
+      },
+      {
+        "level": 95,
+        "move": "Requiem"
+      },
+      {
+        "level": 100,
+        "move": "Déferlante"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Sancoki",
+    "types": [
+      "Elastik",
+      "Sable"
+    ],
+    "abilities": [
+      "Glue",
+      "Lavabo"
+    ],
+    "hidden_ability": "Forcesable",
+    "evolution": "Évolue en Tritosor au niveau 30",
+    "evolutions_detailed": [
+      {
+        "target_token": "TRITOSOR_SEV",
+        "target_name": "Tritosor",
+        "method": "Level",
+        "level": 30,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Ce Pokemon très amical gîte dans les eaux chaudes des zones côtières. Peu farouche, il n'hésite pas à s'approcher, alors attention à ne pas finir recouvert de mucus gluant.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Crach'Sable"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Écume"
+      },
+      {
+        "level": 7,
+        "move": "Nappage"
+      },
+      {
+        "level": 10,
+        "move": "Régénération"
+      },
+      {
+        "level": 13,
+        "move": "Jet de Sable"
+      },
+      {
+        "level": 17,
+        "move": "Vibraqua"
+      },
+      {
+        "level": 21,
+        "move": "Langue Baveuse"
+      },
+      {
+        "level": 25,
+        "move": "Plaquage"
+      },
+      {
+        "level": 29,
+        "move": "Absorption"
+      },
+      {
+        "level": 33,
+        "move": "Telluriforce"
+      },
+      {
+        "level": 37,
+        "move": "Vibra Sable"
+      },
+      {
+        "level": 41,
+        "move": "Corps Gluant"
+      },
+      {
+        "level": 46,
+        "move": "Brise Marine"
+      },
+      {
+        "level": 50,
+        "move": "Canocéan"
+      },
+      {
+        "level": 54,
+        "move": "Souplesse"
+      },
+      {
+        "level": 58,
+        "move": "Souvenir"
+      },
+      {
+        "level": 62,
+        "move": "Soin"
+      },
+      {
+        "level": 66,
+        "move": "Bombe Sablée"
+      },
+      {
+        "level": 70,
+        "move": "Vague Étau"
+      },
+      {
+        "level": 75,
+        "move": "Pouvoir Antique"
+      },
+      {
+        "level": 80,
+        "move": "Typhon Pyrosable"
+      },
+      {
+        "level": 85,
+        "move": "Malléable"
+      },
+      {
+        "level": 90,
+        "move": "Impact"
+      },
+      {
+        "level": 95,
+        "move": "Plat"
+      },
+      {
+        "level": 100,
+        "move": "Tombeau"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Mucus Sancoki"
+  },
+  {
+    "name": "Tritosor",
+    "types": [
+      "Elastik",
+      "Sable"
+    ],
+    "abilities": [
+      "Glue",
+      "Lavabo"
+    ],
+    "hidden_ability": "Forcesable",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Son corps est caoutchouteux, mais très résistant, car la puissance des chocs qu’il subit se répand sur toute sa surface.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Crach'Sable"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Écume"
+      },
+      {
+        "level": 7,
+        "move": "Nappage"
+      },
+      {
+        "level": 10,
+        "move": "Régénération"
+      },
+      {
+        "level": 13,
+        "move": "Jet de Sable"
+      },
+      {
+        "level": 17,
+        "move": "Vibraqua"
+      },
+      {
+        "level": 21,
+        "move": "Langue Baveuse"
+      },
+      {
+        "level": 25,
+        "move": "Plaquage"
+      },
+      {
+        "level": 29,
+        "move": "Absorption"
+      },
+      {
+        "level": 33,
+        "move": "Telluriforce"
+      },
+      {
+        "level": 37,
+        "move": "Vibra Sable"
+      },
+      {
+        "level": 41,
+        "move": "Corps Gluant"
+      },
+      {
+        "level": 46,
+        "move": "Brise Marine"
+      },
+      {
+        "level": 50,
+        "move": "Canocéan"
+      },
+      {
+        "level": 54,
+        "move": "Souplesse"
+      },
+      {
+        "level": 58,
+        "move": "Souvenir"
+      },
+      {
+        "level": 62,
+        "move": "Soin"
+      },
+      {
+        "level": 66,
+        "move": "Bombe Sablée"
+      },
+      {
+        "level": 70,
+        "move": "Vague Étau"
+      },
+      {
+        "level": 75,
+        "move": "Pouvoir Antique"
+      },
+      {
+        "level": 80,
+        "move": "Typhon Pyrosable"
+      },
+      {
+        "level": 85,
+        "move": "Malléable"
+      },
+      {
+        "level": 90,
+        "move": "Impact"
+      },
+      {
+        "level": 95,
+        "move": "Plat"
+      },
+      {
+        "level": 100,
+        "move": "Tombeau"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Spongénith",
+    "types": [
+      "Roche",
+      "Solaire"
+    ],
+    "abilities": [
+      "Absorbeau"
+    ],
+    "hidden_ability": "Solideroc",
+    "evolution": "Évolue en Koranith au niveau 38",
+    "evolutions_detailed": [
+      {
+        "target_token": "KORANITH",
+        "target_name": "Koranith",
+        "method": "Level",
+        "level": 38,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il absorbe l'eau pour la réutiliser sous forme de puissantes attaques. Il reste immobile pendant des heures à tel point qu'on le confond souvent avec un rocher.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Force Poigne"
+      },
+      {
+        "level": 1,
+        "move": "Jet de Sable"
+      },
+      {
+        "level": 5,
+        "move": "Poigne Solide"
+      },
+      {
+        "level": 7,
+        "move": "Pince-Coupante"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Insolation"
+      },
+      {
+        "level": 17,
+        "move": "Tomberoche"
+      },
+      {
+        "level": 21,
+        "move": "Absorption"
+      },
+      {
+        "level": 25,
+        "move": "Brise Bastion"
+      },
+      {
+        "level": 29,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 33,
+        "move": "Percée"
+      },
+      {
+        "level": 37,
+        "move": "Saumure"
+      },
+      {
+        "level": 41,
+        "move": "Garde Large"
+      },
+      {
+        "level": 46,
+        "move": "Chute Minérale"
+      },
+      {
+        "level": 50,
+        "move": "Luminocanon"
+      },
+      {
+        "level": 54,
+        "move": "Pince-Masse"
+      },
+      {
+        "level": 58,
+        "move": "Mur Fumigène"
+      },
+      {
+        "level": 62,
+        "move": "Coup Perçant"
+      },
+      {
+        "level": 66,
+        "move": "Rengorgement"
+      },
+      {
+        "level": 70,
+        "move": "Pince Lourde"
+      },
+      {
+        "level": 75,
+        "move": "Tête Granit"
+      },
+      {
+        "level": 80,
+        "move": "Sabluraille"
+      },
+      {
+        "level": 85,
+        "move": "Apogée"
+      },
+      {
+        "level": 90,
+        "move": "Piège de Roc"
+      },
+      {
+        "level": 95,
+        "move": "Pince Corail"
+      },
+      {
+        "level": 100,
+        "move": "Poing Écrasant"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Sable Doux",
+      "uncommon": "Perle",
+      "rare": "Grande Perle"
+    },
+    "resource": "Éponge Spongénith"
+  },
+  {
+    "name": "Koranith",
+    "types": [
+      "Roche",
+      "Solaire"
+    ],
+    "abilities": [
+      "Absorbeau"
+    ],
+    "hidden_ability": "Solideroc",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "La roche qui le recouvre lui permet d'absorber l'eau à son contact. Ses fines pinces sont très coupantes!",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Force Poigne"
+      },
+      {
+        "level": 1,
+        "move": "Jet de Sable"
+      },
+      {
+        "level": 5,
+        "move": "Poigne Solide"
+      },
+      {
+        "level": 7,
+        "move": "Pince-Coupante"
+      },
+      {
+        "level": 10,
+        "move": "Abri"
+      },
+      {
+        "level": 13,
+        "move": "Insolation"
+      },
+      {
+        "level": 17,
+        "move": "Tomberoche"
+      },
+      {
+        "level": 21,
+        "move": "Absorption"
+      },
+      {
+        "level": 25,
+        "move": "Brise Bastion"
+      },
+      {
+        "level": 29,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 33,
+        "move": "Percée"
+      },
+      {
+        "level": 37,
+        "move": "Saumure"
+      },
+      {
+        "level": 41,
+        "move": "Garde Large"
+      },
+      {
+        "level": 46,
+        "move": "Chute Minérale"
+      },
+      {
+        "level": 50,
+        "move": "Luminocanon"
+      },
+      {
+        "level": 54,
+        "move": "Pince-Masse"
+      },
+      {
+        "level": 58,
+        "move": "Mur Fumigène"
+      },
+      {
+        "level": 62,
+        "move": "Coup Perçant"
+      },
+      {
+        "level": 66,
+        "move": "Rengorgement"
+      },
+      {
+        "level": 70,
+        "move": "Pince Lourde"
+      },
+      {
+        "level": 75,
+        "move": "Tête Granit"
+      },
+      {
+        "level": 80,
+        "move": "Sabluraille"
+      },
+      {
+        "level": 85,
+        "move": "Apogée"
+      },
+      {
+        "level": 90,
+        "move": "Piège de Roc"
+      },
+      {
+        "level": 95,
+        "move": "Pince Corail"
+      },
+      {
+        "level": 100,
+        "move": "Poing Écrasant"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Sable Doux",
+      "uncommon": "Grande Perle",
+      "rare": "Perle Triple"
+    }
+  },
+  {
+    "name": "Triscaille",
+    "types": [
+      "Marin"
+    ],
+    "abilities": [
+      "Glissade"
+    ],
+    "hidden_ability": "Turbo",
+    "evolution": "Évolue en Nagenbanc (HasInParty, TRISCAILLE)",
+    "evolutions_detailed": [
+      {
+        "target_token": "NAGENBANC",
+        "target_name": "Nagenbanc",
+        "method": "HasInParty",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "L'un des poissons du banc dirige le groupe. Il a tendance à être plus gros.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Triple Charge"
+      },
+      {
+        "level": 1,
+        "move": "Charme"
+      },
+      {
+        "level": 5,
+        "move": "Bas-Fond"
+      },
+      {
+        "level": 7,
+        "move": "Moi d'Abord"
+      },
+      {
+        "level": 10,
+        "move": "Écho"
+      },
+      {
+        "level": 13,
+        "move": "Branchicrok"
+      },
+      {
+        "level": 17,
+        "move": "Absorption"
+      },
+      {
+        "level": 21,
+        "move": "Hâte"
+      },
+      {
+        "level": 25,
+        "move": "Symbiose"
+      },
+      {
+        "level": 29,
+        "move": "Forte Houle"
+      },
+      {
+        "level": 33,
+        "move": "Chant Canon"
+      },
+      {
+        "level": 37,
+        "move": "Hydratation"
+      },
+      {
+        "level": 41,
+        "move": "Hydro-Éclat"
+      },
+      {
+        "level": 46,
+        "move": "Bélier"
+      },
+      {
+        "level": 50,
+        "move": "Séduction"
+      },
+      {
+        "level": 54,
+        "move": "Magnificience"
+      },
+      {
+        "level": 58,
+        "move": "Vague Étau"
+      },
+      {
+        "level": 62,
+        "move": "Chant Curatif"
+      },
+      {
+        "level": 66,
+        "move": "Saumure"
+      },
+      {
+        "level": 70,
+        "move": "Choc Émotionnel"
+      },
+      {
+        "level": 75,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 80,
+        "move": "Canocéan"
+      },
+      {
+        "level": 85,
+        "move": "Pouvoir Lunaire"
+      },
+      {
+        "level": 90,
+        "move": "Mégaphone"
+      },
+      {
+        "level": 95,
+        "move": "Bataille"
+      },
+      {
+        "level": 100,
+        "move": "Déferlante"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Écaille Triscaille"
+  },
+  {
+    "name": "Nagenbanc",
+    "types": [
+      "Marin"
+    ],
+    "abilities": [
+      "Glissade"
+    ],
+    "hidden_ability": "Oeilcompose",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il est entouré de nombreux Triscaille qui l'aident à se défendre en cas de danger.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Triple Charge"
+      },
+      {
+        "level": 1,
+        "move": "Charme"
+      },
+      {
+        "level": 5,
+        "move": "Bas-Fond"
+      },
+      {
+        "level": 7,
+        "move": "Moi d'Abord"
+      },
+      {
+        "level": 10,
+        "move": "Écho"
+      },
+      {
+        "level": 13,
+        "move": "Branchicrok"
+      },
+      {
+        "level": 17,
+        "move": "Absorption"
+      },
+      {
+        "level": 21,
+        "move": "Hâte"
+      },
+      {
+        "level": 25,
+        "move": "Symbiose"
+      },
+      {
+        "level": 29,
+        "move": "Forte Houle"
+      },
+      {
+        "level": 33,
+        "move": "Chant Canon"
+      },
+      {
+        "level": 37,
+        "move": "Hydratation"
+      },
+      {
+        "level": 41,
+        "move": "Hydro-Éclat"
+      },
+      {
+        "level": 46,
+        "move": "Bélier"
+      },
+      {
+        "level": 50,
+        "move": "Séduction"
+      },
+      {
+        "level": 54,
+        "move": "Magnificience"
+      },
+      {
+        "level": 58,
+        "move": "Vague Étau"
+      },
+      {
+        "level": 62,
+        "move": "Chant Curatif"
+      },
+      {
+        "level": 66,
+        "move": "Saumure"
+      },
+      {
+        "level": 70,
+        "move": "Choc Émotionnel"
+      },
+      {
+        "level": 75,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 80,
+        "move": "Canocéan"
+      },
+      {
+        "level": 85,
+        "move": "Pouvoir Lunaire"
+      },
+      {
+        "level": 90,
+        "move": "Mégaphone"
+      },
+      {
+        "level": 95,
+        "move": "Bataille"
+      },
+      {
+        "level": 100,
+        "move": "Déferlante"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Basalarve",
+    "types": [
+      "Insecte"
+    ],
+    "abilities": [
+      "Peaudure"
+    ],
+    "hidden_ability": "Armurbaston",
+    "evolution": "Évolue en Basaltide au niveau 25",
+    "evolutions_detailed": [
+      {
+        "target_token": "BASALTIDE",
+        "target_name": "Basaltide",
+        "method": "Level",
+        "level": 25,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "On le retrouve régulièrement sur les volcans où il ingurgite un maximum de chaleur.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Patience"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Harcèlement"
+      },
+      {
+        "level": 7,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 10,
+        "move": "Roulade"
+      },
+      {
+        "level": 13,
+        "move": "Roussi"
+      },
+      {
+        "level": 17,
+        "move": "Boul'Armure"
+      },
+      {
+        "level": 21,
+        "move": "Survinsecte"
+      },
+      {
+        "level": 25,
+        "move": "Force Cachée"
+      },
+      {
+        "level": 29,
+        "move": "Crach'Magma"
+      },
+      {
+        "level": 33,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 37,
+        "move": "Bombe Fendante"
+      },
+      {
+        "level": 41,
+        "move": "Bourdon"
+      },
+      {
+        "level": 46,
+        "move": "Hâte"
+      },
+      {
+        "level": 50,
+        "move": "Combustion"
+      },
+      {
+        "level": 54,
+        "move": "Sulfateuse"
+      },
+      {
+        "level": 58,
+        "move": "Rebond"
+      },
+      {
+        "level": 62,
+        "move": "Vampirisme"
+      },
+      {
+        "level": 66,
+        "move": "Nuée Ardente"
+      },
+      {
+        "level": 70,
+        "move": "Vortex Magma"
+      },
+      {
+        "level": 75,
+        "move": "Reflet"
+      },
+      {
+        "level": 80,
+        "move": "Propulsion"
+      },
+      {
+        "level": 85,
+        "move": "Canicule"
+      },
+      {
+        "level": 90,
+        "move": "Façade"
+      },
+      {
+        "level": 95,
+        "move": "Coupe-Vent"
+      },
+      {
+        "level": 100,
+        "move": "Ébullilave"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Carapace Basalarve"
+  },
+  {
+    "name": "Basaltide",
+    "types": [
+      "Insecte"
+    ],
+    "abilities": [
+      "Peaudure"
+    ],
+    "hidden_ability": "Armurbaston",
+    "evolution": "Évolue en Scaragma au niveau 35",
+    "evolutions_detailed": [
+      {
+        "target_token": "SCARAGMA",
+        "target_name": "Scaragma",
+        "method": "Level",
+        "level": 35,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il aime se fondre dans le sol fulminant des volcans pour augmenter la température de son corps, dans l'attente d'évoluer.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Patience"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Harcèlement"
+      },
+      {
+        "level": 7,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 10,
+        "move": "Roulade"
+      },
+      {
+        "level": 13,
+        "move": "Roussi"
+      },
+      {
+        "level": 17,
+        "move": "Boul'Armure"
+      },
+      {
+        "level": 21,
+        "move": "Survinsecte"
+      },
+      {
+        "level": 25,
+        "move": "Force Cachée"
+      },
+      {
+        "level": 29,
+        "move": "Crach'Magma"
+      },
+      {
+        "level": 33,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 37,
+        "move": "Bombe Fendante"
+      },
+      {
+        "level": 41,
+        "move": "Bourdon"
+      },
+      {
+        "level": 46,
+        "move": "Hâte"
+      },
+      {
+        "level": 50,
+        "move": "Combustion"
+      },
+      {
+        "level": 54,
+        "move": "Sulfateuse"
+      },
+      {
+        "level": 58,
+        "move": "Rebond"
+      },
+      {
+        "level": 62,
+        "move": "Vampirisme"
+      },
+      {
+        "level": 66,
+        "move": "Nuée Ardente"
+      },
+      {
+        "level": 70,
+        "move": "Vortex Magma"
+      },
+      {
+        "level": 75,
+        "move": "Reflet"
+      },
+      {
+        "level": 80,
+        "move": "Propulsion"
+      },
+      {
+        "level": 85,
+        "move": "Canicule"
+      },
+      {
+        "level": 90,
+        "move": "Façade"
+      },
+      {
+        "level": 95,
+        "move": "Coupe-Vent"
+      },
+      {
+        "level": 100,
+        "move": "Ébullilave"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Scaragma",
+    "types": [
+      "Insecte",
+      "Magma"
+    ],
+    "abilities": [
+      "Armumagma"
+    ],
+    "hidden_ability": "Armurbaston",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Son corps est insenssible à la chaleur. On le retrouve autour de la lave en fusion où il se réchauffe.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Patience"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Harcèlement"
+      },
+      {
+        "level": 7,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 10,
+        "move": "Roulade"
+      },
+      {
+        "level": 13,
+        "move": "Roussi"
+      },
+      {
+        "level": 17,
+        "move": "Boul'Armure"
+      },
+      {
+        "level": 21,
+        "move": "Survinsecte"
+      },
+      {
+        "level": 25,
+        "move": "Force Cachée"
+      },
+      {
+        "level": 29,
+        "move": "Crach'Magma"
+      },
+      {
+        "level": 33,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 37,
+        "move": "Bombe Fendante"
+      },
+      {
+        "level": 41,
+        "move": "Bourdon"
+      },
+      {
+        "level": 46,
+        "move": "Hâte"
+      },
+      {
+        "level": 50,
+        "move": "Combustion"
+      },
+      {
+        "level": 54,
+        "move": "Sulfateuse"
+      },
+      {
+        "level": 58,
+        "move": "Rebond"
+      },
+      {
+        "level": 62,
+        "move": "Vampirisme"
+      },
+      {
+        "level": 66,
+        "move": "Nuée Ardente"
+      },
+      {
+        "level": 70,
+        "move": "Vortex Magma"
+      },
+      {
+        "level": 75,
+        "move": "Reflet"
+      },
+      {
+        "level": 80,
+        "move": "Propulsion"
+      },
+      {
+        "level": 85,
+        "move": "Canicule"
+      },
+      {
+        "level": 90,
+        "move": "Façade"
+      },
+      {
+        "level": 95,
+        "move": "Coupe-Vent"
+      },
+      {
+        "level": 100,
+        "move": "Ébullilave"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Bouloron",
+    "types": [
+      "Combat",
+      "Acier"
+    ],
+    "abilities": [
+      "Antibruit",
+      "Cran"
+    ],
+    "hidden_ability": "Agitation",
+    "evolution": "Évolue en Blocablon en tenant l'objet Peau Métal",
+    "evolutions_detailed": [
+      {
+        "target_token": "BLOCABLON",
+        "target_name": "Blocablon",
+        "method": "HoldItem",
+        "level": null,
+        "item_token": "BOOST_ACI",
+        "item_name": "Peau Métal",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il mange tous les métaux qu'il trouve sur sa route. On le retrouve souvent autour des décharges.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Éclate-Roc"
+      },
+      {
+        "level": 1,
+        "move": "Provoc"
+      },
+      {
+        "level": 5,
+        "move": "Orbe Aimanté"
+      },
+      {
+        "level": 7,
+        "move": "Assommage"
+      },
+      {
+        "level": 10,
+        "move": "Détection"
+      },
+      {
+        "level": 13,
+        "move": "Choc Statique"
+      },
+      {
+        "level": 17,
+        "move": "Cage-Éclair"
+      },
+      {
+        "level": 21,
+        "move": "Roulé-Boulé"
+      },
+      {
+        "level": 25,
+        "move": "Casse Brique"
+      },
+      {
+        "level": 29,
+        "move": "Ampleur"
+      },
+      {
+        "level": 33,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 37,
+        "move": "Plaquage"
+      },
+      {
+        "level": 41,
+        "move": "Claque Musclée"
+      },
+      {
+        "level": 46,
+        "move": "Tacle Lourd"
+      },
+      {
+        "level": 50,
+        "move": "Cognobidon"
+      },
+      {
+        "level": 54,
+        "move": "Tête de Fer"
+      },
+      {
+        "level": 58,
+        "move": "Marto-Poing"
+      },
+      {
+        "level": 62,
+        "move": "Change Vitesse"
+      },
+      {
+        "level": 66,
+        "move": "Électrochoc"
+      },
+      {
+        "level": 70,
+        "move": "Assaut Frontal"
+      },
+      {
+        "level": 75,
+        "move": "Choc Frontal"
+      },
+      {
+        "level": 80,
+        "move": "Ruée d'Or"
+      },
+      {
+        "level": 85,
+        "move": "Surpuissance"
+      },
+      {
+        "level": 90,
+        "move": "Boule Élek"
+      },
+      {
+        "level": 95,
+        "move": "Dernier Recours"
+      },
+      {
+        "level": 100,
+        "move": "Dérapage"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Fragment de Fer",
+      "uncommon": "Peau Métal",
+      "rare": "Pierre Miroir"
+    },
+    "resource": "Vis Bouloron"
+  },
+  {
+    "name": "Blocablon",
+    "types": [
+      "Combat",
+      "Acier"
+    ],
+    "abilities": [
+      "Antibruit",
+      "Cran"
+    ],
+    "hidden_ability": "Agitation",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Ses fortes paumes peuvent concasser n'importe quel métal. Il est souvent utilisé dans les décharges pour aider.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Éclate-Roc"
+      },
+      {
+        "level": 1,
+        "move": "Provoc"
+      },
+      {
+        "level": 5,
+        "move": "Orbe Aimanté"
+      },
+      {
+        "level": 7,
+        "move": "Assommage"
+      },
+      {
+        "level": 10,
+        "move": "Détection"
+      },
+      {
+        "level": 13,
+        "move": "Choc Statique"
+      },
+      {
+        "level": 17,
+        "move": "Cage-Éclair"
+      },
+      {
+        "level": 21,
+        "move": "Roulé-Boulé"
+      },
+      {
+        "level": 25,
+        "move": "Casse Brique"
+      },
+      {
+        "level": 29,
+        "move": "Ampleur"
+      },
+      {
+        "level": 33,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 37,
+        "move": "Plaquage"
+      },
+      {
+        "level": 41,
+        "move": "Claque Musclée"
+      },
+      {
+        "level": 46,
+        "move": "Tacle Lourd"
+      },
+      {
+        "level": 50,
+        "move": "Cognobidon"
+      },
+      {
+        "level": 54,
+        "move": "Tête de Fer"
+      },
+      {
+        "level": 58,
+        "move": "Marto-Poing"
+      },
+      {
+        "level": 62,
+        "move": "Change Vitesse"
+      },
+      {
+        "level": 66,
+        "move": "Électrochoc"
+      },
+      {
+        "level": 70,
+        "move": "Assaut Frontal"
+      },
+      {
+        "level": 75,
+        "move": "Choc Frontal"
+      },
+      {
+        "level": 80,
+        "move": "Ruée d'Or"
+      },
+      {
+        "level": 85,
+        "move": "Surpuissance"
+      },
+      {
+        "level": 90,
+        "move": "Boule Élek"
+      },
+      {
+        "level": 95,
+        "move": "Dernier Recours"
+      },
+      {
+        "level": 100,
+        "move": "Dérapage"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Blazicarpe",
+    "types": [
+      "Eau",
+      "Psy"
+    ],
+    "abilities": [
+      "Anticipation",
+      "Prediction"
+    ],
+    "hidden_ability": "Lavabo",
+    "evolution": "Évolue en Basiliton en connaissant Psyko",
+    "evolutions_detailed": [
+      {
+        "target_token": "BASILITON",
+        "target_name": "Basiliton",
+        "method": "HasMove",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": "PSYKO",
+        "move_name": "Psyko",
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il est réputé sa personnalité nonchalante. Il est très lent pour un poisson.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Angoisse"
+      },
+      {
+        "level": 1,
+        "move": "Trempette"
+      },
+      {
+        "level": 5,
+        "move": "Charge"
+      },
+      {
+        "level": 7,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 10,
+        "move": "Aquaqueue"
+      },
+      {
+        "level": 13,
+        "move": "Détrempage"
+      },
+      {
+        "level": 17,
+        "move": "Paresse"
+      },
+      {
+        "level": 21,
+        "move": "Aqua Jet"
+      },
+      {
+        "level": 25,
+        "move": "Psykoud'Boul"
+      },
+      {
+        "level": 29,
+        "move": "Amnésie"
+      },
+      {
+        "level": 33,
+        "move": "Vibraqua"
+      },
+      {
+        "level": 37,
+        "move": "Entrave"
+      },
+      {
+        "level": 41,
+        "move": "Psyko"
+      },
+      {
+        "level": 46,
+        "move": "Ténacité"
+      },
+      {
+        "level": 50,
+        "move": "Hydrocanon"
+      },
+      {
+        "level": 54,
+        "move": "Anneau Hydro"
+      },
+      {
+        "level": 58,
+        "move": "Permuvitesse"
+      },
+      {
+        "level": 62,
+        "move": "Prescience"
+      },
+      {
+        "level": 66,
+        "move": "Bouclier"
+      },
+      {
+        "level": 70,
+        "move": "Aqua Slash"
+      },
+      {
+        "level": 75,
+        "move": "Permucoeur"
+      },
+      {
+        "level": 80,
+        "move": "Crève-Coeur"
+      },
+      {
+        "level": 85,
+        "move": "Giga Impact"
+      },
+      {
+        "level": 90,
+        "move": "Hypnose"
+      },
+      {
+        "level": 95,
+        "move": "Magnificience"
+      },
+      {
+        "level": 100,
+        "move": "Hydrovapeur"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Écaille Blazicarpe"
+  },
+  {
+    "name": "Basiliton",
+    "types": [
+      "Dragon",
+      "Psy"
+    ],
+    "abilities": [
+      "Torrent",
+      "Colerique"
+    ],
+    "hidden_ability": "Lavabo",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "L’énergie libérée au moment de son évolution a fortement stimulé ses cellules cérébrales et causé son tempérament pour le moins violent.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Angoisse"
+      },
+      {
+        "level": 1,
+        "move": "Trempette"
+      },
+      {
+        "level": 5,
+        "move": "Charge"
+      },
+      {
+        "level": 7,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 10,
+        "move": "Aquaqueue"
+      },
+      {
+        "level": 13,
+        "move": "Détrempage"
+      },
+      {
+        "level": 17,
+        "move": "Paresse"
+      },
+      {
+        "level": 21,
+        "move": "Aqua Jet"
+      },
+      {
+        "level": 25,
+        "move": "Psykoud'Boul"
+      },
+      {
+        "level": 29,
+        "move": "Amnésie"
+      },
+      {
+        "level": 33,
+        "move": "Vibraqua"
+      },
+      {
+        "level": 37,
+        "move": "Entrave"
+      },
+      {
+        "level": 41,
+        "move": "Psyko"
+      },
+      {
+        "level": 46,
+        "move": "Draco-Souffle"
+      },
+      {
+        "level": 50,
+        "move": "Hydrocanon"
+      },
+      {
+        "level": 54,
+        "move": "Trait Hydre"
+      },
+      {
+        "level": 58,
+        "move": "Draco-Choc"
+      },
+      {
+        "level": 62,
+        "move": "Prescience"
+      },
+      {
+        "level": 66,
+        "move": "Bouclier"
+      },
+      {
+        "level": 70,
+        "move": "Mauvaise Humeur"
+      },
+      {
+        "level": 75,
+        "move": "Colère"
+      },
+      {
+        "level": 80,
+        "move": "Psycho-Croc"
+      },
+      {
+        "level": 85,
+        "move": "Hydro Ravage"
+      },
+      {
+        "level": 90,
+        "move": "Durécaille"
+      },
+      {
+        "level": 95,
+        "move": "Magnificience"
+      },
+      {
+        "level": 100,
+        "move": "Hydrovapeur"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Raimoniak",
+    "types": [
+      "Ténèbres",
+      "Feu"
+    ],
+    "abilities": [
+      "Intimidation"
+    ],
+    "hidden_ability": "Infiltration",
+    "evolution": "Évolue en Raikenard en utilisant Pierre Flamme",
+    "evolutions_detailed": [
+      {
+        "target_token": "RAIKENARD",
+        "target_name": "Raikenard",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_FEU",
+        "item_name": "Pierre Flamme",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Ce pokémon est une vrai tègne, il fait règner la terreur dans les lieux où il vit. On l'appelle souvent le diable des mers.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Hostilité"
+      },
+      {
+        "level": 1,
+        "move": "Onde Folie"
+      },
+      {
+        "level": 5,
+        "move": "Roussi"
+      },
+      {
+        "level": 7,
+        "move": "Poursuite"
+      },
+      {
+        "level": 10,
+        "move": "Force Poigne"
+      },
+      {
+        "level": 13,
+        "move": "Aileron Rasoir"
+      },
+      {
+        "level": 17,
+        "move": "Aiguisage"
+      },
+      {
+        "level": 21,
+        "move": "Aile Brûlante"
+      },
+      {
+        "level": 25,
+        "move": "Frayeur"
+      },
+      {
+        "level": 29,
+        "move": "Trombe"
+      },
+      {
+        "level": 33,
+        "move": "Tranche-Nuit"
+      },
+      {
+        "level": 37,
+        "move": "Corne Brûlante"
+      },
+      {
+        "level": 41,
+        "move": "Représailles"
+      },
+      {
+        "level": 46,
+        "move": "Branchicrok"
+      },
+      {
+        "level": 50,
+        "move": "Folie Ardente"
+      },
+      {
+        "level": 54,
+        "move": "Vague de Chaleur"
+      },
+      {
+        "level": 58,
+        "move": "Mauvaise Humeur"
+      },
+      {
+        "level": 62,
+        "move": "Triple Plongeon"
+      },
+      {
+        "level": 66,
+        "move": "Rage Brûlante"
+      },
+      {
+        "level": 70,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 75,
+        "move": "Explonuit"
+      },
+      {
+        "level": 80,
+        "move": "Lien du Destin"
+      },
+      {
+        "level": 85,
+        "move": "Tête Brûlée"
+      },
+      {
+        "level": 90,
+        "move": "Rafale"
+      },
+      {
+        "level": 95,
+        "move": "Raz de Marée"
+      },
+      {
+        "level": 100,
+        "move": "Vague Funeste"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Corne Raimoniak"
+  },
+  {
+    "name": "Raikenard",
+    "types": [
+      "Ténèbres",
+      "Feu"
+    ],
+    "abilities": [
+      "Intimidation"
+    ],
+    "hidden_ability": "Infiltration",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il est le cauchemar des marins en mer. Il s'accroche aux coques des bâteaux et peut la brûler si l'envie lui prend.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Hostilité"
+      },
+      {
+        "level": 1,
+        "move": "Onde Folie"
+      },
+      {
+        "level": 5,
+        "move": "Roussi"
+      },
+      {
+        "level": 7,
+        "move": "Poursuite"
+      },
+      {
+        "level": 10,
+        "move": "Force Poigne"
+      },
+      {
+        "level": 13,
+        "move": "Aileron Rasoir"
+      },
+      {
+        "level": 17,
+        "move": "Aiguisage"
+      },
+      {
+        "level": 21,
+        "move": "Aile Brûlante"
+      },
+      {
+        "level": 25,
+        "move": "Frayeur"
+      },
+      {
+        "level": 29,
+        "move": "Trombe"
+      },
+      {
+        "level": 33,
+        "move": "Tranche-Nuit"
+      },
+      {
+        "level": 37,
+        "move": "Corne Brûlante"
+      },
+      {
+        "level": 41,
+        "move": "Représailles"
+      },
+      {
+        "level": 46,
+        "move": "Branchicrok"
+      },
+      {
+        "level": 50,
+        "move": "Folie Ardente"
+      },
+      {
+        "level": 54,
+        "move": "Vague de Chaleur"
+      },
+      {
+        "level": 58,
+        "move": "Mauvaise Humeur"
+      },
+      {
+        "level": 62,
+        "move": "Triple Plongeon"
+      },
+      {
+        "level": 66,
+        "move": "Rage Brûlante"
+      },
+      {
+        "level": 70,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 75,
+        "move": "Explonuit"
+      },
+      {
+        "level": 80,
+        "move": "Lien du Destin"
+      },
+      {
+        "level": 85,
+        "move": "Tête Brûlée"
+      },
+      {
+        "level": 90,
+        "move": "Rafale"
+      },
+      {
+        "level": 95,
+        "move": "Raz de Marée"
+      },
+      {
+        "level": 100,
+        "move": "Vague Funeste"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Tipépite",
+    "types": [
+      "Roche"
+    ],
+    "abilities": [
+      "Fermete",
+      "Tetederoc"
+    ],
+    "hidden_ability": "Brisemoule",
+    "evolution": "Évolue en Granidor au niveau 23",
+    "evolutions_detailed": [
+      {
+        "target_token": "GRANIDOR",
+        "target_name": "Granidor",
+        "method": "Level",
+        "level": 23,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Vous subirez sa colère si vous lui donnez un coup de pioche en espèrant obtenir une belle pépite!",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Assaut"
+      },
+      {
+        "level": 7,
+        "move": "Hache de Pierre"
+      },
+      {
+        "level": 10,
+        "move": "Ténacité"
+      },
+      {
+        "level": 13,
+        "move": "Anti-Air"
+      },
+      {
+        "level": 17,
+        "move": "Coup d'Boule"
+      },
+      {
+        "level": 21,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 25,
+        "move": "Dégommage"
+      },
+      {
+        "level": 29,
+        "move": "Ampleur"
+      },
+      {
+        "level": 33,
+        "move": "Martelage"
+      },
+      {
+        "level": 37,
+        "move": "Éboulement"
+      },
+      {
+        "level": 41,
+        "move": "Trépignement"
+      },
+      {
+        "level": 46,
+        "move": "Garde Large"
+      },
+      {
+        "level": 50,
+        "move": "Tête de Fer"
+      },
+      {
+        "level": 54,
+        "move": "Assaut Frontal"
+      },
+      {
+        "level": 58,
+        "move": "Chute Minérale"
+      },
+      {
+        "level": 62,
+        "move": "Barrage"
+      },
+      {
+        "level": 66,
+        "move": "Piège de Roc"
+      },
+      {
+        "level": 70,
+        "move": "Mégatonne"
+      },
+      {
+        "level": 75,
+        "move": "Impact"
+      },
+      {
+        "level": 80,
+        "move": "Abîme"
+      },
+      {
+        "level": 85,
+        "move": "Fracass'Tête"
+      },
+      {
+        "level": 90,
+        "move": "Fulmifer"
+      },
+      {
+        "level": 95,
+        "move": "Surpuissance"
+      },
+      {
+        "level": 100,
+        "move": "Lame de Roc"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Sel Rochedur",
+      "uncommon": "Pierre Dure",
+      "rare": "Pépite"
+    },
+    "resource": "Pépite Tipépite"
+  },
+  {
+    "name": "Granidor",
+    "types": [
+      "Roche"
+    ],
+    "abilities": [
+      "Fermete",
+      "Tetederoc"
+    ],
+    "hidden_ability": "Brisemoule",
+    "evolution": "Évolue en Filondor en utilisant Pierre Schiste",
+    "evolutions_detailed": [
+      {
+        "target_token": "FILONDOR",
+        "target_name": "Filondor",
+        "method": "Item",
+        "level": null,
+        "item_token": "PIERRE_ROC",
+        "item_name": "Pierre Schiste",
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il n'aime pas qu'on l'approche, il vous attaquera avant même que vous ayez le temps de convoiter l'or sur son corps.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Assaut"
+      },
+      {
+        "level": 7,
+        "move": "Hache de Pierre"
+      },
+      {
+        "level": 10,
+        "move": "Ténacité"
+      },
+      {
+        "level": 13,
+        "move": "Anti-Air"
+      },
+      {
+        "level": 17,
+        "move": "Coup d'Boule"
+      },
+      {
+        "level": 21,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 25,
+        "move": "Dégommage"
+      },
+      {
+        "level": 29,
+        "move": "Ampleur"
+      },
+      {
+        "level": 33,
+        "move": "Martelage"
+      },
+      {
+        "level": 37,
+        "move": "Éboulement"
+      },
+      {
+        "level": 41,
+        "move": "Trépignement"
+      },
+      {
+        "level": 46,
+        "move": "Garde Large"
+      },
+      {
+        "level": 50,
+        "move": "Tête de Fer"
+      },
+      {
+        "level": 54,
+        "move": "Assaut Frontal"
+      },
+      {
+        "level": 58,
+        "move": "Chute Minérale"
+      },
+      {
+        "level": 62,
+        "move": "Barrage"
+      },
+      {
+        "level": 66,
+        "move": "Piège de Roc"
+      },
+      {
+        "level": 70,
+        "move": "Mégatonne"
+      },
+      {
+        "level": 75,
+        "move": "Impact"
+      },
+      {
+        "level": 80,
+        "move": "Abîme"
+      },
+      {
+        "level": 85,
+        "move": "Fracass'Tête"
+      },
+      {
+        "level": 90,
+        "move": "Fulmifer"
+      },
+      {
+        "level": 95,
+        "move": "Surpuissance"
+      },
+      {
+        "level": 100,
+        "move": "Lame de Roc"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Sel Rochedur",
+      "uncommon": "Pépite",
+      "rare": "Pépite"
+    }
+  },
+  {
+    "name": "Filondor",
+    "types": [
+      "Roche"
+    ],
+    "abilities": [
+      "Fermete",
+      "Tetederoc"
+    ],
+    "hidden_ability": "Brisemoule",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "N'essayez pas de lui arracher l'or qui recouvre le haut de son corps, il ne tombe qu'une fois dans sa vie, offrant prospérité à celui qui le trouve.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Assaut"
+      },
+      {
+        "level": 7,
+        "move": "Hache de Pierre"
+      },
+      {
+        "level": 10,
+        "move": "Ténacité"
+      },
+      {
+        "level": 13,
+        "move": "Anti-Air"
+      },
+      {
+        "level": 17,
+        "move": "Coup d'Boule"
+      },
+      {
+        "level": 21,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 25,
+        "move": "Dégommage"
+      },
+      {
+        "level": 29,
+        "move": "Ampleur"
+      },
+      {
+        "level": 33,
+        "move": "Martelage"
+      },
+      {
+        "level": 37,
+        "move": "Éboulement"
+      },
+      {
+        "level": 41,
+        "move": "Trépignement"
+      },
+      {
+        "level": 46,
+        "move": "Garde Large"
+      },
+      {
+        "level": 50,
+        "move": "Tête de Fer"
+      },
+      {
+        "level": 54,
+        "move": "Assaut Frontal"
+      },
+      {
+        "level": 58,
+        "move": "Chute Minérale"
+      },
+      {
+        "level": 62,
+        "move": "Barrage"
+      },
+      {
+        "level": 66,
+        "move": "Piège de Roc"
+      },
+      {
+        "level": 70,
+        "move": "Mégatonne"
+      },
+      {
+        "level": 75,
+        "move": "Impact"
+      },
+      {
+        "level": 80,
+        "move": "Abîme"
+      },
+      {
+        "level": 85,
+        "move": "Fracass'Tête"
+      },
+      {
+        "level": 90,
+        "move": "Fulmifer"
+      },
+      {
+        "level": 95,
+        "move": "Surpuissance"
+      },
+      {
+        "level": 100,
+        "move": "Lame de Roc"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Pépite",
+      "uncommon": "Maxi Pépite",
+      "rare": "Pépite"
+    }
+  },
+  {
+    "name": "Blop",
+    "types": [
+      "Elastik"
+    ],
+    "abilities": [
+      "Filtre"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "???",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Gelée Blop"
+  },
+  {
+    "name": "Rébépine",
+    "types": [
+      "Plante",
+      "Ténèbres"
+    ],
+    "abilities": [
+      "Regardvif",
+      "Filature"
+    ],
+    "hidden_ability": "Replitactique",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "D'un naturel rebelle, il se cache dans les buissons en attendant pour surgir sur sa proie.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Embuscade"
+      },
+      {
+        "level": 1,
+        "move": "Dard-Venin"
+      },
+      {
+        "level": 5,
+        "move": "Provoc"
+      },
+      {
+        "level": 7,
+        "move": "Toxigriffe"
+      },
+      {
+        "level": 10,
+        "move": "Poursuite"
+      },
+      {
+        "level": 13,
+        "move": "Coupe Vive"
+      },
+      {
+        "level": 17,
+        "move": "Danse Lames"
+      },
+      {
+        "level": 21,
+        "move": "Cutt'Air"
+      },
+      {
+        "level": 25,
+        "move": "Sabotage"
+      },
+      {
+        "level": 29,
+        "move": "Lasso Piège"
+      },
+      {
+        "level": 33,
+        "move": "Lame Feuille"
+      },
+      {
+        "level": 37,
+        "move": "Vole-Force"
+      },
+      {
+        "level": 41,
+        "move": "Tourmente"
+      },
+      {
+        "level": 46,
+        "move": "Tranche-Nuit"
+      },
+      {
+        "level": 50,
+        "move": "Fouet Vénéneux"
+      },
+      {
+        "level": 54,
+        "move": "Représailles"
+      },
+      {
+        "level": 58,
+        "move": "Tir d'Épines"
+      },
+      {
+        "level": 62,
+        "move": "Picots"
+      },
+      {
+        "level": 66,
+        "move": "Infection"
+      },
+      {
+        "level": 70,
+        "move": "Coupe-Vent"
+      },
+      {
+        "level": 75,
+        "move": "Arrogance"
+      },
+      {
+        "level": 80,
+        "move": "Ligne Piquante"
+      },
+      {
+        "level": 85,
+        "move": "Bombe Beurk"
+      },
+      {
+        "level": 90,
+        "move": "Tranch'Air"
+      },
+      {
+        "level": 95,
+        "move": "Herblast"
+      },
+      {
+        "level": 100,
+        "move": "Mauvaise Humeur"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Épine Rébépine"
+  },
+  {
+    "name": "Smogo",
+    "types": [
+      "Glace",
+      "Poison"
+    ],
+    "abilities": [
+      "Levitation",
+      "Gazinhibiteur"
+    ],
+    "hidden_ability": "Alerteneige",
+    "evolution": "Évolue en Smogogo au niveau 35",
+    "evolutions_detailed": [
+      {
+        "target_token": "SMOGOGO_SEV",
+        "target_name": "Smogogo",
+        "method": "Level",
+        "level": 35,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Les gaz que renferme son corps deviennent instables lorsqu'il se trouve dans un endroit chaud. Prenez garde, il pourrait exploser!",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Crach'Gaz"
+      },
+      {
+        "level": 1,
+        "move": "Refroidissement"
+      },
+      {
+        "level": 5,
+        "move": "Purédpois"
+      },
+      {
+        "level": 7,
+        "move": "Vent Glace"
+      },
+      {
+        "level": 10,
+        "move": "Coup Double"
+      },
+      {
+        "level": 13,
+        "move": "Bain de Smog"
+      },
+      {
+        "level": 17,
+        "move": "Coup Bas"
+      },
+      {
+        "level": 21,
+        "move": "Onde Boréale"
+      },
+      {
+        "level": 25,
+        "move": "Destruction"
+      },
+      {
+        "level": 29,
+        "move": "Détritus"
+      },
+      {
+        "level": 33,
+        "move": "Avale"
+      },
+      {
+        "level": 33,
+        "move": "Stockage"
+      },
+      {
+        "level": 33,
+        "move": "Relâche"
+      },
+      {
+        "level": 37,
+        "move": "Stalactite"
+      },
+      {
+        "level": 41,
+        "move": "Gaz Corrosif"
+      },
+      {
+        "level": 46,
+        "move": "Explosion"
+      },
+      {
+        "level": 50,
+        "move": "Gaz Oxydant"
+      },
+      {
+        "level": 54,
+        "move": "Laser Glace"
+      },
+      {
+        "level": 58,
+        "move": "Grêle"
+      },
+      {
+        "level": 62,
+        "move": "Assurance"
+      },
+      {
+        "level": 66,
+        "move": "Souillure"
+      },
+      {
+        "level": 70,
+        "move": "Souvenir"
+      },
+      {
+        "level": 75,
+        "move": "Gaz Explosif"
+      },
+      {
+        "level": 80,
+        "move": "Vague de Froid"
+      },
+      {
+        "level": 85,
+        "move": "Glaciation"
+      },
+      {
+        "level": 90,
+        "move": "Détricanon"
+      },
+      {
+        "level": 95,
+        "move": "Chaîne Malsaine"
+      },
+      {
+        "level": 100,
+        "move": "Zéro Absolu"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Gaz Smogo"
+  },
+  {
+    "name": "Smogogo",
+    "types": [
+      "Glace",
+      "Poison"
+    ],
+    "abilities": [
+      "Levitation",
+      "Gazinhibiteur"
+    ],
+    "hidden_ability": "Alerteneige",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Le froid lui permet de stocker un gaz beaucoup plus toxique que les autres Smogogo. Il peut-être mortel de le croiser dans des grottes.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Crach'Gaz"
+      },
+      {
+        "level": 1,
+        "move": "Refroidissement"
+      },
+      {
+        "level": 5,
+        "move": "Purédpois"
+      },
+      {
+        "level": 7,
+        "move": "Vent Glace"
+      },
+      {
+        "level": 10,
+        "move": "Coup Double"
+      },
+      {
+        "level": 13,
+        "move": "Bain de Smog"
+      },
+      {
+        "level": 17,
+        "move": "Coup Bas"
+      },
+      {
+        "level": 21,
+        "move": "Onde Boréale"
+      },
+      {
+        "level": 25,
+        "move": "Destruction"
+      },
+      {
+        "level": 29,
+        "move": "Détritus"
+      },
+      {
+        "level": 33,
+        "move": "Avale"
+      },
+      {
+        "level": 33,
+        "move": "Stockage"
+      },
+      {
+        "level": 33,
+        "move": "Relâche"
+      },
+      {
+        "level": 37,
+        "move": "Stalactite"
+      },
+      {
+        "level": 41,
+        "move": "Gaz Corrosif"
+      },
+      {
+        "level": 46,
+        "move": "Explosion"
+      },
+      {
+        "level": 50,
+        "move": "Gaz Oxydant"
+      },
+      {
+        "level": 54,
+        "move": "Laser Glace"
+      },
+      {
+        "level": 58,
+        "move": "Grêle"
+      },
+      {
+        "level": 62,
+        "move": "Assurance"
+      },
+      {
+        "level": 66,
+        "move": "Souillure"
+      },
+      {
+        "level": 70,
+        "move": "Souvenir"
+      },
+      {
+        "level": 75,
+        "move": "Gaz Explosif"
+      },
+      {
+        "level": 80,
+        "move": "Vague de Froid"
+      },
+      {
+        "level": 85,
+        "move": "Glaciation"
+      },
+      {
+        "level": 90,
+        "move": "Détricanon"
+      },
+      {
+        "level": 95,
+        "move": "Chaîne Malsaine"
+      },
+      {
+        "level": 100,
+        "move": "Zéro Absolu"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Pincharpe",
+    "types": [
+      "Neige"
+    ],
+    "abilities": [
+      "Isograisse",
+      "Matinal"
+    ],
+    "hidden_ability": null,
+    "evolution": "Évolue en Pintchoum au niveau 33",
+    "evolutions_detailed": [
+      {
+        "target_token": "PINTCHOUM",
+        "target_name": "Pintchoum",
+        "method": "Level",
+        "level": 33,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Un souffle glacé sort parfois lorsqu'il éternue trop fort. Il grelotte en permanence.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Écras'Face"
+      },
+      {
+        "level": 1,
+        "move": "Refroidissement"
+      },
+      {
+        "level": 5,
+        "move": "Boule de Neige"
+      },
+      {
+        "level": 7,
+        "move": "Aéro Jet"
+      },
+      {
+        "level": 10,
+        "move": "Bâillement"
+      },
+      {
+        "level": 13,
+        "move": "Donne Moi Ça"
+      },
+      {
+        "level": 17,
+        "move": "Avalanche"
+      },
+      {
+        "level": 21,
+        "move": "Banqui'Glisse"
+      },
+      {
+        "level": 25,
+        "move": "Bec Vrille"
+      },
+      {
+        "level": 29,
+        "move": "Corps Gelé"
+      },
+      {
+        "level": 33,
+        "move": "Ensevelissement"
+      },
+      {
+        "level": 37,
+        "move": "Grosse Baffe"
+      },
+      {
+        "level": 41,
+        "move": "Vague de Froid"
+      },
+      {
+        "level": 46,
+        "move": "Hibernation"
+      },
+      {
+        "level": 50,
+        "move": "Ball'Glace"
+      },
+      {
+        "level": 54,
+        "move": "Brouhaha"
+      },
+      {
+        "level": 58,
+        "move": "Balance"
+      },
+      {
+        "level": 62,
+        "move": "Buée Noire"
+      },
+      {
+        "level": 66,
+        "move": "Rude Hiver"
+      },
+      {
+        "level": 70,
+        "move": "Bec Aiguisé"
+      },
+      {
+        "level": 75,
+        "move": "Câlinerie"
+      },
+      {
+        "level": 80,
+        "move": "Effort"
+      },
+      {
+        "level": 85,
+        "move": "Blizzard"
+      },
+      {
+        "level": 90,
+        "move": "Déblayage"
+      },
+      {
+        "level": 95,
+        "move": "Lyophilisation"
+      },
+      {
+        "level": 100,
+        "move": "Double Volée"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Duvet Pincharpe"
+  },
+  {
+    "name": "Pintchoum",
+    "types": [
+      "Neige"
+    ],
+    "abilities": [
+      "Isograisse",
+      "Matinal"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Son écharpe est en réalité une partie de son corps. Il s'en sert pour se protéger ou porter des coups au corps-à-corps.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Écras'Face"
+      },
+      {
+        "level": 1,
+        "move": "Refroidissement"
+      },
+      {
+        "level": 5,
+        "move": "Boule de Neige"
+      },
+      {
+        "level": 7,
+        "move": "Aéro Jet"
+      },
+      {
+        "level": 10,
+        "move": "Bâillement"
+      },
+      {
+        "level": 13,
+        "move": "Donne Moi Ça"
+      },
+      {
+        "level": 17,
+        "move": "Avalanche"
+      },
+      {
+        "level": 21,
+        "move": "Banqui'Glisse"
+      },
+      {
+        "level": 25,
+        "move": "Bec Vrille"
+      },
+      {
+        "level": 29,
+        "move": "Corps Gelé"
+      },
+      {
+        "level": 33,
+        "move": "Ensevelissement"
+      },
+      {
+        "level": 37,
+        "move": "Grosse Baffe"
+      },
+      {
+        "level": 41,
+        "move": "Vague de Froid"
+      },
+      {
+        "level": 46,
+        "move": "Hibernation"
+      },
+      {
+        "level": 50,
+        "move": "Ball'Glace"
+      },
+      {
+        "level": 54,
+        "move": "Brouhaha"
+      },
+      {
+        "level": 58,
+        "move": "Balance"
+      },
+      {
+        "level": 62,
+        "move": "Buée Noire"
+      },
+      {
+        "level": 66,
+        "move": "Rude Hiver"
+      },
+      {
+        "level": 70,
+        "move": "Bec Aiguisé"
+      },
+      {
+        "level": 75,
+        "move": "Câlinerie"
+      },
+      {
+        "level": 80,
+        "move": "Effort"
+      },
+      {
+        "level": 85,
+        "move": "Blizzard"
+      },
+      {
+        "level": 90,
+        "move": "Déblayage"
+      },
+      {
+        "level": 95,
+        "move": "Lyophilisation"
+      },
+      {
+        "level": 100,
+        "move": "Double Volée"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Glafaon",
+    "types": [
+      "Temporel",
+      "Glace"
+    ],
+    "abilities": [
+      "Fouille",
+      "Corpsgel"
+    ],
+    "hidden_ability": null,
+    "evolution": "Évolue en Givrélan (LevelMale, 35)",
+    "evolutions_detailed": [
+      {
+        "target_token": "GIVRELAN",
+        "target_name": "Givrélan",
+        "method": "LevelMale",
+        "level": null,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Son nez s'illumine quand il se sent en danger. Si il est dans une situation dangereuse, il peut figer le temps quelques secondes pour s'échapper.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Mimi-Queue"
+      },
+      {
+        "level": 5,
+        "move": "Vent Glace"
+      },
+      {
+        "level": 7,
+        "move": "Entrave"
+      },
+      {
+        "level": 10,
+        "move": "Prémonition"
+      },
+      {
+        "level": 13,
+        "move": "Onde Boréale"
+      },
+      {
+        "level": 17,
+        "move": "Attraction"
+      },
+      {
+        "level": 21,
+        "move": "Splendeur"
+      },
+      {
+        "level": 25,
+        "move": "Vague Tempo"
+      },
+      {
+        "level": 29,
+        "move": "Relais"
+      },
+      {
+        "level": 33,
+        "move": "Lyophilisation"
+      },
+      {
+        "level": 37,
+        "move": "Vieillissement"
+      },
+      {
+        "level": 41,
+        "move": "Bélier"
+      },
+      {
+        "level": 46,
+        "move": "Triple Axel"
+      },
+      {
+        "level": 50,
+        "move": "Horloge"
+      },
+      {
+        "level": 54,
+        "move": "Tête Glacée"
+      },
+      {
+        "level": 58,
+        "move": "Pouvoir Lunaire"
+      },
+      {
+        "level": 62,
+        "move": "Post Attaque"
+      },
+      {
+        "level": 66,
+        "move": "Encornebois"
+      },
+      {
+        "level": 70,
+        "move": "Froid Austral"
+      },
+      {
+        "level": 75,
+        "move": "Trou Dimensionnel"
+      },
+      {
+        "level": 80,
+        "move": "Pointe-Heure"
+      },
+      {
+        "level": 85,
+        "move": "Glaciation"
+      },
+      {
+        "level": 90,
+        "move": "Décompte"
+      },
+      {
+        "level": 95,
+        "move": "Hibernation"
+      },
+      {
+        "level": 100,
+        "move": "Éveil Glacé"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Poils Glafaon"
+  },
+  {
+    "name": "Givrélan",
+    "types": [
+      "Temporel",
+      "Glace"
+    ],
+    "abilities": [
+      "Fouille",
+      "Corpsgel"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il peut figer le temps quelques secondes pour prendre l'avantage sur ses ennemis.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Mimi-Queue"
+      },
+      {
+        "level": 5,
+        "move": "Vent Glace"
+      },
+      {
+        "level": 7,
+        "move": "Entrave"
+      },
+      {
+        "level": 10,
+        "move": "Prémonition"
+      },
+      {
+        "level": 13,
+        "move": "Onde Boréale"
+      },
+      {
+        "level": 17,
+        "move": "Attraction"
+      },
+      {
+        "level": 21,
+        "move": "Splendeur"
+      },
+      {
+        "level": 25,
+        "move": "Vague Tempo"
+      },
+      {
+        "level": 29,
+        "move": "Relais"
+      },
+      {
+        "level": 33,
+        "move": "Lyophilisation"
+      },
+      {
+        "level": 37,
+        "move": "Vieillissement"
+      },
+      {
+        "level": 41,
+        "move": "Bélier"
+      },
+      {
+        "level": 46,
+        "move": "Triple Axel"
+      },
+      {
+        "level": 50,
+        "move": "Horloge"
+      },
+      {
+        "level": 54,
+        "move": "Tête Glacée"
+      },
+      {
+        "level": 58,
+        "move": "Pouvoir Lunaire"
+      },
+      {
+        "level": 62,
+        "move": "Post Attaque"
+      },
+      {
+        "level": 66,
+        "move": "Encornebois"
+      },
+      {
+        "level": 70,
+        "move": "Froid Austral"
+      },
+      {
+        "level": 75,
+        "move": "Trou Dimensionnel"
+      },
+      {
+        "level": 80,
+        "move": "Pointe-Heure"
+      },
+      {
+        "level": 85,
+        "move": "Glaciation"
+      },
+      {
+        "level": 90,
+        "move": "Décompte"
+      },
+      {
+        "level": 95,
+        "move": "Hibernation"
+      },
+      {
+        "level": 100,
+        "move": "Éveil Glacé"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Fumajar",
+    "types": [
+      "Spectre",
+      "Terre"
+    ],
+    "abilities": [
+      "Cruaute",
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": "Évolue en Jarhanté au niveau 38",
+    "evolutions_detailed": [
+      {
+        "target_token": "JARHANTE",
+        "target_name": "Jarhanté",
+        "method": "Level",
+        "level": 38,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Cette jarre a été possédée par un esprit. On raconte qu'il peut exaucer des voeux.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Jet de Terre"
+      },
+      {
+        "level": 1,
+        "move": "Désespoir"
+      },
+      {
+        "level": 5,
+        "move": "Hostilité"
+      },
+      {
+        "level": 7,
+        "move": "Abri"
+      },
+      {
+        "level": 10,
+        "move": "Frayeur"
+      },
+      {
+        "level": 13,
+        "move": "Lévio Chute"
+      },
+      {
+        "level": 17,
+        "move": "Force Ajoutée"
+      },
+      {
+        "level": 21,
+        "move": "Malédiction"
+      },
+      {
+        "level": 25,
+        "move": "Force Cachée"
+      },
+      {
+        "level": 29,
+        "move": "Affaissement"
+      },
+      {
+        "level": 33,
+        "move": "Vibrobscur"
+      },
+      {
+        "level": 37,
+        "move": "Échange Psy"
+      },
+      {
+        "level": 41,
+        "move": "Châtiment"
+      },
+      {
+        "level": 46,
+        "move": "Telluriforce"
+      },
+      {
+        "level": 50,
+        "move": "Douleur"
+      },
+      {
+        "level": 54,
+        "move": "Voile Miroir"
+      },
+      {
+        "level": 58,
+        "move": "Correction"
+      },
+      {
+        "level": 62,
+        "move": "Rayonspectral"
+      },
+      {
+        "level": 66,
+        "move": "Sphère Psy"
+      },
+      {
+        "level": 70,
+        "move": "Machination"
+      },
+      {
+        "level": 75,
+        "move": "Hantise"
+      },
+      {
+        "level": 80,
+        "move": "Aura Maudite"
+      },
+      {
+        "level": 85,
+        "move": "Géo-Canon"
+      },
+      {
+        "level": 90,
+        "move": "Ball'Ombre"
+      },
+      {
+        "level": 95,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 100,
+        "move": "Tir Névrose"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Fragment Fumajar"
+  },
+  {
+    "name": "Jarhanté",
+    "types": [
+      "Spectre",
+      "Terre"
+    ],
+    "abilities": [
+      "Cruaute",
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il est très malicieux. Son passe-temps préféré est de cacher des objets sur lui pour les enterrer plus tard.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Jet de Terre"
+      },
+      {
+        "level": 1,
+        "move": "Désespoir"
+      },
+      {
+        "level": 5,
+        "move": "Hostilité"
+      },
+      {
+        "level": 7,
+        "move": "Abri"
+      },
+      {
+        "level": 10,
+        "move": "Frayeur"
+      },
+      {
+        "level": 13,
+        "move": "Lévio Chute"
+      },
+      {
+        "level": 17,
+        "move": "Force Ajoutée"
+      },
+      {
+        "level": 21,
+        "move": "Malédiction"
+      },
+      {
+        "level": 25,
+        "move": "Force Cachée"
+      },
+      {
+        "level": 29,
+        "move": "Affaissement"
+      },
+      {
+        "level": 33,
+        "move": "Vibrobscur"
+      },
+      {
+        "level": 37,
+        "move": "Échange Psy"
+      },
+      {
+        "level": 41,
+        "move": "Châtiment"
+      },
+      {
+        "level": 46,
+        "move": "Telluriforce"
+      },
+      {
+        "level": 50,
+        "move": "Douleur"
+      },
+      {
+        "level": 54,
+        "move": "Voile Miroir"
+      },
+      {
+        "level": 58,
+        "move": "Correction"
+      },
+      {
+        "level": 62,
+        "move": "Rayonspectral"
+      },
+      {
+        "level": 66,
+        "move": "Sphère Psy"
+      },
+      {
+        "level": 70,
+        "move": "Machination"
+      },
+      {
+        "level": 75,
+        "move": "Hantise"
+      },
+      {
+        "level": 80,
+        "move": "Aura Maudite"
+      },
+      {
+        "level": 85,
+        "move": "Géo-Canon"
+      },
+      {
+        "level": 90,
+        "move": "Ball'Ombre"
+      },
+      {
+        "level": 95,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 100,
+        "move": "Tir Névrose"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Scoléton",
+    "types": [
+      "Insecte",
+      "Spectre"
+    ],
+    "abilities": [
+      "Fouille",
+      "Insomnia"
+    ],
+    "hidden_ability": null,
+    "evolution": "Évolue en Scolognard au niveau 34",
+    "evolutions_detailed": [
+      {
+        "target_token": "SCOLOGNARD",
+        "target_name": "Scolognard",
+        "method": "Level",
+        "level": 34,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il se faufile à travers les rochers pour se cacher. La nuit tombée, il arrive à se fondre parfaitement dans son environnement.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Grignote"
+      },
+      {
+        "level": 1,
+        "move": "Boul'Armure"
+      },
+      {
+        "level": 5,
+        "move": "Fauche"
+      },
+      {
+        "level": 7,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 10,
+        "move": "Ruse"
+      },
+      {
+        "level": 13,
+        "move": "Crochet Venin"
+      },
+      {
+        "level": 17,
+        "move": "Enroulement"
+      },
+      {
+        "level": 21,
+        "move": "Bulldoboule"
+      },
+      {
+        "level": 25,
+        "move": "Feinte"
+      },
+      {
+        "level": 29,
+        "move": "Désespoir"
+      },
+      {
+        "level": 33,
+        "move": "Maraudage"
+      },
+      {
+        "level": 37,
+        "move": "Tunnel"
+      },
+      {
+        "level": 41,
+        "move": "Vampirisme"
+      },
+      {
+        "level": 46,
+        "move": "Malédiction"
+      },
+      {
+        "level": 50,
+        "move": "Paravenin"
+      },
+      {
+        "level": 54,
+        "move": "Cocon Fatal"
+      },
+      {
+        "level": 58,
+        "move": "Onde Folie"
+      },
+      {
+        "level": 62,
+        "move": "Hécatombe"
+      },
+      {
+        "level": 66,
+        "move": "Infection"
+      },
+      {
+        "level": 70,
+        "move": "Ravage"
+      },
+      {
+        "level": 75,
+        "move": "Souplesse"
+      },
+      {
+        "level": 80,
+        "move": "Dernier Recours"
+      },
+      {
+        "level": 85,
+        "move": "Choc Trauma"
+      },
+      {
+        "level": 90,
+        "move": "Belle Mort"
+      },
+      {
+        "level": 95,
+        "move": "Bombe Beurk"
+      },
+      {
+        "level": 100,
+        "move": "Escarmouche"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Mue Scoléton"
+  },
+  {
+    "name": "Scolognard",
+    "types": [
+      "Insecte",
+      "Spectre"
+    ],
+    "abilities": [
+      "Fouille",
+      "Insomnia"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Malgré son aspect repoussant, il est très affectueux. Il se recroqueville pour se défendre.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Grignote"
+      },
+      {
+        "level": 1,
+        "move": "Boul'Armure"
+      },
+      {
+        "level": 5,
+        "move": "Fauche"
+      },
+      {
+        "level": 7,
+        "move": "Sécrétion"
+      },
+      {
+        "level": 10,
+        "move": "Ruse"
+      },
+      {
+        "level": 13,
+        "move": "Crochet Venin"
+      },
+      {
+        "level": 17,
+        "move": "Enroulement"
+      },
+      {
+        "level": 21,
+        "move": "Bulldoboule"
+      },
+      {
+        "level": 25,
+        "move": "Feinte"
+      },
+      {
+        "level": 29,
+        "move": "Désespoir"
+      },
+      {
+        "level": 33,
+        "move": "Maraudage"
+      },
+      {
+        "level": 37,
+        "move": "Tunnel"
+      },
+      {
+        "level": 41,
+        "move": "Vampirisme"
+      },
+      {
+        "level": 46,
+        "move": "Malédiction"
+      },
+      {
+        "level": 50,
+        "move": "Paravenin"
+      },
+      {
+        "level": 54,
+        "move": "Cocon Fatal"
+      },
+      {
+        "level": 58,
+        "move": "Onde Folie"
+      },
+      {
+        "level": 62,
+        "move": "Hécatombe"
+      },
+      {
+        "level": 66,
+        "move": "Infection"
+      },
+      {
+        "level": 70,
+        "move": "Ravage"
+      },
+      {
+        "level": 75,
+        "move": "Souplesse"
+      },
+      {
+        "level": 80,
+        "move": "Dernier Recours"
+      },
+      {
+        "level": 85,
+        "move": "Choc Trauma"
+      },
+      {
+        "level": 90,
+        "move": "Belle Mort"
+      },
+      {
+        "level": 95,
+        "move": "Bombe Beurk"
+      },
+      {
+        "level": 100,
+        "move": "Escarmouche"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Lactoko",
+    "types": [
+      "Normal",
+      "Plante"
+    ],
+    "abilities": [
+      "Donfloral",
+      "Isograisse"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les habitants des Iles Sevii raffolent du lait de ce Pokémon. Il est très apprécié là-bas.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Écras'Face"
+      },
+      {
+        "level": 1,
+        "move": "Rugissement"
+      },
+      {
+        "level": 5,
+        "move": "Câlinou"
+      },
+      {
+        "level": 7,
+        "move": "Feuillage"
+      },
+      {
+        "level": 10,
+        "move": "Bâillement"
+      },
+      {
+        "level": 13,
+        "move": "Balle Graine"
+      },
+      {
+        "level": 17,
+        "move": "Harmonie"
+      },
+      {
+        "level": 21,
+        "move": "Canon Laiteux"
+      },
+      {
+        "level": 25,
+        "move": "Phytomixeur"
+      },
+      {
+        "level": 29,
+        "move": "Vampigraine"
+      },
+      {
+        "level": 33,
+        "move": "Écrasement"
+      },
+      {
+        "level": 37,
+        "move": "Lait à Boire"
+      },
+      {
+        "level": 41,
+        "move": "Cyclone Feuillu"
+      },
+      {
+        "level": 46,
+        "move": "Câlinerie"
+      },
+      {
+        "level": 50,
+        "move": "Plaquage"
+      },
+      {
+        "level": 54,
+        "move": "Canon Graine"
+      },
+      {
+        "level": 58,
+        "move": "Avale"
+      },
+      {
+        "level": 58,
+        "move": "Stockage"
+      },
+      {
+        "level": 58,
+        "move": "Relâche"
+      },
+      {
+        "level": 62,
+        "move": "Canon Floral"
+      },
+      {
+        "level": 66,
+        "move": "Champ Plante"
+      },
+      {
+        "level": 70,
+        "move": "Lance-Soleil"
+      },
+      {
+        "level": 75,
+        "move": "Tempête Florale"
+      },
+      {
+        "level": 80,
+        "move": "Damoclès"
+      },
+      {
+        "level": 85,
+        "move": "Coud'Bois"
+      },
+      {
+        "level": 90,
+        "move": "Noeud Herbe"
+      },
+      {
+        "level": 95,
+        "move": "Charge Écarlate"
+      },
+      {
+        "level": 100,
+        "move": "Effort"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Lait Lactoko"
+  },
+  {
+    "name": "Banshem",
+    "types": [
+      "Spectre",
+      "Sonore"
+    ],
+    "abilities": [
+      "Jolisourire",
+      "Corpsmaudit"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Son cri ressemble à celui d'une femme en détresse. Il peut rendre fou si on l'entend de trop près.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Étonnement"
+      },
+      {
+        "level": 1,
+        "move": "Berceuse"
+      },
+      {
+        "level": 5,
+        "move": "Cri Effrayant"
+      },
+      {
+        "level": 7,
+        "move": "Dépit"
+      },
+      {
+        "level": 10,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 13,
+        "move": "Choc Lunaire"
+      },
+      {
+        "level": 17,
+        "move": "Sournoiserie"
+      },
+      {
+        "level": 21,
+        "move": "Frayeur"
+      },
+      {
+        "level": 25,
+        "move": "Danse Lune"
+      },
+      {
+        "level": 29,
+        "move": "Voix Lugubre"
+      },
+      {
+        "level": 33,
+        "move": "Vent Mauvais"
+      },
+      {
+        "level": 37,
+        "move": "Rayon Lune"
+      },
+      {
+        "level": 41,
+        "move": "Clair de Lune"
+      },
+      {
+        "level": 46,
+        "move": "Mégaphone"
+      },
+      {
+        "level": 50,
+        "move": "Ball'Ombre"
+      },
+      {
+        "level": 54,
+        "move": "Explonuit"
+      },
+      {
+        "level": 58,
+        "move": "Dernier Chant"
+      },
+      {
+        "level": 62,
+        "move": "Requiem"
+      },
+      {
+        "level": 66,
+        "move": "Belle Mort"
+      },
+      {
+        "level": 70,
+        "move": "Souvenir"
+      },
+      {
+        "level": 75,
+        "move": "Aura Maudite"
+      },
+      {
+        "level": 80,
+        "move": "Dernier Mot"
+      },
+      {
+        "level": 85,
+        "move": "Damnation"
+      },
+      {
+        "level": 90,
+        "move": "Éclypse"
+      },
+      {
+        "level": 95,
+        "move": "Cri Maudit"
+      },
+      {
+        "level": 100,
+        "move": "Trépas"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Larme Banshem"
+  },
+  {
+    "name": "Dilophaspic",
+    "types": [
+      "Fossile",
+      "Poison"
+    ],
+    "abilities": [
+      "Pointpoison",
+      "Toxitouche"
+    ],
+    "hidden_ability": null,
+    "evolution": "Évolue en Dilophonin au niveau 42",
+    "evolutions_detailed": [
+      {
+        "target_token": "DILOPHONIN",
+        "target_name": "Dilophonin",
+        "method": "Level",
+        "level": 42,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Le poison qu'il s'écrète a des effets lacrymogène. Malheureusement cela fontionne aussi contre lui. Il a toujours l'air triste a cause de ça.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Mimi-Queue"
+      },
+      {
+        "level": 5,
+        "move": "Dard-Venin"
+      },
+      {
+        "level": 7,
+        "move": "Peau Visqueuse"
+      },
+      {
+        "level": 10,
+        "move": "Coud'Boue"
+      },
+      {
+        "level": 13,
+        "move": "Bombe Acide"
+      },
+      {
+        "level": 17,
+        "move": "Vague Ambrée"
+      },
+      {
+        "level": 21,
+        "move": "Puissance"
+      },
+      {
+        "level": 25,
+        "move": "Tomberoche"
+      },
+      {
+        "level": 29,
+        "move": "Crocs Toxik"
+      },
+      {
+        "level": 33,
+        "move": "Pouvoir Antique"
+      },
+      {
+        "level": 37,
+        "move": "Double Baffe"
+      },
+      {
+        "level": 41,
+        "move": "Lame de Roc"
+      },
+      {
+        "level": 46,
+        "move": "Gaz Corrosif"
+      },
+      {
+        "level": 50,
+        "move": "Primo Impact"
+      },
+      {
+        "level": 54,
+        "move": "Champ Poison"
+      },
+      {
+        "level": 58,
+        "move": "Haleine Primale"
+      },
+      {
+        "level": 62,
+        "move": "Psycho-Croc"
+      },
+      {
+        "level": 66,
+        "move": "Salissure"
+      },
+      {
+        "level": 70,
+        "move": "Cradovague"
+      },
+      {
+        "level": 75,
+        "move": "Giga Impact"
+      },
+      {
+        "level": 80,
+        "move": "Pics Toxik"
+      },
+      {
+        "level": 85,
+        "move": "Queue Massue"
+      },
+      {
+        "level": 90,
+        "move": "Crâneur"
+      },
+      {
+        "level": 95,
+        "move": "Déluge Toxik"
+      },
+      {
+        "level": 100,
+        "move": "Lame de Roc"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Venin Dilophaspic"
+  },
+  {
+    "name": "Dilophonin",
+    "types": [
+      "Fossile",
+      "Poison"
+    ],
+    "abilities": [
+      "Pointpoison",
+      "Toxitouche"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Depuis qu'il a évolué, son venin a changé de propriété, il est devenu extrêment corrosif. Il détruit son environnement sans le vouloir, ce qui le rend furieux!",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Mimi-Queue"
+      },
+      {
+        "level": 5,
+        "move": "Dard-Venin"
+      },
+      {
+        "level": 7,
+        "move": "Peau Visqueuse"
+      },
+      {
+        "level": 10,
+        "move": "Coud'Boue"
+      },
+      {
+        "level": 13,
+        "move": "Bombe Acide"
+      },
+      {
+        "level": 17,
+        "move": "Vague Ambrée"
+      },
+      {
+        "level": 21,
+        "move": "Puissance"
+      },
+      {
+        "level": 25,
+        "move": "Tomberoche"
+      },
+      {
+        "level": 29,
+        "move": "Crocs Toxik"
+      },
+      {
+        "level": 33,
+        "move": "Pouvoir Antique"
+      },
+      {
+        "level": 37,
+        "move": "Double Baffe"
+      },
+      {
+        "level": 41,
+        "move": "Lame de Roc"
+      },
+      {
+        "level": 46,
+        "move": "Gaz Corrosif"
+      },
+      {
+        "level": 50,
+        "move": "Primo Impact"
+      },
+      {
+        "level": 54,
+        "move": "Champ Poison"
+      },
+      {
+        "level": 58,
+        "move": "Haleine Primale"
+      },
+      {
+        "level": 62,
+        "move": "Psycho-Croc"
+      },
+      {
+        "level": 66,
+        "move": "Salissure"
+      },
+      {
+        "level": 70,
+        "move": "Cradovague"
+      },
+      {
+        "level": 75,
+        "move": "Giga Impact"
+      },
+      {
+        "level": 80,
+        "move": "Pics Toxik"
+      },
+      {
+        "level": 85,
+        "move": "Queue Massue"
+      },
+      {
+        "level": 90,
+        "move": "Crâneur"
+      },
+      {
+        "level": 95,
+        "move": "Déluge Toxik"
+      },
+      {
+        "level": 100,
+        "move": "Lame de Roc"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Fuméroc",
+    "types": [
+      "Fossile",
+      "Magma"
+    ],
+    "abilities": [
+      "Corpsardent",
+      "Armumagma"
+    ],
+    "hidden_ability": null,
+    "evolution": "Évolue en Fumedon au niveau 46",
+    "evolutions_detailed": [
+      {
+        "target_token": "FUMEDON",
+        "target_name": "Fumedon",
+        "method": "Level",
+        "level": 46,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Son corps recouvert d'un épais charbon lui permet d'être protegé des chocs et de resister aux températures élevée. Ça tombe bien il est très maladroit!",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Lava Bulle"
+      },
+      {
+        "level": 7,
+        "move": "Crach'Fumée"
+      },
+      {
+        "level": 10,
+        "move": "Morsure"
+      },
+      {
+        "level": 13,
+        "move": "Piétinement"
+      },
+      {
+        "level": 17,
+        "move": "Ragnarök"
+      },
+      {
+        "level": 21,
+        "move": "Force Jurassique"
+      },
+      {
+        "level": 25,
+        "move": "Anti-Air"
+      },
+      {
+        "level": 29,
+        "move": "Pouvoir Antique"
+      },
+      {
+        "level": 33,
+        "move": "Sulfateuse"
+      },
+      {
+        "level": 37,
+        "move": "Éboulement"
+      },
+      {
+        "level": 41,
+        "move": "Volcanon"
+      },
+      {
+        "level": 46,
+        "move": "Draco-Marteau"
+      },
+      {
+        "level": 50,
+        "move": "Primo Impact"
+      },
+      {
+        "level": 54,
+        "move": "Xxx"
+      },
+      {
+        "level": 58,
+        "move": "Garde Large"
+      },
+      {
+        "level": 62,
+        "move": "Fossilisation"
+      },
+      {
+        "level": 66,
+        "move": "Trépignement"
+      },
+      {
+        "level": 70,
+        "move": "Roc-Boulet"
+      },
+      {
+        "level": 75,
+        "move": "Sol Brûlé"
+      },
+      {
+        "level": 80,
+        "move": "Érup'Tête"
+      },
+      {
+        "level": 85,
+        "move": "Nuée Ardente"
+      },
+      {
+        "level": 90,
+        "move": "Paléo'Choc"
+      },
+      {
+        "level": 95,
+        "move": "Fureur"
+      },
+      {
+        "level": 100,
+        "move": "Trémor"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Charbon Fuméroc"
+  },
+  {
+    "name": "Fumedon",
+    "types": [
+      "Fossile",
+      "Magma"
+    ],
+    "abilities": [
+      "Corpsardent",
+      "Armumagma"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Ses membres se sont développés entouré de charbon, ce qui le rend très lent. Il expulse de la fumée ardente depuis son dos, brûlant tout ce qu'elle touche.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Lava Bulle"
+      },
+      {
+        "level": 7,
+        "move": "Crach'Fumée"
+      },
+      {
+        "level": 10,
+        "move": "Morsure"
+      },
+      {
+        "level": 13,
+        "move": "Piétinement"
+      },
+      {
+        "level": 17,
+        "move": "Ragnarök"
+      },
+      {
+        "level": 21,
+        "move": "Force Jurassique"
+      },
+      {
+        "level": 25,
+        "move": "Anti-Air"
+      },
+      {
+        "level": 29,
+        "move": "Pouvoir Antique"
+      },
+      {
+        "level": 33,
+        "move": "Sulfateuse"
+      },
+      {
+        "level": 37,
+        "move": "Éboulement"
+      },
+      {
+        "level": 41,
+        "move": "Volcanon"
+      },
+      {
+        "level": 46,
+        "move": "Draco-Marteau"
+      },
+      {
+        "level": 50,
+        "move": "Primo Impact"
+      },
+      {
+        "level": 54,
+        "move": "Xxx"
+      },
+      {
+        "level": 58,
+        "move": "Garde Large"
+      },
+      {
+        "level": 62,
+        "move": "Fossilisation"
+      },
+      {
+        "level": 66,
+        "move": "Trépignement"
+      },
+      {
+        "level": 70,
+        "move": "Roc-Boulet"
+      },
+      {
+        "level": 75,
+        "move": "Sol Brûlé"
+      },
+      {
+        "level": 80,
+        "move": "Érup'Tête"
+      },
+      {
+        "level": 85,
+        "move": "Nuée Ardente"
+      },
+      {
+        "level": 90,
+        "move": "Paléo'Choc"
+      },
+      {
+        "level": 95,
+        "move": "Fureur"
+      },
+      {
+        "level": 100,
+        "move": "Trémor"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Diplambre",
+    "types": [
+      "Fossile",
+      "Foudre"
+    ],
+    "abilities": [
+      "Herbivore",
+      "Isograisse"
+    ],
+    "hidden_ability": null,
+    "evolution": "Évolue en Diplozéus au niveau 44",
+    "evolutions_detailed": [
+      {
+        "target_token": "DIPLOZEUS",
+        "target_name": "Diplozéus",
+        "method": "Level",
+        "level": 44,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "L'ambre sur sa tête lui permet d'emmagasiner de la foudre qu'il utilise pour attaquer ses adversaires. Il aime mâchouiller les feuilles des arbustes.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Écras'Face"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Éclair"
+      },
+      {
+        "level": 7,
+        "move": "Écras'Terre"
+      },
+      {
+        "level": 10,
+        "move": "Piétinement"
+      },
+      {
+        "level": 13,
+        "move": "Turbo Charge"
+      },
+      {
+        "level": 17,
+        "move": "Écrasement"
+      },
+      {
+        "level": 21,
+        "move": "Ampleur"
+      },
+      {
+        "level": 25,
+        "move": "Éclate Queue"
+      },
+      {
+        "level": 29,
+        "move": "Ténacité"
+      },
+      {
+        "level": 33,
+        "move": "Queue Massue"
+      },
+      {
+        "level": 37,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 41,
+        "move": "Fulmi-Queue"
+      },
+      {
+        "level": 46,
+        "move": "Tête Granit"
+      },
+      {
+        "level": 50,
+        "move": "Primo Impact"
+      },
+      {
+        "level": 54,
+        "move": "Champ Fossile"
+      },
+      {
+        "level": 58,
+        "move": "Séisme"
+      },
+      {
+        "level": 62,
+        "move": "Fléxi-Queue"
+      },
+      {
+        "level": 66,
+        "move": "Plaquage"
+      },
+      {
+        "level": 70,
+        "move": "Chute Minérale"
+      },
+      {
+        "level": 75,
+        "move": "Tonnerre"
+      },
+      {
+        "level": 80,
+        "move": "Ère Jurassique"
+      },
+      {
+        "level": 85,
+        "move": "Abîme"
+      },
+      {
+        "level": 90,
+        "move": "Carnage"
+      },
+      {
+        "level": 95,
+        "move": "Queue Destructrice"
+      },
+      {
+        "level": 100,
+        "move": "Fulgur"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Griffe Diplambre"
+  },
+  {
+    "name": "Diplozéus",
+    "types": [
+      "Fossile",
+      "Foudre"
+    ],
+    "abilities": [
+      "Herbivore",
+      "Isograisse"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il étire son cou pour atteindre les feuilles des arbres les plus hauts. S'il n'y parviendra pas, il se frustre et abat l'arbre d'un coup de foudre.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Écras'Face"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Éclair"
+      },
+      {
+        "level": 7,
+        "move": "Écras'Terre"
+      },
+      {
+        "level": 10,
+        "move": "Piétinement"
+      },
+      {
+        "level": 13,
+        "move": "Turbo Charge"
+      },
+      {
+        "level": 17,
+        "move": "Écrasement"
+      },
+      {
+        "level": 21,
+        "move": "Ampleur"
+      },
+      {
+        "level": 25,
+        "move": "Éclate Queue"
+      },
+      {
+        "level": 29,
+        "move": "Ténacité"
+      },
+      {
+        "level": 33,
+        "move": "Queue Massue"
+      },
+      {
+        "level": 37,
+        "move": "Éco-Sphère"
+      },
+      {
+        "level": 41,
+        "move": "Fulmi-Queue"
+      },
+      {
+        "level": 46,
+        "move": "Tête Granit"
+      },
+      {
+        "level": 50,
+        "move": "Primo Impact"
+      },
+      {
+        "level": 54,
+        "move": "Champ Fossile"
+      },
+      {
+        "level": 58,
+        "move": "Séisme"
+      },
+      {
+        "level": 62,
+        "move": "Fléxi-Queue"
+      },
+      {
+        "level": 66,
+        "move": "Plaquage"
+      },
+      {
+        "level": 70,
+        "move": "Chute Minérale"
+      },
+      {
+        "level": 75,
+        "move": "Tonnerre"
+      },
+      {
+        "level": 80,
+        "move": "Ère Jurassique"
+      },
+      {
+        "level": 85,
+        "move": "Abîme"
+      },
+      {
+        "level": 90,
+        "move": "Carnage"
+      },
+      {
+        "level": 95,
+        "move": "Queue Destructrice"
+      },
+      {
+        "level": 100,
+        "move": "Fulgur"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zéphy",
+    "types": [
+      "Dragon",
+      "Mystique"
+    ],
+    "abilities": [
+      "Cielgris",
+      "Peauceleste"
+    ],
+    "hidden_ability": null,
+    "evolution": "Évolue en Zépharan au niveau 34",
+    "evolutions_detailed": [
+      {
+        "target_token": "ZEPHARAN",
+        "target_name": "Zépharan",
+        "method": "Level",
+        "level": 34,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Son crystal luit lorsqu'il vole dans les nuages, ce qui permet de les repérer.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Tornade"
+      },
+      {
+        "level": 1,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 5,
+        "move": "Clairvoyance"
+      },
+      {
+        "level": 7,
+        "move": "Choc Mental"
+      },
+      {
+        "level": 10,
+        "move": "Bâillement"
+      },
+      {
+        "level": 13,
+        "move": "Acrobatie"
+      },
+      {
+        "level": 17,
+        "move": "Cyclone"
+      },
+      {
+        "level": 21,
+        "move": "Draco-Souffle"
+      },
+      {
+        "level": 25,
+        "move": "Brume Apaisante"
+      },
+      {
+        "level": 29,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 33,
+        "move": "Fulgur"
+      },
+      {
+        "level": 37,
+        "move": "Anti-Brume"
+      },
+      {
+        "level": 41,
+        "move": "Pacification"
+      },
+      {
+        "level": 46,
+        "move": "Xxx"
+      },
+      {
+        "level": 50,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 54,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 58,
+        "move": "Charge Glaive"
+      },
+      {
+        "level": 62,
+        "move": "Dynastie"
+      },
+      {
+        "level": 66,
+        "move": "Sanctuaire"
+      },
+      {
+        "level": 70,
+        "move": "Oeil du Cyclone"
+      },
+      {
+        "level": 75,
+        "move": "Dragon Nova"
+      },
+      {
+        "level": 80,
+        "move": "Tonnerre"
+      },
+      {
+        "level": 85,
+        "move": "Vent Céleste"
+      },
+      {
+        "level": 90,
+        "move": "Xxx"
+      },
+      {
+        "level": 95,
+        "move": "Épuration"
+      },
+      {
+        "level": 100,
+        "move": "Fatal-Foudre"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Orbe Zéphy"
+  },
+  {
+    "name": "Zépharan",
+    "types": [
+      "Dragon",
+      "Mystique"
+    ],
+    "abilities": [
+      "Cielgris",
+      "Peauceleste"
+    ],
+    "hidden_ability": null,
+    "evolution": "Évolue en Zéphaeris au niveau 54",
+    "evolutions_detailed": [
+      {
+        "target_token": "ZEPHAERIS",
+        "target_name": "Zéphaeris",
+        "method": "Level",
+        "level": 54,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Voir un Zépharan dans le ciel nuageux porterait bonheur aux personnes qui l'ont apperçu.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Tornade"
+      },
+      {
+        "level": 1,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 5,
+        "move": "Clairvoyance"
+      },
+      {
+        "level": 7,
+        "move": "Choc Mental"
+      },
+      {
+        "level": 10,
+        "move": "Bâillement"
+      },
+      {
+        "level": 13,
+        "move": "Acrobatie"
+      },
+      {
+        "level": 17,
+        "move": "Cyclone"
+      },
+      {
+        "level": 21,
+        "move": "Draco-Souffle"
+      },
+      {
+        "level": 25,
+        "move": "Brume Apaisante"
+      },
+      {
+        "level": 29,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 33,
+        "move": "Fulgur"
+      },
+      {
+        "level": 37,
+        "move": "Anti-Brume"
+      },
+      {
+        "level": 41,
+        "move": "Pacification"
+      },
+      {
+        "level": 46,
+        "move": "Xxx"
+      },
+      {
+        "level": 50,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 54,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 58,
+        "move": "Charge Glaive"
+      },
+      {
+        "level": 62,
+        "move": "Dynastie"
+      },
+      {
+        "level": 66,
+        "move": "Sanctuaire"
+      },
+      {
+        "level": 70,
+        "move": "Oeil du Cyclone"
+      },
+      {
+        "level": 75,
+        "move": "Dragon Nova"
+      },
+      {
+        "level": 80,
+        "move": "Tonnerre"
+      },
+      {
+        "level": 85,
+        "move": "Vent Céleste"
+      },
+      {
+        "level": 90,
+        "move": "Xxx"
+      },
+      {
+        "level": 95,
+        "move": "Épuration"
+      },
+      {
+        "level": 100,
+        "move": "Fatal-Foudre"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zéphaeris",
+    "types": [
+      "Dragon",
+      "Mystique"
+    ],
+    "abilities": [
+      "Cielgris",
+      "Peauceleste"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les légendes racontent que les Zéphaeris ont tous un trésor à protéger. Il voyage à travers les nuages les plus hauts.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Tornade"
+      },
+      {
+        "level": 1,
+        "move": "Chant Antique"
+      },
+      {
+        "level": 5,
+        "move": "Clairvoyance"
+      },
+      {
+        "level": 7,
+        "move": "Choc Mental"
+      },
+      {
+        "level": 10,
+        "move": "Bâillement"
+      },
+      {
+        "level": 13,
+        "move": "Acrobatie"
+      },
+      {
+        "level": 17,
+        "move": "Cyclone"
+      },
+      {
+        "level": 21,
+        "move": "Draco-Souffle"
+      },
+      {
+        "level": 25,
+        "move": "Brume Apaisante"
+      },
+      {
+        "level": 29,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 33,
+        "move": "Fulgur"
+      },
+      {
+        "level": 37,
+        "move": "Anti-Brume"
+      },
+      {
+        "level": 41,
+        "move": "Pacification"
+      },
+      {
+        "level": 46,
+        "move": "Xxx"
+      },
+      {
+        "level": 50,
+        "move": "Bourrasque"
+      },
+      {
+        "level": 54,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 58,
+        "move": "Charge Glaive"
+      },
+      {
+        "level": 62,
+        "move": "Dynastie"
+      },
+      {
+        "level": 66,
+        "move": "Sanctuaire"
+      },
+      {
+        "level": 70,
+        "move": "Oeil du Cyclone"
+      },
+      {
+        "level": 75,
+        "move": "Dragon Nova"
+      },
+      {
+        "level": 80,
+        "move": "Tonnerre"
+      },
+      {
+        "level": 85,
+        "move": "Vent Céleste"
+      },
+      {
+        "level": 90,
+        "move": "Xxx"
+      },
+      {
+        "level": 95,
+        "move": "Épuration"
+      },
+      {
+        "level": 100,
+        "move": "Fatal-Foudre"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Artikodin",
+    "types": [
+      "Neige",
+      "Vol"
+    ],
+    "abilities": [
+      "Rideauneige"
+    ],
+    "hidden_ability": "Pression",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il possède le pouvoir de contrôler la neige. Selon les dires, il vivrait sur les sommets recouverts de neiges éternelles.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Poudreuse"
+      },
+      {
+        "level": 1,
+        "move": "Buée Noire"
+      },
+      {
+        "level": 5,
+        "move": "Tornade"
+      },
+      {
+        "level": 7,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 10,
+        "move": "Refroidissement"
+      },
+      {
+        "level": 13,
+        "move": "Cyclone"
+      },
+      {
+        "level": 17,
+        "move": "Plume Glacée"
+      },
+      {
+        "level": 21,
+        "move": "Aile Glacée"
+      },
+      {
+        "level": 25,
+        "move": "Onde Boréale"
+      },
+      {
+        "level": 29,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 33,
+        "move": "Vague de Froid"
+      },
+      {
+        "level": 37,
+        "move": "Hâte"
+      },
+      {
+        "level": 41,
+        "move": "Pouvoir Antique"
+      },
+      {
+        "level": 46,
+        "move": "Tranch'Plume"
+      },
+      {
+        "level": 50,
+        "move": "Chute de Neige"
+      },
+      {
+        "level": 54,
+        "move": "Double Volée"
+      },
+      {
+        "level": 58,
+        "move": "Blizzard"
+      },
+      {
+        "level": 62,
+        "move": "Atterrissage"
+      },
+      {
+        "level": 66,
+        "move": "Laser Glace"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Ball'Énergie"
+      },
+      {
+        "level": 80,
+        "move": "Piqué"
+      },
+      {
+        "level": 85,
+        "move": "Symphonie"
+      },
+      {
+        "level": 90,
+        "move": "Voile Aurore"
+      },
+      {
+        "level": 95,
+        "move": "Vent Arrière"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [
+      "Vol",
+      "Anti-Brume",
+      "Brise-Glace"
+    ],
+    "ct": [
+      "Vague de Froid",
+      "Lame d'Air",
+      "Avalanche",
+      "Tranch'Plume",
+      "Lame de Glace",
+      "Rude Hiver",
+      "Lyophilisation",
+      "Vitesse Extrême"
+    ],
+    "dt": [
+      "Riposte",
+      "Punition",
+      "Onde Boréale",
+      "Tranch'Aile",
+      "Coupe-Vent",
+      "Piqué",
+      "Laser Glace",
+      "Blizzard"
+    ],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Électhor",
+    "types": [
+      "Foudre",
+      "Vol"
+    ],
+    "abilities": [
+      "Statik"
+    ],
+    "hidden_ability": "Pression",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "On raconte que lorsque cet oiseau légendaire fait vibrer ses plumes, le frottement fait tomber la foudre instantanément.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Éclair"
+      },
+      {
+        "level": 1,
+        "move": "Cage-Éclair"
+      },
+      {
+        "level": 5,
+        "move": "Tornade"
+      },
+      {
+        "level": 7,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 10,
+        "move": "Chargeur"
+      },
+      {
+        "level": 13,
+        "move": "Cyclone"
+      },
+      {
+        "level": 17,
+        "move": "Plume Électrik"
+      },
+      {
+        "level": 21,
+        "move": "Aile Éclair"
+      },
+      {
+        "level": 25,
+        "move": "Onde de Choc"
+      },
+      {
+        "level": 29,
+        "move": "Protection"
+      },
+      {
+        "level": 33,
+        "move": "Tonnerre"
+      },
+      {
+        "level": 37,
+        "move": "Hâte"
+      },
+      {
+        "level": 41,
+        "move": "Pouvoir Antique"
+      },
+      {
+        "level": 46,
+        "move": "Tranch'Plume"
+      },
+      {
+        "level": 50,
+        "move": "Typhon Fulgurant"
+      },
+      {
+        "level": 54,
+        "move": "Double Volée"
+      },
+      {
+        "level": 58,
+        "move": "Fatal-Foudre"
+      },
+      {
+        "level": 62,
+        "move": "Atterrissage"
+      },
+      {
+        "level": 66,
+        "move": "Coup d'Jus"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Ball'Énergie"
+      },
+      {
+        "level": 80,
+        "move": "Piqué"
+      },
+      {
+        "level": 85,
+        "move": "Rayonnement"
+      },
+      {
+        "level": 90,
+        "move": "Détection"
+      },
+      {
+        "level": 95,
+        "move": "Vent Arrière"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [
+      "Vol",
+      "Anti-Brume",
+      "Induction"
+    ],
+    "ct": [
+      "Boule Élek",
+      "Onde de Choc",
+      "Lame d'Air",
+      "Rayon Chargé",
+      "Ball'Dynamo",
+      "Tranch'Plume",
+      "Coup d'Jus",
+      "Change Éclair",
+      "Tranche-Nuit",
+      "Vitesse Extrême"
+    ],
+    "dt": [
+      "Riposte",
+      "Punition",
+      "Tranch'Aile",
+      "Élecanon",
+      "Cage-Éclair",
+      "Coupe-Vent",
+      "Piqué",
+      "Décharge",
+      "Fatal-Foudre"
+    ],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Sulfura",
+    "types": [
+      "Feu",
+      "Vol"
+    ],
+    "abilities": [
+      "Corpsardent"
+    ],
+    "hidden_ability": "Pression",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il s'agit d'un des oiseaux légendaires. Des flammes rouges d'une grande beauté étincellent lorsqu'il bat des ailes.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Danse Flammes"
+      },
+      {
+        "level": 1,
+        "move": "Feu Éveillé"
+      },
+      {
+        "level": 5,
+        "move": "Tornade"
+      },
+      {
+        "level": 7,
+        "move": "Tornad'Aile"
+      },
+      {
+        "level": 10,
+        "move": "Crach'Fumée"
+      },
+      {
+        "level": 13,
+        "move": "Cyclone"
+      },
+      {
+        "level": 17,
+        "move": "Plume Flamme"
+      },
+      {
+        "level": 21,
+        "move": "Aile Brûlante"
+      },
+      {
+        "level": 25,
+        "move": "Calcination"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Vague de Chaleur"
+      },
+      {
+        "level": 37,
+        "move": "Hâte"
+      },
+      {
+        "level": 41,
+        "move": "Pouvoir Antique"
+      },
+      {
+        "level": 46,
+        "move": "Tranch'Plume"
+      },
+      {
+        "level": 50,
+        "move": "Canicule"
+      },
+      {
+        "level": 54,
+        "move": "Double Volée"
+      },
+      {
+        "level": 58,
+        "move": "Déflagration"
+      },
+      {
+        "level": 62,
+        "move": "Atterrissage"
+      },
+      {
+        "level": 66,
+        "move": "Ébullilave"
+      },
+      {
+        "level": 70,
+        "move": "Vent Violent"
+      },
+      {
+        "level": 75,
+        "move": "Ball'Énergie"
+      },
+      {
+        "level": 80,
+        "move": "Piqué"
+      },
+      {
+        "level": 85,
+        "move": "Vibrobscur"
+      },
+      {
+        "level": 90,
+        "move": "Machination"
+      },
+      {
+        "level": 95,
+        "move": "Vent Arrière"
+      },
+      {
+        "level": 100,
+        "move": "Haute Voltige"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [
+      "Vol",
+      "Combustion",
+      "Anti-Brume"
+    ],
+    "ct": [
+      "Lance-Flammes",
+      "Rebondilave",
+      "Lame d'Air",
+      "Tranch'Plume",
+      "Folie Ardente",
+      "Sol Brûlé",
+      "Sanction",
+      "Vitesse Extrême"
+    ],
+    "dt": [
+      "Riposte",
+      "Punition",
+      "Tranch'Aile",
+      "Coupe-Vent",
+      "Piqué",
+      "Bombe Fendante",
+      "Déflagration"
+    ],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Missingno",
+    "types": [
+      "Techno"
+    ],
+    "abilities": [
+      "Telecharge"
+    ],
+    "hidden_ability": "Imposteur",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Ce Pokémon est issu d'un bug digital rencontré lors de la création du Système de Stockage des Pokémon.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Électron"
+      },
+      {
+        "level": 1,
+        "move": "Ondes Delta"
+      },
+      {
+        "level": 5,
+        "move": "Entrave"
+      },
+      {
+        "level": 7,
+        "move": "Électri'Bonus"
+      },
+      {
+        "level": 10,
+        "move": "Métronome"
+      },
+      {
+        "level": 13,
+        "move": "Hacking"
+      },
+      {
+        "level": 17,
+        "move": "Câblage"
+      },
+      {
+        "level": 21,
+        "move": "Coup Ionique"
+      },
+      {
+        "level": 25,
+        "move": "Prismagik"
+      },
+      {
+        "level": 29,
+        "move": "Boule Autoguidée"
+      },
+      {
+        "level": 33,
+        "move": "Bombe Aimant"
+      },
+      {
+        "level": 37,
+        "move": "Allègement"
+      },
+      {
+        "level": 41,
+        "move": "Rayon Delta"
+      },
+      {
+        "level": 46,
+        "move": "Induction"
+      },
+      {
+        "level": 50,
+        "move": "Erreurcritique"
+      },
+      {
+        "level": 54,
+        "move": "Tu m'vois Plus"
+      },
+      {
+        "level": 58,
+        "move": "Zone Étrange"
+      },
+      {
+        "level": 62,
+        "move": "Décharge"
+      },
+      {
+        "level": 66,
+        "move": "Gyroballe"
+      },
+      {
+        "level": 70,
+        "move": "Rayon Dense"
+      },
+      {
+        "level": 75,
+        "move": "Métalaser"
+      },
+      {
+        "level": 80,
+        "move": "Voile Miroir"
+      },
+      {
+        "level": 85,
+        "move": "Canon Atome"
+      },
+      {
+        "level": 90,
+        "move": "Ruée d'Or"
+      },
+      {
+        "level": 95,
+        "move": "Rayon Mystère"
+      },
+      {
+        "level": 100,
+        "move": "Ultra Voltage"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [
+      "Flash",
+      "Induction",
+      "Hacking"
+    ],
+    "ct": [
+      "Boule Élek",
+      "Demi-Tour",
+      "Onde de Choc",
+      "Rayon Chargé",
+      "Luminocanon",
+      "Ball'Dynamo",
+      "Coup d'Jus",
+      "Vaste Pouvoir",
+      "Rayon Delta"
+    ],
+    "dt": [
+      "Protection",
+      "Météores",
+      "Élecanon",
+      "Cage-Éclair",
+      "Clonage",
+      "Décharge"
+    ],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  }
+]

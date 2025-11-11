@@ -1,0 +1,846 @@
+[
+  {
+    "name": "Souchef",
+    "types": [
+      "Feu",
+      "Elastik"
+    ],
+    "abilities": [
+      "Escarpette",
+      "Maladresse"
+    ],
+    "hidden_ability": "Pression",
+    "evolution": "Évolue en Cuistoque au niveau 30",
+    "evolutions_detailed": [
+      {
+        "target_token": "CUISTOQUE",
+        "target_name": "Cuistoque",
+        "method": "Level",
+        "level": 30,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Il est l'assistant parfait des grands chefs cuisinier, sauf si vous lui mettez trop la pression...",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Roussi"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Crachat Sucré"
+      },
+      {
+        "level": 7,
+        "move": "Crach'Fumée"
+      },
+      {
+        "level": 10,
+        "move": "Patience"
+      },
+      {
+        "level": 13,
+        "move": "Tir Crème"
+      },
+      {
+        "level": 17,
+        "move": "Assommage"
+      },
+      {
+        "level": 21,
+        "move": "Canon Laiteux"
+      },
+      {
+        "level": 25,
+        "move": "Coup Bas"
+      },
+      {
+        "level": 29,
+        "move": "Rebondifeu"
+      },
+      {
+        "level": 33,
+        "move": "Rebonbidou"
+      },
+      {
+        "level": 37,
+        "move": "Ébullition"
+      },
+      {
+        "level": 41,
+        "move": "Vague de Chaleur"
+      },
+      {
+        "level": 46,
+        "move": "Bombe Oeuf"
+      },
+      {
+        "level": 50,
+        "move": "Coulis Fruité"
+      },
+      {
+        "level": 54,
+        "move": "Lance-Flammes"
+      },
+      {
+        "level": 58,
+        "move": "Dégobillage"
+      },
+      {
+        "level": 62,
+        "move": "Indignition"
+      },
+      {
+        "level": 66,
+        "move": "Claque Musclée"
+      },
+      {
+        "level": 70,
+        "move": "Bombe Gluten"
+      },
+      {
+        "level": 75,
+        "move": "Rebond"
+      },
+      {
+        "level": 80,
+        "move": "Surchauffe"
+      },
+      {
+        "level": 85,
+        "move": "Malléable"
+      },
+      {
+        "level": 90,
+        "move": "Geyser"
+      },
+      {
+        "level": 95,
+        "move": "Tête Brûlée"
+      },
+      {
+        "level": 100,
+        "move": "Fou Furax"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [
+      "Coupe",
+      "Combustion",
+      "Éclate-Roc"
+    ],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Moustache Souchef"
+  },
+  {
+    "name": "Cuistoque",
+    "types": [
+      "Feu",
+      "Elastik"
+    ],
+    "abilities": [
+      "Gloutonnerie",
+      "Colerique"
+    ],
+    "hidden_ability": "Pression",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Maître dans les arts culinaires, ses talents sont très appréciés des grands chefs.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Roussi"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Crachat Sucré"
+      },
+      {
+        "level": 7,
+        "move": "Crach'Fumée"
+      },
+      {
+        "level": 10,
+        "move": "Patience"
+      },
+      {
+        "level": 13,
+        "move": "Tir Crème"
+      },
+      {
+        "level": 17,
+        "move": "Assommage"
+      },
+      {
+        "level": 21,
+        "move": "Canon Laiteux"
+      },
+      {
+        "level": 25,
+        "move": "Coup Bas"
+      },
+      {
+        "level": 29,
+        "move": "Rebondifeu"
+      },
+      {
+        "level": 33,
+        "move": "Rebonbidou"
+      },
+      {
+        "level": 37,
+        "move": "Ébullition"
+      },
+      {
+        "level": 41,
+        "move": "Vague de Chaleur"
+      },
+      {
+        "level": 46,
+        "move": "Bombe Oeuf"
+      },
+      {
+        "level": 50,
+        "move": "Coulis Fruité"
+      },
+      {
+        "level": 54,
+        "move": "Lance-Flammes"
+      },
+      {
+        "level": 58,
+        "move": "Dégobillage"
+      },
+      {
+        "level": 62,
+        "move": "Indignition"
+      },
+      {
+        "level": 66,
+        "move": "Claque Musclée"
+      },
+      {
+        "level": 70,
+        "move": "Bombe Gluten"
+      },
+      {
+        "level": 75,
+        "move": "Rebond"
+      },
+      {
+        "level": 80,
+        "move": "Surchauffe"
+      },
+      {
+        "level": 85,
+        "move": "Malléable"
+      },
+      {
+        "level": 90,
+        "move": "Geyser"
+      },
+      {
+        "level": 95,
+        "move": "Tête Brûlée"
+      },
+      {
+        "level": 100,
+        "move": "Fou Furax"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [
+      "Coupe",
+      "Force",
+      "Combustion",
+      "Éclate-Roc",
+      "Force Cachée",
+      "Casse Brique",
+      "Coupe Vive",
+      "Brise-Glace"
+    ],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Tristecadre",
+    "types": [
+      "Spectre",
+      "Eau"
+    ],
+    "abilities": [
+      "Levitation",
+      "Lavabo"
+    ],
+    "hidden_ability": "Mauvaisreve",
+    "evolution": "Évolue en Cadralarme au niveau 35",
+    "evolutions_detailed": [
+      {
+        "target_token": "CADRALARME",
+        "target_name": "Cadralarme",
+        "method": "Level",
+        "level": 35,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "C'est un petit tableau abandonné. On dit qu’un esprit mélancolique y est enfermé depuis qu’un peintre n’a jamais fini son œuvre.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Étonnement"
+      },
+      {
+        "level": 1,
+        "move": "Larme"
+      },
+      {
+        "level": 5,
+        "move": "Dépit"
+      },
+      {
+        "level": 7,
+        "move": "Regard Touchant"
+      },
+      {
+        "level": 10,
+        "move": "Ombre Nocturne"
+      },
+      {
+        "level": 13,
+        "move": "Chagrin"
+      },
+      {
+        "level": 17,
+        "move": "Tourmente"
+      },
+      {
+        "level": 21,
+        "move": "Purge"
+      },
+      {
+        "level": 25,
+        "move": "Châtiment"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Onde Folie"
+      },
+      {
+        "level": 37,
+        "move": "Crève-Coeur"
+      },
+      {
+        "level": 41,
+        "move": "Aqua Bombe"
+      },
+      {
+        "level": 46,
+        "move": "Vague Funeste"
+      },
+      {
+        "level": 50,
+        "move": "Confidence"
+      },
+      {
+        "level": 54,
+        "move": "Inondation"
+      },
+      {
+        "level": 58,
+        "move": "Avale"
+      },
+      {
+        "level": 58,
+        "move": "Stockage"
+      },
+      {
+        "level": 58,
+        "move": "Relâche"
+      },
+      {
+        "level": 62,
+        "move": "Dernier Chant"
+      },
+      {
+        "level": 66,
+        "move": "Coeur Rancoeur"
+      },
+      {
+        "level": 70,
+        "move": "Fontaine de Vie"
+      },
+      {
+        "level": 75,
+        "move": "Profond Regret"
+      },
+      {
+        "level": 80,
+        "move": "Vague Étrange"
+      },
+      {
+        "level": 85,
+        "move": "Cri Maudit"
+      },
+      {
+        "level": 90,
+        "move": "Douleur"
+      },
+      {
+        "level": 95,
+        "move": "Aqua-Douche"
+      },
+      {
+        "level": 100,
+        "move": "Malédiction"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Bois Tristecadre"
+  },
+  {
+    "name": "Cadralarme",
+    "types": [
+      "Spectre",
+      "Eau"
+    ],
+    "abilities": [
+      "Levitation",
+      "Lavabo"
+    ],
+    "hidden_ability": "Mauvaisreve",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il pleure sans fin des larmes spectrales qui noient les couloirs où il est exposé. On dit qu'il chante des lamentations inaudibles.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Étonnement"
+      },
+      {
+        "level": 1,
+        "move": "Larme"
+      },
+      {
+        "level": 5,
+        "move": "Dépit"
+      },
+      {
+        "level": 7,
+        "move": "Regard Touchant"
+      },
+      {
+        "level": 10,
+        "move": "Ombre Nocturne"
+      },
+      {
+        "level": 13,
+        "move": "Chagrin"
+      },
+      {
+        "level": 17,
+        "move": "Tourmente"
+      },
+      {
+        "level": 21,
+        "move": "Purge"
+      },
+      {
+        "level": 25,
+        "move": "Châtiment"
+      },
+      {
+        "level": 29,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 33,
+        "move": "Onde Folie"
+      },
+      {
+        "level": 37,
+        "move": "Crève-Coeur"
+      },
+      {
+        "level": 41,
+        "move": "Aqua Bombe"
+      },
+      {
+        "level": 46,
+        "move": "Vague Funeste"
+      },
+      {
+        "level": 50,
+        "move": "Confidence"
+      },
+      {
+        "level": 54,
+        "move": "Inondation"
+      },
+      {
+        "level": 58,
+        "move": "Avale"
+      },
+      {
+        "level": 58,
+        "move": "Stockage"
+      },
+      {
+        "level": 58,
+        "move": "Relâche"
+      },
+      {
+        "level": 62,
+        "move": "Dernier Chant"
+      },
+      {
+        "level": 66,
+        "move": "Coeur Rancoeur"
+      },
+      {
+        "level": 70,
+        "move": "Fontaine de Vie"
+      },
+      {
+        "level": 75,
+        "move": "Profond Regret"
+      },
+      {
+        "level": 80,
+        "move": "Vague Étrange"
+      },
+      {
+        "level": 85,
+        "move": "Cri Maudit"
+      },
+      {
+        "level": 90,
+        "move": "Douleur"
+      },
+      {
+        "level": 95,
+        "move": "Aqua-Douche"
+      },
+      {
+        "level": 100,
+        "move": "Malédiction"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Tristereflet",
+    "types": [
+      "Spectre",
+      "Acier"
+    ],
+    "abilities": [
+      "Antibruit",
+      "Contestation"
+    ],
+    "hidden_ability": "Calque",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il renvoie aux vivants une version d’eux qu’ils craignent. On dit qu’il a brisé l’esprit de ceux qui l’ont trop longtemps regardé.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Étonnement"
+      },
+      {
+        "level": 1,
+        "move": "Collision"
+      },
+      {
+        "level": 5,
+        "move": "Dépit"
+      },
+      {
+        "level": 7,
+        "move": "Grimace"
+      },
+      {
+        "level": 10,
+        "move": "Ombre Nocturne"
+      },
+      {
+        "level": 13,
+        "move": "Possessif"
+      },
+      {
+        "level": 17,
+        "move": "Tourmente"
+      },
+      {
+        "level": 21,
+        "move": "Miroi-Tir"
+      },
+      {
+        "level": 25,
+        "move": "Châtiment"
+      },
+      {
+        "level": 29,
+        "move": "Reflet Magik"
+      },
+      {
+        "level": 33,
+        "move": "Hypnose"
+      },
+      {
+        "level": 37,
+        "move": "Perce-Armure"
+      },
+      {
+        "level": 41,
+        "move": "Grincement"
+      },
+      {
+        "level": 46,
+        "move": "Hantise"
+      },
+      {
+        "level": 50,
+        "move": "Anti-Soin"
+      },
+      {
+        "level": 54,
+        "move": "Razzia"
+      },
+      {
+        "level": 58,
+        "move": "Danse Lames"
+      },
+      {
+        "level": 62,
+        "move": "Tu m'vois Plus"
+      },
+      {
+        "level": 66,
+        "move": "Griffe Ombre"
+      },
+      {
+        "level": 70,
+        "move": "Mur de Fer"
+      },
+      {
+        "level": 75,
+        "move": "Frappe Cisaille"
+      },
+      {
+        "level": 80,
+        "move": "Choc Étrange"
+      },
+      {
+        "level": 85,
+        "move": "Tranche-Nuit"
+      },
+      {
+        "level": 90,
+        "move": "Choc Frontal"
+      },
+      {
+        "level": 95,
+        "move": "Maraudage"
+      },
+      {
+        "level": 100,
+        "move": "Ravage"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Victini",
+    "types": [
+      "Feu",
+      "Psy"
+    ],
+    "abilities": [
+      "Victorieux"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Un Pokémon qui amène la victoire. On dit que les Dresseurs qui le possèdent peuvent gagner n’importe quel combat.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Pulsion"
+      },
+      {
+        "level": 1,
+        "move": "Puissance"
+      },
+      {
+        "level": 5,
+        "move": "Vive-Attaque"
+      },
+      {
+        "level": 7,
+        "move": "Nitrocharge"
+      },
+      {
+        "level": 10,
+        "move": "Rengorgement"
+      },
+      {
+        "level": 13,
+        "move": "Calcination"
+      },
+      {
+        "level": 17,
+        "move": "Lévio Chute"
+      },
+      {
+        "level": 21,
+        "move": "Force Ajoutée"
+      },
+      {
+        "level": 25,
+        "move": "Mur Lumière"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Ténacité"
+      },
+      {
+        "level": 37,
+        "move": "Poing Dérobant"
+      },
+      {
+        "level": 41,
+        "move": "Psykoud'Boul"
+      },
+      {
+        "level": 46,
+        "move": "Hâte"
+      },
+      {
+        "level": 50,
+        "move": "Feu d'Enfer"
+      },
+      {
+        "level": 54,
+        "move": "Éclat Magique"
+      },
+      {
+        "level": 58,
+        "move": "Choc Émotionnel"
+      },
+      {
+        "level": 62,
+        "move": "Coupvictoire"
+      },
+      {
+        "level": 66,
+        "move": "Psyko"
+      },
+      {
+        "level": 70,
+        "move": "Damoclès"
+      },
+      {
+        "level": 75,
+        "move": "Boutefeu"
+      },
+      {
+        "level": 80,
+        "move": "Pacification"
+      },
+      {
+        "level": 85,
+        "move": "Choc Trauma"
+      },
+      {
+        "level": 90,
+        "move": "Tout ou Rien"
+      },
+      {
+        "level": 95,
+        "move": "Surchauffe"
+      },
+      {
+        "level": 100,
+        "move": "Bouclier"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  }
+]

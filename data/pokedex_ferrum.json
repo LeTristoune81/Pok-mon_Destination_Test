@@ -1,0 +1,828 @@
+[
+  {
+    "name": "Chevrillon",
+    "types": [
+      "Normal",
+      "Acier"
+    ],
+    "abilities": [
+      "Tetederoc",
+      "Fuite"
+    ],
+    "hidden_ability": "Armurbaston",
+    "evolution": "Évolue en Curabouc au niveau 28",
+    "evolutions_detailed": [
+      {
+        "target_token": "CURABOUC",
+        "target_name": "Curabouc",
+        "method": "Level",
+        "level": 28,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Malgré leur résistance à toute épreuve, les Chevrillon sont sensibles et fuient facilement les affrontements.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Collision"
+      },
+      {
+        "level": 7,
+        "move": "Puissance"
+      },
+      {
+        "level": 10,
+        "move": "Beuglement"
+      },
+      {
+        "level": 13,
+        "move": "Double Pied"
+      },
+      {
+        "level": 17,
+        "move": "Patience"
+      },
+      {
+        "level": 21,
+        "move": "Écrasement"
+      },
+      {
+        "level": 25,
+        "move": "Tête de Fer"
+      },
+      {
+        "level": 29,
+        "move": "Barrage"
+      },
+      {
+        "level": 33,
+        "move": "Corps Perdu"
+      },
+      {
+        "level": 37,
+        "move": "Tête Granit"
+      },
+      {
+        "level": 41,
+        "move": "Râle Mâle"
+      },
+      {
+        "level": 46,
+        "move": "Damoclès"
+      },
+      {
+        "level": 50,
+        "move": "Tacle Lourd"
+      },
+      {
+        "level": 54,
+        "move": "Ténacité"
+      },
+      {
+        "level": 58,
+        "move": "Ampleur"
+      },
+      {
+        "level": 62,
+        "move": "Close Combat"
+      },
+      {
+        "level": 66,
+        "move": "Rengorgement"
+      },
+      {
+        "level": 70,
+        "move": "Choc Frontal"
+      },
+      {
+        "level": 75,
+        "move": "Cavalerie Lourde"
+      },
+      {
+        "level": 80,
+        "move": "Riposte"
+      },
+      {
+        "level": 85,
+        "move": "Giga Impact"
+      },
+      {
+        "level": 90,
+        "move": "Fracass'Tête"
+      },
+      {
+        "level": 95,
+        "move": "Coud'Krâne"
+      },
+      {
+        "level": 100,
+        "move": "Assaut Frontal"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Curabouc",
+    "types": [
+      "Normal",
+      "Acier"
+    ],
+    "abilities": [
+      "Tetederoc",
+      "Brisemoule"
+    ],
+    "hidden_ability": "Armurbaston",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Les Curabouc se battent rarement mais dès qu'un combat commence, ils tiennent tête jusqu'à la fin.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Charge"
+      },
+      {
+        "level": 1,
+        "move": "Groz'Yeux"
+      },
+      {
+        "level": 5,
+        "move": "Collision"
+      },
+      {
+        "level": 7,
+        "move": "Puissance"
+      },
+      {
+        "level": 10,
+        "move": "Beuglement"
+      },
+      {
+        "level": 13,
+        "move": "Double Pied"
+      },
+      {
+        "level": 17,
+        "move": "Patience"
+      },
+      {
+        "level": 21,
+        "move": "Écrasement"
+      },
+      {
+        "level": 25,
+        "move": "Tête de Fer"
+      },
+      {
+        "level": 29,
+        "move": "Barrage"
+      },
+      {
+        "level": 33,
+        "move": "Corps Perdu"
+      },
+      {
+        "level": 37,
+        "move": "Tête Granit"
+      },
+      {
+        "level": 41,
+        "move": "Râle Mâle"
+      },
+      {
+        "level": 46,
+        "move": "Damoclès"
+      },
+      {
+        "level": 50,
+        "move": "Tacle Lourd"
+      },
+      {
+        "level": 54,
+        "move": "Ténacité"
+      },
+      {
+        "level": 58,
+        "move": "Ampleur"
+      },
+      {
+        "level": 62,
+        "move": "Close Combat"
+      },
+      {
+        "level": 66,
+        "move": "Rengorgement"
+      },
+      {
+        "level": 70,
+        "move": "Choc Frontal"
+      },
+      {
+        "level": 75,
+        "move": "Cavalerie Lourde"
+      },
+      {
+        "level": 80,
+        "move": "Riposte"
+      },
+      {
+        "level": 85,
+        "move": "Giga Impact"
+      },
+      {
+        "level": 90,
+        "move": "Fracass'Tête"
+      },
+      {
+        "level": 95,
+        "move": "Coud'Krâne"
+      },
+      {
+        "level": 100,
+        "move": "Assaut Frontal"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Brocelome",
+    "types": [
+      "Bois",
+      "Poison"
+    ],
+    "abilities": [
+      "Corpsmaudit"
+    ],
+    "hidden_ability": "Suintement",
+    "evolution": "Évolue en Desseliande au niveau 35",
+    "evolutions_detailed": [
+      {
+        "target_token": "DESSELIANDE_FER",
+        "target_name": "Desseliande",
+        "method": "Level",
+        "level": 35,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "???",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Ronce"
+      },
+      {
+        "level": 1,
+        "move": "Étonnement"
+      },
+      {
+        "level": 5,
+        "move": "Vampigraine"
+      },
+      {
+        "level": 7,
+        "move": "Onde Folie"
+      },
+      {
+        "level": 10,
+        "move": "Graine Poison"
+      },
+      {
+        "level": 13,
+        "move": "Poursuite"
+      },
+      {
+        "level": 17,
+        "move": "Feu Follet"
+      },
+      {
+        "level": 21,
+        "move": "Châtiment"
+      },
+      {
+        "level": 25,
+        "move": "Vent Miasme"
+      },
+      {
+        "level": 29,
+        "move": "Encornebois"
+      },
+      {
+        "level": 33,
+        "move": "Malédiction"
+      },
+      {
+        "level": 37,
+        "move": "Fouet Vénéneux"
+      },
+      {
+        "level": 41,
+        "move": "Pics Toxik"
+      },
+      {
+        "level": 46,
+        "move": "Hantise"
+      },
+      {
+        "level": 50,
+        "move": "Maleficesylvain"
+      },
+      {
+        "level": 54,
+        "move": "Lame Feuille"
+      },
+      {
+        "level": 58,
+        "move": "Esprit Sylvestre"
+      },
+      {
+        "level": 62,
+        "move": "Lien du Destin"
+      },
+      {
+        "level": 66,
+        "move": "Folie Ardente"
+      },
+      {
+        "level": 70,
+        "move": "Martobois"
+      },
+      {
+        "level": 75,
+        "move": "Sabotage"
+      },
+      {
+        "level": 80,
+        "move": "Chaîne Malsaine"
+      },
+      {
+        "level": 85,
+        "move": "Paravenin"
+      },
+      {
+        "level": 90,
+        "move": "Végé-Impact"
+      },
+      {
+        "level": 95,
+        "move": "Brise Âme"
+      },
+      {
+        "level": 100,
+        "move": "Funérailles"
+      }
+    ],
+    "egg_moves": [
+      "Xxx"
+    ],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    },
+    "resource": "Écorce Brocélôme"
+  },
+  {
+    "name": "Desseliande",
+    "types": [
+      "Bois",
+      "Poison"
+    ],
+    "abilities": [
+      "Corpsmaudit"
+    ],
+    "hidden_ability": "Suintement",
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "???",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Ronce"
+      },
+      {
+        "level": 1,
+        "move": "Étonnement"
+      },
+      {
+        "level": 5,
+        "move": "Vampigraine"
+      },
+      {
+        "level": 7,
+        "move": "Onde Folie"
+      },
+      {
+        "level": 10,
+        "move": "Graine Poison"
+      },
+      {
+        "level": 13,
+        "move": "Poursuite"
+      },
+      {
+        "level": 17,
+        "move": "Feu Follet"
+      },
+      {
+        "level": 21,
+        "move": "Châtiment"
+      },
+      {
+        "level": 25,
+        "move": "Vent Miasme"
+      },
+      {
+        "level": 29,
+        "move": "Encornebois"
+      },
+      {
+        "level": 33,
+        "move": "Malédiction"
+      },
+      {
+        "level": 37,
+        "move": "Fouet Vénéneux"
+      },
+      {
+        "level": 41,
+        "move": "Pics Toxik"
+      },
+      {
+        "level": 46,
+        "move": "Hantise"
+      },
+      {
+        "level": 50,
+        "move": "Maleficesylvain"
+      },
+      {
+        "level": 54,
+        "move": "Lame Feuille"
+      },
+      {
+        "level": 58,
+        "move": "Esprit Sylvestre"
+      },
+      {
+        "level": 62,
+        "move": "Lien du Destin"
+      },
+      {
+        "level": 66,
+        "move": "Folie Ardente"
+      },
+      {
+        "level": 70,
+        "move": "Martobois"
+      },
+      {
+        "level": 75,
+        "move": "Sabotage"
+      },
+      {
+        "level": 80,
+        "move": "Chaîne Malsaine"
+      },
+      {
+        "level": 85,
+        "move": "Paravenin"
+      },
+      {
+        "level": 90,
+        "move": "Végé-Impact"
+      },
+      {
+        "level": 95,
+        "move": "Brise Âme"
+      },
+      {
+        "level": 100,
+        "move": "Funérailles"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Meltan",
+    "types": [
+      "Acier",
+      "Elastik"
+    ],
+    "abilities": [
+      "Magnepiege"
+    ],
+    "hidden_ability": null,
+    "evolution": "Évolue en Melmetal au niveau 70",
+    "evolutions_detailed": [
+      {
+        "target_token": "MELMETAL",
+        "target_name": "Melmetal",
+        "method": "Level",
+        "level": 70,
+        "item_token": null,
+        "item_name": null,
+        "move_token": null,
+        "move_name": null,
+        "move_type": null,
+        "time": null
+      }
+    ],
+    "pokedex": "Ce Pokemon fait fondre le fer et les autres métaux contenus dans le sol pour les intégrer à son corps composé d’acier fondu.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Orbe Aimanté"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Éclair"
+      },
+      {
+        "level": 7,
+        "move": "Abri"
+      },
+      {
+        "level": 10,
+        "move": "Nappage"
+      },
+      {
+        "level": 13,
+        "move": "Câblage"
+      },
+      {
+        "level": 17,
+        "move": "Coup d'Jus"
+      },
+      {
+        "level": 21,
+        "move": "Cage-Éclair"
+      },
+      {
+        "level": 25,
+        "move": "Miroi-Tir"
+      },
+      {
+        "level": 29,
+        "move": "Riposte"
+      },
+      {
+        "level": 33,
+        "move": "Luminocanon"
+      },
+      {
+        "level": 37,
+        "move": "Souplesse"
+      },
+      {
+        "level": 41,
+        "move": "Tonnerre"
+      },
+      {
+        "level": 46,
+        "move": "Acidarmure"
+      },
+      {
+        "level": 50,
+        "move": "Gyroballe"
+      },
+      {
+        "level": 54,
+        "move": "Défibrilation"
+      },
+      {
+        "level": 58,
+        "move": "Façade"
+      },
+      {
+        "level": 62,
+        "move": "Ecrousdpoing"
+      },
+      {
+        "level": 66,
+        "move": "Essorage"
+      },
+      {
+        "level": 70,
+        "move": "Dynamo-Poing"
+      },
+      {
+        "level": 75,
+        "move": "Ultimapoing"
+      },
+      {
+        "level": 80,
+        "move": "Surpuissance"
+      },
+      {
+        "level": 85,
+        "move": "Poing Éclair"
+      },
+      {
+        "level": 90,
+        "move": "Choc Frontal"
+      },
+      {
+        "level": 95,
+        "move": "Ultralaser"
+      },
+      {
+        "level": 100,
+        "move": "Métalaser"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Melmetal",
+    "types": [
+      "Acier",
+      "Elastik"
+    ],
+    "abilities": [
+      "Poingdefer"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Autrefois vénéré pour son aptitude à produire du fer, ce Pokémon a mystérieusement ressuscité après 3000 ans.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Orbe Aimanté"
+      },
+      {
+        "level": 1,
+        "move": "Armure"
+      },
+      {
+        "level": 5,
+        "move": "Éclair"
+      },
+      {
+        "level": 7,
+        "move": "Abri"
+      },
+      {
+        "level": 10,
+        "move": "Nappage"
+      },
+      {
+        "level": 13,
+        "move": "Câblage"
+      },
+      {
+        "level": 17,
+        "move": "Coup d'Jus"
+      },
+      {
+        "level": 21,
+        "move": "Cage-Éclair"
+      },
+      {
+        "level": 25,
+        "move": "Miroi-Tir"
+      },
+      {
+        "level": 29,
+        "move": "Riposte"
+      },
+      {
+        "level": 33,
+        "move": "Luminocanon"
+      },
+      {
+        "level": 37,
+        "move": "Souplesse"
+      },
+      {
+        "level": 41,
+        "move": "Tonnerre"
+      },
+      {
+        "level": 46,
+        "move": "Acidarmure"
+      },
+      {
+        "level": 50,
+        "move": "Gyroballe"
+      },
+      {
+        "level": 54,
+        "move": "Défibrilation"
+      },
+      {
+        "level": 58,
+        "move": "Façade"
+      },
+      {
+        "level": 62,
+        "move": "Ecrousdpoing"
+      },
+      {
+        "level": 66,
+        "move": "Essorage"
+      },
+      {
+        "level": 70,
+        "move": "Dynamo-Poing"
+      },
+      {
+        "level": 75,
+        "move": "Ultimapoing"
+      },
+      {
+        "level": 80,
+        "move": "Surpuissance"
+      },
+      {
+        "level": 85,
+        "move": "Poing Éclair"
+      },
+      {
+        "level": 90,
+        "move": "Choc Frontal"
+      },
+      {
+        "level": 95,
+        "move": "Ultralaser"
+      },
+      {
+        "level": 100,
+        "move": "Métalaser"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  }
+]

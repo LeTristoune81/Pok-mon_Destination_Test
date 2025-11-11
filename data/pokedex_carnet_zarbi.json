@@ -1,0 +1,2297 @@
+[
+  {
+    "name": "Zarbi A",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi B",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi C",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi D",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi E",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi F",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi G",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi H",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi I",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi J",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi K",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi L",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi M",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi N",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi O",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi P",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi Q",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi R",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi S",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi T",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi U",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi V",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi W",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi X",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi Y",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi Z",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  },
+  {
+    "name": "Zarbi !",
+    "types": [
+      "Mystique"
+    ],
+    "abilities": [
+      "Levitation"
+    ],
+    "hidden_ability": null,
+    "evolution": null,
+    "evolutions_detailed": [],
+    "pokedex": "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier.",
+    "level_up": [
+      {
+        "level": 1,
+        "move": "Coup Louche"
+      },
+      {
+        "level": 1,
+        "move": "Lire-Esprit"
+      },
+      {
+        "level": 5,
+        "move": "Nappage"
+      },
+      {
+        "level": 7,
+        "move": "Puissance Cachée"
+      },
+      {
+        "level": 10,
+        "move": "Passe-Passe"
+      },
+      {
+        "level": 13,
+        "move": "Puissance Triple"
+      },
+      {
+        "level": 17,
+        "move": "Hypnose"
+      },
+      {
+        "level": 21,
+        "move": "Rune Protect"
+      },
+      {
+        "level": 25,
+        "move": "Oeil Miracle"
+      },
+      {
+        "level": 29,
+        "move": "Rafale Psy"
+      },
+      {
+        "level": 33,
+        "move": "Mauvais Karma"
+      },
+      {
+        "level": 37,
+        "move": "Plénitude"
+      },
+      {
+        "level": 41,
+        "move": "Souvenir"
+      },
+      {
+        "level": 46,
+        "move": "Vaste Pouvoir"
+      },
+      {
+        "level": 50,
+        "move": "Codesecret"
+      }
+    ],
+    "egg_moves": [],
+    "cs": [],
+    "ct": [],
+    "dt": [],
+    "image": null,
+    "held_items": {
+      "common": "Aucun",
+      "uncommon": "Aucun",
+      "rare": "Aucun"
+    }
+  }
+]
