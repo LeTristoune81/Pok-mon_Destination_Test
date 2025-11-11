@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="fr">
 <head>
+  <meta name="x-region" content="Johto">
   <meta charset="utf-8">
   <base href="/Pok-mon_Destination_Test/">
   <link rel="stylesheet" href="assets/style.css">
@@ -31,7 +32,7 @@
         <p>
           Consultez la liste des capacités techniques, des disques techniques et des capacités secrètes.
         </p>
-        <p><a href="Pages/Attaques/region.html" class="btn">Voir les attaques & CS</a></p>
+        <p><a id="seeMoves" href="#">Voir les attaques & CS</a></p>
       </article>
 
       <article class="card">
@@ -64,6 +65,20 @@
     <p> Pokmon Destination  site d'aide non officiel.</p>
   </footer>
 </body>
+  <script>
+(function () {
+  // 1) Région de la page (depuis la meta), sinon fallback "Johto"
+  const REGION = document.querySelector('meta[name="x-region"]')?.content?.trim() || 'Johto';
+
+  // 2) Chemin de la page Attaques (garde 'region.html' si tu n'as pas encore renommé)
+  const ATTACKS_PAGE = '/Pok-mon_Destination_Test/Pages/Attaques/region.html';
+
+  // 3) Applique le lien sur "Voir les attaques & CS"
+  const a = document.getElementById('seeMoves');
+  if (a) a.href = `${ATTACKS_PAGE}?r=${encodeURIComponent(REGION)}`;
+})();
+</script>
+
 </html>
 
 
