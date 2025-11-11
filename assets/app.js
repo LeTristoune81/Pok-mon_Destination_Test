@@ -331,7 +331,7 @@ async function initPokemon(){
     const evoEl = $('#evo'); if(evoEl) evoEl.innerHTML = linkifyEvo(p, region) || '?';
 
     // Tous les liens d’attaques pointent désormais vers toutes.html
-    const linkMove = function(m){ return '<a href="toutes.html#' + encodeURIComponent(m) + '">' + m + '</a>'; };
+    const linkMove = function(m){ const id = norm(m).replace(/\s+/g,'_'); return '<a href="Pages/Attaques/toutes.html#' + encodeURIComponent(id) + '">' + m + '</a>'; };
 
     const habilEl = $('#habil'); if(habilEl){
       const abilities = p.abilities || [];
@@ -371,7 +371,7 @@ async function initPokemon(){
       const arr = (p.level_up||[]).slice().sort(function(a,b){ return a.level - b.level; });
       if (arr.length){
         lvlEl.innerHTML = arr.map(function(m){
-          return '<li>' + String(m.level).padStart(2,'0') + ' <a href="toutes.html#' + encodeURIComponent(m.move) + '">' + m.move + '</a></li>';
+          return '<li>' + String(m.level).padStart(2,'0') + ' <a href="Pages/Attaques/toutes.html#' + encodeURIComponent(norm(m.move).replace(/\s+/g,'_')) + '">' + m.move + '</a></li>';
         }).join('');
       }else{
         lvlEl.innerHTML = '<li>?</li>';
@@ -381,7 +381,7 @@ async function initPokemon(){
     const renderList = function(arr){
       if (!arr || !arr.length) return '<li>?</li>';
       return '<li class="lvl-group"><ul class="cols">' + arr.map(function(m){
-        return '<li><a href="toutes.html#' + encodeURIComponent(m) + '">' + m + '</a></li>';
+        const id = norm(m).replace(/\s+/g,'_'); return '<li><a href="Pages/Attaques/toutes.html#' + encodeURIComponent(id) + '">' + m + '</a></li>';
       }).join('') + '</ul></li>';
     };
     const eggs = $('#eggs'); if(eggs) eggs.innerHTML = renderList(p.egg_moves || []);
@@ -466,6 +466,42 @@ async function initMoves(){
       grid.innerHTML = `<div class="card" style="padding:12px">Aucune attaque</div>`;
       return;
     }
+
+  // ---------- Patch B: filtrage par hash + scroll ----------
+  function applyHashFilterAndScroll(ALL, renderFn, renderAllTitle) {
+    const rawHash = decodeURIComponent((location.hash || '').slice(1)).trim();
+    const normHash = rawHash ? norm(rawHash).replace(/\s+/g, '_') : '';
+
+    const moveIdFromRecord = (m) => {
+      if (!m) return '';
+      const label = (typeof m === 'string') ? m : (m.Upper || m.Nom || m.name || '');
+      return norm(String(label)).replace(/\s+/g, '_');
+    };
+
+    if (normHash) {
+      const filtered = ALL.filter(m => moveIdFromRecord(m) === normHash);
+      if (filtered.length) {
+        renderFn(filtered, `Filtré par “${rawHash}” — ${filtered.length}/${ALL.length} attaque(s)`);
+      } else {
+        renderFn(ALL, `${renderAllTitle} — ${ALL.length} attaques (aucune correspondance pour “${rawHash}”)`);
+      }
+      const candidates = new Set([
+        normHash,
+        normHash.replace(/_/g,'-'),
+        normHash.replace(/_/g,''),
+        normHash.toLowerCase(),
+        normHash.toUpperCase()
+      ]);
+      let target = null;
+      for (const id of candidates) {
+        target = document.getElementById(id);
+        if (target) break;
+      }
+      if (target) setTimeout(()=>target.scrollIntoView({behavior:'smooth', block:'start'}), 80);
+    } else {
+      renderFn(ALL, renderAllTitle || `Source: ${ALL.length} attaques`);
+    }
+  }
     grid.innerHTML = list.map(cardHTML).join('');
     // Auto-scroll si on a un hash (ex: toutes.html#CRACHFUMEE)
     if (location.hash){
@@ -490,7 +526,7 @@ async function initMoves(){
     let ALL = coerceArray(data).map(normalizeMove);
     // Tri accent-insensible par Nom
     ALL.sort((a,b)=> norm(a.Nom).localeCompare(norm(b.Nom)));
-    render(ALL, `Source: ${source} — ${ALL.length} attaques`);
+    const renderAllTitle = `Source: ${source}`; applyHashFilterAndScroll(ALL, render, renderAllTitle);
 
     if (q){
       q.addEventListener('input', ()=>{
