@@ -447,7 +447,7 @@ async function initMoves(){
 
   function cardHTML(m){
     // Ancre: permet d’arriver depuis pokemon.html#MOVE
-    const id = (m.Upper || norm(m.Nom)).replace(/\s+/g,'_');
+    const id = norm(m.Upper || m.Nom || m.name || '').replace(/\s+/g,'_');
     return `
       <div class="card" id="${id}" style="padding:12px">
         <div class="h2" style="margin-bottom:6px">${m.Nom || '?'}</div>
