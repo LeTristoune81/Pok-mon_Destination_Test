@@ -1,4 +1,4 @@
-/* ---------- app.js (sprites tolérants: accents/variantes Salamèche -> salameche.png) ---------- */
+/* ---------- app.js (fix6: sprites hyper-tolérants, multi-régions, objets/ressource) ---------- */
 
 /***** utils *****/
 function $(q, el=document){ return el.querySelector(q); }
@@ -55,28 +55,56 @@ function fixBrokenAccentsInDom(root=document.body){
 }
 
 /***** sprites *****/
-// Ajoute des variantes tolérantes (suppression des accents et caractères spéciaux)
+// Variantes robustes: enlève accents, apostrophes, genres, ET teste versions "compactes" (sans séparateurs)
 function spriteVariants(n){
   const raw = (n||'').toString();
+
+  // minuscules + déaccentuation
   const lower = raw.toLowerCase();
   const deacc = lower.normalize('NFD').replace(/[\u0300-\u036f]/g,'');
-  // retire symboles de genre, apostrophes, ponctuation exotique
-  const cleaned = deacc
+
+  // retire symboles et ponctuations exotiques
+  const base = deacc
     .replace(/[’']/g,'')
     .replace(/[♂]/g,'')
     .replace(/[♀]/g,'f')
-    .replace(/[^a-z0-9 _-]/g,''); // garde lettres, chiffres, espace, _ et -
+    .replace(/[^a-z0-9 _-]/g,' '); // remplace tout le reste par espace
 
+  // éclate sur espaces existants (séquences)
+  const tokens = base.trim().split(/\s+/).filter(Boolean);
+  const joined = tokens.join(' ');
+
+  // Génère combinaisons d'assembleurs: ' ' , '_' , '-' , '' (compact)
+  const seps = [' ', '_', '-', ''];
   const vars = new Set();
-  function pushAll(v){
-    vars.add(v);
-    vars.add(v.replace(/\s+/g,'_'));
-    vars.add(v.replace(/\s+/g,'-'));
-    vars.add(v.replace(/\s+/g,''));
-    vars.add(v.toUpperCase());
-    vars.add(v.replace(/\s+/g,'_').toUpperCase());
+
+  function pushForm(s){
+    if (!s) return;
+    // formats de base
+    vars.add(s);
+    vars.add(s.replace(/\s+/g,'_'));
+    vars.add(s.replace(/\s+/g,'-'));
+    vars.add(s.replace(/\s+/g,''));
+    // versions majuscules
+    const up = s.toUpperCase();
+    vars.add(up);
+    vars.add(up.replace(/\s+/g,'_'));
+    vars.add(up.replace(/\s+/g,'-'));
+    vars.add(up.replace(/\s+/g,''));
   }
-  [lower, deacc, cleaned].forEach(pushAll);
+
+  // 1) chaîne telle quelle (déjà nettoyée)
+  pushForm(joined);
+
+  // 2) pour chaque séparateur cible, on rejoint les tokens
+  for (const sep of seps){
+    pushForm(tokens.join(sep));
+  }
+
+  // 3) variantes "super-compactes" sans aucun non-alphanum (utile pour PORYGONZ)
+  const compact = joined.replace(/[^a-z0-9]/gi,'');
+  pushForm(compact);
+
   return Array.from(vars);
 }
 
@@ -340,7 +368,7 @@ async function initPokemon(){
       objres.innerHTML = heldHTML + resHTML;
     }
 
-    // Image avec variantes tolérantes (accent -> ascii, _, -, …)
+    // Image avec variantes tolérantes (accent -> ascii, -, _, compact, UPPER)
     const img = $('#sprite');
     if(img){
       const candidates = []
@@ -377,7 +405,7 @@ async function initPokemon(){
     const eggs = $('#eggs'); if(eggs) eggs.innerHTML = renderList(p.egg_moves || []);
     const cs   = $('#cs');   if(cs)   cs.innerHTML   = renderList(p.cs || []);
     const ct   = $('#ct');   if(ct)   ct.innerHTML   = renderList(p.ct || []);
-    const dt   = $('#dt');   if (dt)   dt.innerHTML   = renderList(p.dt || []);
+    const dt   = $('#dt');   if(dt)   dt.innerHTML   = renderList(p.dt || []);
 
     const pokedex = $('#pokedex'); if(pokedex) pokedex.textContent = p.pokedex || '?';
 
