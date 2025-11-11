@@ -1,23 +1,41 @@
-/* ---------- app.js (multi-régions + liens d’évolution robustes) ---------- */
+/* ---------- app.js (multi-régions + fetch robuste) ---------- */
 
 /***** utils *****/
 function $(q, el=document){ return el.querySelector(q); }
 function norm(s){ return (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
-function slugRegion(s){ return norm(s).replace(/\s+/g,'_'); }
+function regionSlug(r){ return norm(r).replace(/\s+/g,'_'); }
 
-const REPO = '/Pok-mon_Destination_Test';
+// Auto-détection d'un éventuel sous-chemin (ex: /Pok-mon_Destination_Test)
+const AUTO_BASE = (()=>{
+  const path = location.pathname;
+  const m = path.match(/^(.*\/Pok-mon[^/]*)(?:\/|$)/i);
+  return m ? m[1] : '';
+})();
+
 function withBase(p){
   if (!p) return p;
   if (/^https?:\/\//i.test(p)) return p;
-  if (p.startsWith(REPO + '/')) return p;
-  if (p.startsWith('/')) return REPO + p;
-  return REPO + '/' + p.replace(/^.\//,'');
+  if (p.startsWith('/')) return (AUTO_BASE ? AUTO_BASE : '') + p;
+  return p.replace(/^.\//,'');
 }
+
+// Fetch robuste avec fallback (essaie plusieurs variantes de chemin)
 async function loadJSON(url){
-  const u = withBase(url);
-  const r = await fetch(u, {cache:'no-cache'});
-  if(!r.ok) throw new Error(`HTTP ${r.status} on ${u}`);
-  return r.json();
+  const candidates = [];
+  candidates.push(url);
+  if (url.startsWith('/')) candidates.push(withBase(url));
+  if (!url.startsWith('./')) candidates.push('./' + url.replace(/^\/+/,''));
+  candidates.push(url.replace(/^\/+/,''));
+
+  let lastErr;
+  for (const u of candidates){
+    try{
+      const r = await fetch(u, {cache:'no-cache'});
+      if(r.ok) return r.json();
+      lastErr = new Error(`HTTP ${r.status} on ${u}`);
+    }catch(e){ lastErr = e; }
+  }
+  throw lastErr || new Error("loadJSON failed for " + url);
 }
 
 /***** corrections texte *****/
@@ -37,7 +55,7 @@ function fixBrokenAccentsInDom(root=document.body){
   }
 }
 
-/***** helpers sprites *****/
+/***** sprites *****/
 function nameVariants(n){
   const raw = (n||'').toString();
   const lower = raw.toLowerCase();
@@ -58,49 +76,34 @@ function makeSpriteCandidates(name, rk){
   return out;
 }
 
-/***** Région: helpers *****/
+/***** Région helpers *****/
 function getRegionFromURL(defaultRegion='Johto'){
   const url = new URL(location.href);
   const r = url.searchParams.get('r');
-  if (!r) return defaultRegion;
-  return r;
+  return r || defaultRegion;
 }
-function regionSlug(r){ return (r||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,'_'); }
+function regionSlug(r){ return norm(r).replace(/\s+/g,'_'); }
 function pokedexPathFor(r){ return `/data/pokedex_${regionSlug(r)}.json`; }
 
-/***** helper: liens sur les évolutions *****/
-// 1) si evolutions_detailed est présent -> génération de la phrase avec lien sur le nom cible
-// 2) sinon, fallback regex tolérant É/E
+/***** Liens d'évolution *****/
 function linkifyEvo(p, region){
   const evoText = p.evolution || '';
-  const baseHref = `${REPO}/pokemon.html?r=${encodeURIComponent(region)}&n=`;
+  const baseHref = `pokemon.html?r=${encodeURIComponent(region)}&n=`;
 
   if (Array.isArray(p.evolutions_detailed) && p.evolutions_detailed.length){
     return p.evolutions_detailed.map(e => {
       const name = e.target_name || e.target_token || '???';
       const href = baseHref + encodeURIComponent(String(name).toLowerCase());
-      if (e.method === 'Level' && e.level != null) {
-        return `Évolue en <a href="${href}" class="evo-link">${name}</a> au niveau ${e.level}`;
-      }
-      if (e.method === 'Trade') {
-        return `Évolue en <a href="${href}" class="evo-link">${name}</a> par échange`;
-      }
-      if (e.method === 'Happiness') {
-        return `Évolue en <a href="${href}" class="evo-link">${name}</a> avec une grande amitié`;
-      }
-      if (e.method === 'HoldItem' || e.method === 'NightHoldItem') {
+      if (e.method === 'Level' && e.level != null) return `Évolue en <a href="${href}" class="evo-link">${name}</a> au niveau ${e.level}`;
+      if (e.method === 'Trade') return `Évolue en <a href="${href}" class="evo-link">${name}</a> par échange`;
+      if (e.method === 'Happiness') return `Évolue en <a href="${href}" class="evo-link">${name}</a> avec une grande amitié`;
+      if (e.method === 'HoldItem' || e.method === 'NightHoldItem'){
         const when = e.time === 'night' ? ' la nuit' : '';
         return `Évolue en <a href="${href}" class="evo-link">${name}</a> en tenant l'objet ${e.item_name || e.item_token}${when}`;
       }
-      if (e.method === 'Item') {
-        return `Évolue en <a href="${href}" class="evo-link">${name}</a> en utilisant ${e.item_name || e.item_token}`;
-      }
-      if (e.method === 'HasMove') {
-        return `Évolue en <a href="${href}" class="evo-link">${name}</a> en connaissant ${e.move_name || e.move_token}`;
-      }
-      if (e.method === 'HasMoveType') {
-        return `Évolue en <a href="${href}" class="evo-link">${name}</a> en connaissant une attaque de type ${e.move_type}`;
-      }
+      if (e.method === 'Item') return `Évolue en <a href="${href}" class="evo-link">${name}</a> en utilisant ${e.item_name || e.item_token}`;
+      if (e.method === 'HasMove') return `Évolue en <a href="${href}" class="evo-link">${name}</a> en connaissant ${e.move_name || e.move_token}`;
+      if (e.method === 'HasMoveType') return `Évolue en <a href="${href}" class="evo-link">${name}</a> en connaissant une attaque de type ${e.move_type}`;
       return `Évolue en <a href="${href}" class="evo-link">${name}</a>`;
     }).join(' / ');
   }
@@ -119,7 +122,7 @@ function linkifyEvo(p, region){
   );
 }
 
-/***** LISTE POKÉDEX (toutes régions) *****/
+/***** LISTE POKÉDEX *****/
 async function initIndex(){
   try{
     const grid = $('.grid');
@@ -129,6 +132,7 @@ async function initIndex(){
     }
     const region = getRegionFromURL('Johto');
     const rk = regionSlug(region);
+
     let status = $('#status');
     if(!status){
       status = document.createElement('div');
@@ -147,7 +151,7 @@ async function initIndex(){
 
         const first = imgCandidates[0] || '';
         const dataSrcs = encodeURIComponent(JSON.stringify(imgCandidates));
-        const href = `${REPO}/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(nameLower)}`;
+        const href = `pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(nameLower)}`;
 
         return `
           <div class="card">
@@ -210,7 +214,7 @@ async function initIndex(){
   }
 }
 
-/***** FICHE POKÉMON (page unique) *****/
+/***** FICHE POKÉMON *****/
 async function initPokemon(){
   try{
     const url = new URL(location.href);
@@ -234,7 +238,7 @@ async function initPokemon(){
     const typesEl = $('#types'); if(typesEl) typesEl.innerHTML = (p.types||[]).map(t=>`<span class="badge">${t}</span>`).join(' ');
     const evoEl = $('#evo'); if(evoEl) evoEl.innerHTML = linkifyEvo(p, region) || '?';
 
-    const linkMove = (m)=> `<a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a>`;
+    const linkMove = (m)=> `<a href="moves.html#${encodeURIComponent(m)}">${m}</a>`;
     const habilEl = $('#habil'); if(habilEl){
       const abilities = p.abilities || [];
       habilEl.innerHTML = abilities.length ? abilities.map(a=>linkMove(a)).join(', ') : '?';
@@ -258,12 +262,12 @@ async function initPokemon(){
       const lvlEl = $('#lvl'); if(!lvlEl) return;
       const arr = (p.level_up||[]).slice().sort((a,b)=>a.level-b.level);
       lvlEl.innerHTML = arr.length
-        ? arr.map(m=>`<li>${String(m.level).padStart(2,'0')} <a href="${withBase('/moves.html')}#${encodeURIComponent(m.move)}">${m.move}</a></li>`).join('')
+        ? arr.map(m=>`<li>${String(m.level).padStart(2,'0')} <a href="moves.html#${encodeURIComponent(m.move)}">${m.move}</a></li>`).join('')
         : '<li>?</li>';
     })();
 
     const renderList = (arr)=> arr && arr.length
-      ? `<li class="lvl-group"><ul class="cols">${arr.map(m=>`<li><a href="${withBase('/moves.html')}#${encodeURIComponent(m)}">${m}</a></li>`).join('')}</ul></li>`
+      ? `<li class="lvl-group"><ul class="cols">${arr.map(m=>`<li><a href="moves.html#${encodeURIComponent(m)}">${m}</a></li>`).join('')}</ul></li>`
       : '<li>?</li>';
     $('#eggs') && ($('#eggs').innerHTML = renderList(p.egg_moves || []));
     $('#cs')   && ($('#cs').innerHTML   = renderList(p.cs || []));
