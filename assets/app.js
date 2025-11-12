@@ -406,7 +406,12 @@ async function initMoves(){
     console.warn('Pas de .grid sur cette page');
     return;
   }
-  const q = $('#q');
+
+  // Champ recherche & filtre type — sélecteurs tolérants
+  const q = $('#q')
+        || document.querySelector('input[type="search"], input#search, input[name="q"], input[placeholder*="attaque"], input[placeholder*="rechercher"]');
+  const typeSel = $('#type')
+               || document.querySelector('select#type, select[name="type"]');
 
   // 1) charge moves_all.json ou moves_index.json (objet/array)
   async function loadMovesAny(){
@@ -467,7 +472,7 @@ async function initMoves(){
       return;
     }
     grid.innerHTML = list.map(cardHTML).join('');
-    // Info en-tête
+    // Info en-tête si tu veux en afficher une (facultatif)
     const header = $('.header');
     if (header && !header.querySelector('.muted-info')){
       const span = document.createElement('div');
@@ -482,7 +487,7 @@ async function initMoves(){
 
   // ---------- Filtrage par hash + injection dans le champ de recherche (robuste) ----------
   function applyHashFilterAndScroll(ALL, renderFn, renderAllTitle) {
-    const rawHash = decodeURIComponent((location.hash || '').slice(1)).trim(); // ex: "Rafale"
+    const rawHash = decodeURIComponent((location.hash || '').slice(1)).trim(); // ex: "rugissement"
     const normHash = rawHash ? norm(rawHash).replace(/\s+/g, '_') : '';
 
     const moveIdFromRecord = (m) => {
@@ -514,11 +519,17 @@ async function initMoves(){
 
     if (filtered.length) {
       // Remplir #q si présent (UX : on voit la recherche appliquée)
-      const q = document.querySelector('#q');
       if (q) {
         const pretty = readableFromRecord(filtered[0]) || rawHash;
         q.value = pretty;
         try { q.dispatchEvent(new Event('input', { bubbles: true })); } catch(e){}
+      }
+      // Assurer le sélecteur "Type" sur Tous (si présent) pour ne pas masquer
+      if (typeSel) {
+        const want = ['tous','tout','all',''].map(s=>s.toLowerCase());
+        const opts = Array.from(typeSel.options || []);
+        const match = opts.find(o => want.includes(String(o.text||'').toLowerCase()) || want.includes(String(o.value||'').toLowerCase()));
+        if (match) typeSel.value = match.value;
       }
 
       renderFn(filtered, `Filtré par “${rawHash}” — ${filtered.length}/${ALL.length} attaque(s)`);
@@ -554,7 +565,7 @@ async function initMoves(){
     const renderAllTitle = `Source: ${source}`;
     applyHashFilterAndScroll(ALL, render, renderAllTitle);
 
-    // Recherche live (champ #q)
+    // Recherche live (champ q s'il existe)
     if (q){
       q.addEventListener('input', ()=>{
         const n = norm(q.value);
@@ -570,11 +581,14 @@ async function initMoves(){
     fixBrokenAccentsInDom();
   }catch(e){
     console.error(e);
-    grid.innerHTML = `
-      <div class="card" style="padding:12px;color:#a00">
-        Erreur de chargement des attaques.<br>
-        <small>${e.message}</small>
-      </div>`;
+    const grid = $('.grid');
+    if (grid) {
+      grid.innerHTML = `
+        <div class="card" style="padding:12px;color:#a00">
+          Erreur de chargement des attaques.<br>
+          <small>${e.message}</small>
+        </div>`;
+    }
   }
 }
 
