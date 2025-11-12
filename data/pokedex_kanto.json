@@ -7893,7 +7893,7 @@
       "Colerique"
     ],
     "hidden_ability": "Infiltration",
-    "evolution": "Évolue en Nostenfer (HappinessNight)",
+    "evolution": "Évolue en Nostenfer avec Bonheur de Nuit",
     "evolutions_detailed": [
       {
         "target_token": "NOSTENFER",
@@ -15067,7 +15067,7 @@
       "Tempoperso"
     ],
     "hidden_ability": "Regeforce",
-    "evolution": "Évolue en Flagadoss (HasInParty, KOKIYAS) / Évolue en Roigada en tenant l'objet Roche Royale",
+    "evolution": "Évolue en Flagadoss avec le Pokémon KOKIYAS dans son équipe / Évolue en Roigada en tenant l'objet Roche Royale",
     "evolutions_detailed": [
       {
         "target_token": "FLAGADOSS",
