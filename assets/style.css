@@ -405,3 +405,37 @@ ul.list, ul {
   border-radius: 16px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.6);
 }
+
+/* Conteneur de tags */
+.pd-tags-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+/* Style des tags */
+.pd-tag {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  border: 1px solid rgba(255,255,255,0.12);
+  color: #e5e7eb;
+  white-space: nowrap;
+  transition: 0.15s;
+}
+
+.pd-tag:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+/* Icônes dans les tags */
+.pd-tag-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
