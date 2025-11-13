@@ -280,10 +280,10 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
+    "objets": ["Potion", "Lunettes Choix", "DT02 - Étreinte"],
     "baies": [],
     "boutique": [],
-    "boutique_arene": []
+    "boutique_arene": ["Luxe Ball", "Masse Ball", "Terre Fraîche", "Graine Terre", "Lentiscope", "Ceinture Pro", "Topdresseur (Kanto)", "Rangeur (Kanto)", "Expert (Kanto)", "Costume Terre"]
   },
   {
     "name": "Route 3",
@@ -415,8 +415,8 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
-    "baies": [],
+    "objets": ["Réveil"],
+    "baies": ["Mepo", "Oran"],
     "boutique": [],
     "boutique_arene": []
   },
@@ -639,7 +639,8 @@
         "lvl_max": 8
       }
     ],
-    "objets": [],
+    "objets": ["Potion", "Antidote", "Petit Champi", "Gros Champi", "Défense +", "Poudre Soin", "Racine Énergie", "Grosse Racine", "Herbe Rappel", "Pierre Feuille", "Poudre Argentée", "DT01 - Retenue", "DT06 Dard-Nuée"
+],
     "baies": [],
     "boutique": [],
     "boutique_arene": []
@@ -665,10 +666,10 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
-    "baies": [],
-    "boutique": [],
-    "boutique_arene": []
+    "objets": ["Rappel", "Poké ball", "PP Plus", "Boule Boue", "Mouchoir Soie"],
+    "baies": ["Maron"],
+    "boutique": ["Chrono Ball", "Masse Ball", "Pierre Dure", "Casque Brute", "Garde Talent", "Carapace Mue", "Gamin (Kanto)", "Campeur (Kanto)", "Scout (Kanto)", "Costume Roche"],
+    "boutique_arene": ["Chocolat", "Smoothie Chocolat", "Chocolat Chaud", "Churro Chocolat", "Kwakarrosoir", "Fertipousse", "Fertihumide", "Fertistable", "Fertiglu"]
   },
   {
     "name": "Route 5",
