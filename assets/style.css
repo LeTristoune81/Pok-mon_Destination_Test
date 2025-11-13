@@ -328,3 +328,48 @@ ul.list, ul {
   margin-left: 0.35rem;
 }
 
+/* Mini image à droite du titre */
+.pd-lieu-header-main {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.pd-lieu-header-main h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.pd-lieu-image {
+  width: 180px;              /* taille miniature */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  object-fit: cover;
+  cursor: zoom-in;           /* curseur loupe */
+}
+
+/* Lightbox (image agrandie) */
+.pd-lieu-lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: none;             /* cachée par défaut */
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.pd-lieu-lightbox.is-visible {
+  display: flex;
+}
+
+.pd-lieu-lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
