@@ -7893,19 +7893,19 @@
       "Colerique"
     ],
     "hidden_ability": "Infiltration",
-    "evolution": "Évolue en Nostenfer avec Bonheur de Nuit",
+    "evolution": "Évolue en Nostenfer",
     "evolutions_detailed": [
       {
         "target_token": "NOSTENFER",
         "target_name": "Nostenfer",
-        "method": "HappinessNight",
+        "method": "Happiness",
         "level": null,
         "item_token": null,
         "item_name": null,
         "move_token": null,
         "move_name": null,
         "move_type": null,
-        "time": null
+        "time": "Night"
       }
     ],
     "pokedex": "Quand il se met à sucer du sang, il ne s’arrête qu’une fois rassasié. C’est un chasseur nocturne.",
