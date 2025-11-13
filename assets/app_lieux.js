@@ -142,78 +142,108 @@ if (imgEl) {
 
 
       // ------- utilitaire : gère chaînes OU objets -------
-      function addSection(title, list){
-        if(!list || !list.length) return;
+// ------- utilitaire : sections Pokémon (avec lien + niveaux) -------
+function addPokemonSection(title, list){
+  if(!list || !list.length) return;
 
-        const section = document.createElement("section");
-        section.className = "pd-lieu-section";
+  const section = document.createElement("section");
+  section.className = "pd-lieu-section";
 
-        const h2 = document.createElement("h2");
-        h2.textContent = title;
+  const h2 = document.createElement("h2");
+  h2.textContent = title;
 
-        const ul = document.createElement("ul");
+  const ul = document.createElement("ul");
 
-        list.forEach(entry => {
-          const li = document.createElement("li");
+  list.forEach(entry => {
+    const li = document.createElement("li");
 
-          // entry peut être "Rattata" OU { id, name, lvl_min, lvl_max, ... }
-          const nom = (typeof entry === "string") ? entry : entry.name;
+    // entry peut être "Rattata" OU { id, name, lvl_min, lvl_max, ... }
+    const nom = (typeof entry === "string") ? entry : entry.name;
 
-          // Lien vers fiche Pokémon
-          const link = document.createElement("a");
-          link.textContent = nom;
-          link.href = "../../pokemon.html?r=" + encodeURIComponent(region) +
-                      "&n=" + encodeURIComponent(nom.toLowerCase());
-          link.className = "pd-lieu-pkm-link";
-          li.appendChild(link);
+    // Lien vers fiche Pokémon
+    const link = document.createElement("a");
+    link.textContent = nom;
+    link.href = "../../pokemon.html?r=" + encodeURIComponent(region) +
+                "&n=" + encodeURIComponent(nom.toLowerCase());
+    link.className = "pd-lieu-pkm-link";
+    li.appendChild(link);
 
-          // Affichage du niveau si dispo (SANS le %)
-          if (typeof entry === "object" &&
-              entry.lvl_min !== undefined &&
-              entry.lvl_max !== undefined) {
+    // Affichage du niveau si dispo
+    if (typeof entry === "object" &&
+        entry.lvl_min !== undefined &&
+        entry.lvl_max !== undefined) {
 
-            const meta = document.createElement("span");
-            meta.className = "pd-lieu-meta";
-            meta.textContent =
-              " (niv. " + entry.lvl_min + " à " + entry.lvl_max + ")";
+      const meta = document.createElement("span");
+      meta.className = "pd-lieu-meta";
+      meta.textContent =
+        " (niv. " + entry.lvl_min + " à " + entry.lvl_max + ")";
 
-            li.appendChild(meta);
-          }
+      li.appendChild(meta);
+    }
 
-          ul.appendChild(li);
-        });
+    ul.appendChild(li);
+  });
 
-        section.appendChild(h2);
-        section.appendChild(ul);
-        container.appendChild(section);
-      }
+  section.appendChild(h2);
+  section.appendChild(ul);
+  container.appendChild(section);
+}
 
-      // -------- Sauvages / Jour / Nuit --------
-      const sauvage = lieu.sauvage || [];
-      const jour = lieu.jour || [];
-      const nuit = lieu.nuit || [];
+// ------- utilitaire : sections simples (objets, baies, boutique...) -------
+function addSimpleSection(title, list){
+  if(!list || !list.length) return;
 
-      if(sauvage.length){
-        addSection("Pokémon sauvages", sauvage);
-      } else {
-        if(jour.length) addSection("Pokémon sauvages — Jour", jour);
-        if(nuit.length) addSection("Pokémon sauvages — Nuit", nuit);
-      }
+  const section = document.createElement("section");
+  section.className = "pd-lieu-section";
 
-      // -------- Autres catégories --------
-      addSection("Surf", lieu.surf);
-      addSection("Canne", lieu.canne);
-      addSection("Super Canne", lieu.super_canne);
-      addSection("Méga Canne", lieu.mega_canne);
-      addSection("Grotte", lieu.cave);
-      addSection("Éclate-Roc", lieu.rocksmash);
-      addSection("Poké Radar", lieu.pokeradar);
+  const h2 = document.createElement("h2");
+  h2.textContent = title;
 
-      // Ces sections n'apparaissent que si non vides
-      addSection("Objets trouvables", lieu.objets);
-      addSection("Baies", lieu.baies);
-      addSection("Boutique", lieu.boutique);
-      addSection("Boutique d’arène", lieu.boutique_arene);
+  const ul = document.createElement("ul");
+
+  list.forEach(entry => {
+    const li = document.createElement("li");
+
+    // entry peut être "Potion" OU { name: "Potion" }
+    const nom = (typeof entry === "string") ? entry : entry.name;
+
+    li.textContent = nom;
+    ul.appendChild(li);
+  });
+
+  section.appendChild(h2);
+  section.appendChild(ul);
+  container.appendChild(section);
+}
+
+
+// -------- Sauvages / Jour / Nuit --------
+const sauvage = lieu.sauvage || [];
+const jour = lieu.jour || [];
+const nuit = lieu.nuit || [];
+
+if(sauvage.length){
+  addPokemonSection("Pokémon sauvages", sauvage);
+} else {
+  if(jour.length) addPokemonSection("Pokémon sauvages — Jour", jour);
+  if(nuit.length) addPokemonSection("Pokémon sauvages — Nuit", nuit);
+}
+
+// -------- Autres catégories Pokémon --------
+addPokemonSection("Surf", lieu.surf);
+addPokemonSection("Canne", lieu.canne);
+addPokemonSection("Super Canne", lieu.super_canne);
+addPokemonSection("Méga Canne", lieu.mega_canne);
+addPokemonSection("Grotte", lieu.cave);
+addPokemonSection("Éclate-Roc", lieu.rocksmash);
+addPokemonSection("Poké Radar", lieu.pokeradar);
+
+// -------- Catégories simples (OBJETS / BAIES / BOUTIQUES) --------
+addSimpleSection("Objets trouvables", lieu.objets);
+addSimpleSection("Baies", lieu.baies);
+addSimpleSection("Boutique", lieu.boutique);
+addSimpleSection("Boutique d’arène", lieu.boutique_arene);
+
     })
     .catch(err => {
       console.error(err);
