@@ -3983,7 +3983,7 @@
       
   { "name": "Boulangerie Horno",
     "category":"boulangerie",
-    "items": ["Baguette","Laitue","Oignon","Mayonnaise","Ketchup","Moutarde","Sel","Beurre","Fromage frais","Confiture de Baies","Huile d'olive","Fromage","Yaourt","Crème fouettée","Beurre de cacahuète","Marmelade"] } ] }],
+    "items": ["Baguette","Laitue","Oignon","Mayonnaise","Ketchup","Moutarde","Sel","Beurre","Fromage frais","Confiture de Baies","Huile d'olive","Fromage","Yaourt","Crème fouettée","Beurre de cacahuète","Marmelade"] },
 
     "boutique_arene": ["Soin Ball", "Hasard Ball", "Cuillère Tordue", "Lunettes Sages", "Herbe Mental", "Kinésiste (Kanto)", "Karatéka (Kanto)", "Jongleur (Kanto)", "Costume Psy"]
   },
