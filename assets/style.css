@@ -329,28 +329,54 @@ ul.list, ul {
 }
 
 /* Mini image à droite du titre */
+/* Header de la fiche avec image flottante */
 .pd-lieu-header-main {
   margin-top: 0.5rem;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1.5rem;
+  position: relative;               /* référence pour l'image en absolu */
+  display: block;
 }
 
+/* le titre occupe tout l'espace, l'image flotte par-dessus */
 .pd-lieu-header-main h1 {
   margin: 0;
   font-size: 2rem;
   font-weight: 700;
+  padding-right: 210px;             /* on réserve un peu de place pour l'image */
 }
 
+/* Image en haut à droite, n'augmente plus la hauteur du header */
 .pd-lieu-image {
-  width: 180px;              /* taille miniature */
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 180px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
   object-fit: cover;
-  cursor: zoom-in;           /* curseur loupe */
+  cursor: zoom-in;
 }
+
+/* Sur petit écran : on remet tout en colonne classique */
+@media (max-width: 700px) {
+  .pd-lieu-header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pd-lieu-header-main h1 {
+    padding-right: 0;
+  }
+
+  .pd-lieu-image {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0.75rem;
+  }
+}
+
 
 /* Lightbox (image agrandie) */
 .pd-lieu-lightbox {
