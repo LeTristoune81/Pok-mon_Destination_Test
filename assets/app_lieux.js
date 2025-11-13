@@ -1,4 +1,4 @@
-// app_lieux.js — version corrigée pour ton arborescence
+// app_lieux.js — version avec détails + images + arborescence Tristan
 
 async function loadJSON(url){
   const res = await fetch(url);
@@ -10,9 +10,17 @@ function getParams(){
   return new URLSearchParams(window.location.search);
 }
 
-// Dossier où TU as mis les fichiers :
+// Fichiers de lieux par région
 const REGION_LIEUX_FILE = {
   "Kanto": "lieux_kanto_detail.json"
+};
+
+// Config des images de lieux par région
+const LIEU_IMAGE_CONFIG = {
+  "Kanto": {
+    base: "../../assets/Lieux/Kanto/", // dossier où tu as mis les images
+    ext: ".png"                         // extension des fichiers
+  }
 };
 
 // ==========================
@@ -39,10 +47,9 @@ function renderLieuxPage(){
     return;
   }
 
-  // 🔥 VRAI CHEMIN CORRECT :
   loadJSON("../../data/Lieux/" + file)
     .then(data => {
-      if(!data.length){
+      if(!Array.isArray(data) || !data.length){
         listEl.textContent = "Aucun lieu trouvé.";
         return;
       }
@@ -54,7 +61,8 @@ function renderLieuxPage(){
         const a = document.createElement("a");
 
         a.textContent = lieu.name;
-        a.href = "Fiche_Detaille.html?r=" + region + "&l=" + lieu.slug;
+        a.href = "Fiche_Detaille.html?r=" + encodeURIComponent(region) +
+                 "&l=" + encodeURIComponent(lieu.slug);
 
         li.appendChild(a);
         ul.appendChild(li);
@@ -83,10 +91,14 @@ function renderLieuPage(){
 
   const backList = document.getElementById("back-list");
   if(backList){
-    backList.href = "Liste_Lieux.html?r=" + region;
+    backList.href = "Liste_Lieux.html?r=" + encodeURIComponent(region);
   }
 
   const file = REGION_LIEUX_FILE[region];
+  if(!file){
+    container.textContent = "Aucun fichier de lieux pour " + region;
+    return;
+  }
 
   loadJSON("../../data/Lieux/" + file)
     .then(data => {
@@ -100,53 +112,69 @@ function renderLieuPage(){
       const h1 = document.getElementById("lieu-name");
       if(h1) h1.textContent = lieu.name;
 
+      // --------- Image du lieu ---------
+      const imgEl = document.getElementById("lieu-image");
+      if (imgEl) {
+        const cfg = LIEU_IMAGE_CONFIG[region];
+        if (cfg) {
+          const fileName = lieu.slug + cfg.ext; // ex: route_1_bourg_palette.png
+          imgEl.src = cfg.base + fileName;
+          imgEl.alt = "Carte de " + lieu.name;
+
+          imgEl.onerror = () => {
+            imgEl.style.display = "none";
+          };
+        } else {
+          imgEl.style.display = "none";
+        }
+      }
+
       // ------- utilitaire : gère chaînes OU objets -------
-  function addSection(title, list){
-  if(!list || !list.length) return;
+      function addSection(title, list){
+        if(!list || !list.length) return;
 
-  const section = document.createElement("section");
-  section.className = "pd-lieu-section";
+        const section = document.createElement("section");
+        section.className = "pd-lieu-section";
 
-  const h2 = document.createElement("h2");
-  h2.textContent = title;
+        const h2 = document.createElement("h2");
+        h2.textContent = title;
 
-  const ul = document.createElement("ul");
+        const ul = document.createElement("ul");
 
-  list.forEach(entry => {
-    const li = document.createElement("li");
+        list.forEach(entry => {
+          const li = document.createElement("li");
 
-    // entry peut être "Rattata" OU { id, name, lvl_min, lvl_max }
-    const nom = (typeof entry === "string") ? entry : entry.name;
+          // entry peut être "Rattata" OU { id, name, lvl_min, lvl_max, ... }
+          const nom = (typeof entry === "string") ? entry : entry.name;
 
-    // Lien vers fiche Pokémon
-    const link = document.createElement("a");
-    link.textContent = nom;
-    link.href = "../../pokemon.html?r=" + region +
-                "&n=" + encodeURIComponent(nom.toLowerCase());
-    link.className = "pd-lieu-pkm-link";
-    li.appendChild(link);
+          // Lien vers fiche Pokémon
+          const link = document.createElement("a");
+          link.textContent = nom;
+          link.href = "../../pokemon.html?r=" + encodeURIComponent(region) +
+                      "&n=" + encodeURIComponent(nom.toLowerCase());
+          link.className = "pd-lieu-pkm-link";
+          li.appendChild(link);
 
-    // Affichage du niveau si dispo (SANS le %)
-    if (typeof entry === "object" &&
-        entry.lvl_min !== undefined &&
-        entry.lvl_max !== undefined) {
+          // Affichage du niveau si dispo (SANS le %)
+          if (typeof entry === "object" &&
+              entry.lvl_min !== undefined &&
+              entry.lvl_max !== undefined) {
 
-      const meta = document.createElement("span");
-      meta.className = "pd-lieu-meta";
-      meta.textContent =
-        " (niv. " + entry.lvl_min + " à " + entry.lvl_max + ")";
+            const meta = document.createElement("span");
+            meta.className = "pd-lieu-meta";
+            meta.textContent =
+              " (niv. " + entry.lvl_min + " à " + entry.lvl_max + ")";
 
-      li.appendChild(meta);
-    }
+            li.appendChild(meta);
+          }
 
-    ul.appendChild(li);
-  });
+          ul.appendChild(li);
+        });
 
-  section.appendChild(h2);
-  section.appendChild(ul);
-  container.appendChild(section);
-}
-
+        section.appendChild(h2);
+        section.appendChild(ul);
+        container.appendChild(section);
+      }
 
       // -------- Sauvages / Jour / Nuit --------
       const sauvage = lieu.sauvage || [];
