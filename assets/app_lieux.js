@@ -114,23 +114,36 @@ function renderLieuPage(){
 
         list.forEach(entry => {
           const li = document.createElement("li");
-          const a = document.createElement("a");
 
           // entry peut être "Rattata" OU { id, name, rate, lvl_min, lvl_max }
           const nom = (typeof entry === "string") ? entry : entry.name;
 
-          a.textContent = nom;
-          a.href = "../../pokemon.html?r=" + region +
-                   "&n=" + encodeURIComponent(nom.toLowerCase());
+          const nameSpan = document.createElement("span");
+          nameSpan.textContent = nom;
 
-          li.appendChild(a);
+          const link = document.createElement("a");
+          link.textContent = nom;
+          link.href = "../../pokemon.html?r=" + region +
+                      "&n=" + encodeURIComponent(nom.toLowerCase());
+          link.className = "pd-lieu-pkm-link";
 
-          // Si tu veux afficher les niveaux plus tard :
-          // if (entry.lvl_min !== undefined) {
-          //   const span = document.createElement("span");
-          //   span.textContent = " (niv. " + entry.lvl_min + "–" + entry.lvl_max + ")";
-          //   li.appendChild(span);
-          // }
+          // On met le lien autour du nom
+          li.appendChild(link);
+
+          // Si on a les infos de taux/niveaux -> on les affiche
+          if (typeof entry === "object" &&
+              entry.lvl_min !== undefined &&
+              entry.lvl_max !== undefined &&
+              entry.rate !== undefined) {
+
+            const meta = document.createElement("span");
+            meta.className = "pd-lieu-meta";
+            meta.textContent =
+              " (" + entry.rate + " % — niv. " +
+              entry.lvl_min + " à " + entry.lvl_max + ")";
+
+            li.appendChild(meta);
+          }
 
           ul.appendChild(li);
         });
@@ -139,6 +152,7 @@ function renderLieuPage(){
         section.appendChild(ul);
         container.appendChild(section);
       }
+
 
       // -------- Sauvages / Jour / Nuit --------
       const sauvage = lieu.sauvage || [];
