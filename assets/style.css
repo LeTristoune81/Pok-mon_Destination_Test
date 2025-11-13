@@ -328,6 +328,27 @@ ul.list, ul {
   margin-left: 0.35rem;
 }
 
+.shop-name {
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+.shop-line {
+  font-size: 0.9rem;
+  margin-left: 8px;
+}
+
+.shop-line strong {
+  margin-right: 4px;
+}
+
+/* Optionnel : si tu veux l’icône devant les titres de section boutiques */
+.pd-section-icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: -3px;
+}
+
 /* Mini image à droite du titre */
 /* Header de la fiche avec image flottante */
 .pd-lieu-header-main {
