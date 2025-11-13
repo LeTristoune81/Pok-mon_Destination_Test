@@ -1,5 +1,15 @@
 // app_lieux.js — version avec détails + images + arborescence Tristan
 
+
+const ITEM_ICONS = {
+  "Objets trouvables": "../../assets/icone/objets_trouvable.png",
+  "Baies": "../../assets/icone/baies.png",
+  "Boutique": "../../assets/icone/boutique.png",
+  "Boutique d’arène": "../../assets/icone/boutique_arene.png"
+};
+
+
+
 async function loadJSON(url){
   const res = await fetch(url);
   if(!res.ok) throw new Error("Erreur chargement " + url);
@@ -196,21 +206,39 @@ function addSimpleSection(title, list){
   const section = document.createElement("section");
   section.className = "pd-lieu-section";
 
+  // ---- Titre ----
   const h2 = document.createElement("h2");
   h2.textContent = title;
-
-  // On récupère seulement les noms
-  const noms = list.map(entry =>
-    (typeof entry === "string") ? entry : entry.name
-  );
-
-  // On crée un texte unique : "Antidote, Poké ball, Potion"
-  const p = document.createElement("p");
-  p.className = "pd-lieu-simple-line";
-  p.textContent = noms.join(", ");
-
   section.appendChild(h2);
-  section.appendChild(p);
+
+  // ---- Conteneur de tags ----
+  const wrap = document.createElement("div");
+  wrap.className = "pd-tags-wrap";
+
+  const iconSrc = ITEM_ICONS[title] || "";
+
+  list.forEach(entry => {
+    const nom = (typeof entry === "string") ? entry : entry.name;
+
+    const tag = document.createElement("span");
+    tag.className = "pd-tag";
+
+    // Petite icône avant le nom
+    if(iconSrc){
+      const icon = document.createElement("img");
+      icon.src = iconSrc;
+      icon.className = "pd-tag-icon";
+      icon.alt = "";
+      tag.appendChild(icon);
+    }
+
+    const txt = document.createTextNode(" " + nom);
+    tag.appendChild(txt);
+
+    wrap.appendChild(tag);
+  });
+
+  section.appendChild(wrap);
   container.appendChild(section);
 }
 
