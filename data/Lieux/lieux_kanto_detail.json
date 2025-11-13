@@ -771,7 +771,7 @@
         "lvl_max": 10
       }
     ],
-    "objets": [],
+    "objets": ["Rappel", "Petit Champi", "DT04 - Frénésie", "Poké Ball", "Repousse", "Super Potion", "Antidote", "Super Bonbon", "Anti-Para", "Tesson Poing"],
     "baies": [],
     "boutique": [],
     "boutique_arene": []
@@ -893,7 +893,7 @@
       }
     ],
     "pokeradar": [],
-    "objets": [],
+    "objets": ["Super Ball", "Attaque Spé", "Antigel", "Corde Sortie", "DT03 - Métronome", "DT29 - Météores", "DT33 - Éboulement", "DT 104", "Ralentiqueue", "Super Bonbon", "Pierre Stase", "Repousse", "Pierre Lune", "Lune Ball", "Tesson Reflet", "Fossile Dôme/Fossile Nautile"],
     "baies": [],
     "boutique": [],
     "boutique_arene": []
@@ -933,8 +933,8 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
-    "baies": [],
+    "objets": ["DT28 - Frappe Atlas", "DT 121", "DT 243"],
+    "baies": ["Alga", "Fraive"],
     "boutique": [],
     "boutique_arene": []
   },
@@ -1096,10 +1096,10 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
-    "baies": [],
+    "objets": ["Super Potion", "Super Bonbon", "DT13 - Abri", "Pierre Zen"],
+    "baies": ["Panga"],
     "boutique": [],
-    "boutique_arene": []
+    "boutique_arene": ["Filet Ball", "Appât Ball", "Eau Mystique", "Vive Griffe", "Métronome", "Point de Mire", "Montagnard (Kanto)", "Intello (Kanto)", "Fillette (Kanto)", "Costume Eau"]
   },
   {
     "name": "Route 8",
