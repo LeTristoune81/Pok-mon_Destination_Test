@@ -1,5 +1,4 @@
-// app_lieux.js — version avec détails + images + arborescence Tristan
-
+// app_lieux.js — version avec détails + images + boutiques avancées (arena_shop + shops)
 
 const ITEM_ICONS = {
   "Objets Trouvables": "../../assets/icone/objets_trouvable.png",
@@ -8,11 +7,15 @@ const ITEM_ICONS = {
   "Boutique d’Arène": "../../assets/icone/boutique_arene.png"
 };
 
-
+// Optionnel : icônes génériques si tu veux les utiliser ailleurs
+const ICONS = {
+  arena: "../../assets/icone/boutique_arene.png", // adapte si besoin
+  defaultShop: "../../assets/icone/boutique.png"  // adapte si besoin
+};
 
 async function loadJSON(url){
   const res = await fetch(url);
-  if(!res.ok) throw new Error("Erreur chargement " + url);
+  if (!res.ok) throw new Error("Erreur chargement " + url);
   return await res.json();
 }
 
@@ -28,8 +31,8 @@ const REGION_LIEUX_FILE = {
 // Config des images de lieux par région
 const LIEU_IMAGE_CONFIG = {
   "Kanto": {
-    base: "../../assets/Lieux/kanto/", // dossier où tu as mis les images
-    ext: ".png"                         // extension des fichiers
+    base: "../../assets/Lieux/kanto/",
+    ext: ".png"
   }
 };
 
@@ -38,28 +41,28 @@ const LIEU_IMAGE_CONFIG = {
 // ==========================
 function renderLieuxPage(){
   const listEl = document.getElementById("lieux-list");
-  if(!listEl) return;
+  if (!listEl) return;
 
   const params = getParams();
   const region = params.get("r") || "Kanto";
 
   const titleEl = document.getElementById("lieux-title");
-  if(titleEl) titleEl.textContent = "Lieux de " + region;
+  if (titleEl) titleEl.textContent = "Lieux de " + region;
 
   const backRegion = document.getElementById("back-region");
-  if(backRegion){
+  if (backRegion){
     backRegion.href = "../" + region.toLowerCase() + ".html";
   }
 
   const file = REGION_LIEUX_FILE[region];
-  if(!file){
+  if (!file){
     listEl.textContent = "Aucun fichier trouvé pour la région " + region;
     return;
   }
 
   loadJSON("../../data/Lieux/" + file)
     .then(data => {
-      if(!Array.isArray(data) || !data.length){
+      if (!Array.isArray(data) || !data.length){
         listEl.textContent = "Aucun lieu trouvé.";
         return;
       }
@@ -86,75 +89,13 @@ function renderLieuxPage(){
     });
 }
 
-
-
 // ==========================
-// PAGE FICHE_DETAILLE
+// UTILITAIRES D’AFFICHAGE
 // ==========================
-function renderLieuPage(){
-  const container = document.getElementById("lieu-content");
-  if(!container) return;
 
-  const params = getParams();
-  const region = params.get("r") || "Kanto";
-  const slug = params.get("l");
-
-  const backList = document.getElementById("back-list");
-  if(backList){
-    backList.href = "Liste_Lieux.html?r=" + encodeURIComponent(region);
-  }
-
-  const file = REGION_LIEUX_FILE[region];
-  if(!file){
-    container.textContent = "Aucun fichier de lieux pour " + region;
-    return;
-  }
-
-  loadJSON("../../data/Lieux/" + file)
-    .then(data => {
-
-      const lieu = data.find(l => l.slug === slug);
-      if(!lieu){
-        container.textContent = "Lieu introuvable.";
-        return;
-      }
-
-      const h1 = document.getElementById("lieu-name");
-      if(h1) h1.textContent = lieu.name;
-
-      // --------- Image du lieu ---------
-     const imgEl = document.getElementById("lieu-image");
-if (imgEl) {
-  const cfg = LIEU_IMAGE_CONFIG[region];
-  if (cfg) {
-    const fileName = lieu.slug + cfg.ext; // ex: route_1_bourg_palette.png
-    imgEl.src = cfg.base + fileName;
-    imgEl.alt = "Carte de " + lieu.name;
-
-    imgEl.onerror = () => {
-      imgEl.style.display = "none";
-    };
-
-    // 🔍 Click = ouvrir en grand
-    imgEl.onclick = () => {
-      const box = document.getElementById("lieu-lightbox");
-      const boxImg = document.getElementById("lieu-lightbox-img");
-      if (box && boxImg) {
-        boxImg.src = imgEl.src;
-        boxImg.alt = imgEl.alt;
-        box.classList.add("is-visible");
-      }
-    };
-  } else {
-    imgEl.style.display = "none";
-  }
-}
-
-
-      // ------- utilitaire : gère chaînes OU objets -------
-// ------- utilitaire : sections Pokémon (avec lien + niveaux) -------
-function addPokemonSection(title, list){
-  if(!list || !list.length) return;
+// Section Pokémon (avec lien + niveaux)
+function addPokemonSection(container, region, title, list){
+  if (!list || !list.length) return;
 
   const section = document.createElement("section");
   section.className = "pd-lieu-section";
@@ -167,10 +108,8 @@ function addPokemonSection(title, list){
   list.forEach(entry => {
     const li = document.createElement("li");
 
-    // entry peut être "Rattata" OU { id, name, lvl_min, lvl_max, ... }
     const nom = (typeof entry === "string") ? entry : entry.name;
 
-    // Lien vers fiche Pokémon
     const link = document.createElement("a");
     link.textContent = nom;
     link.href = "../../pokemon.html?r=" + encodeURIComponent(region) +
@@ -178,7 +117,6 @@ function addPokemonSection(title, list){
     link.className = "pd-lieu-pkm-link";
     li.appendChild(link);
 
-    // Affichage du niveau si dispo
     if (typeof entry === "object" &&
         entry.lvl_min !== undefined &&
         entry.lvl_max !== undefined) {
@@ -199,19 +137,17 @@ function addPokemonSection(title, list){
   container.appendChild(section);
 }
 
-// ------- utilitaire : sections simples (objets, baies, boutique...) -------
-function addSimpleSection(title, list){
-  if(!list || !list.length) return;
+// Section simple (objets, baies, etc.) version “tags”
+function addSimpleSection(container, title, list){
+  if (!list || !list.length) return;
 
   const section = document.createElement("section");
   section.className = "pd-lieu-section";
 
-  // ---- Titre ----
   const h2 = document.createElement("h2");
   h2.textContent = title;
   section.appendChild(h2);
 
-  // ---- Conteneur de tags ----
   const wrap = document.createElement("div");
   wrap.className = "pd-tags-wrap";
 
@@ -223,8 +159,7 @@ function addSimpleSection(title, list){
     const tag = document.createElement("span");
     tag.className = "pd-tag";
 
-    // Petite icône avant le nom
-    if(iconSrc){
+    if (iconSrc){
       const icon = document.createElement("img");
       icon.src = iconSrc;
       icon.className = "pd-tag-icon";
@@ -232,9 +167,7 @@ function addSimpleSection(title, list){
       tag.appendChild(icon);
     }
 
-    const txt = document.createTextNode(" " + nom);
-    tag.appendChild(txt);
-
+    tag.appendChild(document.createTextNode(" " + nom));
     wrap.appendChild(tag);
   });
 
@@ -242,43 +175,205 @@ function addSimpleSection(title, list){
   container.appendChild(section);
 }
 
+// --- Nouveaux helpers pour les boutiques ---
 
+// Section avec titre + éventuelle icône
+function addSectionWithIcon(parent, title, iconPath){
+  const section = document.createElement("section");
+  section.className = "pd-lieu-section";
 
-// -------- Sauvages / Jour / Nuit --------
-const sauvage = lieu.sauvage || [];
-const jour = lieu.jour || [];
-const nuit = lieu.nuit || [];
+  const h2 = document.createElement("h2");
 
-if(sauvage.length){
-  addPokemonSection("Pokémon Sauvages", sauvage);
-} else {
-  if(jour.length) addPokemonSection("Pokémon Sauvages — Jour", jour);
-  if(nuit.length) addPokemonSection("Pokémon Sauvages — Nuit", nuit);
+  if (iconPath){
+    const img = document.createElement("img");
+    img.src = iconPath;
+    img.alt = "";
+    img.className = "pd-section-icon"; // optionnel, pour le CSS si tu veux
+    h2.appendChild(img);
+    h2.appendChild(document.createTextNode(" " + title));
+  } else {
+    h2.textContent = title;
+  }
+
+  section.appendChild(h2);
+  parent.appendChild(section);
+  return section;
 }
 
-// -------- Autres catégories Pokémon --------
-addPokemonSection("Surf", lieu.surf);
-addPokemonSection("Canne", lieu.canne);
-addPokemonSection("Super Canne", lieu.super_canne);
-addPokemonSection("Méga Canne", lieu.mega_canne);
-addPokemonSection("Grotte", lieu.cave);
-addPokemonSection("Éclate-Roc", lieu.rocksmash);
-addPokemonSection("Poké Radar", lieu.pokeradar);
+// Section “liste d’objets” (style tags) pour une boutique donnée
+function addItemSection(parent, title, items, iconPath){
+  if (!items || !items.length) return;
 
-// -------- Catégories simples (OBJETS / BAIES / BOUTIQUES) --------
-addSimpleSection("Objets Trouvables", lieu.objets);
-addSimpleSection("Baies", lieu.baies);
-addSimpleSection("Boutique", lieu.boutique);
-addSimpleSection("Boutique d’Arène", lieu.boutique_arene);
+  const section = addSectionWithIcon(parent, title, iconPath);
 
+  const wrap = document.createElement("div");
+  wrap.className = "pd-tags-wrap";
+
+  items.forEach(obj => {
+    const tag = document.createElement("span");
+    tag.className = "pd-tag";
+    tag.textContent = obj;
+    wrap.appendChild(tag);
+  });
+
+  section.appendChild(wrap);
+}
+
+// Boutique d'arène (arena_shop)
+function renderArenaShop(parent, arenaData){
+  if (!arenaData || !arenaData.items || !arenaData.items.length) return;
+
+  // On réutilise le nom du JSON si tu veux l’afficher :
+  const title = arenaData.name || "Boutique d'arène";
+
+  addItemSection(
+    parent,
+    title,
+    arenaData.items,
+    ICONS.arena // ou null si tu ne veux pas d’icône
+  );
+}
+
+// Boutiques diverses + Rézo Cadoizo (shops[])
+function renderShops(parent, shops){
+  if (!Array.isArray(shops) || !shops.length) return;
+
+  // Section générale “Boutiques”
+  const section = addSectionWithIcon(
+    parent,
+    "Boutiques",
+    ICONS.defaultShop
+  );
+
+  shops.forEach(shop => {
+    if (!shop) return;
+
+    // --- Cas spécial : Rézo Cadoizo avec inventaire par jour ---
+    if (shop.daily){
+      const title = document.createElement("div");
+      title.className = "shop-name";
+      title.textContent = shop.name;
+      section.appendChild(title);
+
+      Object.entries(shop.daily).forEach(([day, items]) => {
+        if (!items || !items.length) return;
+        const line = document.createElement("div");
+        line.className = "shop-line";
+        line.innerHTML = `<strong>${day} :</strong> ${items.join(", ")}`;
+        section.appendChild(line);
+      });
+
+      return;
+    }
+
+    // --- Boutiques classiques avec items[] ---
+    if (!shop.items || !shop.items.length) return;
+
+    const line = document.createElement("div");
+    line.className = "shop-line";
+    line.innerHTML = `<strong>${shop.name} :</strong> ${shop.items.join(", ")}`;
+    section.appendChild(line);
+  });
+}
+
+// ==========================
+// PAGE FICHE_DETAILLE
+// ==========================
+function renderLieuPage(){
+  const container = document.getElementById("lieu-content");
+  if (!container) return;
+
+  const params = getParams();
+  const region = params.get("r") || "Kanto";
+  const slug = params.get("l");
+
+  const backList = document.getElementById("back-list");
+  if (backList){
+    backList.href = "Liste_Lieux.html?r=" + encodeURIComponent(region);
+  }
+
+  const file = REGION_LIEUX_FILE[region];
+  if (!file){
+    container.textContent = "Aucun fichier de lieux pour " + region;
+    return;
+  }
+
+  loadJSON("../../data/Lieux/" + file)
+    .then(data => {
+      const lieu = data.find(l => l.slug === slug);
+      if (!lieu){
+        container.textContent = "Lieu introuvable.";
+        return;
+      }
+
+      const h1 = document.getElementById("lieu-name");
+      if (h1) h1.textContent = lieu.name;
+
+      // --------- Image du lieu ---------
+      const imgEl = document.getElementById("lieu-image");
+      if (imgEl){
+        const cfg = LIEU_IMAGE_CONFIG[region];
+        if (cfg){
+          const fileName = lieu.slug + cfg.ext;
+          imgEl.src = cfg.base + fileName;
+          imgEl.alt = "Carte de " + lieu.name;
+
+          imgEl.onerror = () => {
+            imgEl.style.display = "none";
+          };
+
+          imgEl.onclick = () => {
+            const box = document.getElementById("lieu-lightbox");
+            const boxImg = document.getElementById("lieu-lightbox-img");
+            if (box && boxImg){
+              boxImg.src = imgEl.src;
+              boxImg.alt = imgEl.alt;
+              box.classList.add("is-visible");
+            }
+          };
+        } else {
+          imgEl.style.display = "none";
+        }
+      }
+
+      // -------- Sauvages / Jour / Nuit --------
+      const sauvage = lieu.sauvage || [];
+      const jour = lieu.jour || [];
+      const nuit = lieu.nuit || [];
+
+      if (sauvage.length){
+        addPokemonSection(container, region, "Pokémon Sauvages", sauvage);
+      } else {
+        if (jour.length) addPokemonSection(container, region, "Pokémon Sauvages — Jour", jour);
+        if (nuit.length) addPokemonSection(container, region, "Pokémon Sauvages — Nuit", nuit);
+      }
+
+      // -------- Autres catégories Pokémon --------
+      addPokemonSection(container, region, "Surf",        lieu.surf);
+      addPokemonSection(container, region, "Canne",       lieu.canne);
+      addPokemonSection(container, region, "Super Canne", lieu.super_canne);
+      addPokemonSection(container, region, "Méga Canne",  lieu.mega_canne);
+      addPokemonSection(container, region, "Grotte",      lieu.cave);
+      addPokemonSection(container, region, "Éclate-Roc",  lieu.rocksmash);
+      addPokemonSection(container, region, "Poké Radar",  lieu.pokeradar);
+
+      // -------- Objets / Baies (restent comme avant) --------
+      addSimpleSection(container, "Objets Trouvables", lieu.objets);
+      addSimpleSection(container, "Baies",             lieu.baies);
+
+      // -------- Ancien système de boutiques (compatibilité) --------
+      addSimpleSection(container, "Boutique",          lieu.boutique);
+      addSimpleSection(container, "Boutique d’Arène",  lieu.boutique_arene);
+
+      // -------- Nouveau système : arena_shop + shops[] --------
+      renderArenaShop(container, lieu.arena_shop);
+      renderShops(container, lieu.shops);
     })
     .catch(err => {
       console.error(err);
       container.textContent = "Erreur lors du chargement du lieu.";
     });
 }
-
-
 
 // ==========================
 // AUTO-INIT
@@ -288,22 +383,18 @@ document.addEventListener("DOMContentLoaded", () => {
   renderLieuPage();
 
   const box = document.getElementById("lieu-lightbox");
-  const boxImg = document.getElementById("lieu-lightbox-img");
 
-  if (box) {
-    // Clic sur le fond noir = fermer
+  if (box){
     box.addEventListener("click", (e) => {
-      if (e.target === box) {
+      if (e.target === box){
         box.classList.remove("is-visible");
       }
     });
   }
 
-  // Touche Échap = fermer
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && box) {
+    if (e.key === "Escape" && box){
       box.classList.remove("is-visible");
     }
   });
 });
-
