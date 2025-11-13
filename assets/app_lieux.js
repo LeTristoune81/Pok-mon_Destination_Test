@@ -101,57 +101,51 @@ function renderLieuPage(){
       if(h1) h1.textContent = lieu.name;
 
       // ------- utilitaire : gère chaînes OU objets -------
-      function addSection(title, list){
-        if(!list || !list.length) return;
+  function addSection(title, list){
+  if(!list || !list.length) return;
 
-        const section = document.createElement("section");
-        section.className = "pd-lieu-section";
+  const section = document.createElement("section");
+  section.className = "pd-lieu-section";
 
-        const h2 = document.createElement("h2");
-        h2.textContent = title;
+  const h2 = document.createElement("h2");
+  h2.textContent = title;
 
-        const ul = document.createElement("ul");
+  const ul = document.createElement("ul");
 
-        list.forEach(entry => {
-          const li = document.createElement("li");
+  list.forEach(entry => {
+    const li = document.createElement("li");
 
-          // entry peut être "Rattata" OU { id, name, rate, lvl_min, lvl_max }
-          const nom = (typeof entry === "string") ? entry : entry.name;
+    // entry peut être "Rattata" OU { id, name, lvl_min, lvl_max }
+    const nom = (typeof entry === "string") ? entry : entry.name;
 
-          const nameSpan = document.createElement("span");
-          nameSpan.textContent = nom;
+    // Lien vers fiche Pokémon
+    const link = document.createElement("a");
+    link.textContent = nom;
+    link.href = "../../pokemon.html?r=" + region +
+                "&n=" + encodeURIComponent(nom.toLowerCase());
+    link.className = "pd-lieu-pkm-link";
+    li.appendChild(link);
 
-          const link = document.createElement("a");
-          link.textContent = nom;
-          link.href = "../../pokemon.html?r=" + region +
-                      "&n=" + encodeURIComponent(nom.toLowerCase());
-          link.className = "pd-lieu-pkm-link";
+    // Affichage du niveau si dispo (SANS le %)
+    if (typeof entry === "object" &&
+        entry.lvl_min !== undefined &&
+        entry.lvl_max !== undefined) {
 
-          // On met le lien autour du nom
-          li.appendChild(link);
+      const meta = document.createElement("span");
+      meta.className = "pd-lieu-meta";
+      meta.textContent =
+        " (niv. " + entry.lvl_min + " à " + entry.lvl_max + ")";
 
-          // Si on a les infos de taux/niveaux -> on les affiche
-          if (typeof entry === "object" &&
-              entry.lvl_min !== undefined &&
-              entry.lvl_max !== undefined &&
-              entry.rate !== undefined) {
+      li.appendChild(meta);
+    }
 
-            const meta = document.createElement("span");
-            meta.className = "pd-lieu-meta";
-            meta.textContent =
-              " (" + entry.rate + " % — niv. " +
-              entry.lvl_min + " à " + entry.lvl_max + ")";
+    ul.appendChild(li);
+  });
 
-            li.appendChild(meta);
-          }
-
-          ul.appendChild(li);
-        });
-
-        section.appendChild(h2);
-        section.appendChild(ul);
-        container.appendChild(section);
-      }
+  section.appendChild(h2);
+  section.appendChild(ul);
+  container.appendChild(section);
+}
 
 
       // -------- Sauvages / Jour / Nuit --------
