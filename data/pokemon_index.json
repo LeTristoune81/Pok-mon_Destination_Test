@@ -1,0 +1,7352 @@
+[
+  {
+    "id": "HERBIZARRE",
+    "name": "Herbizarre",
+    "url": "herbizarre"
+  },
+  {
+    "id": "FLORIZARRE",
+    "name": "Florizarre",
+    "url": "florizarre"
+  },
+  {
+    "id": "SALAMECHE",
+    "name": "Salamèche",
+    "url": "salamèche"
+  },
+  {
+    "id": "REPTINCEL",
+    "name": "Reptincel",
+    "url": "reptincel"
+  },
+  {
+    "id": "DRACAUFEU",
+    "name": "Dracaufeu",
+    "url": "dracaufeu"
+  },
+  {
+    "id": "CARAPUCE",
+    "name": "Carapuce",
+    "url": "carapuce"
+  },
+  {
+    "id": "CARABAFFE",
+    "name": "Carabaffe",
+    "url": "carabaffe"
+  },
+  {
+    "id": "TORTANK",
+    "name": "Tortank",
+    "url": "tortank"
+  },
+  {
+    "id": "CHENIPAN",
+    "name": "Chenipan",
+    "url": "chenipan"
+  },
+  {
+    "id": "CHRYSACIER",
+    "name": "Chrysacier",
+    "url": "chrysacier"
+  },
+  {
+    "id": "PAPILUSION",
+    "name": "Papilusion",
+    "url": "papilusion"
+  },
+  {
+    "id": "ASPICOT",
+    "name": "Aspicot",
+    "url": "aspicot"
+  },
+  {
+    "id": "COCONFORT",
+    "name": "Coconfort",
+    "url": "coconfort"
+  },
+  {
+    "id": "DARDARGNAN",
+    "name": "Dardargnan",
+    "url": "dardargnan"
+  },
+  {
+    "id": "ROUCOOL",
+    "name": "Roucool",
+    "url": "roucool"
+  },
+  {
+    "id": "ROUCOUPS",
+    "name": "Roucoups",
+    "url": "roucoups"
+  },
+  {
+    "id": "ROUCARNAGE",
+    "name": "Roucarnage",
+    "url": "roucarnage"
+  },
+  {
+    "id": "RATTATA",
+    "name": "Rattata",
+    "url": "rattata"
+  },
+  {
+    "id": "RATTATAC",
+    "name": "Rattatac",
+    "url": "rattatac"
+  },
+  {
+    "id": "RATTAPESTE",
+    "name": "Rattapeste",
+    "url": "rattapeste"
+  },
+  {
+    "id": "PIAFABEC",
+    "name": "Piafabec",
+    "url": "piafabec"
+  },
+  {
+    "id": "RAPASDEPIC",
+    "name": "Rapasdepic",
+    "url": "rapasdepic"
+  },
+  {
+    "id": "VORASDEPIC",
+    "name": "Vorasdepic",
+    "url": "vorasdepic"
+  },
+  {
+    "id": "ABO",
+    "name": "Abo",
+    "url": "abo"
+  },
+  {
+    "id": "ARBOK",
+    "name": "Arbok",
+    "url": "arbok"
+  },
+  {
+    "id": "PICHU",
+    "name": "Pichu",
+    "url": "pichu"
+  },
+  {
+    "id": "PIKACHU",
+    "name": "Pikachu",
+    "url": "pikachu"
+  },
+  {
+    "id": "RAICHU",
+    "name": "Raichu",
+    "url": "raichu"
+  },
+  {
+    "id": "SABELETTE",
+    "name": "Sabelette",
+    "url": "sabelette"
+  },
+  {
+    "id": "SABLAIREAU",
+    "name": "Sablaireau",
+    "url": "sablaireau"
+  },
+  {
+    "id": "SABLARMURE",
+    "name": "Sablarmure",
+    "url": "sablarmure"
+  },
+  {
+    "id": "NIDORAN",
+    "name": "Nidoran",
+    "url": "nidoran"
+  },
+  {
+    "id": "NIDORINO",
+    "name": "Nidorino",
+    "url": "nidorino"
+  },
+  {
+    "id": "NIDOKING",
+    "name": "Nidoking",
+    "url": "nidoking"
+  },
+  {
+    "id": "NIDORANF",
+    "name": "Nidoran♀",
+    "url": "nidoran♀"
+  },
+  {
+    "id": "NIDORINA",
+    "name": "Nidorina",
+    "url": "nidorina"
+  },
+  {
+    "id": "NIDOQUEEN",
+    "name": "Nidoqueen",
+    "url": "nidoqueen"
+  },
+  {
+    "id": "MELO",
+    "name": "Mélo",
+    "url": "mélo"
+  },
+  {
+    "id": "MELOFEE",
+    "name": "Mélofée",
+    "url": "mélofée"
+  },
+  {
+    "id": "MELODELFE",
+    "name": "Mélodelfe",
+    "url": "mélodelfe"
+  },
+  {
+    "id": "GOUPIX",
+    "name": "Goupix",
+    "url": "goupix"
+  },
+  {
+    "id": "FEUNARD",
+    "name": "Feunard",
+    "url": "feunard"
+  },
+  {
+    "id": "TOUDOUDOU",
+    "name": "Toudoudou",
+    "url": "toudoudou"
+  },
+  {
+    "id": "RONDOUDOU",
+    "name": "Rondoudou",
+    "url": "rondoudou"
+  },
+  {
+    "id": "GRODOUDOU",
+    "name": "Grodoudou",
+    "url": "grodoudou"
+  },
+  {
+    "id": "NOSFERAPTI",
+    "name": "Nosferapti",
+    "url": "nosferapti"
+  },
+  {
+    "id": "NOSFERALTO",
+    "name": "Nosferalto",
+    "url": "nosferalto"
+  },
+  {
+    "id": "NOSTENFER",
+    "name": "Nostenfer",
+    "url": "nostenfer"
+  },
+  {
+    "id": "MYSTHERBE",
+    "name": "Mystherbe",
+    "url": "mystherbe"
+  },
+  {
+    "id": "ORTIDE",
+    "name": "Ortide",
+    "url": "ortide"
+  },
+  {
+    "id": "RAFFLESIA",
+    "name": "Rafflesia",
+    "url": "rafflesia"
+  },
+  {
+    "id": "JOLIFLOR",
+    "name": "Joliflor",
+    "url": "joliflor"
+  },
+  {
+    "id": "PARAS",
+    "name": "Paras",
+    "url": "paras"
+  },
+  {
+    "id": "PARASECT",
+    "name": "Parasect",
+    "url": "parasect"
+  },
+  {
+    "id": "MIMITOSS",
+    "name": "Mimitoss",
+    "url": "mimitoss"
+  },
+  {
+    "id": "AEROMITE",
+    "name": "Aéromite",
+    "url": "aéromite"
+  },
+  {
+    "id": "TAUPIQUEUR",
+    "name": "Taupiqueur",
+    "url": "taupiqueur"
+  },
+  {
+    "id": "TRIOPIKEUR",
+    "name": "Triopikeur",
+    "url": "triopikeur"
+  },
+  {
+    "id": "MOUSPIKEUR",
+    "name": "Mouspikeur",
+    "url": "mouspikeur"
+  },
+  {
+    "id": "MIAOUSS",
+    "name": "Miaouss",
+    "url": "miaouss"
+  },
+  {
+    "id": "PERSIAN",
+    "name": "Persian",
+    "url": "persian"
+  },
+  {
+    "id": "PSYKOKWAK",
+    "name": "Psykokwak",
+    "url": "psykokwak"
+  },
+  {
+    "id": "AKWAKWAK",
+    "name": "Akwakwak",
+    "url": "akwakwak"
+  },
+  {
+    "id": "AKWAKRONO",
+    "name": "Akwakrono",
+    "url": "akwakrono"
+  },
+  {
+    "id": "FEROSINGE",
+    "name": "Férosinge",
+    "url": "férosinge"
+  },
+  {
+    "id": "COLOSSINGE",
+    "name": "Colossinge",
+    "url": "colossinge"
+  },
+  {
+    "id": "COURROUSINGE",
+    "name": "Courrousinge",
+    "url": "courrousinge"
+  },
+  {
+    "id": "CANINOS",
+    "name": "Caninos",
+    "url": "caninos"
+  },
+  {
+    "id": "ARCANIN",
+    "name": "Arcanin",
+    "url": "arcanin"
+  },
+  {
+    "id": "PTITARD",
+    "name": "Ptitard",
+    "url": "ptitard"
+  },
+  {
+    "id": "TETARTE",
+    "name": "Tétarte",
+    "url": "tétarte"
+  },
+  {
+    "id": "TARTARD",
+    "name": "Tartard",
+    "url": "tartard"
+  },
+  {
+    "id": "TARPAUD",
+    "name": "Tarpaud",
+    "url": "tarpaud"
+  },
+  {
+    "id": "ABRA",
+    "name": "Abra",
+    "url": "abra"
+  },
+  {
+    "id": "KADABRA",
+    "name": "Kadabra",
+    "url": "kadabra"
+  },
+  {
+    "id": "ALAKAZAM",
+    "name": "Alakazam",
+    "url": "alakazam"
+  },
+  {
+    "id": "MACHOC",
+    "name": "Machoc",
+    "url": "machoc"
+  },
+  {
+    "id": "MACHOPEUR",
+    "name": "Machopeur",
+    "url": "machopeur"
+  },
+  {
+    "id": "MACKOGNEUR",
+    "name": "Mackogneur",
+    "url": "mackogneur"
+  },
+  {
+    "id": "CHETIFLOR",
+    "name": "Chétiflor",
+    "url": "chétiflor"
+  },
+  {
+    "id": "BOUSTIFLOR",
+    "name": "Boustiflor",
+    "url": "boustiflor"
+  },
+  {
+    "id": "EMPIFLOR",
+    "name": "Empiflor",
+    "url": "empiflor"
+  },
+  {
+    "id": "TENTACOOL",
+    "name": "Tentacool",
+    "url": "tentacool"
+  },
+  {
+    "id": "TENTACRUEL",
+    "name": "Tentacruel",
+    "url": "tentacruel"
+  },
+  {
+    "id": "RACAILLOU",
+    "name": "Racaillou",
+    "url": "racaillou"
+  },
+  {
+    "id": "GRAVALANCH",
+    "name": "Gravalanch",
+    "url": "gravalanch"
+  },
+  {
+    "id": "GROLEM",
+    "name": "Grolem",
+    "url": "grolem"
+  },
+  {
+    "id": "PONYTA",
+    "name": "Ponyta",
+    "url": "ponyta"
+  },
+  {
+    "id": "GALOPA",
+    "name": "Galopa",
+    "url": "galopa"
+  },
+  {
+    "id": "RAMOLOSS",
+    "name": "Ramoloss",
+    "url": "ramoloss"
+  },
+  {
+    "id": "FLAGADOSS",
+    "name": "Flagadoss",
+    "url": "flagadoss"
+  },
+  {
+    "id": "ROIGADA",
+    "name": "Roigada",
+    "url": "roigada"
+  },
+  {
+    "id": "MAGNETI",
+    "name": "Magnéti",
+    "url": "magnéti"
+  },
+  {
+    "id": "MAGNETON",
+    "name": "Magnéton",
+    "url": "magnéton"
+  },
+  {
+    "id": "MAGNEZONE",
+    "name": "Magnézone",
+    "url": "magnézone"
+  },
+  {
+    "id": "CANARTICHO",
+    "name": "Canarticho",
+    "url": "canarticho"
+  },
+  {
+    "id": "DODUO",
+    "name": "Doduo",
+    "url": "doduo"
+  },
+  {
+    "id": "DODRIO",
+    "name": "Dodrio",
+    "url": "dodrio"
+  },
+  {
+    "id": "OTARIA",
+    "name": "Otaria",
+    "url": "otaria"
+  },
+  {
+    "id": "LAMANTINE",
+    "name": "Lamantine",
+    "url": "lamantine"
+  },
+  {
+    "id": "TADMORV",
+    "name": "Tadmorv",
+    "url": "tadmorv"
+  },
+  {
+    "id": "GROTADMORV",
+    "name": "Grotadmorv",
+    "url": "grotadmorv"
+  },
+  {
+    "id": "KOKIYAS",
+    "name": "Kokiyas",
+    "url": "kokiyas"
+  },
+  {
+    "id": "CRUSTABRI",
+    "name": "Crustabri",
+    "url": "crustabri"
+  },
+  {
+    "id": "FANTOMINUS",
+    "name": "Fantominus",
+    "url": "fantominus"
+  },
+  {
+    "id": "SPECTRUM",
+    "name": "Spectrum",
+    "url": "spectrum"
+  },
+  {
+    "id": "ECTOPLASMA",
+    "name": "Ectoplasma",
+    "url": "ectoplasma"
+  },
+  {
+    "id": "ONIX",
+    "name": "Onix",
+    "url": "onix"
+  },
+  {
+    "id": "STEELIX",
+    "name": "Steelix",
+    "url": "steelix"
+  },
+  {
+    "id": "SOPORIFIK",
+    "name": "Soporifik",
+    "url": "soporifik"
+  },
+  {
+    "id": "HYPNOMADE",
+    "name": "Hypnomade",
+    "url": "hypnomade"
+  },
+  {
+    "id": "KRABBY",
+    "name": "Krabby",
+    "url": "krabby"
+  },
+  {
+    "id": "KRABBOSS",
+    "name": "Krabboss",
+    "url": "krabboss"
+  },
+  {
+    "id": "VOLTORBE",
+    "name": "Voltorbe",
+    "url": "voltorbe"
+  },
+  {
+    "id": "ELECTRODE",
+    "name": "Electrode",
+    "url": "electrode"
+  },
+  {
+    "id": "NOEUNOEUF",
+    "name": "Noeunoeuf",
+    "url": "noeunoeuf"
+  },
+  {
+    "id": "NOADKOKO",
+    "name": "Noadkoko",
+    "url": "noadkoko"
+  },
+  {
+    "id": "OSSELAIT",
+    "name": "Osselait",
+    "url": "osselait"
+  },
+  {
+    "id": "OSSATUEUR",
+    "name": "Ossatueur",
+    "url": "ossatueur"
+  },
+  {
+    "id": "DEBUGANT",
+    "name": "Débugant",
+    "url": "débugant"
+  },
+  {
+    "id": "KICKLEE",
+    "name": "Kicklee",
+    "url": "kicklee"
+  },
+  {
+    "id": "TYGNON",
+    "name": "Tygnon",
+    "url": "tygnon"
+  },
+  {
+    "id": "KAPOERA",
+    "name": "Kapoera",
+    "url": "kapoera"
+  },
+  {
+    "id": "TIRELANGUE",
+    "name": "Tirelangue",
+    "url": "tirelangue"
+  },
+  {
+    "id": "EXCELANGUE",
+    "name": "Excelangue",
+    "url": "excelangue"
+  },
+  {
+    "id": "COUDLANGUE",
+    "name": "Coudlangue",
+    "url": "coudlangue"
+  },
+  {
+    "id": "SMOGO",
+    "name": "Smogo",
+    "url": "smogo"
+  },
+  {
+    "id": "SMOGOGO",
+    "name": "Smogogo",
+    "url": "smogogo"
+  },
+  {
+    "id": "RHINOCORNE",
+    "name": "Rhinocorne",
+    "url": "rhinocorne"
+  },
+  {
+    "id": "RHINOFEROS",
+    "name": "Rhinoféros",
+    "url": "rhinoféros"
+  },
+  {
+    "id": "RHINASTOC",
+    "name": "Rhinastoc",
+    "url": "rhinastoc"
+  },
+  {
+    "id": "PTIRAVI",
+    "name": "Ptiravi",
+    "url": "ptiravi"
+  },
+  {
+    "id": "LEVEINARD",
+    "name": "Leveinard",
+    "url": "leveinard"
+  },
+  {
+    "id": "LEUPHORIE",
+    "name": "Leuphorie",
+    "url": "leuphorie"
+  },
+  {
+    "id": "TETEDENEU",
+    "name": "Têtedeneu",
+    "url": "têtedeneu"
+  },
+  {
+    "id": "SAQUEDENEU",
+    "name": "Saquedeneu",
+    "url": "saquedeneu"
+  },
+  {
+    "id": "BOULDENEU",
+    "name": "Bouldeneu",
+    "url": "bouldeneu"
+  },
+  {
+    "id": "KANGOUKID",
+    "name": "Kangoukid",
+    "url": "kangoukid"
+  },
+  {
+    "id": "KANGOUREX",
+    "name": "Kangourex",
+    "url": "kangourex"
+  },
+  {
+    "id": "HYPOTREMPE",
+    "name": "Hypotrempe",
+    "url": "hypotrempe"
+  },
+  {
+    "id": "HYPOCEAN",
+    "name": "Hypocéan",
+    "url": "hypocéan"
+  },
+  {
+    "id": "HYPOROI",
+    "name": "Hyporoi",
+    "url": "hyporoi"
+  },
+  {
+    "id": "POISSIRENE",
+    "name": "Poissirène",
+    "url": "poissirène"
+  },
+  {
+    "id": "POISSOROY",
+    "name": "Poissoroy",
+    "url": "poissoroy"
+  },
+  {
+    "id": "EMPERANDA",
+    "name": "Emperanda",
+    "url": "emperanda"
+  },
+  {
+    "id": "POISSIDAME",
+    "name": "Poissidame",
+    "url": "poissidame"
+  },
+  {
+    "id": "IMPERANDA",
+    "name": "Impéranda",
+    "url": "impéranda"
+  },
+  {
+    "id": "STARI",
+    "name": "Stari",
+    "url": "stari"
+  },
+  {
+    "id": "STAROSS",
+    "name": "Staross",
+    "url": "staross"
+  },
+  {
+    "id": "MIMEJR",
+    "name": "Mime Jr.",
+    "url": "mime jr."
+  },
+  {
+    "id": "MMIME",
+    "name": "M. Mime",
+    "url": "m. mime"
+  },
+  {
+    "id": "MIMESCROC",
+    "name": "Mimescroc",
+    "url": "mimescroc"
+  },
+  {
+    "id": "MMEMIME",
+    "name": "Mme. Mime",
+    "url": "mme. mime"
+  },
+  {
+    "id": "INSECATEUR",
+    "name": "Insécateur",
+    "url": "insécateur"
+  },
+  {
+    "id": "CIZAYOX",
+    "name": "Cizayox",
+    "url": "cizayox"
+  },
+  {
+    "id": "LIPPOUTI",
+    "name": "Lippouti",
+    "url": "lippouti"
+  },
+  {
+    "id": "LIPPOUTOU",
+    "name": "Lippoutou",
+    "url": "lippoutou"
+  },
+  {
+    "id": "LIPPOUMAMA",
+    "name": "Lippoumama",
+    "url": "lippoumama"
+  },
+  {
+    "id": "ELEKID",
+    "name": "Élekid",
+    "url": "élekid"
+  },
+  {
+    "id": "ELEKTEK",
+    "name": "Élektek",
+    "url": "élektek"
+  },
+  {
+    "id": "ELEKABLE",
+    "name": "Élekable",
+    "url": "élekable"
+  },
+  {
+    "id": "MAGBY",
+    "name": "Magby",
+    "url": "magby"
+  },
+  {
+    "id": "MAGMAR",
+    "name": "Magmar",
+    "url": "magmar"
+  },
+  {
+    "id": "MAGANON",
+    "name": "Maganon",
+    "url": "maganon"
+  },
+  {
+    "id": "SCARABRUTE",
+    "name": "Scarabrute",
+    "url": "scarabrute"
+  },
+  {
+    "id": "TAUROS",
+    "name": "Tauros",
+    "url": "tauros"
+  },
+  {
+    "id": "MAGICARPE",
+    "name": "Magicarpe",
+    "url": "magicarpe"
+  },
+  {
+    "id": "LEVIATOR",
+    "name": "Léviator",
+    "url": "léviator"
+  },
+  {
+    "id": "LOKHLASS",
+    "name": "Lokhlass",
+    "url": "lokhlass"
+  },
+  {
+    "id": "METAMORPH",
+    "name": "Métamorph",
+    "url": "métamorph"
+  },
+  {
+    "id": "EVOLI",
+    "name": "Évoli",
+    "url": "évoli"
+  },
+  {
+    "id": "AQUALI",
+    "name": "Aquali",
+    "url": "aquali"
+  },
+  {
+    "id": "PYROLI",
+    "name": "Pyroli",
+    "url": "pyroli"
+  },
+  {
+    "id": "PHYLLALI",
+    "name": "Phyllali",
+    "url": "phyllali"
+  },
+  {
+    "id": "LUCIOLI",
+    "name": "Lucioli",
+    "url": "lucioli"
+  },
+  {
+    "id": "VENALI",
+    "name": "Vénali",
+    "url": "vénali"
+  },
+  {
+    "id": "VOLTALI",
+    "name": "Voltali",
+    "url": "voltali"
+  },
+  {
+    "id": "ZEPHALI",
+    "name": "Zéphali",
+    "url": "zéphali"
+  },
+  {
+    "id": "SYMPHOLI",
+    "name": "Sympholi",
+    "url": "sympholi"
+  },
+  {
+    "id": "DUNALI",
+    "name": "Dunali",
+    "url": "dunali"
+  },
+  {
+    "id": "GIVRALI",
+    "name": "Givrali",
+    "url": "givrali"
+  },
+  {
+    "id": "MENTALI",
+    "name": "Mentali",
+    "url": "mentali"
+  },
+  {
+    "id": "ANXIOLI",
+    "name": "Anxioli",
+    "url": "anxioli"
+  },
+  {
+    "id": "DRACALI",
+    "name": "Dracali",
+    "url": "dracali"
+  },
+  {
+    "id": "ZENALI",
+    "name": "Zenali",
+    "url": "zenali"
+  },
+  {
+    "id": "NYMPHALI",
+    "name": "Nymphali",
+    "url": "nymphali"
+  },
+  {
+    "id": "SOLALI",
+    "name": "Solali",
+    "url": "solali"
+  },
+  {
+    "id": "LUNALI",
+    "name": "Lunali",
+    "url": "lunali"
+  },
+  {
+    "id": "NOCTALI",
+    "name": "Noctali",
+    "url": "noctali"
+  },
+  {
+    "id": "PORYGON",
+    "name": "Porygon",
+    "url": "porygon"
+  },
+  {
+    "id": "PORYGON2",
+    "name": "Porygon2",
+    "url": "porygon2"
+  },
+  {
+    "id": "PORYGONZ",
+    "name": "Porygon-Z",
+    "url": "porygon-z"
+  },
+  {
+    "id": "AMONITA",
+    "name": "Amonita",
+    "url": "amonita"
+  },
+  {
+    "id": "AMONISTAR",
+    "name": "Amonistar",
+    "url": "amonistar"
+  },
+  {
+    "id": "KABUTO",
+    "name": "Kabuto",
+    "url": "kabuto"
+  },
+  {
+    "id": "KABUTOPS",
+    "name": "Kabutops",
+    "url": "kabutops"
+  },
+  {
+    "id": "PTERA",
+    "name": "Ptéra",
+    "url": "ptéra"
+  },
+  {
+    "id": "GOINFREX",
+    "name": "Goinfrex",
+    "url": "goinfrex"
+  },
+  {
+    "id": "RONFLEX",
+    "name": "Ronflex",
+    "url": "ronflex"
+  },
+  {
+    "id": "MINIDRACO",
+    "name": "Minidraco",
+    "url": "minidraco"
+  },
+  {
+    "id": "DRACO",
+    "name": "Draco",
+    "url": "draco"
+  },
+  {
+    "id": "DRACOLOSSE",
+    "name": "Dracolosse",
+    "url": "dracolosse"
+  },
+  {
+    "id": "MEWTWO",
+    "name": "Mewtwo",
+    "url": "mewtwo"
+  },
+  {
+    "id": "MEW",
+    "name": "Mew",
+    "url": "mew"
+  },
+  {
+    "id": "GERMIGNON",
+    "name": "Germignon",
+    "url": "germignon"
+  },
+  {
+    "id": "MACRONIUM",
+    "name": "Macronium",
+    "url": "macronium"
+  },
+  {
+    "id": "MEGANIUM",
+    "name": "Méganium",
+    "url": "méganium"
+  },
+  {
+    "id": "HERICENDRE",
+    "name": "Héricendre",
+    "url": "héricendre"
+  },
+  {
+    "id": "FEURISSON",
+    "name": "Feurisson",
+    "url": "feurisson"
+  },
+  {
+    "id": "TYPHLOSION",
+    "name": "Typhlosion",
+    "url": "typhlosion"
+  },
+  {
+    "id": "KAIMINUS",
+    "name": "Kaiminus",
+    "url": "kaiminus"
+  },
+  {
+    "id": "CROCRODIL",
+    "name": "Crocrodil",
+    "url": "crocrodil"
+  },
+  {
+    "id": "ALIGATUEUR",
+    "name": "Aligatueur",
+    "url": "aligatueur"
+  },
+  {
+    "id": "FOUINETTE",
+    "name": "Fouinette",
+    "url": "fouinette"
+  },
+  {
+    "id": "FOUINAR",
+    "name": "Fouinar",
+    "url": "fouinar"
+  },
+  {
+    "id": "HOOTHOOT",
+    "name": "Hoothoot",
+    "url": "hoothoot"
+  },
+  {
+    "id": "NOARFANG",
+    "name": "Noarfang",
+    "url": "noarfang"
+  },
+  {
+    "id": "PROPHIBOU",
+    "name": "Prophibou",
+    "url": "prophibou"
+  },
+  {
+    "id": "COXY",
+    "name": "Coxy",
+    "url": "coxy"
+  },
+  {
+    "id": "COXYCLAQUE",
+    "name": "Coxyclaque",
+    "url": "coxyclaque"
+  },
+  {
+    "id": "COXYPUNCH",
+    "name": "Coxypunch",
+    "url": "coxypunch"
+  },
+  {
+    "id": "COXYNESCENT",
+    "name": "Coxynescent",
+    "url": "coxynescent"
+  },
+  {
+    "id": "MIMIGAL",
+    "name": "Mimigal",
+    "url": "mimigal"
+  },
+  {
+    "id": "MIGALOS",
+    "name": "Migalos",
+    "url": "migalos"
+  },
+  {
+    "id": "TOGEPI",
+    "name": "Togepi",
+    "url": "togepi"
+  },
+  {
+    "id": "TOGETIC",
+    "name": "Togetic",
+    "url": "togetic"
+  },
+  {
+    "id": "TOGEKISS",
+    "name": "Togekiss",
+    "url": "togekiss"
+  },
+  {
+    "id": "TOGEKOLOSS",
+    "name": "Togekoloss",
+    "url": "togekoloss"
+  },
+  {
+    "id": "NATU",
+    "name": "Natu",
+    "url": "natu"
+  },
+  {
+    "id": "XATU",
+    "name": "Xatu",
+    "url": "xatu"
+  },
+  {
+    "id": "WATTOUAT",
+    "name": "Wattouat",
+    "url": "wattouat"
+  },
+  {
+    "id": "LAINERGIE",
+    "name": "Lainergie",
+    "url": "lainergie"
+  },
+  {
+    "id": "PHARAMP",
+    "name": "Pharamp",
+    "url": "pharamp"
+  },
+  {
+    "id": "AZURILL",
+    "name": "Azurill",
+    "url": "azurill"
+  },
+  {
+    "id": "MARILL",
+    "name": "Marill",
+    "url": "marill"
+  },
+  {
+    "id": "AZUMARILL",
+    "name": "Azumarill",
+    "url": "azumarill"
+  },
+  {
+    "id": "MANZAI",
+    "name": "Manzaï",
+    "url": "manzaï"
+  },
+  {
+    "id": "SIMULARBRE",
+    "name": "Simularbre",
+    "url": "simularbre"
+  },
+  {
+    "id": "MAGICARPE_JOH",
+    "name": "Magicarpe",
+    "url": "magicarpe"
+  },
+  {
+    "id": "GRANIVOL",
+    "name": "Granivol",
+    "url": "granivol"
+  },
+  {
+    "id": "FLORAVOL",
+    "name": "Floravol",
+    "url": "floravol"
+  },
+  {
+    "id": "COTOVOL",
+    "name": "Cotovol",
+    "url": "cotovol"
+  },
+  {
+    "id": "CAPUMAIN",
+    "name": "Capumain",
+    "url": "capumain"
+  },
+  {
+    "id": "CAPIDEXTRE",
+    "name": "Capidextre",
+    "url": "capidextre"
+  },
+  {
+    "id": "TOURNEGRIN",
+    "name": "Tournegrin",
+    "url": "tournegrin"
+  },
+  {
+    "id": "HELIATRONC",
+    "name": "Héliatronc",
+    "url": "héliatronc"
+  },
+  {
+    "id": "TOURNELUX",
+    "name": "Tournelux",
+    "url": "tournelux"
+  },
+  {
+    "id": "YANMA",
+    "name": "Yanma",
+    "url": "yanma"
+  },
+  {
+    "id": "YANMEGA",
+    "name": "Yanmega",
+    "url": "yanmega"
+  },
+  {
+    "id": "AXOLOTO",
+    "name": "Axoloto",
+    "url": "axoloto"
+  },
+  {
+    "id": "MARAISTE",
+    "name": "Maraisté",
+    "url": "maraisté"
+  },
+  {
+    "id": "CORNEBRE",
+    "name": "Cornèbre",
+    "url": "cornèbre"
+  },
+  {
+    "id": "CORBOSS",
+    "name": "Corboss",
+    "url": "corboss"
+  },
+  {
+    "id": "FEUFOREVE",
+    "name": "Feuforêve",
+    "url": "feuforêve"
+  },
+  {
+    "id": "MAGIREVE",
+    "name": "Magirêve",
+    "url": "magirêve"
+  },
+  {
+    "id": "ZARBI",
+    "name": "Zarbi ?",
+    "url": "zarbi ?"
+  },
+  {
+    "id": "OKEOKE",
+    "name": "Okéoké",
+    "url": "okéoké"
+  },
+  {
+    "id": "QULBUTOKE",
+    "name": "Qulbutoke",
+    "url": "qulbutoke"
+  },
+  {
+    "id": "GIRAFARIG",
+    "name": "Girafarig",
+    "url": "girafarig"
+  },
+  {
+    "id": "FARIGIRAF",
+    "name": "Farigiraf",
+    "url": "farigiraf"
+  },
+  {
+    "id": "DRAGIFIGARD",
+    "name": "Dragifigard",
+    "url": "dragifigard"
+  },
+  {
+    "id": "POMDEPIK",
+    "name": "Pomdepik",
+    "url": "pomdepik"
+  },
+  {
+    "id": "FORETRESS",
+    "name": "Forêtress",
+    "url": "forêtress"
+  },
+  {
+    "id": "INSOLOURDO",
+    "name": "Insolourdo",
+    "url": "insolourdo"
+  },
+  {
+    "id": "DEUSOLOURDO",
+    "name": "Deusolourdo",
+    "url": "deusolourdo"
+  },
+  {
+    "id": "TRISOLOURDO",
+    "name": "Trisolourdo",
+    "url": "trisolourdo"
+  },
+  {
+    "id": "DRACOLOURDO",
+    "name": "Dracolourdo",
+    "url": "dracolourdo"
+  },
+  {
+    "id": "SCORPLANE",
+    "name": "Scorplane",
+    "url": "scorplane"
+  },
+  {
+    "id": "SCORVOL",
+    "name": "Scorvol",
+    "url": "scorvol"
+  },
+  {
+    "id": "SNUBBULL",
+    "name": "Snubbull",
+    "url": "snubbull"
+  },
+  {
+    "id": "GRANBULL",
+    "name": "Granbull",
+    "url": "granbull"
+  },
+  {
+    "id": "QWILFISH",
+    "name": "Qwilfish",
+    "url": "qwilfish"
+  },
+  {
+    "id": "CARATROC",
+    "name": "Caratroc",
+    "url": "caratroc"
+  },
+  {
+    "id": "SCARMINUS",
+    "name": "Scarminus",
+    "url": "scarminus"
+  },
+  {
+    "id": "SCARHINO",
+    "name": "Scarhino",
+    "url": "scarhino"
+  },
+  {
+    "id": "FARFURET",
+    "name": "Farfuret",
+    "url": "farfuret"
+  },
+  {
+    "id": "DIMORET",
+    "name": "Dimoret",
+    "url": "dimoret"
+  },
+  {
+    "id": "TEDDIURSA",
+    "name": "Teddiursa",
+    "url": "teddiursa"
+  },
+  {
+    "id": "URSARING",
+    "name": "Ursaring",
+    "url": "ursaring"
+  },
+  {
+    "id": "URSAKING",
+    "name": "Ursaking",
+    "url": "ursaking"
+  },
+  {
+    "id": "LIMAGMA",
+    "name": "Limagma",
+    "url": "limagma"
+  },
+  {
+    "id": "VOLCAROPOD",
+    "name": "Volcaropod",
+    "url": "volcaropod"
+  },
+  {
+    "id": "MAGMOLLUSK",
+    "name": "Magmollusk",
+    "url": "magmollusk"
+  },
+  {
+    "id": "MARCACRIN",
+    "name": "Marcacrin",
+    "url": "marcacrin"
+  },
+  {
+    "id": "COCHIGNON",
+    "name": "Cochignon",
+    "url": "cochignon"
+  },
+  {
+    "id": "MAMMOCHON",
+    "name": "Mammochon",
+    "url": "mammochon"
+  },
+  {
+    "id": "CADUTIN",
+    "name": "Cadutin",
+    "url": "cadutin"
+  },
+  {
+    "id": "CADOIZO",
+    "name": "Cadoizo",
+    "url": "cadoizo"
+  },
+  {
+    "id": "PAPADOIZO",
+    "name": "Papadoizo",
+    "url": "papadoizo"
+  },
+  {
+    "id": "CORAYON",
+    "name": "Corayon",
+    "url": "corayon"
+  },
+  {
+    "id": "REMORAID",
+    "name": "Remoraid",
+    "url": "remoraid"
+  },
+  {
+    "id": "OCTILLERY",
+    "name": "Octillery",
+    "url": "octillery"
+  },
+  {
+    "id": "LOUPIO",
+    "name": "Loupio",
+    "url": "loupio"
+  },
+  {
+    "id": "LANTURN",
+    "name": "Lanturn",
+    "url": "lanturn"
+  },
+  {
+    "id": "BABIMANTA",
+    "name": "Babimanta",
+    "url": "babimanta"
+  },
+  {
+    "id": "DEMANTA",
+    "name": "Demanta",
+    "url": "demanta"
+  },
+  {
+    "id": "FERPLUME",
+    "name": "Ferplume",
+    "url": "ferplume"
+  },
+  {
+    "id": "AIRMURE",
+    "name": "Airmure",
+    "url": "airmure"
+  },
+  {
+    "id": "MALOSSE",
+    "name": "Malosse",
+    "url": "malosse"
+  },
+  {
+    "id": "DEMOLOSSE",
+    "name": "Démolosse",
+    "url": "démolosse"
+  },
+  {
+    "id": "PHANPY",
+    "name": "Phanpy",
+    "url": "phanpy"
+  },
+  {
+    "id": "DONPHAN",
+    "name": "Donphan",
+    "url": "donphan"
+  },
+  {
+    "id": "CERFROUSSE",
+    "name": "Cerfrousse",
+    "url": "cerfrousse"
+  },
+  {
+    "id": "QUEULORIOR",
+    "name": "Queulorior",
+    "url": "queulorior"
+  },
+  {
+    "id": "ECREMEUH",
+    "name": "Écrémeuh",
+    "url": "écrémeuh"
+  },
+  {
+    "id": "EMBRYLEX",
+    "name": "Embrylex",
+    "url": "embrylex"
+  },
+  {
+    "id": "YMPHECT",
+    "name": "Ymphect",
+    "url": "ymphect"
+  },
+  {
+    "id": "TYRANOCIF",
+    "name": "Tyranocif",
+    "url": "tyranocif"
+  },
+  {
+    "id": "RAIKOU",
+    "name": "Raikou",
+    "url": "raikou"
+  },
+  {
+    "id": "ENTEI",
+    "name": "Entei",
+    "url": "entei"
+  },
+  {
+    "id": "SUICUNE",
+    "name": "Suicune",
+    "url": "suicune"
+  },
+  {
+    "id": "HOOH",
+    "name": "Ho-Oh",
+    "url": "ho-oh"
+  },
+  {
+    "id": "LUGIA",
+    "name": "Lugia",
+    "url": "lugia"
+  },
+  {
+    "id": "CELEBI",
+    "name": "Celebi",
+    "url": "celebi"
+  },
+  {
+    "id": "LEVIATOR_DEL",
+    "name": "LéviatorΔ",
+    "url": "léviatorδ"
+  },
+  {
+    "id": "ZARBIB",
+    "name": "Zarbi B",
+    "url": "zarbi b"
+  },
+  {
+    "id": "ZARBIC",
+    "name": "Zarbi C",
+    "url": "zarbi c"
+  },
+  {
+    "id": "ZARBID",
+    "name": "Zarbi D",
+    "url": "zarbi d"
+  },
+  {
+    "id": "ZARBIE",
+    "name": "Zarbi E",
+    "url": "zarbi e"
+  },
+  {
+    "id": "ZARBIF",
+    "name": "Zarbi F",
+    "url": "zarbi f"
+  },
+  {
+    "id": "ZARBIG",
+    "name": "Zarbi G",
+    "url": "zarbi g"
+  },
+  {
+    "id": "ZARBIH",
+    "name": "Zarbi H",
+    "url": "zarbi h"
+  },
+  {
+    "id": "ZARBII",
+    "name": "Zarbi I",
+    "url": "zarbi i"
+  },
+  {
+    "id": "ZARBIJ",
+    "name": "Zarbi J",
+    "url": "zarbi j"
+  },
+  {
+    "id": "ZARBIK",
+    "name": "Zarbi K",
+    "url": "zarbi k"
+  },
+  {
+    "id": "ZARBIL",
+    "name": "Zarbi L",
+    "url": "zarbi l"
+  },
+  {
+    "id": "ZARBIM",
+    "name": "Zarbi M",
+    "url": "zarbi m"
+  },
+  {
+    "id": "ZARBIN",
+    "name": "Zarbi N",
+    "url": "zarbi n"
+  },
+  {
+    "id": "ZARBIO",
+    "name": "Zarbi O",
+    "url": "zarbi o"
+  },
+  {
+    "id": "ZARBIP",
+    "name": "Zarbi P",
+    "url": "zarbi p"
+  },
+  {
+    "id": "ZARBIQ",
+    "name": "Zarbi Q",
+    "url": "zarbi q"
+  },
+  {
+    "id": "ZARBIR",
+    "name": "Zarbi R",
+    "url": "zarbi r"
+  },
+  {
+    "id": "ZARBIS",
+    "name": "Zarbi S",
+    "url": "zarbi s"
+  },
+  {
+    "id": "ZARBIT",
+    "name": "Zarbi T",
+    "url": "zarbi t"
+  },
+  {
+    "id": "ZARBIU",
+    "name": "Zarbi U",
+    "url": "zarbi u"
+  },
+  {
+    "id": "ZARBIV",
+    "name": "Zarbi V",
+    "url": "zarbi v"
+  },
+  {
+    "id": "ZARBIW",
+    "name": "Zarbi W",
+    "url": "zarbi w"
+  },
+  {
+    "id": "ZARBIX",
+    "name": "Zarbi X",
+    "url": "zarbi x"
+  },
+  {
+    "id": "ZARBIY",
+    "name": "Zarbi Y",
+    "url": "zarbi y"
+  },
+  {
+    "id": "ZARBIZ",
+    "name": "Zarbi Z",
+    "url": "zarbi z"
+  },
+  {
+    "id": "ZARBI2",
+    "name": "Zarbi !",
+    "url": "zarbi !"
+  },
+  {
+    "id": "FAUREKIN",
+    "name": "Faurekin",
+    "url": "faurekin"
+  },
+  {
+    "id": "TACHIZON",
+    "name": "Tachizon",
+    "url": "tachizon"
+  },
+  {
+    "id": "TIKIRI",
+    "name": "Tikiri",
+    "url": "tikiri"
+  },
+  {
+    "id": "VODKIRI",
+    "name": "Vodkiri",
+    "url": "vodkiri"
+  },
+  {
+    "id": "CAMPIDON",
+    "name": "Campidon",
+    "url": "campidon"
+  },
+  {
+    "id": "CAMPHRODITE",
+    "name": "Camphrodite",
+    "url": "camphrodite"
+  },
+  {
+    "id": "SANCOKI_SEV",
+    "name": "Sancoki",
+    "url": "sancoki"
+  },
+  {
+    "id": "TRITOSOR_SEV",
+    "name": "Tritosor",
+    "url": "tritosor"
+  },
+  {
+    "id": "SPONGENITH",
+    "name": "Spongénith",
+    "url": "spongénith"
+  },
+  {
+    "id": "KORANITH",
+    "name": "Koranith",
+    "url": "koranith"
+  },
+  {
+    "id": "TRISCAILLE",
+    "name": "Triscaille",
+    "url": "triscaille"
+  },
+  {
+    "id": "NAGENBANC",
+    "name": "Nagenbanc",
+    "url": "nagenbanc"
+  },
+  {
+    "id": "BASALARVE",
+    "name": "Basalarve",
+    "url": "basalarve"
+  },
+  {
+    "id": "BASALTIDE",
+    "name": "Basaltide",
+    "url": "basaltide"
+  },
+  {
+    "id": "SCARAGMA",
+    "name": "Scaragma",
+    "url": "scaragma"
+  },
+  {
+    "id": "BOULORON",
+    "name": "Bouloron",
+    "url": "bouloron"
+  },
+  {
+    "id": "BLOCABLON",
+    "name": "Blocablon",
+    "url": "blocablon"
+  },
+  {
+    "id": "BLAZICARPE",
+    "name": "Blazicarpe",
+    "url": "blazicarpe"
+  },
+  {
+    "id": "BASILITON",
+    "name": "Basiliton",
+    "url": "basiliton"
+  },
+  {
+    "id": "RAIMONIAK",
+    "name": "Raimoniak",
+    "url": "raimoniak"
+  },
+  {
+    "id": "RAIKENARD",
+    "name": "Raikenard",
+    "url": "raikenard"
+  },
+  {
+    "id": "TIPEPITE",
+    "name": "Tipépite",
+    "url": "tipépite"
+  },
+  {
+    "id": "GRANIDOR",
+    "name": "Granidor",
+    "url": "granidor"
+  },
+  {
+    "id": "FILONDOR",
+    "name": "Filondor",
+    "url": "filondor"
+  },
+  {
+    "id": "BLOP",
+    "name": "Blop",
+    "url": "blop"
+  },
+  {
+    "id": "REBEPINE",
+    "name": "Rébépine",
+    "url": "rébépine"
+  },
+  {
+    "id": "SMOGO_SEV",
+    "name": "Smogo",
+    "url": "smogo"
+  },
+  {
+    "id": "SMOGOGO_SEV",
+    "name": "Smogogo",
+    "url": "smogogo"
+  },
+  {
+    "id": "PINCHARPE",
+    "name": "Pincharpe",
+    "url": "pincharpe"
+  },
+  {
+    "id": "PINTCHOUM",
+    "name": "Pintchoum",
+    "url": "pintchoum"
+  },
+  {
+    "id": "GLAFAON",
+    "name": "Glafaon",
+    "url": "glafaon"
+  },
+  {
+    "id": "GIVRELAN",
+    "name": "Givrélan",
+    "url": "givrélan"
+  },
+  {
+    "id": "FUMAJAR",
+    "name": "Fumajar",
+    "url": "fumajar"
+  },
+  {
+    "id": "JARHANTE",
+    "name": "Jarhanté",
+    "url": "jarhanté"
+  },
+  {
+    "id": "SCOLETON",
+    "name": "Scoléton",
+    "url": "scoléton"
+  },
+  {
+    "id": "SCOLOGNARD",
+    "name": "Scolognard",
+    "url": "scolognard"
+  },
+  {
+    "id": "LACTOKO",
+    "name": "Lactoko",
+    "url": "lactoko"
+  },
+  {
+    "id": "BANSHEM",
+    "name": "Banshem",
+    "url": "banshem"
+  },
+  {
+    "id": "DILOPHASPIC",
+    "name": "Dilophaspic",
+    "url": "dilophaspic"
+  },
+  {
+    "id": "DILOPHONIN",
+    "name": "Dilophonin",
+    "url": "dilophonin"
+  },
+  {
+    "id": "FUMEROC",
+    "name": "Fuméroc",
+    "url": "fuméroc"
+  },
+  {
+    "id": "FUMEDON",
+    "name": "Fumedon",
+    "url": "fumedon"
+  },
+  {
+    "id": "DIPLAMBRE",
+    "name": "Diplambre",
+    "url": "diplambre"
+  },
+  {
+    "id": "DIPLOZEUS",
+    "name": "Diplozéus",
+    "url": "diplozéus"
+  },
+  {
+    "id": "ZEPHY",
+    "name": "Zéphy",
+    "url": "zéphy"
+  },
+  {
+    "id": "ZEPHARAN",
+    "name": "Zépharan",
+    "url": "zépharan"
+  },
+  {
+    "id": "ZEPHAERIS",
+    "name": "Zéphaeris",
+    "url": "zéphaeris"
+  },
+  {
+    "id": "ARTIKODIN",
+    "name": "Artikodin",
+    "url": "artikodin"
+  },
+  {
+    "id": "ELECTHOR",
+    "name": "Électhor",
+    "url": "électhor"
+  },
+  {
+    "id": "SULFURA",
+    "name": "Sulfura",
+    "url": "sulfura"
+  },
+  {
+    "id": "MISSINGNO",
+    "name": "Missingno",
+    "url": "missingno"
+  },
+  {
+    "id": "ARCKO",
+    "name": "Arcko",
+    "url": "arcko"
+  },
+  {
+    "id": "MASSKO",
+    "name": "Massko",
+    "url": "massko"
+  },
+  {
+    "id": "JUNGKO",
+    "name": "Jungko",
+    "url": "jungko"
+  },
+  {
+    "id": "POUSSIFEU",
+    "name": "Poussifeu",
+    "url": "poussifeu"
+  },
+  {
+    "id": "GALIFEU",
+    "name": "Galifeu",
+    "url": "galifeu"
+  },
+  {
+    "id": "BRASEGALI",
+    "name": "Braségali",
+    "url": "braségali"
+  },
+  {
+    "id": "GOBOU",
+    "name": "Gobou",
+    "url": "gobou"
+  },
+  {
+    "id": "FLOBIO",
+    "name": "Flobio",
+    "url": "flobio"
+  },
+  {
+    "id": "LAGGRON",
+    "name": "Laggron",
+    "url": "laggron"
+  },
+  {
+    "id": "MEDHYENA",
+    "name": "Medhyena",
+    "url": "medhyena"
+  },
+  {
+    "id": "GRAHYENA",
+    "name": "Grahyena",
+    "url": "grahyena"
+  },
+  {
+    "id": "ZIGZATON",
+    "name": "Zigzaton",
+    "url": "zigzaton"
+  },
+  {
+    "id": "LINEON",
+    "name": "Linéon",
+    "url": "linéon"
+  },
+  {
+    "id": "CHENIPOTTE",
+    "name": "Chenipotte",
+    "url": "chenipotte"
+  },
+  {
+    "id": "ARMULYS",
+    "name": "Armulys",
+    "url": "armulys"
+  },
+  {
+    "id": "CHARMILLON",
+    "name": "Charmillon",
+    "url": "charmillon"
+  },
+  {
+    "id": "BLINDALYS",
+    "name": "Blindalys",
+    "url": "blindalys"
+  },
+  {
+    "id": "PAPINOX",
+    "name": "Papinox",
+    "url": "papinox"
+  },
+  {
+    "id": "NENUPIOT",
+    "name": "Nénupiot",
+    "url": "nénupiot"
+  },
+  {
+    "id": "LOMBRE",
+    "name": "Lombre",
+    "url": "lombre"
+  },
+  {
+    "id": "LUDICOLO",
+    "name": "Ludicolo",
+    "url": "ludicolo"
+  },
+  {
+    "id": "GRAINIPIOT",
+    "name": "Grainipiot",
+    "url": "grainipiot"
+  },
+  {
+    "id": "PIFEUIL",
+    "name": "Pifeuil",
+    "url": "pifeuil"
+  },
+  {
+    "id": "TENGALICE",
+    "name": "Tengalice",
+    "url": "tengalice"
+  },
+  {
+    "id": "NIRONDELLE",
+    "name": "Nirondelle",
+    "url": "nirondelle"
+  },
+  {
+    "id": "HELEDELLE",
+    "name": "Hélédelle",
+    "url": "hélédelle"
+  },
+  {
+    "id": "GOELISE",
+    "name": "Goélise",
+    "url": "goélise"
+  },
+  {
+    "id": "BEKIPAN",
+    "name": "Békipan",
+    "url": "békipan"
+  },
+  {
+    "id": "TARSAL",
+    "name": "Tarsal",
+    "url": "tarsal"
+  },
+  {
+    "id": "KIRLIA",
+    "name": "Kirlia",
+    "url": "kirlia"
+  },
+  {
+    "id": "GARDEVOIR",
+    "name": "Gardevoir",
+    "url": "gardevoir"
+  },
+  {
+    "id": "GALLAME",
+    "name": "Gallame",
+    "url": "gallame"
+  },
+  {
+    "id": "ARAKDO",
+    "name": "Arakdo",
+    "url": "arakdo"
+  },
+  {
+    "id": "MASKADRA",
+    "name": "Maskadra",
+    "url": "maskadra"
+  },
+  {
+    "id": "BALIGNON",
+    "name": "Balignon",
+    "url": "balignon"
+  },
+  {
+    "id": "CHAPIGNON",
+    "name": "Chapignon",
+    "url": "chapignon"
+  },
+  {
+    "id": "PARECOOL",
+    "name": "Parecool",
+    "url": "parecool"
+  },
+  {
+    "id": "VIGOROTH",
+    "name": "Vigoroth",
+    "url": "vigoroth"
+  },
+  {
+    "id": "MONAFLEMIT",
+    "name": "Monaflémit",
+    "url": "monaflémit"
+  },
+  {
+    "id": "NINGALE",
+    "name": "Ningale",
+    "url": "ningale"
+  },
+  {
+    "id": "NINJASK",
+    "name": "Ninjask",
+    "url": "ninjask"
+  },
+  {
+    "id": "MUNJA",
+    "name": "Munja",
+    "url": "munja"
+  },
+  {
+    "id": "CHUCHMUR",
+    "name": "Chuchmur",
+    "url": "chuchmur"
+  },
+  {
+    "id": "RAMBOUM",
+    "name": "Ramboum",
+    "url": "ramboum"
+  },
+  {
+    "id": "BROUHABAM",
+    "name": "Brouhabam",
+    "url": "brouhabam"
+  },
+  {
+    "id": "MAKUHITA",
+    "name": "Makuhita",
+    "url": "makuhita"
+  },
+  {
+    "id": "HARIYAMA",
+    "name": "Hariyama",
+    "url": "hariyama"
+  },
+  {
+    "id": "TARINOR",
+    "name": "Tarinor",
+    "url": "tarinor"
+  },
+  {
+    "id": "TARINORME",
+    "name": "Tarinorme",
+    "url": "tarinorme"
+  },
+  {
+    "id": "SKITTY",
+    "name": "Skitty",
+    "url": "skitty"
+  },
+  {
+    "id": "DELCATTY",
+    "name": "Delcatty",
+    "url": "delcatty"
+  },
+  {
+    "id": "TENEFIX",
+    "name": "Ténéfix",
+    "url": "ténéfix"
+  },
+  {
+    "id": "MYSDIBULE",
+    "name": "Mysdibule",
+    "url": "mysdibule"
+  },
+  {
+    "id": "GALEKID",
+    "name": "Galekid",
+    "url": "galekid"
+  },
+  {
+    "id": "GALEGON",
+    "name": "Galegon",
+    "url": "galegon"
+  },
+  {
+    "id": "GALEKING",
+    "name": "Galeking",
+    "url": "galeking"
+  },
+  {
+    "id": "MEDITIKKA",
+    "name": "Méditikka",
+    "url": "méditikka"
+  },
+  {
+    "id": "CHARMINA",
+    "name": "Charmina",
+    "url": "charmina"
+  },
+  {
+    "id": "DYNAVOLT",
+    "name": "Dynavolt",
+    "url": "dynavolt"
+  },
+  {
+    "id": "ELECSPRINT",
+    "name": "Élecsprint",
+    "url": "élecsprint"
+  },
+  {
+    "id": "POSIPI",
+    "name": "Posipi",
+    "url": "posipi"
+  },
+  {
+    "id": "NEGAPI",
+    "name": "Négapi",
+    "url": "négapi"
+  },
+  {
+    "id": "MUCIOLE",
+    "name": "Muciole",
+    "url": "muciole"
+  },
+  {
+    "id": "LUMIVOLE",
+    "name": "Lumivole",
+    "url": "lumivole"
+  },
+  {
+    "id": "ROZBOUTON",
+    "name": "Rozbouton",
+    "url": "rozbouton"
+  },
+  {
+    "id": "ROSELIA",
+    "name": "Roselia",
+    "url": "roselia"
+  },
+  {
+    "id": "ROSERADE",
+    "name": "Roserade",
+    "url": "roserade"
+  },
+  {
+    "id": "GLOUPTI",
+    "name": "Gloupti",
+    "url": "gloupti"
+  },
+  {
+    "id": "AVALTOUT",
+    "name": "Avaltout",
+    "url": "avaltout"
+  },
+  {
+    "id": "CARVANHA",
+    "name": "Carvanha",
+    "url": "carvanha"
+  },
+  {
+    "id": "SHARPEDO",
+    "name": "Sharpedo",
+    "url": "sharpedo"
+  },
+  {
+    "id": "WAILMER",
+    "name": "Wailmer",
+    "url": "wailmer"
+  },
+  {
+    "id": "WAILORD",
+    "name": "Wailord",
+    "url": "wailord"
+  },
+  {
+    "id": "CHAMALLOT",
+    "name": "Chamallot",
+    "url": "chamallot"
+  },
+  {
+    "id": "CAMERUPT",
+    "name": "Camerupt",
+    "url": "camerupt"
+  },
+  {
+    "id": "CHARTOR",
+    "name": "Chartor",
+    "url": "chartor"
+  },
+  {
+    "id": "SPOINK",
+    "name": "Spoink",
+    "url": "spoink"
+  },
+  {
+    "id": "GRORET",
+    "name": "Groret",
+    "url": "groret"
+  },
+  {
+    "id": "SPINDA",
+    "name": "Spinda",
+    "url": "spinda"
+  },
+  {
+    "id": "KRAKNOIX",
+    "name": "Kraknoix",
+    "url": "kraknoix"
+  },
+  {
+    "id": "VIBRANINF",
+    "name": "Vibraninf",
+    "url": "vibraninf"
+  },
+  {
+    "id": "LIBEGON",
+    "name": "Libégon",
+    "url": "libégon"
+  },
+  {
+    "id": "CACNEA",
+    "name": "Cacnea",
+    "url": "cacnea"
+  },
+  {
+    "id": "CACTURNE",
+    "name": "Cacturne",
+    "url": "cacturne"
+  },
+  {
+    "id": "TYLTON",
+    "name": "Tylton",
+    "url": "tylton"
+  },
+  {
+    "id": "ALTARIA",
+    "name": "Altaria",
+    "url": "altaria"
+  },
+  {
+    "id": "MANGRIFF",
+    "name": "Mangriff",
+    "url": "mangriff"
+  },
+  {
+    "id": "SEVIPER",
+    "name": "Séviper",
+    "url": "séviper"
+  },
+  {
+    "id": "SELEROC",
+    "name": "Séléroc",
+    "url": "séléroc"
+  },
+  {
+    "id": "SOLAROC",
+    "name": "Solaroc",
+    "url": "solaroc"
+  },
+  {
+    "id": "BARLOCHE",
+    "name": "Barloche",
+    "url": "barloche"
+  },
+  {
+    "id": "BARBICHA",
+    "name": "Barbicha",
+    "url": "barbicha"
+  },
+  {
+    "id": "ECRAPINCE",
+    "name": "Écrapince",
+    "url": "écrapince"
+  },
+  {
+    "id": "COLHOMARD",
+    "name": "Colhomard",
+    "url": "colhomard"
+  },
+  {
+    "id": "BALBUTO",
+    "name": "Balbuto",
+    "url": "balbuto"
+  },
+  {
+    "id": "KAORINE",
+    "name": "Kaorine",
+    "url": "kaorine"
+  },
+  {
+    "id": "LILIA",
+    "name": "Lilia",
+    "url": "lilia"
+  },
+  {
+    "id": "VACILYS",
+    "name": "Vacilys",
+    "url": "vacilys"
+  },
+  {
+    "id": "ANORITH",
+    "name": "Anorith",
+    "url": "anorith"
+  },
+  {
+    "id": "ARMALDO",
+    "name": "Armaldo",
+    "url": "armaldo"
+  },
+  {
+    "id": "BARPAU",
+    "name": "Barpau",
+    "url": "barpau"
+  },
+  {
+    "id": "MILOBELLUS",
+    "name": "Milobellus",
+    "url": "milobellus"
+  },
+  {
+    "id": "MORPHEO",
+    "name": "Morphéo",
+    "url": "morphéo"
+  },
+  {
+    "id": "KECLEON",
+    "name": "Kecleon",
+    "url": "kecleon"
+  },
+  {
+    "id": "POLICHOMBR",
+    "name": "Polichombr",
+    "url": "polichombr"
+  },
+  {
+    "id": "BRANETTE",
+    "name": "Branette",
+    "url": "branette"
+  },
+  {
+    "id": "SKELENOX",
+    "name": "Skelénox",
+    "url": "skelénox"
+  },
+  {
+    "id": "TERACLOPE",
+    "name": "Téraclope",
+    "url": "téraclope"
+  },
+  {
+    "id": "NOCTUNOIR",
+    "name": "Noctunoir",
+    "url": "noctunoir"
+  },
+  {
+    "id": "TROPIUS",
+    "name": "Tropius",
+    "url": "tropius"
+  },
+  {
+    "id": "KORILLON",
+    "name": "Korillon",
+    "url": "korillon"
+  },
+  {
+    "id": "EOKO",
+    "name": "Éoko",
+    "url": "éoko"
+  },
+  {
+    "id": "ABSOL",
+    "name": "Absol",
+    "url": "absol"
+  },
+  {
+    "id": "STALGAMIN",
+    "name": "Stalgamin",
+    "url": "stalgamin"
+  },
+  {
+    "id": "ONIGLALI",
+    "name": "Oniglali",
+    "url": "oniglali"
+  },
+  {
+    "id": "MOMARTIK",
+    "name": "Momartik",
+    "url": "momartik"
+  },
+  {
+    "id": "OBALIE",
+    "name": "Obalie",
+    "url": "obalie"
+  },
+  {
+    "id": "PHOGLEUR",
+    "name": "Phogleur",
+    "url": "phogleur"
+  },
+  {
+    "id": "KAIMORSE",
+    "name": "Kaimorse",
+    "url": "kaimorse"
+  },
+  {
+    "id": "COQUIPERL",
+    "name": "Coquiperl",
+    "url": "coquiperl"
+  },
+  {
+    "id": "SERPANG",
+    "name": "Serpang",
+    "url": "serpang"
+  },
+  {
+    "id": "ROSABYSS",
+    "name": "Rosabyss",
+    "url": "rosabyss"
+  },
+  {
+    "id": "RELICANTH",
+    "name": "Relicanth",
+    "url": "relicanth"
+  },
+  {
+    "id": "LOVDISC",
+    "name": "Lovdisc",
+    "url": "lovdisc"
+  },
+  {
+    "id": "DRABY",
+    "name": "Draby",
+    "url": "draby"
+  },
+  {
+    "id": "DRACKHAUS",
+    "name": "Drackhaus",
+    "url": "drackhaus"
+  },
+  {
+    "id": "DRATTAK",
+    "name": "Drattak",
+    "url": "drattak"
+  },
+  {
+    "id": "TERHAL",
+    "name": "Terhal",
+    "url": "terhal"
+  },
+  {
+    "id": "METANG",
+    "name": "Métang",
+    "url": "métang"
+  },
+  {
+    "id": "METALOSSE",
+    "name": "Métalosse",
+    "url": "métalosse"
+  },
+  {
+    "id": "REGIROCK",
+    "name": "Regirock",
+    "url": "regirock"
+  },
+  {
+    "id": "REGICE",
+    "name": "Regice",
+    "url": "regice"
+  },
+  {
+    "id": "REGISTEEL",
+    "name": "Registeel",
+    "url": "registeel"
+  },
+  {
+    "id": "LATIAS",
+    "name": "Latias",
+    "url": "latias"
+  },
+  {
+    "id": "LATIOS",
+    "name": "Latios",
+    "url": "latios"
+  },
+  {
+    "id": "KYOGRE",
+    "name": "Kyogre",
+    "url": "kyogre"
+  },
+  {
+    "id": "GROUDON",
+    "name": "Groudon",
+    "url": "groudon"
+  },
+  {
+    "id": "RAYQUAZA",
+    "name": "Rayquaza",
+    "url": "rayquaza"
+  },
+  {
+    "id": "JIRACHI",
+    "name": "Jirachi",
+    "url": "jirachi"
+  },
+  {
+    "id": "VIRYX",
+    "name": "Viryx",
+    "url": "viryx"
+  },
+  {
+    "id": "DEOXYS",
+    "name": "Deoxys",
+    "url": "deoxys"
+  },
+  {
+    "id": "TORTIPOUSS",
+    "name": "Tortipouss",
+    "url": "tortipouss"
+  },
+  {
+    "id": "BOSKARA",
+    "name": "Boskara",
+    "url": "boskara"
+  },
+  {
+    "id": "TORTERRA",
+    "name": "Torterra",
+    "url": "torterra"
+  },
+  {
+    "id": "OUISTICRAM",
+    "name": "Ouisticram",
+    "url": "ouisticram"
+  },
+  {
+    "id": "CHIMPENFEU",
+    "name": "Chimpenfeu",
+    "url": "chimpenfeu"
+  },
+  {
+    "id": "SIMIABRAZ",
+    "name": "Simiabraz",
+    "url": "simiabraz"
+  },
+  {
+    "id": "TIPLOUF",
+    "name": "Tiplouf",
+    "url": "tiplouf"
+  },
+  {
+    "id": "PRINPLOUF",
+    "name": "Prinplouf",
+    "url": "prinplouf"
+  },
+  {
+    "id": "PINGOLEON",
+    "name": "Pingoléon",
+    "url": "pingoléon"
+  },
+  {
+    "id": "ETOURMI",
+    "name": "Étourmi",
+    "url": "étourmi"
+  },
+  {
+    "id": "ETOURVOL",
+    "name": "Étourvol",
+    "url": "étourvol"
+  },
+  {
+    "id": "ETOURAPTOR",
+    "name": "Étouraptor",
+    "url": "étouraptor"
+  },
+  {
+    "id": "KEUNOTOR",
+    "name": "Keunotor",
+    "url": "keunotor"
+  },
+  {
+    "id": "CASTORNO",
+    "name": "Castorno",
+    "url": "castorno"
+  },
+  {
+    "id": "CRIKZIK",
+    "name": "Crikzik",
+    "url": "crikzik"
+  },
+  {
+    "id": "MELOKRIK",
+    "name": "Mélokrik",
+    "url": "mélokrik"
+  },
+  {
+    "id": "LIXY",
+    "name": "Lixy",
+    "url": "lixy"
+  },
+  {
+    "id": "LUXIO",
+    "name": "Luxio",
+    "url": "luxio"
+  },
+  {
+    "id": "LUXRAY",
+    "name": "Luxray",
+    "url": "luxray"
+  },
+  {
+    "id": "KRANIDOS",
+    "name": "Kranidos",
+    "url": "kranidos"
+  },
+  {
+    "id": "CHARKOS",
+    "name": "Charkos",
+    "url": "charkos"
+  },
+  {
+    "id": "DINOCLIER",
+    "name": "Dinoclier",
+    "url": "dinoclier"
+  },
+  {
+    "id": "BASTIODON",
+    "name": "Bastiodon",
+    "url": "bastiodon"
+  },
+  {
+    "id": "CHENITI",
+    "name": "Cheniti",
+    "url": "cheniti"
+  },
+  {
+    "id": "CHENISELLE",
+    "name": "Cheniselle",
+    "url": "cheniselle"
+  },
+  {
+    "id": "PAPILORD",
+    "name": "Papilord",
+    "url": "papilord"
+  },
+  {
+    "id": "APITRINI",
+    "name": "Apitrini",
+    "url": "apitrini"
+  },
+  {
+    "id": "APIVRIER",
+    "name": "Apivrier",
+    "url": "apivrier"
+  },
+  {
+    "id": "APIREINE",
+    "name": "Apireine",
+    "url": "apireine"
+  },
+  {
+    "id": "PACHIRISU",
+    "name": "Pachirisu",
+    "url": "pachirisu"
+  },
+  {
+    "id": "MUSTEBOUEE",
+    "name": "Mustébouée",
+    "url": "mustébouée"
+  },
+  {
+    "id": "MUSTEFLOTT",
+    "name": "Musteflott",
+    "url": "musteflott"
+  },
+  {
+    "id": "CERIBOU",
+    "name": "Ceribou",
+    "url": "ceribou"
+  },
+  {
+    "id": "CERIFLOR",
+    "name": "Cériflor",
+    "url": "cériflor"
+  },
+  {
+    "id": "SANCOKI",
+    "name": "Sancoki",
+    "url": "sancoki"
+  },
+  {
+    "id": "TRITOSOR",
+    "name": "Tritosor",
+    "url": "tritosor"
+  },
+  {
+    "id": "BAUDRIVE",
+    "name": "Baudrive",
+    "url": "baudrive"
+  },
+  {
+    "id": "GRODRIVE",
+    "name": "Grodrive",
+    "url": "grodrive"
+  },
+  {
+    "id": "LAPOREILLE",
+    "name": "Laporeille",
+    "url": "laporeille"
+  },
+  {
+    "id": "LOCKPIN",
+    "name": "Lockpin",
+    "url": "lockpin"
+  },
+  {
+    "id": "CHAGLAM",
+    "name": "Chaglam",
+    "url": "chaglam"
+  },
+  {
+    "id": "CHAFFREUX",
+    "name": "Chaffreux",
+    "url": "chaffreux"
+  },
+  {
+    "id": "MOUFOUETTE",
+    "name": "Moufouette",
+    "url": "moufouette"
+  },
+  {
+    "id": "MOUFFLAIR",
+    "name": "Moufflair",
+    "url": "moufflair"
+  },
+  {
+    "id": "ARCHEOMIRE",
+    "name": "Archéomire",
+    "url": "archéomire"
+  },
+  {
+    "id": "ARCHEODONG",
+    "name": "Archéodong",
+    "url": "archéodong"
+  },
+  {
+    "id": "PIJAKO",
+    "name": "Pijako",
+    "url": "pijako"
+  },
+  {
+    "id": "SPIRITOMB",
+    "name": "Spiritomb",
+    "url": "spiritomb"
+  },
+  {
+    "id": "GRIKNOT",
+    "name": "Griknot",
+    "url": "griknot"
+  },
+  {
+    "id": "CARMACHE",
+    "name": "Carmache",
+    "url": "carmache"
+  },
+  {
+    "id": "CARCHACROK",
+    "name": "Carchacrok",
+    "url": "carchacrok"
+  },
+  {
+    "id": "RIOLU",
+    "name": "Riolu",
+    "url": "riolu"
+  },
+  {
+    "id": "LUCARIO",
+    "name": "Lucario",
+    "url": "lucario"
+  },
+  {
+    "id": "HIPPOPOTAS",
+    "name": "Hippopotas",
+    "url": "hippopotas"
+  },
+  {
+    "id": "HIPPODOCUS",
+    "name": "Hippodocus",
+    "url": "hippodocus"
+  },
+  {
+    "id": "RAPION",
+    "name": "Rapion",
+    "url": "rapion"
+  },
+  {
+    "id": "DRASCORE",
+    "name": "Drascore",
+    "url": "drascore"
+  },
+  {
+    "id": "CRADOPAUD",
+    "name": "Cradopaud",
+    "url": "cradopaud"
+  },
+  {
+    "id": "COATOX",
+    "name": "Coatox",
+    "url": "coatox"
+  },
+  {
+    "id": "VORTENTE",
+    "name": "Vortente",
+    "url": "vortente"
+  },
+  {
+    "id": "ECAYON",
+    "name": "Écayon",
+    "url": "écayon"
+  },
+  {
+    "id": "LUMINEON",
+    "name": "Luminéon",
+    "url": "luminéon"
+  },
+  {
+    "id": "BLIZZI",
+    "name": "Blizzi",
+    "url": "blizzi"
+  },
+  {
+    "id": "BLIZZAROI",
+    "name": "Blizzaroi",
+    "url": "blizzaroi"
+  },
+  {
+    "id": "MOTISMA",
+    "name": "Motisma",
+    "url": "motisma"
+  },
+  {
+    "id": "HEATRAN",
+    "name": "Heatran",
+    "url": "heatran"
+  },
+  {
+    "id": "REGIGIGAS",
+    "name": "Regigigas",
+    "url": "regigigas"
+  },
+  {
+    "id": "CREHELF",
+    "name": "Crehelf",
+    "url": "crehelf"
+  },
+  {
+    "id": "CREFOLLET",
+    "name": "Crefollet",
+    "url": "crefollet"
+  },
+  {
+    "id": "CREFADET",
+    "name": "Crefadet",
+    "url": "crefadet"
+  },
+  {
+    "id": "DIALGA",
+    "name": "Dialga",
+    "url": "dialga"
+  },
+  {
+    "id": "PALKIA",
+    "name": "Palkia",
+    "url": "palkia"
+  },
+  {
+    "id": "GIRATINA",
+    "name": "Giratina",
+    "url": "giratina"
+  },
+  {
+    "id": "CRESSELIA",
+    "name": "Cresselia",
+    "url": "cresselia"
+  },
+  {
+    "id": "DARKRAI",
+    "name": "Darkrai",
+    "url": "darkrai"
+  },
+  {
+    "id": "SHAYMIN",
+    "name": "Shaymin",
+    "url": "shaymin"
+  },
+  {
+    "id": "VIPELIERRE",
+    "name": "Vipélierre",
+    "url": "vipélierre"
+  },
+  {
+    "id": "LIANAJA",
+    "name": "Lianaja",
+    "url": "lianaja"
+  },
+  {
+    "id": "MAJASPIC",
+    "name": "Majaspic",
+    "url": "majaspic"
+  },
+  {
+    "id": "GRUIKUI",
+    "name": "Gruikui",
+    "url": "gruikui"
+  },
+  {
+    "id": "GROTICHON",
+    "name": "Grotichon",
+    "url": "grotichon"
+  },
+  {
+    "id": "ROITIFLAM",
+    "name": "Roitiflam",
+    "url": "roitiflam"
+  },
+  {
+    "id": "MOUSTILLON",
+    "name": "Moustillon",
+    "url": "moustillon"
+  },
+  {
+    "id": "MATELOUTRE",
+    "name": "Mateloutre",
+    "url": "mateloutre"
+  },
+  {
+    "id": "CLAMIRAL",
+    "name": "Clamiral",
+    "url": "clamiral"
+  },
+  {
+    "id": "RATENTIF",
+    "name": "Ratentif",
+    "url": "ratentif"
+  },
+  {
+    "id": "MIRADAR",
+    "name": "Miradar",
+    "url": "miradar"
+  },
+  {
+    "id": "PONCHIOT",
+    "name": "Ponchiot",
+    "url": "ponchiot"
+  },
+  {
+    "id": "PONCHIEN",
+    "name": "Ponchien",
+    "url": "ponchien"
+  },
+  {
+    "id": "MASTOUFFE",
+    "name": "Mastouffe",
+    "url": "mastouffe"
+  },
+  {
+    "id": "CHACRIPAN",
+    "name": "Chacripan",
+    "url": "chacripan"
+  },
+  {
+    "id": "LEOPARDUS",
+    "name": "Léopardus",
+    "url": "léopardus"
+  },
+  {
+    "id": "FEUILLAJOU",
+    "name": "Feuillajou",
+    "url": "feuillajou"
+  },
+  {
+    "id": "FEUILOUTAN",
+    "name": "Feuiloutan",
+    "url": "feuiloutan"
+  },
+  {
+    "id": "FLAMAJOU",
+    "name": "Flamajou",
+    "url": "flamajou"
+  },
+  {
+    "id": "FLAMOUTAN",
+    "name": "Flamoutan",
+    "url": "flamoutan"
+  },
+  {
+    "id": "FLOTAJOU",
+    "name": "Flotajou",
+    "url": "flotajou"
+  },
+  {
+    "id": "FLOTOUTAN",
+    "name": "Flotoutan",
+    "url": "flotoutan"
+  },
+  {
+    "id": "MUNNA",
+    "name": "Munna",
+    "url": "munna"
+  },
+  {
+    "id": "MUSHANA",
+    "name": "Mushana",
+    "url": "mushana"
+  },
+  {
+    "id": "POICHIGEON",
+    "name": "Poichigeon",
+    "url": "poichigeon"
+  },
+  {
+    "id": "COLOMBEAU",
+    "name": "Colombeau",
+    "url": "colombeau"
+  },
+  {
+    "id": "DEFLAISAN",
+    "name": "Déflaisan",
+    "url": "déflaisan"
+  },
+  {
+    "id": "DEFLAISANE",
+    "name": "Déflaisane",
+    "url": "déflaisane"
+  },
+  {
+    "id": "ZEBIBRON",
+    "name": "Zébibron",
+    "url": "zébibron"
+  },
+  {
+    "id": "ZEBLITZ",
+    "name": "Zéblitz",
+    "url": "zéblitz"
+  },
+  {
+    "id": "NODULITHE",
+    "name": "Nodulithe",
+    "url": "nodulithe"
+  },
+  {
+    "id": "GEOLITHE",
+    "name": "Géolithe",
+    "url": "géolithe"
+  },
+  {
+    "id": "GIGALITHE",
+    "name": "Gigalithe",
+    "url": "gigalithe"
+  },
+  {
+    "id": "CHOVSOURIR",
+    "name": "Chovsourir",
+    "url": "chovsourir"
+  },
+  {
+    "id": "RHINOLOVE",
+    "name": "Rhinolove",
+    "url": "rhinolove"
+  },
+  {
+    "id": "ROTOTAUPE",
+    "name": "Rototaupe",
+    "url": "rototaupe"
+  },
+  {
+    "id": "MINOTAUPE",
+    "name": "Minotaupe",
+    "url": "minotaupe"
+  },
+  {
+    "id": "NANMEOUIE",
+    "name": "Nanméouie",
+    "url": "nanméouie"
+  },
+  {
+    "id": "CHARPENTI",
+    "name": "Charpenti",
+    "url": "charpenti"
+  },
+  {
+    "id": "OUVRIFIER",
+    "name": "Ouvrifier",
+    "url": "ouvrifier"
+  },
+  {
+    "id": "BETOCHEF",
+    "name": "Bétochef",
+    "url": "bétochef"
+  },
+  {
+    "id": "TRITONDE",
+    "name": "Tritonde",
+    "url": "tritonde"
+  },
+  {
+    "id": "BATRACNE",
+    "name": "Batracne",
+    "url": "batracne"
+  },
+  {
+    "id": "CRAPUSTULE",
+    "name": "Crapustule",
+    "url": "crapustule"
+  },
+  {
+    "id": "KIMOTAMI",
+    "name": "Kimotami",
+    "url": "kimotami"
+  },
+  {
+    "id": "JUDOKRAK",
+    "name": "Judokrak",
+    "url": "judokrak"
+  },
+  {
+    "id": "KARACLEE",
+    "name": "Karaclée",
+    "url": "karaclée"
+  },
+  {
+    "id": "LARVEYETTE",
+    "name": "Larveyette",
+    "url": "larveyette"
+  },
+  {
+    "id": "COUVERDURE",
+    "name": "Couverdure",
+    "url": "couverdure"
+  },
+  {
+    "id": "MANTERNEL",
+    "name": "Manternel",
+    "url": "manternel"
+  },
+  {
+    "id": "VENIPATTE",
+    "name": "Venipatte",
+    "url": "venipatte"
+  },
+  {
+    "id": "SCOBOLIDE",
+    "name": "Scobolide",
+    "url": "scobolide"
+  },
+  {
+    "id": "BRUTAPODE",
+    "name": "Brutapode",
+    "url": "brutapode"
+  },
+  {
+    "id": "DOUDOUVET",
+    "name": "Doudouvet",
+    "url": "doudouvet"
+  },
+  {
+    "id": "FARFADUVET",
+    "name": "Farfaduvet",
+    "url": "farfaduvet"
+  },
+  {
+    "id": "CHLOROBULE",
+    "name": "Chlorobule",
+    "url": "chlorobule"
+  },
+  {
+    "id": "FRAGILADY",
+    "name": "Fragilady",
+    "url": "fragilady"
+  },
+  {
+    "id": "BARGANTUA",
+    "name": "Bargantua",
+    "url": "bargantua"
+  },
+  {
+    "id": "BARGANTUA_BLE",
+    "name": "Bargantua",
+    "url": "bargantua"
+  },
+  {
+    "id": "BARGANTUA_JAU",
+    "name": "Bargantua",
+    "url": "bargantua"
+  },
+  {
+    "id": "MASCAIMAN",
+    "name": "Mascaïman",
+    "url": "mascaïman"
+  },
+  {
+    "id": "ESCROCO",
+    "name": "Escroco",
+    "url": "escroco"
+  },
+  {
+    "id": "CROCORIBLE",
+    "name": "Crocorible",
+    "url": "crocorible"
+  },
+  {
+    "id": "DARUMAROND",
+    "name": "Darumarond",
+    "url": "darumarond"
+  },
+  {
+    "id": "DARUMACHO",
+    "name": "Darumacho",
+    "url": "darumacho"
+  },
+  {
+    "id": "MARACACHI",
+    "name": "Maracachi",
+    "url": "maracachi"
+  },
+  {
+    "id": "CRABICOQUE",
+    "name": "Crabicoque",
+    "url": "crabicoque"
+  },
+  {
+    "id": "CRABARAQUE",
+    "name": "Crabaraque",
+    "url": "crabaraque"
+  },
+  {
+    "id": "BAGGIGUANE",
+    "name": "Baggiguane",
+    "url": "baggiguane"
+  },
+  {
+    "id": "BAGGAID",
+    "name": "Baggaid",
+    "url": "baggaid"
+  },
+  {
+    "id": "CRYPTERO",
+    "name": "Cryptéro",
+    "url": "cryptéro"
+  },
+  {
+    "id": "TUTAFEH",
+    "name": "Tutafeh",
+    "url": "tutafeh"
+  },
+  {
+    "id": "TUTANKAFER",
+    "name": "Tutankafer",
+    "url": "tutankafer"
+  },
+  {
+    "id": "CARAPAGOS",
+    "name": "Carapagos",
+    "url": "carapagos"
+  },
+  {
+    "id": "MEGAPAGOS",
+    "name": "Mégapagos",
+    "url": "mégapagos"
+  },
+  {
+    "id": "ARKEAPTI",
+    "name": "Arkéapti",
+    "url": "arkéapti"
+  },
+  {
+    "id": "AEROPTERYX",
+    "name": "Aéroptéryx",
+    "url": "aéroptéryx"
+  },
+  {
+    "id": "MIAMIASME",
+    "name": "Miamiasme",
+    "url": "miamiasme"
+  },
+  {
+    "id": "MIASMAX",
+    "name": "Miasmax",
+    "url": "miasmax"
+  },
+  {
+    "id": "ZORUA",
+    "name": "Zorua",
+    "url": "zorua"
+  },
+  {
+    "id": "ZOROARK",
+    "name": "Zoroark",
+    "url": "zoroark"
+  },
+  {
+    "id": "CHINCHIDOU",
+    "name": "Chinchidou",
+    "url": "chinchidou"
+  },
+  {
+    "id": "PASHMILLA",
+    "name": "Pashmilla",
+    "url": "pashmilla"
+  },
+  {
+    "id": "SCRUTELLA",
+    "name": "Scrutella",
+    "url": "scrutella"
+  },
+  {
+    "id": "MESMERELLA",
+    "name": "Mesmerella",
+    "url": "mesmerella"
+  },
+  {
+    "id": "SIDERELLA",
+    "name": "Sidérella",
+    "url": "sidérella"
+  },
+  {
+    "id": "NUCLEOS",
+    "name": "Nucléos",
+    "url": "nucléos"
+  },
+  {
+    "id": "MEIOS",
+    "name": "Méios",
+    "url": "méios"
+  },
+  {
+    "id": "SYMBIOS",
+    "name": "Symbios",
+    "url": "symbios"
+  },
+  {
+    "id": "COUANETON",
+    "name": "Couaneton",
+    "url": "couaneton"
+  },
+  {
+    "id": "LAKMECYGNE",
+    "name": "Lakmecygne",
+    "url": "lakmecygne"
+  },
+  {
+    "id": "SORBEBE",
+    "name": "Sorbébé",
+    "url": "sorbébé"
+  },
+  {
+    "id": "SORBOUL",
+    "name": "Sorboul",
+    "url": "sorboul"
+  },
+  {
+    "id": "SORBOUBOUL",
+    "name": "Sorbouboul",
+    "url": "sorbouboul"
+  },
+  {
+    "id": "VIVALDAIM",
+    "name": "Vivaldaim",
+    "url": "vivaldaim"
+  },
+  {
+    "id": "HAYDAIM",
+    "name": "Haydaim",
+    "url": "haydaim"
+  },
+  {
+    "id": "EMOLGA",
+    "name": "Emolga",
+    "url": "emolga"
+  },
+  {
+    "id": "CARABING",
+    "name": "Carabing",
+    "url": "carabing"
+  },
+  {
+    "id": "LANCARGOT",
+    "name": "Lancargot",
+    "url": "lancargot"
+  },
+  {
+    "id": "TROMPIGNON",
+    "name": "Trompignon",
+    "url": "trompignon"
+  },
+  {
+    "id": "GAULET",
+    "name": "Gaulet",
+    "url": "gaulet"
+  },
+  {
+    "id": "VISKUSE",
+    "name": "Viskuse",
+    "url": "viskuse"
+  },
+  {
+    "id": "MOYADE",
+    "name": "Moyade",
+    "url": "moyade"
+  },
+  {
+    "id": "MAMANBO",
+    "name": "Mamanbo",
+    "url": "mamanbo"
+  },
+  {
+    "id": "STATITIK",
+    "name": "Statitik",
+    "url": "statitik"
+  },
+  {
+    "id": "MYGAVOLT",
+    "name": "Mygavolt",
+    "url": "mygavolt"
+  },
+  {
+    "id": "GRINDUR",
+    "name": "Grindur",
+    "url": "grindur"
+  },
+  {
+    "id": "NOACIER",
+    "name": "Noacier",
+    "url": "noacier"
+  },
+  {
+    "id": "TIC",
+    "name": "Tic",
+    "url": "tic"
+  },
+  {
+    "id": "CLIC",
+    "name": "Clic",
+    "url": "clic"
+  },
+  {
+    "id": "CLITICLIC",
+    "name": "Cliticlic",
+    "url": "cliticlic"
+  },
+  {
+    "id": "ANCHWATT",
+    "name": "Anchwatt",
+    "url": "anchwatt"
+  },
+  {
+    "id": "LAMPEROIE",
+    "name": "Lamperoie",
+    "url": "lamperoie"
+  },
+  {
+    "id": "OHMASSACRE",
+    "name": "Ohmassacre",
+    "url": "ohmassacre"
+  },
+  {
+    "id": "LEWSOR",
+    "name": "Lewsor",
+    "url": "lewsor"
+  },
+  {
+    "id": "NEITRAM",
+    "name": "Neitram",
+    "url": "neitram"
+  },
+  {
+    "id": "FUNECIRE",
+    "name": "Funécire",
+    "url": "funécire"
+  },
+  {
+    "id": "MELANCOLUX",
+    "name": "Mélancolux",
+    "url": "mélancolux"
+  },
+  {
+    "id": "LUGULABRE",
+    "name": "Lugulabre",
+    "url": "lugulabre"
+  },
+  {
+    "id": "COUPENOTTE",
+    "name": "Coupenotte",
+    "url": "coupenotte"
+  },
+  {
+    "id": "INCISACHE",
+    "name": "Incisache",
+    "url": "incisache"
+  },
+  {
+    "id": "TRANCHODON",
+    "name": "Tranchodon",
+    "url": "tranchodon"
+  },
+  {
+    "id": "POLARHUME",
+    "name": "Polarhume",
+    "url": "polarhume"
+  },
+  {
+    "id": "POLAGRIFFE",
+    "name": "Polagriffe",
+    "url": "polagriffe"
+  },
+  {
+    "id": "HEXAGEL",
+    "name": "Héxagel",
+    "url": "héxagel"
+  },
+  {
+    "id": "ESCARGAUME",
+    "name": "Escargaume",
+    "url": "escargaume"
+  },
+  {
+    "id": "LIMASPEED",
+    "name": "Limaspeed",
+    "url": "limaspeed"
+  },
+  {
+    "id": "LIMONDE",
+    "name": "Limonde",
+    "url": "limonde"
+  },
+  {
+    "id": "KUNGFOUINE",
+    "name": "Kungfouine",
+    "url": "kungfouine"
+  },
+  {
+    "id": "SHAOFOUINE",
+    "name": "Shaofouine",
+    "url": "shaofouine"
+  },
+  {
+    "id": "FOUINJUTSU",
+    "name": "Fouinjutsu",
+    "url": "fouinjutsu"
+  },
+  {
+    "id": "DRAKKARMIN",
+    "name": "Drakkarmin",
+    "url": "drakkarmin"
+  },
+  {
+    "id": "GRINGOLEM",
+    "name": "Gringolem",
+    "url": "gringolem"
+  },
+  {
+    "id": "GOLEMASTOC",
+    "name": "Golemastoc",
+    "url": "golemastoc"
+  },
+  {
+    "id": "SCALPION",
+    "name": "Scalpion",
+    "url": "scalpion"
+  },
+  {
+    "id": "SCALPROIE",
+    "name": "Scalproie",
+    "url": "scalproie"
+  },
+  {
+    "id": "SCALPEREUR",
+    "name": "Scalpereur",
+    "url": "scalpereur"
+  },
+  {
+    "id": "FRISON",
+    "name": "Frison",
+    "url": "frison"
+  },
+  {
+    "id": "FURAIGLON",
+    "name": "Furaiglon",
+    "url": "furaiglon"
+  },
+  {
+    "id": "GUERIAIGLE",
+    "name": "Gueriaigle",
+    "url": "gueriaigle"
+  },
+  {
+    "id": "VOSTOURNO",
+    "name": "Vostourno",
+    "url": "vostourno"
+  },
+  {
+    "id": "VAUTUTRICE",
+    "name": "Vaututrice",
+    "url": "vaututrice"
+  },
+  {
+    "id": "AFLAMANOIR",
+    "name": "Aflamanoir",
+    "url": "aflamanoir"
+  },
+  {
+    "id": "FERMITE",
+    "name": "Fermite",
+    "url": "fermite"
+  },
+  {
+    "id": "SOLOCHI",
+    "name": "Solochi",
+    "url": "solochi"
+  },
+  {
+    "id": "DIAMAT",
+    "name": "Diamat",
+    "url": "diamat"
+  },
+  {
+    "id": "TRIOXHYDRE",
+    "name": "Trioxhydre",
+    "url": "trioxhydre"
+  },
+  {
+    "id": "PYRONILLE",
+    "name": "Pyronille",
+    "url": "pyronille"
+  },
+  {
+    "id": "PYRAX",
+    "name": "Pyrax",
+    "url": "pyrax"
+  },
+  {
+    "id": "COBALTIUM",
+    "name": "Cobaltium",
+    "url": "cobaltium"
+  },
+  {
+    "id": "TERRAKIUM",
+    "name": "Terrakium",
+    "url": "terrakium"
+  },
+  {
+    "id": "VIRIDIUM",
+    "name": "Viridium",
+    "url": "viridium"
+  },
+  {
+    "id": "KELDEO",
+    "name": "Keldeo",
+    "url": "keldeo"
+  },
+  {
+    "id": "RESHIRAM",
+    "name": "Reshiram",
+    "url": "reshiram"
+  },
+  {
+    "id": "ZEKROM",
+    "name": "Zekrom",
+    "url": "zekrom"
+  },
+  {
+    "id": "KYUREM",
+    "name": "Kyurem",
+    "url": "kyurem"
+  },
+  {
+    "id": "MELOETTA",
+    "name": "Meloetta",
+    "url": "meloetta"
+  },
+  {
+    "id": "GENESECT",
+    "name": "Genesect",
+    "url": "genesect"
+  },
+  {
+    "id": "MARISSON",
+    "name": "Marisson",
+    "url": "marisson"
+  },
+  {
+    "id": "BOGUERISSE",
+    "name": "Boguerisse",
+    "url": "boguerisse"
+  },
+  {
+    "id": "BLINDEPIQUE",
+    "name": "Blindépique",
+    "url": "blindépique"
+  },
+  {
+    "id": "FEUNNEC",
+    "name": "Feunnec",
+    "url": "feunnec"
+  },
+  {
+    "id": "ROUSSIL",
+    "name": "Roussil",
+    "url": "roussil"
+  },
+  {
+    "id": "GOUPELIN",
+    "name": "Goupelin",
+    "url": "goupelin"
+  },
+  {
+    "id": "GRENOUSSE",
+    "name": "Grenousse",
+    "url": "grenousse"
+  },
+  {
+    "id": "CROAPORAL",
+    "name": "Croaporal",
+    "url": "croaporal"
+  },
+  {
+    "id": "AMPHINOBI",
+    "name": "Amphinobi",
+    "url": "amphinobi"
+  },
+  {
+    "id": "SAPEREAU",
+    "name": "Sapereau",
+    "url": "sapereau"
+  },
+  {
+    "id": "EXCAVARENNE",
+    "name": "Excavarenne",
+    "url": "excavarenne"
+  },
+  {
+    "id": "PASSEROUGE",
+    "name": "Passerouge",
+    "url": "passerouge"
+  },
+  {
+    "id": "BRAISILLON",
+    "name": "Braisillon",
+    "url": "braisillon"
+  },
+  {
+    "id": "FLAMBUSARD",
+    "name": "Flambusard",
+    "url": "flambusard"
+  },
+  {
+    "id": "LEPIDONILLE",
+    "name": "Lépidonille",
+    "url": "lépidonille"
+  },
+  {
+    "id": "PEREGRAIN",
+    "name": "Pérégrain",
+    "url": "pérégrain"
+  },
+  {
+    "id": "PRISMILLON",
+    "name": "Prismillon",
+    "url": "prismillon"
+  },
+  {
+    "id": "HELIONCEAU",
+    "name": "Hélionceau",
+    "url": "hélionceau"
+  },
+  {
+    "id": "NEMELIOS",
+    "name": "Némélios",
+    "url": "némélios"
+  },
+  {
+    "id": "NEMELIA",
+    "name": "Némélia",
+    "url": "némélia"
+  },
+  {
+    "id": "FLABEBE",
+    "name": "Flabébé",
+    "url": "flabébé"
+  },
+  {
+    "id": "FLOETTE",
+    "name": "Floette",
+    "url": "floette"
+  },
+  {
+    "id": "FLORGES",
+    "name": "Florges",
+    "url": "florges"
+  },
+  {
+    "id": "FLABEBE_BLA",
+    "name": "Flabébé",
+    "url": "flabébé"
+  },
+  {
+    "id": "FLOETTE_BLA",
+    "name": "Floette",
+    "url": "floette"
+  },
+  {
+    "id": "FLORGES_BLA",
+    "name": "Florges",
+    "url": "florges"
+  },
+  {
+    "id": "FLABEBE_BLE",
+    "name": "Flabébé",
+    "url": "flabébé"
+  },
+  {
+    "id": "FLOETTE_BLE",
+    "name": "Floette",
+    "url": "floette"
+  },
+  {
+    "id": "FLORGES_BLE",
+    "name": "Florges",
+    "url": "florges"
+  },
+  {
+    "id": "FLABEBE_JAU",
+    "name": "Flabébé",
+    "url": "flabébé"
+  },
+  {
+    "id": "FLOETTE_JAU",
+    "name": "Floette",
+    "url": "floette"
+  },
+  {
+    "id": "FLORGES_JAU",
+    "name": "Florges",
+    "url": "florges"
+  },
+  {
+    "id": "FLABEBE_ORA",
+    "name": "Flabébé",
+    "url": "flabébé"
+  },
+  {
+    "id": "FLOETTE_ORA",
+    "name": "Floette",
+    "url": "floette"
+  },
+  {
+    "id": "FLORGES_ORA",
+    "name": "Florges",
+    "url": "florges"
+  },
+  {
+    "id": "CABRIOLAINE",
+    "name": "Cabriolaine",
+    "url": "cabriolaine"
+  },
+  {
+    "id": "CHEVROUM",
+    "name": "Chevroum",
+    "url": "chevroum"
+  },
+  {
+    "id": "PANDESPIEGLE",
+    "name": "Pandèspiègle",
+    "url": "pandèspiègle"
+  },
+  {
+    "id": "PANDARBARE",
+    "name": "Pandarbare",
+    "url": "pandarbare"
+  },
+  {
+    "id": "COUAFNICHE",
+    "name": "Couafniche",
+    "url": "couafniche"
+  },
+  {
+    "id": "COUAFAREL",
+    "name": "Couafarel",
+    "url": "couafarel"
+  },
+  {
+    "id": "PSYSTIGRI",
+    "name": "Psystigri",
+    "url": "psystigri"
+  },
+  {
+    "id": "MISTIGRIX",
+    "name": "Mistigrix",
+    "url": "mistigrix"
+  },
+  {
+    "id": "MONORPALE",
+    "name": "Monorpale",
+    "url": "monorpale"
+  },
+  {
+    "id": "DIMOCLES",
+    "name": "Dimoclès",
+    "url": "dimoclès"
+  },
+  {
+    "id": "EXAGIDE",
+    "name": "Éxagide",
+    "url": "éxagide"
+  },
+  {
+    "id": "FLUVETIN",
+    "name": "Fluvetin",
+    "url": "fluvetin"
+  },
+  {
+    "id": "COCOTINE",
+    "name": "Cocotine",
+    "url": "cocotine"
+  },
+  {
+    "id": "SUCROQUIN",
+    "name": "Sucroquin",
+    "url": "sucroquin"
+  },
+  {
+    "id": "CUPCANAILLE",
+    "name": "Cupcanaille",
+    "url": "cupcanaille"
+  },
+  {
+    "id": "SEPIATOP",
+    "name": "Sépiatop",
+    "url": "sépiatop"
+  },
+  {
+    "id": "SEPIATROCE",
+    "name": "Sépiatroce",
+    "url": "sépiatroce"
+  },
+  {
+    "id": "OPERMINE",
+    "name": "Opermine",
+    "url": "opermine"
+  },
+  {
+    "id": "GOLGOPATHE",
+    "name": "Golgopathe",
+    "url": "golgopathe"
+  },
+  {
+    "id": "VENALGUE",
+    "name": "Vénalgue",
+    "url": "vénalgue"
+  },
+  {
+    "id": "KRAVARECH",
+    "name": "Kravarech",
+    "url": "kravarech"
+  },
+  {
+    "id": "FLINGOUSTE",
+    "name": "Flingouste",
+    "url": "flingouste"
+  },
+  {
+    "id": "GAMBLAST",
+    "name": "Gamblast",
+    "url": "gamblast"
+  },
+  {
+    "id": "GALVARAN",
+    "name": "Galvaran",
+    "url": "galvaran"
+  },
+  {
+    "id": "IGUOLTA",
+    "name": "Iguolta",
+    "url": "iguolta"
+  },
+  {
+    "id": "PTYRANIDUR",
+    "name": "Ptyranidur",
+    "url": "ptyranidur"
+  },
+  {
+    "id": "REXILLIUS",
+    "name": "Réxillius",
+    "url": "réxillius"
+  },
+  {
+    "id": "AMAGARA",
+    "name": "Amagara",
+    "url": "amagara"
+  },
+  {
+    "id": "DRAGMARA",
+    "name": "Dragmara",
+    "url": "dragmara"
+  },
+  {
+    "id": "BRUTALIBRE",
+    "name": "Brutalibré",
+    "url": "brutalibré"
+  },
+  {
+    "id": "DEDENNE",
+    "name": "Dédenne",
+    "url": "dédenne"
+  },
+  {
+    "id": "STRASSIE",
+    "name": "Strassie",
+    "url": "strassie"
+  },
+  {
+    "id": "MUCUSCULE",
+    "name": "Mucuscule",
+    "url": "mucuscule"
+  },
+  {
+    "id": "COLIMUCUS",
+    "name": "Colimucus",
+    "url": "colimucus"
+  },
+  {
+    "id": "MUPLODOCUS",
+    "name": "Muplodocus",
+    "url": "muplodocus"
+  },
+  {
+    "id": "TROUSSELIN",
+    "name": "Trousselin",
+    "url": "trousselin"
+  },
+  {
+    "id": "BROCELOME",
+    "name": "Brocélôme",
+    "url": "brocélôme"
+  },
+  {
+    "id": "DESSELIANDE",
+    "name": "Desséliande",
+    "url": "desséliande"
+  },
+  {
+    "id": "PITROUILLE",
+    "name": "Pitrouille",
+    "url": "pitrouille"
+  },
+  {
+    "id": "BANSHITROUYE",
+    "name": "Banshitrouye",
+    "url": "banshitrouye"
+  },
+  {
+    "id": "GRELACON",
+    "name": "Grelaçon",
+    "url": "grelaçon"
+  },
+  {
+    "id": "SERACRAWL",
+    "name": "Séracrawl",
+    "url": "séracrawl"
+  },
+  {
+    "id": "SONISTRELLE",
+    "name": "Sonistrelle",
+    "url": "sonistrelle"
+  },
+  {
+    "id": "BRUYVERNE",
+    "name": "Bruyverne",
+    "url": "bruyverne"
+  },
+  {
+    "id": "XERNEAS",
+    "name": "Xerneas",
+    "url": "xerneas"
+  },
+  {
+    "id": "YVELTAL",
+    "name": "Yveltal",
+    "url": "yveltal"
+  },
+  {
+    "id": "ZYGARDE",
+    "name": "Zygarde",
+    "url": "zygarde"
+  },
+  {
+    "id": "DIANCIE",
+    "name": "Diancie",
+    "url": "diancie"
+  },
+  {
+    "id": "VOLCANION",
+    "name": "Volcanion",
+    "url": "volcanion"
+  },
+  {
+    "id": "BRINDIBOU",
+    "name": "Brindibou",
+    "url": "brindibou"
+  },
+  {
+    "id": "EFFLECHE",
+    "name": "Efflèche",
+    "url": "efflèche"
+  },
+  {
+    "id": "ARCHEDUC",
+    "name": "Archéduc",
+    "url": "archéduc"
+  },
+  {
+    "id": "FLAMIAOU",
+    "name": "Flamiaou",
+    "url": "flamiaou"
+  },
+  {
+    "id": "MATOUFEU",
+    "name": "Matoufeu",
+    "url": "matoufeu"
+  },
+  {
+    "id": "FELINFERNO",
+    "name": "Félinferno",
+    "url": "félinferno"
+  },
+  {
+    "id": "OTAQUIN",
+    "name": "Otaquin",
+    "url": "otaquin"
+  },
+  {
+    "id": "OTARLO",
+    "name": "Otarlo",
+    "url": "otarlo"
+  },
+  {
+    "id": "ORATORIO",
+    "name": "Oratorio",
+    "url": "oratorio"
+  },
+  {
+    "id": "OTARLETTE",
+    "name": "Otarlette",
+    "url": "otarlette"
+  },
+  {
+    "id": "ORATORIA",
+    "name": "Oratoria",
+    "url": "oratoria"
+  },
+  {
+    "id": "PICASSAUT",
+    "name": "Picassaut",
+    "url": "picassaut"
+  },
+  {
+    "id": "PICLAIRON",
+    "name": "Piclairon",
+    "url": "piclairon"
+  },
+  {
+    "id": "BAZOUCAN",
+    "name": "Bazoucan",
+    "url": "bazoucan"
+  },
+  {
+    "id": "RATTATA_ALO",
+    "name": "Rattata",
+    "url": "rattata"
+  },
+  {
+    "id": "RATTATAC_ALO",
+    "name": "Rattatac",
+    "url": "rattatac"
+  },
+  {
+    "id": "MANGLOUTON",
+    "name": "Manglouton",
+    "url": "manglouton"
+  },
+  {
+    "id": "ARGOUSTE",
+    "name": "Argouste",
+    "url": "argouste"
+  },
+  {
+    "id": "PICHU_ALO",
+    "name": "Pichu",
+    "url": "pichu"
+  },
+  {
+    "id": "PIKACHU_ALO",
+    "name": "Pikachu",
+    "url": "pikachu"
+  },
+  {
+    "id": "RAICHU_ALO",
+    "name": "Raichu",
+    "url": "raichu"
+  },
+  {
+    "id": "MIAOUSS_ALO",
+    "name": "Miaouss",
+    "url": "miaouss"
+  },
+  {
+    "id": "PERSIAN_ALO",
+    "name": "Persian",
+    "url": "persian"
+  },
+  {
+    "id": "LARVIBULE",
+    "name": "Larvibule",
+    "url": "larvibule"
+  },
+  {
+    "id": "CHRYSAPILE",
+    "name": "Chrysapile",
+    "url": "chrysapile"
+  },
+  {
+    "id": "LUCANON",
+    "name": "Lucanon",
+    "url": "lucanon"
+  },
+  {
+    "id": "CRABAGARRE",
+    "name": "Crabagarre",
+    "url": "crabagarre"
+  },
+  {
+    "id": "CRABOMINABLE",
+    "name": "Crabominable",
+    "url": "crabominable"
+  },
+  {
+    "id": "SABELETTE_ALO",
+    "name": "Sabelette",
+    "url": "sabelette"
+  },
+  {
+    "id": "SABLAIREAU_ALO",
+    "name": "Sablaireau",
+    "url": "sablaireau"
+  },
+  {
+    "id": "GOUPIX_ALO",
+    "name": "Goupix",
+    "url": "goupix"
+  },
+  {
+    "id": "FEUNARD_ALO",
+    "name": "Feunard",
+    "url": "feunard"
+  },
+  {
+    "id": "PLUMELINE",
+    "name": "Plumeline",
+    "url": "plumeline"
+  },
+  {
+    "id": "PLUMELINE_JAU",
+    "name": "Plumeline",
+    "url": "plumeline"
+  },
+  {
+    "id": "PLUMELINE_ROS",
+    "name": "Plumeline",
+    "url": "plumeline"
+  },
+  {
+    "id": "PLUMELINE_VIO",
+    "name": "Plumeline",
+    "url": "plumeline"
+  },
+  {
+    "id": "BOMBYDOU",
+    "name": "Bombydou",
+    "url": "bombydou"
+  },
+  {
+    "id": "RUBOMBELLE",
+    "name": "Rubombelle",
+    "url": "rubombelle"
+  },
+  {
+    "id": "TAUPIQUEUR_ALO",
+    "name": "Taupiqueur",
+    "url": "taupiqueur"
+  },
+  {
+    "id": "TRIOPIKEUR_ALO",
+    "name": "Triopikeur",
+    "url": "triopikeur"
+  },
+  {
+    "id": "ROCABOT",
+    "name": "Rocabot",
+    "url": "rocabot"
+  },
+  {
+    "id": "LOUGAROC",
+    "name": "Lougaroc",
+    "url": "lougaroc"
+  },
+  {
+    "id": "LOUGARGNE",
+    "name": "Lougargne",
+    "url": "lougargne"
+  },
+  {
+    "id": "LOUGRINE",
+    "name": "Lougrine",
+    "url": "lougrine"
+  },
+  {
+    "id": "RACAILLOU_ALO",
+    "name": "Racaillou",
+    "url": "racaillou"
+  },
+  {
+    "id": "GRAVALANCH_ALO",
+    "name": "Gravalanch",
+    "url": "gravalanch"
+  },
+  {
+    "id": "GROLEM_ALO",
+    "name": "Grolem",
+    "url": "grolem"
+  },
+  {
+    "id": "FROUSSARDINE",
+    "name": "Froussardine",
+    "url": "froussardine"
+  },
+  {
+    "id": "VORASTERIE",
+    "name": "Vorastérie",
+    "url": "vorastérie"
+  },
+  {
+    "id": "PREDASTERIE",
+    "name": "Prédastérie",
+    "url": "prédastérie"
+  },
+  {
+    "id": "TIBOUDET",
+    "name": "Tiboudet",
+    "url": "tiboudet"
+  },
+  {
+    "id": "BOURRINOS",
+    "name": "Bourrinos",
+    "url": "bourrinos"
+  },
+  {
+    "id": "ARAQUA",
+    "name": "Araqua",
+    "url": "araqua"
+  },
+  {
+    "id": "TARENBULLE",
+    "name": "Tarenbulle",
+    "url": "tarenbulle"
+  },
+  {
+    "id": "MIMANTIS",
+    "name": "Mimantis",
+    "url": "mimantis"
+  },
+  {
+    "id": "FLORAMANTIS",
+    "name": "Floramantis",
+    "url": "floramantis"
+  },
+  {
+    "id": "SPODODO",
+    "name": "Spododo",
+    "url": "spododo"
+  },
+  {
+    "id": "LAMPIGNON",
+    "name": "Lampignon",
+    "url": "lampignon"
+  },
+  {
+    "id": "TRITOX",
+    "name": "Tritox",
+    "url": "tritox"
+  },
+  {
+    "id": "MALAMANDRE",
+    "name": "Malamandre",
+    "url": "malamandre"
+  },
+  {
+    "id": "NOUNOURSON",
+    "name": "Nounourson",
+    "url": "nounourson"
+  },
+  {
+    "id": "CHELOURS",
+    "name": "Chelours",
+    "url": "chelours"
+  },
+  {
+    "id": "CROQUINE",
+    "name": "Croquine",
+    "url": "croquine"
+  },
+  {
+    "id": "CANDEQUIN",
+    "name": "Candequin",
+    "url": "candequin"
+  },
+  {
+    "id": "GLUCOGARDE",
+    "name": "Glucogarde",
+    "url": "glucogarde"
+  },
+  {
+    "id": "CANDINE",
+    "name": "Candine",
+    "url": "candine"
+  },
+  {
+    "id": "SUCREINE",
+    "name": "Sucreine",
+    "url": "sucreine"
+  },
+  {
+    "id": "GUERILANDE",
+    "name": "Guérilande",
+    "url": "guérilande"
+  },
+  {
+    "id": "GOUROUTAN",
+    "name": "Gouroutan",
+    "url": "gouroutan"
+  },
+  {
+    "id": "QUARTERMAC",
+    "name": "Quartermac",
+    "url": "quartermac"
+  },
+  {
+    "id": "TADMORV_ALO",
+    "name": "Tadmorv",
+    "url": "tadmorv"
+  },
+  {
+    "id": "GROTADMORV_ALO",
+    "name": "Grotadmorv",
+    "url": "grotadmorv"
+  },
+  {
+    "id": "SOVKIPOU",
+    "name": "Sovkipou",
+    "url": "sovkipou"
+  },
+  {
+    "id": "SARMURAI",
+    "name": "Sarmuraï",
+    "url": "sarmuraï"
+  },
+  {
+    "id": "BACABOUH",
+    "name": "Bacabouh",
+    "url": "bacabouh"
+  },
+  {
+    "id": "TREPASSABLE",
+    "name": "Trépassable",
+    "url": "trépassable"
+  },
+  {
+    "id": "CONCOMBAFFE",
+    "name": "Concombaffe",
+    "url": "concombaffe"
+  },
+  {
+    "id": "TYPE0",
+    "name": "Type:O",
+    "url": "type:o"
+  },
+  {
+    "id": "SILVALLIE",
+    "name": "Silvallié",
+    "url": "silvallié"
+  },
+  {
+    "id": "METENO",
+    "name": "Météno",
+    "url": "météno"
+  },
+  {
+    "id": "DODOALA",
+    "name": "Dodoala",
+    "url": "dodoala"
+  },
+  {
+    "id": "KOBALYPTUS",
+    "name": "Kobalyptus",
+    "url": "kobalyptus"
+  },
+  {
+    "id": "NOEUNOEUF_ALO",
+    "name": "Noeunoeuf",
+    "url": "noeunoeuf"
+  },
+  {
+    "id": "NOADKOKO_ALO",
+    "name": "Noadkoko",
+    "url": "noadkoko"
+  },
+  {
+    "id": "BOUMATA",
+    "name": "Boumata",
+    "url": "boumata"
+  },
+  {
+    "id": "TOGEDEMARU",
+    "name": "Togedemaru",
+    "url": "togedemaru"
+  },
+  {
+    "id": "MIMIQUI",
+    "name": "Mimiqui",
+    "url": "mimiqui"
+  },
+  {
+    "id": "OSSELAIT_ALO",
+    "name": "Osselait",
+    "url": "osselait"
+  },
+  {
+    "id": "OSSATUEUR_ALO",
+    "name": "Ossatueur",
+    "url": "ossatueur"
+  },
+  {
+    "id": "DENTICRISSE",
+    "name": "Denticrisse",
+    "url": "denticrisse"
+  },
+  {
+    "id": "DRAIEUL",
+    "name": "Draïeul",
+    "url": "draïeul"
+  },
+  {
+    "id": "SINISTRAIL",
+    "name": "Sinistrail",
+    "url": "sinistrail"
+  },
+  {
+    "id": "BEBECAILLE",
+    "name": "Bébécaille",
+    "url": "bébécaille"
+  },
+  {
+    "id": "ECAID",
+    "name": "Écaïd",
+    "url": "écaïd"
+  },
+  {
+    "id": "EKAISER",
+    "name": "Ékaiser",
+    "url": "ékaiser"
+  },
+  {
+    "id": "TOKORICO",
+    "name": "Tokorico",
+    "url": "tokorico"
+  },
+  {
+    "id": "TOKOPIYON",
+    "name": "Tokopiyon",
+    "url": "tokopiyon"
+  },
+  {
+    "id": "TOKOTORO",
+    "name": "Tokotoro",
+    "url": "tokotoro"
+  },
+  {
+    "id": "TOKOPISCO",
+    "name": "Tokopisco",
+    "url": "tokopisco"
+  },
+  {
+    "id": "MAGEARNA",
+    "name": "Magearna",
+    "url": "magearna"
+  },
+  {
+    "id": "MARSHADOW",
+    "name": "Marshadow",
+    "url": "marshadow"
+  },
+  {
+    "id": "ZEROID",
+    "name": "Zéroïd",
+    "url": "zéroïd"
+  },
+  {
+    "id": "MOUSTIKO",
+    "name": "Moustiko",
+    "url": "moustiko"
+  },
+  {
+    "id": "MOUSCOTO",
+    "name": "Mouscoto",
+    "url": "mouscoto"
+  },
+  {
+    "id": "CANCRELOVE",
+    "name": "Cancrelove",
+    "url": "cancrelove"
+  },
+  {
+    "id": "CABLOGENE",
+    "name": "Câblogène",
+    "url": "câblogène"
+  },
+  {
+    "id": "CABLIFERE",
+    "name": "Câblifère",
+    "url": "câblifère"
+  },
+  {
+    "id": "BAMBOURGEON",
+    "name": "Bambourgeon",
+    "url": "bambourgeon"
+  },
+  {
+    "id": "BAMBOISELLE",
+    "name": "Bamboiselle",
+    "url": "bamboiselle"
+  },
+  {
+    "id": "KATARIKI",
+    "name": "Katariki",
+    "url": "katariki"
+  },
+  {
+    "id": "KATAGAMI",
+    "name": "Katagami",
+    "url": "katagami"
+  },
+  {
+    "id": "GARGOUVOR",
+    "name": "Gargouvor",
+    "url": "gargouvor"
+  },
+  {
+    "id": "ENGLOUTYRAN",
+    "name": "Engloutyran",
+    "url": "engloutyran"
+  },
+  {
+    "id": "VEMINI",
+    "name": "Vémini",
+    "url": "vémini"
+  },
+  {
+    "id": "MANDRILLON",
+    "name": "Mandrillon",
+    "url": "mandrillon"
+  },
+  {
+    "id": "KIKKIK",
+    "name": "Kik-Kik",
+    "url": "kik-kik"
+  },
+  {
+    "id": "AMAAMA",
+    "name": "Ama-Ama",
+    "url": "ama-ama"
+  },
+  {
+    "id": "SALTIMBOMBE",
+    "name": "Saltimbombe",
+    "url": "saltimbombe"
+  },
+  {
+    "id": "PIERROTEKNIK",
+    "name": "Pierroteknik",
+    "url": "pierroteknik"
+  },
+  {
+    "id": "NUCLETRON",
+    "name": "Nuclétron",
+    "url": "nuclétron"
+  },
+  {
+    "id": "COSMOG",
+    "name": "Cosmog",
+    "url": "cosmog"
+  },
+  {
+    "id": "COSMOVUM",
+    "name": "Cosmovum",
+    "url": "cosmovum"
+  },
+  {
+    "id": "SOLGALEO",
+    "name": "Solgaleo",
+    "url": "solgaleo"
+  },
+  {
+    "id": "LUNALA",
+    "name": "Lunala",
+    "url": "lunala"
+  },
+  {
+    "id": "NECROZMA",
+    "name": "Necrozma",
+    "url": "necrozma"
+  },
+  {
+    "id": "OUISTEMPO",
+    "name": "Ouistempo",
+    "url": "ouistempo"
+  },
+  {
+    "id": "BADABOUIN",
+    "name": "Badabouin",
+    "url": "badabouin"
+  },
+  {
+    "id": "GORYTHMIC",
+    "name": "Gorythmic",
+    "url": "gorythmic"
+  },
+  {
+    "id": "FLAMBINO",
+    "name": "Flambino",
+    "url": "flambino"
+  },
+  {
+    "id": "LAPYRO",
+    "name": "Lapyro",
+    "url": "lapyro"
+  },
+  {
+    "id": "PYROBUT",
+    "name": "Pyrobut",
+    "url": "pyrobut"
+  },
+  {
+    "id": "LARMELEON",
+    "name": "Larméléon",
+    "url": "larméléon"
+  },
+  {
+    "id": "ARROZARD",
+    "name": "Arrozard",
+    "url": "arrozard"
+  },
+  {
+    "id": "LEZARGUS",
+    "name": "Lézargus",
+    "url": "lézargus"
+  },
+  {
+    "id": "RONGOURMAND",
+    "name": "Rongourmand",
+    "url": "rongourmand"
+  },
+  {
+    "id": "RONGRIGOU",
+    "name": "Rongrigou",
+    "url": "rongrigou"
+  },
+  {
+    "id": "MINISANGE",
+    "name": "Minisange",
+    "url": "minisange"
+  },
+  {
+    "id": "BLEUSEILLE",
+    "name": "Bleuseille",
+    "url": "bleuseille"
+  },
+  {
+    "id": "CORVAILLUS",
+    "name": "Corvaillus",
+    "url": "corvaillus"
+  },
+  {
+    "id": "LARVADAR",
+    "name": "Larvadar",
+    "url": "larvadar"
+  },
+  {
+    "id": "COLEODOME",
+    "name": "Coléodôme",
+    "url": "coléodôme"
+  },
+  {
+    "id": "ASTRONELLE",
+    "name": "Astronelle",
+    "url": "astronelle"
+  },
+  {
+    "id": "GOUPILOU",
+    "name": "Goupilou",
+    "url": "goupilou"
+  },
+  {
+    "id": "ROUBLENARD",
+    "name": "Roublenard",
+    "url": "roublenard"
+  },
+  {
+    "id": "TOURNICOTON",
+    "name": "Tournicoton",
+    "url": "tournicoton"
+  },
+  {
+    "id": "BLANCOTON",
+    "name": "Blancoton",
+    "url": "blancoton"
+  },
+  {
+    "id": "CARMINCOTON",
+    "name": "Carmincoton",
+    "url": "carmincoton"
+  },
+  {
+    "id": "MOUMOUTON",
+    "name": "Moumouton",
+    "url": "moumouton"
+  },
+  {
+    "id": "MOUMOUFLON",
+    "name": "Moumouflon",
+    "url": "moumouflon"
+  },
+  {
+    "id": "KHELOCROK",
+    "name": "Khélocrok",
+    "url": "khélocrok"
+  },
+  {
+    "id": "TORGAMORD",
+    "name": "Torgamord",
+    "url": "torgamord"
+  },
+  {
+    "id": "VOLTOUTOU",
+    "name": "Voltoutou",
+    "url": "voltoutou"
+  },
+  {
+    "id": "FULGUDOG",
+    "name": "Fulgudog",
+    "url": "fulgudog"
+  },
+  {
+    "id": "CHARBI",
+    "name": "Charbi",
+    "url": "charbi"
+  },
+  {
+    "id": "WAGOMINE",
+    "name": "Wagomine",
+    "url": "wagomine"
+  },
+  {
+    "id": "MONTHRACITE",
+    "name": "Monthracite",
+    "url": "monthracite"
+  },
+  {
+    "id": "VERPOM",
+    "name": "Verpom",
+    "url": "verpom"
+  },
+  {
+    "id": "POMDRAPI",
+    "name": "Pomdrapi",
+    "url": "pomdrapi"
+  },
+  {
+    "id": "DRATATIN",
+    "name": "Dratatin",
+    "url": "dratatin"
+  },
+  {
+    "id": "POMDRAMOUR",
+    "name": "Pomdramour",
+    "url": "pomdramour"
+  },
+  {
+    "id": "POMDOROCHI",
+    "name": "Pomdorochi",
+    "url": "pomdorochi"
+  },
+  {
+    "id": "DUNAJA",
+    "name": "Dunaja",
+    "url": "dunaja"
+  },
+  {
+    "id": "DUNACONDA",
+    "name": "Dunaconda",
+    "url": "dunaconda"
+  },
+  {
+    "id": "NIGOSIER",
+    "name": "Nigosier",
+    "url": "nigosier"
+  },
+  {
+    "id": "EMBROCHET",
+    "name": "Embrochet",
+    "url": "embrochet"
+  },
+  {
+    "id": "HASTACUDA",
+    "name": "Hastacuda",
+    "url": "hastacuda"
+  },
+  {
+    "id": "TOXIZAP",
+    "name": "Toxizap",
+    "url": "toxizap"
+  },
+  {
+    "id": "SALARSEN",
+    "name": "Salarsen",
+    "url": "salarsen"
+  },
+  {
+    "id": "VENOXIS",
+    "name": "Venoxis",
+    "url": "venoxis"
+  },
+  {
+    "id": "GRILLEPATTES",
+    "name": "Grillepattes",
+    "url": "grillepattes"
+  },
+  {
+    "id": "SCOLOCENDRE",
+    "name": "Scolocendre",
+    "url": "scolocendre"
+  },
+  {
+    "id": "POULPAF",
+    "name": "Poulpaf",
+    "url": "poulpaf"
+  },
+  {
+    "id": "KRAKOS",
+    "name": "Krakos",
+    "url": "krakos"
+  },
+  {
+    "id": "RAMOLOSS_GAL",
+    "name": "Ramoloss",
+    "url": "ramoloss"
+  },
+  {
+    "id": "FLAGADOSS_GAL",
+    "name": "Flagadoss",
+    "url": "flagadoss"
+  },
+  {
+    "id": "ROIGADA_GAL",
+    "name": "Roigada",
+    "url": "roigada"
+  },
+  {
+    "id": "SMOGO_GAL",
+    "name": "Smogo",
+    "url": "smogo"
+  },
+  {
+    "id": "SMOGOGO_GAL",
+    "name": "Smogogo",
+    "url": "smogogo"
+  },
+  {
+    "id": "LIMONDE_GAL",
+    "name": "Limonde",
+    "url": "limonde"
+  },
+  {
+    "id": "THEFFROI",
+    "name": "Théffroi",
+    "url": "théffroi"
+  },
+  {
+    "id": "POLTHEGEIST",
+    "name": "Polthégeist",
+    "url": "polthégeist"
+  },
+  {
+    "id": "PONYTA_GAL",
+    "name": "Ponyta",
+    "url": "ponyta"
+  },
+  {
+    "id": "GALOPA_GAL",
+    "name": "Galopa",
+    "url": "galopa"
+  },
+  {
+    "id": "BIBICHUT",
+    "name": "Bibichut",
+    "url": "bibichut"
+  },
+  {
+    "id": "CHAPOTUS",
+    "name": "Chapotus",
+    "url": "chapotus"
+  },
+  {
+    "id": "SORCILENCE",
+    "name": "Sorcilence",
+    "url": "sorcilence"
+  },
+  {
+    "id": "GRIMALIN",
+    "name": "Grimalin",
+    "url": "grimalin"
+  },
+  {
+    "id": "FOURBELIN",
+    "name": "Fourbelin",
+    "url": "fourbelin"
+  },
+  {
+    "id": "ANGOLIATH",
+    "name": "Angoliath",
+    "url": "angoliath"
+  },
+  {
+    "id": "ZIGZATON_GAL",
+    "name": "Zigzaton",
+    "url": "zigzaton"
+  },
+  {
+    "id": "LINEON_GAL",
+    "name": "Linéon",
+    "url": "linéon"
+  },
+  {
+    "id": "IXON",
+    "name": "Ixon",
+    "url": "ixon"
+  },
+  {
+    "id": "MIAOUSS_GAL",
+    "name": "Miaouss",
+    "url": "miaouss"
+  },
+  {
+    "id": "BERSERKATT",
+    "name": "Berserkatt",
+    "url": "berserkatt"
+  },
+  {
+    "id": "CORAYON_GAL",
+    "name": "Corayon",
+    "url": "corayon"
+  },
+  {
+    "id": "CORAYOME",
+    "name": "Corayôme",
+    "url": "corayôme"
+  },
+  {
+    "id": "CANARTICHO_GAL",
+    "name": "Canarticho",
+    "url": "canarticho"
+  },
+  {
+    "id": "PALARTICHO",
+    "name": "Palarticho",
+    "url": "palarticho"
+  },
+  {
+    "id": "DARUMAROND_GAL",
+    "name": "Darumarond",
+    "url": "darumarond"
+  },
+  {
+    "id": "DARUMACHO_GAL",
+    "name": "Darumacho",
+    "url": "darumacho"
+  },
+  {
+    "id": "MIMEJR_GAL",
+    "name": "Mime Jr.",
+    "url": "mime jr."
+  },
+  {
+    "id": "MMIME_GAL",
+    "name": "M. Mime",
+    "url": "m. mime"
+  },
+  {
+    "id": "MGLAQUETTE",
+    "name": "M. Glaquette",
+    "url": "m. glaquette"
+  },
+  {
+    "id": "TUTAFEH_GAL",
+    "name": "Tutafeh",
+    "url": "tutafeh"
+  },
+  {
+    "id": "TUTETEKRI",
+    "name": "Tutetekri",
+    "url": "tutetekri"
+  },
+  {
+    "id": "CREMY",
+    "name": "Crèmy",
+    "url": "crèmy"
+  },
+  {
+    "id": "CHARMILLY",
+    "name": "Charmilly",
+    "url": "charmilly"
+  },
+  {
+    "id": "HEXADRON",
+    "name": "Hexadron",
+    "url": "hexadron"
+  },
+  {
+    "id": "WATTAPIK",
+    "name": "Wattapik",
+    "url": "wattapik"
+  },
+  {
+    "id": "FRISSONILLE",
+    "name": "Frissonille",
+    "url": "frissonille"
+  },
+  {
+    "id": "BELDENEIGE",
+    "name": "Beldeneige",
+    "url": "beldeneige"
+  },
+  {
+    "id": "DOLMAN",
+    "name": "Dolman",
+    "url": "dolman"
+  },
+  {
+    "id": "BEKAGLACON",
+    "name": "Bekaglaçon",
+    "url": "bekaglaçon"
+  },
+  {
+    "id": "WIMESSIR",
+    "name": "Wimessir",
+    "url": "wimessir"
+  },
+  {
+    "id": "MORPEKO",
+    "name": "Morpéko",
+    "url": "morpéko"
+  },
+  {
+    "id": "CHARIBARI",
+    "name": "Charibari",
+    "url": "charibari"
+  },
+  {
+    "id": "PACHYRADJAH",
+    "name": "Pachyradjah",
+    "url": "pachyradjah"
+  },
+  {
+    "id": "GALVAP",
+    "name": "Galvap",
+    "url": "galvap"
+  },
+  {
+    "id": "GALVAPTOR",
+    "name": "Galvaptor",
+    "url": "galvaptor"
+  },
+  {
+    "id": "TYOGLA",
+    "name": "Tyogla",
+    "url": "tyogla"
+  },
+  {
+    "id": "TYOGLASAUR",
+    "name": "Tyoglasaur",
+    "url": "tyoglasaur"
+  },
+  {
+    "id": "STEGONO",
+    "name": "Stegono",
+    "url": "stegono"
+  },
+  {
+    "id": "STEGONOSAUR",
+    "name": "Stegonosaur",
+    "url": "stegonosaur"
+  },
+  {
+    "id": "HYDRAMO",
+    "name": "Hydramo",
+    "url": "hydramo"
+  },
+  {
+    "id": "HYDRAMOSAUR",
+    "name": "Hydramosaur",
+    "url": "hydramosaur"
+  },
+  {
+    "id": "GALVAGON",
+    "name": "Galvagon",
+    "url": "galvagon"
+  },
+  {
+    "id": "GALVAGLA",
+    "name": "Galvagla",
+    "url": "galvagla"
+  },
+  {
+    "id": "HYDRAGON",
+    "name": "Hydragon",
+    "url": "hydragon"
+  },
+  {
+    "id": "HYDRAGLA",
+    "name": "Hydragla",
+    "url": "hydragla"
+  },
+  {
+    "id": "DURALUGON",
+    "name": "Duralugon",
+    "url": "duralugon"
+  },
+  {
+    "id": "PONDRALUGON",
+    "name": "Pondralugon",
+    "url": "pondralugon"
+  },
+  {
+    "id": "FANTYRM",
+    "name": "Fantyrm",
+    "url": "fantyrm"
+  },
+  {
+    "id": "DISPAREPTIL",
+    "name": "Dispareptil",
+    "url": "dispareptil"
+  },
+  {
+    "id": "LANSSORIEN",
+    "name": "Lanssorien",
+    "url": "lanssorien"
+  },
+  {
+    "id": "ZACIAN",
+    "name": "Zacian",
+    "url": "zacian"
+  },
+  {
+    "id": "ZAMAZENTA",
+    "name": "Zamazenta",
+    "url": "zamazenta"
+  },
+  {
+    "id": "ETHERNATOS",
+    "name": "Éthernatos",
+    "url": "éthernatos"
+  },
+  {
+    "id": "WUSHOURS",
+    "name": "Wushours",
+    "url": "wushours"
+  },
+  {
+    "id": "SHIFOURS",
+    "name": "Shifours",
+    "url": "shifours"
+  },
+  {
+    "id": "TSUNAOURS",
+    "name": "Tsunaours",
+    "url": "tsunaours"
+  },
+  {
+    "id": "REGIELEKI",
+    "name": "Regieleki",
+    "url": "regieleki"
+  },
+  {
+    "id": "REGIDRAGO",
+    "name": "Regidrago",
+    "url": "regidrago"
+  },
+  {
+    "id": "ARTIKODIN_GAL",
+    "name": "Artikodin",
+    "url": "artikodin"
+  },
+  {
+    "id": "ELECTHOR_GAL",
+    "name": "Électhor",
+    "url": "électhor"
+  },
+  {
+    "id": "SULFURA_GAL",
+    "name": "Sulfura",
+    "url": "sulfura"
+  },
+  {
+    "id": "BLIZZEVAL",
+    "name": "Blizzeval",
+    "url": "blizzeval"
+  },
+  {
+    "id": "SPECTREVAL",
+    "name": "Spectreval",
+    "url": "spectreval"
+  },
+  {
+    "id": "SYLVEROY",
+    "name": "Sylveroy",
+    "url": "sylveroy"
+  },
+  {
+    "id": "POUSSACHA",
+    "name": "Poussacha",
+    "url": "poussacha"
+  },
+  {
+    "id": "MATOURGEON",
+    "name": "Matourgeon",
+    "url": "matourgeon"
+  },
+  {
+    "id": "MIASCARADE",
+    "name": "Miascarade",
+    "url": "miascarade"
+  },
+  {
+    "id": "CHOCHODILE",
+    "name": "Chochodile",
+    "url": "chochodile"
+  },
+  {
+    "id": "CROCOGRIL",
+    "name": "Crocogril",
+    "url": "crocogril"
+  },
+  {
+    "id": "FLAMIGATOR",
+    "name": "Flâmigator",
+    "url": "flâmigator"
+  },
+  {
+    "id": "COIFFETON",
+    "name": "Coiffeton",
+    "url": "coiffeton"
+  },
+  {
+    "id": "CANARBELLO",
+    "name": "Canarbello",
+    "url": "canarbello"
+  },
+  {
+    "id": "PALMAVAL",
+    "name": "Palmaval",
+    "url": "palmaval"
+  },
+  {
+    "id": "GOURMELET",
+    "name": "Gourmelet",
+    "url": "gourmelet"
+  },
+  {
+    "id": "COLOGROIN",
+    "name": "Cologroin",
+    "url": "cologroin"
+  },
+  {
+    "id": "FRAGROIN",
+    "name": "Fragroin",
+    "url": "fragroin"
+  },
+  {
+    "id": "TISSENBOULE",
+    "name": "Tissenboule",
+    "url": "tissenboule"
+  },
+  {
+    "id": "FILENTRAPPE",
+    "name": "Filentrappe",
+    "url": "filentrappe"
+  },
+  {
+    "id": "LILLITERELLE",
+    "name": "Lilliterelle",
+    "url": "lilliterelle"
+  },
+  {
+    "id": "GAMBEX",
+    "name": "Gambex",
+    "url": "gambex"
+  },
+  {
+    "id": "POHM",
+    "name": "Pohm",
+    "url": "pohm"
+  },
+  {
+    "id": "POHMOTTE",
+    "name": "Pohmotte",
+    "url": "pohmotte"
+  },
+  {
+    "id": "POHMARMOTTE",
+    "name": "Pohmarmotte",
+    "url": "pohmarmotte"
+  },
+  {
+    "id": "COMPAGNOL",
+    "name": "Compagnol",
+    "url": "compagnol"
+  },
+  {
+    "id": "FAMIGNOL",
+    "name": "Famignol",
+    "url": "famignol"
+  },
+  {
+    "id": "AXOLOTO_PAL",
+    "name": "Axoloto",
+    "url": "axoloto"
+  },
+  {
+    "id": "TERRAISTE",
+    "name": "Terraiste",
+    "url": "terraiste"
+  },
+  {
+    "id": "PATACHIOT",
+    "name": "Pâtachiot",
+    "url": "pâtachiot"
+  },
+  {
+    "id": "BRIOCHIEN",
+    "name": "Briochien",
+    "url": "briochien"
+  },
+  {
+    "id": "OLIVINI",
+    "name": "Olivini",
+    "url": "olivini"
+  },
+  {
+    "id": "OLIVADO",
+    "name": "Olivado",
+    "url": "olivado"
+  },
+  {
+    "id": "ARBOLIVA",
+    "name": "Arboliva",
+    "url": "arboliva"
+  },
+  {
+    "id": "TAPATOES",
+    "name": "Tapatoès",
+    "url": "tapatoès"
+  },
+  {
+    "id": "SELUTIN",
+    "name": "Selutin",
+    "url": "selutin"
+  },
+  {
+    "id": "AMASSEL",
+    "name": "Amassel",
+    "url": "amassel"
+  },
+  {
+    "id": "GIGANSEL",
+    "name": "Gigansel",
+    "url": "gigansel"
+  },
+  {
+    "id": "CHARBAMBIN",
+    "name": "Charbambin",
+    "url": "charbambin"
+  },
+  {
+    "id": "CARMADURA",
+    "name": "Carmadura",
+    "url": "carmadura"
+  },
+  {
+    "id": "MALVALAME",
+    "name": "Malvalame",
+    "url": "malvalame"
+  },
+  {
+    "id": "TETAMPOULE",
+    "name": "Têtampoule",
+    "url": "têtampoule"
+  },
+  {
+    "id": "AMPIBIDOU",
+    "name": "Ampibidou",
+    "url": "ampibidou"
+  },
+  {
+    "id": "ZAPETREL",
+    "name": "Zapétrel",
+    "url": "zapétrel"
+  },
+  {
+    "id": "FULGULAIRO",
+    "name": "Fulgulairo",
+    "url": "fulgulairo"
+  },
+  {
+    "id": "GRONDOGUE",
+    "name": "Grondogue",
+    "url": "grondogue"
+  },
+  {
+    "id": "DOGRINO",
+    "name": "Dogrino",
+    "url": "dogrino"
+  },
+  {
+    "id": "GRIBOURAIGNE",
+    "name": "Gribouraigne",
+    "url": "gribouraigne"
+  },
+  {
+    "id": "TAGTAG",
+    "name": "Tag-Tag",
+    "url": "tag-tag"
+  },
+  {
+    "id": "VIROVENT",
+    "name": "Virovent",
+    "url": "virovent"
+  },
+  {
+    "id": "VIREVORREUR",
+    "name": "Virevorreur",
+    "url": "virevorreur"
+  },
+  {
+    "id": "TERRACOOL",
+    "name": "Terracool",
+    "url": "terracool"
+  },
+  {
+    "id": "TERRACRUEL",
+    "name": "Terracruel",
+    "url": "terracruel"
+  },
+  {
+    "id": "CRAPAROI",
+    "name": "Craparoi",
+    "url": "craparoi"
+  },
+  {
+    "id": "PIMITO",
+    "name": "Pimito",
+    "url": "pimito"
+  },
+  {
+    "id": "SCOVILAIN",
+    "name": "Scovilain",
+    "url": "scovilain"
+  },
+  {
+    "id": "HYDRAPRIKA",
+    "name": "Hydraprika",
+    "url": "hydraprika"
+  },
+  {
+    "id": "LEBOULEROU",
+    "name": "Léboulérou",
+    "url": "léboulérou"
+  },
+  {
+    "id": "BERASCA",
+    "name": "Bérasca",
+    "url": "bérasca"
+  },
+  {
+    "id": "FLOTILLON",
+    "name": "Flotillon",
+    "url": "flotillon"
+  },
+  {
+    "id": "CLEOPSYTRA",
+    "name": "Cléopsytra",
+    "url": "cléopsytra"
+  },
+  {
+    "id": "FORGERETTE",
+    "name": "Forgerette",
+    "url": "forgerette"
+  },
+  {
+    "id": "FORGELLA",
+    "name": "Forgella",
+    "url": "forgella"
+  },
+  {
+    "id": "FORGELINA",
+    "name": "Forgelina",
+    "url": "forgelina"
+  },
+  {
+    "id": "TAUPIKEAU",
+    "name": "Taupikeau",
+    "url": "taupikeau"
+  },
+  {
+    "id": "TRIOPIKEAU",
+    "name": "Triopikeau",
+    "url": "triopikeau"
+  },
+  {
+    "id": "LESTOMBAILE",
+    "name": "Lestombaile",
+    "url": "lestombaile"
+  },
+  {
+    "id": "DOFIN",
+    "name": "Dofin",
+    "url": "dofin"
+  },
+  {
+    "id": "SUPERDOFIN",
+    "name": "Superdofin",
+    "url": "superdofin"
+  },
+  {
+    "id": "VROMBI",
+    "name": "Vrombi",
+    "url": "vrombi"
+  },
+  {
+    "id": "VROMBOTOR",
+    "name": "Vrombotor",
+    "url": "vrombotor"
+  },
+  {
+    "id": "MOTORIZARD",
+    "name": "Motorizard",
+    "url": "motorizard"
+  },
+  {
+    "id": "FERDETER",
+    "name": "Ferdeter",
+    "url": "ferdeter"
+  },
+  {
+    "id": "TAUROS_PAL",
+    "name": "Tauros",
+    "url": "tauros"
+  },
+  {
+    "id": "TOUTOMBE",
+    "name": "Toutombe",
+    "url": "toutombe"
+  },
+  {
+    "id": "TOMBERRO",
+    "name": "Tomberro",
+    "url": "tomberro"
+  },
+  {
+    "id": "FLAMENROULE",
+    "name": "Flamenroule",
+    "url": "flamenroule"
+  },
+  {
+    "id": "PIETACE",
+    "name": "Piétacé",
+    "url": "piétacé"
+  },
+  {
+    "id": "BALBALEZE",
+    "name": "Balbalèze",
+    "url": "balbalèze"
+  },
+  {
+    "id": "DELESTIN",
+    "name": "Délestin",
+    "url": "délestin"
+  },
+  {
+    "id": "OYACATA",
+    "name": "Oyacata",
+    "url": "oyacata"
+  },
+  {
+    "id": "NIGIRIGON",
+    "name": "Nigirigon",
+    "url": "nigirigon"
+  },
+  {
+    "id": "MORDUDOR",
+    "name": "Mordudor",
+    "url": "mordudor"
+  },
+  {
+    "id": "GROMAGO",
+    "name": "Gromago",
+    "url": "gromago"
+  },
+  {
+    "id": "GERMECLAT",
+    "name": "Germéclat",
+    "url": "germéclat"
+  },
+  {
+    "id": "FLORECLAT",
+    "name": "Floréclat",
+    "url": "floréclat"
+  },
+  {
+    "id": "FRIGODO",
+    "name": "Frigodo",
+    "url": "frigodo"
+  },
+  {
+    "id": "CRYODO",
+    "name": "Cryodo",
+    "url": "cryodo"
+  },
+  {
+    "id": "GLAIVODO",
+    "name": "Glaivodo",
+    "url": "glaivodo"
+  },
+  {
+    "id": "DINGLU",
+    "name": "Dinglu",
+    "url": "dinglu"
+  },
+  {
+    "id": "BAOJIAN",
+    "name": "Baojian",
+    "url": "baojian"
+  },
+  {
+    "id": "CHONGJIAN",
+    "name": "Chongjian",
+    "url": "chongjian"
+  },
+  {
+    "id": "YUYU",
+    "name": "Yuyu",
+    "url": "yuyu"
+  },
+  {
+    "id": "FORTIVOIRE",
+    "name": "Fort-Ivoire",
+    "url": "fort-ivoire"
+  },
+  {
+    "id": "FONGUSFURIE",
+    "name": "Fongus-Furie",
+    "url": "fongus-furie"
+  },
+  {
+    "id": "AIMANTGLUANT",
+    "name": "Aimant-Gluant",
+    "url": "aimant-gluant"
+  },
+  {
+    "id": "PELAGESABLE",
+    "name": "Pelage-Sablé",
+    "url": "pelage-sablé"
+  },
+  {
+    "id": "HURLEQUEUE",
+    "name": "Hurle-Queue",
+    "url": "hurle-queue"
+  },
+  {
+    "id": "SOMBRENUAGE",
+    "name": "Sombre-Nuage",
+    "url": "sombre-nuage"
+  },
+  {
+    "id": "FLOTTEMECHE",
+    "name": "Flotte-Mèche",
+    "url": "flotte-mèche"
+  },
+  {
+    "id": "RAMPEAILES",
+    "name": "Rampe-Ailes",
+    "url": "rampe-ailes"
+  },
+  {
+    "id": "COIFFEHARDI",
+    "name": "Coiffe-Hardi",
+    "url": "coiffe-hardi"
+  },
+  {
+    "id": "RUGITLUNE",
+    "name": "Rugit-Lune",
+    "url": "rugit-lune"
+  },
+  {
+    "id": "SERPENTEEAU",
+    "name": "Serpente-Eau",
+    "url": "serpente-eau"
+  },
+  {
+    "id": "IREFOUDRE",
+    "name": "Ire-Foudre",
+    "url": "ire-foudre"
+  },
+  {
+    "id": "FEUPERCANT",
+    "name": "Feu-Perçant",
+    "url": "feu-perçant"
+  },
+  {
+    "id": "KORAIDON",
+    "name": "Koraidon",
+    "url": "koraidon"
+  },
+  {
+    "id": "ROUEDEFER",
+    "name": "Roue-de-Fer",
+    "url": "roue-de-fer"
+  },
+  {
+    "id": "MITEDEFER",
+    "name": "Mite-de-Fer",
+    "url": "mite-de-fer"
+  },
+  {
+    "id": "TOUPIEDEFER",
+    "name": "Toupie-de-Fer",
+    "url": "toupie-de-fer"
+  },
+  {
+    "id": "PAUMEDEFER",
+    "name": "Paume-de-Fer",
+    "url": "paume-de-fer"
+  },
+  {
+    "id": "ONDEDEFER",
+    "name": "Onde-de-Fer",
+    "url": "onde-de-fer"
+  },
+  {
+    "id": "TETESDEFER",
+    "name": "Têtes-de-Fer",
+    "url": "têtes-de-fer"
+  },
+  {
+    "id": "EPINEDEFER",
+    "name": "Épine-de-Fer",
+    "url": "épine-de-fer"
+  },
+  {
+    "id": "HOTTEDEFER",
+    "name": "Hotte-de-Fer",
+    "url": "hotte-de-fer"
+  },
+  {
+    "id": "PHAREDEFER",
+    "name": "Phare-de-Fer",
+    "url": "phare-de-fer"
+  },
+  {
+    "id": "SNIPERDEFER",
+    "name": "Sniper-de-Fer",
+    "url": "sniper-de-fer"
+  },
+  {
+    "id": "GARDEDEFER",
+    "name": "Garde-de-Fer",
+    "url": "garde-de-fer"
+  },
+  {
+    "id": "VERTDEFER",
+    "name": "Vert-de-Fer",
+    "url": "vert-de-fer"
+  },
+  {
+    "id": "CHEFDEFER",
+    "name": "Chef-de-Fer",
+    "url": "chef-de-fer"
+  },
+  {
+    "id": "ROCDEFER",
+    "name": "Roc-de-Fer",
+    "url": "roc-de-fer"
+  },
+  {
+    "id": "MIRAIDON",
+    "name": "Miraidon",
+    "url": "miraidon"
+  },
+  {
+    "id": "TERAPAGOS",
+    "name": "Terapagos",
+    "url": "terapagos"
+  },
+  {
+    "id": "SOPORIFIK_SEP",
+    "name": "Soporifik",
+    "url": "soporifik"
+  },
+  {
+    "id": "HYDROMADE",
+    "name": "Hydromade",
+    "url": "hydromade"
+  },
+  {
+    "id": "CHOUKIPU",
+    "name": "Choukipu",
+    "url": "choukipu"
+  },
+  {
+    "id": "GERMURAI",
+    "name": "Germuraï",
+    "url": "germuraï"
+  },
+  {
+    "id": "KATABUSHI",
+    "name": "Katabushi",
+    "url": "katabushi"
+  },
+  {
+    "id": "KAIBATSU",
+    "name": "Kaibatsu",
+    "url": "kaibatsu"
+  },
+  {
+    "id": "BUCHARME",
+    "name": "Bucharmé",
+    "url": "bucharmé"
+  },
+  {
+    "id": "BRAZIBUCHE",
+    "name": "Brazibûche",
+    "url": "brazibûche"
+  },
+  {
+    "id": "LARVURAI",
+    "name": "Larvuraï",
+    "url": "larvuraï"
+  },
+  {
+    "id": "SHOGUNOX",
+    "name": "Shogunox",
+    "url": "shogunox"
+  },
+  {
+    "id": "POLTCHAGEIST",
+    "name": "Poltchageist",
+    "url": "poltchageist"
+  },
+  {
+    "id": "THEFFROYABLE",
+    "name": "Théffroyable",
+    "url": "théffroyable"
+  },
+  {
+    "id": "MOLAGON",
+    "name": "Molagon",
+    "url": "molagon"
+  },
+  {
+    "id": "PETARMI",
+    "name": "Pétarmi",
+    "url": "pétarmi"
+  },
+  {
+    "id": "IGNITERNE",
+    "name": "Igniterne",
+    "url": "igniterne"
+  },
+  {
+    "id": "FERALYRM",
+    "name": "Féralyrm",
+    "url": "féralyrm"
+  },
+  {
+    "id": "DRAKOCHON",
+    "name": "Drakochon",
+    "url": "drakochon"
+  },
+  {
+    "id": "CARNAZHU",
+    "name": "Carnazhu",
+    "url": "carnazhu"
+  },
+  {
+    "id": "ORAGOSHI",
+    "name": "Oragoshi",
+    "url": "oragoshi"
+  },
+  {
+    "id": "FELICANIS",
+    "name": "Félicanis",
+    "url": "félicanis"
+  },
+  {
+    "id": "FORTUSIMIA",
+    "name": "Fortusimia",
+    "url": "fortusimia"
+  },
+  {
+    "id": "FAVIANOS",
+    "name": "Favianos",
+    "url": "favianos"
+  },
+  {
+    "id": "OGERPON",
+    "name": "Ogerpon",
+    "url": "ogerpon"
+  },
+  {
+    "id": "PECHAMINUS",
+    "name": "Pêchaminus",
+    "url": "pêchaminus"
+  },
+  {
+    "id": "PIMENFORT",
+    "name": "Pimenfort",
+    "url": "pimenfort"
+  },
+  {
+    "id": "SCARABRUTE_LEN",
+    "name": "Scarabrute",
+    "url": "scarabrute"
+  },
+  {
+    "id": "BANTICOT",
+    "name": "Banticot",
+    "url": "banticot"
+  },
+  {
+    "id": "LOMBRESTOC",
+    "name": "Lombrestoc",
+    "url": "lombrestoc"
+  },
+  {
+    "id": "BANQUIBRISE",
+    "name": "Banquibrise",
+    "url": "banquibrise"
+  },
+  {
+    "id": "GRIMALINE",
+    "name": "Grimaline",
+    "url": "grimaline"
+  },
+  {
+    "id": "GENTELINE",
+    "name": "Genteline",
+    "url": "genteline"
+  },
+  {
+    "id": "ENJOLINE",
+    "name": "Enjoline",
+    "url": "enjoline"
+  },
+  {
+    "id": "FRIGALPA",
+    "name": "Frigalpa",
+    "url": "frigalpa"
+  },
+  {
+    "id": "PINGONARK",
+    "name": "Pingonark",
+    "url": "pingonark"
+  },
+  {
+    "id": "ALGUAWAK",
+    "name": "Alguawak",
+    "url": "alguawak"
+  },
+  {
+    "id": "CAMOUWAK",
+    "name": "Camouwak",
+    "url": "camouwak"
+  },
+  {
+    "id": "WAKAMPE",
+    "name": "Wakampe",
+    "url": "wakampe"
+  },
+  {
+    "id": "MYXIF",
+    "name": "Myxif",
+    "url": "myxif"
+  },
+  {
+    "id": "MYXIDE",
+    "name": "Myxide",
+    "url": "myxide"
+  },
+  {
+    "id": "MYXCENE",
+    "name": "Myxcène",
+    "url": "myxcène"
+  },
+  {
+    "id": "CARMIKRAB",
+    "name": "Carmikrab",
+    "url": "carmikrab"
+  },
+  {
+    "id": "CENDRIKRAB",
+    "name": "Cendrikrab",
+    "url": "cendrikrab"
+  },
+  {
+    "id": "CANCREKRAB",
+    "name": "Cancrekrab",
+    "url": "cancrekrab"
+  },
+  {
+    "id": "GRELOTTE",
+    "name": "Grêlotte",
+    "url": "grêlotte"
+  },
+  {
+    "id": "GRELISERE",
+    "name": "Grêlisère",
+    "url": "grêlisère"
+  },
+  {
+    "id": "GRELEFFROI",
+    "name": "Grêleffroi",
+    "url": "grêleffroi"
+  },
+  {
+    "id": "TROPIUS_LEN",
+    "name": "Tropius",
+    "url": "tropius"
+  },
+  {
+    "id": "DRAKKARMIN_LEN",
+    "name": "Drakkarmin",
+    "url": "drakkarmin"
+  },
+  {
+    "id": "SQUORSAIRE",
+    "name": "Squorsaire",
+    "url": "squorsaire"
+  },
+  {
+    "id": "TERRASECT",
+    "name": "Terrasect",
+    "url": "terrasect"
+  },
+  {
+    "id": "ZARUDE",
+    "name": "Zarude",
+    "url": "zarude"
+  },
+  {
+    "id": "ZERAORA",
+    "name": "Zeraora",
+    "url": "zeraora"
+  },
+  {
+    "id": "BRINDIBOU_HIS",
+    "name": "Brindibou",
+    "url": "brindibou"
+  },
+  {
+    "id": "EFFLECHE_HIS",
+    "name": "Efflèche",
+    "url": "efflèche"
+  },
+  {
+    "id": "ARCHEDUC_HIS",
+    "name": "Archéduc",
+    "url": "archéduc"
+  },
+  {
+    "id": "HERICENDRE_HIS",
+    "name": "Héricendre",
+    "url": "héricendre"
+  },
+  {
+    "id": "FEURISSON_HIS",
+    "name": "Feurisson",
+    "url": "feurisson"
+  },
+  {
+    "id": "TYPHLOSION_HIS",
+    "name": "Typhlosion",
+    "url": "typhlosion"
+  },
+  {
+    "id": "MOUSTILLON_HIS",
+    "name": "Moustillon",
+    "url": "moustillon"
+  },
+  {
+    "id": "MATELOUTRE_HIS",
+    "name": "Mateloutre",
+    "url": "mateloutre"
+  },
+  {
+    "id": "CLAMIRAL_HIS",
+    "name": "Clamiral",
+    "url": "clamiral"
+  },
+  {
+    "id": "CANINOS_HIS",
+    "name": "Caninos",
+    "url": "caninos"
+  },
+  {
+    "id": "ARCANIN_HIS",
+    "name": "Arcanin",
+    "url": "arcanin"
+  },
+  {
+    "id": "VOLTORBE_HIS",
+    "name": "Voltorbe",
+    "url": "voltorbe"
+  },
+  {
+    "id": "ELECTRODE_HIS",
+    "name": "Electrode",
+    "url": "electrode"
+  },
+  {
+    "id": "INSECATEUR_HIS",
+    "name": "Insécateur",
+    "url": "insécateur"
+  },
+  {
+    "id": "HACHECATEUR",
+    "name": "Hachécateur",
+    "url": "hachécateur"
+  },
+  {
+    "id": "QWILFISH_HIS",
+    "name": "Qwilfish",
+    "url": "qwilfish"
+  },
+  {
+    "id": "QWILPIK",
+    "name": "Qwilpik",
+    "url": "qwilpik"
+  },
+  {
+    "id": "FARFURET_HIS",
+    "name": "Farfuret",
+    "url": "farfuret"
+  },
+  {
+    "id": "FARFUREX",
+    "name": "Farfurex",
+    "url": "farfurex"
+  },
+  {
+    "id": "TEDDIURSA_HIS",
+    "name": "Teddiursa",
+    "url": "teddiursa"
+  },
+  {
+    "id": "URSARING_HIS",
+    "name": "Ursaring",
+    "url": "ursaring"
+  },
+  {
+    "id": "URSAKING_HIS",
+    "name": "Ursaking",
+    "url": "ursaking"
+  },
+  {
+    "id": "CERFROUSSE_HIS",
+    "name": "Cerfrousse",
+    "url": "cerfrousse"
+  },
+  {
+    "id": "CERBYLLIN",
+    "name": "Cerbyllin",
+    "url": "cerbyllin"
+  },
+  {
+    "id": "CHLOROBULE_HIS",
+    "name": "Chlorobule",
+    "url": "chlorobule"
+  },
+  {
+    "id": "FRAGILADY_HIS",
+    "name": "Fragilady",
+    "url": "fragilady"
+  },
+  {
+    "id": "BARGANTUA_HIS",
+    "name": "Bargantua",
+    "url": "bargantua"
+  },
+  {
+    "id": "PARAGRUEL",
+    "name": "Paragruel",
+    "url": "paragruel"
+  },
+  {
+    "id": "ZORUA_HIS",
+    "name": "Zorua",
+    "url": "zorua"
+  },
+  {
+    "id": "ZOROARK_HIS",
+    "name": "Zoroark",
+    "url": "zoroark"
+  },
+  {
+    "id": "MUCUSCULE_HIS",
+    "name": "Mucuscule",
+    "url": "mucuscule"
+  },
+  {
+    "id": "COLIMUCUS_HIS",
+    "name": "Colimucus",
+    "url": "colimucus"
+  },
+  {
+    "id": "MUPLODOCUS_HIS",
+    "name": "Muplodocus",
+    "url": "muplodocus"
+  },
+  {
+    "id": "FURAIGLON_HIS",
+    "name": "Furaiglon",
+    "url": "furaiglon"
+  },
+  {
+    "id": "GUERIAIGLE_HIS",
+    "name": "Gueriaigle",
+    "url": "gueriaigle"
+  },
+  {
+    "id": "GRELACON_HIS",
+    "name": "Grelaçon",
+    "url": "grelaçon"
+  },
+  {
+    "id": "SERACRAWL_HIS",
+    "name": "Séracrawl",
+    "url": "séracrawl"
+  },
+  {
+    "id": "DIALGA_HIS",
+    "name": "Dialga",
+    "url": "dialga"
+  },
+  {
+    "id": "PALKIA_HIS",
+    "name": "Palkia",
+    "url": "palkia"
+  },
+  {
+    "id": "ARCEUS",
+    "name": "Arceus",
+    "url": "arceus"
+  },
+  {
+    "id": "CUISTOQUE",
+    "name": "Cuistoque",
+    "url": "cuistoque"
+  },
+  {
+    "id": "TRISTECADRE",
+    "name": "Tristecadre",
+    "url": "tristecadre"
+  },
+  {
+    "id": "CADRALARME",
+    "name": "Cadralarme",
+    "url": "cadralarme"
+  },
+  {
+    "id": "TRISTEREFLET",
+    "name": "Tristereflet",
+    "url": "tristereflet"
+  },
+  {
+    "id": "VICTINI",
+    "name": "Victini",
+    "url": "victini"
+  },
+  {
+    "id": "COGNECHAMP",
+    "name": "Cognechamp",
+    "url": "cognechamp"
+  },
+  {
+    "id": "PARACHAMP",
+    "name": "Parachamp",
+    "url": "parachamp"
+  },
+  {
+    "id": "CHAMPARGNE",
+    "name": "Champargne",
+    "url": "champargne"
+  },
+  {
+    "id": "TRONCYDE",
+    "name": "Troncyde",
+    "url": "troncyde"
+  },
+  {
+    "id": "SYLVALEM",
+    "name": "Sylvalem",
+    "url": "sylvalem"
+  },
+  {
+    "id": "BACTERIBLE",
+    "name": "Bactérible",
+    "url": "bactérible"
+  },
+  {
+    "id": "PESTIFLASK",
+    "name": "Pestiflask",
+    "url": "pestiflask"
+  },
+  {
+    "id": "CHAPINOU",
+    "name": "Chapinou",
+    "url": "chapinou"
+  },
+  {
+    "id": "ABRALAPIBRA",
+    "name": "Abralapibra",
+    "url": "abralapibra"
+  },
+  {
+    "id": "VIBRADUSE",
+    "name": "Vibraduse",
+    "url": "vibraduse"
+  },
+  {
+    "id": "COROCHOC",
+    "name": "Corochoc",
+    "url": "corochoc"
+  },
+  {
+    "id": "COSMOPLASM",
+    "name": "Cosmoplasm",
+    "url": "cosmoplasm"
+  },
+  {
+    "id": "TETANOX",
+    "name": "Tétanox",
+    "url": "tétanox"
+  },
+  {
+    "id": "CURRATOX",
+    "name": "Curratox",
+    "url": "curratox"
+  },
+  {
+    "id": "TOURBIPTION",
+    "name": "Tourbiption",
+    "url": "tourbiption"
+  },
+  {
+    "id": "TOURBINI",
+    "name": "Tourbini",
+    "url": "tourbini"
+  },
+  {
+    "id": "TOURBIFER",
+    "name": "Tourbifer",
+    "url": "tourbifer"
+  },
+  {
+    "id": "MISTIRAIL",
+    "name": "Mistirail",
+    "url": "mistirail"
+  },
+  {
+    "id": "CHETIFLOR_RHO",
+    "name": "Chétiflor",
+    "url": "chétiflor"
+  },
+  {
+    "id": "BOUSTIFLOR_RHO",
+    "name": "Boustiflor",
+    "url": "boustiflor"
+  },
+  {
+    "id": "EMPIFLOR_RHO",
+    "name": "Empiflor",
+    "url": "empiflor"
+  },
+  {
+    "id": "PLANTASOIF",
+    "name": "Plantasoif",
+    "url": "plantasoif"
+  },
+  {
+    "id": "DYNAPIK",
+    "name": "Dynapik",
+    "url": "dynapik"
+  },
+  {
+    "id": "PINERIK",
+    "name": "Pinérik",
+    "url": "pinérik"
+  },
+  {
+    "id": "TISTOILE",
+    "name": "Tistoile",
+    "url": "tistoile"
+  },
+  {
+    "id": "TENTATOILE",
+    "name": "Tentatoile",
+    "url": "tentatoile"
+  },
+  {
+    "id": "HYPNOTIF",
+    "name": "Hypnotif",
+    "url": "hypnotif"
+  },
+  {
+    "id": "TADBETON",
+    "name": "Tadbéton",
+    "url": "tadbéton"
+  },
+  {
+    "id": "GROTADBETON",
+    "name": "Grotadbéton",
+    "url": "grotadbéton"
+  },
+  {
+    "id": "VEROVNI",
+    "name": "Verovni",
+    "url": "verovni"
+  },
+  {
+    "id": "PLASMALIEN",
+    "name": "Plasmalien",
+    "url": "plasmalien"
+  },
+  {
+    "id": "ESCARONE",
+    "name": "Escarone",
+    "url": "escarone"
+  },
+  {
+    "id": "SYNARGOT",
+    "name": "Synargot",
+    "url": "synargot"
+  },
+  {
+    "id": "MARACACHI_RHO",
+    "name": "Maracachi",
+    "url": "maracachi"
+  },
+  {
+    "id": "MARACADIA",
+    "name": "Maracadia",
+    "url": "maracadia"
+  },
+  {
+    "id": "CARNACTON",
+    "name": "Carnacton",
+    "url": "carnacton"
+  },
+  {
+    "id": "CARCARTICUL",
+    "name": "Carcarticul",
+    "url": "carcarticul"
+  },
+  {
+    "id": "SILIDIENNE",
+    "name": "Silidienne",
+    "url": "silidienne"
+  },
+  {
+    "id": "OBSINITHE",
+    "name": "Obsinithe",
+    "url": "obsinithe"
+  },
+  {
+    "id": "OBSILOSSE",
+    "name": "Obsilosse",
+    "url": "obsilosse"
+  },
+  {
+    "id": "CURABOUC",
+    "name": "Curabouc",
+    "url": "curabouc"
+  },
+  {
+    "id": "BROCELOME_FER",
+    "name": "Brocelome",
+    "url": "brocelome"
+  },
+  {
+    "id": "DESSELIANDE_FER",
+    "name": "Desseliande",
+    "url": "desseliande"
+  },
+  {
+    "id": "MELTAN",
+    "name": "Meltan",
+    "url": "meltan"
+  },
+  {
+    "id": "MELMETAL",
+    "name": "Melmetal",
+    "url": "melmetal"
+  },
+  {
+    "id": "MECHAELLE",
+    "name": "Méchaëlle",
+    "url": "méchaëlle"
+  },
+  {
+    "id": "ANDROELLE",
+    "name": "Androëlle",
+    "url": "androëlle"
+  },
+  {
+    "id": "SIGNALITI",
+    "name": "Signaliti",
+    "url": "signaliti"
+  },
+  {
+    "id": "SIGNALETON",
+    "name": "Signaléton",
+    "url": "signaléton"
+  },
+  {
+    "id": "AZURIN",
+    "name": "Azurin",
+    "url": "azurin"
+  },
+  {
+    "id": "FLUTELINE",
+    "name": "Flûteline",
+    "url": "flûteline"
+  },
+  {
+    "id": "TORGRANIT",
+    "name": "Torgranit",
+    "url": "torgranit"
+  },
+  {
+    "id": "TOROBUSTE",
+    "name": "Torobuste",
+    "url": "torobuste"
+  },
+  {
+    "id": "TORMETHYSTE",
+    "name": "Torméthyste",
+    "url": "torméthyste"
+  },
+  {
+    "id": "MORVONEZ",
+    "name": "Morvonez",
+    "url": "morvonez"
+  },
+  {
+    "id": "FLAMOOKEY",
+    "name": "Flamookey",
+    "url": "flamookey"
+  },
+  {
+    "id": "PYROSOPHE",
+    "name": "Pyrosophe",
+    "url": "pyrosophe"
+  },
+  {
+    "id": "CAUCHRONIX",
+    "name": "Cauchronix",
+    "url": "cauchronix"
+  },
+  {
+    "id": "CHARATE",
+    "name": "Charaté",
+    "url": "charaté"
+  },
+  {
+    "id": "PHARATE",
+    "name": "Pharaté",
+    "url": "pharaté"
+  },
+  {
+    "id": "SCARATE",
+    "name": "Scaraté",
+    "url": "scaraté"
+  },
+  {
+    "id": "ORPHAVOILE",
+    "name": "Orphavoile",
+    "url": "orphavoile"
+  },
+  {
+    "id": "DAMAVOILE",
+    "name": "Damavoile",
+    "url": "damavoile"
+  },
+  {
+    "id": "CORRIVEAU",
+    "name": "Corriveau",
+    "url": "corriveau"
+  },
+  {
+    "id": "PHARADOR",
+    "name": "Pharador",
+    "url": "pharador"
+  },
+  {
+    "id": "COLINECTAR",
+    "name": "Colinectar",
+    "url": "colinectar"
+  },
+  {
+    "id": "GRIPNITH",
+    "name": "Gripnith",
+    "url": "gripnith"
+  },
+  {
+    "id": "GRIPNATE",
+    "name": "Gripnate",
+    "url": "gripnate"
+  },
+  {
+    "id": "CANHARA",
+    "name": "Canhara",
+    "url": "canhara"
+  },
+  {
+    "id": "OANARD",
+    "name": "Oanard",
+    "url": "oanard"
+  },
+  {
+    "id": "MIGRACANNE",
+    "name": "Migracanne",
+    "url": "migracanne"
+  },
+  {
+    "id": "FOURMINAGE",
+    "name": "Fourminage",
+    "url": "fourminage"
+  },
+  {
+    "id": "COCONPHAGE",
+    "name": "Coconphage",
+    "url": "coconphage"
+  },
+  {
+    "id": "FOUVERINE",
+    "name": "Fouverine",
+    "url": "fouverine"
+  },
+  {
+    "id": "EOLUNE",
+    "name": "Éolune",
+    "url": "éolune"
+  },
+  {
+    "id": "LUNISTRAL",
+    "name": "Lunistral",
+    "url": "lunistral"
+  },
+  {
+    "id": "KAKTRIK",
+    "name": "Kaktrik",
+    "url": "kaktrik"
+  },
+  {
+    "id": "KAKNERON",
+    "name": "Kaknéron",
+    "url": "kaknéron"
+  },
+  {
+    "id": "COBRINI",
+    "name": "Cobrini",
+    "url": "cobrini"
+  },
+  {
+    "id": "COBRASPIC",
+    "name": "Cobraspic",
+    "url": "cobraspic"
+  },
+  {
+    "id": "LAMPINIE",
+    "name": "Lampinie",
+    "url": "lampinie"
+  },
+  {
+    "id": "DJINIE",
+    "name": "Djinie",
+    "url": "djinie"
+  },
+  {
+    "id": "CACNEA_YAL",
+    "name": "Cacnea",
+    "url": "cacnea"
+  },
+  {
+    "id": "CACMARAVE",
+    "name": "Cacmarave",
+    "url": "cacmarave"
+  },
+  {
+    "id": "CHAMALLOT_YAL",
+    "name": "Chamallot",
+    "url": "chamallot"
+  },
+  {
+    "id": "CHAMOASIS",
+    "name": "Chamoasis",
+    "url": "chamoasis"
+  },
+  {
+    "id": "ZEPHAVANE",
+    "name": "Zéphavane",
+    "url": "zéphavane"
+  },
+  {
+    "id": "PHASMARDENT",
+    "name": "Phasmardent",
+    "url": "phasmardent"
+  },
+  {
+    "id": "AMOVENUS",
+    "name": "Amovénus",
+    "url": "amovénus"
+  },
+  {
+    "id": "DEMETEROS",
+    "name": "Démétéros",
+    "url": "démétéros"
+  },
+  {
+    "id": "FULGURIS",
+    "name": "Fulguris",
+    "url": "fulguris"
+  },
+  {
+    "id": "BOREAS",
+    "name": "Boréas",
+    "url": "boréas"
+  },
+  {
+    "id": "ANXIONAX",
+    "name": "Anxionax",
+    "url": "anxionax"
+  },
+  {
+    "id": "THERMONAX",
+    "name": "Thermonax",
+    "url": "thermonax"
+  },
+  {
+    "id": "HOOPA",
+    "name": "Hoopa",
+    "url": "hoopa"
+  },
+  {
+    "id": "DYNAGLIER",
+    "name": "Dynaglier",
+    "url": "dynaglier"
+  },
+  {
+    "id": "SOUCHTACHE",
+    "name": "Souchtache",
+    "url": "souchtache"
+  },
+  {
+    "id": "AUGUSTACHE",
+    "name": "Augustache",
+    "url": "augustache"
+  },
+  {
+    "id": "BRIKUITE",
+    "name": "Brikuite",
+    "url": "brikuite"
+  },
+  {
+    "id": "PARBRIK",
+    "name": "Parbrik",
+    "url": "parbrik"
+  },
+  {
+    "id": "CASTABRIK",
+    "name": "Castabrik",
+    "url": "castabrik"
+  },
+  {
+    "id": "GLASPIC",
+    "name": "Glaspic",
+    "url": "glaspic"
+  },
+  {
+    "id": "GLANACONDA",
+    "name": "Glanaconda",
+    "url": "glanaconda"
+  },
+  {
+    "id": "TERRALARVE",
+    "name": "Terralarve",
+    "url": "terralarve"
+  },
+  {
+    "id": "TERRACOCON",
+    "name": "Terracocon",
+    "url": "terracocon"
+  },
+  {
+    "id": "TERRASSIER",
+    "name": "Terrassier",
+    "url": "terrassier"
+  },
+  {
+    "id": "FRIMARMOTTE",
+    "name": "Frimarmotte",
+    "url": "frimarmotte"
+  },
+  {
+    "id": "MARMALPIN",
+    "name": "Marmalpin",
+    "url": "marmalpin"
+  },
+  {
+    "id": "URNANIMA",
+    "name": "Urnanima",
+    "url": "urnanima"
+  },
+  {
+    "id": "PHIONE",
+    "name": "Phione",
+    "url": "phione"
+  },
+  {
+    "id": "MANAPHY",
+    "name": "Manaphy",
+    "url": "manaphy"
+  },
+  {
+    "id": "RACKETTE",
+    "name": "Rackette",
+    "url": "rackette"
+  },
+  {
+    "id": "NENILLULE",
+    "name": "Nénillule",
+    "url": "nénillule"
+  },
+  {
+    "id": "SCARAJET",
+    "name": "Scarajet",
+    "url": "scarajet"
+  },
+  {
+    "id": "DIAMOISELLE",
+    "name": "Diamoiselle",
+    "url": "diamoiselle"
+  },
+  {
+    "id": "SANGLUANT",
+    "name": "Sangluant",
+    "url": "sangluant"
+  },
+  {
+    "id": "STALGAPIK",
+    "name": "Stalgapik",
+    "url": "stalgapik"
+  },
+  {
+    "id": "GLAGTITE",
+    "name": "Glagtite",
+    "url": "glagtite"
+  },
+  {
+    "id": "MAGMATITE",
+    "name": "Magmatite",
+    "url": "magmatite"
+  },
+  {
+    "id": "SQUAILERON",
+    "name": "Squaileron",
+    "url": "squaileron"
+  },
+  {
+    "id": "YACKIAFROID",
+    "name": "Yackiafroid",
+    "url": "yackiafroid"
+  },
+  {
+    "id": "TOUNDRYACK",
+    "name": "Toundryack",
+    "url": "toundryack"
+  },
+  {
+    "id": "LOUNE",
+    "name": "Loune",
+    "url": "loune"
+  },
+  {
+    "id": "GLENRIR",
+    "name": "Glenrir",
+    "url": "glenrir"
+  },
+  {
+    "id": "DIABAZAR",
+    "name": "Diabazar",
+    "url": "diabazar"
+  },
+  {
+    "id": "COLLUSQUE",
+    "name": "Collusque",
+    "url": "collusque"
+  },
+  {
+    "id": "COQUILLON",
+    "name": "Coquillon",
+    "url": "coquillon"
+  },
+  {
+    "id": "PACILLON",
+    "name": "Pacillon",
+    "url": "pacillon"
+  },
+  {
+    "id": "JOMANTIN",
+    "name": "Jomantin",
+    "url": "jomantin"
+  },
+  {
+    "id": "NARVALIN",
+    "name": "Narvalin",
+    "url": "narvalin"
+  },
+  {
+    "id": "PEKIIGNON",
+    "name": "Pekiignon",
+    "url": "pekiignon"
+  },
+  {
+    "id": "FULMIGUS",
+    "name": "Fulmigus",
+    "url": "fulmigus"
+  },
+  {
+    "id": "DODOALA_OBL",
+    "name": "Dodoala",
+    "url": "dodoala"
+  },
+  {
+    "id": "BACABOUH_OBL",
+    "name": "Bacabouh",
+    "url": "bacabouh"
+  },
+  {
+    "id": "TREPANEIGE",
+    "name": "Trépaneige",
+    "url": "trépaneige"
+  },
+  {
+    "id": "TAPIRAVE",
+    "name": "Tapirave",
+    "url": "tapirave"
+  },
+  {
+    "id": "TAPIRNAISE",
+    "name": "Tapirnaise",
+    "url": "tapirnaise"
+  },
+  {
+    "id": "DAMERANTE",
+    "name": "Damérante",
+    "url": "damérante"
+  },
+  {
+    "id": "CADRUMUS",
+    "name": "Cadrumus",
+    "url": "cadrumus"
+  },
+  {
+    "id": "HORLUMUS",
+    "name": "Horlumus",
+    "url": "horlumus"
+  },
+  {
+    "id": "PERLABYSS",
+    "name": "Perlabyss",
+    "url": "perlabyss"
+  },
+  {
+    "id": "CAPRINELLE",
+    "name": "Caprinelle",
+    "url": "caprinelle"
+  },
+  {
+    "id": "CHATOURON",
+    "name": "Chatouron",
+    "url": "chatouron"
+  },
+  {
+    "id": "GRORONRON",
+    "name": "Groronron",
+    "url": "groronron"
+  },
+  {
+    "id": "RANIPEDE",
+    "name": "Ranipède",
+    "url": "ranipède"
+  },
+  {
+    "id": "KAVABATRAX",
+    "name": "Kavabatrax",
+    "url": "kavabatrax"
+  },
+  {
+    "id": "INFESTIQUE",
+    "name": "Infestique",
+    "url": "infestique"
+  },
+  {
+    "id": "MOSKIDRAIN",
+    "name": "Moskidrain",
+    "url": "moskidrain"
+  },
+  {
+    "id": "RASSIGNOL",
+    "name": "Rassignol",
+    "url": "rassignol"
+  },
+  {
+    "id": "TEKTEK",
+    "name": "Tektek",
+    "url": "tektek"
+  },
+  {
+    "id": "TOTEMEK",
+    "name": "Totemek",
+    "url": "totemek"
+  },
+  {
+    "id": "FIXIBOO",
+    "name": "Fixiboo",
+    "url": "fixiboo"
+  },
+  {
+    "id": "KIMIBOO",
+    "name": "Kimiboo",
+    "url": "kimiboo"
+  },
+  {
+    "id": "GOBETOX",
+    "name": "Gobetox",
+    "url": "gobetox"
+  },
+  {
+    "id": "ARISTOXIC",
+    "name": "Aristoxic",
+    "url": "aristoxic"
+  },
+  {
+    "id": "PANDAZEN",
+    "name": "Pandazen",
+    "url": "pandazen"
+  },
+  {
+    "id": "TANDACHI",
+    "name": "Tandachi",
+    "url": "tandachi"
+  }
+]
