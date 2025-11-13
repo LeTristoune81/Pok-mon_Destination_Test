@@ -113,21 +113,33 @@ function renderLieuPage(){
       if(h1) h1.textContent = lieu.name;
 
       // --------- Image du lieu ---------
-      const imgEl = document.getElementById("lieu-image");
-      if (imgEl) {
-        const cfg = LIEU_IMAGE_CONFIG[region];
-        if (cfg) {
-          const fileName = lieu.slug + cfg.ext; // ex: route_1_bourg_palette.png
-          imgEl.src = cfg.base + fileName;
-          imgEl.alt = "Carte de " + lieu.name;
+     const imgEl = document.getElementById("lieu-image");
+if (imgEl) {
+  const cfg = LIEU_IMAGE_CONFIG[region];
+  if (cfg) {
+    const fileName = lieu.slug + cfg.ext; // ex: route_1_bourg_palette.png
+    imgEl.src = cfg.base + fileName;
+    imgEl.alt = "Carte de " + lieu.name;
 
-          imgEl.onerror = () => {
-            imgEl.style.display = "none";
-          };
-        } else {
-          imgEl.style.display = "none";
-        }
+    imgEl.onerror = () => {
+      imgEl.style.display = "none";
+    };
+
+    // 🔍 Click = ouvrir en grand
+    imgEl.onclick = () => {
+      const box = document.getElementById("lieu-lightbox");
+      const boxImg = document.getElementById("lieu-lightbox-img");
+      if (box && boxImg) {
+        boxImg.src = imgEl.src;
+        boxImg.alt = imgEl.alt;
+        box.classList.add("is-visible");
       }
+    };
+  } else {
+    imgEl.style.display = "none";
+  }
+}
+
 
       // ------- utilitaire : gère chaînes OU objets -------
       function addSection(title, list){
@@ -217,4 +229,24 @@ function renderLieuPage(){
 document.addEventListener("DOMContentLoaded", () => {
   renderLieuxPage();
   renderLieuPage();
+
+  const box = document.getElementById("lieu-lightbox");
+  const boxImg = document.getElementById("lieu-lightbox-img");
+
+  if (box) {
+    // Clic sur le fond noir = fermer
+    box.addEventListener("click", (e) => {
+      if (e.target === box) {
+        box.classList.remove("is-visible");
+      }
+    });
+  }
+
+  // Touche Échap = fermer
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && box) {
+      box.classList.remove("is-visible");
+    }
+  });
 });
+
