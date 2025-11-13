@@ -199,22 +199,21 @@ function addSimpleSection(title, list){
   const h2 = document.createElement("h2");
   h2.textContent = title;
 
-  const ul = document.createElement("ul");
+  // On récupère seulement les noms
+  const noms = list.map(entry =>
+    (typeof entry === "string") ? entry : entry.name
+  );
 
-  list.forEach(entry => {
-    const li = document.createElement("li");
-
-    // entry peut être "Potion" OU { name: "Potion" }
-    const nom = (typeof entry === "string") ? entry : entry.name;
-
-    li.textContent = nom;
-    ul.appendChild(li);
-  });
+  // On crée un texte unique : "Antidote, Poké ball, Potion"
+  const p = document.createElement("p");
+  p.className = "pd-lieu-simple-line";
+  p.textContent = noms.join(", ");
 
   section.appendChild(h2);
-  section.appendChild(ul);
+  section.appendChild(p);
   container.appendChild(section);
 }
+
 
 
 // -------- Sauvages / Jour / Nuit --------
@@ -223,10 +222,10 @@ const jour = lieu.jour || [];
 const nuit = lieu.nuit || [];
 
 if(sauvage.length){
-  addPokemonSection("Pokémon sauvages", sauvage);
+  addPokemonSection("Pokémon Sauvages", sauvage);
 } else {
-  if(jour.length) addPokemonSection("Pokémon sauvages — Jour", jour);
-  if(nuit.length) addPokemonSection("Pokémon sauvages — Nuit", nuit);
+  if(jour.length) addPokemonSection("Pokémon Sauvages — Jour", jour);
+  if(nuit.length) addPokemonSection("Pokémon Sauvages — Nuit", nuit);
 }
 
 // -------- Autres catégories Pokémon --------
@@ -239,10 +238,10 @@ addPokemonSection("Éclate-Roc", lieu.rocksmash);
 addPokemonSection("Poké Radar", lieu.pokeradar);
 
 // -------- Catégories simples (OBJETS / BAIES / BOUTIQUES) --------
-addSimpleSection("Objets trouvables", lieu.objets);
+addSimpleSection("Objets Trouvables", lieu.objets);
 addSimpleSection("Baies", lieu.baies);
 addSimpleSection("Boutique", lieu.boutique);
-addSimpleSection("Boutique d’arène", lieu.boutique_arene);
+addSimpleSection("Boutique d’Arène", lieu.boutique_arene);
 
     })
     .catch(err => {
