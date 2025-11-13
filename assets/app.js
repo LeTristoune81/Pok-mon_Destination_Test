@@ -129,7 +129,6 @@ function linkifyEvo(p, region){
       const href = baseHref + encodeURIComponent(String(name).toLowerCase());
       if (e.method === 'Level' && e.level != null) return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> au niveau ' + e.level;
       if (e.method === 'Trade') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> par échange';
-      if (e.method === 'Happiness') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> avec le Bonheur';
       if (e.method === 'Happiness'){
   const nuit = (e.time === 'night') ? ' de Nuit' : (e.time === 'day' ? ' de Jour' : '');
   return 'Évolue en <a href="' + href + '" class="evo-link">'
