@@ -7894,7 +7894,7 @@
     ],
     "hidden_ability": "Infiltration",
     "evolution": "Évolue en Nostenfer avec Bonheur de Nuit",
-    "evolutions_detailed": [
+    "evolutions_detailed": []
       {
         "target_token": "NOSTENFER",
         "target_name": "Nostenfer",
