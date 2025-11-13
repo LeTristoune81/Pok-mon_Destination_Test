@@ -1,4 +1,4 @@
-// app_lieux.js — gestion des pages lieux.html et lieu.html
+// app_lieux.js — gestion des pages Liste_Lieux.html et Fiche_Detaille.html
 
 async function loadJSON(url){
   const res = await fetch(url);
@@ -21,7 +21,7 @@ function slugifyLocal(str){
 }
 
 const REGION_LIEUX_FILE = {
-  "Kanto": "lieux_kanto_simple.json"
+  "Kanto": "lieux_kanto_detail.json"
   // plus tard : Johto, Hoenn, etc.
 };
 
@@ -46,7 +46,7 @@ function renderLieuxPage(){
     return;
   }
 
-  loadJSON("../data/" + file)
+  loadJSON("../data/Lieux" + file)
     .then(data => {
       if(!Array.isArray(data) || !data.length){
         listEl.textContent = "Aucun lieu trouvé.";
@@ -57,7 +57,7 @@ function renderLieuxPage(){
         const li = document.createElement("li");
         const a = document.createElement("a");
         a.textContent = lieu.name;
-        a.href = "lieu.html?r=" + encodeURIComponent(region) +
+        a.href = "Fiche_Detaille.html?r=" + encodeURIComponent(region) +
                  "&l=" + encodeURIComponent(lieu.slug);
         li.appendChild(a);
         ul.appendChild(li);
@@ -81,7 +81,7 @@ function renderLieuPage(){
   const backList = document.getElementById("back-list");
 
   if(backList){
-    backList.href = "lieux.html?r=" + encodeURIComponent(region);
+    backList.href = "Liste_Lieux.html?r=" + encodeURIComponent(region);
   }
 
   const file = REGION_LIEUX_FILE[region];
