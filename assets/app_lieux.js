@@ -18,7 +18,7 @@ const REGION_LIEUX_FILE = {
 // Config des images de lieux par région
 const LIEU_IMAGE_CONFIG = {
   "Kanto": {
-    base: "../../assets/Lieux/Kanto/", // dossier où tu as mis les images
+    base: "../../assets/Lieux/kanto/", // dossier où tu as mis les images
     ext: ".png"                         // extension des fichiers
   }
 };
