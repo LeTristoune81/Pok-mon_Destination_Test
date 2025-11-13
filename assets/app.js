@@ -129,13 +129,15 @@ function linkifyEvo(p, region){
       const href = baseHref + encodeURIComponent(String(name).toLowerCase());
       if (e.method === 'Level' && e.level != null) return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> au niveau ' + e.level;
       if (e.method === 'Trade') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> par échange';
-      if (e.method === 'Happiness') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> avec une grande amitié';
+      if (e.method === 'Happiness') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> avec le Bonheur';
+      if (e.method === 'HappinessNight') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> avec le Bonheur la Nuit ';
+
       if (e.method === 'HoldItem' || e.method === 'NightHoldItem'){
         const when = e.time === 'night' ? ' la nuit' : '';
         return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> en tenant l\'objet ' + (e.item_name || e.item_token) + when;
       }
       if (e.method === 'Item') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> en utilisant ' + (e.item_name || e.item_token);
-      if (e.method === 'HasMove') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> en connaissant ' + (e.move_name || e.move_token);
+      if (e.method === 'HasMove') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> en connaissant' + (e.move_name || e.move_token);
       if (e.method === 'HasMoveType') return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a> en connaissant une attaque de type ' + e.move_type;
       return 'Évolue en <a href="' + href + '" class="evo-link">' + name + '</a>';
     });
