@@ -12,7 +12,7 @@ function getParams(){
 
 // Dossier où TU as mis les fichiers :
 const REGION_LIEUX_FILE = {
-  "Kanto": "lieux_kanto_simple.json"
+  "Kanto": "lieux_kanto_detail.json"
 };
 
 // ==========================
