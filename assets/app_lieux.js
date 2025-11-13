@@ -46,7 +46,7 @@ function renderLieuxPage(){
     return;
   }
 
-  loadJSON("../data/Lieux" + file)
+  loadJSON("../../data/Lieux" + file)
     .then(data => {
       if(!Array.isArray(data) || !data.length){
         listEl.textContent = "Aucun lieu trouvé.";
@@ -90,7 +90,7 @@ function renderLieuPage(){
     return;
   }
 
-  loadJSON("../data/" + file)
+  loadJSON("../../data/" + file)
     .then(data => {
       const lieu = data.find(l => l.slug === slug);
       if(!lieu){
