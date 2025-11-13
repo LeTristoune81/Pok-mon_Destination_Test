@@ -186,6 +186,71 @@ ul.list, ul {
 }
 
 
+/* ====== Pages Lieux ====== */
+
+.pd-lieux-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.pd-lieux-header {
+  margin-bottom: 1.5rem;
+}
+
+.pd-lieux-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.25rem 0 0;
+}
+
+.pd-lieux-back {
+  display: inline-block;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  text-decoration: none;
+  color: #9ca3af; /* gris clair */
+}
+
+.pd-lieux-back:hover {
+  color: #e5e7eb;
+  text-decoration: underline;
+}
+
+/* Carte contenant la liste */
+.pd-lieux-card {
+  background: rgba(15, 23, 42, 0.9); /* bleu nuit semi-transparent */
+  border-radius: 12px;
+  padding: 1rem 1.25rem 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* Grille de lieux */
+#lieux-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.4rem 1rem;
+}
+
+#lieux-list li {
+  margin: 0;
+}
+
+#lieux-list a {
+  display: inline-block;
+  padding: 0.1rem 0;
+  text-decoration: none;
+  color: #e5e7eb;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+#lieux-list a:hover {
+  color: #38bdf8;           /* un petit bleu clair pour le hover */
+  transform: translateX(3px);
+}
 
 
 
