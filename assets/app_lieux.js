@@ -97,25 +97,41 @@ function renderLieuPage(){
         return;
       }
 
-      document.getElementById("lieu-name").textContent = lieu.name;
+      const h1 = document.getElementById("lieu-name");
+      if(h1) h1.textContent = lieu.name;
 
+      // ------- utilitaire : gère chaînes OU objets -------
       function addSection(title, list){
         if(!list || !list.length) return;
 
         const section = document.createElement("section");
-        const h2 = document.createElement("h2");
-        const ul = document.createElement("ul");
+        section.className = "pd-lieu-section";
 
+        const h2 = document.createElement("h2");
         h2.textContent = title;
 
-        list.forEach(n => {
+        const ul = document.createElement("ul");
+
+        list.forEach(entry => {
           const li = document.createElement("li");
           const a = document.createElement("a");
 
-          a.textContent = n;
-          a.href = "../../pokemon.html?r=" + region + "&n=" + encodeURIComponent(n.toLowerCase());
+          // entry peut être "Rattata" OU { id, name, rate, lvl_min, lvl_max }
+          const nom = (typeof entry === "string") ? entry : entry.name;
+
+          a.textContent = nom;
+          a.href = "../../pokemon.html?r=" + region +
+                   "&n=" + encodeURIComponent(nom.toLowerCase());
 
           li.appendChild(a);
+
+          // Si tu veux afficher les niveaux plus tard :
+          // if (entry.lvl_min !== undefined) {
+          //   const span = document.createElement("span");
+          //   span.textContent = " (niv. " + entry.lvl_min + "–" + entry.lvl_max + ")";
+          //   li.appendChild(span);
+          // }
+
           ul.appendChild(li);
         });
 
@@ -124,14 +140,19 @@ function renderLieuPage(){
         container.appendChild(section);
       }
 
-      // Sauvages / Jour / Nuit
-      if(lieu.sauvage.length){
-        addSection("Pokémon sauvages", lieu.sauvage);
+      // -------- Sauvages / Jour / Nuit --------
+      const sauvage = lieu.sauvage || [];
+      const jour = lieu.jour || [];
+      const nuit = lieu.nuit || [];
+
+      if(sauvage.length){
+        addSection("Pokémon sauvages", sauvage);
       } else {
-        addSection("Pokémon sauvages — Jour", lieu.jour);
-        addSection("Pokémon sauvages — Nuit", lieu.nuit);
+        if(jour.length) addSection("Pokémon sauvages — Jour", jour);
+        if(nuit.length) addSection("Pokémon sauvages — Nuit", nuit);
       }
 
+      // -------- Autres catégories --------
       addSection("Surf", lieu.surf);
       addSection("Canne", lieu.canne);
       addSection("Super Canne", lieu.super_canne);
@@ -140,12 +161,18 @@ function renderLieuPage(){
       addSection("Éclate-Roc", lieu.rocksmash);
       addSection("Poké Radar", lieu.pokeradar);
 
+      // Ces sections n'apparaissent que si non vides
       addSection("Objets trouvables", lieu.objets);
       addSection("Baies", lieu.baies);
       addSection("Boutique", lieu.boutique);
       addSection("Boutique d’arène", lieu.boutique_arene);
+    })
+    .catch(err => {
+      console.error(err);
+      container.textContent = "Erreur lors du chargement du lieu.";
     });
 }
+
 
 
 // ==========================
