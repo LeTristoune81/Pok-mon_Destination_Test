@@ -152,8 +152,8 @@
         "lvl_max": 4
       }
     ],
-    "objets": ["Antidote", "Poké ball", "Potion"]
-    "baies": ["Ceriz", "Oran"]
+    "objets": ["Antidote", "Poké ball", "Potion"],
+    "baies": ["Ceriz", "Oran"],
     "boutique": [],
     "boutique_arene": []
   },
