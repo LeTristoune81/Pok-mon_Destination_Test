@@ -2,10 +2,10 @@
 
 
 const ITEM_ICONS = {
-  "Objets trouvables": "../../assets/icone/objets_trouvable.png",
+  "Objets Trouvables": "../../assets/icone/objets_trouvable.png",
   "Baies": "../../assets/icone/baies.png",
   "Boutique": "../../assets/icone/boutique.png",
-  "Boutique d’arène": "../../assets/icone/boutique_arene.png"
+  "Boutique d’Arène": "../../assets/icone/boutique_arene.png"
 };
 
 
