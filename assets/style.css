@@ -306,4 +306,25 @@ ul.list, ul {
 .pd-lieu-section a:hover {
   color: #38bdf8;
 }
+/* ====== Fiche Lieu : Pokémon ====== */
+
+.pd-lieu-section li {
+  margin: 0.1rem 0;
+}
+
+.pd-lieu-pkm-link {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: 500;
+}
+
+.pd-lieu-pkm-link:hover {
+  color: #38bdf8;
+}
+
+.pd-lieu-meta {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  margin-left: 0.35rem;
+}
 
