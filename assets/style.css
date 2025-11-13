@@ -335,6 +335,12 @@ ul.list, ul {
   position: relative;               /* référence pour l'image en absolu */
   display: block;
 }
+.pd-lieu-simple-line {
+  margin: 0.2rem 0 0;
+  color: #e5e7eb;
+  font-size: 0.95rem;
+}
+
 
 /* le titre occupe tout l'espace, l'image flotte par-dessus */
 .pd-lieu-header-main h1 {
