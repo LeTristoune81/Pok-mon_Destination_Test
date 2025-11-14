@@ -1107,8 +1107,8 @@
       { 
         "name": "Rézo Cadoizo", 
         "category": "rezo",
-        "Items": ["Pierre Stase", "Restes", "Graine Miracle", "Charbon Sec", "Eau Mystique", "Bandeau", "Loupe", "Casque Brut", "Évoluroc", "Vive Griffe", "Gant de Boxe", "Dé Pipé", "Pare-Effet", "Carapace Mue", "Bande Étreinte", "Orbe Frousse", "Orbe Vie", "Piquants", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"] 
-        },
+        "items": ["Pierre Stase", "Restes", "Graine Miracle", "Charbon Sec", "Eau Mystique", "Bandeau", "Loupe", "Casque Brut", "Évoluroc", "Vive Griffe", "Gant de Boxe", "Dé Pipé", "Pare-Effet", "Carapace Mue", "Bande Étreinte", "Orbe Frousse", "Orbe Vie", "Piquants", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"] 
+         }],
 
    { 
      "boutique_arene": ["Filet Ball", "Appât Ball", "Eau Mystique", "Vive Griffe", "Métronome", "Point de Mire", "Montagnard (Kanto)", "Intello (Kanto)", "Fillette (Kanto)", "Costume Eau"]
