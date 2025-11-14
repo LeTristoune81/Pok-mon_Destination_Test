@@ -3934,62 +3934,79 @@
     "objets": [],
     "baies": [],
     "boutique": [
-{ "name": "Sakado", 
-  "category": "divers", 
-  "items": ["Costume Indigo", "Gamin (Kanto)"] }, 
-      
-{ "name": "Mode Modique", 
-  "category": "divers", 
-  "items": ["Campeur (Kanto)", "Montagnard (Kanto)", "Fillette (Kanto)", "Gentleman (Kanto)"] }, 
-
-{ "name": "Sombre Héros", 
-  "category": "divers", 
-  "items": ["Campeur (Kanto)", "Scout (Kanto)"] }, 
-      
-{ "name": "Rézo Cadoizo", 
-  "category": "rezo", 
-  
-  "daily": { "Lundi": ["Caoutchouc", "Aimant", "Griffe Froide", "Larme Lune", "Absorb'Bulbe", "Orbe Toxique", "Poudreclaire", "Oeuf Chance", "Soin Ball", "Faiblo Ball", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"], 
-             "Mardi": ["Eau Mystique", "Écorce dure", "Sable Doux", "Cuillère Tordue", "Amulette Jade", "Roche Royale", "Pièce Rune", "Carapace Mue", "Lunettes Choix", "Niveau Ball", "Lune Ball", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"], 
-             "Mercredi":["Mouchoir Soie", "Obsipoigne", "Peau Métal", "Rune Sort", "Métronome", "Lentille Zoom", "Orbe Flamme", "Pare-Effet", "Scuba Ball", "Masse Ball", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"], 
-             "Jeudi": ["Ceinture Noire", "Poudre Argentée", "Boule Boue", "Plume Enchantée", "Lunettes Noires", "Ralentiqueue", "Accro Griffe", "Restes", "Grosse Racine", "Sombre Ball", "Hasard Ball", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"], 
-             "Vendredi":["Charbon Sec", "Catalyseur", "Pierre Dure", "Glacéternel", "Vieille Amulette", "Éclat d'Aube", "Bandeau", "Boue Noire", "Ceinture Force", "Orbe Vie", "Bis Ball", "Love Ball", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"], 
-             "Samedi": ["Perle Abysse", "Bec Pointu", "Ambre Fossilisé", "Croc Dragon", "Cristal Mystère", "Piquants", "Bandeau Choix", "Lichen Lumineux", "Casque Brut", "Luxe Ball", "Speed Ball", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"], 
-             "Dimanche":["Graine Miracle", "Terre Fraîche", "Machine Étrange", "Joli Ruban", "Pierre Infini", "Lumargile", "Gant de Boxe", "Protec-Score", "Point de Mire", "Chrono Ball", "Appât Ball", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"] } }, 
-      
-  { "name": "Troquet Afond", 
-    "category": "resto", 
-    "items": ["Galette Illumis", "Crok'Argenta", "Jus de Baie", "Malasada Maxi"] }, 
-      
-  { "name": "Duchamp", 
-    "category": "resto", 
-    "items": ["Kit de Camping", "Conserve de Bach", "Curry Instantané"] }, 
-      
-  { "name": "Agence Altaria", 
-    "category": "service",
-    "items": ["Passe Atoll Combat", "Passe Zone Combat"] }, 
-      
-  { "name": "LeVeinard", 
-    "category": "vitamines",
-    "items": ["PV Plus", "Protéine", "Fer", "Calcium", "Zinc", "Carbone", "PP Plus", "PP Max", "Pilule Talent", "Poudre Énergie", "Racine Énergie", "Poudre Soin", "Herbe Rappel", "Attaque +", "Défense +", "Attaque Spé +", "Défense Spé +", "Vitesse +", "Précision +", "Muscle +", "Garde Stats"] }, 
-      
-  { "name": "Supérette Yatou", 
-    "category": "courses",
-    "items": ["Laitue","Tomate","Moutarde","Sel","Poivre","Basilic","Beurre","Mayonnaise","Ketchup","Oignon","Cornichon","Jambon blanc","Fromage frais","Confiture de Baies","Huile d'olive","Fromage","Yaourt","Bâtonnet Craparoi","Tomate cerise","Concombre","Avocat","Oignon rouge","Vinaigre","Cresson","Marmelade","Tofu","Sauce piquante","Raifort","Sauce wasabi","Curry en poudre"] }, 
-      
-  { "name": "Bekissimo", 
-    "category": "lettres",
-    "items": ["Lettre Herbe","Lettre Feu","Lettre Mer","Lettre Pétale","Lettre Mine","Lettre Acier","Lettre Coeur","Lettre Neige","Lettre Cosmo","Lettre Avion","Lettre Mosaïque","Lettre Brique"] }, 
-      
-  { "name": "Boulangerie Horno",
-    "category":"boulangerie",
-    "items": ["Baguette","Laitue","Oignon","Mayonnaise","Ketchup","Moutarde","Sel","Beurre","Fromage frais","Confiture de Baies","Huile d'olive","Fromage","Yaourt","Crème fouettée","Beurre de cacahuète","Marmelade"] },
-
-    "boutique_arene": ["Soin Ball", "Hasard Ball", "Cuillère Tordue", "Lunettes Sages", "Herbe Mental", "Kinésiste (Kanto)", "Karatéka (Kanto)", "Jongleur (Kanto)", "Costume Psy"]
+      { 
+        "name": "Sakado", 
+        "category": "divers", 
+        "items": ["Costume Indigo", "Gamin (Kanto)"] 
+      },
+      { 
+        "name": "Mode Modique", 
+        "category": "divers", 
+        "items": ["Campeur (Kanto)", "Montagnard (Kanto)", "Fillette (Kanto)", "Gentleman (Kanto)"] 
+      },
+      { 
+        "name": "Sombre Héros", 
+        "category": "divers", 
+        "items": ["Campeur (Kanto)", "Scout (Kanto)"] 
+      },
+      { 
+        "name": "Rézo Cadoizo", 
+        "category": "rezo",
+        "daily": { 
+          "Lundi": ["Caoutchouc", "Aimant", "Griffe Froide", "Larme Lune", "Absorb'Bulbe", "Orbe Toxique", "Poudreclaire", "Oeuf Chance", "Soin Ball", "Faiblo Ball", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"], 
+          "Mardi": ["Eau Mystique", "Écorce dure", "Sable Doux", "Cuillère Tordue", "Amulette Jade", "Roche Royale", "Pièce Rune", "Carapace Mue", "Lunettes Choix", "Niveau Ball", "Lune Ball", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"], 
+          "Mercredi": ["Mouchoir Soie", "Obsipoigne", "Peau Métal", "Rune Sort", "Métronome", "Lentille Zoom", "Orbe Flamme", "Pare-Effet", "Scuba Ball", "Masse Ball", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"], 
+          "Jeudi": ["Ceinture Noire", "Poudre Argentée", "Boule Boue", "Plume Enchantée", "Lunettes Noires", "Ralentiqueue", "Accro Griffe", "Restes", "Grosse Racine", "Sombre Ball", "Hasard Ball", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"], 
+          "Vendredi": ["Charbon Sec", "Catalyseur", "Pierre Dure", "Glacéternel", "Vieille Amulette", "Éclat d'Aube", "Bandeau", "Boue Noire", "Ceinture Force", "Orbe Vie", "Bis Ball", "Love Ball", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"], 
+          "Samedi": ["Perle Abysse", "Bec Pointu", "Ambre Fossilisé", "Croc Dragon", "Cristal Mystère", "Piquants", "Bandeau Choix", "Lichen Lumineux", "Casque Brut", "Luxe Ball", "Speed Ball", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"], 
+          "Dimanche": ["Graine Miracle", "Terre Fraîche", "Machine Étrange", "Joli Ruban", "Pierre Infini", "Lumargile", "Gant de Boxe", "Protec-Score", "Point de Mire", "Chrono Ball", "Appât Ball", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"] 
+        } 
+      },
+      { 
+        "name": "Troquet Afond", 
+        "category": "resto", 
+        "items": ["Galette Illumis", "Crok'Argenta", "Jus de Baie", "Malasada Maxi"] 
+      }, 
+      { 
+        "name": "Duchamp", 
+        "category": "resto", 
+        "items": ["Kit de Camping", "Conserve de Bach", "Curry Instantané"] 
+      }, 
+      { 
+        "name": "Agence Altaria", 
+        "category": "service",
+        "items": ["Passe Atoll Combat", "Passe Zone Combat"] 
+      }, 
+      { 
+        "name": "LeVeinard", 
+        "category": "vitamines",
+        "items": ["PV Plus", "Protéine", "Fer", "Calcium", "Zinc", "Carbone", "PP Plus", "PP Max", "Pilule Talent", "Poudre Énergie", "Racine Énergie", "Poudre Soin", "Herbe Rappel", "Attaque +", "Défense +", "Attaque Spé +", "Défense Spé +", "Vitesse +", "Précision +", "Muscle +", "Garde Stats"] 
+      }, 
+      { 
+        "name": "Supérette Yatou", 
+        "category": "courses",
+        "items": ["Laitue","Tomate","Moutarde","Sel","Poivre","Basilic","Beurre","Mayonnaise","Ketchup","Oignon","Cornichon","Jambon blanc","Fromage frais","Confiture de Baies","Huile d'olive","Fromage","Yaourt","Bâtonnet Craparoi","Tomate cerise","Concombre","Avocat","Oignon rouge","Vinaigre","Cresson","Marmelade","Tofu","Sauce piquante","Raifort","Sauce wasabi","Curry en poudre"] 
+      }, 
+      { 
+        "name": "Bekissimo", 
+        "category": "lettres",
+        "items": ["Lettre Herbe","Lettre Feu","Lettre Mer","Lettre Pétale","Lettre Mine","Lettre Acier","Lettre Coeur","Lettre Neige","Lettre Cosmo","Lettre Avion","Lettre Mosaïque","Lettre Brique"] 
+      }, 
+      { 
+        "name": "Boulangerie Horno",
+        "category": "boulangerie",
+        "items": ["Baguette","Laitue","Oignon","Mayonnaise","Ketchup","Moutarde","Sel","Beurre","Fromage frais","Confiture de Baies","Huile d'olive","Fromage","Yaourt","Crème fouettée","Beurre de cacahuète","Marmelade"] 
+      }
+    ],
+    "boutique_arene": [
+      "Soin Ball", "Hasard Ball", "Cuillère Tordue", "Lunettes Sages", "Herbe Mental",
+      "Kinésiste (Kanto)", "Karatéka (Kanto)", "Jongleur (Kanto)", "Costume Psy"
+    ]
   },
   {
     "name": "Sylphe SARL",
     "slug": "sylphe_sarl",
+
     "sauvage": [],
     "jour": [],
     "nuit": [],
