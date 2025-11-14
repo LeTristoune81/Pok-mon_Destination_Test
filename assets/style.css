@@ -541,4 +541,14 @@ ul.list, ul {
   margin-right:6px;
 }
 
+/* Empêche le contenu de passer sous l'image */
+#lieu-content {
+  padding-right: 280px; /* correspond à la largeur de ton image + marge */
+  box-sizing: border-box;
+}
+@media (max-width: 900px) {
+  #lieu-content {
+    padding-right: 0; /* sur mobile, l'image passe au-dessus */
+  }
+}
 
