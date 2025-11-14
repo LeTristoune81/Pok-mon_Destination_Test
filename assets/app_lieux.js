@@ -3,7 +3,7 @@
 const ITEM_ICONS = {
   "Objets Trouvables": "../../assets/icone/objets_trouvable.png",
   "Baies": "../../assets/icone/baies.png",
-  "Boutique": "../../assets/icone/boutique.png",
+  "Boutique Spéciale": "../../assets/icone/boutique.png",
   "Boutique d’Arène": "../../assets/icone/boutique_arene.png"
 };
 
@@ -151,29 +151,20 @@ function addSimpleSection(container, title, list){
   const wrap = document.createElement("div");
   wrap.className = "pd-tags-wrap";
 
-  const iconSrc = ITEM_ICONS[title] || "";
-
   list.forEach(entry => {
     const nom = (typeof entry === "string") ? entry : entry.name;
 
     const tag = document.createElement("span");
-    tag.className = "pd-tag";
+    tag.className = "pd-tag pd-tag-dot"; // <— ICI on active le point
 
-    if (iconSrc){
-      const icon = document.createElement("img");
-      icon.src = iconSrc;
-      icon.className = "pd-tag-icon";
-      icon.alt = "";
-      tag.appendChild(icon);
-    }
-
-    tag.appendChild(document.createTextNode(" " + nom));
+    tag.appendChild(document.createTextNode(nom));
     wrap.appendChild(tag);
   });
 
   section.appendChild(wrap);
   container.appendChild(section);
 }
+
 
 // === Nouvelle fonction : boutiques simples OU avancées (version épurée avec <details>) ===
 function addBoutiqueSection(container, boutiqueList){
@@ -282,23 +273,24 @@ function addSectionWithIcon(parent, title, iconPath){
 }
 
 // Section “liste d’objets” (style tags) pour une boutique donnée
-function addItemSection(parent, title, items, iconPath){
+function addItemSection(parent, title, items){
   if (!items || !items.length) return;
 
-  const section = addSectionWithIcon(parent, title, iconPath);
+  const section = addSectionWithIcon(parent, title, null);
 
   const wrap = document.createElement("div");
   wrap.className = "pd-tags-wrap";
 
   items.forEach(obj => {
     const tag = document.createElement("span");
-    tag.className = "pd-tag";
+    tag.className = "pd-tag pd-tag-dot";
     tag.textContent = obj;
     wrap.appendChild(tag);
   });
 
   section.appendChild(wrap);
 }
+
 
 // Boutique d'arène (arena_shop)
 function renderArenaShop(parent, arenaData){
