@@ -174,7 +174,7 @@ function addBoutiqueSection(container, boutiqueList){
 
   // Cas ancien : tableau de chaînes -> on garde le comportement existant
   if (typeof first === "string" || typeof first === "number"){
-    addSimpleSection(container, "Boutique", boutiqueList);
+    addSimpleSection(container, "Boutique Spéciale", boutiqueList);
     return;
   }
 
@@ -183,7 +183,7 @@ function addBoutiqueSection(container, boutiqueList){
   section.className = "pd-lieu-section";
 
   const h2 = document.createElement("h2");
-  h2.textContent = "Boutique";
+  h2.textContent = "Boutique Spéciale";
   section.appendChild(h2);
 
   boutiqueList.forEach(shop => {
@@ -195,7 +195,7 @@ function addBoutiqueSection(container, boutiqueList){
 
     const summary = document.createElement("summary");
     summary.className = "pd-shop-summary";
-    summary.textContent = shop.name || "Boutique";
+    summary.textContent = shop.name || "Boutique Spéciale";
     details.appendChild(summary);
 
     const inner = document.createElement("div");
