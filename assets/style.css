@@ -1,6 +1,4 @@
-/* ===========================
-   RESET DE BASE
-=========================== */
+/* ======= RESET DE BASE ======= */
 body {
   font-family: 'Segoe UI', Roboto, sans-serif;
   background: #0d1020;
@@ -10,16 +8,185 @@ body {
 }
 a { color: #68b4ff; text-decoration: none; }
 a:hover { text-decoration: underline; }
-h1, h2, h3, h4 { margin: 0; }
+h1,h2,h3,h4 { margin: 0; }
 
-:root {
-  --pd-lieu-img-width: 220px;   /* largeur réservée à droite */
-  --pd-lieu-img-height: 200px;  /* hauteur estimée de l’image */
+/* ======= STRUCTURE ======= */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.nav a {
+  margin-left: 12px;
+  font-weight: 500;
+}
+.h1 { font-size: 1.8rem; font-weight: 600; }
+.h2 { font-size: 1.3rem; margin-top: 18px; margin-bottom: 6px; }
+
+/* ======= CARTES ======= */
+.card {
+  background: #14192c;
+  border: 1px solid #2a2f45;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+.cardRow {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.thumb {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid #252a43;
+  background: #0e1122;
+  padding: 6px;
+  flex: 0 0 72px;
+}
+.cardBody { flex: 1 1 auto; }
+
+/* ======= BADGES ======= */
+.badge {
+  display: inline-block;
+  background: #1b2344;
+  padding: 2px 8px;
+  border-radius: 8px;
+  margin-right: 4px;
+  font-size: 0.85rem;
+  color: #a4b4ff;
 }
 
-/* ===========================
-   PAGE LIEUX - LISTE
-=========================== */
+/* ======= LISTES ======= */
+ul.list, ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.list li, ul li {
+  margin: 2px 0;
+}
+
+/* ======= GRILLE POKDEX ======= */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+/* ======= CAPACITS PAR NIVEAU ======= */
+#lvl {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
+.lvl-group {
+  background: #14192c;
+  border: 1px solid #2a2f45;
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+.lvl-title {
+  font-weight: 600;
+  color: #d7dbec;
+  margin-bottom: 6px;
+}
+.lvl-group ul {
+  margin: 0;
+  padding-left: 16px;
+  list-style: disc;
+}
+.lvl-group li { margin: 2px 0; }
+
+/* ======= COLONNES MULTI-LISTES ======= */
+.lvl-group ul.cols {
+  columns: 2;
+  column-gap: 16px;
+}
+@media (min-width: 1200px) {
+  .lvl-group ul.cols { columns: 3; }
+}
+
+/* ======= SECTION OBJET TENU + RESSOURCE ======= */
+#objres {
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0 0 0;
+}
+#objresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 12px;
+  list-style: none;
+  padding-left: 0;
+}
+#objresGrid .lvl-group {
+  background: #14192c;
+  border: 1px solid #2a2f45;
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+#objresGrid .lvl-title {
+  font-weight: 600;
+  color: #d7dbec;
+  margin-bottom: 6px;
+}
+#objresGrid ul {
+  list-style: none;
+  padding-left: 8px;
+  margin: 0;
+}
+#objresGrid li {
+  margin: 3px 0;
+}
+
+/* ======= SPRITE PRINCIPAL ======= */
+.sprite {
+  width: 192px;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #252a43;
+  background: #0e1122;
+  padding: 8px;
+}
+
+/* ======= PETITES ADAPTATIONS ======= */
+.small { font-size: 0.85rem; opacity: 0.8; }
+.kv {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin-top: 6px;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #b7bfd4;
+}
+
+/* ======= RESPONSIVE ======= */
+@media (max-width: 800px) {
+  .header { flex-direction: column; align-items: flex-start; }
+  .kv { grid-template-columns: 120px 1fr; }
+  #objresGrid { grid-template-columns: 1fr; }
+}
+
+
+/* ====== Pages Lieux ====== */
 
 .pd-lieux-page {
   max-width: 1000px;
@@ -34,6 +201,7 @@ h1, h2, h3, h4 { margin: 0; }
 .pd-lieux-header h1 {
   font-size: 2rem;
   font-weight: 700;
+  margin: 0.25rem 0 0;
 }
 
 .pd-lieux-back {
@@ -43,7 +211,11 @@ h1, h2, h3, h4 { margin: 0; }
   text-decoration: none;
   color: #9ca3af;
 }
-.pd-lieux-back:hover { color: #e5e7eb; }
+
+.pd-lieux-back:hover {
+  color: #e5e7eb;
+  text-decoration: underline;
+}
 
 /* Carte contenant la liste */
 .pd-lieux-card {
@@ -53,7 +225,7 @@ h1, h2, h3, h4 { margin: 0; }
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
-/* Liste */
+/* Grille de lieux */
 #lieux-list ul {
   list-style: none;
   padding: 0;
@@ -63,18 +235,25 @@ h1, h2, h3, h4 { margin: 0; }
   gap: 0.4rem 1rem;
 }
 
-#lieux-list a {
-  color: #e5e7eb;
-  transition: 0.15s;
+#lieux-list li {
+  margin: 0;
 }
+
+#lieux-list a {
+  display: inline-block;
+  padding: 0.1rem 0;
+  text-decoration: none;
+  color: #e5e7eb;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
 #lieux-list a:hover {
   color: #38bdf8;
   transform: translateX(3px);
 }
 
-/* ===========================
-   PAGE LIEU - FICHE
-=========================== */
+
+/* ====== Fiche d'un lieu ====== */
 
 .pd-lieux-page--detail {
   max-width: 1000px;
@@ -82,64 +261,19 @@ h1, h2, h3, h4 { margin: 0; }
   padding: 2rem 1.5rem 3rem;
 }
 
-/* ----- HEADER AVEC IMAGE ----- */
-
-.pd-lieu-header-main {
-  margin-top: 0.5rem;
-  position: relative;
+.pd-lieu-header {
+  margin-bottom: 1.5rem;
 }
 
-.pd-lieu-header-main h1 {
+.pd-lieu-header h1 {
   font-size: 2rem;
   font-weight: 700;
-  padding-right: var(--pd-lieu-img-width);
+  margin: 0.25rem 0 0;
 }
 
-.pd-lieu-image {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: var(--pd-lieu-img-width);
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-  cursor: zoom-in;
+.pd-lieu-header .pd-lieux-back {
+  margin-bottom: 0.4rem;
 }
-
-/* Sur petit écran → image en dessous */
-@media (max-width: 700px) {
-  .pd-lieu-header-main h1 { padding-right: 0; }
-  .pd-lieu-image {
-    position: static;
-    width: 100%;
-    margin-top: .75rem;
-  }
-}
-
-/* ===========================
-   LIGHTBOX
-=========================== */
-
-.pd-lieu-lightbox {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.85);
-  display: none;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999;
-}
-
-.pd-lieu-lightbox.is-visible { display: flex; }
-
-.pd-lieu-lightbox img {
-  max-width: 90vw;
-  max-height: 90vh;
-  border-radius: 16px;
-}
-
-/* ===========================
-   SECTIONS
-=========================== */
 
 .pd-lieu-section {
   background: rgba(15, 23, 42, 0.9);
@@ -151,28 +285,143 @@ h1, h2, h3, h4 { margin: 0; }
 
 .pd-lieu-section h2 {
   font-size: 1.1rem;
-  margin-bottom: 0.4rem;
+  margin: 0 0 0.4rem;
 }
 
-/* Empêche le contenu en haut de passer sous l'image */
-#lieu-content {
-  padding-right: var(--pd-lieu-img-width);
-  box-sizing: border-box;
+.pd-lieu-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-/* TOUTES les sections APRÈS la zone de l’image = full-width */
-#lieu-content .pd-lieu-section:nth-of-type(n+2) {
-  padding-right: 0;
+.pd-lieu-section li {
+  margin: 0.1rem 0;
 }
 
-/* Sur mobile → tout full width */
-@media (max-width: 900px) {
-  #lieu-content { padding-right: 0; }
+.pd-lieu-section a {
+  text-decoration: none;
+  color: #e5e7eb;
 }
 
-/* ===========================
-   TAGS + POINTS
-=========================== */
+.pd-lieu-section a:hover {
+  color: #38bdf8;
+}
+
+/* Pokémon */
+
+.pd-lieu-pkm-link {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: 500;
+}
+
+.pd-lieu-pkm-link:hover {
+  color: #38bdf8;
+}
+
+.pd-lieu-meta {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  margin-left: 0.35rem;
+}
+
+.shop-name {
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+.shop-line {
+  font-size: 0.9rem;
+  margin-left: 8px;
+}
+
+.shop-line strong {
+  margin-right: 4px;
+}
+
+.pd-section-icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: -3px;
+}
+
+/* Mini image à droite */
+
+.pd-lieu-header-main {
+  margin-top: 0.5rem;
+  position: relative;
+  display: block;
+}
+.pd-lieu-simple-line {
+  margin: 0.2rem 0 0;
+  color: #e5e7eb;
+  font-size: 0.95rem;
+}
+
+.pd-lieu-header-main h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-right: 210px;
+}
+
+.pd-lieu-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 180px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  object-fit: cover;
+  cursor: zoom-in;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .pd-lieu-header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pd-lieu-header-main h1 {
+    padding-right: 0;
+  }
+
+  .pd-lieu-image {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0.75rem;
+  }
+}
+
+/* Lightbox */
+
+.pd-lieu-lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.pd-lieu-lightbox.is-visible {
+  display: flex;
+}
+
+.pd-lieu-lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+/* Tags */
 
 .pd-tags-wrap {
   display: flex;
@@ -190,11 +439,47 @@ h1, h2, h3, h4 { margin: 0; }
   font-size: 0.9rem;
   border: 1px solid rgba(255,255,255,0.12);
   color: #e5e7eb;
+  white-space: nowrap;
+  transition: 0.15s;
 }
 
 .pd-tag:hover {
   background: rgba(255,255,255,0.15);
 }
+
+.pd-tag-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.pd-shop-details {
+  margin-bottom: 0.75rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 8px;
+  background-color: rgba(15, 23, 42, 0.9);
+}
+
+.pd-shop-summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.pd-shop-summary::-webkit-details-marker {
+  display: none;
+}
+
+.pd-shop-details[open] .pd-shop-summary {
+  margin-bottom: 0.4rem;
+}
+
+.pd-shop-day {
+  font-weight: 600;
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+
+/* Gros point */
 
 .pd-tag-dot {
   position: relative;
@@ -208,50 +493,39 @@ h1, h2, h3, h4 { margin: 0; }
   top: 50%;
   width: 8px;
   height: 8px;
-  background: #43d17a;
+  background-color: #4ade80;
   border-radius: 50%;
   transform: translateY(-50%);
+  box-shadow: 0 0 4px rgba(0,0,0,0.6);
 }
 
-/* ===========================
-   BOUTIQUES (Mode Colonnes)
-=========================== */
-
-.pd-boutique-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0,1fr));
-  gap: 1rem;
+.pd-boutique-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:1rem;
+}
+.pd-boutique-col{
+  display:flex;
+  flex-direction:column;
+  gap:0.5rem;
+}
+.pd-tag-dot::before{
+  content:"";
+  display:inline-block;
+  width:8px;
+  height:8px;
+  border-radius:999px;
+  background:#43d17a;
+  margin-right:6px;
 }
 
-.pd-boutique-col {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+/* Empêche le contenu derrière l'image */
+#lieu-content {
+  padding-right: 280px;
+  box-sizing: border-box;
 }
-
-/* ===========================
-   DETAILS (Boutiques rétractables)
-=========================== */
-
-.pd-shop-details {
-  margin-bottom: 0.6rem;
-  padding: 0.4rem 0.6rem;
-  border-radius: 8px;
-  background: rgba(20, 27, 50, 0.9);
-}
-
-.pd-shop-summary {
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.pd-shop-summary::-webkit-details-marker { display: none; }
-
-.pd-shop-details[open] .pd-shop-summary {
-  margin-bottom: 0.4rem;
-}
-
-.pd-shop-day {
-  font-weight: 600;
-  margin-top: 0.4rem;
+@media (max-width: 900px) {
+  #lieu-content {
+    padding-right: 0;
+  }
 }
