@@ -175,7 +175,7 @@ function addSimpleSection(container, title, list){
   container.appendChild(section);
 }
 
-// === Nouvelle fonction : boutiques simples OU avancées ===
+// === Nouvelle fonction : boutiques simples OU avancées (version épurée avec <details>) ===
 function addBoutiqueSection(container, boutiqueList){
   if (!boutiqueList || !boutiqueList.length) return;
 
@@ -198,25 +198,27 @@ function addBoutiqueSection(container, boutiqueList){
   boutiqueList.forEach(shop => {
     if (!shop || typeof shop !== "object") return;
 
-    const block = document.createElement("div");
-    block.className = "pd-shop-block";
+    // Bloc repliable pour chaque boutique
+    const details = document.createElement("details");
+    details.className = "pd-shop-details";
 
-    if (shop.name){
-      const title = document.createElement("h3");
-      title.className = "pd-shop-title";
-      title.textContent = shop.name;
-      block.appendChild(title);
-    }
+    const summary = document.createElement("summary");
+    summary.className = "pd-shop-summary";
+    summary.textContent = shop.name || "Boutique";
+    details.appendChild(summary);
+
+    const inner = document.createElement("div");
+    inner.className = "pd-shop-content";
 
     // Cas Rézo Cadoizo : inventaire par jour
     if (shop.daily && typeof shop.daily === "object"){
       Object.entries(shop.daily).forEach(([day, items]) => {
         if (!Array.isArray(items) || !items.length) return;
 
-        const dayLabel = document.createElement("div");
-        dayLabel.className = "pd-shop-day";
-        dayLabel.textContent = day;
-        block.appendChild(dayLabel);
+        const dayTitle = document.createElement("div");
+        dayTitle.className = "pd-shop-day";
+        dayTitle.textContent = day;
+        inner.appendChild(dayTitle);
 
         const wrap = document.createElement("div");
         wrap.className = "pd-tags-wrap";
@@ -228,10 +230,11 @@ function addBoutiqueSection(container, boutiqueList){
           wrap.appendChild(tag);
         });
 
-        block.appendChild(wrap);
+        inner.appendChild(wrap);
       });
-    } else if (Array.isArray(shop.items) && shop.items.length){
-      // Boutiques classiques : items[]
+    }
+    // Boutiques classiques : items[]
+    else if (Array.isArray(shop.items) && shop.items.length){
       const wrap = document.createElement("div");
       wrap.className = "pd-tags-wrap";
 
@@ -242,14 +245,16 @@ function addBoutiqueSection(container, boutiqueList){
         wrap.appendChild(tag);
       });
 
-      block.appendChild(wrap);
+      inner.appendChild(wrap);
     }
 
-    section.appendChild(block);
+    details.appendChild(inner);
+    section.appendChild(details);
   });
 
   container.appendChild(section);
 }
+
 
 // --- Nouveaux helpers pour les boutiques ---
 
