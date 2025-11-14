@@ -175,6 +175,82 @@ function addSimpleSection(container, title, list){
   container.appendChild(section);
 }
 
+// === Nouvelle fonction : boutiques simples OU avancées ===
+function addBoutiqueSection(container, boutiqueList){
+  if (!boutiqueList || !boutiqueList.length) return;
+
+  const first = boutiqueList[0];
+
+  // Cas ancien : tableau de chaînes -> on garde le comportement existant
+  if (typeof first === "string" || typeof first === "number"){
+    addSimpleSection(container, "Boutique", boutiqueList);
+    return;
+  }
+
+  // Cas avancé : tableau d'objets { name, category, items, daily }
+  const section = document.createElement("section");
+  section.className = "pd-lieu-section";
+
+  const h2 = document.createElement("h2");
+  h2.textContent = "Boutique";
+  section.appendChild(h2);
+
+  boutiqueList.forEach(shop => {
+    if (!shop || typeof shop !== "object") return;
+
+    const block = document.createElement("div");
+    block.className = "pd-shop-block";
+
+    if (shop.name){
+      const title = document.createElement("h3");
+      title.className = "pd-shop-title";
+      title.textContent = shop.name;
+      block.appendChild(title);
+    }
+
+    // Cas Rézo Cadoizo : inventaire par jour
+    if (shop.daily && typeof shop.daily === "object"){
+      Object.entries(shop.daily).forEach(([day, items]) => {
+        if (!Array.isArray(items) || !items.length) return;
+
+        const dayLabel = document.createElement("div");
+        dayLabel.className = "pd-shop-day";
+        dayLabel.textContent = day;
+        block.appendChild(dayLabel);
+
+        const wrap = document.createElement("div");
+        wrap.className = "pd-tags-wrap";
+
+        items.forEach(obj => {
+          const tag = document.createElement("span");
+          tag.className = "pd-tag";
+          tag.textContent = obj;
+          wrap.appendChild(tag);
+        });
+
+        block.appendChild(wrap);
+      });
+    } else if (Array.isArray(shop.items) && shop.items.length){
+      // Boutiques classiques : items[]
+      const wrap = document.createElement("div");
+      wrap.className = "pd-tags-wrap";
+
+      shop.items.forEach(obj => {
+        const tag = document.createElement("span");
+        tag.className = "pd-tag";
+        tag.textContent = obj;
+        wrap.appendChild(tag);
+      });
+
+      block.appendChild(wrap);
+    }
+
+    section.appendChild(block);
+  });
+
+  container.appendChild(section);
+}
+
 // --- Nouveaux helpers pour les boutiques ---
 
 // Section avec titre + éventuelle icône
@@ -223,7 +299,6 @@ function addItemSection(parent, title, items, iconPath){
 function renderArenaShop(parent, arenaData){
   if (!arenaData || !arenaData.items || !arenaData.items.length) return;
 
-  // On réutilise le nom du JSON si tu veux l’afficher :
   const title = arenaData.name || "Boutique d'arène";
 
   addItemSection(
@@ -238,7 +313,6 @@ function renderArenaShop(parent, arenaData){
 function renderShops(parent, shops){
   if (!Array.isArray(shops) || !shops.length) return;
 
-  // Section générale “Boutiques”
   const section = addSectionWithIcon(
     parent,
     "Boutiques",
@@ -248,7 +322,6 @@ function renderShops(parent, shops){
   shops.forEach(shop => {
     if (!shop) return;
 
-    // --- Cas spécial : Rézo Cadoizo avec inventaire par jour ---
     if (shop.daily){
       const title = document.createElement("div");
       title.className = "shop-name";
@@ -266,7 +339,6 @@ function renderShops(parent, shops){
       return;
     }
 
-    // --- Boutiques classiques avec items[] ---
     if (!shop.items || !shop.items.length) return;
 
     const line = document.createElement("div");
@@ -357,12 +429,14 @@ function renderLieuPage(){
       addPokemonSection(container, region, "Éclate-Roc",  lieu.rocksmash);
       addPokemonSection(container, region, "Poké Radar",  lieu.pokeradar);
 
-      // -------- Objets / Baies (restent comme avant) --------
+      // -------- Objets / Baies --------
       addSimpleSection(container, "Objets Trouvables", lieu.objets);
       addSimpleSection(container, "Baies",             lieu.baies);
 
-      // -------- Ancien système de boutiques (compatibilité) --------
-      addSimpleSection(container, "Boutique",          lieu.boutique);
+      // -------- Boutiques : simple OU avancé (Sakado, Rézo Cadoizo, etc.) --------
+      addBoutiqueSection(container, lieu.boutique);
+
+      // -------- Boutique d’Arène (liste simple) --------
       addSimpleSection(container, "Boutique d’Arène",  lieu.boutique_arene);
 
       // -------- Nouveau système : arena_shop + shops[] --------
