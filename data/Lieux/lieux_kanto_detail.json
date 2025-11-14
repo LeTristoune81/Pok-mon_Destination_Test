@@ -1098,8 +1098,20 @@
     "pokeradar": [],
     "objets": ["Super Potion", "Super Bonbon", "DT13 - Abri", "Pierre Zen"],
     "baies": ["Panga"],
-    "boutique": [],
-    "boutique_arene": ["Filet Ball", "Appât Ball", "Eau Mystique", "Vive Griffe", "Métronome", "Point de Mire", "Montagnard (Kanto)", "Intello (Kanto)", "Fillette (Kanto)", "Costume Eau"]
+     "boutique": [
+      { 
+        "name": "LeVeinard", 
+        "category": "divers", 
+        "items": ["Poudre Énergie", "Racine Énergie", "Poudre Soin", "Herbe Rappel", "Attaque +", "Défense +", "Attaque Spé +", "Défense Spé +", "Vitesse +", "Précision +", "Muscle +"] 
+      },
+      { 
+        "name": "Rézo Cadoizo", 
+        "category": "rezo",
+        "Items": ["Pierre Stase", "Restes", "Graine Miracle", "Charbon Sec", "Eau Mystique", "Bandeau", "Loupe", "Casque Brut", "Évoluroc", "Vive Griffe", "Gant de Boxe", "Dé Pipé", "Pare-Effet", "Carapace Mue", "Bande Étreinte", "Orbe Frousse", "Orbe Vie", "Piquants", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"] 
+        },
+
+   { 
+     "boutique_arene": ["Filet Ball", "Appât Ball", "Eau Mystique", "Vive Griffe", "Métronome", "Point de Mire", "Montagnard (Kanto)", "Intello (Kanto)", "Fillette (Kanto)", "Costume Eau"]
   },
   {
     "name": "Route 8",
