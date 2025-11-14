@@ -64,12 +64,11 @@ h1,h2 { margin: 0; }
    PAGE FICHE LIEU — HEADER PROPRE
 ============================================================ */
 
+/* HEADER LIEU : titre + image flottante à droite */
 .pd-lieu-header-main {
   margin-top: 0.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1.5rem;
+  position: relative;   /* pour l'absolu de l'image */
+  display: block;
 }
 
 .pd-lieu-header-main h1 {
@@ -77,25 +76,33 @@ h1,h2 { margin: 0; }
   font-weight: 700;
 }
 
-/* Image à droite */
+/* Image en haut à droite, hors flux */
 .pd-lieu-image {
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 180px;
-  flex: 0 0 180px;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
   cursor: zoom-in;
 }
 
+/* Sur mobile : on remet tout en colonne normale */
 @media (max-width: 700px) {
   .pd-lieu-header-main {
+    display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .pd-lieu-image {
+    position: static;
     width: 100%;
     max-width: 100%;
+    margin-top: 0.75rem;
   }
 }
+
 
 /* ============================================================
    LIGHTBOX
@@ -147,6 +154,12 @@ h1,h2 { margin: 0; }
   font-size: 0.85rem;
   color: #9ca3af;
   margin-left: 0.35rem;
+}
+/* Sur écran large : on laisse une "colonne" libre à droite pour l'image */
+@media (min-width: 701px) {
+  .pd-lieu-section {
+    max-width: calc(100% - 220px); /* 180px image + ~40px de marge */
+  }
 }
 
 /* ============================================================
