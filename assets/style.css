@@ -265,16 +265,14 @@ ul.list, ul {
   padding: 2rem 1.5rem 3rem;
 }
 
-/* Empêche le contenu de passer sous l'image */
-#lieu-content {
-  padding-right: 280px;   /* largeur image + marge */
-  box-sizing: border-box;
-}
-@media (max-width: 900px) {
-  #lieu-content {
-    padding-right: 0;
+/* Sur grands écrans : on décale seulement la première section
+   pour qu'elle commence sous l'image */
+@media (min-width: 700px) {
+  #lieu-content .pd-lieu-section:first-of-type {
+    margin-top: 190px; /* ajuste si ça touche encore l'image ou si c'est trop bas */
   }
 }
+
 
 .pd-lieu-header {
   margin-bottom: 1.5rem;
