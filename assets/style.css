@@ -521,5 +521,24 @@ ul.list, ul {
   transform: translateY(-50%);
   box-shadow: 0 0 4px rgba(0,0,0,0.6);
 }
+.pd-boutique-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:1rem;
+}
+.pd-boutique-col{
+  display:flex;
+  flex-direction:column;
+  gap:0.5rem;
+}
+.pd-tag-dot::before{
+  content:"";
+  display:inline-block;
+  width:8px;
+  height:8px;
+  border-radius:999px;
+  background:#43d17a;
+  margin-right:6px;
+}
 
 
