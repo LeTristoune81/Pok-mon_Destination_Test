@@ -551,4 +551,14 @@ ul.list, ul {
     padding-right: 0; /* sur mobile, l'image passe au-dessus */
   }
 }
+#lieu-content {
+  position: relative;
+}
+
+#lieu-image {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+}
 
