@@ -155,7 +155,7 @@ function addSimpleSection(container, title, list){
     const nom = (typeof entry === "string") ? entry : entry.name;
 
     const tag = document.createElement("span");
-    tag.className = "pd-tag pd-tag-dot"; // <— ICI on active le point
+    tag.className = "pd-tag pd-tag-dot";
 
     tag.appendChild(document.createTextNode(nom));
     wrap.appendChild(tag);
@@ -165,8 +165,7 @@ function addSimpleSection(container, title, list){
   container.appendChild(section);
 }
 
-
-// === Nouvelle fonction : boutiques simples OU avancées (version épurée avec <details>) ===
+// === Boutiques : simple OU avancé (Sakado, Rézo Cadoizo, etc.) ===
 function addBoutiqueSection(container, boutiqueList){
   if (!boutiqueList || !boutiqueList.length) return;
 
@@ -174,7 +173,7 @@ function addBoutiqueSection(container, boutiqueList){
 
   // Cas ancien : tableau de chaînes -> on garde le comportement existant
   if (typeof first === "string" || typeof first === "number"){
-    addSimpleSection(container, "Boutique Spéciale", boutiqueList);
+    addSimpleSection(container, "Boutique", boutiqueList);
     return;
   }
 
@@ -186,8 +185,22 @@ function addBoutiqueSection(container, boutiqueList){
   h2.textContent = "Boutique Spéciale";
   section.appendChild(h2);
 
-  boutiqueList.forEach(shop => {
+  // grille 2 colonnes
+  const grid = document.createElement("div");
+  grid.className = "pd-boutique-grid";
+  section.appendChild(grid);
+
+  const colLeft  = document.createElement("div");
+  const colRight = document.createElement("div");
+  colLeft.className  = "pd-boutique-col";
+  colRight.className = "pd-boutique-col";
+  grid.appendChild(colLeft);
+  grid.appendChild(colRight);
+
+  boutiqueList.forEach((shop, index) => {
     if (!shop || typeof shop !== "object") return;
+
+    const col = (index % 2 === 0) ? colLeft : colRight;
 
     // Bloc repliable pour chaque boutique
     const details = document.createElement("details");
@@ -195,7 +208,7 @@ function addBoutiqueSection(container, boutiqueList){
 
     const summary = document.createElement("summary");
     summary.className = "pd-shop-summary";
-    summary.textContent = shop.name || "Boutique Spéciale";
+    summary.textContent = shop.name || "Boutique";
     details.appendChild(summary);
 
     const inner = document.createElement("div");
@@ -216,7 +229,7 @@ function addBoutiqueSection(container, boutiqueList){
 
         items.forEach(obj => {
           const tag = document.createElement("span");
-          tag.className = "pd-tag";
+          tag.className = "pd-tag pd-tag-dot";
           tag.textContent = obj;
           wrap.appendChild(tag);
         });
@@ -231,7 +244,7 @@ function addBoutiqueSection(container, boutiqueList){
 
       shop.items.forEach(obj => {
         const tag = document.createElement("span");
-        tag.className = "pd-tag";
+        tag.className = "pd-tag pd-tag-dot";
         tag.textContent = obj;
         wrap.appendChild(tag);
       });
@@ -240,14 +253,13 @@ function addBoutiqueSection(container, boutiqueList){
     }
 
     details.appendChild(inner);
-    section.appendChild(details);
+    col.appendChild(details);
   });
 
   container.appendChild(section);
 }
 
-
-// --- Nouveaux helpers pour les boutiques ---
+// --- Helpers génériques pour d'autres sections (arena_shop, shops[]) ---
 
 // Section avec titre + éventuelle icône
 function addSectionWithIcon(parent, title, iconPath){
@@ -260,7 +272,7 @@ function addSectionWithIcon(parent, title, iconPath){
     const img = document.createElement("img");
     img.src = iconPath;
     img.alt = "";
-    img.className = "pd-section-icon"; // optionnel, pour le CSS si tu veux
+    img.className = "pd-section-icon";
     h2.appendChild(img);
     h2.appendChild(document.createTextNode(" " + title));
   } else {
@@ -291,7 +303,6 @@ function addItemSection(parent, title, items){
   section.appendChild(wrap);
 }
 
-
 // Boutique d'arène (arena_shop)
 function renderArenaShop(parent, arenaData){
   if (!arenaData || !arenaData.items || !arenaData.items.length) return;
@@ -301,8 +312,7 @@ function renderArenaShop(parent, arenaData){
   addItemSection(
     parent,
     title,
-    arenaData.items,
-    ICONS.arena // ou null si tu ne veux pas d’icône
+    arenaData.items
   );
 }
 
