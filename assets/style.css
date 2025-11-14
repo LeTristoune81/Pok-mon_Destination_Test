@@ -474,3 +474,31 @@ ul.list, ul {
   margin-right: 4px;
 }
 
+.pd-shop-details {
+  margin-bottom: 0.75rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 8px;
+  background-color: rgba(15, 23, 42, 0.9); /* adapte à ton thème */
+}
+
+.pd-shop-summary {
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+}
+
+/* enlever le petit triangle par défaut si tu veux garder ton propre style */
+.pd-shop-summary::-webkit-details-marker {
+  display: none;
+}
+
+.pd-shop-details[open] .pd-shop-summary {
+  margin-bottom: 0.4rem;
+}
+
+.pd-shop-day {
+  font-weight: 600;
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+
