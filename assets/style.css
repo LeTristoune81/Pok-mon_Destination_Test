@@ -1,6 +1,6 @@
-/* =======================
-   RESET DE BASE
-   ======================= */
+/* ============================================================
+   RESET GLOBAL
+============================================================ */
 body {
   font-family: 'Segoe UI', Roboto, sans-serif;
   background: #0d1020;
@@ -10,193 +10,11 @@ body {
 }
 a { color: #68b4ff; text-decoration: none; }
 a:hover { text-decoration: underline; }
-h1, h2, h3, h4 { margin: 0; }
+h1,h2 { margin: 0; }
 
-/* =======================
-   STRUCTURE GÉNÉRALE
-   ======================= */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 16px;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 16px;
-}
-.nav a {
-  margin-left: 12px;
-  font-weight: 500;
-}
-.h1 { font-size: 1.8rem; font-weight: 600; }
-.h2 { font-size: 1.3rem; margin-top: 18px; margin-bottom: 6px; }
-
-/* =======================
-   CARTES GÉNÉRALES
-   ======================= */
-.card {
-  background: #14192c;
-  border: 1px solid #2a2f45;
-  border-radius: 12px;
-  padding: 12px;
-  margin-bottom: 12px;
-}
-.cardRow {
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
-}
-.thumb {
-  width: 72px;
-  height: 72px;
-  object-fit: contain;
-  border-radius: 10px;
-  border: 1px solid #252a43;
-  background: #0e1122;
-  padding: 6px;
-  flex: 0 0 72px;
-}
-.cardBody { flex: 1 1 auto; }
-
-/* =======================
-   BADGES / LISTES / GRID
-   ======================= */
-.badge {
-  display: inline-block;
-  background: #1b2344;
-  padding: 2px 8px;
-  border-radius: 8px;
-  margin-right: 4px;
-  font-size: 0.85rem;
-  color: #a4b4ff;
-}
-
-ul.list, ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-.list li, ul li { margin: 2px 0; }
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 12px;
-}
-
-/* =======================
-   CAPACITÉS / OBJETS TENUS
-   ======================= */
-#lvl {
-  list-style: none;
-  padding-left: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 12px;
-}
-.lvl-group {
-  background: #14192c;
-  border: 1px solid #2a2f45;
-  border-radius: 12px;
-  padding: 10px 12px;
-}
-.lvl-title {
-  font-weight: 600;
-  color: #d7dbec;
-  margin-bottom: 6px;
-}
-.lvl-group ul {
-  margin: 0;
-  padding-left: 16px;
-  list-style: disc;
-}
-.lvl-group li { margin: 2px 0; }
-
-.lvl-group ul.cols {
-  columns: 2;
-  column-gap: 16px;
-}
-@media (min-width: 1200px) {
-  .lvl-group ul.cols { columns: 3; }
-}
-
-/* Section objet tenu + ressources */
-#objres {
-  list-style: none;
-  padding-left: 0;
-  margin: 10px 0 0 0;
-}
-#objresGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 12px;
-  list-style: none;
-  padding-left: 0;
-}
-#objresGrid .lvl-group {
-  background: #14192c;
-  border: 1px solid #2a2f45;
-  border-radius: 12px;
-  padding: 10px 12px;
-}
-#objresGrid .lvl-title {
-  font-weight: 600;
-  color: #d7dbec;
-  margin-bottom: 6px;
-}
-#objresGrid ul {
-  list-style: none;
-  padding-left: 8px;
-  margin: 0;
-}
-#objresGrid li { margin: 3px 0; }
-
-/* =======================
-   SPRITE PRINCIPAL
-   ======================= */
-.sprite {
-  width: 192px;
-  height: auto;
-  border-radius: 12px;
-  border: 1px solid #252a43;
-  background: #0e1122;
-  padding: 8px;
-}
-
-/* =======================
-   PETITES ADAPTATIONS
-   ======================= */
-.small { font-size: 0.85rem; opacity: 0.8; }
-.kv {
-  display: grid;
-  grid-template-columns: 140px 1fr;
-  row-gap: 10px;
-  column-gap: 10px;
-  margin-top: 6px;
-}
-
-.switch {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 14px;
-  color: #b7bfd4;
-}
-
-/* =======================
-   RESPONSIVE GLOBAL
-   ======================= */
-@media (max-width: 800px) {
-  .header { flex-direction: column; align-items: flex-start; }
-  .kv { grid-template-columns: 120px 1fr; }
-  #objresGrid { grid-template-columns: 1fr; }
-}
-
-/* =======================
-   PAGES LIEUX : LISTE
-   ======================= */
+/* ============================================================
+   PAGE LISTE DES LIEUX
+============================================================ */
 
 .pd-lieux-page {
   max-width: 1000px;
@@ -208,17 +26,8 @@ ul.list, ul {
   margin-bottom: 1.5rem;
 }
 
-.pd-lieux-header h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin: 0.25rem 0 0;
-}
-
 .pd-lieux-back {
-  display: inline-block;
   font-size: 0.9rem;
-  margin-bottom: 0.25rem;
-  text-decoration: none;
   color: #9ca3af;
 }
 .pd-lieux-back:hover {
@@ -233,7 +42,6 @@ ul.list, ul {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
-/* grille de lieux */
 #lieux-list ul {
   list-style: none;
   padding: 0;
@@ -242,132 +50,57 @@ ul.list, ul {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 0.4rem 1rem;
 }
-#lieux-list li { margin: 0; }
+
 #lieux-list a {
-  display: inline-block;
-  padding: 0.1rem 0;
-  text-decoration: none;
   color: #e5e7eb;
-  transition: color 0.15s ease, transform 0.15s ease;
+  transition: 0.15s;
 }
 #lieux-list a:hover {
   color: #38bdf8;
   transform: translateX(3px);
 }
 
-/* =======================
-   FICHE D'UN LIEU
-   ======================= */
+/* ============================================================
+   PAGE FICHE LIEU — HEADER PROPRE
+============================================================ */
 
-.pd-lieux-page--detail {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem 3rem;
-}
-
-/* Sur grands écrans : on décale seulement la première section
-   pour qu'elle commence sous l'image */
-@media (min-width: 700px) {
-  #lieu-content .pd-lieu-section:first-of-type {
-    margin-top: 190px; /* ajuste si ça touche encore l'image ou si c'est trop bas */
-  }
-}
-
-
-.pd-lieu-header {
-  margin-bottom: 1.5rem;
-}
-
-.pd-lieu-header .pd-lieux-back {
-  margin-bottom: 0.4rem;
-}
-
-/* Titre + image flottante */
 .pd-lieu-header-main {
   margin-top: 0.5rem;
-  position: relative;
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
 }
+
 .pd-lieu-header-main h1 {
-  margin: 0;
   font-size: 2rem;
   font-weight: 700;
-  padding-right: 210px;  /* réserve pour l'image */
 }
 
-.pd-lieu-simple-line {
-  margin: 0.2rem 0 0;
-  color: #e5e7eb;
-  font-size: 0.95rem;
-}
-
-/* Image carte */
+/* Image à droite */
 .pd-lieu-image {
-  position: absolute;
-  top: 0;
-  right: 0;
   width: 180px;
-  height: auto;
+  flex: 0 0 180px;
   border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
   cursor: zoom-in;
 }
 
-/* détail lieu : responsive */
 @media (max-width: 700px) {
   .pd-lieu-header-main {
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
   }
-  .pd-lieu-header-main h1 { padding-right: 0; }
+
   .pd-lieu-image {
-    position: static;
     width: 100%;
     max-width: 100%;
-    margin-top: 0.75rem;
   }
 }
 
-/* Sections de la fiche */
-.pd-lieu-section {
-  background: rgba(15, 23, 42, 0.9);
-  border-radius: 12px;
-  padding: 0.75rem 1rem 1rem;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
-  margin-bottom: 0.9rem;
-}
-.pd-lieu-section h2 {
-  font-size: 1.1rem;
-  margin: 0 0 0.4rem;
-}
-.pd-lieu-section ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.pd-lieu-section li { margin: 0.1rem 0; }
-.pd-lieu-section a {
-  text-decoration: none;
-  color: #e5e7eb;
-}
-.pd-lieu-section a:hover { color: #38bdf8; }
+/* ============================================================
+   LIGHTBOX
+============================================================ */
 
-/* Liens Pokémon + niveaux */
-.pd-lieu-pkm-link {
-  text-decoration: none;
-  color: #e5e7eb;
-  font-weight: 500;
-}
-.pd-lieu-pkm-link:hover { color: #38bdf8; }
-.pd-lieu-meta {
-  font-size: 0.85rem;
-  color: #9ca3af;
-  margin-left: 0.35rem;
-}
-
-/* Lightbox */
 .pd-lieu-lightbox {
   position: fixed;
   inset: 0;
@@ -378,6 +111,7 @@ ul.list, ul {
   z-index: 9999;
 }
 .pd-lieu-lightbox.is-visible { display: flex; }
+
 .pd-lieu-lightbox img {
   max-width: 90vw;
   max-height: 90vh;
@@ -385,21 +119,51 @@ ul.list, ul {
   box-shadow: 0 20px 40px rgba(0,0,0,0.6);
 }
 
-/* =======================
-   TAGS / BOUTIQUES / RÉZO
-   ======================= */
+/* ============================================================
+   SECTIONS (Pokémon / Objets / Boutiques)
+============================================================ */
 
-/* conteneur de tags */
+.pd-lieu-section {
+  background: rgba(15, 23, 42, 0.9);
+  border-radius: 12px;
+  padding: 0.75rem 1rem 1rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+  margin-bottom: 1rem;
+}
+
+.pd-lieu-section h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Liste Pokémon */
+.pd-lieu-pkm-link {
+  color: #e5e7eb;
+  font-weight: 500;
+}
+.pd-lieu-pkm-link:hover { color: #38bdf8; }
+
+.pd-lieu-meta {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  margin-left: 0.35rem;
+}
+
+/* ============================================================
+   TAG LISTES (Objets / Baies / Items…)
+============================================================ */
+
 .pd-tags-wrap {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
 }
 
-/* style tag générique */
+/* Tag */
 .pd-tag {
   display: flex;
   align-items: center;
+  gap: 4px;
   padding: 4px 8px;
   background: rgba(255,255,255,0.08);
   border-radius: 8px;
@@ -409,83 +173,66 @@ ul.list, ul {
   white-space: nowrap;
   transition: 0.15s;
 }
-.pd-tag:hover {
-  background: rgba(255,255,255,0.15);
-}
+.pd-tag:hover { background: rgba(255,255,255,0.15); }
 
-/* point vert devant certains tags */
+/* Gros point vert */
 .pd-tag-dot {
   position: relative;
-  padding-left: 14px; /* place pour le point */
+  padding-left: 14px;
 }
 .pd-tag-dot::before {
-  content: "";
-  position: absolute;
-  left: 4px;
-  top: 50%;
-  width: 8px;
-  height: 8px;
-  border-radius: 999px;
-  background: #43d17a;
-  transform: translateY(-50%);
-  box-shadow: 0 0 4px rgba(0,0,0,0.6);
+  content:"";
+  position:absolute;
+  left:0;
+  top:50%;
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background:#43d17a;
+  transform:translateY(-50%);
 }
 
-/* icône éventuelle dans les tags (si utilisée ailleurs) */
-.pd-tag-icon {
-  width: 18px;
-  height: 18px;
-  object-fit: contain;
-}
+/* ============================================================
+   BOUTIQUES — VERSION 2 COLONNES
+============================================================ */
 
-/* Boutiques en 2 colonnes */
 .pd-boutique-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0,1fr));
   gap: 1rem;
 }
+
+/* Une colonne */
 .pd-boutique-col {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.6rem;
 }
 
-/* Détails / résumé des boutiques (Rézo, etc.) */
 .pd-shop-details {
-  margin-bottom: 0.75rem;
   padding: 0.4rem 0.7rem;
   border-radius: 8px;
-  background-color: rgba(15, 23, 42, 0.9);
+  background: rgba(15,23,42,0.9);
 }
+
 .pd-shop-summary {
-  cursor: pointer;
   font-weight: 600;
-  list-style: none;
+  cursor: pointer;
 }
-.pd-shop-summary::-webkit-details-marker { display: none; }
+.pd-shop-summary::-webkit-details-marker { display:none; }
+
 .pd-shop-details[open] .pd-shop-summary {
   margin-bottom: 0.4rem;
 }
+
 .pd-shop-day {
   font-weight: 600;
-  margin-top: 0.4rem;
-  margin-bottom: 0.2rem;
+  margin: 0.4rem 0 0.2rem;
 }
 
-/* lignes texte boutiques (ancienne version) */
-.shop-name {
-  margin-top: 6px;
-  font-weight: 600;
-}
-.shop-line {
-  font-size: 0.9rem;
-  margin-left: 8px;
-}
-.shop-line strong { margin-right: 4px; }
-
-/* icône section, si utilisée */
-.pd-section-icon {
-  width: 18px;
-  height: 18px;
-  vertical-align: -3px;
+/* Responsif : 1 colonne sur mobile */
+@media (max-width: 700px) {
+  .pd-boutique-grid {
+    grid-template-columns: 1fr;
+  }
 }
