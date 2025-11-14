@@ -938,181 +938,229 @@
     "boutique": [],
     "boutique_arene": []
   },
-  {
-    "name": "Route 7 / Azuria",
-    "slug": "route_7_azuria",
-    "sauvage": [
-      {
-        "id": "RATTATA",
-        "name": "Rattata",
-        "rate": 25,
-        "lvl_min": 11,
-        "lvl_max": 14
-      },
-      {
-        "id": "ROUCOOL",
-        "name": "Roucool",
-        "rate": 25,
-        "lvl_min": 11,
-        "lvl_max": 14
-      },
-      {
-        "id": "MYSTHERBE",
-        "name": "Mystherbe",
-        "rate": 19,
-        "lvl_min": 11,
-        "lvl_max": 14
-      },
-      {
-        "id": "ABO",
-        "name": "Abo",
-        "rate": 15,
-        "lvl_min": 11,
-        "lvl_max": 14
-      },
-      {
-        "id": "SABELETTE",
-        "name": "Sabelette",
-        "rate": 15,
-        "lvl_min": 11,
-        "lvl_max": 14
-      },
-      {
-        "id": "CARAPUCE",
-        "name": "Carapuce",
-        "rate": 1,
-        "lvl_min": 7,
-        "lvl_max": 10
-      }
-    ],
-    "jour": [],
-    "nuit": [],
-    "surf": [
-      {
-        "id": "PTITARD",
-        "name": "Ptitard",
-        "rate": 70,
-        "lvl_min": 11,
-        "lvl_max": 14
-      },
-      {
-        "id": "PSYKOKWAK",
-        "name": "Psykokwak",
-        "rate": 30,
-        "lvl_min": 11,
-        "lvl_max": 14
-      }
-    ],
-    "canne": [
-      {
-        "id": "MAGICARPE_JOH",
-        "name": "Magicarpe",
-        "rate": 40,
-        "lvl_min": 3,
-        "lvl_max": 10
-      },
-      {
-        "id": "POISSIRENE",
-        "name": "Poissirène",
-        "rate": 30,
-        "lvl_min": 3,
-        "lvl_max": 10
-      },
-      {
-        "id": "PTITARD",
-        "name": "Ptitard",
-        "rate": 20,
-        "lvl_min": 3,
-        "lvl_max": 10
-      },
-      {
-        "id": "PSYKOKWAK",
-        "name": "Psykokwak",
-        "rate": 10,
-        "lvl_min": 3,
-        "lvl_max": 10
-      }
-    ],
-    "super_canne": [
-      {
-        "id": "MAGICARPE_JOH",
-        "name": "Magicarpe",
-        "rate": 30,
-        "lvl_min": 10,
-        "lvl_max": 25
-      },
-      {
-        "id": "POISSIRENE",
-        "name": "Poissirène",
-        "rate": 25,
-        "lvl_min": 10,
-        "lvl_max": 25
-      },
-      {
-        "id": "PTITARD",
-        "name": "Ptitard",
-        "rate": 25,
-        "lvl_min": 10,
-        "lvl_max": 25
-      },
-      {
-        "id": "PSYKOKWAK",
-        "name": "Psykokwak",
-        "rate": 20,
-        "lvl_min": 10,
-        "lvl_max": 25
-      }
-    ],
-    "mega_canne": [
-      {
-        "id": "MAGICARPE_JOH",
-        "name": "Magicarpe",
-        "rate": 25,
-        "lvl_min": 25,
-        "lvl_max": 50
-      },
-      {
-        "id": "POISSIRENE",
-        "name": "Poissirène",
-        "rate": 25,
-        "lvl_min": 25,
-        "lvl_max": 50
-      },
-      {
-        "id": "PTITARD",
-        "name": "Ptitard",
-        "rate": 25,
-        "lvl_min": 25,
-        "lvl_max": 50
-      },
-      {
-        "id": "PSYKOKWAK",
-        "name": "Psykokwak",
-        "rate": 25,
-        "lvl_min": 25,
-        "lvl_max": 50
-      }
-    ],
-    "cave": [],
-    "rocksmash": [],
-    "pokeradar": [],
-    "objets": ["Super Potion", "Super Bonbon", "DT13 - Abri", "Pierre Zen"],
-    "baies": ["Panga"],
-     "boutique": [
-      { 
-        "name": "LeVeinard", 
-        "category": "divers", 
-        "items": ["Poudre Énergie", "Racine Énergie", "Poudre Soin", "Herbe Rappel", "Attaque +", "Défense +", "Attaque Spé +", "Défense Spé +", "Vitesse +", "Précision +", "Muscle +"] 
-      },
-      { 
-        "name": "Rézo Cadoizo", 
-        "category": "rezo",
-        "items": ["Pierre Stase", "Restes", "Graine Miracle", "Charbon Sec", "Eau Mystique", "Bandeau", "Loupe", "Casque Brut", "Évoluroc", "Vive Griffe", "Gant de Boxe", "Dé Pipé", "Pare-Effet", "Carapace Mue", "Bande Étreinte", "Orbe Frousse", "Orbe Vie", "Piquants", "Poids Pouvoir", "Poignet Pouvoir", "Ceinture Pouvoir", "Bandeau Pouvoir", "Chaîne Pouvoir", "Lentille Pouvoir"] 
-         }],
+ {
+  "name": "Route 7 / Azuria",
+  "slug": "route_7_azuria",
+  "sauvage": [
+    {
+      "id": "RATTATA",
+      "name": "Rattata",
+      "rate": 25,
+      "lvl_min": 11,
+      "lvl_max": 14
+    },
+    {
+      "id": "ROUCOOL",
+      "name": "Roucool",
+      "rate": 25,
+      "lvl_min": 11,
+      "lvl_max": 14
+    },
+    {
+      "id": "MYSTHERBE",
+      "name": "Mystherbe",
+      "rate": 19,
+      "lvl_min": 11,
+      "lvl_max": 14
+    },
+    {
+      "id": "ABO",
+      "name": "Abo",
+      "rate": 15,
+      "lvl_min": 11,
+      "lvl_max": 14
+    },
+    {
+      "id": "SABELETTE",
+      "name": "Sabelette",
+      "rate": 15,
+      "lvl_min": 11,
+      "lvl_max": 14
+    },
+    {
+      "id": "CARAPUCE",
+      "name": "Carapuce",
+      "rate": 1,
+      "lvl_min": 7,
+      "lvl_max": 10
+    }
+  ],
+  "jour": [],
+  "nuit": [],
+  "surf": [
+    {
+      "id": "PTITARD",
+      "name": "Ptitard",
+      "rate": 70,
+      "lvl_min": 11,
+      "lvl_max": 14
+    },
+    {
+      "id": "PSYKOKWAK",
+      "name": "Psykokwak",
+      "rate": 30,
+      "lvl_min": 11,
+      "lvl_max": 14
+    }
+  ],
+  "canne": [
+    {
+      "id": "MAGICARPE_JOH",
+      "name": "Magicarpe",
+      "rate": 40,
+      "lvl_min": 3,
+      "lvl_max": 10
+    },
+    {
+      "id": "POISSIRENE",
+      "name": "Poissirène",
+      "rate": 30,
+      "lvl_min": 3,
+      "lvl_max": 10
+    },
+    {
+      "id": "PTITARD",
+      "name": "Ptitard",
+      "rate": 20,
+      "lvl_min": 3,
+      "lvl_max": 10
+    },
+    {
+      "id": "PSYKOKWAK",
+      "name": "Psykokwak",
+      "rate": 10,
+      "lvl_min": 3,
+      "lvl_max": 10
+    }
+  ],
+  "super_canne": [
+    {
+      "id": "MAGICARPE_JOH",
+      "name": "Magicarpe",
+      "rate": 30,
+      "lvl_min": 10,
+      "lvl_max": 25
+    },
+    {
+      "id": "POISSIRENE",
+      "name": "Poissirène",
+      "rate": 25,
+      "lvl_min": 10,
+      "lvl_max": 25
+    },
+    {
+      "id": "PTITARD",
+      "name": "Ptitard",
+      "rate": 25,
+      "lvl_min": 10,
+      "lvl_max": 25
+    },
+    {
+      "id": "PSYKOKWAK",
+      "name": "Psykokwak",
+      "rate": 20,
+      "lvl_min": 10,
+      "lvl_max": 25
+    }
+  ],
+  "mega_canne": [
+    {
+      "id": "MAGICARPE_JOH",
+      "name": "Magicarpe",
+      "rate": 25,
+      "lvl_min": 25,
+      "lvl_max": 50
+    },
+    {
+      "id": "POISSIRENE",
+      "name": "Poissirène",
+      "rate": 25,
+      "lvl_min": 25,
+      "lvl_max": 50
+    },
+    {
+      "id": "PTITARD",
+      "name": "Ptitard",
+      "rate": 25,
+      "lvl_min": 25,
+      "lvl_max": 50
+    },
+    {
+      "id": "PSYKOKWAK",
+      "name": "Psykokwak",
+      "rate": 25,
+      "lvl_min": 25,
+      "lvl_max": 50
+    }
+  ],
+  "cave": [],
+  "rocksmash": [],
+  "pokeradar": [],
+  "objets": ["Super Potion", "Super Bonbon", "DT13 - Abri", "Pierre Zen"],
+  "baies": ["Panga"],
+  "boutique": [
+    {
+      "name": "LeVeinard",
+      "category": "divers",
+      "items": [
+        "Poudre Énergie",
+        "Racine Énergie",
+        "Poudre Soin",
+        "Herbe Rappel",
+        "Attaque +",
+        "Défense +",
+        "Attaque Spé +",
+        "Défense Spé +",
+        "Vitesse +",
+        "Précision +",
+        "Muscle +"
+      ]
+    },
+    {
+      "name": "Rézo Cadoizo",
+      "category": "rezo",
+      "items": [
+        "Pierre Stase",
+        "Restes",
+        "Graine Miracle",
+        "Charbon Sec",
+        "Eau Mystique",
+        "Bandeau",
+        "Loupe",
+        "Casque Brut",
+        "Évoluroc",
+        "Vive Griffe",
+        "Gant de Boxe",
+        "Dé Pipé",
+        "Pare-Effet",
+        "Carapace Mue",
+        "Bande Étreinte",
+        "Orbe Frousse",
+        "Orbe Vie",
+        "Piquants",
+        "Poids Pouvoir",
+        "Poignet Pouvoir",
+        "Ceinture Pouvoir",
+        "Bandeau Pouvoir",
+        "Chaîne Pouvoir",
+        "Lentille Pouvoir"
+      ]
+    }
+  ],
+  "boutique_arene": [
+    "Filet Ball",
+    "Appât Ball",
+    "Eau Mystique",
+    "Vive Griffe",
+    "Métronome",
+    "Point de Mire",
+    "Montagnard (Kanto)",
+    "Intello (Kanto)",
+    "Fillette (Kanto)",
+    "Costume Eau"
+  ]
+}
 
-   { 
-     "boutique_arene": ["Filet Ball", "Appât Ball", "Eau Mystique", "Vive Griffe", "Métronome", "Point de Mire", "Montagnard (Kanto)", "Intello (Kanto)", "Fillette (Kanto)", "Costume Eau"]
-  },
   {
     "name": "Route 8",
     "slug": "route_8",
