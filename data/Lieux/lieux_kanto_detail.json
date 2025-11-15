@@ -2286,10 +2286,23 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
+    "objets": ["DT38 - Efflorescence", "Super Potion", "Super Bonbon"],
     "baies": [],
-    "boutique": [],
-    "boutique_arene": []
+    "boutique": [{
+      "name": "Casino",
+      "category": "divers",
+      "items": ["Mime Jr.", "Évoli", "Minidraco", "Motisma", "Porygon"]
+    },
+    {
+      "name": "Centre Commercial",
+      "category": "Commerce",
+      "items": ["Pierre Goutte", "Pierre Flamme", "Pierre Feuille", "Pierre Foudre",
+"Attaque +", "Attaque +2", "Défense +", "Défense +2", "Attaque Spé +", "Attaque Spé +2", "Défense Spé +", "Défense Spé +2", "Vitesse +", "Vitesse +2", "Précision +", "Précision +2", "Muscle +", "Muscle +2",
+"PV Plus", "Protéine", "Fer", "Calcium", "Zinc", "Carbone", "Pilule Talent",
+"Potion", "Super Potion", "Hyper Potion", "Potion Max", "Rappel", "Réveil", "Antidote", "Anti-Brûle", "Anti-Para", "Antigel", "Total Soin", "Repousse", "Super Repousse", "Repousse Max", "Corde Sortie", "Poképoupée",
+"Bis Ball", "Scuba Ball", "Faiblo Ball", "Sombre Ball", "Luxe Ball", "Chrono Ball", "Soin Ball", "Rapide Ball", "Filet Ball", "Hasard Ball"]
+    }],
+    "boutique_arene": ["Faiblo Ball", "Love Ball", "Graine Miracle", "Absorb'Bulbe", "Grosse Racine", "Orbe Vie", "Mademoiselle (Kanto)", "Pokémaniac (Kanto)", "Canon (Kanto)", "Costume Plante"]
   },
   {
     "name": "Repaire Rocket",
@@ -2304,25 +2317,10 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": ["DT38 - Efflorescence", "Super Potion", "Super Bonbon"],
+    "objets": [],
     "baies": [],
-    "boutique": [
-    {
-      "name": "Casino",
-      "category": "divers",
-      "items": ["Mime Jr.", "Évoli", "Minidraco", "Motisma", "Porygon"]
-    },
-    {
-      "name": "Centre Commercial",
-      "category": "Commerce",
-      "items": ["Pierre Goutte", "Pierre Flamme", "Pierre Feuille", "Pierre Foudre",
-"Attaque +", "Attaque +2", "Défense +", "Défense +2", "Attaque Spé +", "Attaque Spé +2", "Défense Spé +", "Défense Spé +2", "Vitesse +", "Vitesse +2", "Précision +", "Précision +2", "Muscle +", "Muscle +2",
-"PV Plus", "Protéine", "Fer", "Calcium", "Zinc", "Carbone", "Pilule Talent",
-"Potion", "Super Potion", "Hyper Potion", "Potion Max", "Rappel", "Réveil", "Antidote", "Anti-Brûle", "Anti-Para", "Antigel", "Total Soin", "Repousse", "Super Repousse", "Repousse Max", "Corde Sortie", "Poképoupée",
-"Bis Ball", "Scuba Ball", "Faiblo Ball", "Sombre Ball", "Luxe Ball", "Chrono Ball", "Soin Ball", "Rapide Ball", "Filet Ball", "Hasard Ball"]
-    }
-  ],
-    "boutique_arene": ["Faiblo Ball", "Love Ball", "Graine Miracle", "Absorb'Bulbe", "Grosse Racine", "Orbe Vie", "Mademoiselle (Kanto)", "Pokémaniac (Kanto)", "Canon (Kanto)", "Costume Plante"]
+    "boutique": []
+    "boutique_arene": []
   },
   {
     "name": "Bosquet Radieux",
