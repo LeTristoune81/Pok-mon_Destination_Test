@@ -1313,8 +1313,8 @@
       }
     ],
     "pokeradar": [],
-    "objets": [],
-    "baies": [],
+    "objets": ["Anti-Para", "Super Potion", "Huile", "Défense +"],
+    "baies": ["Kika", "Ceriz"],
     "boutique": [],
     "boutique_arene": []
   },
@@ -1406,8 +1406,8 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
-    "baies": [],
+    "objets": ["DT05 - Donne Moi Ça", "Noeud Destin", "Super Bonbon", "Défense +"],
+    "baies": ["Figuy"],
     "boutique": [],
     "boutique_arene": []
   },
@@ -1604,10 +1604,10 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
-    "baies": [],
+    "objets": ["Tesson Poing", "Super Potion", "Muscle +", "Réveil", "Super ball", "DT10 - Riposte"],
+    "baies": ["Pomroz"],
     "boutique": [],
-    "boutique_arene": []
+    "boutique_arene": ["Speed Ball", "Rapide Ball", "Aimant", "Bandeau", "Loupe", "Champ'Duit", "Pêcheur (Kanto)", "Marin (Kanto)", "Gentleman (Kanto)", "Costume Électrik"]
   },
   {
     "name": "Océane",
@@ -1622,7 +1622,7 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
+    "objets": ["Super Ball", "Total Soin", "Super Bonbon", "Huile", "Restes", "DT26 - Sectionnage", "Repousse", "Antidote"],
     "baies": [],
     "boutique": [],
     "boutique_arene": []
@@ -1655,7 +1655,7 @@
     ],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
+    "objets": ["Super Potion", "Ceinture Force", "Terre Fraîche", "Haltère de Force", "Graine Terre", "Masse Os", "Huile Max"],
     "baies": [],
     "boutique": [],
     "boutique_arene": []
@@ -1825,7 +1825,7 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
+    "objets": ["Super Potion", "Anti-Brûle", "Élixir", "DT20 - Tranch'Aile"],
     "baies": [],
     "boutique": [],
     "boutique_arene": []
@@ -1921,7 +1921,7 @@
     ],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
+    "objets": ["DT32 - Cage-Éclair", "Corde Sortie", "Pierre Foudre", "Pierre Tension"],
     "baies": [],
     "boutique": [],
     "boutique_arene": []
@@ -1975,7 +1975,7 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
+    "objets": ["Anti-Brûle", "Élixir", "DT20 - Tranch'Aile"],
     "baies": [],
     "boutique": [],
     "boutique_arene": []
@@ -2071,7 +2071,7 @@
     ],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
+    "objets": ["Pierre Taillée", "Rappel", "Repousse", "Super Potion", "Potion Max", "Poussière Étoile", "Pierre Flamme", "Pierre Lune", "Pierre Goutte", "Pépite", "Gros Champi", "Corde Sortie", "DT24 - Draco-Rage"],
     "baies": [],
     "boutique": [],
     "boutique_arene": []
@@ -2139,10 +2139,10 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
+    "objets": ["Sombre Ball", "Super Repousse", "DT15 - Griffes Funestes", "Boule Fumée"],
     "baies": [],
     "boutique": [],
-    "boutique_arene": []
+    "boutique_arene": ["Sombre Ball", "Luxe Ball", "Lunettes Noires", "Orbe Frousse", "Lichen Lumineux", "Parapluie Solide", "Mécano (Kanto)", "Exorciste (Kanto)", "Rockeur (Kanto)", "Costume Ténèbres"]
   },
   {
     "name": "Route 14",
@@ -2186,8 +2186,8 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
-    "baies": [],
+    "objets": ["DT42 - Coupe-vent", "Super Ball"],
+    "baies": ["Maron", "Jouca", "Lonme"],
     "boutique": [],
     "boutique_arene": []
   },
@@ -2304,10 +2304,25 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
+    "objets": ["DT38 - Efflorescence", "Super Potion", "Super Bonbon"],
     "baies": [],
-    "boutique": [],
-    "boutique_arene": []
+    "boutique": [
+    {
+      "name": "Casino",
+      "category": "divers",
+      "items": ["Mime Jr.", "Évoli", "Minidraco", "Motisma", "Porygon"]
+    },
+    {
+      "name": "Centre Commercial",
+      "category": "Commerce",
+      "items": ["Pierre Goutte", "Pierre Flamme", "Pierre Feuille", "Pierre Foudre",
+"Attaque +", "Attaque +2", "Défense +", "Défense +2", "Attaque Spé +", "Attaque Spé +2", "Défense Spé +", "Défense Spé +2", "Vitesse +", "Vitesse +2", "Précision +", "Précision +2", "Muscle +", "Muscle +2",
+"PV Plus", "Protéine", "Fer", "Calcium", "Zinc", "Carbone", "Pilule Talent",
+"Potion", "Super Potion", "Hyper Potion", "Potion Max", "Rappel", "Réveil", "Antidote", "Anti-Brûle", "Anti-Para", "Antigel", "Total Soin", "Repousse", "Super Repousse", "Repousse Max", "Corde Sortie", "Poképoupée",
+"Bis Ball", "Scuba Ball", "Faiblo Ball", "Sombre Ball", "Luxe Ball", "Chrono Ball", "Soin Ball", "Rapide Ball", "Filet Ball", "Hasard Ball"]
+    }
+  ],
+    "boutique_arene": ["Faiblo Ball", "Love Ball", "Graine Miracle", "Absorb'Bulbe", "Grosse Racine", "Orbe Vie", "Mademoiselle (Kanto)", "Pokémaniac (Kanto)", "Canon (Kanto)", "Costume Plante"]
   },
   {
     "name": "Bosquet Radieux",
