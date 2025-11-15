@@ -2194,21 +2194,100 @@
 {
   "name": "Route 15 / Céladopole",
   "slug": "route_15_celadopole",
-
-  "sauvage": ["Mystherbe", "Chétiflor", "Rondoudou", "Granivol", "Rosélia", "Nirondelle", "Roucoups"],
+  "sauvage": [
+    {
+      "id": "MYSTHERBE",
+      "name": "Mystherbe",
+      "rate": 20,
+      "lvl_min": 23,
+      "lvl_max": 26
+    },
+    {
+      "id": "CHETIFLOR",
+      "name": "Chétiflor",
+      "rate": 15,
+      "lvl_min": 23,
+      "lvl_max": 26
+    },
+    {
+      "id": "RONDOUDOU",
+      "name": "Rondoudou",
+      "rate": 15,
+      "lvl_min": 23,
+      "lvl_max": 26
+    },
+    {
+      "id": "GRANIVOL",
+      "name": "Granivol",
+      "rate": 15,
+      "lvl_min": 23,
+      "lvl_max": 26
+    },
+    {
+      "id": "ROSELIA",
+      "name": "Rosélia",
+      "rate": 15,
+      "lvl_min": 23,
+      "lvl_max": 26
+    },
+    {
+      "id": "NIRONDELLE",
+      "name": "Nirondelle",
+      "rate": 10,
+      "lvl_min": 23,
+      "lvl_max": 26
+    },
+    {
+      "id": "ROUCOUPS",
+      "name": "Roucoups",
+      "rate": 10,
+      "lvl_min": 23,
+      "lvl_max": 26
+    }
+  ],
   "jour": [],
   "nuit": [],
-  "surf": ["Ptitard"],
-  "canne": ["Ptitard"],
-  "super_canne": ["Ptitard"],
-  "mega_canne": ["Magicarpe"],
+  "surf": [
+    {
+      "id": "PTITARD",
+      "name": "Ptitard",
+      "rate": 100,
+      "lvl_min": 23,
+      "lvl_max": 26
+    }
+  ],
+  "canne": [
+    {
+      "id": "PTITARD",
+      "name": "Ptitard",
+      "rate": 100,
+      "lvl_min": 3,
+      "lvl_max": 10
+    }
+  ],
+  "super_canne": [
+    {
+      "id": "PTITARD",
+      "name": "Ptitard",
+      "rate": 100,
+      "lvl_min": 10,
+      "lvl_max": 25
+    }
+  ],
+  "mega_canne": [
+    {
+      "id": "MAGICARPE_JOH",
+      "name": "Magicarpe",
+      "rate": 100,
+      "lvl_min": 25,
+      "lvl_max": 50
+    }
+  ],
   "cave": [],
   "rocksmash": [],
   "pokeradar": [],
-
   "objets": [],
   "baies": [],
-
   "boutique": [
     {
       "name": "Casino",
@@ -2219,23 +2298,25 @@
       "name": "Centre Commercial",
       "category": "commerce",
       "items": [
-  "Pierre Goutte", "Pierre Flamme", "Pierre Feuille", "Pierre Foudre",
-  "Attaque +", "Attaque +2", "Défense +", "Défense +2",
-  "Attaque Spé +", "Attaque Spé +2", "Défense Spé +", "Défense Spé +2",
-  "Vitesse +", "Vitesse +2", "Précision +", "Précision +2", "Muscle +", "Muscle +2",
-  "PV Plus", "Protéine", "Fer", "Calcium", "Zinc", "Carbone", "Pilule Talent",
-  "Potion", "Super Potion", "Hyper Potion", "Potion Max",
-  "Rappel", "Réveil", "Antidote", "Anti-Brûle", "Anti-Para", "Antigel", "Total Soin",
-  "Repousse", "Super Repousse", "Repousse Max", "Corde Sortie", "Poképoupée",
-  "Bis Ball", "Scuba Ball", "Faiblo Ball", "Sombre Ball",
-  "Luxe Ball", "Chrono Ball", "Soin Ball", "Rapide Ball",
-  "Filet Ball", "Hasard Ball"
-]
+        "Pierre Goutte", "Pierre Flamme", "Pierre Feuille", "Pierre Foudre",
+        "Attaque +", "Attaque +2", "Défense +", "Défense +2",
+        "Attaque Spé +", "Attaque Spé +2", "Défense Spé +", "Défense Spé +2",
+        "Vitesse +", "Vitesse +2", "Précision +", "Précision +2", "Muscle +", "Muscle +2",
+        "PV Plus", "Protéine", "Fer", "Calcium", "Zinc", "Carbone", "Pilule Talent",
+        "Potion", "Super Potion", "Hyper Potion", "Potion Max",
+        "Rappel", "Réveil", "Antidote", "Anti-Brûle", "Anti-Para", "Antigel", "Total Soin",
+        "Repousse", "Super Repousse", "Repousse Max", "Corde Sortie", "Poképoupée",
+        "Bis Ball", "Scuba Ball", "Faiblo Ball", "Sombre Ball",
+        "Luxe Ball", "Chrono Ball", "Soin Ball", "Rapide Ball",
+        "Filet Ball", "Hasard Ball"
+      ]
     }
   ],
-
-  "boutique_arene": ["Faiblo Ball", "Love Ball", "Graine Miracle", "Absorb'Bulbe"]
+  "boutique_arene": [
+    "Faiblo Ball", "Love Ball", "Graine Miracle", "Absorb'Bulbe"
+  ]
 },
+
   {
     "name": "Repaire Rocket",
     "slug": "repaire_rocket",
