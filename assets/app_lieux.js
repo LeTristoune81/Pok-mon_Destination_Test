@@ -1,4 +1,4 @@
-// app_lieux.js — version avec détails + images + boutiques avancées (arena_shop + shops)
+// app_lieux.js — version avec détails + images + boutiques avancées (arena_shop + shops + zones type Parc Safari)
 
 const ITEM_ICONS = {
   "Objets Trouvables": "../../assets/icone/objets_trouvable.png",
@@ -9,8 +9,8 @@ const ITEM_ICONS = {
 
 // Optionnel : icônes génériques si tu veux les utiliser ailleurs
 const ICONS = {
-  arena: "../../assets/icone/boutique_arene.png", // adapte si besoin
-  defaultShop: "../../assets/icone/boutique.png"  // adapte si besoin
+  arena: "../../assets/icone/boutique_arene.png",
+  defaultShop: "../../assets/icone/boutique.png"
 };
 
 async function loadJSON(url){
@@ -165,7 +165,7 @@ function addSimpleSection(container, title, list){
   container.appendChild(section);
 }
 
-// === Boutiques : simple OU avancé (Sakado, Rézo Cadoizo, etc.) ===
+// === Nouvelle fonction : boutiques simples OU avancées (version épurée avec <details>) ===
 function addBoutiqueSection(container, boutiqueList){
   if (!boutiqueList || !boutiqueList.length) return;
 
@@ -173,7 +173,7 @@ function addBoutiqueSection(container, boutiqueList){
 
   // Cas ancien : tableau de chaînes -> on garde le comportement existant
   if (typeof first === "string" || typeof first === "number"){
-    addSimpleSection(container, "Boutique", boutiqueList);
+    addSimpleSection(container, "Boutique Spéciale", boutiqueList);
     return;
   }
 
@@ -185,24 +185,9 @@ function addBoutiqueSection(container, boutiqueList){
   h2.textContent = "Boutique Spéciale";
   section.appendChild(h2);
 
-  // grille 2 colonnes
-  const grid = document.createElement("div");
-  grid.className = "pd-boutique-grid";
-  section.appendChild(grid);
-
-  const colLeft  = document.createElement("div");
-  const colRight = document.createElement("div");
-  colLeft.className  = "pd-boutique-col";
-  colRight.className = "pd-boutique-col";
-  grid.appendChild(colLeft);
-  grid.appendChild(colRight);
-
-  boutiqueList.forEach((shop, index) => {
+  boutiqueList.forEach(shop => {
     if (!shop || typeof shop !== "object") return;
 
-    const col = (index % 2 === 0) ? colLeft : colRight;
-
-    // Bloc repliable pour chaque boutique
     const details = document.createElement("details");
     details.className = "pd-shop-details";
 
@@ -229,7 +214,7 @@ function addBoutiqueSection(container, boutiqueList){
 
         items.forEach(obj => {
           const tag = document.createElement("span");
-          tag.className = "pd-tag pd-tag-dot";
+          tag.className = "pd-tag";
           tag.textContent = obj;
           wrap.appendChild(tag);
         });
@@ -244,7 +229,7 @@ function addBoutiqueSection(container, boutiqueList){
 
       shop.items.forEach(obj => {
         const tag = document.createElement("span");
-        tag.className = "pd-tag pd-tag-dot";
+        tag.className = "pd-tag";
         tag.textContent = obj;
         wrap.appendChild(tag);
       });
@@ -253,15 +238,14 @@ function addBoutiqueSection(container, boutiqueList){
     }
 
     details.appendChild(inner);
-    col.appendChild(details);
+    section.appendChild(details);
   });
 
   container.appendChild(section);
 }
 
-// --- Helpers génériques pour d'autres sections (arena_shop, shops[]) ---
+// --- Nouveaux helpers pour les boutiques (shops / arena_shop) ---
 
-// Section avec titre + éventuelle icône
 function addSectionWithIcon(parent, title, iconPath){
   const section = document.createElement("section");
   section.className = "pd-lieu-section";
@@ -284,7 +268,6 @@ function addSectionWithIcon(parent, title, iconPath){
   return section;
 }
 
-// Section “liste d’objets” (style tags) pour une boutique donnée
 function addItemSection(parent, title, items){
   if (!items || !items.length) return;
 
@@ -415,7 +398,54 @@ function renderLieuPage(){
         }
       }
 
-      // -------- Sauvages / Jour / Nuit --------
+      // ======== CAS SPÉCIAL : LIEU AVEC ZONES (Parc Safari) ========
+      if (Array.isArray(lieu.zones) && lieu.zones.length){
+        lieu.zones.forEach(zone => {
+          const zoneSection = document.createElement("section");
+          zoneSection.className = "pd-lieu-section";
+
+          const h2 = document.createElement("h2");
+          h2.textContent = zone.name || "Zone";
+          zoneSection.appendChild(h2);
+
+          // Sauvage / Jour / Nuit
+          const sauvageZ = zone.sauvage || [];
+          const jourZ = zone.jour || [];
+          const nuitZ = zone.nuit || [];
+
+          if (sauvageZ.length){
+            addPokemonSection(zoneSection, region, "Pokémon Sauvages", sauvageZ);
+          } else {
+            if (jourZ.length) addPokemonSection(zoneSection, region, "Pokémon Sauvages — Jour", jourZ);
+            if (nuitZ.length) addPokemonSection(zoneSection, region, "Pokémon Sauvages — Nuit", nuitZ);
+          }
+
+          // Autres catégories Pokémon
+          addPokemonSection(zoneSection, region, "Surf",        zone.surf);
+          addPokemonSection(zoneSection, region, "Canne",       zone.canne);
+          addPokemonSection(zoneSection, region, "Super Canne", zone.super_canne);
+          addPokemonSection(zoneSection, region, "Méga Canne",  zone.mega_canne);
+          addPokemonSection(zoneSection, region, "Grotte",      zone.cave);
+          addPokemonSection(zoneSection, region, "Éclate-Roc",  zone.rocksmash);
+          addPokemonSection(zoneSection, region, "Poké Radar",  zone.pokeradar);
+
+          // Objets / Baies
+          addSimpleSection(zoneSection, "Objets Trouvables", zone.objets);
+          addSimpleSection(zoneSection, "Baies",             zone.baies);
+
+          // Boutiques éventuelles par zone
+          addBoutiqueSection(zoneSection, zone.boutique);
+          addSimpleSection(zoneSection, "Boutique d’Arène", zone.boutique_arene);
+
+          container.appendChild(zoneSection);
+        });
+
+        // On a tout géré via les zones, on ne continue pas le rendu classique
+        return;
+      }
+
+      // -------- CAS CLASSIQUE (sans zones) --------
+
       const sauvage = lieu.sauvage || [];
       const jour = lieu.jour || [];
       const nuit = lieu.nuit || [];
@@ -427,7 +457,7 @@ function renderLieuPage(){
         if (nuit.length) addPokemonSection(container, region, "Pokémon Sauvages — Nuit", nuit);
       }
 
-      // -------- Autres catégories Pokémon --------
+      // Autres catégories Pokémon
       addPokemonSection(container, region, "Surf",        lieu.surf);
       addPokemonSection(container, region, "Canne",       lieu.canne);
       addPokemonSection(container, region, "Super Canne", lieu.super_canne);
@@ -436,17 +466,17 @@ function renderLieuPage(){
       addPokemonSection(container, region, "Éclate-Roc",  lieu.rocksmash);
       addPokemonSection(container, region, "Poké Radar",  lieu.pokeradar);
 
-      // -------- Objets / Baies --------
+      // Objets / Baies
       addSimpleSection(container, "Objets Trouvables", lieu.objets);
       addSimpleSection(container, "Baies",             lieu.baies);
 
-      // -------- Boutiques : simple OU avancé (Sakado, Rézo Cadoizo, etc.) --------
+      // Boutiques : simple / avancé
       addBoutiqueSection(container, lieu.boutique);
 
-      // -------- Boutique d’Arène (liste simple) --------
+      // Boutique d’Arène (liste simple)
       addSimpleSection(container, "Boutique d’Arène",  lieu.boutique_arene);
 
-      // -------- Nouveau système : arena_shop + shops[] --------
+      // Nouveau système : arena_shop + shops[]
       renderArenaShop(container, lieu.arena_shop);
       renderShops(container, lieu.shops);
     })
