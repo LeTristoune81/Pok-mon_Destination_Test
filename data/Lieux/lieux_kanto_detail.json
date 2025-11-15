@@ -2703,250 +2703,108 @@
   "boutique_arene": [],
   "zones": [
     {
-      "name": "Zone Centrale",
-      "slug": "zone_centrale",
-      "sauvage": [],
+      "name": "Zone centrale",
+      "slug": "parc_safari_zone_centrale",
       "jour": [
-        "Nidorino",
-        "Nidorina",
-        "Rapasdepic",
-        "Roucoups",
-        "Pikachu",
-        "Floravol",
-        "Compagnol",
-        "Chinchidou",
-        "Miaouss",
-        "Tauros",
-        "Leveinard",
-        "M. Mime"
+        "Nidorino", "Nidorina", "Rapasdepic", "Roucoups", "Pikachu",
+        "Floravol", "Compagnol", "Chinchidou", "Miaouss",
+        "Tauros", "Leveinard", "M. Mime"
       ],
       "nuit": [
-        "Nidorino",
-        "Nidorina",
-        "Rapasdepic",
-        "Cornèbre",
-        "Pikachu",
-        "Fantominus",
-        "Pandèspiègle",
-        "Archéomire",
-        "Ponyta",
-        "Tauros",
-        "Leveinard",
-        "M. Mime"
+        "Nidorino", "Nidorina", "Rapasdepic", "Cornèbre", "Pikachu",
+        "Fantominus", "Pandèspiègle", "Archéomire", "Ponyta",
+        "Tauros", "Leveinard", "M. Mime"
       ],
-      "surf": [
-        "Psykokwak"
-      ],
-      "canne": [
-        "Poissirène",
-        "Psykokwak"
-      ],
-      "super_canne": [
-        "Poissirène",
-        "Psykokwak"
-      ],
-      "mega_canne": [
-        "Poissirène",
-        "Psykokwak",
-        "Poissidame",
-        "Poissoroy",
-        "Akwakwak",
-        "Minidraco"
-      ],
+      "surf": ["Psykokwak"],
+      "canne": ["Poissirène", "Psykokwak"],
+      "super_canne": ["Poissirène", "Psykokwak"],
+      "mega_canne": ["Poissirène", "Psykokwak", "Poissidame", "Poissoroy", "Akwakwak", "Minidraco"],
       "cave": [],
       "rocksmash": [],
       "pokeradar": [],
-      "objets": [
-        "Rappel Max"
-      ],
+      "objets": ["Rappel Max"],
       "baies": [],
       "boutique": [],
       "boutique_arene": []
     },
     {
       "name": "Zone Est",
-      "slug": "zone_est",
-      "sauvage": [],
+      "slug": "parc_safari_zone_est",
       "jour": [
-        "Nidorino",
-        "Nidorina",
-        "Osselait",
-        "Hélionceau",
-        "Doduo",
-        "Toxizap",
-        "Phanpy",
-        "Zébibron",
-        "Charibari",
-        "Girafarig",
-        "Kangourex",
-        "Zéphavane",
-        "Craparoi",
-        "Solaroc"
+        "Nidorino", "Nidorina", "Osselait", "Hélionceau", "Doduo",
+        "Toxizap", "Phanpy", "Zébibron", "Charibari", "Girafarig",
+        "Kangourex", "Zéphavane", "Craparoi", "Solaroc"
       ],
       "nuit": [
-        "Nidorino",
-        "Nidorina",
-        "Osselait",
-        "Grahyena",
-        "Sablaireau",
-        "Toxizap",
-        "Rapion",
-        "Kraknoix",
-        "Mascaïman",
-        "Charibari",
-        "Kangourex",
-        "Ténéfix",
-        "Lewsor",
-        "Séléroc"
+        "Nidorino", "Nidorina", "Osselait", "Grahyena", "Sablaireau",
+        "Toxizap", "Rapion", "Kraknoix", "Mascaïman", "Charibari",
+        "Kangourex", "Ténéfix", "Lewsor", "Séléroc"
       ],
-      "surf": [
-        "Carvanha"
-      ],
-      "canne": [
-        "Carvanha"
-      ],
-      "super_canne": [
-        "Carvanha"
-      ],
-      "mega_canne": [
-        "Carvanha"
-      ],
+      "surf": ["Carvanha"],
+      "canne": ["Carvanha"],
+      "super_canne": ["Carvanha"],
+      "mega_canne": ["Carvanha"],
       "cave": [],
-      "rocksmash": [
-        "Racaillou",
-        "Scoléton"
-      ],
+      "rocksmash": ["Racaillou", "Scoléton"],
       "pokeradar": [],
-      "objets": [
-        "Balle Lumière"
-      ],
+      "objets": ["Balle Lumière"],
       "baies": [],
       "boutique": [],
       "boutique_arene": []
     },
     {
       "name": "Zone Nord",
-      "slug": "zone_nord",
-      "sauvage": [],
+      "slug": "parc_safari_zone_nord",
       "jour": [
-        "Ortide",
-        "Boustiflor",
-        "Saquedeneu",
-        "Pifeuil",
-        "Noeunoeuf",
-        "Charmillon",
-        "Vigoroth",
-        "Couverdure",
-        "Dardargnan",
-        "Parasect",
-        "Insécateur",
-        "Scarabrute"
+        "Ortide", "Boustiflor", "Saquedeneu", "Pifeuil", "Noeunoeuf",
+        "Charmillon", "Vigoroth", "Couverdure", "Dardargnan",
+        "Parasect", "Insécateur", "Scarabrute"
       ],
       "nuit": [
-        "Ortide",
-        "Boustiflor",
-        "Saquedeneu",
-        "Grimalin",
-        "Soporifik",
-        "Papinox",
-        "Kadabra",
-        "Spododo",
-        "Papilusion",
-        "Aéromite",
-        "Insécateur",
-        "Scarabrute"
+        "Ortide", "Boustiflor", "Saquedeneu", "Grimalin", "Soporifik",
+        "Papinox", "Kadabra", "Spododo", "Papilusion", "Aéromite",
+        "Insécateur", "Scarabrute"
       ],
-      "surf": [
-        "Axoloto",
-        "Écrapince"
-      ],
-      "canne": [
-        "Axoloto",
-        "Écrapince"
-      ],
-      "super_canne": [
-        "Axoloto",
-        "Écrapince"
-      ],
-      "mega_canne": [
-        "Axoloto",
-        "Écrapince"
-      ],
+      "surf": ["Axoloto", "Écrapince"],
+      "canne": ["Axoloto", "Écrapince"],
+      "super_canne": ["Axoloto", "Écrapince"],
+      "mega_canne": ["Axoloto", "Écrapince"],
       "cave": [],
       "rocksmash": [],
       "pokeradar": [],
-      "objets": [
-        "Grosse Racine",
-        "Pierre Vaseuse"
-      ],
+      "objets": ["Grosse Racine", "Pierre Vaseuse"],
       "baies": [],
       "boutique": [],
       "boutique_arene": []
     },
     {
       "name": "Zone Ouest",
-      "slug": "zone_ouest",
-      "sauvage": [],
+      "slug": "parc_safari_zone_ouest",
       "jour": [
-        "Rhinocorne",
-        "Voltorbe",
-        "Chamallot",
-        "Arbok",
-        "Ramboum",
-        "Caninos",
-        "Tiboudet",
-        "Galvaran",
-        "Farfuret",
-        "Magmar",
-        "Météno",
-        "Draby"
+        "Rhinocorne", "Voltorbe", "Chamallot", "Arbok", "Ramboum",
+        "Caninos", "Tiboudet", "Galvaran", "Farfuret",
+        "Magmar", "Météno", "Draby"
       ],
       "nuit": [
-        "Rhinocorne",
-        "Voltorbe",
-        "Baggiguane",
-        "Arbok",
-        "Ramboum",
-        "Goupix",
-        "Grondogue",
-        "Galegon",
-        "Farfuret",
-        "Lippoutou",
-        "Terhal",
-        "Frigodo"
+        "Rhinocorne", "Voltorbe", "Baggiguane", "Arbok", "Ramboum",
+        "Goupix", "Grondogue", "Galegon", "Farfuret",
+        "Lippoutou", "Terhal", "Frigodo"
       ],
-      "surf": [
-        "Barloche",
-        "Barbicha"
-      ],
-      "canne": [
-        "Barloche"
-      ],
-      "super_canne": [
-        "Barloche"
-      ],
-      "mega_canne": [
-        "Barloche",
-        "Barbicha"
-      ],
+      "surf": ["Barloche", "Barbicha"],
+      "canne": ["Barloche"],
+      "super_canne": ["Barloche"],
+      "mega_canne": ["Barloche", "Barbicha"],
       "cave": [],
-      "rocksmash": [
-        "Nodulithe",
-        "Racaillou"
-      ],
+      "rocksmash": ["Nodulithe", "Racaillou"],
       "pokeradar": [],
-      "objets": [
-        "Super Bonbon",
-        "Pépite",
-        "Élixir",
-        "Potion Max",
-        "Dentier Doré"
-      ],
+      "objets": ["Super Bonbon", "Pépite", "Élixir", "Potion Max", "Dentier Doré"],
       "baies": [],
       "boutique": [],
       "boutique_arene": []
-    
-},
+    }
+  ]
+}
+
 {
     "name": "Route 18",
     "slug": "route_18",
