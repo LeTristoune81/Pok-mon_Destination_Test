@@ -2249,7 +2249,7 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
+    "objets": ["Scope Sylphe", "Clé Rocket", "Élixir", "Corde Sortie", "Rocket Ball", "Rocket Ball2", "DT91 - Larcin", "DT41 - Sacrifice", "DT14 - Punition", "Super Potion", "Rappel"],
     "baies": [],
     "boutique": [],
     "boutique_arene": []
@@ -2338,8 +2338,8 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
-    "baies": [],
+    "objets": ["DT37 - Canon Graine"],
+    "baies": ["Ratam"],
     "boutique": [],
     "boutique_arene": []
   },
@@ -2413,7 +2413,7 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
+    "objets": ["DT30 - Ultimapoing"],
     "baies": [],
     "boutique": [],
     "boutique_arene": []
@@ -2474,7 +2474,7 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
+    "objets": ["DT34 - Tête de Fer"],
     "baies": [],
     "boutique": [],
     "boutique_arene": []
@@ -2679,968 +2679,277 @@
     "cave": [],
     "rocksmash": [],
     "pokeradar": [],
-    "objets": [],
-    "baies": [],
+    "objets": ["Pépite"],
+    "baies": ["Nanana", "Mago"],
     "boutique": [],
-    "boutique_arene": []
+    "boutique_arene": ["Toxi Ball", "Appât Ball", "Pic Venin", "Bouton Fuite", "Veste de Combat", "Griffe Rasoir", "Dompteur (Kanto)", "Loubard (Kanto)", "Nageur (Kanto)", "Costume Poison"]
   },
   {
-    "name": "Parc Safari",
-    "slug": "parc_safari",
-    "sauvage": [],
-    "jour": [
-      {
-        "id": "NIDORINO",
-        "name": "Nidorino",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "NIDORINA",
-        "name": "Nidorina",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "RAPASDEPIC",
-        "name": "Rapasdepic",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "ROUCOUPS",
-        "name": "Roucoups",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "PIKACHU",
-        "name": "Pikachu",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "FLORAVOL",
-        "name": "Floravol",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "COMPAGNOL",
-        "name": "Compagnol",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "CHINCHIDOU",
-        "name": "Chinchidou",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "MIAOUSS_GAL",
-        "name": "Miaouss",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "TAUROS",
-        "name": "Tauros",
-        "rate": 5,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "LEVEINARD",
-        "name": "Leveinard",
-        "rate": 3,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "MMIME",
-        "name": "M. Mime",
-        "rate": 2,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "NIDORINO",
-        "name": "Nidorino",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "NIDORINA",
-        "name": "Nidorina",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "OSSELAIT",
-        "name": "Osselait",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "HELIONCEAU",
-        "name": "Hélionceau",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "DODUO",
-        "name": "Doduo",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "TOXIZAP",
-        "name": "Toxizap",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "PHANPY",
-        "name": "Phanpy",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "ZEBIBRON",
-        "name": "Zébibron",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "CHARIBARI",
-        "name": "Charibari",
-        "rate": 5,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "GIRAFARIG",
-        "name": "Girafarig",
-        "rate": 5,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "KANGOUREX",
-        "name": "Kangourex",
-        "rate": 4,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "ZEPHAVANE",
-        "name": "Zéphavane",
-        "rate": 3,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "CRAPAROI",
-        "name": "Craparoi",
-        "rate": 2,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "SOLAROC",
-        "name": "Solaroc",
-        "rate": 1,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "ORTIDE",
-        "name": "Ortide",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "BOUSTIFLOR",
-        "name": "Boustiflor",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "SAQUEDENEU",
-        "name": "Saquedeneu",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "PIFEUIL",
-        "name": "Pifeuil",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "NOEUNOEUF",
-        "name": "Noeunoeuf",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "CHARMILLON",
-        "name": "Charmillon",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "VIGOROTH",
-        "name": "Vigoroth",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "COUVERDURE",
-        "name": "Couverdure",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "DARDARGNAN",
-        "name": "Dardargnan",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "PARASECT",
-        "name": "Parasect",
-        "rate": 5,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "INSECATEUR",
-        "name": "Insécateur",
-        "rate": 3,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "SCARABRUTE",
-        "name": "Scarabrute",
-        "rate": 2,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "RHINOCORNE",
-        "name": "Rhinocorne",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "VOLTORBE",
-        "name": "Voltorbe",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "CHAMALLOT",
-        "name": "Chamallot",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "ARBOK",
-        "name": "Arbok",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "RAMBOUM",
-        "name": "Ramboum",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "CANINOS",
-        "name": "Caninos",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "TIBOUDET",
-        "name": "Tiboudet",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "GALVARAN",
-        "name": "Galvaran",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "FARFURET",
-        "name": "Farfuret",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "MAGMAR",
-        "name": "Magmar",
-        "rate": 5,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "METENO",
-        "name": "Météno",
-        "rate": 3,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "DRABY",
-        "name": "Draby",
-        "rate": 2,
-        "lvl_min": 30,
-        "lvl_max": 33
-      }
-    ],
-    "nuit": [
-      {
-        "id": "NIDORINO",
-        "name": "Nidorino",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "NIDORINA",
-        "name": "Nidorina",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "RAPASDEPIC",
-        "name": "Rapasdepic",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "CORNEBRE",
-        "name": "Cornèbre",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "PIKACHU",
-        "name": "Pikachu",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "FANTOMINUS",
-        "name": "Fantominus",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "PANDESPIEGLE",
-        "name": "Pandèspiègle",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "ARCHEOMIRE",
-        "name": "Archéomire",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "PONYTA_GAL",
-        "name": "Ponyta",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "TAUROS",
-        "name": "Tauros",
-        "rate": 5,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "LEVEINARD",
-        "name": "Leveinard",
-        "rate": 3,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "MMIME",
-        "name": "M. Mime",
-        "rate": 2,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "NIDORINO",
-        "name": "Nidorino",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "NIDORINA",
-        "name": "Nidorina",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "OSSELAIT",
-        "name": "Osselait",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "GRAHYENA",
-        "name": "Grahyena",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "SABLAIREAU",
-        "name": "Sablaireau",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "TOXIZAP",
-        "name": "Toxizap",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "RAPION",
-        "name": "Rapion",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "KRAKNOIX",
-        "name": "Kraknoix",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "MASCAIMAN",
-        "name": "Mascaïman",
-        "rate": 5,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "CHARIBARI",
-        "name": "Charibari",
-        "rate": 5,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "KANGOUREX",
-        "name": "Kangourex",
-        "rate": 4,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "TENEFIX",
-        "name": "Ténéfix",
-        "rate": 3,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "LEWSOR",
-        "name": "Lewsor",
-        "rate": 2,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "SELEROC",
-        "name": "Séléroc",
-        "rate": 1,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "ORTIDE",
-        "name": "Ortide",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "BOUSTIFLOR",
-        "name": "Boustiflor",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "SAQUEDENEU",
-        "name": "Saquedeneu",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "GRIMALIN",
-        "name": "Grimalin",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "SOPORIFIK",
-        "name": "Soporifik",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "PAPINOX",
-        "name": "Papinox",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "KADABRA",
-        "name": "Kadabra",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "SPODODO",
-        "name": "Spododo",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "PAPILUSION",
-        "name": "Papilusion",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "AEROMITE",
-        "name": "Aéromite",
-        "rate": 5,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "INSECATEUR",
-        "name": "Insécateur",
-        "rate": 3,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "SCARABRUTE",
-        "name": "Scarabrute",
-        "rate": 2,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "RHINOCORNE",
-        "name": "Rhinocorne",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "VOLTORBE",
-        "name": "Voltorbe",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "BAGGIGUANE",
-        "name": "Baggiguane",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "ARBOK",
-        "name": "Arbok",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "RAMBOUM",
-        "name": "Ramboum",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "GOUPIX",
-        "name": "Goupix",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "GRONDOGUE",
-        "name": "Grondogue",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "GALEGON",
-        "name": "Galegon",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "FARFURET",
-        "name": "Farfuret",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "LIPPOUTOU",
-        "name": "Lippoutou",
-        "rate": 5,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "TERHAL",
-        "name": "Terhal",
-        "rate": 3,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "FRIGODO",
-        "name": "Frigodo",
-        "rate": 2,
-        "lvl_min": 30,
-        "lvl_max": 33
-      }
-    ],
-    "surf": [
-      {
-        "id": "PSYKOKWAK",
-        "name": "Psykokwak",
-        "rate": 100,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "CARVANHA",
-        "name": "Carvanha",
-        "rate": 100,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "AXOLOTO",
-        "name": "Axoloto",
-        "rate": 50,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "ECRAPINCE",
-        "name": "Écrapince",
-        "rate": 50,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "BARLOCHE",
-        "name": "Barloche",
-        "rate": 70,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "BARBICHA",
-        "name": "Barbicha",
-        "rate": 30,
-        "lvl_min": 30,
-        "lvl_max": 33
-      }
-    ],
-    "canne": [
-      {
-        "id": "POISSIRENE",
-        "name": "Poissirène",
-        "rate": 80,
-        "lvl_min": 3,
-        "lvl_max": 10
-      },
-      {
-        "id": "PSYKOKWAK",
-        "name": "Psykokwak",
-        "rate": 20,
-        "lvl_min": 3,
-        "lvl_max": 10
-      },
-      {
-        "id": "CARVANHA",
-        "name": "Carvanha",
-        "rate": 100,
-        "lvl_min": 3,
-        "lvl_max": 10
-      },
-      {
-        "id": "AXOLOTO",
-        "name": "Axoloto",
-        "rate": 50,
-        "lvl_min": 3,
-        "lvl_max": 10
-      },
-      {
-        "id": "ECRAPINCE",
-        "name": "Écrapince",
-        "rate": 50,
-        "lvl_min": 3,
-        "lvl_max": 10
-      },
-      {
-        "id": "BARLOCHE",
-        "name": "Barloche",
-        "rate": 100,
-        "lvl_min": 3,
-        "lvl_max": 10
-      }
-    ],
-    "super_canne": [
-      {
-        "id": "POISSIRENE",
-        "name": "Poissirène",
-        "rate": 70,
-        "lvl_min": 10,
-        "lvl_max": 25
-      },
-      {
-        "id": "PSYKOKWAK",
-        "name": "Psykokwak",
-        "rate": 30,
-        "lvl_min": 10,
-        "lvl_max": 25
-      },
-      {
-        "id": "CARVANHA",
-        "name": "Carvanha",
-        "rate": 100,
-        "lvl_min": 10,
-        "lvl_max": 25
-      },
-      {
-        "id": "AXOLOTO",
-        "name": "Axoloto",
-        "rate": 50,
-        "lvl_min": 10,
-        "lvl_max": 25
-      },
-      {
-        "id": "ECRAPINCE",
-        "name": "Écrapince",
-        "rate": 50,
-        "lvl_min": 10,
-        "lvl_max": 25
-      },
-      {
-        "id": "BARLOCHE",
-        "name": "Barloche",
-        "rate": 100,
-        "lvl_min": 10,
-        "lvl_max": 25
-      }
-    ],
-    "mega_canne": [
-      {
-        "id": "POISSIRENE",
-        "name": "Poissirène",
-        "rate": 35,
-        "lvl_min": 25,
-        "lvl_max": 50
-      },
-      {
-        "id": "PSYKOKWAK",
-        "name": "Psykokwak",
-        "rate": 30,
-        "lvl_min": 25,
-        "lvl_max": 50
-      },
-      {
-        "id": "POISSIDAME",
-        "name": "Poissidame",
-        "rate": 10,
-        "lvl_min": 33,
-        "lvl_max": 50
-      },
-      {
-        "id": "POISSOROY",
-        "name": "Poissoroy",
-        "rate": 10,
-        "lvl_min": 33,
-        "lvl_max": 50
-      },
-      {
-        "id": "AKWAKWAK",
-        "name": "Akwakwak",
-        "rate": 10,
-        "lvl_min": 33,
-        "lvl_max": 50
-      },
-      {
-        "id": "MINIDRACO",
-        "name": "Minidraco",
-        "rate": 5,
-        "lvl_min": 20,
-        "lvl_max": 30
-      },
-      {
-        "id": "CARVANHA",
-        "name": "Carvanha",
-        "rate": 100,
-        "lvl_min": 25,
-        "lvl_max": 50
-      },
-      {
-        "id": "AXOLOTO",
-        "name": "Axoloto",
-        "rate": 50,
-        "lvl_min": 25,
-        "lvl_max": 50
-      },
-      {
-        "id": "ECRAPINCE",
-        "name": "Écrapince",
-        "rate": 50,
-        "lvl_min": 25,
-        "lvl_max": 50
-      },
-      {
-        "id": "BARLOCHE",
-        "name": "Barloche",
-        "rate": 70,
-        "lvl_min": 25,
-        "lvl_max": 50
-      },
-      {
-        "id": "BARBICHA",
-        "name": "Barbicha",
-        "rate": 30,
-        "lvl_min": 25,
-        "lvl_max": 50
-      }
-    ],
-    "cave": [],
-    "rocksmash": [
-      {
-        "id": "RACAILLOU",
-        "name": "Racaillou",
-        "rate": 90,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "SCOLETON",
-        "name": "Scoléton",
-        "rate": 10,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "NODULITHE",
-        "name": "Nodulithe",
-        "rate": 70,
-        "lvl_min": 30,
-        "lvl_max": 33
-      },
-      {
-        "id": "RACAILLOU_ALO",
-        "name": "Racaillou",
-        "rate": 30,
-        "lvl_min": 30,
-        "lvl_max": 33
-      }
-    ],
-    "pokeradar": [],
-    "objets": [],
-    "baies": [],
-    "boutique": [],
-    "boutique_arene": []
-  },
-  {
+{
+  "name": "Parc Safari",
+  "slug": "parc_safari",
+  "sauvage": [],
+  "jour": [],
+  "nuit": [],
+  "surf": [],
+  "canne": [],
+  "super_canne": [],
+  "mega_canne": [],
+  "cave": [],
+  "rocksmash": [],
+  "pokeradar": [],
+  "objets": [],
+  "baies": [],
+  "boutique": [],
+  "boutique_arene": [],
+  "zones": [
+    {
+      "name": "Zone Centrale",
+      "slug": "zone_centrale",
+      "sauvage": [],
+      "jour": [
+        "Nidorino",
+        "Nidorina",
+        "Rapasdepic",
+        "Roucoups",
+        "Pikachu",
+        "Floravol",
+        "Compagnol",
+        "Chinchidou",
+        "Miaouss",
+        "Tauros",
+        "Leveinard",
+        "M. Mime"
+      ],
+      "nuit": [
+        "Nidorino",
+        "Nidorina",
+        "Rapasdepic",
+        "Cornèbre",
+        "Pikachu",
+        "Fantominus",
+        "Pandèspiègle",
+        "Archéomire",
+        "Ponyta",
+        "Tauros",
+        "Leveinard",
+        "M. Mime"
+      ],
+      "surf": [
+        "Psykokwak"
+      ],
+      "canne": [
+        "Poissirène",
+        "Psykokwak"
+      ],
+      "super_canne": [
+        "Poissirène",
+        "Psykokwak"
+      ],
+      "mega_canne": [
+        "Poissirène",
+        "Psykokwak",
+        "Poissidame",
+        "Poissoroy",
+        "Akwakwak",
+        "Minidraco"
+      ],
+      "cave": [],
+      "rocksmash": [],
+      "pokeradar": [],
+      "objets": [
+        "Rappel Max"
+      ],
+      "baies": [],
+      "boutique": [],
+      "boutique_arene": []
+    },
+    {
+      "name": "Zone Est",
+      "slug": "zone_est",
+      "sauvage": [],
+      "jour": [
+        "Nidorino",
+        "Nidorina",
+        "Osselait",
+        "Hélionceau",
+        "Doduo",
+        "Toxizap",
+        "Phanpy",
+        "Zébibron",
+        "Charibari",
+        "Girafarig",
+        "Kangourex",
+        "Zéphavane",
+        "Craparoi",
+        "Solaroc"
+      ],
+      "nuit": [
+        "Nidorino",
+        "Nidorina",
+        "Osselait",
+        "Grahyena",
+        "Sablaireau",
+        "Toxizap",
+        "Rapion",
+        "Kraknoix",
+        "Mascaïman",
+        "Charibari",
+        "Kangourex",
+        "Ténéfix",
+        "Lewsor",
+        "Séléroc"
+      ],
+      "surf": [
+        "Carvanha"
+      ],
+      "canne": [
+        "Carvanha"
+      ],
+      "super_canne": [
+        "Carvanha"
+      ],
+      "mega_canne": [
+        "Carvanha"
+      ],
+      "cave": [],
+      "rocksmash": [
+        "Racaillou",
+        "Scoléton"
+      ],
+      "pokeradar": [],
+      "objets": [
+        "Balle Lumière"
+      ],
+      "baies": [],
+      "boutique": [],
+      "boutique_arene": []
+    },
+    {
+      "name": "Zone Nord",
+      "slug": "zone_nord",
+      "sauvage": [],
+      "jour": [
+        "Ortide",
+        "Boustiflor",
+        "Saquedeneu",
+        "Pifeuil",
+        "Noeunoeuf",
+        "Charmillon",
+        "Vigoroth",
+        "Couverdure",
+        "Dardargnan",
+        "Parasect",
+        "Insécateur",
+        "Scarabrute"
+      ],
+      "nuit": [
+        "Ortide",
+        "Boustiflor",
+        "Saquedeneu",
+        "Grimalin",
+        "Soporifik",
+        "Papinox",
+        "Kadabra",
+        "Spododo",
+        "Papilusion",
+        "Aéromite",
+        "Insécateur",
+        "Scarabrute"
+      ],
+      "surf": [
+        "Axoloto",
+        "Écrapince"
+      ],
+      "canne": [
+        "Axoloto",
+        "Écrapince"
+      ],
+      "super_canne": [
+        "Axoloto",
+        "Écrapince"
+      ],
+      "mega_canne": [
+        "Axoloto",
+        "Écrapince"
+      ],
+      "cave": [],
+      "rocksmash": [],
+      "pokeradar": [],
+      "objets": [
+        "Grosse Racine",
+        "Pierre Vaseuse"
+      ],
+      "baies": [],
+      "boutique": [],
+      "boutique_arene": []
+    },
+    {
+      "name": "Zone Ouest",
+      "slug": "zone_ouest",
+      "sauvage": [],
+      "jour": [
+        "Rhinocorne",
+        "Voltorbe",
+        "Chamallot",
+        "Arbok",
+        "Ramboum",
+        "Caninos",
+        "Tiboudet",
+        "Galvaran",
+        "Farfuret",
+        "Magmar",
+        "Météno",
+        "Draby"
+      ],
+      "nuit": [
+        "Rhinocorne",
+        "Voltorbe",
+        "Baggiguane",
+        "Arbok",
+        "Ramboum",
+        "Goupix",
+        "Grondogue",
+        "Galegon",
+        "Farfuret",
+        "Lippoutou",
+        "Terhal",
+        "Frigodo"
+      ],
+      "surf": [
+        "Barloche",
+        "Barbicha"
+      ],
+      "canne": [
+        "Barloche"
+      ],
+      "super_canne": [
+        "Barloche"
+      ],
+      "mega_canne": [
+        "Barloche",
+        "Barbicha"
+      ],
+      "cave": [],
+      "rocksmash": [
+        "Nodulithe",
+        "Racaillou"
+      ],
+      "pokeradar": [],
+      "objets": [
+        "Super Bonbon",
+        "Pépite",
+        "Élixir",
+        "Potion Max",
+        "Dentier Doré"
+      ],
+      "baies": [],
+      "boutique": [],
+      "boutique_arene": []
+    }
+  ]
+}
+
     "name": "Route 18",
     "slug": "route_18",
     "sauvage": [
