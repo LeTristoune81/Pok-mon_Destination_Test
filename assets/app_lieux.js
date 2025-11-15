@@ -399,8 +399,10 @@ function renderLieuPage(){
       }
 
       // ======== CAS SPÉCIAL : LIEU AVEC ZONES (Parc Safari) ========
-      if (Array.isArray(lieu.zones) && lieu.zones.length){
-        lieu.zones.forEach(zone => {
+if (Array.isArray(lieu.zones) && lieu.zones.length) {
+  lieu.zones.forEach(zone => {
+    // zone.name, zone.jour, zone.nuit, zone.surf...
+
           const zoneSection = document.createElement("section");
           zoneSection.className = "pd-lieu-section";
 
