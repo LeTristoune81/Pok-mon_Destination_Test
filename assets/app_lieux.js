@@ -165,7 +165,7 @@ function addSimpleSection(container, title, list){
   container.appendChild(section);
 }
 
-// === Nouvelle fonction : boutiques simples OU avancées (version épurée avec <details>) ===
+// === Nouvelle fonction : boutiques simples OU avancées en 2 colonnes ===
 function addBoutiqueSection(container, boutiqueList){
   if (!boutiqueList || !boutiqueList.length) return;
 
@@ -185,7 +185,17 @@ function addBoutiqueSection(container, boutiqueList){
   h2.textContent = "Boutique Spéciale";
   section.appendChild(h2);
 
-  boutiqueList.forEach(shop => {
+  // ---- GRILLE 2 COLONNES ----
+  const grid = document.createElement("div");
+  grid.className = "pd-boutique-grid";
+
+  const colLeft  = document.createElement("div");
+  colLeft.className = "pd-boutique-col";
+
+  const colRight = document.createElement("div");
+  colRight.className = "pd-boutique-col";
+
+  boutiqueList.forEach((shop, index) => {
     if (!shop || typeof shop !== "object") return;
 
     const details = document.createElement("details");
@@ -199,7 +209,7 @@ function addBoutiqueSection(container, boutiqueList){
     const inner = document.createElement("div");
     inner.className = "pd-shop-content";
 
-    // Cas Rézo Cadoizo : inventaire par jour
+    // Rézo Cadoizo : daily par jour
     if (shop.daily && typeof shop.daily === "object"){
       Object.entries(shop.daily).forEach(([day, items]) => {
         if (!Array.isArray(items) || !items.length) return;
@@ -214,7 +224,7 @@ function addBoutiqueSection(container, boutiqueList){
 
         items.forEach(obj => {
           const tag = document.createElement("span");
-          tag.className = "pd-tag";
+          tag.className = "pd-tag pd-tag-dot";
           tag.textContent = obj;
           wrap.appendChild(tag);
         });
@@ -229,7 +239,7 @@ function addBoutiqueSection(container, boutiqueList){
 
       shop.items.forEach(obj => {
         const tag = document.createElement("span");
-        tag.className = "pd-tag";
+        tag.className = "pd-tag pd-tag-dot";
         tag.textContent = obj;
         wrap.appendChild(tag);
       });
@@ -238,9 +248,18 @@ function addBoutiqueSection(container, boutiqueList){
     }
 
     details.appendChild(inner);
-    section.appendChild(details);
+
+    // Répartition gauche / droite
+    if (index % 2 === 0){
+      colLeft.appendChild(details);
+    } else {
+      colRight.appendChild(details);
+    }
   });
 
+  grid.appendChild(colLeft);
+  grid.appendChild(colRight);
+  section.appendChild(grid);
   container.appendChild(section);
 }
 
