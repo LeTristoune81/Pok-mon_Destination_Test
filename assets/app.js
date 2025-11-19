@@ -1,4 +1,4 @@
-/* ---------- app.js (FINAL & OPTIMISÉ) ---------- */
+/* ---------- app.js (FINAL & OPTIMISÉ - CORRECTION LIENS) ---------- */
 
 /***** CONFIGURATION *****/
 const CONFIG = {
@@ -91,7 +91,9 @@ function formatEvoText(text, region) {
     if (!text) return 'Pas d\'évolution connue';
     return text.replace(/([A-ZÀ-Ö][a-zà-ö]+)/g, (match) => {
         if(['Le', 'La', 'Au', 'Avec', 'En', 'Par', 'Une', 'Les'].includes(match)) return match;
-        return `<a href="pokemon.html?r=${encodeURIComponent(region)}&n=${match}" class="evo-link">${match}</a>`;
+        // CORRECTION : Lien absolu pour l'évolution aussi
+        const url = `/pokemon.html?r=${encodeURIComponent(region)}&n=${match}`;
+        return `<a href="${withBase(url)}" class="evo-link">${match}</a>`;
     });
 }
 
@@ -117,6 +119,11 @@ async function initIndex() {
         grid.innerHTML = list.map(p => {
             const rk = norm(region).replace(/\s/g, '_');
             const candidates = getImageCandidates(p.name, rk, p.image);
+            
+            // CORRECTION ICI : On utilise un chemin absolu (/pokemon.html) géré par withBase
+            // Cela permet au lien de marcher que l'on soit dans /Pokedex/ ou à la racine
+            const linkUrl = withBase(`/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(p.name)}`);
+            
             return `
             <article class="card pkm-card">
                 <div class="cardRow">
@@ -126,10 +133,10 @@ async function initIndex() {
                              onerror="handleImageError(this)" loading="lazy">
                     </div>
                     <div class="cardBody">
-                        <h2 class="h2"><a href="pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(p.name)}">${p.name}</a></h2>
+                        <h2 class="h2"><a href="${linkUrl}">${p.name}</a></h2>
                         <div class="types">${renderBadges(p.types)}</div>
                         <div class="small evo-text">${formatEvoText(p.evolution, region)}</div>
-                        <a href="pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(p.name)}" class="btn-small" style="margin-top:8px; display:inline-block;">Voir fiche</a>
+                        <a href="${linkUrl}" class="btn-small" style="margin-top:8px; display:inline-block;">Voir fiche</a>
                     </div>
                 </div>
             </article>`;
@@ -202,13 +209,11 @@ async function initPokemon() {
     }
 
     // 5. Attaques (Niveau, CT, etc.)
-    // Helper pour générer une liste HTML
     const makeList = (arr) => {
         if(!arr || !arr.length) return '<li>Aucune</li>';
         return arr.map(m => `<li>${linkMove(m)}</li>`).join('');
     };
 
-    // Niveau
     if($('#lvl')) {
         const moves = (p.level_up || []).sort((a,b) => a.level - b.level);
         $('#lvl').innerHTML = moves.length 
@@ -216,7 +221,6 @@ async function initPokemon() {
             : '<li>Aucune</li>';
     }
     
-    // Autres listes (CT, CS, Oeuf...)
     const fillList = (id, data) => {
         const el = $(id);
         if(el) el.innerHTML = `<ul class="cols">${makeList(data)}</ul>`;
