@@ -112,31 +112,32 @@ function renderSimpleList(list) {
   return `<ul class="pd-tags-wrap">${list.map(i => `<li class="pd-tag">${i}</li>`).join('')}</ul>`;
 }
 
-// Affiche les boutiques complexes (catégorisées)
+// Affiche les boutiques complexes (catégorisées) avec système "Accordéon"
 function renderShopList(shops) {
   if (!shops || !shops.length) return '';
+  
   return shops.map(shop => {
-    // Gestion du cas où les items sont dans "daily" (par jour)
     let innerHTML = '';
     
     if (shop.daily) {
-       // Si c'est une boutique journalière, on affiche tout (ou on pourrait filtrer par jour actuel)
        Object.keys(shop.daily).forEach(day => {
-           innerHTML += `<div style="margin-top:10px; font-weight:bold; color:#aaa;">${day}</div>`;
+           innerHTML += `<div style="margin-top:15px; margin-bottom:5px; font-weight:bold; color:#aaa; border-bottom:1px solid #444;">${day}</div>`;
            innerHTML += renderItemGrid(shop.daily[day]);
        });
     } else {
-       // Boutique classique
        innerHTML = renderItemGrid(shop.items);
     }
 
+    // Notez l'attribut 'open' : la boutique est ouverte par défaut.
+    // Enlevez 'open' si vous voulez qu'elles soient fermées par défaut.
     return `
-      <div class="pd-shop-details" style="margin-top:15px;">
-        <div class="shop-name" style="margin-bottom:6px; color:#ffd700; font-weight:bold; border-bottom:1px solid #444; padding-bottom:4px;">
+      <details class="pd-shop-details" open>
+        <summary class="shop-name">
             ${shop.name || 'Boutique'}
-        </div>
+            ${shop.description ? `<span style="display:block; font-size:0.85rem; font-weight:normal; color:#9ca3af; margin-top:2px;">${shop.description}</span>` : ''}
+        </summary>
         ${innerHTML}
-      </div>`;
+      </details>`;
   }).join('');
 }
 
