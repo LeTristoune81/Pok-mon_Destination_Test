@@ -1,9 +1,10 @@
-/* ---------- app.js (FINAL & OPTIMISÉ - CORRECTION LIENS) ---------- */
+/* ---------- app.js (CORRECTION IMAGES & LIENS) ---------- */
 
 /***** CONFIGURATION *****/
 const CONFIG = {
     baseTitle: "Pokémon Destination",
-    spritePaths: ['/assets/pkm/', '/assets/pkm2/'],
+    // NOTE : On utilise des chemins relatifs (pas de "/" au début) pour que ça marche en local
+    spritePaths: ['assets/pkm/', 'assets/pkm2/'],
     defaultRegion: 'Johto'
 };
 
@@ -11,31 +12,39 @@ const CONFIG = {
 const $ = (q, el = document) => el.querySelector(q);
 const norm = (s) => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
-// Détection du chemin de base pour GitHub Pages ou local
+// Détection intelligente du chemin de base
 const BASE_URL = (() => {
+    // Si on est sur GitHub Pages ou dans un sous-dossier
     const m = location.pathname.match(/^(.*\/Pok-mon[^/]*)(?:\/|$)/i);
-    return m ? m[1] : '';
+    return m ? m[1] + '/' : '';
 })();
 
+// Fonction pour nettoyer et préfixer les URLs
 const withBase = (p) => {
     if (!p || /^https?:\/\//i.test(p)) return p;
-    return (p.startsWith('/') ? BASE_URL : '') + p;
+    
+    // Si le chemin commence par /, on l'enlève pour concaténer proprement
+    const cleanP = p.startsWith('/') ? p.slice(1) : p;
+    
+    // Si BASE_URL est vide, on renvoie le chemin tel quel (relatif)
+    // Sinon on préfixe
+    return BASE_URL ? BASE_URL + cleanP : cleanP;
 };
 
-// Chargement JSON robuste
+// Chargement JSON
 async function loadJSON(url) {
-    const target = withBase(url.startsWith('/') ? url : '/' + url);
+    // On s'assure que l'URL est correcte par rapport à la racine
+    const target = withBase(url);
     try {
         const r = await fetch(target);
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return await r.json();
     } catch (e) {
-        console.error("Erreur JSON:", url, e);
+        console.error("Erreur JSON:", target, e);
         return null;
     }
 }
 
-// Anti-lag pour la recherche
 function debounce(func, wait) {
     let timeout;
     return function(...args) {
@@ -44,36 +53,52 @@ function debounce(func, wait) {
     };
 }
 
-/***** IMAGES & SPRITES *****/
+/***** IMAGES & SPRITES (C'est ici que ça coinçait !) *****/
 function getImageCandidates(pkmName, regionKey, specificImage) {
-    if (specificImage) return [withBase('/' + specificImage.replace(/^\/+/, ''))];
+    // Si une image spécifique est définie dans le JSON
+    if (specificImage) return [withBase(specificImage)];
     
-    const cleanName = norm(pkmName).replace(/[^a-z0-9]/g, '');
+    const cleanName = norm(pkmName).replace(/[^a-z0-9]/g, ''); // ex: "mrmime"
     const files = [
-        cleanName + '.png',
-        cleanName.replace(/_/g, '-') + '.png',
-        pkmName.toLowerCase() + '.png'
+        cleanName + '.png',                 // ex: mrmime.png
+        cleanName.replace(/_/g, '-') + '.png', // ex: mr-mime.png
+        pkmName.toLowerCase() + '.png'      // ex: M. Mime.png (avec espaces/accents)
     ];
     
     const paths = [];
-    CONFIG.spritePaths.forEach(base => {
+    
+    // On génère les chemins pour assets/pkm/ et assets/pkm2/
+    CONFIG.spritePaths.forEach(folder => {
         files.forEach(f => {
-            paths.push(withBase(base + f));
-            if(regionKey) paths.push(withBase(base + regionKey + '/' + f));
+            // On construit le chemin : assets/pkm/nom.png
+            // Note : on utilise withBase pour ajouter le préfixe du repo si besoin
+            paths.push(withBase(folder + f));
+            
+            // On tente aussi dans le sous-dossier de région si fourni (ex: assets/pkm/alola/nom.png)
+            if (regionKey) {
+                paths.push(withBase(folder + regionKey + '/' + f));
+            }
         });
     });
+
     return [...new Set(paths)];
 }
 
+// Gestionnaire d'erreur d'image (Fallback)
 function handleImageError(img) {
     const srcs = JSON.parse(decodeURIComponent(img.dataset.srcs || '[]'));
     let idx = parseInt(img.dataset.idx || '0', 10) + 1;
+    
     if (idx < srcs.length) {
+        // On essaie le candidat suivant
         img.dataset.idx = idx;
         img.src = srcs[idx];
     } else {
+        // Plus d'image dispo
         img.style.opacity = 0.3; 
         img.alt = "Image introuvable";
+        // Optionnel : mettre une image "Point d'interrogation" par défaut
+        // img.src = withBase('assets/icone/unknown.png');
     }
 }
 
@@ -84,16 +109,16 @@ function renderBadges(types) {
 
 function linkMove(m) {
     const id = norm(m).replace(/\s+/g, '_');
-    return `<a href="${withBase('/Pages/Attaques/toutes.html')}#${encodeURIComponent(id)}" class="move-link">${m}</a>`;
+    // Lien vers la page des attaques (chemin corrigé)
+    return `<a href="${withBase('Pages/Attaques/toutes.html')}#${encodeURIComponent(id)}" class="move-link">${m}</a>`;
 }
 
 function formatEvoText(text, region) {
     if (!text) return 'Pas d\'évolution connue';
     return text.replace(/([A-ZÀ-Ö][a-zà-ö]+)/g, (match) => {
-        if(['Le', 'La', 'Au', 'Avec', 'En', 'Par', 'Une', 'Les'].includes(match)) return match;
-        // CORRECTION : Lien absolu pour l'évolution aussi
-        const url = `/pokemon.html?r=${encodeURIComponent(region)}&n=${match}`;
-        return `<a href="${withBase(url)}" class="evo-link">${match}</a>`;
+        if(['Le', 'La', 'Au', 'Avec', 'En', 'Par', 'Une', 'Les', 'Pour', 'Sans'].includes(match)) return match;
+        const url = withBase(`pokemon.html?r=${encodeURIComponent(region)}&n=${match}`);
+        return `<a href="${url}" class="evo-link">${match}</a>`;
     });
 }
 
@@ -107,30 +132,41 @@ async function initIndex() {
     const urlParam = new URL(location.href).searchParams.get('r');
     const filename = location.pathname.split('/').pop();
     const regionMatch = filename.match(/Pokedex_([^\.]+)/i);
+    
     let region = urlParam || (regionMatch ? regionMatch[1] : CONFIG.defaultRegion);
-    region = region.replace(/_/g, ' '); 
+    // Nettoyage du nom de région (ex: Ile_Carmonte -> Ile Carmonte)
+    region = decodeURIComponent(region).replace(/_/g, ' '); 
 
-    const data = await loadJSON(`/data/pokedex_${norm(region).replace(/\s/g, '_')}.json`);
-    if (!data) return grid.innerHTML = `<div class="error">Données introuvables pour ${region}</div>`;
+    // Chargement du JSON de la région
+    // Note : on cherche dans data/pokedex_region.json
+    const jsonFile = `data/pokedex_${norm(region).replace(/\s/g, '_')}.json`;
+    const data = await loadJSON(jsonFile);
 
-    $('#status').textContent = `${data.length} Pokémon dans ${decodeURIComponent(region)}`;
+    if (!data) {
+        grid.innerHTML = `<div class="error">Données introuvables pour la région : ${region}<br><small>Vérifiez que le fichier <b>${jsonFile}</b> existe.</small></div>`;
+        return;
+    }
+
+    $('#status').textContent = `${data.length} Pokémon`;
 
     const render = (list) => {
         grid.innerHTML = list.map(p => {
             const rk = norm(region).replace(/\s/g, '_');
             const candidates = getImageCandidates(p.name, rk, p.image);
             
-            // CORRECTION ICI : On utilise un chemin absolu (/pokemon.html) géré par withBase
-            // Cela permet au lien de marcher que l'on soit dans /Pokedex/ ou à la racine
-            const linkUrl = withBase(`/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(p.name)}`);
+            // Lien vers la fiche détail
+            const linkUrl = withBase(`pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(p.name)}`);
             
             return `
             <article class="card pkm-card">
                 <div class="cardRow">
                     <div class="thumb-wrapper">
-                        <img class="thumb pokeimg" src="${candidates[0]}" alt="${p.name}" 
+                        <img class="thumb pokeimg" 
+                             src="${candidates[0]}" 
+                             alt="${p.name}" 
                              data-srcs="${encodeURIComponent(JSON.stringify(candidates))}" 
-                             onerror="handleImageError(this)" loading="lazy">
+                             onerror="handleImageError(this)" 
+                             loading="lazy">
                     </div>
                     <div class="cardBody">
                         <h2 class="h2"><a href="${linkUrl}">${p.name}</a></h2>
@@ -159,83 +195,29 @@ async function initPokemon() {
     const url = new URL(location.href);
     const region = url.searchParams.get('r') || CONFIG.defaultRegion;
     const name = url.searchParams.get('n');
-    if (!name) return;
 
-    const data = await loadJSON(`/data/pokedex_${norm(region).replace(/\s/g, '_')}.json`);
-    const p = data ? data.find(x => norm(x.name) === norm(name)) : null;
-
-    if (!p) {
-        $('.container').innerHTML = `<div class="card"><h1>Pokémon introuvable</h1></div>`;
+    if (!name) {
+        $('.container').innerHTML = `<div class="card"><h1>Erreur</h1><p>Aucun Pokémon spécifié.</p></div>`;
         return;
     }
 
-    // 1. Infos de base
+    const jsonFile = `data/pokedex_${norm(region).replace(/\s/g, '_')}.json`;
+    const data = await loadJSON(jsonFile);
+    
+    // Recherche du Pokémon (insensible à la casse/accents)
+    const p = data ? data.find(x => norm(x.name) === norm(name)) : null;
+
+    if (!p) {
+        $('.container').innerHTML = `<div class="card"><h1>Pokémon introuvable</h1><p>Impossible de trouver <b>${name}</b> dans ${region}.</p></div>`;
+        return;
+    }
+
+    // 1. Remplissage Infos
     document.title = `${p.name} - ${CONFIG.baseTitle}`;
     $('#pokename').textContent = p.name;
     $('#types').innerHTML = renderBadges(p.types);
+    
     if($('#pokedex')) $('#pokedex').textContent = p.pokedex || "Aucune description disponible.";
     if($('#evo')) $('#evo').innerHTML = formatEvoText(p.evolution, region);
 
-    // 2. Image
-    const img = $('#sprite');
-    if(img) {
-        const rk = norm(region).replace(/\s/g, '_');
-        const candidates = getImageCandidates(p.name, rk, p.image);
-        img.dataset.srcs = encodeURIComponent(JSON.stringify(candidates));
-        img.onerror = function() { handleImageError(this); };
-        img.src = candidates[0];
-    }
-
-    // 3. Talents
-    if($('#habil')) $('#habil').innerHTML = (p.abilities || []).map(linkMove).join(', ') || '?';
-    if($('#habhid')) $('#habhid').innerHTML = p.hidden_ability ? linkMove(p.hidden_ability) : 'Aucun';
-
-    // 4. Objets & Ressources
-    if($('#objres')) {
-        let html = '<div class="lvl-group"><div class="lvl-title">Objets tenus</div><ul>';
-        const held = p.held_items || {};
-        if(Object.keys(held).length === 0) html += '<li>Aucun</li>';
-        else {
-            if(held.common) html += `<li>Commun: ${held.common}</li>`;
-            if(held.uncommon) html += `<li>Peu commun: ${held.uncommon}</li>`;
-            if(held.rare) html += `<li>Rare: ${held.rare}</li>`;
-        }
-        html += '</ul></div>';
-        
-        if(p.resource) {
-            html += `<div class="lvl-group" style="margin-top:10px"><div class="lvl-title">Ressource</div><ul><li>${p.resource}</li></ul></div>`;
-        }
-        $('#objres').innerHTML = html;
-    }
-
-    // 5. Attaques (Niveau, CT, etc.)
-    const makeList = (arr) => {
-        if(!arr || !arr.length) return '<li>Aucune</li>';
-        return arr.map(m => `<li>${linkMove(m)}</li>`).join('');
-    };
-
-    if($('#lvl')) {
-        const moves = (p.level_up || []).sort((a,b) => a.level - b.level);
-        $('#lvl').innerHTML = moves.length 
-            ? moves.map(m => `<li><span class="lvl-num">N.${m.level}</span> ${linkMove(m.move)}</li>`).join('')
-            : '<li>Aucune</li>';
-    }
-    
-    const fillList = (id, data) => {
-        const el = $(id);
-        if(el) el.innerHTML = `<ul class="cols">${makeList(data)}</ul>`;
-    };
-
-    fillList('#eggs', p.egg_moves);
-    fillList('#cs', p.cs);
-    fillList('#ct', p.ct);
-    fillList('#dt', p.dt);
-}
-
-/***** AUTO-START *****/
-document.addEventListener('DOMContentLoaded', () => {
-    const path = location.pathname.toLowerCase();
-    if (path.includes('pokemon.html')) initPokemon();
-    else if (path.includes('pokedex')) initIndex();
-    else if (path.includes('toutes.html') && typeof initMoves !== 'undefined') initMoves();
-});
+    // 2
