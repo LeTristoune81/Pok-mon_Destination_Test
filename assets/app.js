@@ -1,4 +1,4 @@
-/* ---------- app.js (VERSION CORRIGÉE DIRECTE) ---------- */
+/* ---------- app.js (VERSION FINALE & ROBUSTE) ---------- */
 
 /***** 1. DÉTECTION DE LA RACINE *****/
 const getRoot = () => {
@@ -20,12 +20,8 @@ const CONFIG = {
 const $ = (q, el = document) => el.querySelector(q);
 const norm = (s) => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
-/***** 4. CHARGEMENT DES DONNÉES (JSON) *****/
 async function loadJSON(filename) {
-    // CORRECTION ICI : On ne modifie plus le nom du fichier !
-    // On suppose que le nom passé est le bon (ex: "pokedex_kanto.json")
     const url = `${ROOT}data/${filename}`;
-    
     try {
         const r = await fetch(url);
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
@@ -41,47 +37,75 @@ function debounce(func, wait) {
     return function(...args) { clearTimeout(timeout); timeout = setTimeout(() => func.apply(this, args), wait); };
 }
 
-/***** 5. GESTION IMAGES *****/
+/***** 4. GESTION IMAGES (LOGIQUE AMÉLIORÉE) *****/
 function getImageCandidates(pkmName, regionKey, specificImage) {
     if (specificImage) return [`${ROOT}${specificImage.replace(/^\.?\//, '')}`];
     
-    const n = norm(pkmName);
-    const cleanName = n.replace(/[^a-z0-9]/g, '');
+    const n = norm(pkmName); // ex: "héricendre" -> "hericendre"
+    const cleanName = n.replace(/[^a-z0-9]/g, ''); // ex: "mr. mime" -> "mrmime"
     
+    // Liste des variantes de noms de fichiers à tester
+    // Le navigateur testera ces chemins un par un jusqu'à en trouver un qui marche
     const files = [
-        `${pkmName}.png`, 
-        `${pkmName.toLowerCase()}.png`,
-        `${cleanName}.png`,
-        `${n.replace(/\s+/g, '-')}.png`,
-        `${n.replace(/\s+/g, '_')}.png`
+        `${pkmName}.png`,                  // Nom exact (ex: Héricendre.png)
+        `${pkmName.toLowerCase()}.png`,    // Minuscule (ex: héricendre.png)
+        `${cleanName}.png`,                // Normalisé (ex: hericendre.png)
+        `${n.replace(/\s+/g, '-')}.png`,   // Tirets (ex: mr-mime.png)
+        `${n.replace(/\s+/g, '_')}.png`    // Underscore (ex: mr_mime.png)
     ];
     
     const paths = [];
     CONFIG.spritePaths.forEach(base => {
         files.forEach(f => {
             paths.push(`${base}${f}`);
+            // Recherche aussi dans le sous-dossier de la région si applicable
             if(regionKey) {
                  paths.push(`${base}${regionKey}/${f}`);
-                 paths.push(`${base}${norm(regionKey)}/${f}`);
+                 // Tente aussi avec la région normalisée (ex: Iles Sevii -> ilessevii)
+                 paths.push(`${base}${norm(regionKey).replace(/[\s_-]/g, '')}/${f}`);
             }
         });
     });
     return [...new Set(paths)];
 }
 
+// Fonction appelée quand une image ne charge pas (404)
 function handleImageError(img) {
-    const srcs = JSON.parse(decodeURIComponent(img.dataset.srcs || '[]'));
-    let idx = parseInt(img.dataset.idx || '0', 10) + 1;
-    if (idx < srcs.length) {
-        img.dataset.idx = idx;
-        img.src = srcs[idx];
+    // On récupère la liste des candidats stockée directement sur l'élément
+    const candidates = img.candidatesList || [];
+    let idx = (img.candidateIndex || 0) + 1;
+    
+    if (idx < candidates.length) {
+        // On essaie le suivant
+        img.candidateIndex = idx;
+        img.src = candidates[idx];
+        // console.log(`Essai image ${idx+1}/${candidates.length}: ${candidates[idx]}`);
     } else {
+        // Échec total
+        console.warn(`[IMAGE] Aucune image trouvée pour : ${img.alt}`);
         img.style.opacity = 0.3; 
-        img.alt = "Introuvable";
+        img.alt = "Image introuvable";
     }
 }
 
-/***** 6. RENDU HTML *****/
+// Helper pour lancer le chargement d'image sur une balise <img>
+function loadImage(imgEl, pkmName, regionKey, specificImage) {
+    if (!imgEl) return;
+    
+    const candidates = getImageCandidates(pkmName, regionKey, specificImage);
+    
+    // On attache les données pour la gestion d'erreur
+    imgEl.candidatesList = candidates;
+    imgEl.candidateIndex = 0;
+    
+    // Important : on définit l'erreur AVANT la source
+    imgEl.onerror = function() { handleImageError(this); };
+    
+    // Lancement
+    imgEl.src = candidates[0];
+}
+
+/***** 5. RENDU HTML *****/
 function renderBadges(types) {
     return (types || []).map(t => `<span class="badge type-${norm(t)}">${t}</span>`).join(' ');
 }
@@ -100,9 +124,9 @@ function formatEvoText(text, region) {
     });
 }
 
-/***** 7. INITIALISATION *****/
+/***** 6. INITIALISATION *****/
 
-// --- PAGE LISTE (POKEDEX) ---
+// --- PAGE POKÉDEX ---
 async function initIndex() {
     const grid = $('.grid');
     if (!grid) return;
@@ -114,17 +138,12 @@ async function initIndex() {
     let regionName = urlParam || (regionMatch ? regionMatch[1] : CONFIG.defaultRegion);
     regionName = decodeURIComponent(regionName).replace(/_/g, ' '); 
 
-    // Construction simple du nom de fichier : "pokedex_" + nom de région nettoyé (espaces -> _)
     const slug = norm(regionName).replace(/\s+/g, '_');
     const jsonFile = `pokedex_${slug}.json`;
-
     const data = await loadJSON(jsonFile);
 
     if (!data) {
-        grid.innerHTML = `<div class="card" style="color:#ff5959; padding:20px; text-align:center;">
-            <h3>Données introuvables</h3>
-            <p>Impossible de charger : <b>data/${jsonFile}</b></p>
-        </div>`;
+        grid.innerHTML = `<div class="card" style="color:#ff5959; padding:20px;">Erreur : ${jsonFile} introuvable.</div>`;
         return;
     }
 
@@ -132,16 +151,21 @@ async function initIndex() {
 
     const render = (list) => {
         grid.innerHTML = list.map(p => {
-            const candidates = getImageCandidates(p.name, slug, p.image);
             const linkUrl = `${ROOT}pokemon.html?r=${encodeURIComponent(regionName)}&n=${encodeURIComponent(p.name)}`;
+            // On génère un ID unique pour l'image pour pouvoir la cibler après injection
+            const imgId = `img-${Math.random().toString(36).substr(2, 9)}`;
             
+            // On prépare le chargement différé
+            setTimeout(() => {
+                const img = document.getElementById(imgId);
+                if(img) loadImage(img, p.name, slug, p.image);
+            }, 0);
+
             return `
             <article class="card pkm-card">
                 <div class="cardRow">
                     <div class="thumb-wrapper">
-                        <img class="thumb pokeimg" src="${candidates[0]}" alt="${p.name}" 
-                             data-srcs="${encodeURIComponent(JSON.stringify(candidates))}" 
-                             onerror="handleImageError(this)" loading="lazy">
+                        <img id="${imgId}" class="thumb pokeimg" src="" alt="${p.name}" loading="lazy">
                     </div>
                     <div class="cardBody">
                         <h2 class="h2" style="margin-bottom:5px;"><a href="${linkUrl}">${p.name}</a></h2>
@@ -155,6 +179,7 @@ async function initIndex() {
     };
 
     render(data);
+    
     const searchInput = $('#q');
     if (searchInput) {
         searchInput.addEventListener('input', debounce((e) => {
@@ -164,7 +189,7 @@ async function initIndex() {
     }
 }
 
-// --- PAGE DÉTAIL ---
+// --- PAGE FICHE DÉTAIL ---
 async function initPokemon() {
     const url = new URL(location.href);
     const regionName = url.searchParams.get('r') || CONFIG.defaultRegion;
@@ -172,14 +197,12 @@ async function initPokemon() {
 
     if (!pkmName) return $('.container').innerHTML = `<div class="card"><h1>Erreur</h1><p>Nom manquant.</p></div>`;
 
-    // Même logique de nommage simple
     const slug = norm(regionName).replace(/\s+/g, '_');
     const jsonFile = `pokedex_${slug}.json`;
-    
     const data = await loadJSON(jsonFile);
     const p = data ? data.find(x => norm(x.name) === norm(pkmName)) : null;
 
-    if (!p) return $('.container').innerHTML = `<div class="card"><h1>Introuvable</h1><p>${pkmName} dans ${regionName}</p></div>`;
+    if (!p) return $('.container').innerHTML = `<div class="card"><h1>Introuvable</h1><p>${pkmName}</p></div>`;
 
     document.title = `${p.name} - ${CONFIG.baseTitle}`;
     
@@ -191,12 +214,12 @@ async function initPokemon() {
     setHTML('#pokedex', p.pokedex || "Pas de description.");
     setHTML('#evo', formatEvoText(p.evolution, regionName));
 
+    // Chargement Image Principal
     const img = $('#sprite');
     if(img) {
-        const candidates = getImageCandidates(p.name, slug, p.image);
-        img.dataset.srcs = encodeURIComponent(JSON.stringify(candidates));
-        img.onerror = function() { handleImageError(this); };
-        img.src = candidates[0];
+        // On s'assure qu'elle est visible
+        img.style.display = 'block';
+        loadImage(img, p.name, slug, p.image);
     }
 
     setHTML('#habil', (p.abilities || []).map(linkMove).join(', ') || '-');
@@ -229,6 +252,7 @@ async function initPokemon() {
     fillList('#dt', p.dt);
 }
 
+/***** 7. AUTO-START *****/
 document.addEventListener('DOMContentLoaded', () => {
     const path = location.pathname.toLowerCase();
     if (path.includes('pokemon.html')) initPokemon();
