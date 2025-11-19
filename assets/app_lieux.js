@@ -128,10 +128,9 @@ function renderShopList(shops) {
        innerHTML = renderItemGrid(shop.items);
     }
 
-    // Notez l'attribut 'open' : la boutique est ouverte par défaut.
-    // Enlevez 'open' si vous voulez qu'elles soient fermées par défaut.
+    // MODIFICATION ICI : J'ai retiré l'attribut 'open' dans la balise <details>
     return `
-      <details class="pd-shop-details" open>
+      <details class="pd-shop-details">
         <summary class="shop-name">
             ${shop.name || 'Boutique'}
             ${shop.description ? `<span style="display:block; font-size:0.85rem; font-weight:normal; color:#9ca3af; margin-top:2px;">${shop.description}</span>` : ''}
