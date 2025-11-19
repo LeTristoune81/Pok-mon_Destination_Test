@@ -240,23 +240,32 @@ async function initPokemon() {
         setHTML('#objres', html || '<span class="meta-value">-</span>');
     }
 
-    // Attaques
+// 5. Attaques
     const makeList = (arr) => {
-        if(!arr || !arr.length) return '<li><span style="opacity:0.5">Aucune</span></li>';
+        if(!arr || !arr.length) return '<li><span style="opacity:0.5; font-size:0.9rem;">Aucune</span></li>';
+        // Note : On garde les LI, mais le CSS les transformera en tags
         return arr.map(m => `<li>${linkMove(m)}</li>`).join('');
     };
 
+    // Niveaux
     if($('#lvl')) {
         const moves = (p.level_up || []).sort((a,b) => a.level - b.level);
-        setHTML('#lvl', moves.length 
+        $('#lvl').innerHTML = moves.length 
             ? moves.map(m => `<li><span class="lvl-num">${String(m.level).padStart(2, '0')}</span> ${linkMove(m.move)}</li>`).join('')
-            : '<li>Aucune</li>');
+            : '<li>Aucune</li>';
     }
     
-    setHTML('#eggs', `<ul class="cols">${makeList(p.egg_moves)}</ul>`);
-    setHTML('#cs', `<ul class="cols">${makeList(p.cs)}</ul>`);
-    setHTML('#ct', `<ul class="cols">${makeList(p.ct)}</ul>`);
-    setHTML('#dt', `<ul class="cols">${makeList(p.dt)}</ul>`);
+    // Listes simples (CT, CS, DT, Eggs) -> Utilise la classe par défaut des conteneurs tags
+    const fillList = (id, data) => {
+        const el = $(id);
+        // On enlève la classe "cols" qui faisait des colonnes texte, on laisse le CSS tags-container gérer
+        if(el) el.innerHTML = `<ul>${makeList(data)}</ul>`;
+    };
+
+    fillList('#eggs', p.egg_moves);
+    fillList('#cs', p.cs);
+    fillList('#ct', p.ct);
+    fillList('#dt', p.dt);
 }
 
 /***** 7. LANCEMENT *****/
