@@ -251,7 +251,80 @@ async function initPokemon() {
     fillList('#ct', p.ct);
     fillList('#dt', p.dt);
 }
+// --- PAGE ATTAQUES (NOUVEAU) ---
+async function initMoves() {
+    const grid = $('.grid');
+    if (!grid) return;
 
+    const data = await loadJSON('moves_index.json'); // Assure-toi que ce fichier existe dans /data/
+    
+    if (!data) {
+        grid.innerHTML = `<div class="card">Impossible de charger les attaques.</div>`;
+        return;
+    }
+
+    // Si c'est un objet { "Attaque": {...} }, on le transforme en tableau
+    const movesList = Array.isArray(data) ? data : Object.values(data);
+    $('#status').textContent = `${movesList.length} Attaques répertoriées`;
+
+    const render = (list) => {
+        // Limite à 100 pour éviter de faire ramer si la liste est énorme
+        const displayList = list.slice(0, 100); 
+        
+        grid.innerHTML = displayList.map(m => {
+            const type = m.Type || m.type || 'Normal';
+            const cat = m.Category || m.category || 'Physique';
+            const power = m.Power || m.power || '-';
+            const acc = m.Accuracy || m.accuracy || '-';
+            const pp = m.PP || m.pp || '-';
+            
+            return `
+            <div class="move-card-item" id="${norm(m.Name || m.name)}">
+                <div class="mc-header">
+                    <div class="mc-name">${m.Name || m.name}</div>
+                    <span class="badge type-${norm(type)}">${type}</span>
+                </div>
+                <div class="mc-stats">
+                    <div>Puiss: <b>${power}</b></div>
+                    <div>Préc: <b>${acc}</b></div>
+                    <div>PP: <b>${pp}</b></div>
+                </div>
+                <div class="mc-desc">${m.Description || m.effect || ''}</div>
+            </div>`;
+        }).join('');
+
+        if (list.length > 100) {
+            grid.insertAdjacentHTML('beforeend', `<div style="grid-column:1/-1; text-align:center; opacity:0.5; padding:10px;">... et ${list.length - 100} autres résultats (affinez la recherche)</div>`);
+        }
+    };
+
+    render(movesList);
+
+    // Moteur de recherche
+    const searchInput = $('#q');
+    if (searchInput) {
+        searchInput.addEventListener('input', debounce((e) => {
+            const v = norm(e.target.value);
+            if (!v) { render(movesList); return; }
+            
+            const filtered = movesList.filter(m => 
+                norm(m.Name || m.name).includes(v) || 
+                norm(m.Type || m.type).includes(v) ||
+                norm(m.Description || '').includes(v)
+            );
+            render(filtered);
+        }, 200));
+    }
+    
+    // Gestion du lien direct (ex: toutes.html#lance_flamme)
+    if(location.hash) {
+        const term = decodeURIComponent(location.hash.substring(1)).replace(/_/g, ' ');
+        if(searchInput) {
+            searchInput.value = term;
+            searchInput.dispatchEvent(new Event('input'));
+        }
+    }
+}
 /***** 7. AUTO-START *****/
 document.addEventListener('DOMContentLoaded', () => {
     const path = location.pathname.toLowerCase();
