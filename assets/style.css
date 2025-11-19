@@ -286,3 +286,75 @@ ul.cols li { margin-bottom: 6px; break-inside: avoid; }
   .pd-lieu-header-main { flex-direction: column-reverse; }
   .pd-lieu-image { width: 100%; }
 }
+/* ======= BOUTIQUES (ACCORDÉON) ======= */
+.pd-boutique-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+  padding-bottom: 10px; /* Petit espace en bas quand ouvert */
+}
+
+.shop-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.2s;
+}
+.shop-line:hover { background: rgba(0, 0, 0, 0.4); }
+
+.shop-name-text { font-weight: 600; color: #e0e5f5; }
+.shop-price-text { color: #ffd700; font-weight: bold; font-family: monospace; font-size: 1.1em; }
+
+/* Style du bloc repliable */
+details.pd-shop-details {
+  background: rgba(20, 25, 44, 0.6);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+summary.shop-name {
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--accent);
+  padding: 12px 15px;
+  background: rgba(255, 255, 255, 0.03);
+  list-style: none; /* Cache la flèche par défaut moche */
+  position: relative;
+  transition: background 0.2s;
+}
+
+summary.shop-name:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Petite flèche personnalisée à droite */
+summary.shop-name::after {
+  content: '▼';
+  position: absolute;
+  right: 15px;
+  font-size: 0.8em;
+  transition: transform 0.3s;
+}
+
+/* Quand fermé, la flèche tourne */
+details:not([open]) summary.shop-name::after {
+  transform: rotate(-90deg);
+}
+
+/* Cache la flèche par défaut sur Chrome/Safari */
+summary.shop-name::-webkit-details-marker {
+  display: none;
+}
+
+/* Padding pour le contenu intérieur */
+details.pd-shop-details > div.pd-boutique-grid {
+  padding: 0 15px 15px 15px;
+}
