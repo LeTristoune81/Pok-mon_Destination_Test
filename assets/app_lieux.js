@@ -1,4 +1,4 @@
-/* ---------- app_lieux.js (Optimisé) ---------- */
+/* ---------- app_lieux.js (CORRIGÉ & OPTIMISÉ) ---------- */
 
 /***** CONFIGURATION *****/
 const CONFIG = {
@@ -6,8 +6,8 @@ const CONFIG = {
   defaultRegion: "Kanto",
   regionFiles: {
     "Kanto": "lieux_kanto_detail.json",
-    "Johto": "lieux_johto_detail.json", // Exemple futur
-    "Hoenn": "lieux_hoenn_detail.json"  // Exemple futur
+    "Johto": "lieux_johto_detail.json",
+    "Hoenn": "lieux_hoenn_detail.json"
   },
   images: {
     "Kanto": { path: "/assets/Lieux/kanto/", ext: ".png" }
@@ -20,7 +20,7 @@ const CONFIG = {
   }
 };
 
-/***** UTILS (Partagés avec app.js) *****/
+/***** UTILS *****/
 const $ = (q, el = document) => el.querySelector(q);
 const norm = (s) => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
@@ -50,20 +50,18 @@ function getUrlParam(key) {
   return new URLSearchParams(window.location.search).get(key);
 }
 
-/***** TEMPLATES HTML *****/
+/***** LOGIQUE *****/
 
-// Génère un lien vers la fiche Pokémon
 function linkPokemon(name, region) {
-  const url = `pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(name)}`;
+  // Lien absolu pour éviter les problèmes de dossier courant
+  const url = `/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(name)}`;
   return `<a href="${withBase(url)}" class="pd-lieu-pkm-link">${name}</a>`;
 }
 
-// Section générique (Titre + Contenu)
 function renderSection(title, iconKey, contentHTML) {
   if (!contentHTML) return '';
   const iconSrc = CONFIG.icons[iconKey] ? withBase(CONFIG.icons[iconKey]) : '';
   const iconHTML = iconSrc ? `<img src="${iconSrc}" class="pd-section-icon" alt=""> ` : '';
-  
   return `
     <section class="pd-lieu-section">
       <h2>${iconHTML}${title}</h2>
@@ -71,14 +69,13 @@ function renderSection(title, iconKey, contentHTML) {
     </section>`;
 }
 
-// Liste de Pokémon (Sauvage, Pêche, etc.)
 function renderPokemonList(list, region) {
   if (!list || !list.length) return '';
   const items = list.map(p => {
     const niveau = p.lvl_min === p.lvl_max ? `N.${p.lvl_min}` : `N.${p.lvl_min}-${p.lvl_max}`;
     return `
       <li>
-        <span style="display:inline-block; width:30px; font-weight:bold; color:#68b4ff;">${p.rate}%</span>
+        <span style="display:inline-block; width:40px; font-weight:bold; color:#68b4ff;">${p.rate}%</span>
         ${linkPokemon(p.name, region)}
         <span class="pd-lieu-meta">(${niveau})</span>
       </li>`;
@@ -86,16 +83,19 @@ function renderPokemonList(list, region) {
   return `<ul>${items.join('')}</ul>`;
 }
 
-// Liste simple (Objets, Baies)
 function renderSimpleList(list) {
   if (!list || !list.length) return '';
   return `<ul class="pd-tags-wrap">${list.map(i => `<li class="pd-tag">${i}</li>`).join('')}</ul>`;
 }
 
-// Boutiques Spéciales (Système avancé)
+function renderArenaShop(items) {
+  if (!items || !items.length) return '';
+  const content = items.map(i => `<li><strong>${i.name}</strong> : ${i.price} P$</li>`).join('');
+  return `<ul>${content}</ul>`;
+}
+
 function renderShopList(shops) {
   if (!shops || !shops.length) return '';
-  
   return shops.map(shop => {
     const itemsHTML = (shop.items || []).map(item => `
       <div class="shop-line">
@@ -103,58 +103,38 @@ function renderShopList(shops) {
         <span style="opacity:0.7">— ${item.price} P$</span>
       </div>
     `).join('');
-
     return `
-      <div class="pd-shop-details" style="margin-top:10px;">
-        <div class="shop-name" style="margin-bottom:6px; color:#ffd700;">${shop.name || 'Boutique'}</div>
-        ${shop.description ? `<div style="font-style:italic; margin-bottom:8px; opacity:0.8;">${shop.description}</div>` : ''}
-        <div class="pd-boutique-grid">
-           ${itemsHTML}
-        </div>
+      <div class="pd-shop-details" style="margin-top:15px;">
+        <div class="shop-name" style="margin-bottom:6px; color:#ffd700; font-weight:bold;">${shop.name || 'Boutique'}</div>
+        <div class="pd-boutique-grid">${itemsHTML}</div>
       </div>`;
   }).join('');
 }
-
-// Boutique d'Arène (Ancien format simple)
-function renderArenaShop(items) {
-  if (!items || !items.length) return '';
-  const content = items.map(i => `<li><strong>${i.name}</strong> : ${i.price} P$</li>`).join('');
-  return `<ul>${content}</ul>`;
-}
-
-/***** LOGIQUE PRINCIPALE *****/
 
 // --- PAGE 1 : LISTE DES LIEUX ---
 async function renderLieuxPage() {
   const container = document.getElementById('lieux-list');
   if (!container) return;
 
-  // Détermine la région
   const regionName = getUrlParam('r') || CONFIG.defaultRegion;
   const fileName = CONFIG.regionFiles[regionName];
   
-  // Mise à jour titre et lien retour
   const titleEl = document.getElementById('lieux-title');
   if(titleEl) titleEl.textContent = `Lieux de ${regionName}`;
   
+  // Lien retour absolu vers la page de région
   const backLink = document.getElementById('back-region');
   if(backLink) backLink.href = withBase(`/Pages/${norm(regionName)}.html`);
 
-  if (!fileName) {
-    container.innerHTML = `<div style="padding:20px; color:red">Aucun fichier de données configuré pour ${regionName}.</div>`;
-    return;
-  }
+  if (!fileName) return container.innerHTML = `<div style="color:red">Configuration manquante pour ${regionName}</div>`;
 
   const data = await loadJSON(`/data/Lieux/${fileName}`);
-  if (!data) {
-    container.innerHTML = `<div style="padding:20px; color:red">Impossible de charger les lieux.</div>`;
-    return;
-  }
+  if (!data) return container.innerHTML = `<div style="color:red">Erreur chargement données</div>`;
 
-  // Génération de la liste
   const links = data.map(lieu => {
     const slug = lieu.slug || norm(lieu.name).replace(/\s+/g, '_');
-    const url = `Pages/Lieux/Fiche_Detaille.html?r=${encodeURIComponent(regionName)}&l=${encodeURIComponent(slug)}`;
+    // CORRECTION DU LIEN : Utilisation d'un chemin absolu pour éviter l'erreur "Pages/Lieux/Pages/Lieux"
+    const url = `/Pages/Lieux/Fiche_Detaille.html?r=${encodeURIComponent(regionName)}&l=${encodeURIComponent(slug)}`;
     return `<li><a href="${withBase(url)}">${lieu.name}</a></li>`;
   });
 
@@ -170,14 +150,13 @@ async function renderLieuPage() {
   const lieuSlug = getUrlParam('l');
   const fileName = CONFIG.regionFiles[regionName];
 
-  // Gestion lien retour
+  // Lien retour absolu vers la liste
   const backLink = document.getElementById('back-list');
   if(backLink) backLink.href = withBase(`/Pages/Lieux/Liste_Lieux.html?r=${encodeURIComponent(regionName)}`);
 
   if (!fileName || !lieuSlug) return;
 
   const data = await loadJSON(`/data/Lieux/${fileName}`);
-  // Recherche du lieu par slug ou par nom normalisé
   const lieu = data ? data.find(x => x.slug === lieuSlug || norm(x.name).replace(/\s+/g, '_') === lieuSlug) : null;
 
   if (!lieu) {
@@ -185,34 +164,30 @@ async function renderLieuPage() {
     return;
   }
 
-  // 1. En-tête (Titre + Image)
   document.getElementById('lieu-name').textContent = lieu.name;
   document.title = `${lieu.name} - ${CONFIG.baseTitle}`;
-  
+
   const imgConfig = CONFIG.images[regionName];
-  if (imgConfig) {
-    const imgEl = document.getElementById('lieu-image');
+  const imgEl = document.getElementById('lieu-image');
+  if (imgConfig && imgEl) {
     const imgSrc = withBase(`${imgConfig.path}${lieu.slug}${imgConfig.ext}`);
     imgEl.src = imgSrc;
-    imgEl.onerror = () => { imgEl.style.display = 'none'; }; // Cache si pas d'image
-    
-    // Lightbox click
+    imgEl.onerror = () => { imgEl.style.display = 'none'; };
     imgEl.addEventListener('click', () => openLightbox(imgSrc));
   }
 
-  // 2. Construction du contenu HTML
   let html = '';
-
-  // Sections Pokémon (Sauvage, Jour, Nuit, Eau, Pêche...)
+  
+  // Génération des sections
   const pkmSections = [
     { key: 'sauvage', title: 'Pokémon Sauvages' },
     { key: 'jour', title: 'De Jour' },
     { key: 'nuit', title: 'De Nuit' },
     { key: 'matin', title: 'Matin' },
     { key: 'eau', title: 'Sur l\'eau' },
-    { key: 'canne', title: 'Canne' },
-    { key: 'super_canne', title: 'Super Canne' },
-    { key: 'mega_canne', title: 'Méga Canne' },
+    { key: 'canne', title: 'Pêche (Canne)' },
+    { key: 'super_canne', title: 'Pêche (Super Canne)' },
+    { key: 'mega_canne', title: 'Pêche (Méga Canne)' },
     { key: 'cave', title: 'Grotte' },
     { key: 'rocksmash', title: 'Éclate-Roc' },
     { key: 'pokeradar', title: 'Poké Radar' }
@@ -224,42 +199,18 @@ async function renderLieuPage() {
     }
   });
 
-  // Objets & Baies
-  if(lieu.objets && lieu.objets.length) {
-    html += renderSection("Objets Trouvables", "objets", renderSimpleList(lieu.objets));
-  }
-  if(lieu.baies && lieu.baies.length) {
-    html += renderSection("Baies", "baies", renderSimpleList(lieu.baies));
-  }
+  if(lieu.objets && lieu.objets.length) html += renderSection("Objets", "objets", renderSimpleList(lieu.objets));
+  if(lieu.baies && lieu.baies.length) html += renderSection("Baies", "baies", renderSimpleList(lieu.baies));
 
   // Boutiques
-  let shopsHTML = '';
-  if(lieu.boutique_arene && lieu.boutique_arene.length) {
-    shopsHTML += renderSection("Boutique d'Arène", "arene", renderArenaShop(lieu.boutique_arene));
-  }
-  // "boutique" (simple)
-  if(lieu.boutique && lieu.boutique.length) {
-      // On le traite comme un shop simple s'il n'est pas dans le format complexe
-      // Mais ton JSON semble utiliser 'boutique' pour des listes d'objets simples parfois
-      // Adapter selon le format réel. Ici je suppose format simple objet:prix
-      // Si c'est complexe, utiliser renderShopList
-      shopsHTML += renderSection("Boutique", "boutique", renderArenaShop(lieu.boutique));
-  }
-  // "shops" (complexe)
-  if(lieu.shops && lieu.shops.length) {
-    shopsHTML += renderSection("Commerces", "boutique", renderShopList(lieu.shops));
-  }
-  // "arena_shop" (variante)
-  if(lieu.arena_shop && lieu.arena_shop.length) {
-      shopsHTML += renderSection("Boutique d'Arène", "arene", renderShopList([{name: "Guichet", items: lieu.arena_shop}]));
-  }
-
-  html += shopsHTML;
+  if(lieu.boutique_arene && lieu.boutique_arene.length) html += renderSection("Boutique d'Arène", "arene", renderArenaShop(lieu.boutique_arene));
+  if(lieu.boutique && lieu.boutique.length) html += renderSection("Boutique", "boutique", renderArenaShop(lieu.boutique));
+  if(lieu.shops && lieu.shops.length) html += renderSection("Commerces", "boutique", renderShopList(lieu.shops));
+  if(lieu.arena_shop && lieu.arena_shop.length) html += renderSection("Boutique d'Arène", "arene", renderShopList([{name:"Guichet", items:lieu.arena_shop}]));
 
   container.innerHTML = html;
 }
 
-// Lightbox
 function openLightbox(src) {
   const box = document.getElementById('lieu-lightbox');
   const img = document.getElementById('lieu-lightbox-img');
@@ -269,23 +220,16 @@ function openLightbox(src) {
   }
 }
 
-/***** AUTO-INIT *****/
 document.addEventListener("DOMContentLoaded", () => {
   const path = location.pathname;
-  
-  // Fermeture Lightbox
   const box = document.getElementById('lieu-lightbox');
+  
   if (box) {
     box.addEventListener('click', (e) => {
-      if (e.target === box || e.target.id === 'lieu-lightbox-img') {
-        box.classList.remove('is-visible');
-      }
+      if (e.target === box || e.target.id === 'lieu-lightbox-img') box.classList.remove('is-visible');
     });
   }
 
-  if (path.includes('Liste_Lieux.html')) {
-    renderLieuxPage();
-  } else if (path.includes('Fiche_Detaille.html')) {
-    renderLieuPage();
-  }
+  if (path.includes('Liste_Lieux.html')) renderLieuxPage();
+  else if (path.includes('Fiche_Detaille.html')) renderLieuPage();
 });
