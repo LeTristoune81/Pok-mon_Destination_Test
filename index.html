@@ -1,88 +1,248 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <base href="/Pok-mon_Destination_Test/">
-  <meta charset="utf-8">
-  <title>Accueil  Pokmon Destination</title>
+  <meta charset="UTF-8">
+  <title>Accueil - Pokémon Destination</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- adapte le chemin si besoin -->
   <link rel="stylesheet" href="assets/style.css">
+  
+  <style>
+    /* ======= STYLES SPÉCIFIQUES ACCUEIL ======= */
+
+    /* Grande Bannière d'accueil */
+    .home-banner {
+      position: relative;
+      /* J'ai mis l'image de la Ligue Kanto par défaut, c'est classe pour l'accueil */
+      background: url('assets/Lieux/kanto/ligue_pokemon_kanto.png') no-repeat center center;
+      background-size: cover;
+      height: 400px; /* Très haut pour l'impact visuel */
+      border-radius: 12px;
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+      text-align: center;
+      overflow: hidden;
+    }
+
+    /* Voile sombre pour lire le texte */
+    .home-banner::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, rgba(13, 16, 32, 0.4), rgba(13, 16, 32, 0.9));
+    }
+
+    .home-content { position: relative; z-index: 2; animation: fadeIn 1s ease-out; }
+    
+    .home-title {
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+      text-shadow: 0 4px 20px rgba(0,0,0,0.8);
+    }
+
+    .home-subtitle {
+      font-size: 1.2rem;
+      color: #e0e5f5;
+      max-width: 700px;
+      margin: 0 auto 25px auto;
+      line-height: 1.6;
+      font-weight: 300;
+    }
+
+    .cta-button {
+      background: var(--accent);
+      color: var(--bg-dark);
+      padding: 12px 30px;
+      border-radius: 50px;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: transform 0.2s, background 0.2s;
+      display: inline-block;
+    }
+    .cta-button:hover {
+      transform: scale(1.05);
+      background: #fff;
+      text-decoration: none;
+    }
+
+    /* Grille des Régions */
+    .region-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    /* Cartes Régions */
+    .region-card {
+      height: 160px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      text-decoration: none;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+    }
+
+    /* Effet de survol */
+    .region-card:hover {
+      transform: translateY(-8px);
+      border-color: var(--accent);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+    /* Fond coloré subtil par région (optionnel) */
+    .region-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 4px;
+      background: var(--accent);
+      transition: height 0.3s;
+    }
+    .region-card:hover::before { height: 100%; opacity: 0.1; }
+
+    .region-name {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #fff;
+      z-index: 2;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .region-desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-top: 5px;
+      z-index: 2;
+    }
+
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* Couleurs spécifiques pour les barres du haut */
+    .rc-kanto::before { background: #4CAF50; }  /* Vert */
+    .rc-johto::before { background: #FFC107; }  /* Or */
+    .rc-hoenn::before { background: #F44336; }  /* Rouge */
+    .rc-sinnoh::before { background: #E91E63; } /* Diamant/Perle */
+    .rc-unys::before { background: #212121; }   /* Noir/Blanc */
+    .rc-kalos::before { background: #2196F3; }  /* Bleu */
+    .rc-alola::before { background: #FF9800; }  /* Soleil */
+    .rc-galar::before { background: #E040FB; }  /* Épée/Bouclier */
+    .rc-paldea::before { background: #9C27B0; } /* Violet */
+  </style>
 </head>
 <body>
+
   <header class="site-header">
     <nav class="container">
-      <a href="index.html" class="logo" aria-current="page">Pokmon Destination</a>
+      <div style="font-weight:900; font-size:1.5rem; color:var(--accent);">POKÉMON DESTINATION</div>
     </nav>
   </header>
 
   <main class="container">
-    <h1>Bienvenue</h1>
-    <p>
-      Bienvenue sur le site d'aide de <strong>Pokmon Destination</strong>, un fangame dveloppé par Wergan.
-      Vous trouverez ici des informations sur les régions, les Pokémon, les attaques, les objets et bien plus encore.
-    </p>
+    
+    <section class="home-banner">
+      <div class="home-content">
+        <h1 class="home-title">Bienvenue</h1>
+        <p class="home-subtitle">
+          Explorez le monde ultime de Pokémon Destination.<br>
+          Retrouvez les Pokédex, les Lieux, les Objets et les Champions de toutes les régions.
+        </p>
+        <a href="Pages/Attaques/toutes.html" class="cta-button">Voir toutes les Attaques</a>
+      </div>
+    </section>
 
-    <section class="cards">
-      <article class="card">
-        <h2>Région de Kanto</h2>
-        <p>Accédez à toutes les sections dédies de la région de Kanto.</p>
-        <p><a class="btn" href="Pages/kanto.html">Explorer Kanto</a></p>
-      </article>
+    <h2 style="margin-bottom: 20px; border-left: 5px solid var(--accent); padding-left: 15px;">Explorer les Régions</h2>
 
-      <article class="card">
-        <h2>Archipel Orange & les Îles Sevii</h2>
-        <p>Accédez à toutes les sections dédies de l'Archipel Orange & des Îles Sevii - Sous-région de <a class="btn" href="Pages/kanto.html">Kanto</a>.</p>
-        <p><a class="btn" href="Pages/ilessevii.html">Explorer les Îles Sevii</a></p>
-      </article>
-
-      <article class="card">
-        <h2>Région de Johto</h2>
-        <p>Accédez à toutes les sections dédiés de la région de Johto.</p>
-        <p><a class="btn" href="Pages/johto.html">Explorer Johto</a></p>
-      </article>
-
-      <article class="card">
-        <h2>Région de Hoenn</h2>
-        <p>Accédez à toutes les sections dédiés de la région de Hoenn</p>
-        <p><a class="btn" href="Pages/hoenn.html">Explorer Hoenn</a></p>
-      </article>
-
-    <article class="card">
-        <h2>Région de Sinnoh & Hisui</h2>
-        <p>Accédez à toutes les sections dédiés de la région de Sinnoh et Hisui</p>
-        <p><a class="btn" href="Pages/sinnoh.html">Explorer Sinnoh</a> / 
-        <a class="btn" href="Pages/hisui.html">Explorer Hisui</a></p>
-      </article>
-
-    <article class="card">
-        <h2>Région de Unys</h2>
-        <p>Accédez à toutes les sections dédiés de la région d'Unys</p>
-        <p><a class="btn" href="Pages/unys.html">Explorer Unys</a></p>
-      </article>
-
-    <article class="card">
-        <h2>Région de Kalos</h2>
-        <p>Accédez à toutes les sections dédiés de la région de Kalos</p>
-        <p><a class="btn" href="Pages/kalos.html">Explorer Kalos</a></p>
-      </article>
-
-
+    <div class="region-grid">
       
-    </section>
+      <a href="Pages/kanto.html" class="region-card rc-kanto">
+        <span class="region-name">Kanto</span>
+        <span class="region-desc">Génération 1</span>
+      </a>
 
-    <article class="card">
-        <h2>Liste de toutes les attaques</h2>
-        <p>Accédez à toutes les attaques présentes dans le jeu</p>
-        <p><a class="btn" href="Pages/Attaques/toutes.html">Explorer</a></p>
-      </article>
-    </section>
+      <a href="Pages/johto.html" class="region-card rc-johto">
+        <span class="region-name">Johto</span>
+        <span class="region-desc">Génération 2</span>
+      </a>
+
+      <a href="Pages/hoenn.html" class="region-card rc-hoenn">
+        <span class="region-name">Hoenn</span>
+        <span class="region-desc">Génération 3</span>
+      </a>
+
+      <a href="Pages/sinnoh.html" class="region-card rc-sinnoh">
+        <span class="region-name">Sinnoh</span>
+        <span class="region-desc">Génération 4</span>
+      </a>
+
+      <a href="Pages/unys.html" class="region-card rc-unys">
+        <span class="region-name">Unys</span>
+        <span class="region-desc">Génération 5</span>
+      </a>
+
+      <a href="Pages/kalos.html" class="region-card rc-kalos">
+        <span class="region-name">Kalos</span>
+        <span class="region-desc">Génération 6</span>
+      </a>
+
+      <a href="Pages/alola.html" class="region-card rc-alola">
+        <span class="region-name">Alola</span>
+        <span class="region-desc">Génération 7</span>
+      </a>
+
+      <a href="Pages/galar.html" class="region-card rc-galar">
+        <span class="region-name">Galar</span>
+        <span class="region-desc">Génération 8</span>
+      </a>
+
+      <a href="Pages/paldea.html" class="region-card rc-paldea">
+        <span class="region-name">Paldea</span>
+        <span class="region-desc">Génération 9</span>
+      </a>
+
+      <a href="Pages/hisui.html" class="region-card rc-sinnoh" style="border-style: dashed;">
+        <span class="region-name">Hisui</span>
+        <span class="region-desc">Légendes</span>
+      </a>
+
+      <a href="Pages/ilessevii.html" class="region-card rc-kanto" style="border-style: dashed;">
+        <span class="region-name">Îles Sevii</span>
+        <span class="region-desc">Archipel</span>
+      </a>
+
+    </div>
+
+    <h2 style="margin-top: 50px; margin-bottom: 20px; border-left: 5px solid #facc15; padding-left: 15px;">Autres Zones</h2>
+    
+    <div class="region-grid">
+        <a href="Pages/almia.html" class="region-card"><span class="region-name" style="font-size:1.4rem">Almia</span></a>
+        <a href="Pages/fiore.html" class="region-card"><span class="region-name" style="font-size:1.4rem">Fiore</span></a>
+        <a href="Pages/oblivia.html" class="region-card"><span class="region-name" style="font-size:1.4rem">Oblivia</span></a>
+        <a href="Pages/ferrum.html" class="region-card"><span class="region-name" style="font-size:1.4rem">Ferrum</span></a>
+        <a href="Pages/lentis.html" class="region-card"><span class="region-name" style="font-size:1.4rem">Lentis</span></a>
+        <a href="Pages/aeos.html" class="region-card"><span class="region-name" style="font-size:1.4rem">Aeos</span></a>
+        <a href="Pages/rhode.html" class="region-card"><span class="region-name" style="font-size:1.4rem">Rhode</span></a>
+    </div>
+
   </main>
 
-  <footer class="site-footer container">
-    <p> Pokmon Destination  site d'aide non officiel.
-Ce site n'est pas officiel. Il vise à centraliser des informations utiles pour les joueurs (guides, listes,
-        routes, objets, personnages). </p>
+  <footer class="container" style="margin-top:60px; text-align:center; opacity:0.4; font-size:0.85rem; border-top:1px solid var(--border-color); padding-top:20px;">
+    <p>Pokémon Destination — Site d'aide non officiel développé par des fans.</p>
   </footer>
+
 </body>
 </html>
-
