@@ -380,3 +380,128 @@ details.pd-shop-details > div.pd-boutique-grid { padding: 0 15px 15px 15px; }
   .pd-lieu-image { width: 100%; max-height: 180px; margin-bottom: 10px; }
   .pd-lieu-header-main h1 { font-size: 1.8rem; }
 }
+/* ======= NOUVEAUX STYLES ATTAQUES ======= */
+
+/* Titres des sous-sections (CS, CT, DT) */
+.move-sub-title {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-top: 15px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 2px;
+}
+
+/* Conteneur de Tags (fini le "pâté") */
+.tags-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px; /* Espace entre les attaques */
+  padding: 0;
+  margin: 0;
+}
+
+/* Le Tag d'attaque individuel */
+.tags-container li {
+  list-style: none;
+}
+
+.tags-container a.move-link {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: #e0e5f5;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.2s;
+}
+
+.tags-container a.move-link:hover {
+  background: var(--accent);
+  color: var(--bg-dark);
+  border-color: var(--accent);
+}
+
+/* Liste par Niveau (plus propre) */
+.move-list-level {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.move-list-level li {
+  display: grid;
+  grid-template-columns: 45px 1fr;
+  align-items: center;
+  padding: 6px 10px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 4px;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.move-list-level li:nth-child(odd) {
+  background: rgba(255,255,255,0.05);
+}
+
+.lvl-num {
+  color: var(--accent);
+  font-weight: 700;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+/* Profil Pokémon */
+.poke-profile {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+.sprite-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 20px;
+  display: flex; align-items: center; justify-content: center;
+  min-height: 300px;
+  position: relative;
+}
+.main-sprite {
+  width: 200px; height: 200px;
+  image-rendering: pixelated;
+  position: relative; z-index: 2;
+  filter: drop-shadow(0 10px 10px rgba(0,0,0,0.5));
+}
+.info-card { display: flex; flex-direction: column; gap: 15px; }
+.poke-name { font-size: 2.8rem; font-weight: 800; color: #fff; margin: 0; line-height: 1.1; }
+.dex-entry {
+  font-style: italic; color: #b4bace;
+  background: rgba(255,255,255,0.03); padding: 15px;
+  border-radius: 8px; border-left: 4px solid var(--accent);
+}
+.meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-top: auto; }
+.meta-box { background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; border: 1px solid var(--border-color); }
+.meta-label { display: block; font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 4px; }
+
+.evo-section {
+  background: linear-gradient(to right, var(--bg-card), rgba(20, 25, 44, 0.5));
+  border: 1px solid var(--border-color); border-radius: var(--radius);
+  padding: 20px; margin-bottom: 30px; text-align: center;
+}
+.evo-title { color: var(--accent); margin-bottom: 10px; font-size: 1.1rem; text-transform: uppercase; font-weight: bold; }
+
+.moves-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  align-items: start; /* Important pour que les cartes ne s'étirent pas toutes seules */
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .poke-profile { grid-template-columns: 1fr; }
+  .main-sprite { width: 150px; height: 150px; }
+}
