@@ -90,7 +90,6 @@ img { max-width: 100%; display: block; }
   image-rendering: pixelated;
 }
 
-/* Badges Types */
 .badge {
   display: inline-block;
   padding: 3px 10px;
@@ -103,7 +102,6 @@ img { max-width: 100%; display: block; }
   margin-right: 5px;
   text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
 }
-/* Couleurs Types */
 .type-feu { background: #F08030; }
 .type-eau { background: #6890F0; }
 .type-plante { background: #78C850; }
@@ -136,7 +134,7 @@ input[type="search"], input[type="text"] {
 }
 input:focus { outline: 1px solid var(--accent); }
 
-/* Listes Attaques (Page Pokemon) */
+/* Listes Attaques */
 .lvl-group {
   background: rgba(0,0,0,0.2);
   border: 1px solid var(--border-color);
@@ -171,53 +169,26 @@ ul.cols { columns: 2; column-gap: 20px; }
 ul.cols li { margin-bottom: 6px; break-inside: avoid; }
 @media (min-width: 800px) { ul.cols { columns: 3; } }
 
-/* ======= PAGE LIEUX (RESTAURÉ) ======= */
+/* ======= PAGE LIEUX ======= */
 
 .pd-lieux-page {
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem 1.5rem;
 }
-.pd-lieux-header h1 { font-size: 2rem; }
-.pd-lieux-back { display: inline-block; margin-bottom: 10px; color: var(--text-muted); }
-.pd-lieux-back:hover { color: var(--text-main); }
 
-/* Carte liste des lieux */
-.pd-lieux-card {
-  background: var(--bg-card);
-  border-radius: var(--radius);
-  padding: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
-}
-
-/* Grille des liens de lieux (Ce qui était cassé) */
-#lieux-list ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Correction ici */
-  gap: 10px 20px;
-}
-#lieux-list a {
-  display: block;
-  padding: 5px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-}
-#lieux-list a:hover { color: var(--accent-hover); transform: translateX(5px); }
-
-/* ======= FICHE DÉTAIL LIEU (Header Design) ======= */
-
-/* Le conteneur global du header devient une "carte" */
+/* HEADER FICHE LIEU (CARTE) */
 .pd-lieu-header {
-  background: var(--bg-card); /* Fond gris/bleu unifié */
+  background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius);
-  padding: 24px; /* Plus d'espace interne */
+  padding: 24px;
   margin-bottom: 25px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.25); /* Belle ombre pour donner du relief */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
   position: relative;
-  overflow: hidden; /* Pour contenir l'image si besoin */
+  overflow: hidden;
 }
 
-/* Lien retour discret au dessus */
 .pd-lieux-back {
   display: inline-block;
   margin-bottom: 15px;
@@ -229,54 +200,61 @@ ul.cols li { margin-bottom: 6px; break-inside: avoid; }
 }
 .pd-lieux-back:hover { color: var(--accent); text-decoration: none; }
 
-/* Conteneur Titre + Image */
 .pd-lieu-header-main {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Centre le titre verticalement face à l'image */
+  align-items: center;
   gap: 30px;
 }
 
-/* Le Titre */
 .pd-lieu-header-main h1 {
   margin: 0;
   font-size: 2.2rem;
   line-height: 1.2;
   color: #fff;
   text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-  flex: 1; /* Prend toute la place dispo à gauche */
+  flex: 1;
 }
 
-/* L'Image (Carte) */
 .pd-lieu-image {
-  flex: 0 0 auto; /* Ne pas écraser l'image */
-  width: 280px;   /* Un peu plus grand qu'avant */
-  max-height: 200px; /* Limite la hauteur pour éviter les cartes géantes */
+  flex: 0 0 auto;
+  width: 280px;
+  max-height: 200px;
   border-radius: 8px;
-  border: 3px solid rgba(255,255,255,0.1); /* Bordure subtile */
+  border: 3px solid rgba(255,255,255,0.1);
   box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-  object-fit: cover; /* Remplit bien le cadre */
+  object-fit: cover;
   object-position: center;
-  cursor: zoom-in;
-  background: #000; /* Fond noir si image transparente */
+  cursor: zoom-in; /* Curseur loupe */
+  background: #000;
   transition: transform 0.3s ease, border-color 0.3s;
 }
-
 .pd-lieu-image:hover {
   transform: scale(1.02);
   border-color: var(--accent);
 }
 
-/* ======= SECTIONS CONTENU ======= */
+/* Grille liste des lieux */
+#lieux-list ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px 20px;
+}
+#lieux-list a {
+  display: block;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+#lieux-list a:hover { color: var(--accent-hover); transform: translateX(5px); }
+
+/* Sections Détail */
 .pd-lieu-section {
   background: var(--bg-card);
-  border: 1px solid var(--border-color);
   border-radius: var(--radius);
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
-
 .pd-lieu-section h2 {
   font-size: 1.3rem;
   border-bottom: 2px solid rgba(255,255,255,0.05);
@@ -287,53 +265,38 @@ ul.cols li { margin-bottom: 6px; break-inside: avoid; }
   gap: 10px;
   color: var(--accent);
 }
+.pd-section-icon { width: 24px; height: 24px; }
 
-.pd-section-icon { width: 24px; height: 24px; opacity: 0.9; }
-
-/* Listes et Items */
 .pd-lieu-section ul li {
   padding: 6px 10px;
   border-bottom: 1px solid rgba(255,255,255,0.03);
-  border-radius: 4px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
-.pd-lieu-section ul li:last-child { border-bottom: none; }
-.pd-lieu-section ul li:hover { background: rgba(255,255,255,0.02); }
-
 .pd-lieu-pkm-link { font-weight: 600; color: #e0e5f5; margin-right: 8px; }
 .pd-lieu-pkm-link:hover { color: var(--accent-hover); text-decoration: underline; }
 .pd-lieu-meta { color: var(--text-muted); font-size: 0.85rem; background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 4px; }
 
-/* Tags (Objets/Baies) */
+/* Tags */
 .pd-tags-wrap { display: flex; flex-wrap: wrap; gap: 8px; padding: 5px 0; }
 .pd-tag {
-  background: rgba(104, 180, 255, 0.15); /* Teinte bleutée */
+  background: rgba(104, 180, 255, 0.15);
   color: #fff;
   padding: 6px 12px;
   border-radius: 6px;
   font-size: 0.9rem;
   border: 1px solid rgba(104, 180, 255, 0.2);
-  display: inline-block;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .pd-lieu-header { padding: 20px; }
-  .pd-lieu-header-main { flex-direction: column-reverse; align-items: flex-start; gap: 15px; }
-  .pd-lieu-image { width: 100%; max-height: 180px; margin-bottom: 10px; }
-  .pd-lieu-header-main h1 { font-size: 1.8rem; }
-}
-/* ======= BOUTIQUES (ACCORDÉON) ======= */
+/* Boutiques */
 .pd-boutique-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 12px;
   margin-top: 10px;
-  padding-bottom: 10px; /* Petit espace en bas quand ouvert */
+  padding-bottom: 10px;
 }
-
 .shop-line {
   display: flex;
   justify-content: space-between;
@@ -345,11 +308,10 @@ ul.cols li { margin-bottom: 6px; break-inside: avoid; }
   transition: background 0.2s;
 }
 .shop-line:hover { background: rgba(0, 0, 0, 0.4); }
-
 .shop-name-text { font-weight: 600; color: #e0e5f5; }
 .shop-price-text { color: #ffd700; font-weight: bold; font-family: monospace; font-size: 1.1em; }
 
-/* Style du bloc repliable */
+/* Boutiques repliables */
 details.pd-shop-details {
   background: rgba(20, 25, 44, 0.6);
   border: 1px solid var(--border-color);
@@ -357,7 +319,6 @@ details.pd-shop-details {
   margin-top: 15px;
   overflow: hidden;
 }
-
 summary.shop-name {
   cursor: pointer;
   font-size: 1.1rem;
@@ -365,16 +326,11 @@ summary.shop-name {
   color: var(--accent);
   padding: 12px 15px;
   background: rgba(255, 255, 255, 0.03);
-  list-style: none; /* Cache la flèche par défaut moche */
+  list-style: none;
   position: relative;
   transition: background 0.2s;
 }
-
-summary.shop-name:hover {
-  background: rgba(255, 255, 255, 0.08);
-}
-
-/* Petite flèche personnalisée à droite */
+summary.shop-name:hover { background: rgba(255, 255, 255, 0.08); }
 summary.shop-name::after {
   content: '▼';
   position: absolute;
@@ -382,18 +338,45 @@ summary.shop-name::after {
   font-size: 0.8em;
   transition: transform 0.3s;
 }
+details:not([open]) summary.shop-name::after { transform: rotate(-90deg); }
+summary.shop-name::-webkit-details-marker { display: none; }
+details.pd-shop-details > div.pd-boutique-grid { padding: 0 15px 15px 15px; }
 
-/* Quand fermé, la flèche tourne */
-details:not([open]) summary.shop-name::after {
-  transform: rotate(-90deg);
+/* ======= LIGHTBOX (Bulle Plein écran) ======= */
+/* C'est ce bloc qui était visible par erreur ! */
+.pd-lieu-lightbox {
+  position: fixed;
+  inset: 0; /* Prend tout l'écran */
+  background: rgba(0,0,0,0.9); /* Fond noir quasi-opaque */
+  display: none; /* CACHÉ PAR DÉFAUT ! */
+  align-items: center;
+  justify-content: center;
+  z-index: 9999; /* Au-dessus de tout */
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
-/* Cache la flèche par défaut sur Chrome/Safari */
-summary.shop-name::-webkit-details-marker {
-  display: none;
+/* Quand on ajoute la classe .is-visible via le JS, ça s'affiche */
+.pd-lieu-lightbox.is-visible {
+  display: flex;
+  opacity: 1;
 }
 
-/* Padding pour le contenu intérieur */
-details.pd-shop-details > div.pd-boutique-grid {
-  padding: 0 15px 15px 15px;
+.pd-lieu-lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.8);
+  transform: scale(0.95);
+  transition: transform 0.3s;
+}
+.pd-lieu-lightbox.is-visible img {
+  transform: scale(1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pd-lieu-header-main { flex-direction: column-reverse; align-items: flex-start; gap: 15px; }
+  .pd-lieu-image { width: 100%; max-height: 180px; margin-bottom: 10px; }
+  .pd-lieu-header-main h1 { font-size: 1.8rem; }
 }
