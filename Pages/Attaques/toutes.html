@@ -1,68 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <title>Liste des attaques</title>
+  <meta charset="UTF-8">
+  <title>Toutes les Attaques - Pokémon Destination</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- CSP pour GitHub Pages : autorise scripts/fech/images/feuilles LOKAUX -->
-  <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self';
-                 img-src 'self' data:;
-                 style-src 'self' 'unsafe-inline';
-                 script-src 'self';
-                 connect-src 'self';
-                 object-src 'none'">
-
+  <link rel="stylesheet" href="../../assets/style.css">
   <style>
-    body{margin:0;background:#0f1421;color:#dbe7ff;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif}
-    .wrap{max-width:1080px;margin:24px auto;padding:0 16px}
-    h1{margin:0 0 12px}
-    .note{opacity:.7;font-size:.95rem;margin-bottom:14px}
-    .toolbar{display:flex;gap:8px;align-items:center;margin:12px 0 16px;flex-wrap:wrap}
-    .toolbar input,.toolbar select{background:#0b1020;border:1px solid #27324a;border-radius:6px;color:#dbe7ff;padding:8px 10px}
-    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
-    .card{background:#0b1020;border:1px solid #27324a;border-radius:10px;padding:12px}
-    .card strong{color:#ffffff}
-    .tag{display:inline-block;background:#1a2440;border:1px solid #334569;border-radius:999px;padding:2px 8px;margin-left:6px;font-size:.8rem}
-    .small{opacity:.8;font-size:.9rem;margin-top:6px;line-height:1.2rem}
-    .alert{background:#24121a;border:1px solid #6d2a3c;color:#ffd6de;border-radius:8px;padding:10px 12px}
-    a{color:#7db3ff;text-decoration:none}
-    code{background:#101a2a;border:1px solid #27324a;border-radius:6px;padding:0 6px}
-    .count{margin-left:10px; opacity:.85; font-size:.92rem; color:#bcd7ff}
-    @media (max-width:520px){ .grid{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))} }
-  </style>
+    /* Banner Attaques */
+    .move-banner {
+      background: url('../../assets/Lieux/kanto/route_24.png') no-repeat center center; /* Image classe combat */
+      background-size: cover;
+      height: 200px;
+      border-radius: 12px;
+      display: flex;
+      align-items: flex-end;
+      padding: 30px;
+      margin-bottom: -25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      position: relative;
+      z-index: 1;
+    }
+    .move-banner::after {
+      content: ''; position: absolute; inset: 0; border-radius: 12px;
+      background: linear-gradient(to top, rgba(13, 16, 32, 0.95), rgba(13, 16, 32, 0.3));
+    }
+    .move-title {
+      position: relative; z-index: 2; color: #fff; font-size: 2.5rem; font-weight: 800; margin: 0;
+      text-shadow: 0 4px 10px rgba(0,0,0,0.8);
+    }
 
-  <!-- JS externe (pas d'inline) -->
-  <script defer src="../../assets/toutes.js"></script>
+    /* Barre recherche */
+    .search-container {
+      position: relative; z-index: 10; max-width: 600px; margin: 0 auto 30px auto; padding: 0 20px;
+    }
+    input#q {
+      background: #1c223a; border: 1px solid rgba(255,255,255,0.1);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3); border-radius: 50px;
+    }
+
+    /* Cartes Attaques */
+    .move-card-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 15px;
+      transition: transform 0.2s, border-color 0.2s;
+      display: flex; flex-direction: column; gap: 8px;
+    }
+    .move-card-item:hover { transform: translateY(-3px); border-color: var(--accent); }
+    
+    .mc-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px; }
+    .mc-name { font-weight: 700; font-size: 1.1rem; color: #fff; }
+    .mc-stats {
+      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px;
+      font-size: 0.85rem; color: var(--text-muted); text-align: center;
+      background: rgba(0,0,0,0.2); padding: 6px; border-radius: 6px;
+    }
+    .mc-desc { font-size: 0.85rem; color: #9ca3af; font-style: italic; line-height: 1.4; }
+  </style>
 </head>
 <body>
-  <nav class="topnav" style="padding:8px 16px">
-    <!-- depuis /Pages/Attaques/ -->
-    <a href="../../index.html">Accueil</a> /
-  </nav>
 
-  <div class="wrap">
-    <h1>Toutes les attaques</h1>
-    <div id="meta" class="note">Recherche + filtre par type</div>
-    <div class="toolbar">
-      <input id="search" type="search" placeholder="Rechercher une attaque…" />
-      <label>Type :
-        <select id="typeSel">
-          <option value="ALL" selected>Tous</option>
-        </select>
-      </label>
-      <span id="count" class="count">0 attaques</span>
+  <header class="site-header">
+    <nav class="container">
+      <a href="../../index.html" class="btn-small" style="background:transparent; border:1px solid var(--border-color);">← Accueil</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <header class="move-banner">
+      <h1 class="move-title">Encyclopédie des Attaques</h1>
+    </header>
+
+    <div class="search-container">
+      <input type="text" id="q" placeholder="Rechercher une attaque, un type..." autocomplete="off">
     </div>
 
-    <div id="msg"></div>
-    <div id="moves" class="grid"></div>
+    <div id="status" style="text-align:center; margin-bottom:20px; color:var(--text-muted); font-size:0.9rem;">Chargement...</div>
 
-    <noscript>
-      <div class="alert" style="margin-top:12px">
-        JavaScript est désactivé. Active-le pour voir la liste des attaques.
-      </div>
-    </noscript>
-  </div>
+    <div class="grid" id="moves-grid"></div>
+  </main>
+
+  <script src="../../assets/app.js"></script>
 </body>
 </html>
