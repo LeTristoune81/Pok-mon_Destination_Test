@@ -1,7 +1,8 @@
-/* ======= VARIABLES (THEME) ======= */
+/* ======= VARIABLES ======= */
 :root {
   --bg-dark: #0d1020;
   --bg-card: #14192c;
+  --bg-card-hover: #1c223a;
   --border-color: #2a2f45;
   --text-main: #e0e5f5;
   --text-muted: #9ca3af;
@@ -10,95 +11,210 @@
   --radius: 12px;
 }
 
-/* ======= RESET ======= */
+/* ======= RESET DE BASE ======= */
 * { box-sizing: border-box; }
 body {
   font-family: 'Segoe UI', system-ui, sans-serif;
   background: var(--bg-dark);
   color: var(--text-main);
   margin: 0;
-  line-height: 1.5;
+  padding-bottom: 40px;
+  line-height: 1.6;
 }
 a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
 a:hover { color: var(--accent-hover); text-decoration: underline; }
-img { max-width: 100%; display: block; }
+ul { list-style: none; padding: 0; margin: 0; }
+h1, h2, h3 { margin: 0 0 10px 0; color: #fff; }
 
-/* ======= LAYOUT ======= */
+/* ======= LAYOUT GÉNÉRAL ======= */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 15px;
+}
 
-/* ======= COMPOSANTS ======= */
+/* ======= CARTES & LISTES ======= */
 .card {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius);
-  padding: 16px;
-  margin-bottom: 16px;
-  transition: transform 0.2s, box-shadow 0.2s;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
-.card:hover {
-  border-color: var(--accent);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-
-/* Badges Types */
-.badge {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  background: #333;
-  color: white;
-  margin-right: 4px;
-}
-/* Tu pourras ajouter des couleurs par type ici */
-.type-plante { background: #78C850; color: #111; }
-.type-feu { background: #F08030; }
-.type-eau { background: #6890F0; }
 
 /* Grille Pokédex */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive auto */
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
 }
-
-.cardRow { display: flex; gap: 16px; }
-.thumb {
-  width: 80px; height: 80px;
+.cardRow {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+.thumb-wrapper {
+  flex: 0 0 80px;
+  height: 80px;
   background: rgba(0,0,0,0.2);
   border-radius: 8px;
-  object-fit: contain;
-  image-rendering: pixelated; /* Garde le pixel art net */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-color);
+}
+.thumb {
+  max-width: 100%;
+  max-height: 100%;
+  image-rendering: pixelated;
 }
 
-/* Inputs */
+/* ======= PAGE FICHE POKÉMON (Styles restaurés) ======= */
+
+/* En-tête de la fiche (Image + Infos principales) */
+.poke-header-grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 20px;
+}
+.sprite {
+  width: 100%;
+  background: rgba(0,0,0,0.2);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 10px;
+  image-rendering: pixelated;
+}
+.kv {
+  display: flex;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  padding-bottom: 4px;
+}
+.kv strong { width: 140px; color: var(--text-muted); font-weight: 600; }
+
+/* Section Attaques et Listes */
+.lvl-group {
+  background: rgba(0,0,0,0.2);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.lvl-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--accent);
+  display: inline-block;
+  padding-bottom: 2px;
+}
+
+/* Grille pour les niveaux */
+#lvl {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 8px;
+}
+#lvl li {
+  background: var(--bg-card);
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(255,255,255,0.05);
+  font-size: 0.9rem;
+}
+.lvl-num {
+  display: inline-block;
+  width: 40px;
+  color: var(--accent);
+  font-weight: bold;
+}
+
+/* Colonnes pour CT/CS/Repro */
+ul.cols {
+  columns: 2;
+  column-gap: 20px;
+}
+ul.cols li {
+  margin-bottom: 6px;
+  break-inside: avoid;
+}
+@media (min-width: 800px) {
+  ul.cols { columns: 3; }
+}
+
+/* Badge Type */
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #444;
+  color: white;
+  margin-right: 5px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+}
+/* Couleurs Types (optionnel) */
+.type-feu { background: #F08030; }
+.type-eau { background: #6890F0; }
+.type-plante { background: #78C850; }
+.type-electrik { background: #F8D030; color: #333; }
+.type-glace { background: #98D8D8; color: #333; }
+.type-combat { background: #C22E28; }
+.type-poison { background: #A040A0; }
+.type-sol { background: #E0C068; color: #333; }
+.type-vol { background: #A890F0; }
+.type-psy { background: #F85888; }
+.type-insecte { background: #A8B820; }
+.type-roche { background: #B8A038; }
+.type-spectre { background: #705898; }
+.type-dragon { background: #7038F8; }
+.type-tenebres { background: #705848; }
+.type-acier { background: #B8B8D0; color: #333; }
+.type-fee { background: #EE99AC; color: #333; }
+.type-normal { background: #A8A878; color: #333; }
+
+/* Formulaire recherche */
 input[type="search"], input[type="text"] {
   width: 100%;
   padding: 12px;
-  border-radius: var(--radius);
+  background: rgba(0,0,0,0.3);
   border: 1px solid var(--border-color);
-  background: var(--bg-card);
+  border-radius: var(--radius);
   color: white;
   font-size: 1rem;
-  margin-bottom: 20px;
 }
-input:focus { outline: 2px solid var(--accent); border-color: transparent; }
+input:focus { outline: 1px solid var(--accent); }
 
 /* Boutons */
-.btn {
-  display: inline-block;
-  padding: 8px 16px;
+.btn, .btn-small {
   background: var(--accent);
-  color: #0d1020;
+  color: var(--bg-dark);
+  padding: 8px 16px;
   border-radius: 6px;
   font-weight: 600;
-  text-decoration: none !important;
+  display: inline-block;
+  text-align: center;
 }
-.btn:hover { background: var(--accent-hover); }
+.btn-small { padding: 4px 10px; font-size: 0.85rem; }
+.btn:hover, .btn-small:hover { background: var(--accent-hover); text-decoration: none; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .poke-header-grid { grid-template-columns: 1fr; }
+  .sprite { width: 160px; margin: 0 auto 20px auto; display: block; }
+}
