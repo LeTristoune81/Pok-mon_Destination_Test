@@ -1,4 +1,4 @@
-/* ---------- app_lieux.js (CORRIGÉ & OPTIMISÉ) ---------- */
+/* ---------- app_lieux.js (CORRIGÉ & FINAL) ---------- */
 
 /***** CONFIGURATION *****/
 const CONFIG = {
@@ -16,7 +16,7 @@ const CONFIG = {
     objets: "/assets/icone/objets_trouvable.png",
     baies: "/assets/icone/baies.png",
     boutique: "/assets/icone/boutique.png",
-    arene: "/assets/icone/boutique_arene.png"
+    arene: "/assets/icone/Boutique_arene.png" // Attention à la majuscule du fichier uploadé
   }
 };
 
@@ -50,10 +50,9 @@ function getUrlParam(key) {
   return new URLSearchParams(window.location.search).get(key);
 }
 
-/***** LOGIQUE *****/
+/***** LOGIQUE D'AFFICHAGE *****/
 
 function linkPokemon(name, region) {
-  // Lien absolu pour éviter les problèmes de dossier courant
   const url = `/pokemon.html?r=${encodeURIComponent(region)}&n=${encodeURIComponent(name)}`;
   return `<a href="${withBase(url)}" class="pd-lieu-pkm-link">${name}</a>`;
 }
@@ -67,6 +66,31 @@ function renderSection(title, iconKey, contentHTML) {
       <h2>${iconHTML}${title}</h2>
       ${contentHTML}
     </section>`;
+}
+
+// Affichage intelligent des items (avec ou sans prix)
+function renderItemGrid(items) {
+  if (!items || !items.length) return '';
+  
+  const content = items.map(i => {
+    // Si c'est juste une chaîne de caractères (ex: "Potion")
+    if (typeof i === 'string') {
+      return `
+        <div class="shop-line">
+          <span class="shop-name-text">${i}</span>
+        </div>`;
+    } 
+    // Si c'est un objet avec prix (ex: {name: "Potion", price: 200})
+    else {
+      return `
+        <div class="shop-line">
+          <span class="shop-name-text">${i.name}</span>
+          <span class="shop-price-text">${i.price} P$</span>
+        </div>`;
+    }
+  }).join('');
+
+  return `<div class="pd-boutique-grid">${content}</div>`;
 }
 
 function renderPokemonList(list, region) {
@@ -88,25 +112,30 @@ function renderSimpleList(list) {
   return `<ul class="pd-tags-wrap">${list.map(i => `<li class="pd-tag">${i}</li>`).join('')}</ul>`;
 }
 
-function renderArenaShop(items) {
-  if (!items || !items.length) return '';
-  const content = items.map(i => `<li><strong>${i.name}</strong> : ${i.price} P$</li>`).join('');
-  return `<ul>${content}</ul>`;
-}
-
+// Affiche les boutiques complexes (catégorisées)
 function renderShopList(shops) {
   if (!shops || !shops.length) return '';
   return shops.map(shop => {
-    const itemsHTML = (shop.items || []).map(item => `
-      <div class="shop-line">
-        <strong>${item.name}</strong> 
-        <span style="opacity:0.7">— ${item.price} P$</span>
-      </div>
-    `).join('');
+    // Gestion du cas où les items sont dans "daily" (par jour)
+    let innerHTML = '';
+    
+    if (shop.daily) {
+       // Si c'est une boutique journalière, on affiche tout (ou on pourrait filtrer par jour actuel)
+       Object.keys(shop.daily).forEach(day => {
+           innerHTML += `<div style="margin-top:10px; font-weight:bold; color:#aaa;">${day}</div>`;
+           innerHTML += renderItemGrid(shop.daily[day]);
+       });
+    } else {
+       // Boutique classique
+       innerHTML = renderItemGrid(shop.items);
+    }
+
     return `
       <div class="pd-shop-details" style="margin-top:15px;">
-        <div class="shop-name" style="margin-bottom:6px; color:#ffd700; font-weight:bold;">${shop.name || 'Boutique'}</div>
-        <div class="pd-boutique-grid">${itemsHTML}</div>
+        <div class="shop-name" style="margin-bottom:6px; color:#ffd700; font-weight:bold; border-bottom:1px solid #444; padding-bottom:4px;">
+            ${shop.name || 'Boutique'}
+        </div>
+        ${innerHTML}
       </div>`;
   }).join('');
 }
@@ -122,18 +151,16 @@ async function renderLieuxPage() {
   const titleEl = document.getElementById('lieux-title');
   if(titleEl) titleEl.textContent = `Lieux de ${regionName}`;
   
-  // Lien retour absolu vers la page de région
   const backLink = document.getElementById('back-region');
   if(backLink) backLink.href = withBase(`/Pages/${norm(regionName)}.html`);
 
-  if (!fileName) return container.innerHTML = `<div style="color:red">Configuration manquante pour ${regionName}</div>`;
+  if (!fileName) return container.innerHTML = `<div style="color:red">Fichier manquant pour ${regionName}</div>`;
 
   const data = await loadJSON(`/data/Lieux/${fileName}`);
   if (!data) return container.innerHTML = `<div style="color:red">Erreur chargement données</div>`;
 
   const links = data.map(lieu => {
     const slug = lieu.slug || norm(lieu.name).replace(/\s+/g, '_');
-    // CORRECTION DU LIEN : Utilisation d'un chemin absolu pour éviter l'erreur "Pages/Lieux/Pages/Lieux"
     const url = `/Pages/Lieux/Fiche_Detaille.html?r=${encodeURIComponent(regionName)}&l=${encodeURIComponent(slug)}`;
     return `<li><a href="${withBase(url)}">${lieu.name}</a></li>`;
   });
@@ -150,7 +177,6 @@ async function renderLieuPage() {
   const lieuSlug = getUrlParam('l');
   const fileName = CONFIG.regionFiles[regionName];
 
-  // Lien retour absolu vers la liste
   const backLink = document.getElementById('back-list');
   if(backLink) backLink.href = withBase(`/Pages/Lieux/Liste_Lieux.html?r=${encodeURIComponent(regionName)}`);
 
@@ -178,37 +204,59 @@ async function renderLieuPage() {
 
   let html = '';
   
-  // Génération des sections
-  const pkmSections = [
-    { key: 'sauvage', title: 'Pokémon Sauvages' },
-    { key: 'jour', title: 'De Jour' },
-    { key: 'nuit', title: 'De Nuit' },
-    { key: 'matin', title: 'Matin' },
-    { key: 'eau', title: 'Sur l\'eau' },
-    { key: 'canne', title: 'Pêche (Canne)' },
-    { key: 'super_canne', title: 'Pêche (Super Canne)' },
-    { key: 'mega_canne', title: 'Pêche (Méga Canne)' },
-    { key: 'cave', title: 'Grotte' },
-    { key: 'rocksmash', title: 'Éclate-Roc' },
-    { key: 'pokeradar', title: 'Poké Radar' }
-  ];
-
-  pkmSections.forEach(sec => {
-    if(lieu[sec.key] && lieu[sec.key].length > 0) {
-      html += renderSection(sec.title, null, renderPokemonList(lieu[sec.key], regionName));
-    }
-  });
-
-  if(lieu.objets && lieu.objets.length) html += renderSection("Objets", "objets", renderSimpleList(lieu.objets));
-  if(lieu.baies && lieu.baies.length) html += renderSection("Baies", "baies", renderSimpleList(lieu.baies));
-
-  // Boutiques
-  if(lieu.boutique_arene && lieu.boutique_arene.length) html += renderSection("Boutique d'Arène", "arene", renderArenaShop(lieu.boutique_arene));
-  if(lieu.boutique && lieu.boutique.length) html += renderSection("Boutique", "boutique", renderArenaShop(lieu.boutique));
-  if(lieu.shops && lieu.shops.length) html += renderSection("Commerces", "boutique", renderShopList(lieu.shops));
-  if(lieu.arena_shop && lieu.arena_shop.length) html += renderSection("Boutique d'Arène", "arene", renderShopList([{name:"Guichet", items:lieu.arena_shop}]));
+  // Zones spéciales (ex: Parc Safari avec sous-zones)
+  if (lieu.zones) {
+      lieu.zones.forEach(zone => {
+          html += `<h3 style="margin-top:30px; color:#68b4ff; border-bottom:2px solid #68b4ff;">${zone.name}</h3>`;
+          // On réutilise la logique pour chaque zone comme si c'était un lieu
+          html += generateLieuContent(zone, regionName);
+      });
+  } else {
+      html += generateLieuContent(lieu, regionName);
+  }
 
   container.innerHTML = html;
+}
+
+function generateLieuContent(data, region) {
+    let html = '';
+    const pkmSections = [
+      { key: 'sauvage', title: 'Pokémon Sauvages' },
+      { key: 'jour', title: 'De Jour' },
+      { key: 'nuit', title: 'De Nuit' },
+      { key: 'matin', title: 'Matin' },
+      { key: 'eau', title: 'Sur l\'eau' },
+      { key: 'canne', title: 'Pêche (Canne)' },
+      { key: 'super_canne', title: 'Pêche (Super Canne)' },
+      { key: 'mega_canne', title: 'Pêche (Méga Canne)' },
+      { key: 'cave', title: 'Grotte' },
+      { key: 'rocksmash', title: 'Éclate-Roc' },
+      { key: 'pokeradar', title: 'Poké Radar' }
+    ];
+  
+    pkmSections.forEach(sec => {
+      if(data[sec.key] && data[sec.key].length > 0) {
+        html += renderSection(sec.title, null, renderPokemonList(data[sec.key], region));
+      }
+    });
+  
+    if(data.objets && data.objets.length) html += renderSection("Objets", "objets", renderSimpleList(data.objets));
+    if(data.baies && data.baies.length) html += renderSection("Baies", "baies", renderSimpleList(data.baies));
+  
+    // Boutiques Simples (Arène / Boutique Standard) -> Utilise renderItemGrid (Grille sans prix si pas dispo)
+    if(data.boutique_arene && data.boutique_arene.length) html += renderSection("Boutique d'Arène", "arene", renderItemGrid(data.boutique_arene));
+    if(data.boutique && data.boutique.length && Array.isArray(data.boutique) && typeof data.boutique[0] === 'string') {
+        html += renderSection("Boutique", "boutique", renderItemGrid(data.boutique));
+    }
+    
+    // Boutiques Complexes (ex: Safrania avec catégories)
+    if(data.boutique && data.boutique.length && typeof data.boutique[0] === 'object') {
+        html += renderSection("Commerces", "boutique", renderShopList(data.boutique));
+    }
+    if(data.shops && data.shops.length) html += renderSection("Commerces", "boutique", renderShopList(data.shops));
+    if(data.arena_shop && data.arena_shop.length) html += renderSection("Boutique d'Arène", "arene", renderItemGrid(data.arena_shop));
+
+    return html;
 }
 
 function openLightbox(src) {
@@ -223,7 +271,6 @@ function openLightbox(src) {
 document.addEventListener("DOMContentLoaded", () => {
   const path = location.pathname;
   const box = document.getElementById('lieu-lightbox');
-  
   if (box) {
     box.addEventListener('click', (e) => {
       if (e.target === box || e.target.id === 'lieu-lightbox-img') box.classList.remove('is-visible');
