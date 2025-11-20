@@ -1,4 +1,4 @@
-/* ---------- app_lieux.js ---------- */
+/* ---------- app_lieux.js (VERSION FINALE & VISUELLE) ---------- */
 
 /***** CONFIGURATION *****/
 const CONFIG = {
@@ -7,10 +7,15 @@ const CONFIG = {
   regionFiles: {
     "Kanto": "lieux_kanto_detail.json",
     "Johto": "lieux_johto_detail.json",
-    "Hoenn": "lieux_hoenn_detail.json"
+    "Hoenn": "lieux_hoenn_detail.json",
+    "Sinnoh": "lieux_sinnoh_detail.json",
+    // Ajoute les autres régions ici si tu as les JSON
   },
+  // Configuration des images : chemin dossier et extension
   images: {
-    "Kanto": { path: "/assets/Lieux/kanto/", ext: ".png" }
+    "Kanto": { path: "/assets/Lieux/kanto/", ext: ".png", default: "route_1_bourg_palette" },
+    "Johto": { path: "/assets/Lieux/johto/", ext: ".png", default: "bourg_geon" }, // Exemple
+    "Hoenn": { path: "/assets/Lieux/hoenn/", ext: ".png", default: "bourg_en_vol" } // Exemple
   },
   icons: {
     objets: "/assets/icone/objets_trouvable.png",
@@ -121,68 +126,6 @@ function renderShopList(shops) {
   }).join('');
 }
 
-// --- PAGE 1 : LISTE DES LIEUX ---
-async function renderLieuxPage() {
-  const container = document.getElementById('lieux-list');
-  if (!container) return;
-  const regionName = getUrlParam('r') || CONFIG.defaultRegion;
-  const fileName = CONFIG.regionFiles[regionName];
-  document.getElementById('lieux-title').textContent = `Lieux de ${regionName}`;
-  document.getElementById('back-region').href = withBase(`/Pages/${norm(regionName)}.html`);
-  
-  if (!fileName) return container.innerHTML = `<div style="color:red">Fichier manquant pour ${regionName}</div>`;
-  const data = await loadJSON(`/data/Lieux/${fileName}`);
-  if (!data) return container.innerHTML = `<div style="color:red">Erreur chargement données</div>`;
-
-  const links = data.map(lieu => {
-    const slug = lieu.slug || norm(lieu.name).replace(/\s+/g, '_');
-    const url = `/Pages/Lieux/Fiche_Detaille.html?r=${encodeURIComponent(regionName)}&l=${encodeURIComponent(slug)}`;
-    return `<li><a href="${withBase(url)}">${lieu.name}</a></li>`;
-  });
-  container.innerHTML = `<ul>${links.join('')}</ul>`;
-}
-
-// --- PAGE 2 : DÉTAIL DU LIEU ---
-async function renderLieuPage() {
-  const container = document.getElementById('lieu-content');
-  if (!container) return;
-  const regionName = getUrlParam('r') || CONFIG.defaultRegion;
-  const lieuSlug = getUrlParam('l');
-  const fileName = CONFIG.regionFiles[regionName];
-  document.getElementById('back-list').href = withBase(`/Pages/Lieux/Liste_Lieux.html?r=${encodeURIComponent(regionName)}`);
-
-  if (!fileName || !lieuSlug) return;
-  const data = await loadJSON(`/data/Lieux/${fileName}`);
-  const lieu = data ? data.find(x => x.slug === lieuSlug || norm(x.name).replace(/\s+/g, '_') === lieuSlug) : null;
-  if (!lieu) return container.innerHTML = "<h2>Lieu introuvable</h2>";
-
-  document.getElementById('lieu-name').textContent = lieu.name;
-  document.title = `${lieu.name} - ${CONFIG.baseTitle}`;
-
-  // Gestion Image & Lightbox
-  const imgConfig = CONFIG.images[regionName];
-  const imgEl = document.getElementById('lieu-image');
-  if (imgConfig && imgEl) {
-    const imgSrc = withBase(`${imgConfig.path}${lieu.slug}${imgConfig.ext}`);
-    imgEl.src = imgSrc;
-    imgEl.onerror = () => { imgEl.style.display = 'none'; };
-    
-    // Clic sur l'image du haut -> Ouvre la lightbox
-    imgEl.addEventListener('click', () => openLightbox(imgSrc));
-  }
-
-  let html = '';
-  if (lieu.zones) {
-      lieu.zones.forEach(zone => {
-          html += `<h3 style="margin-top:30px; color:#68b4ff; border-bottom:2px solid #68b4ff;">${zone.name}</h3>`;
-          html += generateLieuContent(zone, regionName);
-      });
-  } else {
-      html += generateLieuContent(lieu, regionName);
-  }
-  container.innerHTML = html;
-}
-
 function generateLieuContent(data, region) {
     let html = '';
     const pkmSections = [
@@ -219,29 +162,112 @@ function generateLieuContent(data, region) {
     return html;
 }
 
-// Fonction pour ouvrir la lightbox
+// --- PAGE 1 : LISTE DES LIEUX (MODERNISÉE) ---
+async function renderLieuxPage() {
+  const container = document.getElementById('lieux-list');
+  if (!container) return;
+
+  const regionName = getUrlParam('r') || CONFIG.defaultRegion;
+  const fileName = CONFIG.regionFiles[regionName];
+  const imgConfig = CONFIG.images[regionName] || { path: "", ext: "" };
+
+  // Titre et lien retour
+  const titleEl = document.getElementById('lieux-title');
+  if(titleEl) titleEl.textContent = `Lieux de ${regionName}`;
+  
+  const backLink = document.getElementById('back-region');
+  if(backLink) backLink.href = withBase(`/Pages/${norm(regionName)}.html`);
+
+  // Image de Bannière (Tente de charger une image par défaut de la région)
+  const bannerEl = document.getElementById('banner-bg');
+  if(bannerEl && imgConfig.default && imgConfig.path) {
+    const bannerUrl = withBase(`${imgConfig.path}${imgConfig.default}${imgConfig.ext}`);
+    bannerEl.style.backgroundImage = `url('${bannerUrl}')`;
+  }
+
+  if (!fileName) return container.innerHTML = `<div style="color:#ff5959; padding:20px;">Configuration manquante pour ${regionName}</div>`;
+
+  const data = await loadJSON(`/data/Lieux/${fileName}`);
+  if (!data) return container.innerHTML = `<div style="color:#ff5959; padding:20px;">Erreur chargement données</div>`;
+
+  // Génération des CARTES VISUELLES
+  const html = data.map(lieu => {
+    const slug = lieu.slug || norm(lieu.name).replace(/\s+/g, '_');
+    const url = `/Pages/Lieux/Fiche_Detaille.html?r=${encodeURIComponent(regionName)}&l=${encodeURIComponent(slug)}`;
+    
+    // Chemin de l'image miniature
+    const thumbSrc = imgConfig.path ? withBase(`${imgConfig.path}${slug}${imgConfig.ext}`) : '';
+
+    // Carte HTML
+    return `
+      <a href="${withBase(url)}" class="lieu-card">
+        <img class="lieu-thumb" src="${thumbSrc}" alt="${lieu.name}" onerror="this.style.opacity='0.3'">
+        <div class="lieu-info">
+          <div class="lieu-name">${lieu.name}</div>
+          <div class="lieu-region">${regionName}</div>
+        </div>
+      </a>`;
+  }).join('');
+
+  container.innerHTML = html;
+}
+
+// --- PAGE 2 : DÉTAIL DU LIEU ---
+async function renderLieuPage() {
+  const container = document.getElementById('lieu-content');
+  if (!container) return;
+  const regionName = getUrlParam('r') || CONFIG.defaultRegion;
+  const lieuSlug = getUrlParam('l');
+  const fileName = CONFIG.regionFiles[regionName];
+  document.getElementById('back-list').href = withBase(`/Pages/Lieux/Liste_Lieux.html?r=${encodeURIComponent(regionName)}`);
+
+  if (!fileName || !lieuSlug) return;
+  const data = await loadJSON(`/data/Lieux/${fileName}`);
+  const lieu = data ? data.find(x => x.slug === lieuSlug || norm(x.name).replace(/\s+/g, '_') === lieuSlug) : null;
+  if (!lieu) return container.innerHTML = "<h2>Lieu introuvable</h2>";
+
+  document.getElementById('lieu-name').textContent = lieu.name;
+  document.title = `${lieu.name} - ${CONFIG.baseTitle}`;
+
+  // Gestion Image & Lightbox
+  const imgConfig = CONFIG.images[regionName];
+  const imgEl = document.getElementById('lieu-image');
+  if (imgConfig && imgEl) {
+    const imgSrc = withBase(`${imgConfig.path}${lieu.slug}${imgConfig.ext}`);
+    imgEl.src = imgSrc;
+    imgEl.onerror = () => { imgEl.style.display = 'none'; };
+    imgEl.addEventListener('click', () => openLightbox(imgSrc));
+  }
+
+  let html = '';
+  if (lieu.zones) {
+      lieu.zones.forEach(zone => {
+          html += `<h3 style="margin-top:30px; color:#68b4ff; border-bottom:2px solid #68b4ff;">${zone.name}</h3>`;
+          html += generateLieuContent(zone, regionName);
+      });
+  } else {
+      html += generateLieuContent(lieu, regionName);
+  }
+  container.innerHTML = html;
+}
+
+// Lightbox
 function openLightbox(src) {
   const box = document.getElementById('lieu-lightbox');
   const img = document.getElementById('lieu-lightbox-img');
   if(box && img) {
     img.src = src;
-    box.classList.add('is-visible'); // Affiche la bulle grâce au CSS
+    box.classList.add('is-visible');
   }
 }
 
-// Gestion fermeture lightbox
 document.addEventListener("DOMContentLoaded", () => {
   const path = location.pathname;
   const box = document.getElementById('lieu-lightbox');
   if (box) {
-    // Ferme si on clique sur le fond noir ou sur l'image elle-même
-    box.addEventListener('click', () => {
-        box.classList.remove('is-visible');
-        // Petit nettoyage pour éviter de voir l'image précédente clignoter à la réouverture
-        setTimeout(() => { 
-            const img = document.getElementById('lieu-lightbox-img');
-            if(img) img.src = ''; 
-        }, 300);
+    box.addEventListener('click', (e) => {
+      // Ferme si clic sur le fond ou l'image
+      box.classList.remove('is-visible');
     });
   }
 
