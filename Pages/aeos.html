@@ -1,65 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta name="x-region" content="Aeos">
-  <meta charset="utf-8">
-  <base href="/Pok-mon_Destination_Test/">
-  <link rel="stylesheet" href="assets/style.css">
-  <script src="assets/app.js" defer></script>
+  <meta charset="UTF-8">
+  <title>Région de Aeos - Pokémon Destination</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../assets/style.css">
+  
+  <style>
+    .region-banner {
+      position: relative;
+      /* 2. CHANGER L'IMAGE DE FOND ICI */
+      background-image: url('../assets/Lieux/Aeos/IMAGE.png'); 
+      
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-color: #2a2f45;
+      height: 250px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: flex-end;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      overflow: hidden;
+    }
+
+    .region-banner::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(13, 16, 32, 0.9), transparent); }
+    .region-title { position: relative; z-index: 2; color: #fff; font-size: 3rem; font-weight: 800; text-shadow: 0 4px 10px rgba(0,0,0,0.8); margin: 0; text-transform: uppercase; letter-spacing: 1px; }
+
+    .hub-card { text-align: center; padding: 30px 20px; transition: transform 0.2s, border-color 0.2s; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; background: var(--bg-card); border: 1px solid var(--border-color); text-decoration: none; }
+    .hub-card:hover { transform: translateY(-5px); border-color: var(--accent); box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
+    .hub-icon { font-size: 3.5rem; margin-bottom: 15px; display: block; }
+    .hub-card h2 { font-size: 1.5rem; margin-bottom: 8px; color: #fff; }
+    .hub-card p { color: var(--text-muted); margin: 0; font-size: 0.95rem; }
+  </style>
 </head>
 <body>
-  <nav class="topnav">
-    <a href="./index.html">Accueil</a>
-  </nav>
+
+  <header class="site-header">
+    <nav class="container">
+      <a href="../index.html" class="btn-small" style="background:transparent; border:1px solid var(--border-color); color:var(--text-muted);">← Retour à l'accueil</a>
+    </nav>
+  </header>
 
   <main class="container">
-  <h1 class="h1">Aeos</h1>
-    <p>Vous trouverez sur cette page tout ce qu'il y a à savoir sur <strong>Aeos</strong> :</p>
-
-    <section class="cards">
-      <article class="card">
-        <h2>Pokédex de Aeos</h2>
-        <p>Accédez au Pokédex complet de la région de Aeos.</p>
-        <p><a href="Pokedex/Pokedex_Aeos.html" class="btn">Ouvrir le Pokédex</a></p>
-      </article>
-
-      <article class="card">
-        <h2>CT / DT / CS</h2>
-        <p>Consultez la liste des capacités techniques, des disques techniques et des capacités secrètes.</p>
-        <p><a id="seeMoves" href="#">Voir les attaques & CS</a></p>
-      </article>
-
-      <article class="card">
-        <h2>Personnages</h2>
-        <p>Les dresseurs importants, champions et PNJ clés de Aeos (bientôt).</p>
-        <p><a href="region/Aeos/personnages.html" class="btn">Aller à la section</a></p>
-      </article>
+    <section class="region-banner">
+      <h1 class="region-title">Aeos</h1>
     </section>
 
-    <section class="card">
-      <h2>Lieux</h2>
-      <p>Villes, routes, grottes et zones d'intérêt de Aeos (bientôt).</p>
-      <p><a href="region/Aeos/lieux.html" class="btn">Aller à la section</a></p>
-    </section>
+    <div class="grid">
+      
+      <a href="../Pokedex/Pokedex_Aeos.html" style="text-decoration:none;">
+        <article class="card hub-card">
+          <span class="hub-icon">📖</span>
+          <h2 style="color: #ff5959;">Pokédex</h2>
+          <p>Consulter la liste des Pokémon.</p>
+        </article>
+      </a>
 
-    <section class="card">
-      <h2>Ajout</h2>
-      <p>Ajout pour plus tard</p>
-      <p><a href="region/Aeos/Px.html" class="btn">Description</a></p>
-    </section>
+      <a href="Lieux/Liste_Lieux.html?r=Aeos" style="text-decoration:none;">
+        <article class="card hub-card">
+          <span class="hub-icon">🗺️</span>
+          <h2 style="color: #4ade80;">Lieux & Routes</h2>
+          <p>Explorer les zones de la région.</p>
+        </article>
+      </a>
+
+      <div class="card hub-card" style="opacity:0.5; cursor:not-allowed;">
+        <span class="hub-icon">🎒</span>
+        <h2 style="color: #facc15;">Objets</h2>
+        <p>Bientôt disponible</p>
+      </div>
+
+      <div class="card hub-card" style="opacity:0.5; cursor:not-allowed;">
+        <span class="hub-icon">👑</span>
+        <h2 style="color: #a78bfa;">Champions</h2>
+        <p>Bientôt disponible</p>
+      </div>
+
+    </div>
   </main>
 
-  <footer class="site-footer container">
-    <p>Pokémon Destination — site d'aide non officiel.</p>
+  <footer class="container" style="margin-top:50px; text-align:center; opacity:0.5; font-size:0.9rem;">
+    <p>Pokémon Destination — Guide Aeos</p>
   </footer>
 
-  <script>
-  (function () {
-    const REGION = document.querySelector('meta[name="x-region"]')?.content?.trim() || 'Aeos';
-    const ATTACKS_PAGE = '/Pok-mon_Destination_Test/Pages/Attaques/region.html';
-    const a = document.getElementById('seeMoves');
-    if (a) a.href = `${ATTACKS_PAGE}?r=${encodeURIComponent(REGION)}`;
-  })();
-  </script>
 </body>
 </html>
