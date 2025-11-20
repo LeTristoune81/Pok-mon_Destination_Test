@@ -2,22 +2,153 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Lieux</title>
+  <title>Lieux - Pokémon Destination</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../../assets/style.css">
+  
+  <style>
+    /* === BANNIÈRE RÉGIONALE === */
+    .lieux-banner {
+      position: relative;
+      /* Image par défaut (sera remplacée par le JS selon la région) */
+      background: url('../../assets/Lieux/kanto/route_1_bourg_palette.png') no-repeat center center;
+      background-size: cover;
+      height: 250px;
+      border-radius: 12px;
+      margin-bottom: 40px;
+      display: flex;
+      align-items: flex-end;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      overflow: hidden;
+    }
+
+    .lieux-banner::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(13, 16, 32, 0.9), transparent);
+    }
+
+    .lieux-header-content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+    }
+
+    .lieux-subtitle {
+      color: var(--accent);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.9rem;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .lieux-title {
+      color: #fff;
+      font-size: 3rem;
+      font-weight: 800;
+      margin: 0;
+      text-shadow: 0 4px 10px rgba(0,0,0,0.8);
+      line-height: 1;
+    }
+
+    /* === GRILLE DES LIEUX (CARTES) === */
+    .lieux-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    /* Carte de Lieu */
+    .lieu-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      overflow: hidden;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+      height: 100%;
+    }
+
+    .lieu-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--accent);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+
+    /* Image du lieu dans la carte */
+    .lieu-thumb {
+      height: 140px;
+      width: 100%;
+      object-fit: cover;
+      background: #000;
+      border-bottom: 1px solid var(--border-color);
+      transition: opacity 0.3s;
+    }
+    
+    .lieu-card:hover .lieu-thumb {
+      opacity: 0.9;
+    }
+
+    .lieu-info {
+      padding: 15px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .lieu-name {
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+    }
+    
+    .lieu-region {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 700px) {
+      .lieux-banner { height: 180px; padding: 20px; }
+      .lieux-title { font-size: 2.2rem; }
+    }
+  </style>
 </head>
 <body>
-  <div class="pd-lieux-page">
-    <header class="pd-lieux-header">
-      <a id="back-region" href="#" class="pd-lieux-back">← Retour à la région</a>
-      <h1 id="lieux-title">Lieux de Kanto</h1>
+
+  <header class="site-header">
+    <nav class="container">
+      <a id="back-region" href="#" class="btn-small" style="background:transparent; border:1px solid var(--border-color); color:var(--text-muted);">← Retour Région</a>
+      <a href="../../index.html" class="btn-small" style="margin-left:10px;">Accueil</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    
+    <header class="lieux-banner" id="banner-bg">
+      <div class="lieux-header-content">
+        <span class="lieux-subtitle">Exploration</span>
+        <h1 id="lieux-title" class="lieux-title">Chargement...</h1>
+      </div>
     </header>
 
-    <section class="pd-lieux-card">
-      <div id="lieux-list"></div>
-    </section>
-  </div>
+    <div id="lieux-list" class="lieux-grid">
+      </div>
+
+  </main>
+
+  <footer class="container" style="margin-top:60px; text-align:center; opacity:0.4; font-size:0.85rem;">
+    <p>Pokémon Destination — Lieux</p>
+  </footer>
 
   <script src="../../assets/app_lieux.js"></script>
 </body>
-
 </html>
