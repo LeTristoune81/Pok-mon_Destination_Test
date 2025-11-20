@@ -2,22 +2,21 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Pokédex Johto - Pokémon Destination</title>
+  <title>Pokédex Jotho - Pokémon Destination</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../assets/style.css">
   
   <style>
-    /* === STYLE SPÉCIFIQUE POKÉDEX === */
+    /* Styles spécifiques au Pokédex */
+    
     .dex-banner {
       position: relative;
-      /* IMAGE DE FOND JOHTO (À modifier si besoin) */
-      background: url('../assets/Lieux/johto/bourg_geon.png') no-repeat center center;
+      /* Image de fond : On garde la cohérence avec la page Région */
+      background: url('../assets/Lieux/Jotho/route_1_bourg_palette.png') no-repeat center center;
       background-size: cover;
-      background-color: #d4af37; /* Couleur dorée par défaut (Or) */
-      
       height: 220px;
       border-radius: 12px;
-      margin-bottom: -30px;
+      margin-bottom: -30px; /* Chevauchement avec la barre de recherche */
       display: flex;
       align-items: flex-end;
       padding: 30px;
@@ -25,50 +24,92 @@
       z-index: 1;
     }
 
+    /* Voile sombre */
     .dex-banner::after {
-      content: ''; position: absolute; inset: 0; border-radius: 12px;
+      content: '';
+      position: absolute;
+      inset: 0;
       background: linear-gradient(to top, rgba(13, 16, 32, 0.95), rgba(13, 16, 32, 0.2));
+      border-radius: 12px;
     }
 
     .dex-header-content {
-      position: relative; z-index: 2; width: 100%;
-      display: flex; justify-content: space-between; align-items: flex-end;
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
     }
 
     .dex-title {
-      color: #fff; font-size: 2.5rem; font-weight: 800; margin: 0;
-      text-shadow: 0 2px 10px rgba(0,0,0,0.8); line-height: 1;
+      color: #fff;
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin: 0;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+      line-height: 1;
     }
 
     .dex-subtitle {
-      color: #FFD700; /* Or pour Johto */
-      font-weight: 600; text-transform: uppercase; letter-spacing: 2px;
-      font-size: 0.9rem; margin-bottom: 5px; display: block;
+      color: var(--accent);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.9rem;
+      margin-bottom: 5px;
+      display: block;
     }
 
+    /* Compteur de Pokémon */
     #status {
-      background: rgba(255,255,255,0.1); backdrop-filter: blur(5px);
-      padding: 5px 12px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.2);
-      color: #fff; font-size: 0.9rem; font-weight: 600;
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(5px);
+      padding: 5px 12px;
+      border-radius: 20px;
+      border: 1px solid rgba(255,255,255,0.2);
+      color: #fff;
+      font-size: 0.9rem;
+      font-weight: 600;
     }
 
+    /* Barre de recherche flottante */
     .search-container {
-      position: relative; z-index: 10; max-width: 600px;
-      margin: 0 auto 40px auto; padding: 0 20px;
+      position: relative;
+      z-index: 10;
+      max-width: 600px;
+      margin: 0 auto 40px auto;
+      padding: 0 20px;
     }
 
     input#q {
-      width: 100%; padding: 18px 25px; border-radius: 50px;
+      width: 100%;
+      padding: 18px 25px;
+      border-radius: 50px;
       border: 1px solid rgba(255,255,255,0.1);
-      background: #1c223a; color: #fff; font-size: 1.1rem;
+      background: #1c223a; /* Couleur carte un peu plus claire */
+      color: #fff;
+      font-size: 1.1rem;
       box-shadow: 0 10px 25px rgba(0,0,0,0.3);
       transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
     }
-    input#q:focus { outline: none; border-color: var(--accent); transform: translateY(-2px); }
+
+    input#q:focus {
+      outline: none;
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+    }
+
+    input#q::placeholder {
+      color: rgba(255,255,255,0.4);
+    }
     
+    /* Responsive */
     @media (max-width: 700px) {
       .dex-header-content { flex-direction: column; align-items: flex-start; gap: 10px; }
       .dex-banner { height: 180px; }
+      .dex-title { font-size: 2rem; }
     }
   </style>
 </head>
@@ -76,8 +117,8 @@
 
   <header class="site-header">
     <nav class="container">
-      <a href="../Pages/johto.html" class="btn-small" style="background:transparent; border:1px solid var(--border-color); color:var(--text-muted);">← Retour Johto</a>
-      <a href="../index.html" class="btn-small" style="margin-left:10px;">Accueil</a>
+      <a href="../Pages/Jotho.html" class="btn-small" style="background:transparent; border:1px solid var(--border-color); color:var(--text-muted);">← Retour Jotho</a>
+      <a href="../index.html" class="btn-small" style="margin-left:10px; background:transparent; border:1px solid var(--border-color); color:var(--text-muted);">Accueil</a>
     </nav>
   </header>
 
@@ -86,15 +127,15 @@
     <header class="dex-banner">
       <div class="dex-header-content">
         <div>
-          <span class="dex-subtitle">Région Or & Argent</span>
-          <h1 class="dex-title">Pokédex Johto</h1>
+          <span class="dex-subtitle">Base de données</span>
+          <h1 class="dex-title">Pokédex Jotho</h1>
         </div>
         <div id="status">Chargement...</div>
       </div>
     </header>
 
     <div class="search-container">
-      <input type="text" id="q" placeholder="Chercher un Pokémon (Nom, Type)..." autocomplete="off">
+      <input type="text" id="q" placeholder="Rechercher un Pokémon (Nom, Type)..." autocomplete="off">
     </div>
 
     <div class="grid"></div>
@@ -102,7 +143,7 @@
   </main>
 
   <footer class="container" style="margin-top:60px; text-align:center; opacity:0.4; font-size:0.85rem;">
-    <p>Pokémon Destination — Base de données</p>
+    <p>Pokémon Destination</p>
   </footer>
 
   <script src="../assets/app.js"></script>
